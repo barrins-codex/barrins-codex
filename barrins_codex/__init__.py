@@ -149,37 +149,26 @@ def linker():
 
 def file_name(name):
 	name = unidecode.unidecode(name).lower()
-	if name[:4] == "the ":
-		name = name[4:] + "the"
-	name = re.sub(r"[^a-zA-Z0-9]", "", name)
+	name = re.sub(r"[^a-zA-Z0-9]", " ", name)
 	return name
-
-
-def card_image_url(name):
-	try:
-		card = scrython.cards.Named(fuzzy=name)
-	except Exception as e:
-		print(f"{name} not precise enough")
-	return card.image_uris()['normal']
-
 
 
 @app.context_processor
 def display_card():
 	def card(name, display_name=None):
 		return flask.Markup(
-			"""<span class="card" onclick="dC('{url}')" onmouseover="hC('{url}')" onmouseout="oC()">{name}</span>""".format(
+			"""<span class="card" onclick="dC('{fname}')" onmouseover="hC('{fname}')" onmouseout="oC()">{name}</span>""".format(
 				# replace spaces with non-breakable spaces in card names
 				name=(display_name or name).replace(" ", " "),
-				url=card_image_url(name)
+				fname=file_name(name),
 			)
 		)
 
 	def card_image(name, hover=True):
-		img = '<img src="{url}" alt="{name}" onclick="dC(\'{url}\')"'
+		img = '<img src="{fname}" alt="{name}" onclick="dC(\'{fname}\')"'
 		if hover:
-			img += ' onmouseover="hC(\'{url}\')" onmouseout="oC()"'
+			img += ' onmouseover="hC(\'{fname}\')" onmouseout="oC()"'
 		img += "/>"
-		return flask.Markup(img.format(name=name, url=card_image_url(name)))
+		return flask.Markup(img.format(name=name, fname=file_name(name),))
 
 	return dict(card=card, card_image=card_image)
