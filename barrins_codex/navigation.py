@@ -94,7 +94,20 @@ STRUCTURE = Nav(
 			lazy_gettext("Maths et Magic"),
 			index=True,
 			children=[
-				#Nav(lazy_gettext("LackeyCCG")),
+				Nav(
+					lazy_gettext("Théorie"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("La Loi hypergéométrique")),
+					],
+				),
+				Nav(
+					lazy_gettext("Pratique"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Win-O-Maths")),
+					],
+				),
 			],
 		),
 		Nav(
