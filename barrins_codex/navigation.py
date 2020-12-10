@@ -106,7 +106,7 @@ STRUCTURE = Nav(
 					lazy_gettext("Pratique"),
 					index=False,
 					children=[
-						Nav(lazy_gettext("Win-O-Maths")),
+						Nav(lazy_gettext("Win O Maths")),
 					],
 				),
 			],
