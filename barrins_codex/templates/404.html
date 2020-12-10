@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p>{{ _("La page que vous essayez d'atteindre n'existe pas.") }}</p>
+<p><a href="{{ url_for('index') }}">{{ _("Page d'accueil") }}</a></p>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p>
+	{# TRANSLATORS: please abide by MTG translation choices for game terms when possible. #}
+	{% trans trimmed
+		wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
+	%}
+	Ce site est un recueil de ressources stratégiques sur <strong>Magic: the Gathering</strong>
+	et plus particulièrement sur le <strong>Duel Commander</strong>. Il s'adresse aux joueurs
+	déjà familiers avec les règles du jeu.
+	MtG est un jeu publié par {{ wizards_of_the_coast }}.
+	{% endtrans %}
+</p>
+<p>
+	L'objectif de ce site est de créer du contenu sur des concepts avancés de
+	<strong>Magic: the Gathering</strong>. Les thèmes couverts correspondent aux items en haut
+	de cette page : Philosophie du jeu,	Aspects stratégiques, Deckbuilding, Aspects mathématiques,
+	Retours des joueurs.
+</p>
+<p>
+	{% trans trimmed
+		page_github=external("https://github.com/Spigushe/barrins-codex", _("page Github"))
+	%}
+	Si vous souhaites contribuer à ce site, aider à corriger des erreurs ou signaler un problème,
+	vous êtes les bienvenus à le faire sur la {{ page_github }} de ce projet.
+	{% endtrans %}
+</p>
+{% endblock %}
+
+{% block footer %}
+<p>
+	{% trans trimmed
+		wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
+	%}
+	Ce site est la propriété de Martin Cuchet et il n'existe aucune relation avec
+	{{ wizards_of_the_coast }}.<br>
+	Magic The Gathering, le logo Magic et les symboles de mana sont des marques déposées de
+	{{ wizards_of_the_coast }}.<br>
+	Les illustrations qui parsèment ces pages sont la propriété de {{ wizards_of_the_coast }}
+	et de leurs créateurs.
+	{% endtrans %}
+</p>
+{% endblock %}

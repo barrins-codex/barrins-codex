@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ language }}">
+
+<head>
+	{% block head %}
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta property="og:title" content="{{ og_title|default('Barrin\'s Codex') }}" />
+	<meta property="og:description"
+		content="{{ og_description|default('Duel Commander strategy resources') }}" />
+	<meta property="og:image" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')) }}" />
+	<meta property="og:image:url" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')) }}" />
+	{% if og_image_dimensions %}
+	<meta property="og:image:width" content="{{ og_image_dimensions[0] }}" />
+	<meta property="og:image:height" content="{{ og_image_dimensions[1] }}" />
+	{% endif %}
+	{% if og_image_secure %}
+	<meta property="og:image:secure_url" content="{{ og_image_secure }}" />
+	{% endif %}
+	<meta name="description" content="Duel Commander strategy resources">
+	<meta name="keywords" content="Magic: the Gathering, MtG, Duel Commander, Commander, Duel, EDH">
+	{% block meta %}{% endblock %}
+	<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+	<link rel="icon" href="{{ url_for('static', filename='img/icons/mtg.svg') }}">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157267369-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-157267369-1');
+	</script>
+	{% block scripts %}{% endblock %}
+	<title>Barrin's Codex</title>
+	{% endblock %}
+</head>
+
+<body>
+	<header role="banner">
+		<a href="{{ i18n_url('') }}" class="site-logo">
+			<img src="{{ url_for('static', filename='img/icons/magic.svg') }}" alt="Barrin's Codex">
+			<h1>Barrin's Codex</h1>
+		</a>
+		<nav role="navigation">
+			<ul>
+				<li>{{ link('/philosophie') }}</li>
+				<li>{{ link('/strategie') }}</li>
+				<li>{{ link('/maths-et-magic') }}</li>
+				<li>{{ link('/rapports') }}</li>
+			</ul>
+		</nav>
+		<!--
+		<nav role="translation">
+			<ul>
+				<li>{{ translation('en', "🇬🇧") }}</li>
+				<li>{{ translation('fr', "🇫🇷") }}</li>
+			</ul>
+		</nav>
+		-->
+	</header>
+
+	{% block card_display %}
+	<div id="card-modal" class="modal" onclick="this.style.display='none'">
+		<img class="modal-content" id="card-image">
+	</div>
+	<div id="card-hover" class="hover-modal" tabindex="-1">
+		<img class="modal-content" id="card-hover-image">
+	</div>
+	{% endblock %}
+
+	{% block article %}
+	<article>
+		{% block content %}{% endblock %}
+	</article>
+	{% endblock %}
+
+	<footer>
+		{% block footer %}
+		<nav role="navigation">
+			{{ prev() }}
+			{{ top() }}
+			{{ next() }}
+		</nav>
+		{% endblock %}
+	</footer>
+</body>
+{% block script %}{% endblock %}
+
+</html>

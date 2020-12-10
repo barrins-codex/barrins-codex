@@ -1,0 +1,14 @@
+.vscode/
+*.mo
+*.pot
+*.egg-info/
+.eggs/
+__pycache__/
+build/
+dist/
+sdist/
+wheels/
+.DS_Store
+*/.DS_Store
+.env
+venv/
