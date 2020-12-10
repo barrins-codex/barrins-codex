@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% trans trimmed
+	
+%}
+<h2>Archétypes de tournoi</h2>
+<p>
+	Cette section complète l'introduction au {{ deckbuilding }} et propose des
+	archétypes de tournois qui ont fait leurs preuves dans des tournois d'au
+	moins 40 joueurs.
+</p>
+{% endtrans %}
+<div class="align-left">
+	<table class="wide-column">
+		<tbody>
+			<tr>
+				<td>{{ link("/archetypes/tournois/isamaru-hound-of-konda") }}</td>
+				<td>(Weenie Aggro)</td>
+			</tr>
+			<tr>
+				<td>{{ link("/archetypes/tournois/adeliz-the-cinder-wind") }}</td>
+				<td>(UR Tempo)</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="wide-column">
+		<tbody>
+			<tr>
+				<td>{{ link("/archetypes/tournois/the-gitrog-monster") }}</td>
+				<td>(Control Combo)</td>
+			</tr>
+			<tr>
+				<td>{{ link("/archetypes/tournois/golos-tireless-pilgrim") }}</td>
+				<td>(Land Control)</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+{% endblock %}
