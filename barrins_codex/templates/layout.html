@@ -39,13 +39,14 @@
 <body>
 	<header role="banner">
 		<a href="{{ i18n_url('') }}" class="site-logo">
-			<img src="{{ url_for('static', filename='img/icons/magic.svg') }}" alt="Barrin's Codex">
+			<img src="{{ url_for('static', filename='img/icons/barrin.svg') }}" alt="Barrin's Codex">
 			<h1>Barrin's Codex</h1>
 		</a>
 		<nav role="navigation">
 			<ul>
 				<li>{{ link('/philosophie') }}</li>
 				<li>{{ link('/strategie') }}</li>
+				<li>{{ link('/deckbuilding') }}</li>
 				<li>{{ link('/maths-et-magic') }}</li>
 				<li>{{ link('/rapports') }}</li>
 			</ul>

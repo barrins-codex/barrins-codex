@@ -72,6 +72,18 @@ STRUCTURE = Nav(
 			],
 		),
 		Nav(
+			lazy_gettext("Deckbuilding"),
+			index=True,
+			children=[
+				#Nav(
+					#lazy_gettext("Deck guides"),
+					#children=[
+						#Nav(lazy_gettext("Den of Fiends")),
+					#],
+				#),
+			],
+		),
+		Nav(
 			lazy_gettext("Maths et Magic"),
 			index=True,
 			children=[
