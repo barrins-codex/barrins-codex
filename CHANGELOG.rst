@@ -1,8 +1,7 @@
 Changelog
 =========
 
-0.1 (unreleased)
+0.1 (10-12-2020)
 ----------------
 
-- Front page
-- Appearance
+- First release

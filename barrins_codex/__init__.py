@@ -7,8 +7,6 @@ import flask
 import flask_babel
 import jinja2.exceptions
 
-import scrython
-
 from . import config
 from . import navigation
 
