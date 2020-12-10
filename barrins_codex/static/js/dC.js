@@ -1,13 +1,13 @@
-function dC(url) {
-	document.getElementById("card-image").src = name;
+function dC(name) {
+	get_card_image(name);
 	document.getElementById("card-modal").style.display = "block";
 }
 
-function hC(url) {
+function hC(name) {
 	if (window.matchMedia("(hover: none)").matches) {
 		return
 	}
-	document.getElementById("card-hover-image").src = 'url;
+	get_card_image(name);
 	document.getElementById("card-hover").style.display = "block";
 }
 
