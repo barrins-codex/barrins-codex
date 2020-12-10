@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p>
+	{% trans trimmed
+
+	%}
+	Cette section explore l'aspect mathématique de <strong>Magic: the Gathering</strong>. La 
+	section <strong>Aspects théoriques</strong> explore les concepts mathématiques à l'oeuvre
+	tandis que la section <strong>Aspects pratiques</strong> met en avant des outils utilisant
+	ces concepts.
+	{% endtrans %}
+</p>
+
+<h2 id="theorie">{{ _("Aspects théoriques") }}</h2>
+<ul>
+	<li>
+		{{ link("/maths-et-magic/theorie/la-loi-hypergeometrique") }}
+		{{ _("est la loi de probabilité la plus utilisée") }}
+	</li>
+</ul>
+
+<h2 id="pratique">{{ _("Aspects pratiques") }}</h2>
+<ul>
+	<li>
+		{{ link("/maths-et-magic/pratique/win-o-maths") }}
+		{% trans trimmed
+			winota=card("Winota, Joiner of Forces")
+		%}
+		pour calculer les probabilités de réussites successives pour {{ winota }}
+		{% endtrans %}
+	</li>
+</ul>
+		
+{% endblock %}
