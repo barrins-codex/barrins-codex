@@ -61,7 +61,7 @@ STRUCTURE = Nav(
 					index=False,
 					children=[
 						Nav(lazy_gettext("La Roue des archétypes")),
-						Nav(lazy_gettext("Qui est l'agresseur")),
+						Nav(lazy_gettext("Qui est Agresseur")),
 					],
 				),
 				Nav(
@@ -70,6 +70,7 @@ STRUCTURE = Nav(
 					children=[
 						Nav(lazy_gettext("Métagame")),
 						Nav(lazy_gettext("Deckbuilding")),
+						Nav(lazy_gettext("Manabase")),
 					],
 				),
 			],
@@ -79,7 +80,7 @@ STRUCTURE = Nav(
 			index=True,
 			children=[
 				Nav(
-					lazy_gettext("Tournoi"),
+					lazy_gettext("Tournois"),
 					index=False,
 					children=[
 						Nav(lazy_gettext("Adeliz, the Cinder Wind")),
@@ -98,7 +99,7 @@ STRUCTURE = Nav(
 					lazy_gettext("Théorie"),
 					index=False,
 					children=[
-						Nav(lazy_gettext("La Loi hypergéométrique")),
+						Nav(lazy_gettext("La loi hypergéométrique")),
 					],
 				),
 				Nav(

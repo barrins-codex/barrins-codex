@@ -2,7 +2,11 @@
 
 {% block content %}
 {% trans trimmed
-	
+	roue_des_archetypes=link("/strategie/theorie/la-roue-des-archetypes"),
+	qui_est_agresseur=link("/strategie/theorie/qui-est-agresseur"),
+	metagame=link("/strategie/pratique/metagame"),
+	deckbuilding=link("/strategie/pratique/deckbuilding"),
+	manabase=link("/strategie/pratique/manabase")
 %}
 <p>
 	Cette section explore la stratégie de <strong>Magic: the Gathering</strong>. La section
@@ -13,30 +17,25 @@
 <h2 id="theorie">Aspects théoriques</h2>
 <ul>
 	<li>
-		{{ link("/strategie/theorie/la-roue-des-archetypes") }}
-		explore le concept d'archétype
+		{{ roue_des_archetypes }} explore le concept d'archétype
 	</li>
 	<li>
-		{{ link("/strategie/theorie/qui-est-l-agresseur") }}
-		reprend le concept de <em>beatdown</em>
+		{{ qui_est_agresseur }} reprend le concept de <em>beatdown</em>
 	</li>
 </ul>
 
 <h2 id="pratique">Aspects pratiques</h2>
 <ul>
 	<li>
-		{{ link("/strategie/pratique/metagame") }}
-		définit cet aspect
+		Définition de ce qu'est le {{ metagame }}
 	</li>
 	<li>
-		{{ link("/strategie/pratique/deckbuilding") }}
-		présente comment construire un deck
+		{{ deckbuilding }} présente comment construire un deck
 	</li>
 	<li>
-		{{ link("/strategie/pratique/manabase") }}
-		analyse l'impact du choix des cartes sur le design de la manabase
+		{{ manabase }} vous aide à choisir vos terrains
 	</li>
 </ul>
-		
+
 {% endtrans %}
 {% endblock %}
