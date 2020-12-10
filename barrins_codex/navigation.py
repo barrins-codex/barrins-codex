@@ -75,15 +75,19 @@ STRUCTURE = Nav(
 			],
 		),
 		Nav(
-			lazy_gettext("Deckbuilding"),
+			lazy_gettext("Archétypes"),
 			index=True,
 			children=[
-				#Nav(
-					#lazy_gettext("Deck guides"),
-					#children=[
-						#Nav(lazy_gettext("Den of Fiends")),
-					#],
-				#),
+				Nav(
+					lazy_gettext("Tournoi"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Adeliz, the Cinder Wind")),
+						Nav(lazy_gettext("Golos, Tireless Pilgrim")),
+						Nav(lazy_gettext("Isamaru, Hound of Konda")),
+						Nav(lazy_gettext("The Gitrog Monster")),
+					],
+				),
 			],
 		),
 		Nav(
