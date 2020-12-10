@@ -13,9 +13,13 @@
 	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		strategie=link("/strategie/index"),
+		archetypes=link("/archetypes/index")
+	%}
 	L'objectif de ce site est de créer du contenu sur des concepts avancés de
 	<strong>Magic: the Gathering</strong>. Les thèmes couverts correspondent aux items en haut
-	de cette page : Aspects stratégiques, Deckbuilding avancé, Aspects mathématiques,
+	de cette page : {{ strategie }}, {{ archetypes }}, Aspects mathématiques,
 	Retours des joueurs.
 </p>
 <p>
