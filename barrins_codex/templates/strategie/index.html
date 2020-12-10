@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% trans trimmed
+	
+%}
+<p>
+	Cette section explore la stratégie de <strong>Magic: the Gathering</strong>. La section
+	<strong>Aspects théoriques</strong> explore les concepts fondateurs du jeu tandis que la
+	section <strong>Aspects pratiques</strong>.
+</p>
+
+<h2 id="theorie">Aspects théoriques</h2>
+<ul>
+	<li>
+		{{ link("/strategie/theorie/la-roue-des-archetypes") }}
+		explore le concept d'archétype
+	</li>
+	<li>
+		{{ link("/strategie/theorie/qui-est-l-agresseur") }}
+		reprend le concept de <em>beatdown</em>
+	</li>
+</ul>
+
+<h2 id="pratique">Aspects pratiques</h2>
+<ul>
+	<li>
+		{{ link("/strategie/pratique/metagame") }}
+		définit cet aspect
+	</li>
+	<li>
+		{{ link("/strategie/pratique/deckbuilding") }}
+		présente comment construire un deck
+	</li>
+	<li>
+		{{ link("/strategie/pratique/manabase") }}
+		analyse l'impact du choix des cartes sur le design de la manabase
+	</li>
+</ul>
+		
+{% endtrans %}
+{% endblock %}
