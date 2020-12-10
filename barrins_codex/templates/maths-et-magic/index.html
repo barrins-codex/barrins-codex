@@ -5,7 +5,7 @@
 	{% trans trimmed
 
 	%}
-	Cette section explore l'aspect mathématique de <strong>Magic: the Gathering</strong>. La 
+	Cette section explore l'aspect mathématique de <strong>Magic: the Gathering</strong>. La
 	section <strong>Aspects théoriques</strong> explore les concepts mathématiques à l'oeuvre
 	tandis que la section <strong>Aspects pratiques</strong> met en avant des outils utilisant
 	ces concepts.
@@ -23,13 +23,13 @@
 <h2 id="pratique">{{ _("Aspects pratiques") }}</h2>
 <ul>
 	<li>
-		{{ link("/maths-et-magic/pratique/win-o-maths") }}
 		{% trans trimmed
+			win_o_maths=link("/maths-et-magic/pratique/win-o-maths"),
 			winota=card("Winota, Joiner of Forces")
 		%}
-		pour calculer les probabilités de réussites successives pour {{ winota }}
+		{{ win_o_maths }} pour calculer les probabilités de réussites successives pour {{ winota }}
 		{% endtrans %}
 	</li>
 </ul>
-		
+
 {% endblock %}
