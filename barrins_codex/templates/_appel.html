@@ -1,0 +1,10 @@
+{% macro appel() -%}
+<div class="warning">
+	{% trans trimmed
+		page_github=external("https://github.com/Spigushe/barrins-codex", _("page Github"))
+	%}
+	Cette section est vide, aidez-nous à la compléter en nous proposant du contenu sur notre
+	{{ page_github }}
+	{% endtrans %}
+</div>
+{%- endmacro %}

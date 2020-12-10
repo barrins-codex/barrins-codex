@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% import "_appel.html" as contributions with context %}
+
+{% block content %}
+<p>
+	{% trans trimmed
+
+	%}
+	Cette section recueille l'expériences des joueuses et des joueurs qui ont bien voulu la
+	partager. Elle sera donc développée selon la participation.
+	{% endtrans %}
+</p>
+
+<h2>{{ _("Rapports de tournois") }}</h2>
+{{ contributions.appel() }}
+
+<h2>{{ _("Decks Techs") }}</h2>
+{{ contributions.appel() }}
+
+<h2>{{ _("Autres contributions") }}</h2>
+{{ contributions.appel() }}
+
+{% endblock %}
