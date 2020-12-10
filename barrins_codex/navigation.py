@@ -53,22 +53,25 @@ STRUCTURE = Nav(
 	index=True,
 	children=[
 		Nav(
-			lazy_gettext("Philosophie"),
-			index=True,
-			children=[
-				#Nav(lazy_gettext("LackeyCCG")),
-			],
-		),
-		Nav(
 			lazy_gettext("Stratégie"),
 			index=True,
 			children=[
-				#Nav(
-					#lazy_gettext("Deck guides"),
-					#children=[
-						#Nav(lazy_gettext("Den of Fiends")),
-					#],
-				#),
+				Nav(
+					lazy_gettext("Théorie"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("La Roue des archétypes")),
+						Nav(lazy_gettext("Qui est l'agresseur")),
+					],
+				),
+				Nav(
+					lazy_gettext("Pratique"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Métagame")),
+						Nav(lazy_gettext("Deckbuilding")),
+					],
+				),
 			],
 		),
 		Nav(
