@@ -112,10 +112,30 @@ STRUCTURE = Nav(
 			],
 		),
 		Nav(
-			lazy_gettext("Rapports"),
+			lazy_gettext("Contributions"),
 			index=True,
 			children=[
-				#Nav(lazy_gettext("LackeyCCG")),
+				Nav(
+					lazy_gettext("Tournois"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Empty")),
+					],
+				),
+				Nav(
+					lazy_gettext("Deck Techs"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Empty")),
+					],
+				),
+				Nav(
+					lazy_gettext("Autres"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Empty")),
+					],
+				),
 			],
 		),
 	],
