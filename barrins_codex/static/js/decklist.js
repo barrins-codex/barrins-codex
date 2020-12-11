@@ -77,18 +77,10 @@ function removeComments() {
 }
 function displayDeck(data, deckname=undefined) {
 	removeComments()
-	document.getElementById("deck-link").textContent = wrapText(
+	document.getElementById("deck-name").textContent = wrapText(
 		deckname || data.name || "(No Name)",
 		25
 	)
-	if (data.twda_id) {
-		document.getElementById(
-			"deck-link"
-		).href = `http://www.vekn.fr/decks/twd.htm#${data["twda_id"]}`
-	}
-	else if (data.link) {
-		document.getElementById("deck-link").href = data.link
-	}
 	header_lines = []
 	if (data.player || data.author) {
 		header_lines.push(wrapText(data.player || data.author, 40))
