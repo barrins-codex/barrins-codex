@@ -42,7 +42,6 @@ function process_card_json() {
 			json = JSON.parse(ajaxRequest.responseText);
 
 			let uri = "";
-			console.log(json);
 			if (json.data[0].image_uris !== undefined) {
 				uri = json.data[0].image_uris.normal;
 			}
