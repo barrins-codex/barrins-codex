@@ -1,4 +1,3 @@
-
 function fname(i) {
 	const card = document.getElementById(`card-${i}`)
 	if (card === undefined) {
