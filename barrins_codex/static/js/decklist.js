@@ -1,31 +1,10 @@
-function dC(name) {
-	document.getElementById("card-image").src = "https://images.krcg.org/".concat(
-		name,
-		".jpg"
-	)
-	document.getElementById("card-prev").style.display = "none"
-	document.getElementById("card-next").style.display = "none"
-	document.getElementById("card-modal").style.display = "block"
-}
-function hC(name) {
-	if (window.matchMedia("(hover: none)").matches) {
-		return
-	}
-	document.getElementById("card-hover-image").src = 'https://images.krcg.org/'.concat(name, '.jpg');
-	document.getElementById("card-hover").style.display = "block";
-}
-function oC() {
-	document.getElementById("card-hover").style.display = "none";
-}
+
 function fname(i) {
 	const card = document.getElementById(`card-${i}`)
 	if (card === undefined) {
 		return
 	}
 	var name = card.textContent.toLowerCase()
-	if (name.startsWith("the ")) {
-		name = name.substr(4, name.length) + "the"
-	}
 	name = name.replace(/\s|,|\.|-|—|'|:|\(|\)|"|\/|!/g, "")
 	name = name.replace(/ö|ó/g, "o") // Rötschreck, Dónal
 	name = name.replace(/é|ë|è/g, "e") // Céleste, Gaël, Père
@@ -39,7 +18,7 @@ function fname(i) {
 	return name
 }
 function dCi(i) {
-	document.getElementById(`card-image`).src = "https://images.krcg.org/".concat(fname(i), '.jpg')
+	get_card_image(fname(i));
 	var modal = document.getElementById("card-modal")
 	for (const c of modal.classList) {
 		if (c.startsWith("modal-card-")) {
@@ -127,14 +106,13 @@ function displayDeck(data, deckname=undefined) {
 		header_lines.push(wrapText(data.players_count, 32) + " players")
 	}
 	document.getElementById("deck-header").innerHTML = header_lines.join("<br/>")
-	document.getElementById("crypt-header").textContent = `Crypt (${data.crypt.count})`
+	document.getElementById("crypt-header").textContent = `Commander`
 	var cards = []
-	data.crypt.cards.forEach((value, index) => {
+	data.command.cards.forEach((value, index) => {
 		cards.push(cardElement(value, index))
 	})
 	document.getElementById("crypt-list").innerHTML = cards.join("\n")
-	document.getElementById(
-		"library-header").textContent = `Library (${data.library.count})`
+	document.getElementById("library-header").textContent = `Library (${data.library.count})`
 	var offset = cards.length
 	var cards = new Array()
 	for (const section of data.library.cards) {
@@ -147,14 +125,5 @@ function displayDeck(data, deckname=undefined) {
 		offset += section.cards.length
 	}
 	document.getElementById("library-list").innerHTML = cards.join("\n")
-	comments = document.getElementById("comments")
-	if (comments && data.comments) {
-		for (let section of data.comments.split("\n\n")) {
-			pelem = document.createElement("p")
-			pelem.textContent = section
-			comments.appendChild(pelem)
-		}
-		document.getElementById("comments-title").style.display = "block"
-	}
 	document.getElementById("decklist").style.display = "block"
 }

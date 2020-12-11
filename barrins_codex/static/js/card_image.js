@@ -26,18 +26,32 @@ function get_card_image(name) {
 	// Here processRequest() is the callback function.
 	ajaxRequest.onreadystatechange = process_card_json;
 
-	var url = "https://api.scryfall.com/cards/named?fuzzy=" + escape(name);
-
+	var url = "https://api.scryfall.com/cards/search?q=" + clean(name) + "&is=firstprint";
+	console.log(url);
 	ajaxRequest.open("GET", url, true);
 	ajaxRequest.send(null);
+}
+
+function clean(name) {
+	return name.replace(","," ").replace("'"," ");
 }
 
 function process_card_json() {
 	if (ajaxRequest.readyState == 4) { // The request is completed
 		if (ajaxRequest.status == 200) { // HTTP OK
 			json = JSON.parse(ajaxRequest.responseText);
-			document.getElementById("card-image").src = json.image_uris.normal;
-			document.getElementById("card-hover-image").src = json.image_uris.normal;
+
+			let uri = "";
+			console.log(json);
+			if (json.data[0].image_uris !== undefined) {
+				uri = json.data[0].image_uris.normal;
+			}
+			if (json.data[0].card_faces !== undefined) {
+				uri = json.data[0].card_faces[0].image_uris.normal;
+			}
+
+			document.getElementById("card-image").src = uri;
+			document.getElementById("card-hover-image").src = uri;
 		}
 	}
 }

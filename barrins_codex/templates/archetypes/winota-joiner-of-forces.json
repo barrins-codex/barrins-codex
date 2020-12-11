@@ -1,0 +1,141 @@
+{
+	"name": "Winota, Joiner of Forces",
+	"author": "Martin Cuchet",
+	"command": {
+		"cards": [
+			{ "count": 1, "name": "Winota, Joiner of Forces" }
+		]
+	},
+	"library": {
+		"count": 99,
+		"cards": [
+			{
+				"type": "Creatures",
+				"count": 49,
+				"cards": [
+					{ "count": 1, "name": "Stonecoil Serpent" },
+					{ "count": 1, "name": "Mother of Runes" },
+					{ "count": 1, "name": "Selfless Savior" },
+					{ "count": 1, "name": "Zurgo Bellstriker" },
+					{ "count": 1, "name": "Benevolent Bodyguard" },
+					{ "count": 1, "name": "Bomat Courier" },
+					{ "count": 1, "name": "Figure of Destiny" },
+					{ "count": 1, "name": "Giver of Runes" },
+					{ "count": 1, "name": "Goblin Bushwhacker" },
+					{ "count": 1, "name": "Goblin Guide" },
+					{ "count": 1, "name": "Grim Initiate" },
+					{ "count": 1, "name": "Icehide Golem" },
+					{ "count": 1, "name": "Isamaru, Hound of Konda" },
+					{ "count": 1, "name": "Legion Loyalist" },
+					{ "count": 1, "name": "Anafenza, Kin-Tree Spirit" },
+					{ "count": 1, "name": "Charming Prince" },
+					{ "count": 1, "name": "Drannith Magistrate" },
+					{ "count": 1, "name": "Earthshaker Khenra" },
+					{ "count": 1, "name": "Ethersworn Canonist" },
+					{ "count": 1, "name": "Goblin Cratermaker" },
+					{ "count": 1, "name": "Goblin Instigator" },
+					{ "count": 1, "name": "Kargan Intimidator" },
+					{ "count": 1, "name": "Loyal Apprentice" },
+					{ "count": 1, "name": "Phyrexian Revoker" },
+					{ "count": 1, "name": "Remorseful Cleric" },
+					{ "count": 1, "name": "Samurai of the Pale Curtain" },
+					{ "count": 1, "name": "Selfless Spirit" },
+					{ "count": 1, "name": "Skyclave Cleric" },
+					{ "count": 1, "name": "Stoneforge Mystic" },
+					{ "count": 1, "name": "Thalia, Guardian of Thraben" },
+					{ "count": 1, "name": "Thalia's Lieutenant" },
+					{ "count": 1, "name": "Tithe Taker" },
+					{ "count": 1, "name": "Banisher Priest" },
+					{ "count": 1, "name": "Fiend Hunter" },
+					{ "count": 1, "name": "Goblin Rabblemaster" },
+					{ "count": 1, "name": "Grand Abolisher" },
+					{ "count": 1, "name": "Magus of the Moon" },
+					{ "count": 1, "name": "Legion Warboss" },
+					{ "count": 1, "name": "Pia Nalaar" },
+					{ "count": 1, "name": "Seasoned Pyromancer" },
+					{ "count": 1, "name": "Simian Spirit Guide" },
+					{ "count": 1, "name": "Skyclave Apparition" },
+					{ "count": 1, "name": "Thalia, Heretic Cathar" },
+					{ "count": 1, "name": "Bruse Tarl, Boorish Herder" },
+					{ "count": 1, "name": "Luminous Broodmoth" },
+					{ "count": 1, "name": "Palace Jailer" },
+					{ "count": 1, "name": "Pia and Kiran Nalaar" },
+					{ "count": 1, "name": "Ranger-Captain of Eos" },
+					{ "count": 1, "name": "Rick, Steadfast Leader" }
+				]
+			},
+			{
+				"type": "Planeswalker",
+				"count": 1,
+				"cards": [
+					{ "count": 1, "name": "Chandra, Acolyte of Flame" }
+				]
+			},
+			{
+				"type": "Artifact",
+				"count": 3,
+				"cards": [
+					{ "count": 1, "name": "Jeweled Amulet" },
+					{ "count": 1, "name": "Lotus Petal" },
+					{ "count": 1, "name": "Skullclamp" }
+				]
+			},
+			{
+				"type": "Enchantments",
+				"count": 3,
+				"cards": [
+					{ "count": 1, "name": "Legion's Landing" },
+					{ "count": 1, "name": "Goblin Bombardment" },
+					{ "count": 1, "name": "Force of Virtue" }
+				]
+			},
+			{
+				"type": "Instants",
+				"count": 3,
+				"cards": [
+					{ "count": 1, "name": "Lightning Bolt" },
+					{ "count": 1, "name": "Raise the Alarm" },
+					{ "count": 1, "name": "Reverent Mantra" }
+				]
+			},
+			{
+				"type": "Sorceries",
+				"count": 1,
+				"cards": [
+					{ "count": 1, "name": "Shatterskull Smashing" }
+				]
+			},
+			{
+				"type": "Lands",
+				"count": 39,
+				"cards": [
+					{ "count": 1, "name": "Arid Mesa" },
+					{ "count": 1, "name": "Battlefield Forge" },
+					{ "count": 1, "name": "Blinkmoth Nexus" },
+					{ "count": 1, "name": "Bloodstained Mire" },
+					{ "count": 1, "name": "City of Brass" },
+					{ "count": 1, "name": "City of Traitors" },
+					{ "count": 1, "name": "Clifftop Retreat" },
+					{ "count": 1, "name": "Command Tower" },
+					{ "count": 1, "name": "Crystal Vein" },
+					{ "count": 1, "name": "Eiganjo Castle" },
+					{ "count": 1, "name": "Flooded Strand" },
+					{ "count": 1, "name": "Inspiring Vantage" },
+					{ "count": 1, "name": "Mana Confluence" },
+					{ "count": 1, "name": "Marsh Flats" },
+					{ "count": 1, "name": "Needleverge Pathway" },
+					{ "count": 1, "name": "Plateau" },
+					{ "count": 1, "name": "Prismatic Vista" },
+					{ "count": 1, "name": "Rugged Prairie" },
+					{ "count": 1, "name": "Sacred Foundry" },
+					{ "count": 1, "name": "Scalding Tarn" },
+					{ "count": 6, "name": "Snow-Covered Mountain" },
+					{ "count": 10, "name": "Snow-Covered Plains" },
+					{ "count": 1, "name": "Sunbaked Canyon" },
+					{ "count": 1, "name": "Windswept Heath" },
+					{ "count": 1, "name": "Wooded Foothills" }
+				]
+			}
+		]
+	}
+}
