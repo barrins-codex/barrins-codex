@@ -1,0 +1,313 @@
+{% extends "strategie/lart-de-classifier-les-decks/_layout.html" %}
+
+{% block section %}
+{% trans trimmed
+	img_macrotype_a='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_a.svg'))|safe,
+	img_macrotype_b='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_b.svg'))|safe,
+	img_macrotype_c='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_c.svg'))|safe,
+	img_macrotype_d='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_d.svg'))|safe,
+
+	aggro_Contrôle_and_combo=external("https://magic.wizards.com/en/articles/archive/magic-academy/aggro-combo-and-Contrôle-2007-01-27", "Aggro, Contrôle and Combo"),
+	ah_yes_very_standard=external("https://magic.wizards.com/en/articles/archive/latest-developments/ah-yes-very-standard-2012-08-10", "Ah Yes. Very Standard."),
+	the_guide_to_macro_archetypes=external("http://www.starcitygames.com/article/29240_The-Guide-To-Macro-Archetypes.html", "The Guide to Macro-Archetypes"),
+	watching_the_clock=external("http://www.starcitygames.com/magic/standard/10675_Watching_the_Clock.html", "Watching the Clock")
+%}
+<h2>Les classifications en Macrotypes</h2>
+<p>
+	Nous allons voir qu'il existe six classifications majeures distinctes en macrotypes, et que
+	celles-ci utilisent le même vocabulaire pour désigner des ensembles de decks légèrement
+	différents. Cela explique notamment les nombreuses discordes que l'on retrouve sur internet sur
+	le sujet. Évidemment chacun aura sa préférence pour une classification plutôt qu'une autre mais
+	il est intéressant malgré tout de se pencher sur les avantages de chaque vision.
+</p>
+<div class="align-left">
+	<table class="wide-column">
+		<thead>
+			<tr>
+				<th>A</th>
+				<th>B</th>
+				<th>C</th>
+				<th>D</th>
+				<th>E</th>
+				<th>F</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Aggro</td>
+				<td>Aggro</td>
+				<td>Aggro</td>
+				<td>Aggro</td>
+				<td>Aggro</td>
+				<td>Aggro</td>
+			</tr>
+			<tr>
+				<td>Contrôle</td>
+				<td>Midrange</td>
+				<td>Midrange</td>
+				<td>Midrange</td>
+				<td>Aggro-Contrôle</td>
+				<td>Midrange</td>
+			</tr>
+			<tr>
+				<td>Combo</td>
+				<td>Contrôle</td>
+				<td>Tempo</td>
+				<td>Tempo</td>
+				<td>Contrôle</td>
+				<td>Tempo</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Combo</td>
+				<td>Contrôle</td>
+				<td>Contrôle</td>
+				<td>Contrôle-Combo</td>
+				<td>Contrôle</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Combo</td>
+				<td>Ramp</td>
+				<td>Combo</td>
+				<td>Contrôle-Combo</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Combo</td>
+				<td>Aggro-Combo</td>
+				<td>Combo</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Aggro-Combo</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Aggro-Contrôle-Combo</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	Les classification de A à D se présentent comme des raffinements successifs dont le but
+	principal est de comprendre comment ces différents macrotypes interagissent les uns avec les
+	autres en terme de match up. Évidemment les diagrammes présentés ici sont loin d'être parfait
+	et il est extrêmement réducteur de considérer que tout les decks d'un même macrotype ont des
+	match up similaires. Seulement, ces diagrammes sont censés présenter des metagames équilibrés
+	voir même d'après Zac Hill (et à fortiori d'après WotC) des metagame simplifiés "idéaux".
+</p>
+<p>
+	Les classifications E et F quant à elles, qui bien qu'ayant des similitudes avec les
+	classification précédentes, suivent une autre optique : tenter d'établir une classification
+	totale des archétypes.
+</p>
+
+<h3>La classification en 3 Macrotypes : Aggro / Contrôle / Combo</h3>
+<p>
+	Cette classification qui fut la première à voir le jour, reste encore aujourd'hui la plus
+	connue et la plus répandue. C'est notamment celle que l'on retrouve sur le site MtgTop8 ainsi
+	que dans la plupart des articles traitant de stratégie dans les JCC ou JCE les plus développés
+	comme Hearstone par exemple.
+</p>
+<div>
+	{{ img_macrotype_a }}
+</div>
+<ul>
+	<li>
+		<strong>Aggro</strong> :
+		Deck agressif dont le principal objectif est d'amener l'adversaire  à 0 points de vie le
+		plus rapidement possible. Deck proactif qui tente de convertir au  maximum ses cartes en
+		dégâts pour l'adversaire soit en jouant des créatures et en attaquant  avec soit en jouant
+		des sorts faisant directement perdre des points de vie à son adversaire.
+	</li>
+	<li>
+		<strong>Contrôle</strong> :
+		Deck dont l'objectif est de ralentir le déroulement de la partie afin d'installer une
+		guerre d'attrition basée essentiellement sur du Card-Advantage (ou Card-Advantage virtuel).
+	</li>
+	<li>
+		<strong>Combo</strong> :
+		Deck basé sur une forte interaction entre deux cartes ou plus (combinaison) qui permet de
+		gagner la partie instantanément ou qui mène à un très fort avantage quasi-synonyme de
+		victoire pour le joueur.
+	</li>
+</ul>
+<p>
+	Traditionnellement ces trois macrotypes s'équilibrent suivant le principe circulaire décrit par
+	le diagramme ci-contre. On observe cet équilibre dans les premiers formats standard et Aggro
+	avait tendance (et c'est encore souvent le cas) à occuper une part importante du metagame
+	souvent de part l'absence de decks combos efficaces.
+</p>
+
+<h3>La classification en 4 Macrotypes : Aggro / Contrôle / Combo / Midrange</h3>
+<p>
+	Cette seconde classification plus moderne est aujourd'hui très populaire et unanimement
+	reconnue comme supérieure à la précédente qui reflète assez mal les metagames modernes de
+	Magic. Elle a supplanté la précédente essentiellement pour désengorger le macrotype Contrôle
+	dont les stratégies devenaient extrêmement variées en son sein et qui du coup prenait une part
+	de plus en plus conséquente du metagame.
+</p>
+<div>
+	{{ img_macrotype_b }}
+</div>
+<ul>
+	<li>
+		<strong>Midrange</strong> :
+		Deck dont la stratégie est de gérer les menaces adverses tout en imposant ses propres
+		menace soit en jouant des créatures plus grosses que ses adversaires, soit en mettant
+		rapidement en place une clock et en la protégeant.
+	</li>
+</ul>
+<p>
+	Cette classification en 4 macrotypes est notamment plébiscité par Patrick Chapin dans son livre
+	: Next Level Deckbuilding. Selon cette classification, chaque macrotype contiendrait idéalement
+	25% du metagame et cette équilibre s'effectuerait comme la précédente de manière cyclique
+	suivant le diagramme ci-contre. Ce diagramme laisse assez justement de côté l'inégalité : Combo
+	> Aggro qui en soit n'est pas directement relié aux macrotypes mais plutôt au tour fondamental
+	des decks considérés car souvent ces macrotypes interagissent que faiblement ensemble (on
+	reparlera du tour fondamental prochainement).
+</p>
+
+<h3>La classification en 5 Macrotypes : La séparation de Tempo et Midrange</h3>
+<p>
+	Cette classification est très peu répandue, mais dispose de quelques arguments en sa faveur.
+	Tout d'abord la distinction entre Tempo et Midrange permet de distinguer deux stratégies tout
+	de même très différentes qui étaient réunis dans la définition précédente de Midrange qui est
+	aujourd'hui globalement délaissé dans l'inconscient collectif pour la définition qui suit :
+</p>
+<ul>
+	<li>
+		<strong>Midrange</strong> :
+		Deck ayant un plan de jeu proche d'un Contrôle ou d'un ramp en début de partie mais qui va
+		ensuite rapidement poser des menaces le plus souvent sous la forme de créatures ayant un
+		body supérieurs aux créatures des decks Aggros. Un deck Midrange sera réactif et jouera le
+		rôle d'un deck Contrôle contre Aggro et sera au contraire pro-actif jouant le rôle d'un
+		aggro contre Contrôle.
+	</li>
+	<li>
+		<strong>Tempo</strong> :
+		Deck dont la stratégie consiste à poser rapidement une ou plusieurs menaces puis à les
+		protéger suffisamment longtemps, le plus souvent à l'aide de contresorts, pour gagner.
+	</li>
+</ul>
+<p>
+	Ces macrotypes s'équilibrent théoriquement selon le diagramme ci-contre :
+</p>
+<div>
+	{{ img_macrotype_c }}
+</div>
+<p>
+	Cette classification plébiscité par Mike Mason nous permet de mentionner sa célèbre "Metagame
+	Clock" ci-après décrite en détail dans son article : {{ watching_the_clock }}.
+</p>
+
+<h3>La classification en 6 Macrotypes : L'avènement de Ramp</h3>
+<p>
+	Le fait de distinguer les decks Ramp, qui jusqu'à présent intégraient bien sagement le
+	macrotype Contrôle, permet de mettre en avant le fait que ces decks ont eux aussi une stratégie
+	bien singulière et ne s'inscrivait finalement pas si bien que cela dans le diagramme décrit
+	précédemment.
+</p>
+<div>
+	{{ img_macrotype_d }}
+</div>
+<ul>
+	<li>
+		<strong>Ramp</strong> :
+		Deck dont la principale stratégie consiste à produire plus vite plus de manas que son
+		adversaire afin de jouer des sorts coûteux rapidement.
+	</li>
+</ul>
+<p>
+	Cette classification, plébiscité notamment par Zac Hill un membre de la R&D (voir l'article :
+	{{ ah_yes_very_standard }}), s'équilibre selon le diagramme ci-contre où curieusement Ramp et
+	Combo ont exactement les même bons et mauvais match up. Cette observation devrait notamment
+	encourager à classer les decks Ramp dans le macrotype Combo dans le cadre des classifications
+	A, B et C plutôt que dans Contrôle (les sorts de ramp, jouant le rôle des cartes
+	intrinsèquement faibles inhérent aux decks combos).
+</p>
+<p>
+	Cette classification : Aggro / Contrôle / Combo / Tempo / Midrange / Ramp est actuellement le
+	dernier degré de raffinement de la classification originelle A.
+</p>
+
+<h3>La classification à hybridation</h3>
+<p>
+	Cette classification très populaire est basée sur la classification A en 3 macrotypes à
+	laquelle on rajoute les 3 macrotypes hybrides : Aggro-Contrôle / Contrôle-Combo / Aggro-Combo.
+</p>
+<p>
+	On se base ici sur des définitions d'aggro, Contrôle et combo légèrement différentes de celles
+	vu précédemment et qui n'essayent pas de s'exclurent les unes les autres bien au contraire.
+	Ainsi si un deck vérifie plusieurs de ces définitions, on le classera simplement dans le
+	macrotype hybride correspondant.
+</p>
+<ul>
+	<li>
+		<strong>Aggro</strong> :
+		Deck dont la principale stratégie consiste à jouer beaucoup de créatures rapidement et à
+		attaquer avec celles-ci pour gagner.
+	</li>
+	<li>
+		<strong>Contrôle</strong> :
+		Deck défensif dont la principale stratégie est de générer du Card-Advantage virtuel pour
+		être en mesure de contrer les stratégies du deck adverse.
+	</li>
+	<li>
+		<strong>Combo</strong> :
+		Deck dont la mécanique principale est d'obtenir la victoire par la combinaison de deux
+		cartes ou plus. Cet effet combiné mène généralement à une victoire instantanée ou à un
+		avantage décisif.
+	</li>
+</ul>
+<p>
+	Cette classification est très séduisante car de part sa construction, très peu de decks y
+	échappent. Toutefois elle a le désavantage de rassembler une nouvelle fois Midrange et Tempo
+	cette fois-ci sous l’appellation Aggro-Contrôle ainsi que Ramp et Contrôle sous l'appellation
+	Contrôle rendant impossible tout diagramme permettant d'observer un équilibre entre ces 6
+	macrotypes. Je vous renvoie vers l'article de Jeff Cuningham pour plus d'informations sur cette
+	classification : {{ aggro_Contrôle_and_combo }}.
+</p>
+
+<h3>La classification en 8 Macrotypes : La classification "totale"</h3>
+<p>
+	Cette classification est une classification totale dans le sens où chaque deck se voit
+	obligatoirement associé un macrotype donné. Cette classification reprend la classification avec
+	hybridation précédente, scinde le macrotype Aggro-Contrôle en Tempo et Midrange et rajoute un
+	dernier macrotype intitulé : Aggro-Contrôle-Combo regroupant les decks vérifiant les trois
+	définitions précédentes.
+</p>
+<ul>
+	<li>
+		<strong>Aggro-Contrôle-Combo</strong> :
+		Deck Aggro-Contrôle-Combo se caractérise par :<ul>
+			<li>Une première condition de victoire basée sur l'attaque de créatures.</li>
+			<li>Une seconde condition de victoire non-intéractive basée sur une combo.</li>
+			<li>Un plan de jeu possible consistant à faire du CA et à contrer les stratégies du deck adverse.</li>
+		</ul>
+	</li>
+</ul>
+<p>
+	Les decks aggro-Contrôle-combo sont plutôt rare dans l'histoire de Magic mais on en donnera
+	quelques exemples par la suite. Les macrotypes Tempo et Midrange quant à eux sont parfois nommé
+	sur internet Aggro-Contrôle et Contrôle-Aggro, entretenant ainsi une certaine confusion
+	concernant ces différentes notions.
+</p>
+<p>
+	Cette classification totale apparaît notamment dès 2014 avec l'excellent article de Carsten
+	Kotter : {{ the_guide_to_macro_archetypes }}.
+</p>
+{% endtrans %}
+{% endblock %}

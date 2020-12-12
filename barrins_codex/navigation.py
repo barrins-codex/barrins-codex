@@ -57,22 +57,17 @@ STRUCTURE = Nav(
 			index=True,
 			children=[
 				Nav(
-					lazy_gettext("Théorie"),
-					index=False,
+					lazy_gettext("L'Art de classifier les decks"),
+					index=True,
 					children=[
-						Nav(lazy_gettext("La Roue des archétypes")),
-						Nav(lazy_gettext("Qui est Agresseur")),
+						Nav(lazy_gettext("Introduction")),
+						Nav(lazy_gettext("Classification en Macrotypes")),
+						Nav(lazy_gettext("Les Catégories de decks")),
+						Nav(lazy_gettext("Pour aller plus loin")),
+						Nav(lazy_gettext("La Classification en tiers")),
 					],
 				),
-				Nav(
-					lazy_gettext("Pratique"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Métagame")),
-						Nav(lazy_gettext("Deckbuilding")),
-						Nav(lazy_gettext("Manabase")),
-					],
-				),
+				Nav(lazy_gettext("Complexité et Machine de Turing")),
 			],
 		),
 		Nav(
