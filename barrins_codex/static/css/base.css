@@ -239,7 +239,7 @@ article div {
 	clear: both;
 }
 article > div > img {
-	max-width: 600px;
+	max-width: 50%;
 	margin: 0 auto;
 }
 li > img {
