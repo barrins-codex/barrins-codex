@@ -164,7 +164,8 @@ def display_card():
 
 	def card_image(name, hover=True):
 		return flask.Markup(
-			"""<img class="card-block" id="id-{fname}" onmouseover="hC('{fname}')" onmouseout="oC()" name="{fname}" alt="{name}"/>""".format(
+			"""<img class="card-block" id="id-{fname}" name="{fname}"  alt="{name}"
+				onmouseover="hC('{fname}')" onmouseout="oC()" onclick="dC('{fname}')" />""".format(
 				name=name.replace(" ", " "),
 				fname=file_name(name),
 			)
