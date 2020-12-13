@@ -1,0 +1,305 @@
+{% extends "strategie/lart-de-classifier-les-decks/_layout.html" %}
+
+{% block section %}
+<h2>{{ _("Pour aller plus loin") }}</h2>
+
+{% trans trimmed
+%}
+<h3>Le débat : Combo = Big Turn ?</h3>
+<p>
+	On est du coup en droit de se demander si la notion de Big Turn ne serait pas la notion idéal
+	pour définir la notion de Combo.
+</p>
+<p>
+	Ce qui permet de distinguer les différent macrotypes c'est leurs plans de jeu. On a du coup
+	tendance à associer de manière systématique les decks combos à la notion de "Big Turn". Ce plan
+	de jeu se résumant de manière assez simple en deux phases :
+</p>
+<ul>
+	<li>
+		Phase 1 : Se mettre en place pour réussir son Big Turn.
+	</li>
+	<li>
+		Phase 2 : Big Turn.
+	</li>
+</ul>
+<p>
+	Et il est vrai que le Big Turn est un point commun que l'on retrouve dans 6 catégories Combo et
+	Aggro-Combo que j'ai cité ci-dessus. Le big turn correspond :
+</p>
+<ul>
+	<li>
+		Soit pour Storm Combo, au tour où il accumule les sorts et actions pour tuer son adversaire.
+	</li>
+	<li>
+		Soit pour Big Spell, au tour où le "Big spell" est lancé.
+	</li>
+	<li>
+		Soit pour Traditionnal Combo, au tour où la combo est assemblée.
+	</li>
+	<li>
+		Soit pour Voltron, au tour où la créature devient léthal.
+	</li>
+	<li>
+		Soit pour Creature-Combo, au tour où la combo est assemblée.
+	</li>
+</ul>
+<p>
+	De plus si on omet cette fois-ci la catégorie Creature-combo on peut affirmer que si le Big
+	Turn est d'une manière ou d'une autre "contrarié" par l'adversaire, alors les chances de gagner
+	pour le deck combo deviennent fortement compromises.
+</p>
+<p>
+	Seulement voilà, on a 2 autres catégories Combo et Aggro-Combo qui n'ont pas de réels big turn
+	: Lava Spike et Wave Combo.
+</p>
+<p>
+	Parlons tout d'abord des decks Lava Spike. Leur absence de Big Turn fait qu'on a souvent
+	tendance à les classifier dans Aggro suivant la classification en catégorie considérée. On
+	retrouve justement la classification Aggro/Control/Combo dans d'autres jeu similaires à Magic,
+	notamment Hearstone. Généralement on considère dans ces jeux qu'il existe deux types de decks
+	Aggros : Ceux basés sur des créatures et ceux basés sur des blasts et que la notion de deck
+	Combo est intrinsèquement relié à la notion de Big Turn. Autrement dit à Hearstone le débat est
+	assez tranché mais aussi parce que les possibilités de deckbuilding qu'offre Hearstone sont
+	bien plus réduites que celles offertes par Magic
+</p>
+<p>
+	Il est intéressant de noter qu'en Peasant et en Pauper, la présence de Thermo Alchemist
+	encourage les joueurs à jouer au troisième ou au quatrième tour un maximum de sorts consécutifs
+	pour infliger jusqu'à 16-17 blessures dans le tour, ce qui donne au final des versions de Burn
+	avec Big Turn.
+</p>
+<p>
+	On arrive finalement à cette fameuse catégorie Wave Combo. Les decks de cette catégorie font de
+	l'absence de Big Turn une de leur spécificité comme évoqué plus haut. Ce sont des decks qui se
+	veulent efficace sur le long terme et qui peuvent s'emballer à tout moment. Autant la
+	concession de placer Hollow One qui est un archétype très récent dans aggro est généralement
+	plutôt bien accepté, autant Dredge est unanimement reconnu comme étant un deck Combo mettant à
+	lui seul en défaut la théorie : Combo = Big Turn.
+</p>
+{% endtrans %}
+
+{% trans trimmed
+%}
+<h3>Quelques liens autour de la classification</h3>
+<p>
+	Pour approfondir vos connaissances sur le sujet je vous conseille quelques très bons articles
+	complémentaires sur le sujet (en anglais) avec entre parenthèse la classification en macrotype
+	considérée par l'auteur (A-B-C-D-E-F).
+</p>
+<p>
+	Bonne lecture à tous
+</p>
+{% endtrans %}
+<div class="align-left">
+	<table class="wide-column">
+		<tr>
+			<td>
+				<em>
+					2003
+				</em>
+			</td>
+			<td>
+				S. Menendian and P. Mastriano
+			</td>
+			<td>
+				{{ external("http://www.starcitygames.com/magic/vintage/4552_Gardening_In_Vintage_How_To_GroATog_And_Clip_A_Lotus.html", "How to Grow a Tog and Clip a Lotus") }}
+			</td>
+			<td>
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2004
+				</em>
+			</td>
+			<td>
+				Stephen Menendian
+			</td>
+			<td>
+				{{ external("http://www.starcitygames.com/articles/6811_The-Type-I-Metagame-or-Why-I-Learned-to-Stop-Worrying-and-Love-the-Tog.html","The Type I Metagame or Why I Learned to Stop Worrying and Love the Tog") }}
+			</td>
+			<td>
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2005
+				</em>
+			</td>
+			<td>
+				Mike Mason
+			</td>
+			<td>
+				{{ external("http://www.starcitygames.com/magic/standard/10675_Watching_the_Clock.html","Watching the Clock") }}
+			</td>
+			<td>
+				(C)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2007
+				</em>
+			</td>
+			<td>
+				Jeff Cuningham
+			</td>
+			<td>
+				{{ external("https://magic.wizards.com/en/articles/archive/magic-academy/aggro-combo-and-control-2007-01-27","Aggro, Combo, and Control") }}
+			</td>
+			<td>
+				(E)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2012
+				</em>
+			</td>
+			<td>
+				Zac Hill
+			</td>
+			<td>
+				{{ external("https://magic.wizards.com/en/articles/archive/latest-developments/ah-yes-very-standard-2012-08-10","Ah Yes. Very Standard.") }}
+			</td>
+			<td>
+				(D)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2013
+				</em>
+			</td>
+			<td>
+				Patrick Chapin
+			</td>
+			<td>
+				Next Level Deckbuilding
+				<em>
+					livre papier
+				</em>
+			</td>
+			<td>
+				(B)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2014
+				</em>
+			</td>
+			<td>
+				Carsten Kotter
+			</td>
+			<td>
+				{{ external("https://starcitygames.com/article/29240_The-Guide-To-Macro-Archetypes.html","The Guide To Macro-Archetypes") }}
+			</td>
+			<td>
+				(F)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2015
+				</em>
+			</td>
+			<td>
+				Reid Duke
+			</td>
+			<td>
+				{{ external("https://magic.wizards.com/fr/articles/archive/level-one/les-decks-midrange-2015-09-29","Les decks Midrange") }}
+			</td>
+			<td>
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2017
+				</em>
+			</td>
+			<td>
+				Mateus Nogueira
+			</td>
+			<td>
+				{{ external("http://eternalmagic.com.br/en/2017/06/introduction-on-commander-archetypes/","An introduction on Commander Archetype") }}
+			</td>
+			<td>
+				(B)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2017
+				</em>
+			</td>
+			<td>
+				Mateus Nogueira
+			</td>
+			<td>
+				{{ external("http://eternalmagic.com.br/en/2017/06/commander-archetypes-aggro/","Commander : Archetype Aggro") }}
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2017
+				</em>
+			</td>
+			<td>
+				Mateus Nogueira
+			</td>
+			<td>
+				{{ external("http://eternalmagic.com.br/en/2017/06/commander-archetypes-midrange-part-1/","Commander : Archetype Midrange (Part 1)") }}
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2017
+				</em>
+			</td>
+			<td>
+				Mateus Nogueira
+			</td>
+			<td>
+				{{ external("http://eternalmagic.com.br/en/2017/06/commander-archetypes-midrange-part-2/","Commander : Archetype Midrange (Part 2)") }}
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<em>
+					2017
+				</em>
+			</td>
+			<td>
+				Mateus Nogueira
+			</td>
+			<td>
+				{{ external("http://eternalmagic.com.br/en/2017/07/archetype-in-commander-control-part-2/","Commander : Archetype Contol (Part 2)") }}
+			</td>
+			<td>
+			</td>
+		</tr>
+	</table>
+</div>
+{% endblock %}
