@@ -1,51 +1,9 @@
 {% extends "strategie/lart-de-classifier-les-decks/_layout.html" %}
 
-{% macro line (archetype, a, b, c, d, e, f) -%}
-<tr>
-	<th align="left">{{ archetype }}</th>
-	<td>{{ a }}</td>
-	<td>{{ b }}</td>
-	<td>{{ c }}</td>
-	<td>{{ d }}</td>
-	<td>{{ e }}</td>
-	<td>{{ f }}</td>
-</tr>
-{%- endmacro%}
-
 {% block section %}
 {% trans trimmed
 	cat_decks='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/cat_decks.svg'))|safe,
-
-	an_introduction_on_commander_archetype=external("http://eternalmagic.com.br/en/2017/06/introduction-on-commander-archetypes/", "An introduction on Commander Archetype"),
-
-	archetype_1 =line("01\xa0—\xa0Swarm","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
-	archetype_2 =line("02\xa0—\xa0Red\xa0Aggro","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
-	archetype_3 =line("03\xa0—\xa0Aggro\xa0Linéaire","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
-	archetype_4 =line("04\xa0—\xa0Suicide","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
-	archetype_5 =line("05\xa0—\xa0Tempo","Aggro","Midrange","Tempo","Tempo","Aggro-Contrôle","Tempo"),
-	archetype_6 =line("06\xa0—\xa0Rock","Contrôle","Midrange","Midrange","Midrange","Aggro-Contrôle","Midrange"),
-	archetype_7 =line("07\xa0—\xa0Pur\xa0Midrange","Contrôle","Midrange","Midrange","Midrange","Aggro-Contrôle","Midrange"),
-	archetype_8 =line("08\xa0—\xa0Midrange\xa0Non\u2011Bleu","Contrôle","Midrange","Midrange","Midrange","Aggro-Contrôle","Midrange"),
-	archetype_9 =line("09\xa0—\xa0Draw\xa0Go","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle"),
-	archetype_10=line("10\xa0—\xa0Tapout","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle"),
-	archetype_11=line("11\xa0—\xa0Prison","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle"),
-	archetype_12=line("12\xa0—\xa0Pur\xa0Contrôle\u2011Combo","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle\u2011Combo","Contrôle\u2011Combo"),
-	archetype_13=line("13\xa0—\xa0Ramp","Contrôle","Contrôle","Contrôle","Ramp","Contrôle","Contrôle"),
-	archetype_14=line("14\xa0—\xa0Big\xa0Spell","Combo","Combo","Combo","Combo","Combo","Combo"),
-	archetype_15=line("15\xa0—\xa0Combo\xa0Storm","Combo","Combo","Combo","Combo","Combo","Combo"),
-	archetype_16=line("16\xa0—\xa0Combo\xa0Traditionnel","Combo","Combo","Combo","Combo","Combo","Combo"),
-	archetype_17=line("17\xa0—\xa0Lava\xa0Spike","Aggro","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Combo","Combo"),
-	archetype_18=line("18\xa0—\xa0Combo\xa0Récursif","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo"),
-	archetype_19=line("19\xa0—\xa0Voltron","Aggro","Aggro","Aggro","Aggro","Aggro\u2011Combo","Aggro\u2011Combo"),
-	archetype_20=line("20\xa0—\xa0Combo\xa0Créature","Combo","Combo","Combo","Combo","Aggro\u2011Combo","Aggro\u2011Combo"),
-	archetype_21=line("21\xa0—\xa0Aggro\u2011Contrôle\u2011Combo","-","-","-","-","-","A\u2011C\u2011C"),
-
-	aether_vial=card("Æther Vial"),
-
-	ci_cavern='<div>%(card)s</div>'|format(card=card_image("Cavern of Souls"))|safe,
-	ci_goblin_chainwhirler='<div>%(card)s</div>'|format(card=card_image("Goblin Chainwhirler"))|safe,
-	ci_thalia_guardian='<div>%(card)s</div>'|format(card=card_image("Thalia, Guardian of Thraben"))|safe
-
+	an_introduction_on_commander_archetype=external("http://eternalmagic.com.br/en/2017/06/introduction-on-commander-archetypes/", "An introduction on Commander Archetype")
 %}
 <h2>Les Catégories de decks</h2>
 <p>
@@ -74,6 +32,7 @@
 	Chapin de cinq nouvelles catégories : Ramp, Wave Combo, Voltron, Creature-Combo et Aggro-
 	Control-Combo.
 </p>
+{% endtrans %}
 
 <div class="align-left">
 	<table class="wide-column">
@@ -87,6 +46,41 @@
 			<th>F</th>
 		</thead>
 		<tbody>
+			{% macro line (archetype, a, b, c, d, e, f) -%}
+			<tr>
+				<th align="left">{{ archetype }}</th>
+				<td>{{ a }}</td>
+				<td>{{ b }}</td>
+				<td>{{ c }}</td>
+				<td>{{ d }}</td>
+				<td>{{ e }}</td>
+				<td>{{ f }}</td>
+			</tr>
+			{%- endmacro%}
+
+			{% trans trimmed
+				archetype_1 =line("01\xa0—\xa0Swarm","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
+				archetype_2 =line("02\xa0—\xa0Red\xa0Aggro","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
+				archetype_3 =line("03\xa0—\xa0Aggro\xa0Linéaire","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
+				archetype_4 =line("04\xa0—\xa0Suicide","Aggro","Aggro","Aggro","Aggro","Aggro","Aggro"),
+				archetype_5 =line("05\xa0—\xa0Tempo","Aggro","Midrange","Tempo","Tempo","Aggro-Contrôle","Tempo"),
+				archetype_6 =line("06\xa0—\xa0Rock","Contrôle","Midrange","Midrange","Midrange","Aggro-Contrôle","Midrange"),
+				archetype_7 =line("07\xa0—\xa0Pur\xa0Midrange","Contrôle","Midrange","Midrange","Midrange","Aggro-Contrôle","Midrange"),
+				archetype_8 =line("08\xa0—\xa0Midrange\xa0Non\u2011Bleu","Contrôle","Midrange","Midrange","Midrange","Aggro-Contrôle","Midrange"),
+				archetype_9 =line("09\xa0—\xa0Draw\xa0Go","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle"),
+				archetype_10=line("10\xa0—\xa0Tapout","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle"),
+				archetype_11=line("11\xa0—\xa0Prison","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle"),
+				archetype_12=line("12\xa0—\xa0Pur\xa0Contrôle\u2011Combo","Contrôle","Contrôle","Contrôle","Contrôle","Contrôle\u2011Combo","Contrôle\u2011Combo"),
+				archetype_13=line("13\xa0—\xa0Ramp","Contrôle","Contrôle","Contrôle","Ramp","Contrôle","Contrôle"),
+				archetype_14=line("14\xa0—\xa0Big\xa0Spell","Combo","Combo","Combo","Combo","Combo","Combo"),
+				archetype_15=line("15\xa0—\xa0Combo\xa0Storm","Combo","Combo","Combo","Combo","Combo","Combo"),
+				archetype_16=line("16\xa0—\xa0Combo\xa0Traditionnel","Combo","Combo","Combo","Combo","Combo","Combo"),
+				archetype_17=line("17\xa0—\xa0Lava\xa0Spike","Aggro","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Combo","Combo"),
+				archetype_18=line("18\xa0—\xa0Combo\xa0Récursif","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo","Aggro\u2011Combo"),
+				archetype_19=line("19\xa0—\xa0Voltron","Aggro","Aggro","Aggro","Aggro","Aggro\u2011Combo","Aggro\u2011Combo"),
+				archetype_20=line("20\xa0—\xa0Combo\xa0Créature","Combo","Combo","Combo","Combo","Aggro\u2011Combo","Aggro\u2011Combo"),
+				archetype_21=line("21\xa0—\xa0Aggro\u2011Contrôle\u2011Combo","-","-","-","-","-","A\u2011C\u2011C")
+			%}
 			{{ archetype_1 }}
 			{{ archetype_2 }}
 			{{ archetype_3 }}
@@ -108,16 +102,23 @@
 			{{ archetype_19 }}
 			{{ archetype_20 }}
 			{{ archetype_21 }}
+			{% endtrans %}
 		</tbody>
 	</table>
 </div>
 <p>
+	{% trans %}
 	Le tableau ci-dessus donne la liste les 21 catégories et la manière de les classer dans les
 	macrotypes vu précédemment. Les paragraphes ci-dessous présentent en détail chacunes des
 	catégories.
+	{% endtrans %}
 </p>
 <ol style="padding-left:1em;">
 	<li>
+		{% trans trimmed
+			ci_thalia_guardian='<div>%(card)s</div>'|format(card=card_image("Thalia, Guardian of Thraben"))|safe,
+			aether_vial=card("Æther Vial")
+		%}
 		<p>
 			<strong>Swarm</strong> :
 		</p>
@@ -153,8 +154,12 @@
 			interactions ou combo, le deck rentrera alors plutôt dans la catégorie Creature-Combo
 			que l'on évoquera plus tard (ces decks sont d'ailleurs en général moins agressifs).
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_goblin_chainwhirler='<div>%(card)s</div>'|format(card=card_image("Goblin Chainwhirler"))|safe
+		%}
 		<p>
 			<strong>Red Aggro</strong> :
 		</p>
@@ -192,8 +197,16 @@
 			dernier). Souvent confondu, les decks RDW se distinguent pourtant notablement des decks
 			Gobelins par leur absence ou quasi-absence de synergies "tribales".
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_cavern='<div>%(card)s</div>'|format(card=card_image("Cavern of Souls"))|safe,
+			cavern_of_souls=card("Cavern of Souls"),
+			champion_of_the_parish=card("Champion of the Parish"),
+			rebel_1999_block_deck=external("https://www.mtgtop8.com/event?e=9167&d=252441&f=BL", "deck bloc Rebel de 1999"),
+			rick_stout_uw_human=external("https://www.mtgtop8.com/event?e=2732&d=217663&f=ST","UW Human de Rick Stout")
+		%}
 		<p>
 			<strong>Aggro Linéaire</strong> :
 		</p>
@@ -220,17 +233,25 @@
 		<p>
 			Les deck Linear Aggro sont extrêmement populaire dans tout les formats et toutes les
 			extensions récentes de magic sont construites pour que cette catégorie de deck soit
-			présente en limité. Le premier archétype à rentrer dans cette catégorie fut le deck
-			block Rebel de 1999 (Liste).
+			présente en limité. Le premier archétype à rentrer dans cette catégorie fut le
+			{{ rebel_1999_block_deck }}
 		</p>
 		<p>
 			Il en faut parfois peu pour qu'un deck intègre cette catégorie. C'est par exemple le
-			cas du deck standard UW Human de Rick Stout (Liste) qui se distingua des autres listes
-			UW par l'ajout de Cavern of Souls et Champion of the Parish qui s’intégrait
+			cas du deck standard {{ rick_stout_uw_human }} qui se distingua des autres listes
+			UW par l'ajout de {{ cavern_of_souls }} et {{ champion_of_the_parish }} qui s’intégrait
 			parfaitement à ce deck tribal.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_carnophage='<div>%(card)s</div>'|format(card=card_image("Carnophage"))|safe,
+			black_suicide_1999_brian_schneider_extended_deck=external("https://www.mtggoldfish.com/deck/407304#paper","deck Extended Black Suicide de Brian Schneider (1999)"),
+			ancient_tomb=card("Ancient Tomb"),
+			chrome_mox=card("Chrome Mox"),
+			simian_spirit_guide=card("Simian Spirit Guide")
+		%}
 		<p>
 			<strong>Suicide</strong>
 		</p>
@@ -247,24 +268,29 @@
 				dans les premiers tours.
 			</li>
 		</ul>
+		{{ ci_carnophage }}
 		<p>
 			L'appellation suicide vient usuellement du fait que le deck à tendance à jouer des
 			cartes qui vont affecter de manière néfaste le joueur qui les joue. Certaines cartes
 			peuvent nécessiter par exemple une perte de point de vie, un sacrifice de permanent ou
 			encore de faire du CD (comme c'est le cas pour les accélérateurs de mana éphémères
 			extrêmement courant dans ces decks). Un des premiers deck de cette catégorie fut le
-			deck Extended Black Suicide de Brian Schneider (1999).
+			{{ black_suicide_1999_brian_schneider_extended_deck }}.
 		</p>
 		<p>
 			Dans cette catégorie on classera également le deck legacy Dragon Stompy dans lequel on
 			retrouve cette volonté d'avoir accès à beaucoup de manas dans les premiers tours via
-			Simian Spirit Guide, Chrome Mox et Ancient Tomb pour mettre en place très tôt une clock
-			et une carte qui va empêcher le développement adverse. Le deck mise essentiellement sur
-			cette impulsion qu'il aura mis sur le début de partie et pour laquelle il a dû faire
-			énormément de CD.
+			{{ simian_spirit_guide}}, {{ chrome_mox }} et {{ ancient_tomb }} pour mettre en place
+			très tôt une clock et une carte qui va empêcher le développement adverse. Le deck mise
+			essentiellement sur cette impulsion qu'il aura mis sur le début de partie et pour
+			laquelle il a dû faire énormément de CD.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_delver_of_secrets='<div>%(card)s</div>'|format(card=card_image("Delver of Secrets"))|safe
+		%}
 		<p>
 			<strong>Tempo</strong> :
 		</p>
@@ -275,6 +301,7 @@
 			celui de l'adversaire à l'aide de sorts peu cher. On parle aussi de Disruptive Aggro
 			pour désigner cette famille de deck.
 		</p>
+		{{ ci_delver_of_secrets }}
 		<p>
 			Les decks tempo sont connus pour jouer le rôle de l’agresseur (aggro) contre
 			Control et le rôle du défenseur (control) contre Aggro et ainsi porte très
@@ -291,8 +318,14 @@
 			de leur format (13 cartes du top17 pour Grixis Delver ; 7 cartes du top10 pour
 			Death Shadow ; 11 cartes du top13 pour Izzet Delver – Statistiques 2018 de MtgTop8).
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_abrupt_decay='<div>%(card)s</div>'|format(card=card_image("Abrupt Decay"))|safe,
+			deranged_hermit=card("Deranged Hermit"),
+			phyrexian_plaguelord=card("Phyrexian Plaguelord")
+		%}
 		<p>
 			<strong>Rock</strong> :
 		</p>
@@ -311,13 +344,14 @@
 				removal.
 			</li>
 		</ul>
+		{{ ci_abrupt_decay }}
 		<p>
 			Cette catégorie de deck vient d'un deck nommé par Malka un fan de catch : "The Rock and
 			His Millions" où "The Rock" en hommage à Dwayne The Rock Johnson correspondait à la
-			carte Phyrexian Plaguelord et "His Millions" correspondaient aux écureuils crées par
-			Deranged Hermit. Les decks de cette catégorie jouent à la fois des menaces et des
-			réponses qui s'amplifient au fur et à mesure que la partie avance. On peut distinguer
-			principalement deux types de decks Rock :
+			carte {{ phyrexian_plaguelord }} et "His Millions" correspondaient aux écureuils crées
+			par {{ deranged_hermit }}. Les decks de cette catégorie jouent à la fois des menaces et
+			des réponses qui s'amplifient au fur et à mesure que la partie avance. On peut
+			distinguer principalement deux types de decks Rock :
 		</p>
 		<ul>
 			<li>
@@ -331,6 +365,7 @@
 				decks Junk (Abzan W/B/G).
 			</li>
 		</ul>
+		{% endtrans %}
 	</li>
 	<li>
 		<p>
@@ -847,5 +882,4 @@
 		</p>
 	</li>
 </ol>
-{% endtrans %}
 {% endblock %}
