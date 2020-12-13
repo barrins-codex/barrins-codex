@@ -147,7 +147,7 @@ def linker():
 
 def file_name(name):
 	name = unidecode.unidecode(name).lower()
-	name = re.sub(r"[^a-zA-Z0-9]", " ", name)
+	name = re.sub(r"[^a-zA-Z0-9]", "", name)
 	return name
 
 
@@ -163,10 +163,11 @@ def display_card():
 		)
 
 	def card_image(name, hover=True):
-		img = '<img src="{fname}" alt="{name}" onclick="dC(\'{fname}\')"'
-		if hover:
-			img += ' onmouseover="hC(\'{fname}\')" onmouseout="oC()"'
-		img += "/>"
-		return flask.Markup(img.format(name=name, fname=file_name(name),))
+		return flask.Markup(
+			"""<img class="card-block" id="id-{fname}" onmouseover="hC('{fname}')" onmouseout="oC()" name="{fname}" alt="{name}"/>""".format(
+				name=name.replace(" ", " "),
+				fname=file_name(name),
+			)
+		)
 
 	return dict(card=card, card_image=card_image)
