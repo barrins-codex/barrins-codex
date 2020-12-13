@@ -368,6 +368,9 @@
 		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_knight_of_the_reliquary='<div>%(card)s</div>'|format(card=card_image("Knight of the Reliquary"))|safe
+		%}
 		<p>
 			<strong>Midrange Pur</strong> :
 		</p>
@@ -386,6 +389,7 @@
 				Le fait d'être malléable pour s'adapter à n'importe quel metagame.
 			</li>
 		</ul>
+		{{ ci_knight_of_the_reliquary }}
 		<p>
 			Les decks Pure Midrange sont parfois appelé "Good Stuff" car ils ont tendance à
 			incorporer les meilleures sorts du format, les removal les moins chers ainsi que les
@@ -402,8 +406,15 @@
 			lorsqu'un deck Midrange est capable d'incorporer au moins un sort unfair tel que de la
 			destruction massive de terrain, il peut faire d'excellent résultats.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_gray_merchant='<div>%(card)s</div>'|format(card=card_image("Grey Merchant of Asphodel"))|safe,
+			mono_black_control=external("https://www.mtgtop8.com/event?e=9201&d=252718&f=BL","Mono Black Control"),
+			astral_slide=external("https://www.mtgtop8.com/event?e=9207&d=252771&f=BL","Astral Slide"),
+			life_from_the_loam=card("Life from the Loam")
+		%}
 		<p>
 			<strong>Midrange Non-Bleu</strong> :
 		</p>
@@ -419,23 +430,28 @@
 				est assez dépendant.
 			</li>
 		</ul>
+		{{ ci_gray_merchant }}
 		<p>
 			Bien que la majorité des decks de cette catégorie n'utilisent pas de manas bleus, ce
 			n'est pas une condition nécessaire pour faire parti de cette catégorie. Les decks Non-
 			Blue sont globalement rare dans les formats eternals (voir absent du Legacy et du
 			Vintage) car ils ne sont généralement pas assez polyvalent pour s'y imposer. Parmi les
-			premiers decks du genre on peut citer les fameux decks block : Mono-Black Control de
-			2002 (Liste) et Astral Slide de 2003 (Liste).
+			premiers decks du genre on peut citer les fameux decks block : {{ mono_black_control }}
+			de 2002 et {{ astral_slide }} de 2003.
 		</p>
 		<p>
-			Mais cette catégorie va nous permettre d'aborder le cas de Life from the Loam que l'on
-			retrouve dans des decks appartenant à des catégories diverses. L'un de ces decks, la
-			version Aggro Loam de l'extended que l'on retrouve aussi en Modern, vérifie justement
-			les critère du deck Non-Blue Midrange, Life from the Loam jouant ici le rôle du moteur
-			de CA dont le deck est assez dépendant.
+			Mais cette catégorie va nous permettre d'aborder le cas de {{ life_from_the_loam }} que
+			l'on retrouve dans des decks appartenant à des catégories diverses. L'un de ces decks,
+			la version Aggro Loam de l'extended que l'on retrouve aussi en Modern, vérifie
+			justement les critère du deck Non-Blue Midrange, Life from the Loam jouant ici le rôle
+			du moteur de CA dont le deck est assez dépendant.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_karn_liberated='<div>%(card)s</div>'|format(card=card_image("Karn Liberated"))|safe
+		%}
 		<p>
 			<strong>Tapout</strong> :
 		</p>
@@ -451,6 +467,7 @@
 				Des sorts agressifs pour profiter au maximum du temps acheté.
 			</li>
 		</ul>
+		{{ ci_karn_liberated }}
 		<p>
 			Les decks Tapout jouent essentiellement à leur propre tour et ne gardent donc
 			généralement pas de manas dégagés lorsqu'ils ont fini de jouer. L'absence de contresort
@@ -460,8 +477,12 @@
 			La première vraie apparition de Tapout en tournoi date de 1997 avec le deck standard
 			Big Blue de Erik Lauer.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_cryptic_command='<div>%(card)s</div>'|format(card=card_image("Cryptic Command"))|safe
+		%}
 		<p>
 			<strong>Draw Go</strong> :
 		</p>
@@ -481,6 +502,7 @@
 				lancées.
 			</li>
 		</ul>
+		{{ ci_cryptic_command }}
 		<p>
 			Le terme "Draw-Go" est une allusion aux tours rapides d'un joueur de cet archétype "My
 			Turn, Draw, Go !". En réalité on devrait plutôt parlé de Draw-LandDrop-Go, mais ce
@@ -493,14 +515,20 @@
 			et donc piocheront plus de menaces que Draw Go de réponses. Pour contrebalancer cela,
 			les decks Draw Go sont obligé de compenser cela avec du card advantage.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_stasis='<div>%(card)s</div>'|format(card=card_image("Stasis"))|safe,
+			icy_manipulator=card("Icy Manipulator")
+		%}
 		<p>
 			<strong>Prison</strong> :
 		</p>
 		<p>
 			Catégorie de deck Control se caractérisant par :
 		</p>
+		{{ ci_stasis }}
 		<ul>
 			<li>
 				Une volonté de garder le champ de bataille sous control plutôt que de lui opposer
@@ -517,10 +545,25 @@
 			Les decks prisons (aussi appelé Lock) comme les decks Tapout ont tendance à utiliser
 			leur mana de manière proactif. Toutefois là où un deck Tapout va engager tout son mana
 			pour poser une créature qui va dissuader son adversaire d'attaquer, un deck Prison
-			préférera prévenir l'attaque, par exemple avec un Icy Manipulator.
+			préférera prévenir l'attaque, par exemple avec un {{ icy_manipulator }}.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_crop_rotation='<div>%(card)s</div>'|format(card=card_image("Crop Rotation"))|safe,
+			muddle_the_mixture=card("Muddle the Mixture"),
+			thopter_foundry=card("Thopter Foundry"),
+			sword_of_the_meak=card("Sword of the Meak"),
+			counterspell=card("Counterspell"),
+			bring_to_light=card("Bring to Light"),
+			scapeshift=card("Scapeshift"),
+			damnation=card("Damnation"),
+			crop_rotation=card("Crop Rotation"),
+			dark_depths=card("Dark Depths"),
+			thespians_stage=card("Thespian's Stage"),
+			glacial_chasm=card("Glacial Chasm")
+		%}
 		<p>
 			<strong>Contrôle-Combo Pur</strong> :
 		</p>
@@ -539,6 +582,7 @@
 				De nombreux sorts de gestion et/ou de contresorts.
 			</li>
 		</ul>
+		{{ ci_crop_rotation }}
 		<p>
 			Contrairement à la majorité des decks Combo, les decks de cette famille peuvent faire
 			du CA voir même énormément de CA, plutôt que de simplement creuser ou tutoriser les
@@ -548,17 +592,23 @@
 		</p>
 		<ul>
 			<li>
-				Muddle the Mixture -> Thopter/Sword (Combo Kill) ou contresort.
+				{{ muddle_the_mixture }} -> {{ thopter_foundry }} / {{ sword_of_the_meak}}
+				(Combo Kill) ou {{ counterspell }}.
 			</li>
 			<li>
-				Bring to Light -> Scapeshift (Combo Kill) ou Damnation.
+				{{ bring_to_light }} -> {{ scapeshift }} (Combo Kill) ou {{ damnation }}.
 			</li>
 			<li>
-				Crop Rotation -> Dark Depths/Thespian's Stage (Combo Kill) ou Glacial Chasm
+				{{ crop_rotation }} -> {{ dark_depths }} / {{ thespians_stage }}
+				(Combo Kill) ou {{ glacial_chasm }}
 			</li>
 		</ul>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_primeval_titan='<div>%(card)s</div>'|format(card=card_image("Primeval Titan"))|safe
+		%}
 		<p>
 			<strong>Ramp</strong> :
 		</p>
@@ -575,6 +625,7 @@
 				Kill etc...
 			</li>
 		</ul>
+		{{ ci_primeval_titan }}
 		<p>
 			Les decks ramp ne sont pas à confondre avec les decks de la catégorie Big Spell qui va
 			suivre qui peuvent aussi avoir dans certain cas une optique Ramp en début de partie.
@@ -589,8 +640,15 @@
 			mort. Ils ont globalement les mêmes problèmes que Midrange contre Control et Tempo, si
 			ils sont pris de vitesse ils doivent subir les sorts de gestion adverses.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_living_end='<div>%(card)s</div>'|format(card=card_image("Living End"))|safe,
+			scapeshift=card("Scapeshift"),
+			valakut=card("Valakut, the Molten Pinnacle"),
+			prismatic_omen=card("Prismatic Omen")
+		%}
 		<p>
 			<strong>Big Spell</strong> :
 		</p>
@@ -608,6 +666,7 @@
 				radicalement la physionomie de la partie.
 			</li>
 		</ul>
+		{{ ci_living_end }}
 		<p>
 			Un Big Spell est finalement une combo en une carte bien que cela semble être un non-
 			sens.
@@ -619,8 +678,8 @@
 			catégorie, Living End est justement un exemple de deck Big Spell sans aucun aspect ramp.
 		</p>
 		<p>
-			Cette catégorie va nous donner l'occasion de nous pencher sur le duo Scapeshift/
-			Valakut, the Molten Pinnacle qui a donné son nom à de nombreux d'archétypes.
+			Cette catégorie va nous donner l'occasion de nous pencher sur le duo {{ scapeshift }} /
+			{{ valakut }} qui a donné son nom à de nombreux d'archétypes.
 		</p>
 		<ul>
 			<li>
@@ -640,13 +699,17 @@
 			</li>
 			<li>
 				Enfin la version Omen Scapeshift quant à elle se distingue foncièrement des autres
-				par sa quasi-absence de montagne et donc à la nécessité d'avoir Prismatic Omen sur
-				le champ de bataille avant de lancer scapeshift ce qui fait du deck un traditionnal
-				combo.
+				par sa quasi-absence de montagne et donc à la nécessité d'avoir {{ prismatic_omen}}
+				sur le champ de bataille avant de lancer scapeshift ce qui fait du deck un
+				traditionnal combo.
 			</li>
 		</ul>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_grapeshot='<div>%(card)s</div>'|format(card=card_image("Grapeshot"))|safe
+		%}
 		<p>
 			<strong>Combo Storm</strong> :
 		</p>
@@ -665,6 +728,7 @@
 				Mise principalement sur la quantité d'actions plus que sur leur qualité.
 			</li>
 		</ul>
+		{{ ci_grapeshot }}
 		<p>
 			Les decks Storm Combo ont ce que l'on appelle un "Big Turn" où ils achèvent leur
 			adversaire en un tour, c'est une caractéristique sur laquelle on reviendra dans la
@@ -672,8 +736,13 @@
 			capacité Storm. Tout les decks avec une carte Storm en guise de kill appartiennent à
 			cette catégorie mais il y a de nombreuses exceptions tels que High Tide ou KCI.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_painter_servant='<div>%(card)s</div>'|format(card=card_image("Painter's Servant"))|safe,
+			griselbrand=card("Griselbrand")
+		%}
 		<p>
 			<strong>Combo Traditionnel</strong> :
 		</p>
@@ -689,6 +758,7 @@
 				Des cartes permettant d'aller chercher les éléments de la combo
 			</li>
 		</ul>
+		{{ ci_painter_servant }}
 		<p>
 			Les stratégies des Traditionnal Combo peuvent être très variés. On peut en distinguer
 			de deux sortes traditionnal combo :
@@ -706,12 +776,17 @@
 		<p>
 			Dans cette seconde famille, bien entendu plus rare, on peut citer les decks Reanimator
 			ou en Legacy les decks Show and Tell qui incorporent aussi Sneak Attack. Remarquons
-			qu'une fois réanimé, Griselbrand à tendance à transformer le plan de jeu de reanimator
-			en quelque chose proche d'un Storm Combo mais le plan de jeu originel du deck
+			qu'une fois réanimé, {{ griselbrand }} à tendance à transformer le plan de jeu de
+			reanimator en quelque chose proche d'un Storm Combo mais le plan de jeu originel du deck
 			correspond bien à la catégorie Traditionnal Combo.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_bloodghast='<div>%(card)s</div>'|format(card=card_image("Bloodghast"))|safe,
+			hollow_one=card("Hollow One")
+		%}
 		<p>
 			<strong>Combo Récursif</strong> :
 		</p>
@@ -731,17 +806,22 @@
 				Une absence de réel Big Turn
 			</li>
 		</ul>
+		{{ ci_bloodghast }}
 		<p>
 			Les principaux decks Wave Combo sont entièrement construit autour d'une mécanique dont
 			ils abusent des effets. Les deux decks principaux de cette catégorie sont Dredge qui
-			abuse de la capacité éponyme et des synergies avec le cimetière et Hollow One basé
+			abuse de la capacité éponyme et des synergies avec le cimetière et {{ hollow_one }} basé
 			quant à lui sur les effets de défausses. Cette catégorie a finalement connu très peu de
 			représentant et il me paraît compliqué d'en lister des caractéristiques arrêtés,
 			toutefois on peut noter que les deux decks cités ont de plus la particularité d'être
 			relativement imprévisible dans leurs sorties même pour leur pilote.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_lava_spike='<div>%(card)s</div>'|format(card=card_image("Lava Spike"))|safe
+		%}
 		<p>
 			<strong>Lava Spike</strong> :
 		</p>
@@ -758,6 +838,7 @@
 				cimetière.
 			</li>
 		</ul>
+		{{ ci_lava_spike }}
 		<p>
 			On retrouve dans cette catégorie principalement deux sortes de deck : Burn et Mill. Les
 			decks Mill "pure" compétitifs sont totalement absent des formats eternals et
@@ -766,8 +847,16 @@
 			tous à dominante rouge, mais tout les decks Burn compétitif ne sont pas nécessairement
 			monocolores comme l'atteste les exemples ci-après.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_glistener_elf='<div>%(card)s</div>'|format(card=card_image("Glistener Elf"))|safe,
+			kiln_fiend=card("Kiln Fiend"),
+			berserk=card("Berserk"),
+			temur_battle_rage=card("Temur Battle Rage"),
+			zur_the_enchanter=card("Zur the Enchanter")
+		%}
 		<p>
 			<strong>Voltron</strong> :
 		</p>
@@ -783,26 +872,32 @@
 				Une clock plus rapide que les decks aggros classiques.
 			</li>
 		</ul>
+		{{ ci_glistener_elf }}
 		<p>
 			Les decks Voltron empruntent certaines caractéristiques aux catégories Traditionnal
-			Combo et Storm Combo. Une carte emblématique de cette catégorie est Kiln Fiend que l'on
-			retrouve dans le deck Legacy Gro-A-Friend, dans le deck Peasant Red Assault et dans le
-			deck Pauper UR Blitz. On peut considérer qu'on a à faire à une combo en deux cartes
-			avec Berserk ou Temur Battle Rage (traditionnal combo), toutefois le deck n'a pas
-			besoin de cette seconde carte pour gagner et peut remporter la victoire simplement par
-			l'accumulation de sorts joué lors d'un même tour (Storm Combo). On retrouve aussi dans
-			cette catégorie les decks hexproof qui se basent sur une créature qui grossit plus ou
-			moins lentement jusqu'à devenir létal.
+			Combo et Storm Combo. Une carte emblématique de cette catégorie est {{ kiln_fiend }}
+			que l'on retrouve dans le deck Legacy Gro-A-Friend, dans le deck Peasant Red Assault et
+			dans le deck Pauper UR Blitz. On peut considérer qu'on a à faire à une combo en deux
+			cartes avec {{ berserk }} ou {{ temur_battle_rage }} (traditionnal combo), toutefois le
+			deck n'a pas besoin de cette seconde carte pour gagner et peut remporter la victoire
+			simplement par l'accumulation de sorts joué lors d'un même tour (Storm Combo). On
+			retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une créature
+			qui grossit plus ou moins lentement jusqu'à devenir létal.
 		</p>
 		<p>
 			Le nom Voltron est issu du Commander pour désigner originellement des decks dont la
 			stratégie est entièrement basé sur leur général. Mateus Nogueira distingue dans sa
-			classification en catégorie pour le commander les decks Voltron Control (tels que Zur)
-			des decks Voltron Aggro, dont cette catégorie se fait l'écho, focalisés sur le fait de
-			finir rapidement une partie via les blessures du commander (Lien).
+			classification en catégorie pour le commander les decks Voltron Control (tels que
+			{{ zur_the_enchanter}}) des decks Voltron Aggro, dont cette catégorie se fait l'écho,
+			focalisés sur le fait de finir rapidement une partie via les blessures du commander.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_vizier_of_remedies='<div>%(card)s</div>'|format(card=card_image("Vizier of Remedies"))|safe,
+			birthing_pod=card("Birthing Pod")
+		%}
 		<p>
 			<strong>Combo Créature</strong> :
 		</p>
@@ -822,6 +917,7 @@
 				créatures (souvent en débordant son adversaire).
 			</li>
 		</ul>
+		{{ ci_vizier_of_remedies }}
 		<p>
 			Les decks Creature-Combo sont en un sens des hybrides entre les decks appartenant aux
 			familles Traditionnal Combo et Swarm ce qui en font naturellement des decks Aggro-Combo
@@ -847,15 +943,20 @@
 			</li>
 		</ul>
 		<p>
-			On pourrait penser que Birthing Pod puisse être classer dans la catégorie Big Spell
-			puisque l'on a un deck qui se base essentiellement autour d'une carte, mais il n'en est
-			rien. D'une part cette carte est avant tout un moteur de CA et non un réel kill.
-			D'autre part, le fait de jouer la carte ne change pas de manière aussi radicale la
+			On pourrait penser que {{ birthing_pod }} puisse être classer dans la catégorie Big
+			Spell puisque l'on a un deck qui se base essentiellement autour d'une carte, mais il
+			n'en est rien. D'une part cette carte est avant tout un moteur de CA et non un réel
+			kill. D'autre part, le fait de jouer la carte ne change pas de manière aussi radicale la
 			physionomie de la partie comme le ferait un Living End ou un Balustrade Spy, c'est au
 			mieux une clock pour l'adversaire.
 		</p>
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed
+			ci_psychatog='<div>%(card)s</div>'|format(card=card_image("Psychatog"))|safe,
+			how_to_grow_a_tog=external("http://www.starcitygames.com/magic/vintage/4552_Gardening_In_Vintage_How_To_GroATog_And_Clip_A_Lotus.html","How to Grow-A-Tog and Clip a Lotus")
+		%}
 		<p>
 			<strong>Aggro-Contrôle-Combo</strong>
 		</p>
@@ -873,12 +974,13 @@
 				Une volonté de gérer le board que ce soit de manière pro-active ou réactive.
 			</li>
 		</ul>
+		{{ ci_psychatog }}
 		<p>
 			Les decks Aggro-Control-Combo sont extrêmement rare en dehors du Vintage car peu de
 			decks sont capable de produire des plans de jeux aussi variés de manière efficace. On
 			nomme dans cette catégorie le plus souvent le deck Gro-A-Tog en guise d'exemple cité
 			pour la première fois à ma connaissance dans l'article de 2003 de Stephen Menendian et
-			Paul Mastriano : How to Grow-A-Tog and Clip a Lotus.
+			Paul Mastriano : {{how_to_grow_a_tog }}.
 		</p>
 	</li>
 </ol>
