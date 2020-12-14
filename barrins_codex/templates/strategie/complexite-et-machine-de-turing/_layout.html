@@ -27,3 +27,38 @@
 	//*/
 </script>
 {% endblock %}
+
+{% block scripts %}
+<style>
+	@font-face {
+		font-family: titlefont;
+		src: url(https://www.magic-ville.com/fr/fonts/bankgthd.ttf);
+	}
+	tr:hover{
+		background-color: #fffdf5 !important;
+	}
+	.win_title {
+		background:url(https://www.magic-ville.com/fr/graph/fond/win_title.jpg);
+		border:1px black solid;
+		border-radius:2px;
+		padding:4px;
+		margin:2px;
+		font: 16px "titlefont" ;
+		color: #ffffff;
+	}
+	.title16 {
+		font: 16px "titlefont" ;
+		color: #ffffff;
+	}
+	.W12 {
+		font: 12px Verdana ;
+		color: #ffffff;
+	}
+	.O14 {
+		font: 14px Verdana ;
+	}
+	td > img {
+		height: 16px;
+	}
+</style>
+{% endblock %}
