@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>{{ _("Magic, Complexité et Machine de Turing") }}</h1>
+<div class="author">
+	<img src="#" alt="zombie33" />
+	<p>
+		{% trans %}
+		<em>Présentation de zombie33</em>
+		{% endtrans %}
+	</p>
+	<div class="clear"></div>
+</div>
+{% block section %} {% endblock %}
+{% endblock %}
+
+{% block script %}
+<script>
+	/*
+	(function () {
+		// DOM will be available here
+		var elements = document.getElementsByClassName("card-block");
+		[].forEach.call(elements, function (elt) {
+			sC(elt.name, elt.id);
+		});
+	})();
+	//*/
+</script>
+{% endblock %}
