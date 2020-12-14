@@ -53,7 +53,7 @@ STRUCTURE = Nav(
 	index=True,
 	children=[
 		Nav(
-			lazy_gettext("Stratégie"),
+			lazy_gettext("Articles"),
 			index=True,
 			children=[
 				Nav(
@@ -67,6 +67,9 @@ STRUCTURE = Nav(
 						Nav(lazy_gettext("Pour aller plus loin")),
 					],
 				),
+				Nav(lazy_gettext("L'Art de bien mélanger un deck")),
+				Nav(lazy_gettext("La loi hypergéométrique")),
+				Nav(lazy_gettext("Win O Maths")),
 				Nav(
 					lazy_gettext("Complexité et Machine de Turing"),
 					index=True,
@@ -91,26 +94,6 @@ STRUCTURE = Nav(
 						Nav(lazy_gettext("Golos, Tireless Pilgrim")),
 						Nav(lazy_gettext("Isamaru, Hound of Konda")),
 						Nav(lazy_gettext("The Gitrog Monster")),
-					],
-				),
-			],
-		),
-		Nav(
-			lazy_gettext("Maths et Magic"),
-			index=True,
-			children=[
-				Nav(
-					lazy_gettext("Théorie"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("La loi hypergéométrique")),
-					],
-				),
-				Nav(
-					lazy_gettext("Pratique"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Win O Maths")),
 					],
 				),
 			],
