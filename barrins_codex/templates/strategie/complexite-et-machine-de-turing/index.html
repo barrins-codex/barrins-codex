@@ -1,0 +1,38 @@
+{% extends "strategie/lart-de-classifier-les-decks/_layout.html" %}
+
+{% block section %}
+{% trans trimmed %}
+<p>
+	Le 23 Avril 2019 est sortie une publication mathématique traitant de Magic avec en bonus un
+	petit peu d'algorithmique théorique. Pour faire court, c'était Noël avant l'heure. Ce résultat
+	et surtout sa démonstration géniale m'ont très vite poussés à entamer la rédaction d'un article
+	sur le sujet. Mon enthousiaste fut de courte durée lorsque j'ai vu le contenu
+	de cet article déformé par la plupart des journaux en ligne manifestement pas assez spécialisé
+	dans le domaine. Ces articles aux titres aussi aguicheurs qu'approximatifs n'ont pu susciter
+	que de la confusion auprès des lecteurs.
+</p>
+<p>
+	Au final, en plus de clarifier certaines notions et de présenter la preuve de ce résultat d'une
+	manière qui je l'espère sera accessible à tous, je m'autoriserais quelques digressions plus ou
+	moins grande autour des notions de complexité, d'intelligences artificielles et de résolution
+	de jeu.
+</p>
+<p>
+Bonne lecture à tous.
+</p>
+{% endtrans %}
+<ul>
+	<li>
+		{{ link("/strategie/complexite-et-machine-de-turing/jeux-complexite-et-resolution") }}
+	</li>
+	<li>
+		{{ link("/strategie/complexite-et-machine-de-turing/magic-estil-vraiment-le-jeu-le-plus-complexe") }}
+	</li>
+	<li>
+		{{ link("/strategie/complexite-et-machine-de-turing/une-machine-de-turing-en-carte-magic") }}
+	</li>
+	<li>
+		{{ link("/strategie/complexite-et-machine-de-turing/un-jeu-de-nim-pour-se-detendre") }}
+	</li>
+</ul>
+{% endblock %}
