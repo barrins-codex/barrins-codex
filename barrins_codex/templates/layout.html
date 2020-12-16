@@ -42,7 +42,7 @@
 <body>
 	<header role="banner">
 		<a href="{{ i18n_url('') }}" class="site-logo">
-			<img src="{{ url_for('static', filename='img/icons/barrin.svg') }}" alt="Barrin's Codex">
+			<img src="{{ url_for('static', filename='img/icons/barrin.png') }}" alt="Barrin's Codex">
 			<h1>Barrin's Codex</h1>
 		</a>
 		<nav role="navigation">
@@ -88,5 +88,6 @@
 	</footer>
 </body>
 {% block script %}{% endblock %}
+{% block style %}{% endblock %}
 
 </html>
