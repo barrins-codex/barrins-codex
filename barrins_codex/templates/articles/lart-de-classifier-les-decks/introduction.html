@@ -2,58 +2,54 @@
 
 {% block section %}
 {% trans trimmed
+	partie_1=link("/articles/lart-de-classifier-les-decks/classification-en-macrotypes"),
+	partie_2=link("/articles/lart-de-classifier-les-decks/les-categories-de-decks"),
+	partie_3=link("/articles/lart-de-classifier-les-decks/la-classification-en-tiers"),
+	partie_4=link("/articles/lart-de-classifier-les-decks/pour-aller-plus-loin")
 %}
 <h2>Introduction</h2>
 <p>
-	Il y a neuf mois de cela, je me suis lancé dans l'écriture d'un très gros article. Seulement
-	très vite ce dernier prit de l'ampleur et son contenu devint assez technique alors qu'au
-	contraire je le souhaitais à l'origine accessible. Il me fallait donc faire une petite
-	introduction au préalable pour présenter les grandes stratégies que Magic pouvait offrir.
+	Au sens premier, le metagame est l'étude des différentes stratégies qu'un jeu permet. Avoir une
+	vue globale des stratégies possibles et de leurs efficacités les unes par rapport aux autres
+	est un point crucial pour progresser et améliorer son style de jeu. Vouloir regrouper les
+	différents decks selon leurs points communs ou leurs startégies permet de mieux les étudier.
+	Par conséquent, comment classer les deck ?
 </p>
-
 <p>
-	Bienvenue donc, dans cette "petite" introduction où nous allons nous pencher sur le Metagame
-	de Magic the Gathering. Le sens premier de metagame – ou meta-jeu – est l'étude des différentes
-	stratégies qu'un jeu permet. Avoir une vue globale des stratégies possibles et de leurs
-	efficacités les unes par rapport aux autres est un point crucial pour progresser et construire
-	son jeu. Il est naturel de vouloir assimiler les decks en fonction de leurs points communs ou
-	de leur plan de jeu pour mieux les étudier. Cela nous amène au principal problème que cet
-	article va tenter de résoudre : Comment classer les decks ? Il y a deux approches pour cela :
+	Deux méthodes s'opposent :
 </p>
 <ul>
 	<li>
-		Soit on part d'une classification fine des decks en rassemblant sous un même nom les decks
-		jouant à peu prêt les mêmes cartes et on parle alors de classification en archétypes.
+		L'approche par <strong>archétype</strong> qui rassemble des decks similaires en terme de
+		cartes jouées ;
 	</li>
 	<li>
-		Soit on part d'une classification grossière où on s'intéresse au plan de jeu global des
-		decks. Le but étant ici de regrouper un maximum de decks en un minimum de familles. On
-		parle ici de classification en macrotypes.
+		L'approche en <strong>macrotype</strong> qui rassemble des decks dont le plan de jeu est
+		similaire. Cette approche rapproche un maximum de decks dans un minimum de macrotypes.
 	</li>
 </ul>
 <p>
-	La première partie de cet article aura pour but de présenter les six classifications en
-	macrotype les plus répandues et de comprendre les avantages et les limites de chacune.
+	Cet article est de taille conséquente ; pour en faciliter la lecture, son contenu a été découpé
+	en plusieurs sections :
 </p>
-<p>
-	Dans la seconde partie, nous allons nous intéresser aux classifications en catégories, c'est à
-	dire à des raffinements intermédiaires entre les classifications en macrotypes et archétypes.
-	Les catégories sont en général plutôt méconnues des joueurs et je présenterais ici plus
-	particulièrement l'une d'entre elle qui est personnelle bien que s'inspirant inévitablement de
-	ce qu'on fait d'autres personnes avant moi.
-</p>
-<p>
-	La troisième partie aura pour but de pousser la réflexion plus loin et vous fournira bon nombre
-	de liens intéressant vers des articles complémentaires sur la classification des decks.
-</p>
-<p>
-	Pour terminer; la quatrième partie va traiter de la classification en tier c'est à dire suivant
-	la puissance des decks et de l'évolution d'un metagame avec le temps. Cette partie ambitieuse
-	et assez technique vient clore cet article avec une bonne dose de mathématiques car vous y avez
-	peut-être cru, mais non vous n'y échapperez pas !
-</p>
-<p>
-	Bonne lecture à tous !
-</p>
+<ul class="circle">
+	<li>
+		{{ partie_1 }}
+		présente les classifications en macrotypes les plus répandues, leurs avantages et leurs limites.
+	</li>
+	<li>
+		{{ partie_2 }}
+		présente les raffinements intermédiaires entre les classifications en macrotypes et
+		archétypes.
+	</li>
+	<li>
+		{{ partie_3 }}
+		étudie la classification en tier et de l'évolution d'un metagame avec le temps.
+	</li>
+	<li>
+		{{ partie_4 }}
+		conclue cet article et propose des pistes de réflexion.
+	</li>
+</ul>
 {% endtrans %}
 {% endblock %}
