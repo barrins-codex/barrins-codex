@@ -1,16 +1,9 @@
 {% extends "layout.html" %}
+{% import "articles/_contributors.html" as contributor with context %}
 
 {% block content %}
 <h1>{{ _("Magic, Complexité et Machine de Turing") }}</h1>
-<div class="author">
-	<img src="#" alt="zombie33" />
-	<p>
-		{% trans %}
-		<em>Présentation de zombie33</em>
-		{% endtrans %}
-	</p>
-	<div class="clear"></div>
-</div>
+{{ contributor.zombie33() }}
 {% block section %} {% endblock %}
 {% endblock %}
 
