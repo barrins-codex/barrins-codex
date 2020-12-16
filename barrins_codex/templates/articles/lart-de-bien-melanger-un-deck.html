@@ -1,16 +1,9 @@
 {% extends "layout.html" %}
+{% import "articles/_contributors.html" as contributor with context %}
 
 {% block content %}
 <h1>{{ _("L'Art de classifier les decks") }}</h1>
-<div class="author">
-	<img src="#" alt="zombie33" />
-	<p>
-		{% trans %}
-		<em>Présentation de zombie33</em>
-		{% endtrans %}
-	</p>
-	<div class="clear"></div>
-</div>
+{{ contributor.zombie33() }}
 
 {% trans trimmed
 	img_proba_main_depart='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/proba_main_depart.png'))|safe,
