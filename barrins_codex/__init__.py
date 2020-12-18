@@ -7,6 +7,15 @@ import flask
 import flask_babel
 import jinja2.exceptions
 
+# Base de données des cartes
+import gzip
+import json
+cartes = json.load(gzip.open("barrins_codex/static/json/library.json.gz"))
+library = {}
+for carte in cartes:
+	library[list(carte)[0]] = carte[list(carte)[0]]
+
+
 from . import config
 from . import navigation
 
@@ -145,29 +154,34 @@ def linker():
 	)
 
 
-def file_name(name):
+def _name(name):
 	name = unidecode.unidecode(name).lower()
 	name = re.sub(r"[^a-zA-Z0-9]", "", name)
 	return name
 
 
+def scryfall_id(name):
+	name = _name(name)
+	return library[name]["id"]
+
 @app.context_processor
 def display_card():
-	def card(name, display_name=None):
+	def card(name):
 		return flask.Markup(
-			"""<span class="card" onclick="dC('{fname}')" onmouseover="hC('{fname}')" onmouseout="oC()">{name}</span>""".format(
+			"""<span class="card" onclick="dC('{scryfallId}')" onmouseover="hC('{scryfallId}')" onmouseout="oC()">{name}</span>""".format(
 				# replace spaces with non-breakable spaces in card names
-				name=(display_name or name).replace(" ", " "),
-				fname=file_name(name),
+				name=name.replace(" ", " "),
+				scryfallId=scryfall_id(name),
 			)
 		)
 
 	def card_image(name, hover=True):
 		return flask.Markup(
-			"""<img class="card-block" id="id-{fname}" name="{fname}"  alt="{name}"
-				onmouseover="hC('{fname}')" onmouseout="oC()" onclick="dC('{fname}')" />""".format(
+			"""<img alt="{name}" onmouseout="oC()"
+				src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=small"
+				onmouseover="hC('{scryfallId}')" onclick="dC('{scryfallId}')" />""".format(
 				name=name.replace(" ", " "),
-				fname=file_name(name),
+				scryfallId=scryfall_id(name),
 			)
 		)
 
