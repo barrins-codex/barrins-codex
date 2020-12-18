@@ -31,10 +31,10 @@ if __name__ == "__main__":
 
 	library = {}
 	for set in sets["data"]:
+		if set["isOnlineOnly"]:
+			# Only images of paper versions
+			pass
 		if len(set["code"]) == 3:
-			if set["isOnlineOnly"]:
-				# Only images of paper versions
-				pass
 			# Only regular sets
 			for card in prints["data"][set["code"]]["cards"]:
 				# Cards may have another face : name_face_a / name_face_b
