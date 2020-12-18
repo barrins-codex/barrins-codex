@@ -1,8 +1,12 @@
-# barrins-codex
+# Barrin's Codex
 A website about MtG Duel Commander Strategy
 
-## Contributing
+## Special Thanks
+I started working with [lionel-panhaleux](https://github.com/lionel-panhaleux) on a project during first lockdown (around April 2021).
+We worked on his [Codex of the Damned](https://codex-of-the-damned.org/) ([repo](https://github.com/lionel-panhaleux/codex-of-the-damned)) to support internationalisation.
+The whole structure of this project is derived from his Codex, hence the name as a small tribute.
 
+## Contributing
 Contributions are welcome. [Pull Requests](https://github.com/Spigushe/barrins-codex/pulls) will be merged if they respect the general style.
 [Issues](https://github.com/Spigushe/barrins-codex/issues) will be dealt with as quickly as possible.
 
@@ -10,7 +14,6 @@ This site uses [Flask](https://flask.palletsprojects.com) and [Babel](http://bab
 to generate pages dynamically and handle internationalisation.
 
 ## Installation
-
 To install a working developpment version of the site, use `pip`:
 
 ```bash
@@ -19,7 +22,6 @@ pip install -e ".[dev]"
 ```
 
 ## Run the Codex
-
 You can run the development version of the site using the `codex` entrypoint:
 
 ```bash
