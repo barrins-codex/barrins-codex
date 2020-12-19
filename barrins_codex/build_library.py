@@ -18,10 +18,12 @@ def _get(card,set):
 		"name":card["name"],
 		"date":set["releaseDate"],
 		"id":card["identifiers"]["scryfallId"],
+		"types":card["types"],
 	}
 
 
 DIR_NAME = "static/json"
+SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token"}
 
 # https://api.scryfall.com/cards/{scryfallId}?format=image
 
@@ -33,6 +35,9 @@ if __name__ == "__main__":
 	for set in sets["data"]:
 		if set["isOnlineOnly"]:
 			# Only images of paper versions
+			pass
+		if set["type"] in SKIP_TYPES:
+			# Only regular expansions
 			pass
 		if len(set["code"]) == 3:
 			# Only regular sets
