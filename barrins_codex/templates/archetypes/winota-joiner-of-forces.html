@@ -1,0 +1,18 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/winota-joiner-of-forces.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Winota, Joiner of Forces</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+
+%}
+
+{% endtrans %}
+{% endblock %}

@@ -1,0 +1,797 @@
+{
+	"name": "Winota, Joiner of Forces",
+	"player": "Martin Cuchet",
+    "command": {
+        "cards": [
+            {
+                "count": "1",
+                "id": "5dd13a6c-23d3-44ce-a628-cb1c19d777c4",
+                "name": "Winota, Joiner of Forces",
+                "types": [
+                    "Creature"
+                ]
+            }
+        ],
+        "count": 1
+    },
+    "library": {
+        "cards": [
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "55611f05-10cf-42d0-b93e-7f0c0c852a06",
+                        "name": "Anafenza, Kin-Tree Spirit",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "85d2ecc7-4a49-48f1-9036-6c3f0f0296c3",
+                        "name": "Banisher Priest",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "241e5c4e-0f0b-4a3f-91e0-87387a11e81e",
+                        "name": "Benevolent Bodyguard",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "425bff89-ad15-4d22-bce9-a4a07dbafd87",
+                        "name": "Bomat Courier",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2816c031-8816-4f52-b1db-590f0688d801",
+                        "name": "Bruse Tarl, Boorish Herder",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "dd45820e-39be-448e-b446-44f3ebab555e",
+                        "name": "Charming Prince",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "98b0a4a8-9319-451b-9b79-b0bca7a41e91",
+                        "name": "Drannith Magistrate",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0d60eabe-b281-4eba-9c26-287364ed2067",
+                        "name": "Earthshaker Khenra",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "abc8e0f8-fdb9-4f24-a3e3-439f6cc3ebdc",
+                        "name": "Ethersworn Canonist",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ca9bcc90-0488-41cd-91e3-f4ca3dcbe5a4",
+                        "name": "Fiend Hunter",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2019a4dd-a2cb-47a0-a1d5-da40d42013f3",
+                        "name": "Figure of Destiny",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "4e117771-5a8b-4812-b487-32ba34b7f724",
+                        "name": "Giver of Runes",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "7450c7d6-4c09-4264-a711-b956f62f4d0e",
+                        "name": "Goblin Bushwhacker",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "86ecaedc-08f1-4de7-aae8-056df57940e0",
+                        "name": "Goblin Cratermaker",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3c0f5411-1940-410f-96ce-6f92513f753a",
+                        "name": "Goblin Guide",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "f32d7ce5-078b-40ff-8ecb-34309a0e3719",
+                        "name": "Goblin Instigator",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ee9c697e-d2c0-413b-9142-ecf5d7cf5322",
+                        "name": "Goblin Rabblemaster",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b4c4f694-618a-43ed-8781-2a51a234ba8e",
+                        "name": "Grand Abolisher",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "29b6ec9d-3861-48bf-a198-dc7efba5d89c",
+                        "name": "Grim Initiate",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b2671c36-96fa-49e3-90dc-52820b2c8a62",
+                        "name": "Icehide Golem",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6afead32-3542-44c4-82d6-b6a81beb9f90",
+                        "name": "Isamaru, Hound of Konda",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0885acdc-9b4c-4e28-8785-9e721a27e81e",
+                        "name": "Kargan Intimidator",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ff93d9e3-3e27-4bd4-955b-076788519694",
+                        "name": "Legion Loyalist",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5e84cb9c-9876-47a4-aea4-78574321bc36",
+                        "name": "Legion Warboss",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b5fef5fe-3e59-4fd6-8a88-7c1cee56892f",
+                        "name": "Loyal Apprentice",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "bb65df55-d6a6-4a57-a903-e5eb17637982",
+                        "name": "Luminous Broodmoth",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "1f685078-c9b3-42aa-be5a-be16be89ecc6",
+                        "name": "Magus of the Moon",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "fc0b64f2-2bbb-40bb-b025-3a303a22f68b",
+                        "name": "Mother of Runes",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "79045117-093b-47e2-ad5c-973810bc4925",
+                        "name": "Palace Jailer",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6982a82c-dd32-40d2-8dd2-ec92d0fc6c2d",
+                        "name": "Phyrexian Revoker",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0dcafa9e-3637-42ca-bdb2-45a2b5da7294",
+                        "name": "Pia and Kiran Nalaar",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6a2b2954-0734-4219-b6df-c6cc3dcd8d5a",
+                        "name": "Pia Nalaar",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "af3928b4-813a-4120-8799-de34235d60ac",
+                        "name": "Ranger-Captain of Eos",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "9620716d-9be8-4ebd-80d2-679373f4f897",
+                        "name": "Remorseful Cleric",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0a8e78b3-3232-4d48-9d6c-540951a0330e",
+                        "name": "Rick, Steadfast Leader",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ead15cf8-f692-4cb9-ac86-0dff00236145",
+                        "name": "Samurai of the Pale Curtain",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2e139ad1-1079-49e9-babd-6399c44ad333",
+                        "name": "Seasoned Pyromancer",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6911759c-7177-402c-a95a-f9f46efaf521",
+                        "name": "Selfless Savior",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "a4624976-3773-4a1e-b725-5f6efce147a5",
+                        "name": "Selfless Spirit",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "19f1ac65-aed8-4ac6-ba90-e088db6c1389",
+                        "name": "Simian Spirit Guide",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "bc4b938f-a600-4d10-8030-ed60cf6ade56",
+                        "name": "Skyclave Apparition",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "014027c4-7f9d-4096-b308-ea4be574c0d4",
+                        "name": "Skyclave Cleric ",
+                        "types": [
+                            "Land",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe",
+                        "name": "Stonecoil Serpent",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "4d3473d0-b46f-41f5-ac1e-ba217f7747d4",
+                        "name": "Stoneforge Mystic",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b05031dc-f99c-49d3-9a20-3453587d8dea",
+                        "name": "Thalia, Guardian of Thraben",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ab0cee38-5e24-49d0-870c-22843ed4e101",
+                        "name": "Thalia, Heretic Cathar",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "9c2000ef-3e6b-4f44-8bd6-ed8119336d5a",
+                        "name": "Thalia's Lieutenant",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "bd26b7b1-992d-4b8c-bc33-51aab5abdf98",
+                        "name": "Tithe Taker",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "bbac6d75-59ab-4d7d-87ae-46875abf8cc7",
+                        "name": "Zurgo Bellstriker",
+                        "types": [
+                            "Creature"
+                        ]
+                    }
+                ],
+                "count": 49,
+                "type": "Creatures"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "2cabfcfe-012e-4cab-bba2-24052eac0946",
+                        "name": "Chandra, Acolyte of Flame",
+                        "types": [
+                            "Planeswalker"
+                        ]
+                    }
+                ],
+                "count": 1,
+                "type": "Planeswalkers"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "425bff89-ad15-4d22-bce9-a4a07dbafd87",
+                        "name": "Bomat Courier",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "abc8e0f8-fdb9-4f24-a3e3-439f6cc3ebdc",
+                        "name": "Ethersworn Canonist",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b2671c36-96fa-49e3-90dc-52820b2c8a62",
+                        "name": "Icehide Golem",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "34f7bad2-d28f-42d2-9246-fe3545ef49a7",
+                        "name": "Jeweled Amulet",
+                        "types": [
+                            "Artifact"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "153983dd-54dc-420d-9249-665b0d669614",
+                        "name": "Lotus Petal",
+                        "types": [
+                            "Artifact"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6982a82c-dd32-40d2-8dd2-ec92d0fc6c2d",
+                        "name": "Phyrexian Revoker",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "8854e9a7-a799-47d0-8662-95aa527d3210",
+                        "name": "Skullclamp",
+                        "types": [
+                            "Artifact"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe",
+                        "name": "Stonecoil Serpent",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    }
+                ],
+                "count": 8,
+                "type": "Artifacts"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "9736d6f4-5ff6-4006-b45d-8e630382d160",
+                        "name": "Force of Virtue",
+                        "types": [
+                            "Enchantment"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "636cfc66-f1df-4c2e-b94e-dc621c6c289e",
+                        "name": "Goblin Bombardment",
+                        "types": [
+                            "Enchantment"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c",
+                        "name": "Legion's Landing ",
+                        "types": [
+                            "Land",
+                            "Enchantment"
+                        ]
+                    }
+                ],
+                "count": 3,
+                "type": "Enchantments"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+                        "name": "Lightning Bolt",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6c7c8527-55f6-494d-b4f7-c427a5735053",
+                        "name": "Raise the Alarm",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "48364e19-a3ea-4980-925f-7918e57315f1",
+                        "name": "Reverent Mantra",
+                        "types": [
+                            "Instant"
+                        ]
+                    }
+                ],
+                "count": 3,
+                "type": "Instants"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+                        "name": "Shatterskull Smashing ",
+                        "types": [
+                            "Land",
+                            "Sorcery"
+                        ]
+                    }
+                ],
+                "count": 1,
+                "type": "Sorceries"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+                        "name": "Arid Mesa",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "eb139e09-4e88-498a-908e-d16b5ddf1320",
+                        "name": "Battlefield Forge",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3ac535c1-9ef3-45b5-8959-7e79589d47ad",
+                        "name": "Blinkmoth Nexus",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+                        "name": "Bloodstained Mire",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2d120ddb-73e7-4dbc-b48c-4a6c74f331c3",
+                        "name": "City of Brass",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "a7a8b6b8-b95f-4014-b17a-a6d44d965995",
+                        "name": "City of Traitors",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "e0b52b9c-7278-46b4-9f3c-3a7fc0c7e526",
+                        "name": "Clifftop Retreat",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+                        "name": "Command Tower",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "1c28ab69-1a46-45af-a331-1f52f99a9da3",
+                        "name": "Crystal Vein",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "219c1d76-40cf-4edf-8145-e6cec8ca39ad",
+                        "name": "Eiganjo Castle",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+                        "name": "Flooded Strand",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "160ac412-005f-48ca-a204-10207307c6c2",
+                        "name": "Inspiring Vantage",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "4cb8d03e-e1d2-451e-97a8-141082f92501",
+                        "name": "Mana Confluence",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "723a163e-97c1-4177-a067-873bebd9a87d",
+                        "name": "Marsh Flats",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6559047e-6ede-4815-a3a0-389062094f9d",
+                        "name": "Needleverge Pathway ",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2ff721e2-b12a-4cd1-b846-fccd61c6b69b",
+                        "name": "Plateau",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+                        "name": "Prismatic Vista",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "225cd301-7d04-480d-94ed-52537d944c6f",
+                        "name": "Rugged Prairie",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b7b598d0-535d-477d-a33d-d6a10ff5439a",
+                        "name": "Sacred Foundry",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "9f10f026-eba0-4e33-b465-f3a852402718",
+                        "name": "Scalding Tarn",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "6",
+                        "id": "685a9d6d-497b-44a1-963f-501d61ea7f66",
+                        "name": "Snow-Covered Mountain",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "10",
+                        "id": "3066cc8b-7a5a-4822-a202-dd560a4fda85",
+                        "name": "Snow-Covered Plains",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "c36820fa-ee86-4206-9a0d-737a67cf5208",
+                        "name": "Sunbaked Canyon",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+                        "name": "Windswept Heath",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "a8503cca-7e7d-44c4-8587-81376b396398",
+                        "name": "Wooded Foothills",
+                        "types": [
+                            "Land"
+                        ]
+                    }
+                ],
+                "count": 42,
+                "type": "Lands"
+            }
+        ],
+        "count": 99
+    }
+}
