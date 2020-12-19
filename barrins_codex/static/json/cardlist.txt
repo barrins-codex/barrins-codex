@@ -10,11 +10,13 @@ abbeymatron
 abbotofkeralkeep
 abduction
 aberrantresearcher
+aberrantresearcherperfectedform
 abeyance
 abhorrentoverlord
 abjure
 abnormalendurance
 abolish
+abolisherofbloodlines
 abominabletreefolk
 abomination
 abominationofgudul
@@ -76,6 +78,7 @@ accursedcentaur
 accursedhorde
 accursedspirit
 accursedwitch
+accursedwitchinfectiouscurse
 achhansrun
 acidicdagger
 acidicslime
@@ -103,6 +106,7 @@ actoftreason
 actonimpulse
 adamantwill
 adamarofirsttodesire
+adantothefirstfort
 adantovanguard
 adaptiveautomaton
 adaptiveshimmerer
@@ -225,11 +229,14 @@ affaprotector
 affectionateindrik
 afflict
 afflicteddeserter
+afflicteddeserterwerewolfransacker
 afiyagrove
 afterlife
 aftershock
 agadeemoccultist
 agadeemsawakening
+agadeemsawakeningagadeemtheundercrypt
+agadeemtheundercrypt
 agelessentity
 agelesssentinels
 agentofacquisitions
@@ -304,6 +311,7 @@ akkiblizzardherder
 akkicoalflinger
 akkidrillmaster
 akkilavarunner
+akkilavarunnertoktokvolcanoborn
 akkiraider
 akkirockspeaker
 akkiunderling
@@ -316,7 +324,9 @@ akoumhellhound
 akoumhellkite
 akoumrefuge
 akoumstonewaker
+akoumteeth
 akoumwarrior
+akoumwarriorakoumteeth
 akrasansquire
 akroanconscriptor
 akroancrusader
@@ -383,6 +393,7 @@ alifromcairo
 alignedhedronnetwork
 aliriosenraptured
 alive
+alivewell
 allay
 alleyevasion
 alleygrifters
@@ -431,6 +442,7 @@ altarofthepantheon
 altarslight
 altarsreap
 alteredego
+alterfate
 alterreality
 aluren
 alwayswatching
@@ -490,7 +502,6 @@ anathemancer
 anavolver
 anaxandcymede
 anaxhardenedintheforge
-ancestordragon
 ancestorschosen
 ancestorsprophet
 ancestralblade
@@ -516,6 +527,7 @@ ancientgrudge
 ancienthellkite
 ancienthydra
 ancientkavu
+ancientoftheequinox
 ancientooze
 ancientrunes
 ancientsilverback
@@ -550,7 +562,6 @@ angelicpage
 angelicprotector
 angelicpurge
 angelicrenewal
-angelicreward
 angelicrocket
 angelicshield
 angelicskirmisher
@@ -612,6 +623,7 @@ animateland
 animatelibrary
 animatewall
 animatingfaerie
+animatingfaeriebringtolife
 animationmodule
 animistsawakening
 animusofpredation
@@ -676,6 +688,7 @@ apostlesblessing
 apothecarygeist
 apothecaryinitiate
 appeal
+appealauthority
 appetiteforbrains
 appetitefortheunnatural
 appliedaeronautics
@@ -752,10 +765,12 @@ archaeomancer
 archaeomender
 archangel
 archangelavacyn
+archangelavacynavacynthepurifier
 archangelofstrife
 archangelofthune
 archangeloftithes
 archangelslight
+archdemonofgreed
 archdemonofpaliano
 archdemonofunx
 archeloslagoonmystic
@@ -818,6 +833,7 @@ ardentrecruit
 ardentsoldier
 ardenvalepaladin
 ardenvaletactician
+ardenvaletacticiandizzyingswoop
 arena
 arenaathlete
 arenaoftheancients
@@ -838,13 +854,16 @@ argothianswine
 argothiantreefolk
 argothianwurm
 arguelsbloodfast
+arguelsbloodfasttempleofaclazotz
 ariaofflame
 aridmesa
 arisengorgon
 arixmethesslumberingisle
 arjuntheshiftingflame
 arkofblight
+arlinnembracedbythemoon
 arlinnkord
+arlinnkordarlinnembracedbythemoon
 arlinnswolf
 arlinnvoiceofthepack
 armadawurm
@@ -855,6 +874,7 @@ armamentcorps
 armamentmaster
 armamentofnyx
 armed
+armeddangerous
 armedresponse
 armillarysphere
 armistice
@@ -870,7 +890,6 @@ armoredskaab
 armoredskyhunter
 armoredtransport
 armoredwarhorse
-armoredwhirlturtle
 armoredwolfrider
 armorerguildmage
 armoroffaith
@@ -950,6 +969,7 @@ ashioksskulker
 ashlingsprerogative
 ashlingtheextinguisher
 ashlingthepilgrim
+ashmouthblade
 ashmouthhound
 ashnodsaltar
 ashnodsbattlegear
@@ -973,11 +993,13 @@ assassinsblade
 assassinsstrike
 assassinstrophy
 assault
+assaultbattery
 assaultformation
 assaultgriffin
 assaultstrobe
 assaultsuit
 assaultzeppelid
+assemble
 assembledalphas
 assemblethelegion
 assembletherankandvile
@@ -986,6 +1008,7 @@ assemblyworker
 assertauthority
 assquatch
 assure
+assureassemble
 asswhuppin
 astralcornucopia
 astraldrift
@@ -1015,6 +1038,7 @@ attendedknight
 attrition
 attunement
 attunewithaether
+atzalcaveofeternity
 atzocanarcher
 atzocanseer
 audaciousinfiltrator
@@ -1066,23 +1090,29 @@ aurochsherd
 aurorachampion
 auroraeidolon
 auroragriffin
+auroraofemrakul
 auroraphoenix
 auspiciousancestor
 auspiciousstarrix
 austerecommand
+authority
 authorityoftheconsuls
 autochthonwurm
 autokey
 autumnalgloom
+autumnalgloomancientoftheequinox
 autumnsveil
+autumntailkitsunesage
 autumnwillow
 avacynangelofhope
 avacynguardianangel
 avacynianmissionaries
+avacynianmissionarieslunarchinquisitors
 avacynianpriest
 avacynscollar
 avacynsjudgment
 avacynspilgrim
+avacynthepurifier
 avalanche
 avalancheriders
 avalanchetusker
@@ -1161,9 +1191,11 @@ awakentheancient
 awakenthebear
 awakentheerstwhile
 awakentheskytyrant
+away
 awefortheguilds
 awesomepresence
 awestrike
+awokenhorror
 awol
 axebanebeast
 axebaneguardian
@@ -1182,6 +1214,8 @@ ayulaqueenamongbears
 ayulasinfluence
 ayumithelastvisitor
 azamiladyofscrolls
+azamukitreacheryincarnate
+azcantathesunkenruin
 azimaetdrake
 azoriusaethermage
 azoriusarrester
@@ -1201,6 +1235,7 @@ azoriussignet
 azoriusskyguard
 azorselocutors
 azorsgateway
+azorsgatewaysanctumofthesun
 azorthelawbringer
 azrabladeseeker
 azraoddsmaker
@@ -1232,6 +1267,8 @@ bakeintoapie
 bakiscurse
 bakualtar
 balagedrecovery
+balagedrecoverybalagedsanctuary
+balagedsanctuary
 balagedscorpion
 balagedthief
 balance
@@ -1270,7 +1307,6 @@ balmofrestoration
 balothcagetrap
 balothgorger
 balothnull
-balothpackhunter
 balothpup
 balothwoodcrasher
 balshanbeguiler
@@ -1288,6 +1324,7 @@ banefire
 banefulomen
 banehound
 baneofbalaged
+baneofhanweir
 baneofprogress
 baneoftheliving
 baneslayerangel
@@ -1408,9 +1445,11 @@ batteringram
 batteringsliver
 batteringwurm
 batterskull
+battery
 battleatthebridge
 battlebrawler
 battlecry
+battledisplay
 battlefieldforge
 battlefieldmedic
 battlefieldpercher
@@ -1461,7 +1500,9 @@ beaconoftomorrows
 beaconofunrest
 beamsplittermage
 beanstalkgiant
+beanstalkgiantfertilefootsteps
 bearcub
+bearerofoverwhelmingtruths
 bearerofsilence
 beareroftheheavens
 bearscape
@@ -1480,9 +1521,12 @@ beastwalkers
 beastwhisperer
 beastwithin
 beck
+beckcall
 beckonapparition
 becomeimmense
+bedazzle
 bedeck
+bedeckbedazzle
 bedevil
 bedlam
 bedlamreveler
@@ -1502,6 +1546,7 @@ belbesarmor
 belbespercher
 belbesportal
 belfryspirit
+believe
 bellborcaspectralsergeant
 belleofthebrawl
 belligerentbrontodon
@@ -1564,7 +1609,9 @@ betrayalofflesh
 betrothedoffire
 betterthanone
 bewilder
+beyeencoast
 beyeenveil
+beyeenveilbeyeencoast
 bfmbigfurrymonster
 bidentofthassa
 bifurcate
@@ -1611,7 +1658,9 @@ bitterordeal
 bitterrevelation
 bituminousblast
 blackbladereforged
+blackbloombog
 blackbloomrogue
+blackbloomrogueblackbloombog
 blackcarriage
 blackcat
 blackcleavecliffs
@@ -1763,6 +1812,7 @@ blizzardstrix
 bloatedtoad
 blockaderunner
 blockbuster
+blood
 bloodartist
 bloodaspirant
 bloodbairn
@@ -1821,6 +1871,7 @@ bloodknight
 bloodletter
 bloodletterquill
 bloodlinekeeper
+bloodlinekeeperlordoflineage
 bloodlinenecromancer
 bloodlineshaman
 bloodlordofvaasgoth
@@ -1981,6 +2032,7 @@ bondsofquicksilver
 bonebreakergiant
 bonecladnecromancer
 bonecrushergiant
+bonecrushergiantstomp
 bonedancer
 bonedragon
 boneflute
@@ -2016,6 +2068,7 @@ bookburning
 bookdevourer
 bookofrass
 boom
+boombust
 boomerang
 boomflinger
 boompile
@@ -2078,10 +2131,13 @@ bottleofsuleiman
 bottomlesspit
 bottomlessvault
 boulderfall
+boulderloftpathway
+boulderrush
 bouldersalvo
 bouncingbeebles
 bound
 boundbymoonsilver
+bounddetermined
 boundingkrasis
 boundinsilence
 boundlessrealms
@@ -2129,9 +2185,11 @@ bramblewoodparagon
 branchingbolt
 branchingevolution
 branchloftpathway
+branchloftpathwayboulderloftpathway
 branchsnaplorian
 brand
 brandedbrawlers
+brandedhowler
 brandofillomen
 brashtaunter
 brassclaworcs
@@ -2150,6 +2208,7 @@ brawlbashogre
 brawlersplate
 brawn
 brazenborrower
+brazenborrowerpettytheft
 brazenbuccaneers
 brazenfreebooter
 brazenscourge
@@ -2160,16 +2219,17 @@ breachingleviathan
 breakasunder
 breakerofarmies
 breaking
+breakingentering
 breakingpoint
 breakingwave
 breakneckrider
+breakneckriderneckbreaker
 breakofday
 breakopen
 breakthrough
 breakthroughtheline
 breathofdarigaaz
 breathofdreams
-breathoffire
 breathoffury
 breathoflife
 breathofmalfegor
@@ -2193,6 +2253,7 @@ briberspurse
 bribery
 bridgefrombelow
 brightclimbpathway
+brightclimbpathwaygrimclimbpathway
 brightflame
 brighthearthbanneret
 brightling
@@ -2219,6 +2280,7 @@ brinehag
 brinelinthemoonkraken
 brineseer
 brineshaman
+bringback
 bringdown
 bringeroftheblackdawn
 bringerofthebluedawn
@@ -2226,6 +2288,7 @@ bringerofthegreendawn
 bringerofthereddawn
 bringerofthewhitedawn
 bringlow
+bringtolife
 bringtolight
 bringtotrial
 brinkofdisaster
@@ -2274,6 +2337,7 @@ browse
 brudicladtelchorengineer
 brunalightofalabaster
 brunathefadinglight
+brunathefadinglightbriselavoiceofnightmares
 brusetarlboorishherder
 brushfireelemental
 brushland
@@ -2297,7 +2361,9 @@ bubblingcauldron
 bubblingmuck
 buccaneersbravado
 budokagardener
+budokagardenerdokaiweaveroflife
 budokapupil
+budokapupilichigawhotopplesoaks
 buildersbane
 buildersblessing
 builttolast
@@ -2322,6 +2388,7 @@ burglarrat
 buriedalive
 buriedruin
 burlfistoak
+burn
 burnatthestake
 burnaway
 burnbright
@@ -2364,7 +2431,9 @@ burstofenergy
 burstofspeed
 burstofstrength
 bushitenderfoot
+bushitenderfootkenzothehardhearted
 bushmeatpoacher
+bust
 butcherghoul
 butcherofmalakir
 butcherofthehorde
@@ -2422,6 +2491,7 @@ calderakavu
 calderalake
 caligoskinwitch
 calixdestinyshand
+call
 callaphebelovedofthesea
 callerofgales
 calleroftheclaw
@@ -2441,6 +2511,7 @@ callousdismissal
 callousgiant
 callousoppressor
 callowjushi
+callowjushijarakutheinterloper
 callthebloodline
 callthecavalry
 callthecoppercoats
@@ -2537,6 +2608,7 @@ caregiver
 carelesscelebrant
 caressofphyrexia
 caribourange
+carnage
 carnagealtar
 carnagegladiator
 carnagetyrant
@@ -2544,6 +2616,7 @@ carnagewurm
 carnassid
 carnifexdemon
 carnival
+carnivalcarnage
 carnivalhellsteed
 carnivalofsouls
 carnivorousdeathparrot
@@ -2595,6 +2668,7 @@ castlelocthwain
 castleraptors
 castlesengir
 castlevantress
+castoff
 castout
 castthroughtime
 casualtiesofwar
@@ -2612,6 +2686,7 @@ catapultsquad
 catastrophe
 catburglar
 catch
+catchrelease
 cateranbrute
 cateranenforcer
 caterankidnappers
@@ -2685,7 +2760,6 @@ celestialmessenger
 celestialprism
 celestialpurge
 celestialsword
-celestinereef
 cellardoor
 cemeterygate
 cemeterypuca
@@ -2763,7 +2837,9 @@ chainwebaracnir
 chainwhipcyclops
 chakramretriever
 chakramslinger
+chaliceofdeath
 chaliceoflife
+chaliceoflifechaliceofdeath
 chaliceofthevoid
 challengertroll
 chamberednautilus
@@ -2784,6 +2860,7 @@ championofwits
 championsdrake
 championshelm
 championsvictory
+chance
 chanceencounter
 chanceforglory
 chancelloroftheannex
@@ -2798,6 +2875,7 @@ chandraawakenedinferno
 chandraboldpyromancer
 chandrafireartisan
 chandrafireofkaladesh
+chandrafireofkaladeshchandraroaringflame
 chandraflamecaller
 chandraflamescatalyst
 chandraflamesfury
@@ -2807,6 +2885,7 @@ chandranalaar
 chandranovicepyromancer
 chandrapyrogenius
 chandrapyromaster
+chandraroaringflame
 chandrasdefeat
 chandrasembercat
 chandrasfiremaw
@@ -2839,6 +2918,7 @@ channelharm
 channelthesuns
 chantoftheskifsang
 chantofvitughazi
+chaos
 chaoscharm
 chaosconfetti
 chaosharlequin
@@ -2959,6 +3039,7 @@ chokingtethers
 chokingvines
 chomannorevolutionary
 chomannosblessing
+chopdown
 chordofcalling
 chorusofmight
 chorusoftheconclave
@@ -2966,6 +3047,7 @@ chorusofthetides
 chorusofwoe
 chosenbyheliod
 chosenofmarkov
+chosenofmarkovmarkovsservant
 chromanticore
 chromaticarmor
 chromaticlantern
@@ -3046,8 +3128,10 @@ civicsaber
 civicstalwart
 civicwayfinder
 civilizedscholar
+civilizedscholarhomicidalbrute
 clackbridgetroll
 claim
+claimfame
 claimoferebos
 claimthefirstborn
 clairvoyance
@@ -3084,6 +3168,7 @@ clearthemind
 clearthestage
 clearwatergoblet
 clearwaterpathway
+clearwaterpathwaymurkwaterpathway
 cleaverriot
 cleavingsliver
 clergyenvec
@@ -3129,6 +3214,7 @@ clockworksteed
 clockworkswarm
 clockworkvorrac
 cloisteredyouth
+cloisteredyouthunholyfiend
 clone
 clonelegion
 cloneshell
@@ -3241,7 +3327,7 @@ collectivevoyage
 collectorouphe
 collectorprotector
 collision
-colorfulfeiyisparrow
+collisioncolossus
 colossaldreadmaw
 colossalheroics
 colossalmajesty
@@ -3250,6 +3336,7 @@ colossalwhale
 colossapede
 colossification
 colossodonyearling
+colossus
 colossushammer
 colossusofakros
 colossusofsardia
@@ -3280,6 +3367,7 @@ commandtower
 commencementoffestivities
 commencetheendgame
 commit
+commitmemory
 commonbond
 commoncause
 commoncourtesy
@@ -3295,9 +3383,9 @@ compellingdeterrence
 completedisregard
 complexautomaton
 complicate
+comply
 compositegolem
 compost
-compoundfracture
 compulsion
 compulsiveresearch
 compulsoryrest
@@ -3314,16 +3402,18 @@ conclavenaturalists
 conclavephalanx
 conclavesblessing
 conclavetribunal
+concoct
 concordantcrossroads
 concordiapegasus
 concussivebolt
 condemn
 condescend
+conduitofemrakul
 conduitofruin
 conduitofstorms
+conduitofstormsconduitofemrakul
 coneofflame
 confessor
-confidencefromstrength
 confirmsuspicions
 confiscate
 confiscationcoup
@@ -3331,7 +3421,6 @@ conflagrate
 conflux
 confound
 confoundingconundrum
-confronttheassault
 confronttheunknown
 confusionintheranks
 congregate
@@ -3343,17 +3432,22 @@ conjurersban
 conjurersbauble
 conjurerscloset
 connive
+conniveconcoct
 conquer
 conqueringmanticore
 conquerorsflail
+conquerorsfoothold
 conquerorsgalleon
+conquerorsgalleonconquerorsfoothold
 conquerorspledge
 consecrate
+consecrateconsume
 consecratedbyblood
 consecratedsphinx
 consecrateland
 conservator
 consign
+consignoblivion
 consigntodream
 consigntodust
 consigntothepit
@@ -3370,6 +3464,7 @@ consulateturret
 consulslieutenant
 consulsshieldguard
 consultthenecrosages
+consume
 consumespirit
 consumestrength
 consumethemeek
@@ -3411,10 +3506,12 @@ convalescentcare
 conversion
 conversionchamber
 convictedkiller
+convictedkillerbrandedhowler
 conviction
 convincingmirage
 convolute
 convulsinglicid
+cooperate
 cooperation
 coordinatedassault
 coordinatedbarrage
@@ -3552,6 +3649,7 @@ craftycutpurse
 craftyoctopus
 craftypathmage
 cragcrownpathway
+cragcrownpathwaytimbercrownpathway
 cragganwickcremator
 cragplatebaloth
 cragpuca
@@ -3612,6 +3710,7 @@ crestedsunmare
 crevasse
 cribswap
 crime
+crimepunishment
 crimsonacolyte
 crimsonfleetcommodore
 crimsonhellkite
@@ -3670,7 +3769,6 @@ crucibleofworlds
 cruderampart
 cruelbargain
 cruelcelebrant
-cruelcut
 crueldeceiver
 crueledict
 cruelentertainment
@@ -3726,6 +3824,7 @@ cryptlurker
 cryptofagadeem
 cryptoftheeternals
 cryptolithfragment
+cryptolithfragmentauroraofemrakul
 cryptolithrite
 cryptoplasm
 cryptrats
@@ -3770,6 +3869,7 @@ cumberstone
 cunning
 cunningadvisor
 cunningbandit
+cunningbanditazamukitreacheryincarnate
 cunningbreezedancer
 cunningevasion
 cunninggeysermage
@@ -3787,10 +3887,13 @@ curfew
 curiosity
 curiousherd
 curioushomunculus
+curioushomunculusvoraciousreader
 curiouskillbot
 curiousobsession
 curiouspair
+curiouspairtreatstoshare
 curiovendor
+curryfavor
 curseartifact
 cursebreak
 cursecatcher
@@ -3822,6 +3925,8 @@ curseofstalkedprey
 curseofthebloodytome
 curseofthecabal
 curseofthefirepenguin
+curseofthefirepenguincreature
+curseofthefirepenguincurseofthefirepenguincreature
 curseoftheforsaken
 curseofthenightlyhunt
 curseofthepiercedheart
@@ -3842,6 +3947,7 @@ custodisquire
 custodybattle
 customsdepot
 cut
+cutribbons
 cuttheearthlybond
 cutthetethers
 cutthroatildal
@@ -3904,6 +4010,7 @@ danceoftheskywise
 dancewithdevils
 dancingscimitar
 dandan
+dangerous
 dangerouswager
 danithacapashenparagon
 darajagriffin
@@ -3927,6 +4034,7 @@ daringleap
 daringsaboteur
 daringskyjek
 daringsleuth
+daringsleuthbearerofoverwhelmingtruths
 daringthief
 darkbanishing
 darkbargain
@@ -4028,6 +4136,7 @@ davenanthealer
 davenanttrapper
 davrielrogueshadowmage
 davrielsshadowfugue
+dawn
 dawnbreakreclaimer
 dawnbringercharioteers
 dawncharm
@@ -4053,11 +4162,13 @@ daxosblessedbythesun
 daxosofmeletis
 daxosstorment
 daxosthereturned
+day
 daybreakchaplain
 daybreakcharger
 daybreakchimera
 daybreakcoronet
 daybreakranger
+daybreakrangernightfallpredator
 dayofdestiny
 dayofjudgment
 dayofthedragons
@@ -4083,6 +4194,7 @@ deadeyerighauler
 deadeyetormentor
 deadeyetracker
 deadfall
+deadgone
 deadhead
 deadironsledge
 deadlocktrap
@@ -4112,6 +4224,7 @@ deafeningsilence
 dealbroker
 dealdamage
 dearlydeparted
+death
 deathbaron
 deathbellowraider
 deathbellowwarcry
@@ -4203,6 +4316,7 @@ deconstruct
 decoratedchampion
 decoratedgriffin
 decoratedknight
+decoratedknightpresentarms
 decoygambit
 decreeofannihilation
 decreeofjustice
@@ -4290,11 +4404,14 @@ delifscube
 delightedkillbot
 delirium
 deliriumskeins
+deliver
 deliveruntoevil
 delraich
 deluge
 delusionsofmediocrity
 delverofsecrets
+delverofsecretsinsectileaberration
+demand
 demandingdragon
 dematerialize
 dementiabat
@@ -4325,6 +4442,7 @@ demonofdarkschemes
 demonofdeathsgate
 demonofloathing
 demonofwailingagonies
+demonpossessedwitch
 demonsdisciple
 demonsgrasp
 demonsherald
@@ -4345,9 +4463,11 @@ denyreality
 denythedivine
 depalapilotexemplar
 departeddeckhand
+deploy
 deploythegatewatch
 deploytothefront
 depose
+deposedeploy
 deprive
 depthsofdesire
 deputizedprotester
@@ -4394,6 +4514,7 @@ desolation
 desolationangel
 desolationgiant
 desolationtwin
+despair
 despark
 desperatecastaways
 desperatecharge
@@ -4411,6 +4532,7 @@ despondency
 despondentkillbot
 despoticscepter
 destined
+destinedlead
 destinyspinner
 destroytheevidence
 destructivedigger
@@ -4423,6 +4545,7 @@ destructordragon
 detainmentspell
 detectiontower
 detentionsphere
+determined
 detonate
 detritivore
 deusofcalamity
@@ -4431,6 +4554,7 @@ devastatingdreams
 devastatingsummons
 devastation
 devastationtide
+development
 deviantglee
 devilsplay
 devilsplayground
@@ -4540,6 +4664,7 @@ dirgeofdread
 dirgurnemesis
 dirtcowlwurm
 dirtwaterwraith
+dirty
 dirtyrat
 dirtywererat
 disallow
@@ -4565,6 +4690,7 @@ discordantdirge
 discordantpiper
 discordantspirit
 discovery
+discoverydispersal
 disdainfulstroke
 diseasecarriers
 diseasedvermin
@@ -4593,6 +4719,7 @@ dispatchdispensary
 dispel
 dispellerscapsule
 dispensejustice
+dispersal
 dispersalshield
 dispersaltechnician
 disperse
@@ -4656,6 +4783,7 @@ diviningwitch
 divinityofpride
 divisiontable
 dizzyinggaze
+dizzyingswoop
 dizzyspell
 djerusrenunciation
 djerusresolve
@@ -4665,12 +4793,14 @@ djinnofinfinitedeceits
 djinnofthelamp
 djinnofwishes
 docentofperfection
+docentofperfectionfinaliteration
 docksideextortionist
 dodecapod
 doggedhunter
 dogpile
 dogsnailengine
 doityourselfseraph
+dokaiweaveroflife
 dolmengate
 domesticatedhydra
 domestication
@@ -4740,11 +4870,13 @@ dovinsautomaton
 dovinsdismissal
 dovinsveto
 down
+downdirty
 downdraft
 downhillcharge
 downpour
 downsize
 dowsingdagger
+dowsingdaggerlostvale
 dowsingshaman
 draco
 draconiancylix
@@ -4920,6 +5052,7 @@ drinkerofsorrow
 drippingdead
 drippingtonguezubera
 driven
+drivendespair
 driverofthedead
 drjuliusjumblemorph
 drogskolcaptain
@@ -4939,6 +5072,7 @@ dromokasgift
 dromokatheeternal
 dromokawarrior
 dromosaur
+dronepackkindred
 droningbureaucrats
 droolinggroodion
 droolingogre
@@ -4961,7 +5095,6 @@ drownerinitiate
 drownerofhope
 drownerofsecrets
 drowninfilth
-drowninshapelessness
 drowninsorrow
 drownintheloch
 drownyardbehemoth
@@ -5036,6 +5169,7 @@ dusk
 duskborneskymarcher
 duskcharger
 duskdalewurm
+duskdawn
 duskfangmentor
 duskfeaster
 duskhunterbat
@@ -5052,7 +5186,9 @@ duskriderperegrine
 duskurchins
 duskwalker
 duskwatchrecruiter
+duskwatchrecruiterkrallenhordehowler
 duskworker
+dust
 dustbowl
 dustcorona
 dustelemental
@@ -5114,6 +5250,7 @@ earlyfrost
 earlyharvest
 earnestfellowship
 earsplittingrats
+earth
 earthbind
 earthblighter
 earthbrawn
@@ -5123,14 +5260,12 @@ earthenarms
 earthengoo
 earthlink
 earthlore
-earthoriginyak
 earthquake
 earthrift
 earthservant
 earthshaker
 earthshakergiant
 earthshakerkhenra
-earthshakingsi
 earthsurge
 earwigsquad
 easternpaladin
@@ -5197,6 +5332,7 @@ eladamriscall
 eladamrisvineyard
 elandumbra
 elbrusthebindingblade
+elbrusthebindingbladewithengarunbound
 eldercathar
 elderdeepfiend
 elderdruid
@@ -5281,6 +5417,7 @@ elspethundauntedhero
 elusivekrasis
 elusivespellfist
 elusivetormentor
+elusivetormentorinsidiousmist
 elvencache
 elvenfortress
 elvenlyre
@@ -5337,6 +5474,7 @@ emberbeast
 embercleave
 emberethpaladin
 emberethshieldbreaker
+emberethshieldbreakerbattledisplay
 emberethskyblazer
 embereyewolf
 emberfistzubera
@@ -5376,6 +5514,8 @@ emergeunscathed
 emeriaangel
 emeriacaptain
 emeriascall
+emeriascallemeriashatteredskyclave
+emeriashatteredskyclave
 emeriashepherd
 emeriatheskyruin
 emieltheblessed
@@ -5444,6 +5584,7 @@ endling
 endoskeleton
 endrazeforerunners
 endreksahrmasterbreeder
+ends
 endure
 enduringideal
 enduringrenewal
@@ -5504,6 +5645,7 @@ ensouledscimitar
 entangler
 entanglingtrap
 entanglingvines
+entering
 enterthedungeon
 enterthegodeternals
 entertheinfinite
@@ -5552,7 +5694,9 @@ eradicate
 eraofinnovation
 erase
 erasenottheurzaslegacyone
+erayosessence
 erayosoratamiascendant
+erayosoratamiascendanterayosessence
 erdwalilluminator
 erdwalripper
 erebosbleakhearted
@@ -5575,6 +5719,7 @@ erraticexplosion
 erraticmutation
 erraticportal
 erraticvisionary
+error
 ersatzgnomes
 erstwhiletrooper
 ertaisfamiliar
@@ -5582,6 +5727,7 @@ ertaismeddling
 ertaistrickery
 ertaithecorrupted
 ertaiwizardadept
+eruptingdreadwolf
 escapeartist
 escapednull
 escapedshapeshifter
@@ -5731,6 +5877,7 @@ exoticcurse
 exoticdisease
 exoticorchard
 expansion
+expansionexplosion
 expedite
 expeditionchampion
 expeditiondiviner
@@ -5750,6 +5897,7 @@ explodingborders
 exploration
 explore
 explorersscope
+explosion
 explosionofriches
 explosiveapparatus
 explosivegrowth
@@ -5778,7 +5926,9 @@ extractordemon
 extraplanarlens
 extravagantspirit
 extremelyslowzombie
+extricatorofflesh
 extricatorofsin
+extricatorofsinextricatorofflesh
 extruder
 exuberantfirestoker
 exuberantwolfbear
@@ -5831,12 +5981,14 @@ fadefrommemory
 fadeintoantiquity
 faeburrowelder
 faeofwishes
+faeofwishesgranted
 faerieaerie
 faerieartisans
 faerieconclave
 faerieduelist
 faerieformation
 faerieguidemother
+faerieguidemothergiftofthefae
 faerieharbinger
 faerieimpostor
 faerieinvaders
@@ -5852,10 +6004,12 @@ faerietrickery
 faerievandal
 failedinspection
 failure
+failurecomply
 fairgroundstrumpeter
 fairgroundswarden
 faithbearerpaladin
 faithfulsquire
+faithfulsquirekaisomemoryofloyalty
 faithhealer
 faithlesslooting
 faithofthedevoted
@@ -5871,6 +6025,7 @@ falkenrathmarauders
 falkenrathnoble
 falkenrathreaver
 falkenrathtorturer
+fall
 fallenangel
 fallenaskari
 fallencleric
@@ -5899,6 +6054,7 @@ falseprophet
 falsesummoning
 falter
 falthisshadowcatfamiliar
+fame
 familiarground
 familiarsruse
 famine
@@ -5919,6 +6075,7 @@ fangrenpathcutter
 fangskulkin
 fanningtheflames
 far
+faraway
 farbogboneflinger
 farbogexplorer
 farbogrevenant
@@ -5926,6 +6083,7 @@ farewelltoarms
 farfinder
 farhavenelf
 farm
+farmmarket
 farmstead
 farmsteadgleaner
 farrelitepriest
@@ -6001,6 +6159,7 @@ feathertheredeemed
 featofresistance
 fecundity
 feebleness
+feed
 feedback
 feedbackbolt
 feedingfrenzy
@@ -6010,7 +6169,6 @@ feedtheswarm
 feelingofdread
 feint
 feistystegosaurus
-feiyisnake
 feldonofthethirdpath
 feldonscane
 felhidebrawler
@@ -6054,7 +6212,6 @@ ferallightning
 feralmaaka
 feralprowler
 feralridgewolf
-feralroar
 feralshadow
 feralthallid
 feralthrowback
@@ -6067,6 +6224,7 @@ ferocityofthewilds
 ferozsban
 ferropede
 ferrovore
+fertilefootsteps
 fertileground
 fertileimagination
 fertilethicket
@@ -6101,6 +6259,7 @@ fevercharm
 feveredconvulsions
 feveredstrength
 feveredvisions
+fibrousentangler
 fickleefreet
 fiddleheadkami
 fieldcreeper
@@ -6138,6 +6297,7 @@ fieryislet
 fieryjustice
 fierymantle
 fierytemper
+fight
 fightasone
 fightingchance
 fightingdrake
@@ -6161,6 +6321,8 @@ finaleofpromise
 finaleofrevelation
 finalflare
 finalfortune
+finaliteration
+finality
 finaljudgment
 finalparting
 finalpayment
@@ -6172,7 +6334,9 @@ finalstrike
 fincladefugitives
 find
 finderskeepers
+findfinality
 finesthour
+finish
 finishingblow
 fire
 fireambush
@@ -6207,6 +6371,7 @@ firefly
 fireforgerspuzzleknot
 firefrightmage
 firehoofcavalry
+fireice
 fireimp
 firejuggler
 firelitthicket
@@ -6217,7 +6382,6 @@ firemawkavu
 firemindsforesight
 firemindsresearch
 firemindvessel
-fireomencrane
 fireprophecy
 firescreamer
 fireservant
@@ -6276,6 +6440,7 @@ flamecastwheel
 flamecoreelemental
 flameelemental
 flamefusillade
+flameheartwerewolf
 flamejab
 flamejavelin
 flamejet
@@ -6327,6 +6492,7 @@ flatten
 flavorjudge
 flawlessmaneuver
 flaxenintruder
+flaxenintruderwelcomehome
 flay
 flayednim
 flayerdrone
@@ -6354,6 +6520,7 @@ flensermite
 flesh
 fleshallergy
 fleshbagmarauder
+fleshblood
 fleshcarver
 flesheaterimp
 fleshformer
@@ -6395,9 +6562,11 @@ floodtideserpent
 floodwaterdam
 floodwaters
 floralspuzzem
+flourish
 flourishingdefenses
 flourishingfox
 flower
+flowerflourish
 floweringfield
 floweringlumberknot
 flowofideas
@@ -6565,6 +6734,7 @@ foulemissary
 foulfamiliar
 foulimp
 foulmireknight
+foulmireknightprofaneinsight
 foulorchard
 foulpresence
 foulrenewal
@@ -6798,6 +6968,7 @@ gangup
 garbageelemental
 garbagefire
 garenbrigcarver
+garenbrigcarvershieldsmight
 garenbrigpaladin
 garenbrigsquire
 gargantuangorilla
@@ -6813,6 +6984,7 @@ garrukcallerofbeasts
 garrukcursedhuntsman
 garrukprimalhunter
 garrukrelentless
+garrukrelentlessgarruktheveilcursed
 garruksavageherald
 garrukscompanion
 garruksgorehorn
@@ -6821,6 +6993,7 @@ garrukshorde
 garrukspackleader
 garruksuprising
 garrukswarsteed
+garruktheveilcursed
 garrukunleashed
 garrukwildspeaker
 garruloussycophant
@@ -6848,7 +7021,11 @@ gatherspecimens
 gatherthepack
 gatherthetownsfolk
 gatstafarsonists
+gatstafarsonistsgatstafravagers
+gatstafhowler
+gatstafravagers
 gatstafshepherd
+gatstafshepherdgatstafhowler
 gauntletofmight
 gauntletofpower
 gauntletsofchaos
@@ -6867,6 +7044,7 @@ gearshiftace
 gearsmithguardian
 gearsmithprodigy
 geierreachbandit
+geierreachbanditvildinpackalpha
 geierreachsanitarium
 geistblast
 geistcatchersrig
@@ -6948,6 +7126,7 @@ ghastlyconscription
 ghastlydemise
 ghastlydiscovery
 ghastlygloomhunter
+ghastlyhaunting
 ghastlyremains
 ghaveguruofspores
 ghazbanogre
@@ -7027,6 +7206,7 @@ giantfan
 giantgrowth
 giantharbinger
 giantkiller
+giantkillerchopdown
 giantmantis
 giantoctopus
 giantopportunity
@@ -7049,6 +7229,7 @@ gibberingfiend
 gibberinghyenas
 gibberingkami
 gideonallyofzendikar
+gideonbattleforged
 gideonblackblade
 gideonchampionofjustice
 gideonjura
@@ -7077,6 +7258,7 @@ giftoforzhova
 giftofparadise
 giftofstrength
 giftofthedeity
+giftofthefae
 giftofthegargantuan
 giftofthewoods
 giftoftusks
@@ -7112,11 +7294,13 @@ gisaandgeralf
 gisasbidding
 giselabladeofgoldnight
 giselathebrokenblade
+giselathebrokenbladebriselavoiceofnightmares
 gishathsunsavatar
 gitaxianprobe
 give
 givenoground
 giverofrunes
+givetake
 glacialchasm
 glacialcrasher
 glacialcrevasses
@@ -7151,6 +7335,8 @@ glassesofurza
 glassgolem
 glassoftheguildpact
 glasspoolmimic
+glasspoolmimicglasspoolshore
+glasspoolshore
 glazefiend
 gleamingbarrier
 gleamingoverseer
@@ -7160,7 +7346,6 @@ gleamofresistance
 gleancrawler
 gleefulsabotage
 gleemax
-gleemox
 glenelendraarchmage
 glenelendraliege
 glenelendrapranksters
@@ -7314,7 +7499,6 @@ goblinflotilla
 goblinfreerunner
 goblinfurrier
 goblingame
-goblingangleader
 goblingardener
 goblingathering
 goblingaveleer
@@ -7438,16 +7622,19 @@ godtrackerofjund
 goforblood
 goforthethroat
 gohamdjinn
+gokatheunjust
 goldenbear
 goldendemise
 goldenegg
 goldenglowmoth
 goldenguardian
+goldenguardiangoldforgegarrison
 goldenhideox
 goldenhind
 goldenurn
 goldenwish
 goldforgedsentinel
+goldforgegarrison
 goldmanegriffin
 goldmeadowdodger
 goldmeadowharrier
@@ -7485,6 +7672,7 @@ goliathspider
 golostirelesspilgrim
 gomafadavanguard
 gomazoa
+gone
 gonemissing
 gontilordofluxury
 gontisaetherheart
@@ -7528,6 +7716,7 @@ grafdiggerscage
 grafharvest
 grafmole
 grafrats
+grafratschitteringhost
 graftedexoskeleton
 graftedskullcap
 graftedwargear
@@ -7545,6 +7734,7 @@ granitegrip
 graniteshard
 granitictitan
 grannyspayback
+granted
 granulate
 grapeshot
 grapeshotcatapult
@@ -7683,6 +7873,7 @@ grimaffliction
 grimbackwoods
 grimcaptainscall
 grimclawbats
+grimclimbpathway
 grimcontest
 grimdancer
 grimdiscovery
@@ -7696,6 +7887,8 @@ grimharvest
 griminitiate
 grimlavamancer
 grimlockdinobotleader
+grimlockdinobotleadergrimlockferociousking
+grimlockferociousking
 grimmonolith
 grimoireofthedead
 grimoirethief
@@ -7708,6 +7901,7 @@ grimstrider
 grimtutor
 grind
 grindclock
+grinddust
 grindingstation
 grindstone
 grinningdemon
@@ -7720,6 +7914,7 @@ gripofphyresis
 gripoftheroil
 griptide
 griselbrand
+grislyanglerfish
 grislysalvage
 grislyspectacle
 grislysurvivor
@@ -7735,8 +7930,10 @@ grixispanorama
 grixisslavedriver
 grixissojourners
 grizzledangler
+grizzledanglergrislyanglerfish
 grizzledleotau
 grizzledoutcasts
+grizzledoutcastskrallenhordewantons
 grizzledwolverine
 grizzlybears
 grizzlyfate
@@ -7767,6 +7964,7 @@ grovetenderdruids
 growfromtheashes
 growingranks
 growingritesofitlimoc
+growingritesofitlimocitlimoccradleofthesun
 growthchamberguardian
 growthcycle
 growthspasm
@@ -7894,12 +8092,16 @@ haazdasnaresquad
 hackrobat
 hadafreeblade
 hadanasclimb
+hadanasclimbwingedtempleoforazca
 hadaspypatrol
+haggle
 haghedgemage
+hagrabroodpit
 hagraconstrictor
 hagracrocodile
 hagradiabolist
 hagramauling
+hagramaulinghagrabroodpit
 hagrasharpshooter
 hailofarrows
 hailstorm
@@ -7931,7 +8133,6 @@ hallowedfountain
 hallowedground
 hallowedhealer
 hallowedmoonlight
-hallowedpriest
 hallowedspiritkeeper
 hallsofmist
 halohunter
@@ -7975,11 +8176,15 @@ hannascustody
 hannashipsnavigator
 hanseriksson
 hanweirbattlements
+hanweirbattlementshanweirthewrithingtownship
 hanweirgarrison
+hanweirgarrisonhanweirthewrithingtownship
 hanweirlancer
 hanweirmilitiacaptain
+hanweirmilitiacaptainwestvalecultleader
 hanweirthewrithingtownship
 hanweirwatchkeep
+hanweirwatchkeepbaneofhanweir
 hapatrasmark
 hapatravizierofpoisons
 haphazardbombardment
@@ -7995,7 +8200,6 @@ harborguardian
 harborserpent
 hardcover
 hardenedberserker
-hardenedscalearmor
 hardenedscales
 hardhatarea
 hardyveteran
@@ -8027,9 +8231,11 @@ haruonna
 harvesterdruid
 harvesterofsouls
 harvestertroll
+harvestfear
 harvestguardalseids
 harvestgwyllion
 harvesthand
+harvesthandscroungedscythe
 harvestmage
 harvestpyre
 harvestseason
@@ -8127,6 +8333,7 @@ heartoframos
 heartofyavimaya
 heartpiercerbow
 heartpiercermanticore
+heartsdesire
 heartseeker
 heartsliver
 heartstabbermosquito
@@ -8145,8 +8352,8 @@ heatshimmer
 heatstroke
 heatwave
 heaven
+heavenearth
 heavenlyblademaster
-heavenlyqilin
 heavensgate
 heavyarbalest
 heavyballista
@@ -8173,8 +8380,10 @@ heightenedawareness
 heightenedreflexes
 heirloomblade
 heiroffalkenrath
+heiroffalkenrathheirtothenight
 heirofthewilds
 heirsofstromkirk
+heirtothenight
 hekmasentinels
 helicaglider
 heliodgodofthesun
@@ -8251,6 +8460,7 @@ heritagedruid
 hermeticstudy
 hermitdruid
 hermitofthenatterknolls
+hermitofthenatterknollslonewolfofthenatterknolls
 heroesbane
 heroesoftherevel
 heroespodium
@@ -8304,6 +8514,7 @@ hide
 hideousend
 hideouslaughter
 hideousvisage
+hideseek
 hidetsugussecondrite
 hieroglyphicillumination
 hieromancerscage
@@ -8340,13 +8551,17 @@ hindervines
 hinterlanddrake
 hinterlandharbor
 hinterlandhermit
+hinterlandhermithinterlandscourge
 hinterlandlogger
+hinterlandloggertimbershredder
+hinterlandscourge
 hintofinsanity
 hipparion
 hiredblade
 hiredgiant
 hiredheist
 hiredmuscle
+hiredmusclescarmaker
 hiredpoisoner
 hiredtorturer
 hisokaminamosensei
@@ -8359,6 +8574,7 @@ historianofzhalfir
 historyofbenalia
 hit
 hitchclawrecluse
+hitrun
 hivemind
 hivestirrings
 hivestone
@@ -8403,10 +8619,13 @@ homaridshaman
 homaridspawningbed
 homaridwarrior
 homewardpath
+homicidalbrute
 homicidalseclusion
 hominglightning
 homingsliver
 homurahumanascendant
+homurahumanascendanthomurasessence
+homurasessence
 hondenofcleansingfire
 hondenofinfiniterage
 hondenoflifesweb
@@ -8446,7 +8665,6 @@ hordeambusher
 hordelingoutburst
 hordeofboggarts
 hordeofnotions
-horizonboughs
 horizoncanopy
 horizonchimera
 horizondrake
@@ -8508,6 +8726,7 @@ hovermyr
 howlfrombeyond
 howlgeist
 howlingbanshee
+howlingchorus
 howlingfury
 howlinggale
 howlinggiant
@@ -8516,6 +8735,8 @@ howlingmine
 howlingwolf
 howlofthehorde
 howlofthenightpack
+howlpackalpha
+howlpackofestwald
 howlpackresurgence
 howlpackwolf
 howltoothhollow
@@ -8588,6 +8809,7 @@ huntingtriad
 huntingwilds
 huntmasterliger
 huntmasterofthefells
+huntmasterofthefellsravagerofthefells
 huntthehunter
 hunttheweak
 hurkylsrecall
@@ -8626,6 +8848,7 @@ hypnoticcloud
 hypnoticsiren
 hypnoticspecter
 hypnoticsprite
+hypnoticspritemesmericglare
 hypnoticswirlydisc
 hypnox
 hypochondria
@@ -8646,6 +8869,7 @@ icatianscout
 icatianskirmishers
 icatianstore
 icatiantown
+ice
 iceberg
 icebergcancrix
 icecage
@@ -8660,6 +8884,7 @@ icehidegolem
 iceover
 icequake
 icestorm
+ichigawhotopplesoaks
 ichneumondruid
 ichorclawmyr
 ichorexplosion
@@ -8722,6 +8947,7 @@ illusionistsbracers
 illusionistsgambit
 illusionistsstratagem
 illusionofchoice
+illusionreality
 illusionsofgrandeur
 illusoryambusher
 illusoryangel
@@ -8811,11 +9037,13 @@ incendiaryoracle
 incendiarysabotage
 incinerate
 incite
+incitedrabble
 incitehysteria
 inciteinsight
 inciterebellion
 incitewar
 incoming
+incongruity
 incorrigibleyouths
 increasingambition
 increasingconfusion
@@ -8826,6 +9054,7 @@ incrementalblight
 incrementalgrowth
 incubation
 incubationdruid
+incubationincongruity
 incubatordrone
 incurableogre
 incursionspecialist
@@ -8861,6 +9090,7 @@ inexorabletide
 infantryveteran
 infectedvermin
 infectiousbloodlust
+infectiouscurse
 infectioushorror
 infectioushost
 infectiousrage
@@ -8915,8 +9145,10 @@ ingotchewer
 inheritance
 inhumaniac
 initiateofblood
+initiateofbloodgokatheunjust
 initiatescompanion
 initiatesoftheebonhand
+injury
 inkdissolver
 inkeyesservantofoni
 inkfathomdivers
@@ -8953,9 +9185,11 @@ insatiablesouleater
 inscriptionofabundance
 inscriptionofinsight
 inscriptionofruin
+insectileaberration
 insideout
 insidiousbookworms
 insidiousdreams
+insidiousmist
 insidiouswill
 insight
 insist
@@ -8970,7 +9204,6 @@ inspiredultimatum
 inspiringcall
 inspiringcaptain
 inspiringcleric
-inspiringcommander
 inspiringroar
 inspiringstatuary
 inspiringunicorn
@@ -8979,20 +9212,24 @@ inspiringveteran
 inspirit
 instigator
 instigatorgang
+instigatorgangwildbloodpack
 instillenergy
 instillfuror
 instillinfection
 insubordination
 insufferablesyphon
 insult
+insultinjury
 insurrection
 intangiblevirtue
 integrity
+integrityintervention
 intellectualoffering
 interdict
 interplanarbeacon
 interpretthesigns
 intervene
+intervention
 interventionpact
 intetthedreamer
 intheeyeofchaos
@@ -9021,11 +9258,13 @@ invadingmanticore
 invasionplans
 invasivespecies
 invasivesurgery
+invent
 inventorsapprentice
 inventorsfair
 inventorsgoggles
 invert
 inverteroftruth
+invertinvent
 inverttheskies
 invigorate
 invigoratedrampage
@@ -9067,6 +9306,7 @@ ironcladslayer
 ironclawbuzzardiers
 ironclawcurse
 ironclaworcs
+ironfang
 ironfistcrusher
 ironheartchimera
 ironhoofox
@@ -9111,9 +9351,11 @@ isperiasupremejudge
 isperiatheinscrutable
 iterativeanalysis
 ithhigharcanist
+itlimoccradleofthesun
 itofthehorridswarm
 itthatbetrays
 itthatgetslefthanging
+itthatridesasone
 ivorycharm
 ivorycranenetsuke
 ivorycup
@@ -9167,10 +9409,12 @@ jacessanctum
 jacesscrutiny
 jacessentinel
 jacestriumph
+jacetelepathunbound
 jacethelivingguildpact
 jacethemindsculptor
 jaceunravelerofsecrets
 jacevrynsprodigy
+jacevrynsprodigyjacetelepathunbound
 jacewielderofmysteries
 jackalfamiliar
 jackalopeherd
@@ -9205,6 +9449,7 @@ janglingautomaton
 janjeetsentry
 jaradgolgarilichlord
 jaradsorders
+jarakutheinterloper
 jaredcarthaliontrueheir
 jarethleoninetitan
 jarofeyeballs
@@ -9265,7 +9510,6 @@ jhoirastoolbox
 jhoiraweatherlightcaptain
 jhovallqueen
 jhovallrider
-jiangyanggu
 jiangyangguwildcrafter
 jihad
 jilt
@@ -9306,9 +9550,9 @@ josuvesslichknight
 jotungrunt
 jotunowlkeeper
 journeyerskite
-journeyfortheelixir
 journeyofdiscovery
 journeytoeternity
+journeytoeternityatzalcaveofeternity
 journeytonowhere
 journeytooblivion
 joust
@@ -9361,6 +9605,7 @@ juntustakes
 jununefreet
 jurimasteroftherevue
 jushiapprentice
+jushiapprenticetomoyatherevealer
 justdesserts
 justfate
 justice
@@ -9371,6 +9616,8 @@ juvenilegloomwidow
 juxtapose
 juzamdjinn
 jwaridisruption
+jwaridisruptionjwariruins
+jwariruins
 jwariscuttler
 jwarishapeshifter
 jwarisleavenger
@@ -9380,7 +9627,9 @@ kaaliazenithseeker
 kabiracrossroads
 kabiraevangel
 kabiraoutrider
+kabiraplateau
 kabiratakedown
+kabiratakedownkabiraplateau
 kabiravindicator
 kaboom
 kabutomoth
@@ -9397,6 +9646,7 @@ kagemarosclutch
 kaheeratheorphanguard
 kahominamohistorian
 kaijinofthevanishingtouch
+kaisomemoryofloyalty
 kalamaxthestormsire
 kalastriahealer
 kalastriahighborn
@@ -9510,13 +9760,17 @@ kayaswrath
 kaysa
 kazandublademaster
 kazandumammoth
+kazandumammothkazanduvalley
 kazandunectarpot
 kazandurefuge
 kazandustomper
 kazandutuskcaller
+kazanduvalley
 kazaroilchaser
 kazarovsengirpureblood
+kazuulscliffs
 kazuulsfury
+kazuulsfurykazuulscliffs
 kazuulstollcollector
 kazuultyrantofthecliffs
 kazuulwarlord
@@ -9583,6 +9837,7 @@ kemurionna
 kenrithstransformation
 kenriththereturnedking
 kentarothesmilingcat
+kenzothehardhearted
 keralkeepdisciples
 keranosgodofstorms
 kerugathemacrosage
@@ -9591,8 +9846,10 @@ kessdissidentmage
 kessigcagebreakers
 kessigdireswine
 kessigforgemaster
+kessigforgemasterflameheartwerewolf
 kessigmalcontents
 kessigprowler
+kessigprowlersinuouspredator
 kessigrecluse
 kessigwolf
 kessigwolfrun
@@ -9605,10 +9862,12 @@ keytothecity
 kezzerdrix
 khabalghoul
 khalniambush
+khalniambushkhalniterritory
 khalnigarden
 khalnigem
 khalniheartexpedition
 khalnihydra
+khalniterritory
 khenracharioteer
 khenraeternal
 khenrascrapper
@@ -9641,6 +9900,7 @@ kindledfury
 kindlethecarnage
 kindlycognician
 kindlystranger
+kindlystrangerdemonpossessedwitch
 kindredboon
 kindredcharge
 kindreddiscovery
@@ -9710,6 +9970,7 @@ kitsunediviner
 kitsunehealer
 kitsuneloreweaver
 kitsunemystic
+kitsunemysticautumntailkitsunesage
 kitsunepalliator
 kitsuneriftwalker
 kiyomarofirsttostand
@@ -9856,6 +10117,9 @@ krakenhatchling
 krakenofthestraits
 krakenseye
 krakilin
+krallenhordehowler
+krallenhordekiller
+krallenhordewantons
 kranioceros
 krarkclanengineers
 krarkclangrunt
@@ -9914,6 +10178,7 @@ krovikanwhispers
 kroxatitanofdeathshunger
 krriksonofyawgmoth
 kruinoutlaw
+kruinoutlawterrorofkruinpass
 kruinstriker
 krumarbondkin
 kruphixgodofhorizons
@@ -9937,6 +10202,8 @@ kumenasspeaker
 kumenatyrantoforazca
 kunoroshoundofathreos
 kuonogreascendant
+kuonogreascendantkuonsessence
+kuonsessence
 kurgadon
 kurkeshonakkeancient
 kuropitlord
@@ -9956,6 +10223,7 @@ kyrensniper
 kyrentoy
 kyscudrake
 kytheonheroofakros
+kytheonheroofakrosgideonbattleforged
 kytheonsirregulars
 kytheonstactics
 laboratorybrute
@@ -9988,8 +10256,11 @@ lagonnabandtrailblazer
 lairdelve
 lairwatchgiant
 lakeofthedead
+lambholtbutcher
 lambholtelder
+lambholteldersilverpeltwerewolf
 lambholtpacifist
+lambholtpacifistlambholtbutcher
 lammastideweave
 lampadofdeathsvigil
 lamplighterofselhoff
@@ -10066,6 +10337,7 @@ lavadart
 lavafieldoverlord
 lavaflow
 lavafumeinvoker
+lavaglidepathway
 lavahounds
 lavakinbrawler
 lavalanche
@@ -10093,6 +10365,7 @@ lazavthemultifarious
 lazotepbehemoth
 lazotepplating
 lazotepreaver
+lead
 leadastray
 leadbellychimera
 leadbyexample
@@ -10120,6 +10393,7 @@ learnfromthepast
 leashling
 leatherbackbaloth
 leave
+leavechance
 leaveinthedust
 leavenotrace
 ledevchampion
@@ -10145,6 +10419,7 @@ legionsend
 legionsinitiative
 legionsjudgment
 legionslanding
+legionslandingadantothefirstfort
 legionsoflimdul
 legionwarboss
 lenaselflesschampion
@@ -10237,6 +10512,7 @@ lifecraftawakening
 lifecraftcavalry
 lifecraftersbestiary
 lifecraftersgift
+lifedeath
 lifeforce
 lifefromtheloam
 lifegift
@@ -10308,8 +10584,10 @@ lignify
 lilianadeathmage
 lilianadeathsmajesty
 lilianadeathwielder
+lilianadefiantnecromancer
 lilianadreadhordegeneral
 lilianahereticalhealer
+lilianahereticalhealerlilianadefiantnecromancer
 lilianaofthedarkrealms
 lilianaoftheveil
 lilianascaress
@@ -10441,8 +10719,11 @@ lonelysandbar
 lonemissionary
 lonerevenant
 lonerider
+lonerideritthatridesasone
 lonesomeunicorn
+lonesomeunicornriderinneed
 lonewolf
+lonewolfofthenatterknolls
 longbowarcher
 longfinnedskywhale
 longforgottengohei
@@ -10463,6 +10744,7 @@ looterilkor
 lordmagnus
 lordofatlantis
 lordofextinction
+lordoflineage
 lordofshatterskullpass
 lordoftheaccursed
 lordofthepit
@@ -10480,6 +10762,7 @@ loreweaver
 lorthosthetidemaker
 losecalm
 losehope
+loss
 lostauramancers
 losthours
 lostinalabyrinth
@@ -10491,6 +10774,7 @@ lostlegion
 lostleonin
 lostorderofjarkeld
 lostsoul
+lostvale
 lotlethgiant
 lotlethtroll
 lotusbloom
@@ -10503,6 +10787,7 @@ lotuspathdjinn
 lotuspetal
 lotusvale
 lovestruckbeast
+lovestruckbeastheartsdesire
 lovisacoldeyes
 lowlandbasilisk
 lowlandgiant
@@ -10527,6 +10812,7 @@ loxodonwarhammer
 loxodonwayfarer
 loyalapprentice
 loyalcathar
+loyalcatharunhallowedcathar
 loyaldrake
 loyalguardian
 loyalgyrfalcon
@@ -10540,7 +10826,9 @@ lucentliminid
 lucille
 luckyclover
 ludevicnecroalchemist
+ludevicsabomination
 ludevicstestsubject
+ludevicstestsubjectludevicsabomination
 lukkacoppercoatoutcast
 lull
 lullmagementor
@@ -10568,6 +10856,7 @@ luminousguardian
 luminouswake
 lumithreadfield
 lunaravenger
+lunarchinquisitors
 lunarchmantle
 lunarforce
 lunarmystic
@@ -10722,11 +11011,13 @@ makeshiftmauler
 makeshiftmunitions
 makindiaeronaut
 makindigriffin
+makindimesas
 makindiox
 makindipatrol
 makindishieldmate
 makindisliderunner
 makindistampede
+makindistampedemakindimesas
 malachitegolem
 malachitetalisman
 malachofthedawn
@@ -10734,7 +11025,9 @@ malakirbloodpriest
 malakirbloodwitch
 malakircullblade
 malakirfamiliar
+malakirmire
 malakirrebirth
+malakirrebirthmalakirmire
 malakirsoothsayer
 malcolmkeeneyednavigator
 maleficscythe
@@ -10743,6 +11036,7 @@ malevolentnoble
 malevolentwhispers
 malfegor
 malfunction
+malice
 maliciousadvice
 maliciousaffliction
 maliciousintent
@@ -10862,7 +11156,6 @@ marducharm
 marduhateblade
 marduheartpiercer
 marduhordechief
-marduoutrider
 marduroughrider
 mardurunemark
 marduscout
@@ -10880,6 +11173,7 @@ maritlagesslumber
 marjhan
 markedbyhonor
 markerbeetles
+market
 marketfestival
 markfordeath
 markofasylum
@@ -10893,6 +11187,7 @@ markovblademaster
 markovcrusader
 markovdreadknight
 markovpatrician
+markovsservant
 markovwarlord
 maro
 marrowbats
@@ -11020,6 +11315,7 @@ mayaelsaria
 mayaeltheanima
 mayhemdevil
 mayorofavabruck
+mayorofavabruckhowlpackalpha
 mazeabomination
 mazebehemoth
 mazeglider
@@ -11071,6 +11367,7 @@ memorialtoglory
 memorialtounity
 memorialtowar
 memoricide
+memory
 memorycrystal
 memorydrain
 memoryerosion
@@ -11105,6 +11402,7 @@ mercenaryinformer
 mercenaryknight
 merchantofsecrets
 merchantofthevale
+merchantofthevalehaggle
 merchantraiders
 merchantscroll
 merchantsdockhand
@@ -11113,6 +11411,7 @@ mercilesseternal
 mercilesseviction
 mercilessexecutioner
 mercilessjavelineer
+mercilesspredator
 mercilessresolve
 mercurialchemister
 mercurialgeists
@@ -11133,6 +11432,7 @@ merfolkofthepearltrident
 merfolkraiders
 merfolkseastalkers
 merfolksecretkeeper
+merfolksecretkeeperventuredeeper
 merfolkseer
 merfolkskydiver
 merfolkskyscout
@@ -11161,6 +11461,7 @@ mesalynx
 mesapegasus
 mesaunicorn
 mesmericfiend
+mesmericglare
 mesmericorb
 mesmericsliver
 mesmerictrance
@@ -11197,6 +11498,7 @@ meteorshower
 meteorstorm
 metrognome
 metropolissprite
+metzalitoweroftriumph
 miarathornoftheglade
 miasmicmummy
 michikokondatruthseeker
@@ -11215,6 +11517,7 @@ midnightreaper
 midnightrecovery
 midnightritual
 midnightscavengers
+midnightscavengerschitteringhost
 midsummerrevel
 midvastprotector
 mightbeyondreason
@@ -11254,6 +11557,7 @@ minamoschoolatwatersedge
 minamoscrollkeeper
 minamosightbender
 minamosmeddling
+mind
 mindbend
 mindbenderspores
 mindbladerender
@@ -11369,7 +11673,6 @@ mirrithecursed
 mirriweatherlightduelist
 mirrodinbesieged
 mirrodinscore
-mirroreddepths
 mirrorentity
 mirrorgallery
 mirrorgolem
@@ -11559,6 +11862,7 @@ monasterymentor
 monasterysiege
 monasteryswiftspear
 mondronenshaman
+mondronenshamantovolarsmagehunter
 mongrelpack
 monikermage
 monkey
@@ -11579,7 +11883,6 @@ monstrousstep
 moodmarkpainter
 moonbladeshinobi
 moonbowillusionist
-mooneatingdog
 moonglovechangeling
 moongloveextract
 moonglovewinnower
@@ -11595,6 +11898,8 @@ moonlitwake
 moonmist
 moonringisland
 moonringmirror
+moonriseintruder
+moonscarredwerewolf
 moonsilverspear
 moonsprite
 moonveildragon
@@ -11681,6 +11986,7 @@ mourningthrull
 mournwhelk
 mournwillow
 mouth
+mouthfeed
 mouthofronom
 mouthtomouth
 mowuloyalcompanion
@@ -11741,10 +12047,12 @@ murderouscompulsion
 murderouscut
 murderousredcap
 murderousrider
+murderousriderswiftend
 murderousspoils
 murkdwellers
 murkfiendliege
 murkstrider
+murkwaterpathway
 murmuringbosk
 murmuringmystic
 murmuringphantasm
@@ -11761,7 +12069,6 @@ mutilate
 mutiny
 mutualdestruction
 muxusgoblingrandee
-muyanling
 muyanlingcelestialwind
 muyanlingskydancer
 muzziospreparations
@@ -11878,7 +12185,6 @@ naiadofhiddencoves
 najeelathebladeblossom
 nakayashade
 nakedsingularity
-nalathnidragon
 namedropping
 namelessinversion
 namelessone
@@ -11943,6 +12249,7 @@ naturesway
 natureswill
 natureswrath
 naughty
+naughtynice
 nausea
 navigatorscompass
 navigatorsruin
@@ -11960,6 +12267,7 @@ nearheathpilgrim
 nearheathstalker
 nebelgastherald
 nebuchadnezzar
+neckbreaker
 necksnap
 necradisciple
 necrasanctuary
@@ -12011,6 +12319,7 @@ needlespires
 needlestorm
 needletoothraptor
 needlevergepathway
+needlevergepathwaypillarvergepathway
 nefariouslich
 nefaroxoverlordofgrixis
 nefashu
@@ -12018,6 +12327,7 @@ nefcropentangler
 neganthecoldblooded
 negate
 neglectedheirloom
+neglectedheirloomashmouthblade
 nehebdreadhordechampion
 nehebtheeternal
 nehebtheworthy
@@ -12086,6 +12396,7 @@ neverendingtorment
 neverhappened
 nevermaker
 nevermore
+neverreturn
 nevinyrralsdisk
 nevinyrralurborgtyrant
 newbenalia
@@ -12101,9 +12412,11 @@ nezahalprimaltide
 nezumibonereader
 nezumicutthroat
 nezumigraverobber
+nezumigraverobbernighteyesthedesecrator
 nezumironin
 nezumishadowwatcher
 nezumishortfang
+nezumishortfangstabwhiskertheodious
 niallsilvain
 niambiesteemedspeaker
 niambifaithfulhealer
@@ -12112,16 +12425,22 @@ niblisoffrost
 niblisofthebreath
 niblisofthemist
 niblisoftheurn
+nice
 nicolbolas
 nicolbolasdragongod
 nicolbolasgodpharaoh
 nicolbolasplaneswalker
+nicolbolasthearisen
 nicolbolasthedeceiver
 nicolbolastheravager
+nicolbolastheravagernicolbolasthearisen
 night
 nightbirdsclutches
 nightcreep
+nightday
 nightdealings
+nighteyesthedesecrator
+nightfallpredator
 nightfiregiant
 nightguardpatrol
 nighthawkscavenger
@@ -12132,6 +12451,7 @@ nightmare
 nightmareincursion
 nightmarelash
 nightmaremoon
+nightmaremoonprincessluna
 nightmareshepherd
 nightmaresthirst
 nightmareunmaking
@@ -12181,7 +12501,6 @@ nimblebladekhenra
 nimbleinnovator
 nimblemongoose
 nimbleobstructionist
-nimblepilferer
 nimbletrapfinder
 nimbuschampion
 nimbusmaze
@@ -12213,6 +12532,7 @@ nissagenesismage
 nissanaturesartisan
 nissaofshadowedboughs
 nissarevane
+nissasageanimist
 nissaschosen
 nissasdefeat
 nissasencouragement
@@ -12225,6 +12545,7 @@ nissastewardofelements
 nissastriumph
 nissaszendikon
 nissavastwoodseer
+nissavastwoodseernissasageanimist
 nissavitalforce
 nissavoiceofzendikar
 nissawhoshakestheworld
@@ -12367,12 +12688,14 @@ nyxherald
 nyxinfusion
 nyxlotus
 nyxweaver
+oakenboon
 oakenbrawler
 oakenform
 oakenpowersuit
 oakgnarlwarrior
 oakhameadversary
 oakhameranger
+oakhamerangerbringback
 oakheartdryads
 oakstreetinnkeeper
 oashracultivator
@@ -12409,6 +12732,7 @@ obeliskofurd
 obeliskspider
 oblation
 obliterate
+oblivion
 oblivioncrown
 oblivionring
 oblivionshunger
@@ -12448,6 +12772,7 @@ ocularhalo
 oculus
 oddlyuneven
 odds
+oddsends
 odioustrow
 odriclunarchmarshal
 odricmastertactician
@@ -12537,6 +12862,7 @@ omniscience
 omnispelladept
 onaginata
 onakkeogre
+onalert
 onceandfuture
 oncemorewithfeeling
 onceuponatime
@@ -12545,11 +12871,14 @@ onducleric
 ondugiant
 ondugreathorn
 onduinversion
+onduinversiononduskyruins
 ondurising
+onduskyruins
 onduwarcleric
 onedozeneyes
 oneeyedscarecrow
 oneirophage
+oneofthepack
 onethousandlashes
 onewithnature
 onewithnothing
@@ -12564,6 +12893,7 @@ onslaught
 onthinice
 onulet
 onward
+onwardvictory
 onyxgoblet
 onyxmage
 onyxtalisman
@@ -12663,9 +12993,11 @@ ordealofnylea
 ordealofpurphoros
 ordealofthassa
 order
+orderchaos
 orderedmigration
 orderofleitbur
 orderofmidnight
+orderofmidnightalterfate
 orderofsuccession
 orderoftheebonhand
 orderofthegoldencricket
@@ -12695,6 +13027,7 @@ orimsprayer
 orimsthunder
 orimstouch
 orisssamiteguardian
+ormendahlprofaneprince
 ormosarchivekeeper
 ornamentalcourage
 ornatekanzashi
@@ -12704,6 +13037,7 @@ ornerykudu
 ornitharch
 ornithopter
 orochieggwatcher
+orochieggwatchershidakobroodmistress
 orochihatchery
 orochileafcaller
 orochiranger
@@ -12820,6 +13154,7 @@ painmagnification
 painseer
 painsmith
 painsreward
+painsuffering
 paintedbluffs
 paintersservant
 painwrackeroni
@@ -12931,6 +13266,7 @@ pathofangersflame
 pathofbravery
 pathofdiscovery
 pathofmettle
+pathofmettlemetzalitoweroftriumph
 pathofpeace
 pathrazerofulamog
 pathtoexile
@@ -12984,7 +13320,9 @@ pegasuscharger
 pegasuscourser
 pegasusrefuge
 pegasusstampede
+pelakkacaverns
 pelakkapredation
+pelakkapredationpelakkacaverns
 pelakkawurm
 peltcollector
 pemminsaura
@@ -13013,6 +13351,7 @@ peregrination
 peregrinedrake
 peregrinegriffin
 peregrinemask
+perfectedform
 perilousforays
 perilousmyr
 perilouspredicament
@@ -13032,6 +13371,7 @@ perplex
 perplexingchimera
 persecute
 persecuteartist
+persistentnightmare
 persistentpetitioners
 personalincarnation
 personalsanctuary
@@ -13055,6 +13395,7 @@ petravark
 petrifiedfield
 petrifiedplating
 petrifiedwoodkin
+pettytheft
 pewtergolem
 phagetheuntouchable
 phalanxformation
@@ -13204,6 +13545,7 @@ pillaroforigins
 pillaroftheparuns
 pillarofwar
 pillartombsofaku
+pillarvergepathway
 pilloryofthesleepless
 pincerspider
 pincherbeetles
@@ -13215,6 +13557,7 @@ pinnacleofrage
 pinpointavalanche
 pintotheearth
 piousevangel
+piousevangelwaywarddisciple
 piousinterdiction
 piouskitsune
 piouswarrior
@@ -13441,10 +13784,12 @@ preferredselection
 prematureburial
 preordain
 prepare
+preparefight
 prescientchimera
 presenceofgond
 presenceofthemaster
 presenceofthewise
+presentarms
 pressforanswers
 pressintoservice
 presstheadvantage
@@ -13478,6 +13823,7 @@ priestofurabrask
 priestofyawgmoth
 priestsofnorn
 primalamulet
+primalamuletprimalwellspring
 primalbellow
 primalbeyond
 primalboost
@@ -13498,6 +13844,7 @@ primalrage
 primalsurge
 primalvigor
 primalvisitation
+primalwellspring
 primalwhisperer
 primespeakervannifar
 primespeakerzegana
@@ -13518,6 +13865,7 @@ primordialsage
 primordialwurm
 princeofthralls
 princesslucrezia
+princessluna
 princesstwilightsparkle
 prismarray
 prismaticboon
@@ -13553,12 +13901,15 @@ prodigalpyromancer
 prodigalsorcerer
 prodigiousgrowth
 profanecommand
+profaneinsight
 profanememento
 profaneprayers
 profaneprocession
+profaneprocessiontomboftheduskrose
 profanerofthedead
 profanetransfusion
 profit
+profitloss
 profoundjourney
 progenitormimic
 progenitus
@@ -13592,6 +13943,7 @@ protectionofthehekma
 protectivebubble
 protectivesphere
 protectorofthecrown
+protectserve
 proteusmachine
 proteusstaff
 protomatterpowder
@@ -13677,6 +14029,7 @@ puncturingblow
 puncturinglight
 punishignorance
 punishingfire
+punishment
 punishtheenemy
 puppetconjurer
 puppeteer
@@ -13689,6 +14042,7 @@ pureintentions
 purelace
 purereflection
 puresightmerrow
+puresimple
 puresteelpaladin
 purgatory
 purge
@@ -13768,7 +14122,6 @@ qarsisadist
 qasaliambusher
 qasalipridemage
 qasalislingers
-qilinsblessing
 quagmire
 quagmiredruid
 quagmirelamprey
@@ -13786,6 +14139,7 @@ quash
 quasiduplicate
 queenmarchesa
 queenofice
+queenoficerageofwinter
 queensagent
 queensbaysoldier
 queenscommission
@@ -13880,6 +14234,7 @@ rageform
 ragemonger
 ragenimbus
 rageofpurphoros
+rageofwinter
 ragereflection
 ragescarredberserker
 ragethrower
@@ -13902,6 +14257,7 @@ ragingswordtooth
 ragman
 ragnar
 rags
+ragsriches
 raidbombardment
 raidersspoils
 raiderswake
@@ -13999,6 +14355,7 @@ rampagingferocidon
 rampaginghippo
 rampagingmonument
 rampagingrendhorn
+rampagingwerewolf
 rampantelephant
 rampantgrowth
 rampartcrawler
@@ -14055,6 +14412,7 @@ rattleclawmystic
 raugrincrystal
 raugrintriome
 ravagedhighlands
+ravagerofthefells
 ravagersmace
 ravagerwurm
 ravagesofwar
@@ -14070,6 +14428,7 @@ ravenousbloodseeker
 ravenouschupacabra
 ravenousdaggertooth
 ravenousdemon
+ravenousdemonarchdemonofgreed
 ravenousgiant
 ravenousgigantotherium
 ravenousharpy
@@ -14125,6 +14484,8 @@ readthebones
 readtherunes
 readthetides
 ready
+readywilling
+reality
 realityacid
 realityanchor
 realityhemorrhage
@@ -14137,6 +14498,7 @@ realitystrobe
 realitytwist
 reallyepicpunch
 realmcloakedgiant
+realmcloakedgiantcastoff
 realmrazer
 realmseekers
 realmsuncharted
@@ -14148,6 +14510,7 @@ reaperfromtheabyss
 reaperking
 reaperofflightmoonsilver
 reaperofnight
+reaperofnightharvestfear
 reaperofsheoldred
 reaperofthewilds
 reapingthegraves
@@ -14157,6 +14520,7 @@ reapthepast
 reaptheseagraf
 reapwhatissown
 reason
+reasonbelieve
 reassemblingskeleton
 reaverambush
 reaverdrone
@@ -14187,13 +14551,13 @@ recklessfireweaver
 recklessimp
 recklessogre
 recklessone
-recklesspangolin
 recklessracer
 recklessrage
 recklessreveler
 recklessscholar
 recklessspite
 recklesswaif
+recklesswaifmercilesspredator
 recklesswurm
 reclaim
 reclaimingvines
@@ -14231,6 +14595,7 @@ redscarab
 redsunszenith
 reduce
 reduceinstature
+reducerubble
 reducetoashes
 reducetodreams
 redward
@@ -14252,6 +14617,7 @@ refresh
 refreshingrain
 refurbish
 refuse
+refusecooperate
 regalbehemoth
 regalbloodlord
 regalcaracal
@@ -14287,6 +14653,7 @@ rekindlingphoenix
 rekithehistoryofkamigawa
 reknit
 relearn
+release
 releasetheants
 releasethedogs
 releasethegremlins
@@ -14370,12 +14737,14 @@ repentantblacksmith
 repentantvampire
 repercussion
 replenish
+replicate
 repopulate
 reprisal
 reprobation
 reprocess
 reptilianreflection
 repudiate
+repudiatereplicate
 repulse
 requiemangel
 reroute
@@ -14385,6 +14754,7 @@ rescuefromtheunderworld
 rescuersphinx
 research
 researchassistant
+researchdevelopment
 researchthedeep
 reservoirwalker
 reset
@@ -14411,6 +14781,7 @@ resplendentangel
 resplendentgriffin
 resplendentmentor
 response
+responseresurgence
 restfortheweary
 restinpeace
 restlessapparition
@@ -14426,6 +14797,7 @@ restorebalance
 restorethepeace
 restrain
 resupply
+resurgence
 resurrection
 resuscitate
 retaliate
@@ -14447,6 +14819,7 @@ retributionofthemeek
 retributivewand
 retrofitterfoundry
 retromancer
+return
 returnedcentaur
 returnedphalanx
 returnedreveler
@@ -14468,6 +14841,7 @@ revelofthefallengod
 revelsonghorn
 revenant
 revenantpatriarch
+revenge
 revengeofravens
 revengeofthehunted
 reverberate
@@ -14487,6 +14861,7 @@ reversepolarity
 reversethesands
 revitalize
 revival
+revivalrevenge
 revive
 revivethefallen
 revivingdose
@@ -14531,13 +14906,14 @@ rhysticshield
 rhysticstudy
 rhysticsyphon
 rhystictutor
-rhythmicwatervortex
 rhythmofthewild
+ribbons
 ribbonsnake
 ribbonsofnight
 ribbonsofthereikai
 ribcagespider
 richardgarfieldphd
+riches
 ricksteadfastleader
 ricochet
 ricochettrap
@@ -14547,6 +14923,7 @@ riddlemastersphinx
 riddleoflightning
 riddlesmith
 ridedown
+riderinneed
 ridersofgavony
 ridgedkusite
 ridgelinerager
@@ -14587,6 +14964,7 @@ rimetransfusion
 rimewindcryomancer
 rimewindtaskmage
 rimrockknight
+rimrockknightboulderrush
 rinandseriinseparable
 ringofevosisle
 ringofgix
@@ -14628,6 +15006,7 @@ riptidesurvivor
 riptideturtle
 rise
 riseagain
+risefall
 risefromthegrave
 risefromthetides
 risenexecutioner
@@ -14686,6 +15065,7 @@ riverdarter
 riverdelta
 riverfallmimic
 riverglidepathway
+riverglidepathwaylavaglidepathway
 riverheraldsboon
 riverhoopoe
 riverkaijin
@@ -14693,7 +15073,6 @@ riverkelpie
 rivermerfolk
 riveroftears
 riverserpent
-riversfavor
 riversgrasp
 riversneak
 riversrebuke
@@ -14811,6 +15190,7 @@ rootweaverdruid
 rorixbladewing
 rosemanecentaur
 rosethornacolyte
+rosethornacolyteseasonalritual
 rosethornhalberd
 rosheenmeanderer
 rotcrownghoul
@@ -14833,6 +15213,7 @@ rotwidowpack
 rotwolf
 rough
 roughshodmentor
+roughtumble
 rouse
 rousethemob
 rousingofsouls
@@ -14851,6 +15232,7 @@ royaldecree
 royalfalcon
 royalherbalist
 royaltrooper
+rubble
 rubblebackrhino
 rubblebeltboar
 rubblebeltmaaka
@@ -14898,6 +15280,7 @@ rumblingslum
 rummaginggoblin
 rummagingwizard
 rumorsofmydeath
+run
 runafoul
 runaground
 runamok
@@ -14926,6 +15309,8 @@ runesnag
 runesofthedeus
 runesword
 runetailkitsuneascendant
+runetailkitsuneascendantrunetailsessence
+runetailsessence
 runewing
 runicarmasaur
 runicrepetition
@@ -14996,7 +15381,6 @@ sacredmesa
 sacrednectar
 sacredprey
 sacredrites
-sacredwhitedeer
 sacredwolf
 sacrifice
 sacrificeplay
@@ -15020,6 +15404,7 @@ sageaven
 sageeyeavengers
 sageeyeharrier
 sageofancientlore
+sageofancientlorewerewolfofancienthunger
 sageofepityr
 sageoffables
 sageofhours
@@ -15108,6 +15493,7 @@ sanctumofeternity
 sanctumoffruitfulharvest
 sanctumofshatteredheights
 sanctumofstonefangs
+sanctumofthesun
 sanctumoftranquillight
 sanctumofugin
 sanctumplowbeast
@@ -15196,6 +15582,8 @@ sarpadianempiresvolvii
 sarulicaretaker
 saruligatekeepers
 sasayaorochiascendant
+sasayaorochiascendantsasayasessence
+sasayasessence
 saskiatheunyielding
 satyrenchanter
 satyrfiredancer
@@ -15285,6 +15673,7 @@ scarecrow
 scaretactics
 scaretiller
 scarlandthrinax
+scarmaker
 scarredpuma
 scarredvinebreeder
 scarscaleritual
@@ -15354,6 +15743,7 @@ scoriacat
 scoriaelemental
 scoriawurm
 scornedvillager
+scornedvillagermoonscarredwerewolf
 scornfulaetherlich
 scornfulegotist
 scour
@@ -15402,11 +15792,11 @@ screamreachbrawler
 screamsfromwithin
 screamsofthedamned
 screechingbat
+screechingbatstalkingvampire
 screechingbuzzard
 screechingdrake
 screechinggriffin
 screechingharpy
-screechingphoenix
 screechingsilcaw
 screechingskaab
 screechingsliver
@@ -15421,6 +15811,7 @@ scrollofthemasters
 scrollrack
 scrollthief
 scrounge
+scroungedscythe
 scroungerofsouls
 scroungingbandar
 scrubland
@@ -15456,7 +15847,9 @@ seagatebanneret
 seagatecolossus
 seagateloremaster
 seagateoracle
+seagatereborn
 seagaterestoration
+seagaterestorationseagatereborn
 seagatestormcaller
 seagatewreckage
 seagodsrevenge
@@ -15479,6 +15872,7 @@ seamonster
 seance
 seaofclouds
 searchforazcanta
+searchforazcantaazcantathesunkenruin
 searchforsurvivors
 searchfortomorrow
 searchlightgeist
@@ -15504,6 +15898,7 @@ seasidecitadel
 seasidehaven
 seasinger
 seasnidd
+seasonalritual
 seasonedhallowblade
 seasonedmarshal
 seasonedpyromancer
@@ -15555,6 +15950,7 @@ seedsofstrength
 seedspark
 seedtheland
 seedtime
+seek
 seeker
 seekerofinsight
 seekerofskybreak
@@ -15591,9 +15987,11 @@ seizetheday
 seizetheinitiative
 seizethesoul
 seizures
+sejiriglacier
 sejirimerfolk
 sejirirefuge
 sejirishelter
+sejirisheltersejiriglacier
 sejiristeppe
 sekkiseasonsguide
 sekkuardeathkeeper
@@ -15728,6 +16126,7 @@ servantoftheconduit
 servantofthescale
 servantoftymaret
 servantofvolrath
+serve
 servoexhibition
 servoschematic
 seshirotheanointed
@@ -15759,7 +16158,6 @@ sewerdreg
 sewernemesis
 sewerrats
 sewershambler
-sewersofestark
 sewneyedrake
 sexappeal
 shabraztheskyshark
@@ -15864,6 +16262,8 @@ shatterskullgiant
 shatterskullminotaur
 shatterskullrecruit
 shatterskullsmashing
+shatterskullsmashingshatterskullthehammerpass
+shatterskullthehammerpass
 shatterstorm
 shatterthesky
 shaukuendbringer
@@ -15891,7 +16291,9 @@ sheoldredwhisperingone
 shepherdofheroes
 shepherdofrot
 shepherdoftheflock
+shepherdoftheflockushertosafety
 shepherdofthelost
+shidakobroodmistress
 shieldbearer
 shielddancer
 shieldedaetherthief
@@ -15911,6 +16313,7 @@ shieldoftheavatar
 shieldoftheoversoul
 shieldoftherealm
 shieldoftherighteous
+shieldsmight
 shieldsofvelisvel
 shieldsphere
 shieldwall
@@ -16017,7 +16420,7 @@ shriekofdread
 shriekraptor
 shrikeharpy
 shrillhowler
-shrinekeeper
+shrillhowlerhowlingchorus
 shrineofboundlessgrowth
 shrineofburningrage
 shrineoflimitlesspower
@@ -16151,7 +16554,9 @@ silumgarsorcerer
 silumgarspelleater
 silumgarsscorn
 silumgarthedriftingdeath
+silundiisle
 silundivision
+silundivisionsilundiisle
 silvardevourerofthefree
 silverbackape
 silverbackshaman
@@ -16165,6 +16570,7 @@ silverdrake
 silvererne
 silverflameritual
 silverflamesquire
+silverflamesquireonalert
 silverfurpartisan
 silvergilladept
 silvergilldouser
@@ -16173,6 +16579,7 @@ silvergladepathfinder
 silverinlaiddagger
 silverknight
 silvermyr
+silverpeltwerewolf
 silverseraph
 silverskinarmor
 silversmoteghoul
@@ -16201,6 +16608,7 @@ simicragworm
 simicsignet
 simicskyswallower
 simoon
+simple
 simplify
 simulacrum
 sincollector
@@ -16221,6 +16629,7 @@ sinkintotakenuma
 sinprodder
 sinsofthepast
 sinstrikerswill
+sinuouspredator
 sinuousstriker
 sinuousvermin
 sionacaptainofthepyleas
@@ -16281,7 +16690,9 @@ skilledanimator
 skillfullunge
 skinbrandgoblin
 skininvasion
+skininvasionskinshedder
 skinrender
+skinshedder
 skinshifter
 skinthinner
 skinwing
@@ -16349,7 +16760,9 @@ skybladeofthelegion
 skyblinderstaff
 skycatsovereign
 skyclaveapparition
+skyclavebasilica
 skyclavecleric
+skyclaveclericskyclavebasilica
 skyclavegeopede
 skyclavepickaxe
 skyclaveplunder
@@ -16535,6 +16948,7 @@ smite
 smitethemonstrous
 smitinghelix
 smittenswordmaster
+smittenswordmastercurryfavor
 smogelemental
 smogsteedrider
 smoke
@@ -16550,6 +16964,7 @@ smolderingmarsh
 smolderingspires
 smolderingtar
 smolderingwerewolf
+smolderingwerewolferuptingdreadwolf
 smolderinitiate
 smother
 smotheringabomination
@@ -16638,6 +17053,7 @@ solidfooting
 solitarycamel
 solitaryconfinement
 solitaryhunter
+solitaryhunteroneofthepack
 soliton
 solkanartheswampking
 solring
@@ -16661,7 +17077,9 @@ somberwaldvigilante
 somedisassemblyrequired
 somnomancer
 somnophore
+songmadruins
 songmadtreachery
+songmadtreacherysongmadruins
 songofblood
 songofcreation
 songoffreyalise
@@ -16741,7 +17159,6 @@ soulfoundry
 soulgorgerorgg
 soulguidelantern
 soulherder
-soulhunterrakshasa
 soulkiss
 soullessone
 soullessrevival
@@ -16774,6 +17191,7 @@ soulscourge
 soulsculptor
 soulsear
 soulseizer
+soulseizerghastlyhaunting
 soulseparator
 soulsfire
 soulsgrace
@@ -16962,7 +17380,9 @@ spikecolony
 spikedbaloth
 spikedrone
 spikefeeder
+spikefieldcave
 spikefieldhazard
+spikefieldhazardspikefieldcave
 spikehatcher
 spikejester
 spikerogue
@@ -17016,6 +17436,7 @@ spirepatrol
 spirephantasm
 spireserpent
 spiresideinfiltrator
+spiresoforazca
 spirespine
 spiretracer
 spirewinder
@@ -17058,8 +17479,10 @@ spitefulreturned
 spitefulshadows
 spitefulsliver
 spitefulvisions
+spitemalice
 spitemare
 spiteofmogis
+spitfirebastion
 spitfirehandler
 spitfirelagac
 spitflame
@@ -17126,6 +17549,7 @@ springjackshepherd
 springjawtrap
 springleafdrum
 springmantlecleric
+springmind
 springofeternalpeace
 springsageritual
 sprintingwarbrute
@@ -17175,6 +17599,7 @@ sramsenioredificer
 sramsexpertise
 stabbingpain
 stabilizer
+stabwhiskertheodious
 stabwound
 stadiumvendors
 staffofdomination
@@ -17191,7 +17616,6 @@ stagbeetle
 staggeringinsight
 staggershock
 stainthemind
-stairstoinfinity
 stalkerhag
 stalkingassassin
 stalkingbloodsucker
@@ -17199,6 +17623,7 @@ stalkingdrone
 stalkingleonin
 stalkingstones
 stalkingtiger
+stalkingvampire
 stalkingvengeance
 stalkingyeti
 stallionofashmouth
@@ -17217,6 +17642,7 @@ stampofapproval
 stand
 standardbearer
 standardize
+standdeliver
 standfirm
 standingarmy
 standingstones
@@ -17239,7 +17665,9 @@ starlitsanctum
 starofextinction
 starstorm
 start
+startfinish
 startledawake
+startledawakepersistentnightmare
 startlingdevelopment
 startyourengines
 starvedrusalka
@@ -17249,7 +17677,9 @@ stasiscocoon
 stasissnare
 statecraft
 staticorb
+statue
 status
+statusstatue
 statuteofdenial
 staunchdefenders
 staunchheartedwarrior
@@ -17367,6 +17797,7 @@ stolengoods
 stolengrain
 stolenidentity
 stolenstrategy
+stomp
 stompandhowl
 stompercub
 stompingground
@@ -17402,6 +17833,7 @@ stoneshockgiant
 stonespirit
 stonethrowingdevils
 stonetonguebasilisk
+stonewingantagonizer
 stonewisefortifier
 stonewoodinvocation
 stonewoodinvoker
@@ -17426,7 +17858,6 @@ stormcauldron
 stormchaserchimera
 stormchasermage
 stormclouddjinn
-stormcloudspirit
 stormcragelemental
 stormcrow
 stormelemental
@@ -17459,6 +17890,7 @@ stormsurgekraken
 stormswrath
 stormthecitadel
 stormthevault
+stormthevaultvaultofcatlacan
 stormtideleviathan
 stormwatcheagle
 stormwildcapridor
@@ -17545,9 +17977,11 @@ structuralcollapse
 structuraldistortion
 struggle
 struggleforsanity
+strugglesurvive
 struttingturkey
 stubborndenial
 studentofelements
+studentofelementstobitamasterofwinds
 studentofojutai
 studentofwarfare
 stuffydoll
@@ -17592,6 +18026,7 @@ suddenspoiling
 suddenstorm
 suddenstrength
 suddensubstitution
+suffering
 sufferthepast
 suffocatingblast
 suffocatingfumes
@@ -17709,6 +18144,7 @@ supersize
 supplantform
 supply
 supplycaravan
+supplydemand
 supplylinecranes
 supplyrunners
 suppress
@@ -17752,6 +18188,7 @@ surveyorsscope
 surveythewreckage
 survivalcache
 survivalofthefittest
+survive
 survivethenight
 survivoroftheunseen
 survivorsbond
@@ -17799,6 +18236,7 @@ swelter
 swelteringsuns
 swerve
 swiftbladevindicator
+swiftend
 swiftfootboots
 swiftjustice
 swiftkick
@@ -17904,7 +18342,6 @@ szatswill
 tabletofepityr
 tabletoftheguilds
 taboraxhopesdemise
-tacticaladvantage
 tahcropelite
 tahcropskirmisher
 tahngarthfirstmate
@@ -17941,6 +18378,7 @@ tajurupreserver
 tajurusnarecaster
 tajurustalwart
 tajuruwarcaller
+take
 takedown
 takeheart
 takeintocustody
@@ -18000,7 +18438,10 @@ tangleangler
 tangleasp
 tanglebloom
 tangleclawwerewolf
+tangleclawwerewolffibrousentangler
 tangledflorahedron
+tangledflorahedrontangledvale
+tangledvale
 tanglegolem
 tanglehulk
 tanglekelp
@@ -18058,12 +18499,12 @@ tawnosswand
 tawnossweaponry
 tawnosurzasapprentice
 tayamluminousenigma
-tazeem
 tazeemraptor
 tazeemroilmage
 tazribeaconofunity
 teacherspet
 teamspirit
+tear
 teardropkami
 tearsofrage
 tearsofvalakut
@@ -18128,7 +18569,6 @@ teljiladstylus
 teljiladwolf
 telleroftales
 tellingtime
-tembercity
 temmetvizierofnaktamun
 temper
 temperedsliver
@@ -18146,6 +18586,7 @@ templebell
 templeelder
 templegarden
 templeofabandon
+templeofaclazotz
 templeofdeceit
 templeofenlightenment
 templeofepiphany
@@ -18235,6 +18676,7 @@ territorialhellkite
 territorialroc
 territorialscythecat
 terror
+terrorofkruinpass
 terrorofmountvelus
 terrorofthefairgrounds
 terrorofthepeaks
@@ -18304,6 +18746,7 @@ thassasrebuff
 thatcherrevolt
 thatwhichwastaken
 thaumaticcompass
+thaumaticcompassspiresoforazca
 thaumatog
 thaumaturgesfamiliar
 thawingglaciers
@@ -18387,6 +18830,7 @@ thievingskydiver
 thievingsprite
 thingfromthedeep
 thingintheice
+thingintheiceawokenhorror
 thinktank
 thinktwice
 thirst
@@ -18467,10 +18911,13 @@ thousandyearstorm
 thrabendoomsayer
 thrabenfoulbloods
 thrabengargoyle
+thrabengargoylestonewingantagonizer
 thrabenheretic
 thrabeninspector
+thrabenmilitia
 thrabenpurebloods
 thrabensentry
+thrabensentrythrabenmilitia
 thrabenstandardbearer
 thrabenvaliant
 thragtusk
@@ -18492,9 +18939,11 @@ thrashingmossdog
 thrashingmudspawn
 thrashingwumpus
 thrashofraptors
+thrashthreat
 thrasiostritonhero
 thraximundar
 threadsofdisloyalty
+threat
 threaten
 threedreams
 threeheadedgoblin
@@ -18629,6 +19078,7 @@ tilonalliscrown
 tilonallisknight
 tilonallisskinshifter
 tilonallissummoner
+timbercrownpathway
 timbergorge
 timberlandguide
 timberlandruins
@@ -18637,6 +19087,7 @@ timbermare
 timbermawlarva
 timberpackwolf
 timberprotector
+timbershredder
 timberwatchelf
 timberwolves
 timeandtide
@@ -18674,7 +19125,6 @@ tinderfarm
 tinderwall
 tineshrike
 tinker
-tinstreetcadet
 tinstreetdodger
 tinstreethooligan
 tinstreetmarket
@@ -18710,6 +19160,7 @@ tivadarofthorn
 tivadarscrusade
 toarms
 tobiasandrion
+tobitamasterofwinds
 tocatlihonorguard
 togetherforever
 togglodyte
@@ -18717,6 +19168,8 @@ toggogoblinweaponsmith
 toil
 toilsofnightandday
 toiltorenown
+toiltrouble
+toktokvolcanoborn
 tolaria
 tolarianacademy
 tolariandrake
@@ -18733,6 +19186,7 @@ tolsimirfriendtowolves
 tolsimirwolfblood
 tombfire
 tombhex
+tomboftheduskrose
 tombofthespiritdragon
 tombofurami
 tombrobber
@@ -18746,6 +19200,7 @@ tomeraider
 tomescour
 tomikdistinguishedadvokist
 tomorrowazamisfamiliar
+tomoyatherevealer
 tonicpeddler
 toolcraftexemplar
 toothandclaw
@@ -18777,6 +19232,7 @@ torment
 tormentedangel
 tormentedhero
 tormentedpariah
+tormentedpariahrampagingwerewolf
 tormentedsoul
 tormentedthoughts
 tormentingvoice
@@ -18823,6 +19279,7 @@ touchstone
 tourachschant
 tourachsgate
 tournamentgrounds
+tovolarsmagehunter
 towerabove
 towerdefense
 towerdrake
@@ -18841,6 +19298,7 @@ toweroffortunes
 towerofmurmurs
 towerofthemagistrate
 towngossipmonger
+towngossipmongerincitedrabble
 townsentry
 toxicdeluge
 toxiciguanar
@@ -18935,6 +19393,7 @@ treachery
 treadmill
 treadupon
 treasonousogre
+treasurecove
 treasurecruise
 treasuredfind
 treasurehunt
@@ -18942,9 +19401,11 @@ treasurehunter
 treasurekeeper
 treasuremage
 treasuremap
+treasuremaptreasurecove
 treasurenabber
 treasuretrove
 treasurythrull
+treatstoshare
 treefolkharbinger
 treefolkhealer
 treefolkmystic
@@ -18963,7 +19424,6 @@ treetoprangers
 treetopscout
 treetopsentinel
 treetopvillage
-treetopwarden
 tremble
 tremor
 trenchbehemoth
@@ -18983,6 +19443,7 @@ trevasruins
 trevatherenewer
 triadoffates
 trial
+trialerror
 trialofambition
 trialofknowledge
 trialofsolidarity
@@ -19043,6 +19504,7 @@ trostanidiscordant
 trostaniselesnyasvoice
 trostanisjudgment
 trostanissummoner
+trouble
 troubledhealer
 troublesomespirit
 troveoftemptation
@@ -19080,12 +19542,14 @@ tsabosweb
 tsabotavoc
 tsunami
 tuinvaletreefolk
+tuinvaletreefolkoakenboon
 tukatonguethallid
 tuknirdeathlock
 tuktukgrunts
 tuktukrubblefort
 tuktukscrapper
 tuktuktheexplorer
+tumble
 tumblemagnet
 tundra
 tundrakavu
@@ -19102,6 +19566,7 @@ turn
 turnabout
 turnagainst
 turnaside
+turnburn
 turnintoapumpkin
 turnthetables
 turnthetide
@@ -19109,8 +19574,10 @@ turntimberascetic
 turntimberbasilisk
 turntimbergrove
 turntimberranger
+turntimberserpentinewood
 turntimbersower
 turntimbersymbiosis
+turntimbersymbiosisturntimberserpentinewood
 turntodust
 turntofrog
 turntomist
@@ -19193,19 +19660,27 @@ ulamogtheinfinitegyre
 ulashtthehateseed
 ulcerate
 ulrichofthekrallenhorde
+ulrichofthekrallenhordeulrichuncontestedalpha
 ulrichskindred
+ulrichuncontestedalpha
 ultimateprice
+ulvenwaldabomination
 ulvenwaldbear
 ulvenwaldcaptive
+ulvenwaldcaptiveulvenwaldabomination
 ulvenwaldhydra
 ulvenwaldmysteries
 ulvenwaldmystics
+ulvenwaldmysticsulvenwaldprimordials
 ulvenwaldobserver
+ulvenwaldprimordials
 ulvenwaldtracker
 umaraentangler
 umaramystic
 umararaptor
+umaraskyfalls
 umarawizard
+umarawizardumaraskyfalls
 umbilicus
 umbralmantle
 umbramystic
@@ -19292,9 +19767,11 @@ unflinchingcourage
 unforge
 unfriendlyfire
 unfulfilleddesires
+unhallowedcathar
 unhallowedpact
 unhinge
 unholycitadel
+unholyfiend
 unholygrotto
 unholyhunger
 unholyindenture
@@ -19303,7 +19780,9 @@ unifiedfront
 unifiedstrike
 unifiedwill
 unifyingtheory
+unimpededtrespasser
 uninvitedgeist
+uninvitedgeistunimpededtrespasser
 unityofpurpose
 universalautomaton
 universalsolvent
@@ -19417,6 +19896,7 @@ urzasruinousblast
 urzassciencefairproject
 urzastome
 urzastower
+ushertosafety
 uthdentroll
 utilityknife
 utopiamycon
@@ -19433,10 +19913,12 @@ vaevictisasmadi
 vaevictisasmadithedire
 vagrantplowbeasts
 valakutawakening
+valakutawakeningvalakutstoneforge
 valakutexploration
 valakutfireboar
 valakutinvoker
 valakutpredator
+valakutstoneforge
 valakutthemoltenpinnacle
 valdukkeeperoftheflame
 valeronoutlander
@@ -19488,6 +19970,7 @@ vampirictouch
 vampirictutor
 vampirism
 vancesblastingcannons
+vancesblastingcannonsspitfirebastion
 vandalblast
 vandalize
 vanguardofbrimaz
@@ -19514,11 +19997,14 @@ vassalsduty
 vassalsoul
 vastwoodanimist
 vastwoodfortification
+vastwoodfortificationvastwoodthicket
 vastwoodgorger
 vastwoodhydra
 vastwoodsurge
+vastwoodthicket
 vastwoodzendikon
 vaultbreaker
+vaultofcatlacan
 vaultofchampions
 vaultofthearchangel
 vaultofwhispers
@@ -19603,6 +20089,7 @@ venserssliver
 venserthesojourner
 ventifactbottle
 ventsentinel
+venturedeeper
 verazolthesplitcurrent
 verdantautomaton
 verdantcatacombs
@@ -19706,6 +20193,7 @@ viciousshadows
 victimize
 victimofnight
 victoriousdestruction
+victory
 victorychimes
 victorysenvoy
 victorysherald
@@ -19725,7 +20213,9 @@ vigor
 vigormortis
 vigorouscharge
 vigorsporewurm
+vildinpackalpha
 vildinpackoutcast
+vildinpackoutcastdronepackkindred
 vileaggregate
 vilebile
 vileconsumption
@@ -19739,9 +20229,12 @@ villagebellringer
 villagecannibals
 villageelder
 villageironsmith
+villageironsmithironfang
 villagemessenger
+villagemessengermoonriseintruder
 villagerites
 villagersofestwald
+villagersofestwaldhowlpackofestwald
 villagesurvivors
 villainousogre
 villainouswealth
@@ -19822,7 +20315,6 @@ vitughaziguildmage
 vitughazithecitytree
 vividcrag
 vividcreek
-vividflyingfish
 vividgrove
 vividmarsh
 vividmeadow
@@ -19917,6 +20409,7 @@ volcanohellion
 volcanoimp
 voldarenduelist
 voldarenpariah
+voldarenpariahabolisherofbloodlines
 volitionreins
 volleyofboulders
 volleyveteran
@@ -19945,6 +20438,7 @@ voraciousgreatshark
 voracioushatchling
 voracioushydra
 voraciousnull
+voraciousreader
 voracioustyphon
 voraciousvacuum
 voraciousvampire
@@ -20109,6 +20603,7 @@ wandofdenial
 wandofith
 wandoftheelements
 wandofvertebrae
+wane
 waningwurm
 wantedscoundrels
 warbarge
@@ -20124,6 +20619,7 @@ warclampmastiff
 warcryphoenix
 wardance
 wardedbattlements
+warden
 wardenofevosisle
 wardenofgeometries
 wardenofthebeyond
@@ -20170,6 +20666,7 @@ warpingwurm
 warpriestofthune
 warpworld
 warrant
+warrantwarden
 warreninstigator
 warrenpilferers
 warrenscourgeelf
@@ -20247,12 +20744,14 @@ wavewingelemental
 wax
 waxingmoon
 waxmanebaku
+waxwane
 wayfarersbauble
 wayfaringgiant
 wayfaringtemple
 waylay
 wayofthethief
 waywardangel
+waywarddisciple
 waywardgiant
 waywardguidebeast
 waywardservant
@@ -20267,6 +20766,7 @@ weaponstrainer
 weaponsurge
 wear
 wearaway
+weartear
 weaselbackredcap
 weatheredbodyguards
 weatheredwayfarer
@@ -20302,6 +20802,7 @@ weirdingshaman
 weirdingwood
 weiscout
 weistrikeforce
+welcomehome
 welcometothefold
 welderautomaton
 weldfastengineer
@@ -20312,6 +20813,7 @@ weldingsparks
 welkinguide
 welkinhawk
 welkintern
+well
 wellgabberapothecary
 welllaidplans
 wellofdiscovery
@@ -20322,12 +20824,17 @@ welloflostdreams
 wellspring
 wellwisher
 werebear
+werewolfofancienthunger
+werewolfransacker
 westernpaladin
 westvaleabbey
+westvaleabbeyormendahlprofaneprince
+westvalecultleader
 wetlandsambar
 wetwillieofthedamned
 whaleboneglider
 wharfinfiltrator
+what
 wheelanddeal
 wheeloffate
 wheeloffortune
@@ -20398,6 +20905,7 @@ whitesunszenith
 whiteward
 whitewaternaiads
 who
+whowhatwhenwherewhy
 wickedakuba
 wickedguardian
 wickedpact
@@ -20414,6 +20922,7 @@ wightofprecinctsix
 wiitigo
 wildaesthir
 wildbeastmaster
+wildbloodpack
 wildbornpreserver
 wildcall
 wildcantor
@@ -20469,6 +20978,7 @@ wildwurm
 willbender
 willbreaker
 willforgedgolem
+willing
 willingtestsubject
 willkenrith
 willoftheallhunter
@@ -20508,7 +21018,6 @@ windriderwizard
 windsail
 windscarredcrag
 windscouter
-windseekercentaur
 windshear
 windsofabandon
 windsofchange
@@ -20528,6 +21037,7 @@ wingcrafter
 wingedcoatl
 wingedshepherd
 wingedsliver
+wingedtempleoforazca
 wingedwords
 wingfoldpteron
 wingmateroc
@@ -20594,6 +21104,7 @@ witchsoven
 witchstalker
 witchsvengeance
 withdraw
+withengarunbound
 witheredwretch
 witheringboon
 witheringgaze
@@ -20624,6 +21135,7 @@ wojekembermage
 wojekhalberdiers
 wojeksiren
 wolfbittencaptive
+wolfbittencaptivekrallenhordekiller
 wolfbriarelemental
 wolfcallershowl
 wolfhuntersquiver
@@ -20890,7 +21402,6 @@ zephid
 zephidsembrace
 zephyrcharge
 zephyrfalcon
-zephyrgull
 zephyrnet
 zephyrscribe
 zephyrspirit
@@ -20930,7 +21441,9 @@ zodiacrooster
 zodiacsnake
 zodiactiger
 zoeticcavern
+zofbloodbog
 zofconsumption
+zofconsumptionzofbloodbog
 zofshade
 zombieapocalypse
 zombieassassin
