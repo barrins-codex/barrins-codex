@@ -21,6 +21,15 @@ python3 -m venv venv
 pip install -e ".[dev]"
 ```
 
+### Before running the Codex
+You will have to run a few commands to have an updated card database :
+
+```bash
+cd ./barrins_codex
+make library
+make clean
+```
+
 ## Run the Codex
 You can run the development version of the site using the `codex` entrypoint:
 
@@ -38,4 +47,13 @@ You can set the `DEBUG` environment variable to activate the debug mode:
 
 ```bash
 DEBUG=1 codex
+```
+
+## Utils
+There are some utils provided in the codex:
+
+- decklist to JSON
+```bash
+cd ./barrins_codex
+python ./build_deck.py PATH_TO_FILE
 ```
