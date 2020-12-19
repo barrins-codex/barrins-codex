@@ -1,6 +1,9 @@
 function dCi(scryfallId,i) {
 	document.getElementById("card-image").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
 }
+/**
+ * This section need to be reworked
+ *
 function dCi(scryfallId,i) {
 	document.getElementById("card-image").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
 	var modal = document.getElementById("card-modal")
@@ -41,6 +44,8 @@ function modalKeydown(event) {
 		dCi(cardIndex(event.target) - 1)
 	}
 }
+ * End of section
+ */
 function cardElement(element, i) {
 	return `<li>${element.count} <span class="card" id="card-${i}" onclick="dCi('${element.id}',${i})" onmouseover="hC('${element.id}')" onmouseout="oC()">${element.name}</span></li>`
 }

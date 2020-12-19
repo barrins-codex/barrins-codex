@@ -43,9 +43,12 @@
 	window.onload = function () {
 		const content = document.querySelector('meta[property="decklist"]').content
 		const decklist = JSON.parse(JSON.parse(content))
+		/**
+		 * Code need to be reworked
 		document.getElementById("card-modal").addEventListener("keydown", modalKeydown)
 		document.getElementById("card-prev").addEventListener("click", prevCard)
 		document.getElementById("card-next").addEventListener("click", nextCard)
+		 */
 		displayDeck(decklist)
 	}
 </script>
