@@ -2,7 +2,7 @@
 A website about MtG Duel Commander Strategy
 
 ## Special Thanks
-I started working with [lionel-panhaleux](https://github.com/lionel-panhaleux) on a project during first lockdown (around April 2021).
+I started working with [lionel-panhaleux](https://github.com/lionel-panhaleux) on a project during first lockdown (around April 2020).
 We worked on his [Codex of the Damned](https://codex-of-the-damned.org/) ([repo](https://github.com/lionel-panhaleux/codex-of-the-damned)) to support internationalisation.
 The whole structure of this project is derived from his Codex, hence the name as a small tribute.
 
