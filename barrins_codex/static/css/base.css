@@ -68,10 +68,9 @@ h1 > span {
 	font-size: 0.5em;
 	font-style: italic;
 }
-article p img {
-	height: 1em;
-	max-width: 2em;
-	vertical-align: middle;
+article span img {
+	margin-left: 8px;
+	margin-right: 8px;
 }
 h1 > img {
 	height: 1.5em;
