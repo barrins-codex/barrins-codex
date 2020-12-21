@@ -26,10 +26,10 @@
 </p>
 <p>
 	{% trans trimmed
-		page_github=external("https://github.com/Spigushe/barrins-codex", _("page Github"))
+		page_github=external("https://github.com/Spigushe/barrins-codex/issues", _("page Github"))
 	%}
-	Si vous souhaitez contribuer à ce site, aider à corriger des erreurs ou signaler un problème,
-	vous êtes les bienvenus à le faire sur la {{ page_github }} de ce projet.
+	Si vous désirez contribuer à ce guide, signaler une erreur ou un problème, merci de le faire
+	sur la {{ page_github }} du projet.
 	{% endtrans %}
 </p>
 {% endblock %}
@@ -39,10 +39,10 @@
 	{% trans trimmed
 		wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
 	%}
-	Magic The Gathering, le logo Magic et les symboles de mana sont des marques déposées de
-	{{ wizards_of_the_coast }}.<br>
-	Les illustrations qui parsèment ces pages sont la propriété de {{ wizards_of_the_coast }}
-	et de leurs créateurs.<br>
+	<strong>Barrin's Codex</strong> est un contenu de fan non officiel autorisé dans le cadre de la
+	Politique des contenus de fans. Ni approuvé, ni promu par {{ wizards_of_the_coast }}. Certaines
+	parties des matériaux utilisés sont la propriété de Wizards of the Coast.
+	© {{ wizards_of_the_coast }} LLC.<br>
 	L'icone sur la page d'accueil est la carte <strong>Barrin, Tolarian Archmage</strong>.
 	Elle est illustrée par Ryan Pancoast et est la propriété de {{ wizards_of_the_coast }}.
 	{% endtrans %}
