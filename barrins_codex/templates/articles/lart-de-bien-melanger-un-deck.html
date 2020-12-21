@@ -13,32 +13,23 @@
 	img_melange_tas='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/melange_tas.png'))|safe
 %}
 <p>
-	Mélanger les cartes : une grande passion du joueur de Magic. Le joueur de Magic a tellement
-	besoin de sa dose de shuffle que certains joueurs vont même jusqu'à déclarer un mulligan plutôt
-	que de garder une main sans fetch. Vous l'aurez compris nous allons parler ici de battage de
-	cartes et d’aléatoire.
+	L'objectif de cet article est de détailler les mathématiques derrière les mélanges, que ce 
+	soit avec des cartes réelles ou virtuelles via les plateformes de jeu en ligne telles que 
+	{{ cockatrice }}, {{ mtgo }} ou encore {{ mtga }}. 
 </p>
 <p>
-	L’idée d’écrire cet article est venu à force d’observer des joueurs se plaindre de la mauvaise
-	distribution des cartes sur les plateformes de jeu online telles que Cockatrice ou MTGO et il
-	me semble important de clarifier certains points à ce sujet. Le mélange de cartes, que ce soit
-	dans la vie réelle ou lors de parties simulées par ordinateur est un sujet qui a fait l’objet
-	de nombreuses études en mathématiques et en algorithmique. La plupart des articles de
-	vulgarisations que l’on peut trouver sur le sujet sont souvent trop succints, mais surtout ne
-	traitent dans leurs exemples que des jeux de 32 et 52 cartes alors que nous mélangeons en
-	jouant à Magic des bibliothèques de toutes tailles.
+	Le mélange de cartes, que ce soit dans la vie réelle ou lors de parties simulées par 
+	ordinateur, est un sujet qui a fait l’objet de nombreuses études en mathématiques et en 
+	algorithmique. Cependant, la plupart des articles de vulgarisations que l’on peut trouver sur 
+	le sujet sont souvent succints et ne traitent dans leurs exemples que des jeux de 32 et 52 
+	cartes alors que nous mélangeons des bibliothèques de toutes tailles.
 </p>
+
+<h2>Comment sont effectués les mélanges de cartes sur les plateformes de jeu en ligne ?</h2>
 <p>
-	Je vous propose donc ici un article spécifiquement destiné aux joueurs de Magic tenant compte
-	des spécificités particulières de ce jeu. Bien que cet article comporte quelques notions de
-	mathématiques avancées, pas de panique il se veut abordable par tous !
-</p>
-<h2>Comment sont effectués les mélanges de cartes sur les plateformes online ?</h2>
-<p>
-	Mélanger un ensemble d’objets, comme des cartes magic, ce n’est pas compliqué en soit. Il
-	suffit de numéroter les différents objets puis d’appliquer une permutation sur ces numéros. On
-	obtient alors une notation assez intuitive comme on peut le voir dans l'exemple ci-dessous dans
-	le cas où l'on a que 3 cartes :
+	Le mélange de cartes Magic par les plateformes de jeu en ligne revient à numéroter les cartes
+	et d'effectuer des permutations entre ces numéros. Voici l'ensemble des six permutations 
+	possibles pour un ensemble de trois cartes :
 </p>
 <ul>
 	<li>
@@ -61,46 +52,39 @@
 	</li>
 </ul>
 <p>
-	Au total, il n’y a que ces 6 permutations pour un ensemble de 3 cartes.
-</p>
-<p>
-	Un mélangeur parfait serait un mélangeur qui associerait à chacun de ces mélanges la même
-	probabilité. Le problème, c’est que le nombre de permutations augmente très très rapidement en
-	fonction du nombre de cartes que l’on considère. En effet pour un jeu de 60 cartes, le nombre
-	de permutations possibles est supérieur au nombre d'atomes dans l’univers :
+	Le nombre de permutations augmente de manière exponentielle selon le nombre de cartes dans 
+	un deck. Comme un mélangeur parfait est un mélangeur qui associe à chacun de ces mélanges la 
+	même probabilité, il faut être en mesure de déterminer le nombre de ces permutations. Pour un
+	deck de soixante cartes, le nombre de permutations possibles est supérieur au nombre d'atomes
+	dans l'univers :
 	<em>
 		8320987112741390144276341183223364380754172606361245952449277696409600000000000000
-	</em>
+	</em>.
 </p>
 <p>
-	Quand on mélange un paquet de cartes on aimerait avoir la même probabilité de se retrouver dans
-	chacune de ces possibilités. Si on était capable d'avoir une méthode ou un ordinateur capable
-	de faire cela, on l'appellerait : mélangeur parfait. Le problème, c'est qu'un tel mélangeur
-	n'existe pas et que notre seul espoir va être de se rapprocher autant que possible de ce
-	mélangeur.
+	Un <em>mélangeur parfait</em> est un mélangeur qui associe à chacunes de ces permutations la même
+	probabilité. Au vu du nombre inimaginables de permutations possibles, un ordinateur ne peut pas
+	attribuer la même probabilité à chacunes de ces permutations car il n'est pas en mesure de toutes
+	les déterminer. L'objectif est donc de se rapprocher autant que possible de ce mélangeur parfait.
 </p>
 <p>
-	Techniquement, un algorithme ne peut pas générer de phénomènes aléatoires car il est
-	déterministe, il peut seulement générer des résultats très difficilement prévisibles et en
-	apparence aléatoire et c'est bien sûr le cas des algorithmes utilisés sur les plateformes de
-	jeux online comme MTGO ou Cockatrice. Ces algorithmes sont suffisamment performants pour être
-	considérés comme "suffisamment aléatoires". Nous verrons plus loin qu'il existe un moyen de
-	mesurer ce "suffisamment". Quoi qu'il en soit, toute forme d'injustice de la part des joueurs
-	jouant sur ces plateformes et se plaignant de mana full ou mana death trop fréquents n'est rien
-	de plus que le fruit d'un biais cognitif.
+	Techniquement, un algorithme ne peut pas générer de phénomènes aléatoires car il est déterministe. 
+	Il peut seulement générer des résultats très difficilement prévisibles et en apparence aléatoire. 
+	C'est le cas des algorithmes utilisés sur les plateformes de jeux en ligne. Ces algorithmes sont 
+	suffisamment performants pour être considérés comme <em>suffisamment aléatoires</em>. 
+</p>
+<p>
+	La suite de l'article permettra de mettre en évidence un moyen de mesurer l'aspect suffisamment 
+	aléatoire mais ne traitera pas du biais cognitif existant chez les joueuses et les joueurs 
+	qui estiment faire <em>trop fréquemment</em> des mana full ou mana death.
 </p>
 {{ img_proba_main_depart }}
 <p>
 	Le graphique ci-dessus décrit la probabilité d'avoir un certain nombre de terrains en main de
 	départ avec un deck de 60 cartes contenant 24 terrains. Ce graphique a été obtenu avec un
-	calcul de probabilité avec une loi hypergéométrique pour les valeurs bleues (c'est à dire pour
-	un mélangeur parfait) et les valeurs rouges ont été obtenues avec 13000 premières mains
+	calcul de probabilité avec une {{ loi_hypergéométrique }} pour les valeurs bleues (c'est à dire 
+	pour un mélangeur parfait) et les valeurs rouges ont été obtenues avec 13000 mains de départ
 	obtenues sur MTGO.
-</p>
-<p>
-	J'aimerais rajouter à cela une remarque pour les joueurs de plateformes online. Quand j'affirme
-	que le mélangeur utilisé est suffisamment performant, cela signifie entre autre qu'il est
-	totalement inutile de mélanger plusieurs fois son deck à la suite... Pensez-y !
 </p>
 
 <h2>Comment bien mélanger son deck ?</h2>
