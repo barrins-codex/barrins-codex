@@ -86,67 +86,78 @@
 
 <h2>Comment bien mélanger son deck ?</h2>
 <p>
-	La question que l’on se pose ici est double, car oui on veut certes obtenir un paquet bien
-	mélangé de notre côté. Mais il est tout aussi important de connaître les techniques qui ne sont
-	pas efficaces, car chacune d’entre elles, comme nous allons le voir, peut être détournée pour
-	tricher par un joueur mal intentionné.
+	Cette section passe en revue certains types de mélanges pour voir lesquels sont efficaces et
+	lesquels ne le sont pas. Un des mélanges présentés ici peut être détourner et servir de 
+	moyen de tricher pour un joueur ou une joueuse mal intentionnée.
 </p>
 
-<h3>Le Mélange américain</h3>
+<h3>Le mélange américain</h3>
 <p>
-	Nous allons dans un premier temps nous intéresser au mélange le plus communément utilisé dans
-	les jeux de cartes et ensuite nous interroger sur son efficacité.
-</p>
-<p>
-	Ce mélange consiste à séparer le tas de cartes en deux paquet approximativement égaux puis de
+	Ce mélange consiste à séparer le tas de cartes en deux paquets approximativement égaux puis de
 	former un troisième paquet de cartes en alternant approximativement les cartes de chaque
-	paquet. Le fait que cette méthode soit approximative est justement un but recherché ici, car
-	c’est de là que va naître l’aléatoire du mélange. Dans la pratique il y a plusieurs façon de
-	faire un mélange américain et on a donné des noms différents à ces mélanges bien que le
-	résultat obtenu soit à peu près du même type :
+	paquet. L'aléatoire du mélange vient du fait que toutes les manipulation sont approximatives.
+	Il existe plusieurs méthodes pour effectuer ce mélange :
 </p>
 <ul>
 	<li>
-		Le mélange américain ou mélange en mitraillette (Riffle Shuffle) : Il s’agit de la
-		technique la plus utilisée lorsque l’on mélange les cartes car il s’agit là de la plus
-		rapide. C'est celle utilisé par les croupiers dans les casinos notamment.
+		<p>
+			Le mélange en mitraillette (<em>Riffle Shuffle</em>) :
+		</p>
+		<p>
+			Il s’agit de la technique la plus utilisée lorsque l’on mélange les cartes car 
+			c'est la plus rapide. Elle est utilisée par les croupiers dans les casinos 
+			notamment.
+		</p>
 	</li>
 	<li>
-		Le mélange par écrasement (Mashing Shuffle) : Il s’agit de la technique utilisée par les
-		joueurs de cartes à collectionner tels que les joueurs de Magic car ces cartes ainsi que
-		les protections supportent assez mal la courbure imposée par le mélange américain.
+		<p>
+			Le mélange par écrasement (<em>Mashing Shuffle</em>) : 
+		</p>
+		<p>
+			Il s’agit de la technique utilisée par les joueurs de cartes à collectionner 
+			car ces cartes et les protections supportent assez mal la courbure imposée par le 
+			mélange américain.
+		</p>
 	</li>
 </ul>
 {{ img_melange_paquet }}
 <p>
-	Il est communément admis que lorsqu’on effectue ce type de mélange plusieurs fois, notre paquet
-	de cartes est bien mélangé. Tout réside dans le sens que l'on donne à “plusieurs”.
+	Après avoir effectué <strong>plusieurs</strong> fois ce mélange, le paquet est considéré comme
+	étant bien mélangé. Tout réside dans le sens que l'on donne à "plusieurs".
 </p>
-<p>
-	Avant d’aller plus loin dans cette analyse, je vais vous décrire un tour de magie imaginé au
+<div class="tip">
+	<h3>Tour de magie</h3>
+	<p>
+		Voici tour de magie imaginé au
 	début du XXème siècle par deux magiciens Williams et Jordan. Il s’agit d’une application d’un
-	résultat probabiliste. Le tour consiste à demander à une personne de prendre un jeu de cartes
+	résultat probabiliste. 
+	</p>
+	<p>
+		Le tour consiste à demander à une personne de prendre un jeu de cartes
 	puis d'effectuer successivement : une coupe, un riffle shuffle, une coupe, un riffle shuffle et
 	terminer par une coupe. Puis cette personne doit piocher une carte et la remettre au hasard
 	dans le paquet. Le magicien se saisit alors du jeu et étale le paquet face visible devant lui
-	et après un temps de réflexion fini par retrouver la carte choisie en moyenne 9 fois sur 10.
+	et après un temps de réflexion fini par retrouver la carte choisie, en moyenne 9 fois sur 10.
+	</p>
+	<p>
 	Cela demande évidemment un entrainement particulier mais rien d'extraordinaire. Le magicien
 	doit au préalable avoir appris l’ordre initial des cartes et savoir quoi regarder. Au final, le
 	point important dans cet exemple est que si l’on n’apporte pas suffisamment de chaos à un
 	système ordonné au préalable, il est toujours possible de tirer des informations du mélange
-	obtenu avec une marge d’erreur qui peut être étonnement faible.
-</p>
+	obtenu avec une marge d’erreur qui peut être étonnamment faible.
+	</p>
+</div>
 <p>
 	La question qui se pose est alors la suivante : Combien de fois donc doit on effectuer de
-	mélange américain pour obtenir une répartition “suffisamment” aléatoire pour rendre toute
+	mélange américain pour obtenir une répartition "suffisamment" aléatoire pour rendre toute
 	triche impossible ?
 </p>
 <p>
-	La réponse à cette question délicate a été apporté assez récemment en 1992 par un mathématicien
-	du nom de Persi Diaconis qui, et cela ne vous étonnera pas, fut auparavant un magicien
+	La réponse à cette question délicate a été apportée assez récemment, en 1992, par un mathématicien
+	du nom de Persi Diaconis qui fut auparavant un magicien
 	professionnel. Pour répondre à cette question, Diaconis introduit un moyen de mesurer l’écart
-	entre un mélangeur donné et le mélangeur parfait que l’on désire obtenir. Nous ne rentrerons
-	pas dans les détails de ses travaux, mais ce qu’il faut savoir c’est que cet indicateur est un
+	entre un mélangeur donné et le mélangeur parfait que l’on désire obtenir. 
+	Ce qu’il faut savoir c’est que cet indicateur est un
 	nombre entre 0 et 1 et plus il est proche de 0, plus notre mélange est efficace. Sachant cela,
 	voici les courbes que fournit cet indicateur lorsque varie le nombre de mélanges américains.
 </p>
@@ -156,29 +167,28 @@
 	aléatoire.
 </p>
 <p>
-	On observe donc sur ce graphique que les premiers mélanges effectués n’ont quasiment aucun
-	effet sur notre indicateur. On estime que pour qu’un deck soit bien mélanger cet indicateur
-	doit être au plus égal à 0,5 et cela correspond à mélanger au moins 6, 7 ou 8 fois pour des
-	jeux ayant respectivement 40, 60 et 99 cartes.
+	Les premiers mélanges effectués n’ont quasiment aucun effet sur l'indicateur. Pour être "suffisamment"
+	mélangé, il faut que l'indicateur soit au plus égalà 0,5, ce qui revient à mélanger au moins
+	6, 7 ou 8 fois pour des jeux ayant respectivement 40, 60 et 99 cartes.
 </p>
 <p>
-	Cela peut paraitre beaucoup et fastidieux mais comme on a naturellement tendance à sous-estimer
-	toujours l'importance de mélanger suffisamment un deck, je vais vous donner un exemple concret
+	Cela peut paraitre beaucoup et fastidieux mais voici un exemple concret
 	de tricherie difficilement repérable, réalisable lorsqu’on ne mélange pas suffisamment un jeu
 	et qui ne demande ni une adresse ni une mémoire excessive.
 </p>
+<div class="tip">
 <p>
-	Vous êtes au milieu d’une partie de Magic et un effet vous permet de chercher une certaine
-	carte dans votre bibliothèque. Nous prenons l’exemple d’une bibliothèque contenant alors
-	environ 50 cartes. Le joueur se saisit alors de son deck à l’envers et le parcours jusqu’à
-	trouver la carte recherchée. Lors de cette opération, il doit compter 8 cartes puis retenir les
-	5 suivantes. Quand il a trouvé la carte recherchée, il effectue un seul mélange américain et
-	pose le deck devant votre adversaire pour qu’il le coupe. Si l’adversaire effectue une simple
-	coupe machinalement, il l’effectuera approximativement au milieu. Les cinq cartes que vous avez
-	alors retenu devraient vous parvenir assez tôt par la suite dans l’ordre inverse duquel vous
-	les avez mémorisées et chacune séparée approximativement par une carte. Cela n’a l’air de rien,
-	mais cela fournit assez facilement beaucoup d’informations au joueur.
+	Au milieu d’une partie de Magic, un effet permet de chercher une certaine
+	carte dans la bibliothèque, d'une taille d'environ 50 cartes. Le joueur se saisit alors de son 
+	deck à l’envers et le parcours jusqu’à trouver la carte recherchée. Lors de cette opération, il 
+	doit compter 8 cartes puis retenir les 5 suivantes. Quand il a trouvé la carte recherchée, il 
+	effectue un seul mélange américain et pose le deck devant votre adversaire pour qu’il le coupe. 
+	Si l’adversaire effectue une simple coupe machinalement, il l’effectuera approximativement au 
+	milieu. Les cinq cartes alors retenues devraient parvenir assez tôt par la suite dans l’ordre 
+	inverse dans lequel elle ont été mémorisées et chacune séparée approximativement par une carte. 
+	Cela n’a l’air de rien, mais cela fournit assez facilement beaucoup d’informations au joueur.
 </p>
+</div>
 
 <h2>Le Mélange Français</h2>
 <p>
