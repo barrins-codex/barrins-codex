@@ -1,0 +1,97 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/kess-dissident-mage.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Kess, Dissident Mage</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	kess_dissident_mage=card("Kess, Dissident Mage"),
+	
+	mana_confluence=card("Mana Confluence"),
+	prismatic_vista=card("Prismatic Vista"),
+	reflecting_pool=card("Reflecting Pool"),
+	undeground_river=card("Underground River")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	Jamais top tier, jamais trash tier, Kess fait partie de ces généraux peu fréquents
+	mais qui restent toujours présents peu importe l’évolution du format. Avec une 
+	bonne maîtrise du deck, réaliser une bonne performance en tournoi est accessible.
+</p>
+<p>
+	Jouer contrôle peut être un gros investissement financier au départ mais il est 
+	possible de le rentabiliser. En effet, chaque carte est jouable en dehors de ce 
+	jeu et pourra trouver une place ailleurs.
+</p>
+<p>
+	Il est nécessaire de maîtriser ce style de jeu pour garder confiance lorsque la
+	partie semble être hors de contrôle. L’éventail de couleurs de Grixis donne accès
+	à un panel non négligeable de cartes extrêmement puissantes et même doublement 
+	puissantes une fois Kess sur la table et, surtout, stabilisée. En effet, les 
+	performances de ce deck dépendent de la présence de Kess, mage insoumise sur le 
+	champ de bataille.
+</p>
+
+<h2>Construction du deck</h2>
+<p>
+	Comme n’importe quel deck contrôle, il est nécessaire de pouvoir jouer ses cartes
+	sans rencontrer de problèmes de mana. Il faut donc pouvoir s’assurer de jouer un
+	terrain par tour en early game avec un objectif de quatre terrains au tour quatre.
+	Il est aussi important que chaque carte jouée ait un impact correct sur l'état de
+	la partie.
+</p>
+<h3>Les terrains</h3>
+<p>
+	Il est important de limiter au maximum les painlands et les terrains qui
+	arrivent en jeu engagés. Les premiers tours (l'<em>early game</em>) doivent se
+	dérouler sans accroc. La potentielle perte de tempo qui accompagne les terrains 
+	arrivant en jeu engagés et les dégâts qu'infligent les painlands risquent de 
+	mettre le deck en difficulté dans les quatre à cinq premiers tours.
+</p>
+<p>
+	Le nombre de land ne doit pas descendre en dessous de 38 et ne pas monter
+	au-dessus de 42. En effet, hors de ces bornes, les risques d'absence ou de 
+	sur-représentation de terrains dans les premiers tours sont très élevés et cela 
+	risque d'endommager le bon déroulé de la majorité des parties.
+</p>
+<ul>
+	<li>
+		<p>
+			<strong>Les fetches</strong> :
+		</p>
+		<p>
+			Les neuf fetchs bicolores et {{ prismatic_vista }} permettent de
+			garantir une bonne distribution des sources colorées. Cela permet
+			donc de limiter les risques de color death. Il faut prioriser les
+			terrains qui produisent du mana bleu car c'est la couleur dont 
+			dépend le plus le deck.
+		</p>
+	</li>
+	<li>
+		<p>
+			<strong>Les terrains multi-colores</strong> :
+		</p>
+		<p>
+			Ces terrains sont regroupés par cycle et sont généralement tous à 
+			ajouter dans la liste. Se retrouvent dans ces catégories les 
+			biland originels, les shocklands, les checklands et les fastlands.
+			Il faut aussi considérer deux à trois painlands dont au moins 
+			{{ mana_confluence }} et {{ undeground_river }}.
+		</p>
+		<p>
+			Il existe également {{ command_tower }} qu'il faut jouer car ce 
+			terrain permet d'accéder à toutes les couleurs de l'identité couleur
+			de {{ kess_dissident_mage }}. Il est aussi possible de considérer 
+			{{ reflecting_pool }} comme un moyen de dupliquer les couleurs déjà 
+			produites.
+		</p>
+	</li>
+</ul>
+{% endtrans %}
+{% endblock %}
