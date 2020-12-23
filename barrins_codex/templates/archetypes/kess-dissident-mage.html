@@ -13,10 +13,19 @@
 {% trans trimmed
 	kess_dissident_mage=card("Kess, Dissident Mage"),
 	
+	blightstep_pathway=card("Blightstep Pathway"),
+	clearwater_pathway=card("Clearwater Pathway"),
 	mana_confluence=card("Mana Confluence"),
+	path_of_ancestry=card=("Path of Ancestry"),
 	prismatic_vista=card("Prismatic Vista"),
 	reflecting_pool=card("Reflecting Pool"),
-	undeground_river=card("Underground River")
+	riverglide_pathway=card("Riverglide Pathway"),
+	underground_river=card("Underground River"),
+
+	snow_island=card("Snow-covered Island", _("neigeuse")),
+	nonsnow_island=card("Island", _("non")),
+	snow_swamp=card("Snow-covered Swamp", _("neigeux")),
+	nonsnow_swamp=card("Swamp", _("non"))
 %}
 <h2>Présentation rapide</h2>
 <p>
@@ -82,15 +91,85 @@
 			ajouter dans la liste. Se retrouvent dans ces catégories les 
 			biland originels, les shocklands, les checklands et les fastlands.
 			Il faut aussi considérer deux à trois painlands dont au moins 
-			{{ mana_confluence }} et {{ undeground_river }}.
+			{{ mana_confluence }} et {{ underground_river }}.
 		</p>
 		<p>
 			Il existe également {{ command_tower }} qu'il faut jouer car ce 
-			terrain permet d'accéder à toutes les couleurs de l'identité couleur
-			de {{ kess_dissident_mage }}. Il est aussi possible de considérer 
-			{{ reflecting_pool }} comme un moyen de dupliquer les couleurs déjà 
-			produites.
+			terrain permet d'accéder à toutes les couleurs de l'identité 
+			couleur de {{ kess_dissident_mage }}. Il est aussi possible de 
+			considérer {{ reflecting_pool }} comme un moyen de dupliquer les 
+			couleurs déjà produites. Selon la nécessité d'interagir avec les 
+			decks les plus rapides, {{ path_of_ancestry }} est envisageable 
+			car fournit directement les colorés et quelques regards, son seul 
+			défaut étant d'arriver en jeu engagé.
 		</p>
+	</li>
+	<li>
+		<p>
+			<strong>Les terrains mono-colores</strong> :
+		</p>
+		<p>
+			Les terrains recto-verso {{ riverglide_pathway }} et 
+			{{ clearwater_pathway }} sont à jouer car ils permettent l'accès à
+			du coloré sans coûter de points de vie. {{ blightstep_pathway }}
+			qui sort dans Kaldheim peut aussi être à considéré pour les mêmes
+			raison malgré l'absence de production de mana bleu.
+		</p>
+		<p>
+			Bien qu'il faille jouer des terrains basiques, il ne faut pas en
+			jouer en excès. En jouer entre quatre et cinq semble raisonnable.
+			Il faut, dans tous les cas, jouer au moins deux îles, une 
+			{{ snow_island }}, une {{ nonsnow_island }}. Ensuite, s'il y a un
+			doublement du marais, il faudra aussi penser à en jouer un 
+			{{ snow_swamp }} et un {{ nonsnow_swamp }}.
+		</p>
+	</li>
+	<li>
+		<p>
+			<strong>Les terrains utilitaires</strong> :
+		</p>
+		<p>
+			En plus de tous les terrains listés ci-dessus, certains terrains 
+			peuvent être considérés pour leurs attraits.
+		</p>
+		<ul>
+			<li>
+				{{ field_of_ruins }} permet d'interagir avec les terrains
+				de l'adversaire. Selon les decks attendus, cela peut être
+				un choix intéressant pour casser des {{ cabal_coffers }},
+				{{ maze_of_ith }}, {{ glacial_chasm }}, 
+				{{ valakut_molten_pinnacle }}, 
+				{{ azcanta_the_sunken_ruins }} par exemple.
+			</li>
+			<li>
+				{{ urborg_tomb_of_yawgmoth }} permet de garantir les 
+				sources de mana noir. Ce terrain peut favoriser 
+				l'adversaire si ce dernier joue {{ the_gitrog_monster }}
+				ou {{ golos_tireless_pilgrim }} qui bénéficient de 
+				l'interaction avec {{ cabal_coffers }} par exemple.
+			</li>
+			<li>
+				{{ creeping_tar_pit }} produit les manas les plus 
+				importants du deck mais arrivent en jeu engagé, cela 
+				dépend donc du besoin de colorés comparé au besoin de 
+				terrains directement disponibles. Son avantage sur 
+				d'autres terrains est qu'il est animable et qu'il permet
+				de tuer l'adversaire plus rapidement.
+			</li>
+			<li>
+				{{ castle_vantress }} a un effet intéressant en fin de 
+				partie car le regard permet d'avancer plus vite dans son
+				deck et donc d'avoir accès à des cartes plus efficaces en
+				terme d'interaction ou en terme de pression pure.
+			</li>
+			<li>
+				{{ maze_of_ith }} permet de s'armer contre les decks 
+				aggro et les decks voltron. {{ kess_dissident_mage }} a
+				les caractéristiques nécessaires pour bloquer la majorité
+				des créatures, ce terrain est un support qui ne produit 
+				pas de manas.
+			</li>
+		</ul>
 	</li>
 </ul>
 {% endtrans %}
