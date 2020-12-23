@@ -166,11 +166,11 @@ def scryfall_id(name):
 
 @app.context_processor
 def display_card():
-	def card(name):
+	def card(name, display_name=None):
 		return flask.Markup(
 			"""<span class="card" onclick="dC('{scryfallId}')" onmouseover="hC('{scryfallId}')" onmouseout="oC()">{name}</span>""".format(
 				# replace spaces with non-breakable spaces in card names
-				name=name.replace(" ", " "),
+				name=(display_name or name).replace(" ", " "),
 				scryfallId=scryfall_id(name),
 			)
 		)
