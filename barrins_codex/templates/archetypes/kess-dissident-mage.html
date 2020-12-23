@@ -11,9 +11,30 @@
 
 {% block archetype %}
 {% trans trimmed
+	brazen_borrower=card("Brazen Borrower"),
+	baleful_strix=card("Baleful Strix"),
+	bonecrusher_giant=card("Bonecrusher Giant"),
 	golos_tireless_pilgrim=card("Golos, Tireless Pilgrim"),
+	hullbreacher=card("Hullbreacher"),
 	kess_dissident_mage=card("Kess, Dissident Mage"),
+	opposition_agent=card("Opposition Agent"),
+	spellskite=card("Spellskite"),
+	snapcaster_mage=card("Snapcaster Mage"),
 	the_gitrog_monster=card("The Gitrog Monster"),
+	true_name_nemesis=card("True-Name Nemesis"),
+	vendilion_clique=card("Vendilion Clique"),
+
+	petty_theft=card("Petty Theft"),
+	stomp=card("Stomp"),
+	toxic_deluge=card("Toxic Deluge"),
+
+
+	ashiok_dream_render=card("Ashiok, Dream Render"),
+	chandra_torch_of_defiance=card("Chandra, Torch of Defiance"),
+	jace_the_mindsculptor=card("Jace, the Mindsculptor"),
+	liliana_of_the_veil=card("Liliana of the Veil"),
+	liliana_the_last_hope=card("Liliana, the Last Hope"),
+	narset_parter_of_veils=card("Narset, Parter of Veils"),
 
 	azcanta_the_sunken_ruin=card("Azcanta, the Sunken Ruin"),
 	cabal_coffers=card("Cabal Coffers"),
@@ -63,6 +84,7 @@
 	early game avec un objectif de quatre terrains au tour quatre. Il est aussi important que
 	chaque carte jouée ait un impact correct sur l'état de la partie.
 </p>
+
 <h3>Les terrains</h3>
 <p>
 	Il est important de limiter au maximum les painlands et les terrains qui arrivent en jeu
@@ -104,8 +126,8 @@
 	Les terrains recto-verso {{ riverglide_pathway }} et {{ clearwater_pathway }} sont à jouer car
 	ils permettent l'accès à du coloré sans coûter de points de vie.
 	{# SPOILER #}
-	Blightstep Pathway qui sort dans Kaldheim peut aussi être à considéré pour les mêmes raison
-	malgré l'absence de production de mana bleu.
+	Blightstep Pathway peut aussi être à considéré pour les mêmes raison malgré l'absence de
+	production de mana bleu.
 </p>
 <p>
 	Bien qu'il faille jouer des terrains basiques, il ne faut pas en jouer en excès. En jouer entre
@@ -143,8 +165,94 @@
 </p>
 <p>
 	{{ maze_of_ith }} permet de s'armer contre les decks aggro et les decks voltron.
-	{{ kess_dissident_mage }} a les caractéristiques nécessaires pour bloquer la majorité des
+	{{ kess_dissident_mage }} a des caractéristiques suffisantes pour bloquer la majorité des
 	créatures, ce terrain est un support qui ne produit pas de manas.
 </p>
+
+<h3>Les créatures</h3>
+<p>
+	L'objectif de tous les decks <strong>Draw Go</strong> est de garder le maximum de mana
+	disponible pendant le tour de l'adversaire et jouer des créatures ne permet pas de rester le ou
+	la plus fexible possible. Heureusement, le mot-clé <em>Flash</em> existe et permet aux créature
+	de ne pas nuire au plan de jeu principal.
+</p>
+<p>
+	Dans Draw Go, une créature doit permettre au deck de se développer tout en interagissant avec
+	l'adversaire. Jouer des créatures permet non seulement de temporiser ou de générer du
+	<em>Card Advantage</em> mais aussi bloquer les créatures adverses et grignoter les points de
+	vie de l’adversaire avant que {{ kess_dissident_mage }} ne vienne finir le travail.
+</p>
+<p>
+	Quoiqu’il en soit, les créatures ne sont pas le cœur du deck et dépasser 8 à 9 créatures limite
+	la quantité d'éphémères et de rituels qui sont parfois plus impactants grâce à leur
+	rejouabilité via {{ kess_dissident_mage }}. C’est pour cette raison qu’il faut également
+	limiter le nombre de planeswalkers.
+</p>
+<h4>Créatures avec le Flash</h4>
+<p>
+	{{ snapcaster_mage }} et {{ vendilion_clique }} sont des classiques des decks Draw Go ;
+</p>
+<p>
+	{{ brazen_borrower }} est une des rares cartes à pouvoir gérer un enchantement via
+	{{ petty_theft }} dans les cartes envisageables dans le deck ;
+</p>
+<p>
+	{{ opposition_agent }} est une véritable destructrice des decks Combo en les empêchant
+	d'assembler les différentes cartes dont ils ont besoin ;
+</p>
+<p>
+	{{ hullbreacher }} permet de mettre à mal la recherche de <em>Card Advantage</em> de
+	l'adversaire tout en le transformant en potentiel mana.
+</p>
+<h4>Créatures sans le Flash</h4>
+<p>
+	Les capacités et les mots-clé de {{ baleful_strix }} font de lui un candidat idéal qui permet de réaliser presque tout ce qu'on attend d'une créature en rituel : ça bloque, ça tue des créatures adverses et ça se remplace ;
+</p>
+<p>
+	{{ true_name_nemesis }} est à la fois le bloqueur parfait et l'assaillant idéal. Son endurance
+	ne lui permet cependant pas de résister à des cartes comme {{ toxic_deluge }} qui ni ne ciblent
+	ni ne font des dégâts.
+</p>
+<h4>Créatures utilitaires</h4>
+<p>
+	Selon les decks attendus, certaines créatures peuvent être considérées et remplacer des cartes
+	qui peuvent ne pas apporter un avantage significatif.
+</p>
+<p>
+	{{ bonecrusher_giant }} permet de tuer des petites créatures avant d'aider à grignoter les
+	points de vie de l'adversaire. En le combinant avec {{ kess_dissident_mage }}, une fois au
+	cimetière, il est possible de le lancer {{ stomp }} en <em>Aventure</em> puis de lancer le
+	géant depuis l'exil ;
+</p>
+<p>
+	{{ thing_in_the_ice }} peut servir de bloqueur puis de <em>Bounce</em> de masse. C'est
+	cependant une créature fragile ;
+</p>
+<p>
+	{{ spellskite }} permet à la fois de bloquer et de protéger les ressources du deck,
+	{{ kess_dissident_mage }} en particulier.
+<p>
+
+<h3>Les planeswalkers</h3>
+<p>
+	Quel objectif sert un planewalker : Est-ce une condition de victoire accessible ? Permet-il de
+	faire du CA rapidement ? Bloque-t-il un archétype particulier ? Les arguments en défaveur des
+	arpenteurs sont les mêmes que pour les créatures : ce sont des rituels qui demandent une
+	certaine quantité de mana, ce qui laisse plus de possibilité à l'adversaire le tour où ils sont
+	joués.
+</p>
+<p>
+	Les planewalkers qui offrent une condition de victoire sont nombreux dans Magic mais peu sont
+	pertinants : {{ chandra_torch_of_defiance }}, {{ liliana_of_the_veil}},
+	{{ liliana_the_last_hope }} et {{ jace_the_mindsculptor }}. Il faut alors ce demander quelle
+	est leur valeur ajoutée car les places sont chères dans le deck.
+</p>
+<p>
+	Pour les arpenteurs plus spécifiques, les deux plus présents sont :
+	{{ narset_parter_of_veils }} et {{ ashiok_dream_render }}. La première bloque toute pioche
+	additionnelle adverse en permettant de creuser la bibliothèque. Le second bloque tout effet de
+	recherche adverse et gère également les cimetières, une excellente option contre combo.
+</p>
+
 {% endtrans %}
 {% endblock %}
