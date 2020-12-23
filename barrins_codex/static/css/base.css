@@ -146,6 +146,7 @@ h4 {
 	font-size: 1rem;
 	margin-top: 0.6em;
 	margin-bottom: 0.3em;
+	text-align: left;
 }
 h4 > img {
 	height: 2rem;
