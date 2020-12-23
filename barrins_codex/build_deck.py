@@ -72,27 +72,27 @@ if os.path.exists(fn):
 					# Usual land cards
 					land["cards"].append(ajout)
 
-			if "Creature" in ajout["types"]:
+			elif "Creature" in ajout["types"]:
 				crea["count"] = crea["count"] + int(ajout["count"])
 				crea["cards"].append(ajout)
 
-			if "Planeswalker" in ajout["types"]:
+			elif "Planeswalker" in ajout["types"]:
 				plan["count"] = plan["count"] + int(ajout["count"])
 				plan["cards"].append(ajout)
 
-			if "Artifact" in ajout["types"]:
+			elif "Artifact" in ajout["types"]:
 				arti["count"] = arti["count"] + int(ajout["count"])
 				arti["cards"].append(ajout)
 
-			if "Enchantment" in ajout["types"]:
+			elif "Enchantment" in ajout["types"]:
 				ench["count"] = ench["count"] + int(ajout["count"])
 				ench["cards"].append(ajout)
 
-			if "Instant" in ajout["types"]:
+			elif "Instant" in ajout["types"]:
 				inst["count"] = inst["count"] + int(ajout["count"])
 				inst["cards"].append(ajout)
 
-			if "Sorcery" in ajout["types"]:
+			elif "Sorcery" in ajout["types"]:
 				sorc["count"] = sorc["count"] + int(ajout["count"])
 				sorc["cards"].append(ajout)
 
