@@ -47,14 +47,6 @@
                     },
                     {
                         "count": "1",
-                        "id": "3651483f-6077-4b4e-b2c7-9d57f22c65dc",
-                        "name": "Kess, Dissident Mage",
-                        "types": [
-                            "Creature"
-                        ]
-                    },
-                    {
-                        "count": "1",
                         "id": "086f97e9-8b62-44f3-b467-149c2ac5ca78",
                         "name": "Opposition Agent",
                         "types": [
@@ -86,7 +78,7 @@
                         ]
                     }
                 ],
-                "count": 8,
+                "count": 7,
                 "type": "Creatures"
             },
             {
