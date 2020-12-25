@@ -56,17 +56,7 @@ STRUCTURE = Nav(
 			lazy_gettext("Articles"),
 			index=True,
 			children=[
-				Nav(
-					lazy_gettext("L'Art de classifier les decks"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Introduction")),
-						Nav(lazy_gettext("Classification en Macrotypes")),
-						Nav(lazy_gettext("Les Catégories de decks")),
-						Nav(lazy_gettext("La Classification en tiers")),
-						Nav(lazy_gettext("Pour aller plus loin")),
-					],
-				),
+				Nav(lazy_gettext("L'Art de classifier les decks")),
 				Nav(lazy_gettext("L'Art de bien mélanger un deck")),
 				Nav(lazy_gettext("La loi hypergéométrique")),
 				Nav(lazy_gettext("Win O Maths")),
