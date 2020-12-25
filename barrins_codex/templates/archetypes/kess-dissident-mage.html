@@ -40,6 +40,7 @@
 	dreadbore=card("Dreadbore"),
 	duress=card("Duress"),
 	fact_or_fiction=card("Fact or Fiction"),
+	fatal_push=card("Fatal Push"),
 	fiery_confluence=card("Fiery Confluence"),
 	force_of_negation=card("Force of Negation"),
 	force_of_will=card("Force of Will"),
@@ -152,9 +153,7 @@
 <h4>Les fetches</h4>
 <p>
 	Les neuf fetchs bicolores et {{ prismatic_vista }} permettent de garantir une bonne
-	distribution des sources colorées. Cela permet donc de limiter les risques de color death. Il
-	faut prioriser les terrains qui produisent du mana bleu car c'est la couleur dont dépend le
-	plus le deck.
+	distribution des sources colorées. Cela permet donc de limiter les risques de color death.
 </p>
 <p>
 	Étant donné la construction du pack, l’accès à toutes les couleurs est primordial. Il faut se
@@ -464,7 +463,7 @@
 </p>
 <ul>
 	<li>
-		<p><strong>{{ jace_wielder_of_mysteries }} + {{ tainted_pact }}</strong></p>
+		<p>{{ jace_wielder_of_mysteries }} + {{ tainted_pact }}</p>
 		<p>
 			{{ tainted_pact }} reste une carte jouée dans la plupart des versions de
 			{{ kess_dissident_mage }} mais {{ jace_wielder_of_mysteries }} beaucoup moins.
@@ -473,7 +472,7 @@
 		</p>
 	</li>
 	<li>
-		<p><strong>{{ ral_storm_conduit }} + {{ chain_of_smog }}</strong></p>
+		<p>{{ ral_storm_conduit }} + {{ chain_of_smog }}</p>
 		<p>
 			L'impact individuel des deux cartes est très bas et même si {{ chain_of_smog }} peut
 			faire du <em>deux pour un</em>, {{ ral_storm_conduit }} a un coût prohibitif et une
@@ -483,5 +482,63 @@
 </ul>
 <div class="clear"></div>
 
+<h2>Jouer avec le deck</h2>
+<p>
+	Il n’existe pas de match avec une issue connue d'avance, il faut se battre pour gagner, c’est
+	ce qui rend le deck satisfaisant à jouer. Plus que l'impact individuel des cartes ou du
+	général, ce qui compte le plus sont la manière d'appréhender la partie, la réponse aux menaces
+	proposées par l'adversaire et les décisions prises tout au long de la partie.
+</p>
+<p>
+	Comme {{ kess_dissident_mage }} est un deck contrôle, il se joue de manière réactive. La
+	capacité à répondre à toute éventualité dans les premiers tours dépend des cartes actives, de
+	leur quantité et de leur qualité.
+</p>
+<p>
+	Il ne faut garder ni trop ni trop peu de terrains en main de départ car cela nuit à la quantité
+	et à la qualité des sorts qui peuvent être lancés. Toutefois, l'objetctif est
+	d'avoir quatre terrains sur le champ de bataille au tour quatre, donc les mains de départ à
+	trois ou quatre terrains sont idéales. Seuls des <em>cantrips</em> comme {{ preordain }} et
+	{{ serum_visions }} peuvent faire fléchir cette règle.
+</p>
+<ul>
+	<li>
+		<strong>Aggro</strong> :
+		{{ lightning_bolt }}, {{ fatal_push }}, et une <em>wrath</em> comme {{ toxic_deluge }}
+		sculptent les meilleures mains. Il ne faut surtout pas hésiter à gérer chaque créature de
+		l'adversaire pour lui faire perdre le maximum de pression sur le champ de bataille. Il faut
+		impérativement maintenir un niveau de points de vie suffisamment élevé avant l’arrivée de
+		{{ kess_dissident_mage }} pour garder une marge de manœuvre suffisante qui permettra de
+		tirer le meilleur de Kess.
+	</li>
+	<li>
+		<strong>Contrôle</strong> :
+		des <em>cantrips</em> ({{ ponder}} et consorts), des contres ({{ counterspell }} et
+		assimilés) et de la défausse ({{ thoughtseize}} et autres) sont les armes à privilégier.
+		Une main remplie presque totalement de cartes bleues face à contrôle n’est pas un souci, au
+		contraire. Les cantrips adverses ne sont pas une menace, les arpenteurs et les tutors, si.
+		Les anti-bêtes sont à recycler sur {{ collective_brutality }} par exemple. Les blasts
+		peuvent être utiles face aux arpenteurs ou pour grignoter les points de vie de l’adversaire
+		et le forcer à prendre une position plus défensive, ce qui le mettra en difficulté.
+	</li>
+	<li>
+		<strong>Combo</strong> :
+		de la discard, de la gestion et des contres sont tout aussi importants. Il faut être
+		capable de répondre à tout moment à l’amorce d’une combo, c’est pourquoi les cartes donnant
+		l’information sur la main adverse sont très importantes. Il est toujours complexe de jouer
+		contre ce type de deck et il sera sûrement nécessaire de laisser passer quelques cartes qui
+		ont un impact correct sur la partie (parfois des créatures, parfois des tutors, parfois des
+		éléments de la combo) pour ne pas être épuisé au moment fatidique.
+	</li>
+</ul>
+
+<div class="tip">
+	<h3>Anticiper le style de jeu de l'adversaire</h3>
+	<p>
+		Sauf cas particulier, il est possible de déterminer le macrotype voire l’archétype choisi
+		par l’adversaire en voyant le général. Cela permet donc d’estimer de manière assez fiable
+		si les cartes en main auront un impact ou non.
+	</p>
+</div>
 {% endtrans %}
 {% endblock %}
