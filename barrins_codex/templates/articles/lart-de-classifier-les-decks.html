@@ -5,6 +5,11 @@
 <h1>{{ _("L'Art de classifier les decks") }}</h1>
 {{ contributor.zombie33() }}
 
+{#
+	----------
+	Introduction
+	----------
+#}
 {% trans trimmed
 	partie_1=link("/articles/lart-de-classifier-les-decks", _("Les classifications en macrotype"), _anchor="classification-en-macrotypes"),
 	partie_2=link("/articles/lart-de-classifier-les-decks", _("Les catégories de decks"), _anchor="categories-de-decks"),
@@ -57,6 +62,11 @@
 </ul>
 {% endtrans %}
 
+{#
+	----------
+	Classification en macrotypes
+	----------
+#}
 {% trans trimmed
 	img_macrotype_a='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_a.svg'))|safe,
 	img_macrotype_b='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_b.svg'))|safe,
@@ -351,7 +361,13 @@
 
 {#
 	----------
-	Les catégories de Decks
+	Classification en archétype
+	----------
+#}
+
+{#
+	----------
+	Classification en tiers
 	----------
 #}
 <h2>{{ _("La classification en tier et l'évolution d'un metagame") }}</h2>
@@ -364,7 +380,8 @@
 </p>
 <p>
 	« Tier » signifie échelon en anglais, et n'a donc aucun rapport avec la fraction 1/3. Cette
-	confusion est d'autant plus grande au niveau des joueurs français car les decks sont habituellement classés en trois tiers.
+	confusion est d'autant plus grande chez les joueurs français car les decks sont habituellement
+	classés en trois tiers.
 </p>
 <ul>
 	<li>
@@ -374,10 +391,10 @@
 		le <em>Gauntlet</em> du format.
 	</li>
 	<li>
-		Le tier 2 représente les « outsiders » , des decks plus ou moins connus, qui se révèlent
-		dominants à une occasion particulière ou capables de gagner quelques places dans les top 8.
-		On appelle aussi ces decks les <em>Deck to Watch</em>, ce qui signifie les decks à
-		surveiller.
+		Le tier 2 représente les <em>outsiders</em> , des decks plus ou moins connus, qui se
+		révèlent dominants à une occasion particulière ou quisont capables de gagner quelques
+		places dans les top 8. On appelle aussi ces decks les <em>Deck to Watch</em>, ce qui
+		signifie les decks à surveiller.
 	</li>
 	<li>
 		Le tier 3 regroupe les autres decks, pouvant créer la surprise ponctuellement, mais
@@ -419,12 +436,13 @@
 	avec une probabilité de 0,5 pour les miroirs.
 </p>
 <p>
-	Ci dessous se trouve une matrice des match up d'archétypes Modern collectés sur les GP de Las
+	Ci-dessous se trouve une matrice des matchup d'archétypes Modern collectés sur les GP de Las
 	Vegas, Sao Paulo et Barcelone en 2018 qui ont été postés sur twitter/reddit :
 </p>
 {{ img_matrice }}
 <p>
-	Cette martice sert ni plus ni moins à simuler des tournois et par suite à identifier les meilleurs decks du format, le tier 1. Pour ce faire, voici les données de base :
+	Cette martice sert ni plus ni moins à simuler des tournois et par suite à identifier les
+	meilleurs decks du format, le tier 1. Pour ce faire, voici les données de base :
 </p>
 <ul>
 	<li>
@@ -441,85 +459,85 @@
 	</li>
 </ul>
 <p>
-	Si on reprend notre matrice des match up du Modern ci-dessus, alors en considérant que chaque
-	archétype est joué en proportion égal, seul 6 archétypes ont une probabilité supérieure à 1/18
-	de gagner un tournoi de dix rondes. Dans l'ordre : UW Control (0,20), KCI (0,11), Counters Coco
-	(0,10), Humans (0,08), Hollow One (0,06) et Grixis Shadows (0,06).
+	D'après la matrice ci-dessus, en considérant que chaque archétype est joué en proportion égale,
+	seuls 6 archétypes ont une probabilité supérieure à 1/18 (0,055) de gagner un tournoi de dix
+	rondes. Dans l'ordre : UW Control (0,20), KCI (0,11), Counters Coco (0,10), Humans (0,08),
+	Hollow One (0,06) et Grixis Shadows (0,06).
 </p>
 {{ img_graph }}
 <p>
-	Cette matrice nous donne en effet des résultats particulièrement bon concernant UW Control qui
-	semble dominer le format actuel si on se fie aux chiffres donnés par la matrice. Mais poussons
-	maintenant l'étude plus loin en partant de la proportion dans laquelle ces différents decks ont
-	été joués lors des trois GP de Vegas, Sao Paulo et Barcelone.
+	Cette matrice donne en effet des résultats particulièrement bons concernant UW Control qui
+	semble dominer le format étudié. Voici la matrice établie en partant de la proportion dans
+	lesquelle ces différents decks ont été joués lors des trois GP de Vegas, Sao Paulo et Barcelone.
 </p>
 {{ img_metagame }}
 <p>
-	Nous obtenons alors un tout nouveau graphique qui place UW Control toujours en tête avec une
-	probabilité de victoire relativement proche (0,18) malgré une proportion de UW Control au
-	départ plus faible.
+	Le résultat obtenu place UW Control de nouveau en tête avec une probabilité de victoire
+	relativement proche (0,18) malgré une proportion de UW Control au départ plus faible.
 </p>
 {{ img_proba_restreintes }}
-<p>
-	Une autre possibilité qui fait le lien avec ce qui précède est de regrouper les decks en
-	catégories pour observer leur match up.
-</p>
 {% endtrans %}
 
 {% trans trimmed %}
 <h3>L'évolution d'un metagame serait-elle prédictible ?</h3>
 <p>
-	En jouant sur la proportion de chaque archétype au départ, ne pourrait-on pas anticiper
-	l'évolution d'un metagame dans le temps ? Hum... Eh bien oui ce serait la méthode à appliquer,
-	mais cette entreprise sur le long terme voir même sur le moyen terme est hélas vouée à l'échec.
+	En jouant sur la proportion de chaque archétype au départ, serait-il possible d'anticiper
+	l'évolution d'un metagame dans le temps ? Même si cela semble être la méthode à adopter, cette
+	entreprise semble vouée à l'échec sur le moyen voire le long terme.
 </p>
 <p>
-	Je m'explique.
-</p>
-<p>
-	Tout d'abord nous devons considérer que la proportion de chaque deck lors des tournois ne
+	Tout d'abord, il faut considérer que la proportion de chaque deck lors des tournois ne
 	dépend que de la faculté que ces decks ont de gagner des tournois et que le capital sympathie
-	qu'ils peuvent avoir ne rentre pas en ligne de compte. Pour faire court : on est dans un
-	contexte compétitif et pas dans du Kitchen Magic. On obtient à ce moment là un système
-	dynamique discret où on assimile le metagame à un instant T à la proportion dans laquelle les
-	archétypes seront joués à l'instant T+1. Jusque là tout va bien et en fait notre problème
-	revient exactement au même qu'augmenter le nombre de ronde d'un tournoi. Ça semble presque trop
-	facile non ?
+	qu'ils peuvent avoir ne rentre pas en ligne de compte. Il s'agit d'un contexte compétitif à
+	grande échelle qui dépasse la dynamique des tournois locaux.
 </p>
 <p>
-	Il y a en effet plusieurs problèmes derrière cette méthode. Premièrement nous avons ici un
-	système dynamique qui a de bonnes chances d'être chaotique, c'est à dire que des écarts sur les
-	valeurs initiales ou sur la matrice de départ peuvent entrainer des résultats très différents à
-	l'arrivée. Je vous rappelle au passage que les valeurs de la matrice de départ sont déjà des
-	approximations ! Mais ça ce n'est rien à côté du second problème, à savoir le fait qu'en
-	réalité notre matrice de match up elle aussi dépend de l'instant T ! En effet, lorsque le
-	metagame évolue les decklist et en particulier les side s'adaptent pouvant changer grandement
-	les valeurs de la matrice (problème qui était totalement absent lorsque l'on considérait un
-	unique tournoi comme précédemment). Enfin cette méthode délaisse totalement la possibilité
-	qu'un nouveau deck ou même un rogue deck que nous avions ignoré jusque là fasse son entrée dans
-	le metagame.
+	On obtient, à ce moment là, un système dynamique discret où on assimile le metagame à
+	un instant <span class="code">T</span> à la proportion dans laquelle les archétypes seront
+	joués à l'instant <span class="code">T+1</span>. Ce système revient exactement au même
+	qu'augmenter le nombre de rondes d'un tournoi.
 </p>
 <p>
-	Du coup l'apparente domination de UW Control dans le format modern que nous avons révélée ci-
-	dessus n'est pas forcément synonyme d'une domination future de cet archétype. En fait tout va
-	dépendre de la faculté des autres archétypes à réagir à cette menace et à s'y adapter en
-	modifiant notament leur side.
+	Il y a, cependant, plusieurs problèmes derrière cette méthode :
+</p>
+<ol>
+	<li>
+		Nous avons ici un système dynamique qui a de bonnes chances d'être chaotique, c'est à dire
+		que des écarts sur les valeurs initiales ou sur la matrice de départ peuvent entrainer des
+		résultats très différents à l'arrivée (les valeurs de la matrice de départ sont déjà des
+		approximations !) ;
+	</li>
+	<li>
+		En réalité, la matrice de matchup dépend elle aussi de l'instant
+		<span class="code">T</span> ! En effet, lorsque le metagame évolue les listes de deck et en
+		particulier les réserves s'adaptent, pouvant changer grandement les valeurs de la matrice.
+		Ce problème était totalement absent lorsque un unique tournoi était pris en compte ;
+	</li>
+	<li>
+		Cette méthode délaisse totalement la possibilité qu'un nouveau deck ou même un rogue deck
+		que nous avions ignoré jusque là fasse son entrée dans le metagame.
+	</li>
+</ol>
+<p>
+	Finalement, l'apparente domination de UW Control dans le format Modern telle qu'étudiée sur les
+	GP en 2018 n'est pas forcément synonyme d'une domination future de cet archétype. Cela dépendra
+	de la faculté des autres archétypes à réagir à cette menace et à s'y adapter en modifiant
+	notament leur réserve.
 </p>
 {% endtrans %}
 
 {% trans trimmed
 	matrice_88=external("https://drive.google.com/open?id=121jvU1BC0R7x7tlkn3s5sASOLQ8zfMJZC4EipRNl8QE",_("Matrice 8x8")),
 	matrice_2020=external("https://drive.google.com/open?id=1pC7N1Jr7YnQizv2fFlPIAwQ5spHMujWeL7REkAkmHp0", _("Matrice 20x20")),
-	updating_matchup=external("http://www.starcitygames.com/article/36083_Updating-The-Guide-To-Every-Matchup-In-Modern.html","Updating The Guide to Every Match up In Modern"),
+	updating_matchup=external("http://www.starcitygames.com/article/36083_Updating-The-Guide-To-Every-Matchup-In-Modern.html","Updating The Guide to Every matchup In Modern"),
 	img_metagame='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/metagame_modern_2017.png'))|safe,
-	calculateur_proba=external("https://docs.google.com/spreadsheets/d/1t-zhBtRmeEfURzKOI7uRvATVAyK1n_qlp1_YLdO9yzo/edit#gid=1505945774","Matrice Match Up – Categorie Modern 2017")
+	calculateur_proba=external("https://docs.google.com/spreadsheets/d/1t-zhBtRmeEfURzKOI7uRvATVAyK1n_qlp1_YLdO9yzo/edit#gid=1505945774","Matrice matchup – Categorie Modern 2017")
 %}
-<h3>Place à la pratique</h3>
+<h3>Des outils à disposition</h3>
 <p>
-	Maintenant que vous connaissez la théorie je peux vous mettre à disposition de quoi exploiter
-	vos propres matrices de match up et créer vos propres graphiques. Pour cela j'ai créé deux
-	google doc éditables par tous, l'un pour des matrices de taille inférieure à 8 plus pratique et
-	un autre pour des matrices pouvant aller jusqu'à une taille de 20.
+	Voici de quoi exploiter des matrices de matchup et créer des graphiques : un fichier pour des
+	matrices de taille inférieure à 8 et un autre pour des matrices pouvant aller jusqu'à une
+	taille de 20.
 </p>
 <ul>
 	<li>
@@ -530,28 +548,21 @@
 	</li>
 </ul>
 <p>
-	Le fonctionnement de ces google doc est très simple. Vous pouvez éditer directement en ligne
-	toutes les cases jaunes et les calculs se feront tout seul. Le seul problème de ce fichier
-	c'est que si vous êtes plusieurs à vous en servir en même temps, alors vous pourrez interférez
-	les uns avec les autres et personne ne pourra se servir correctement de ce fichier. Le mieux
-	est encore de le télécharger directement sur votre ordinateur au format excel ou open-office
-	pour vous en servir tranquillement chez vous sans être embêté.
+	Il est possible d'éditer directement en ligne toutes les cases jaunes, les calculs sont
+	automatiques. Il est conseillé de télécharger ces fichiers au format excel ou open-office pour
+	les utiliser.
 </p>
 <p>
-	Il faut savoir que la méthode que nous appliquons ici n'est pas compatible sur le long terme
-	avec le regroupement d'archétypes et que bien que cela crée des matrices très grosses avec
-	autant de valeurs que de sources d'erreurs possibles, les résultats seront généralement plus
-	cohérent. Dans son article de 2017 intitulé {{ updating_matchup }}, Ari Lax propose justement
-	de travailler avec les catégories pour faire une matrice de match up. J'attire votre attention
-	sur la définition que Lax donne de chacune de ses catégories qui parfois ne correspondent pas à
-	celle présentée dans cet article. Il proposa la matrice suivante pour le metagame du Modern de
-	2017 :
+	Cette méthode n'est pas compatible sur le long terme avec le regroupement d'archétypes. Cela
+	crée des matrices de taille conséquente avec autant de valeurs que de sources d'erreurs
+	possibles. Dans son article de 2017 intitulé {{ updating_matchup }}, Ari Lax propose justement
+	de travailler avec les catégories de decks pour faire une matrice de matchup. La définition
+	donnée à chacune de ses catégories par Ari Lax ne correspond pas systématiquement à celle
+	présentée dans cet article. Voici la matrice qu'il a proposé pour le metagame Modern en 2017 :
 </p>
-{{ img_metage }}
+{{ img_metagame }}
 <p>
-	Reste juste à définir les pourcentages qui vont correspondre à Bon et Excellent match up. Pour
-	cela j'ai créé un autre google doc dédié à cet exemple qui vous permet de personnaliser cette
-	matrice.
+	Il reste à définir les pourcentages qui correspondent à des matchup <em>Bon</em> et <em>Excellent</em>. Voici un document qui permet de personnaliser la matrice ci-dessus :
 </p>
 <ul>
 	<li>
@@ -559,15 +570,16 @@
 	</li>
 </ul>
 <p>
-	L'analyse de cette matrice nous montre qu'en fonction des valeurs données, on trouve dans la
-	plupart des cas quatre catégories qui ressortent : Creature Combo, Big Mana, Blue Midrange et
-	Toolbox. Mon avis là dessus est que le manque de précision sur les valeurs de la matrice et les
-	regroupement parfois hasardeux de decks dans la même catégorie tel que Affinity, Burn et
-	Lantern dans Linear amène à quelques incohérences au vu des résultats des top de 2017 que ce
-	soit tout tournoi confondu ou GP et PT uniquement. Pour faire court, une matrice de Match Up
-	est un outil bien sympa mais qui donne des résultats assez instable et parfois aberrant suivant
-	les regroupement de decks que l'on fait. Un outil à utiliser donc toujours avec un esprit
-	critique.
+	L'analyse de cette matrice montre qu'en fonction des valeurs données, on trouve quatre
+	catégories prédominantes : Creature Combo, Big Mana, Blue Midrange et Toolbox. Il est possible
+	que le manque de précision sur les valeurs de la matrice et les regroupement de decks dans la
+	même catégorie tel que Affinity, Burn et Lantern Control dans Aggro Linéaire amène à quelques
+	incohérences au vu des résultats en 2017.
+</p>
+<p>
+	Une matrice de matchup est un outil utile mais qui donne des résultats assez instables et
+	parfois aberrants suivant les regroupement de decks que l'on fait. Un outil à utiliser donc
+	toujours avec un esprit critique.
 </p>
 {% endtrans %}
 
