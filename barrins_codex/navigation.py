@@ -56,20 +56,17 @@ STRUCTURE = Nav(
 			lazy_gettext("Articles"),
 			index=True,
 			children=[
-				Nav(lazy_gettext("L'Art de classifier les decks")),
-				Nav(lazy_gettext("L'Art de bien mélanger un deck")),
-				Nav(lazy_gettext("La loi hypergéométrique")),
-				Nav(lazy_gettext("Win O Maths")),
 				Nav(
-					lazy_gettext("Complexité et Machine de Turing"),
+					lazy_gettext("L'Art de classifier les decks"),
 					index=True,
 					children=[
-						Nav(lazy_gettext("Jeux, Complexité et Résolution")),
-						Nav(lazy_gettext("Magic est-il vraiment le jeu le plus complexe ?")),
-						Nav(lazy_gettext("Une machine de Turing en carte Magic")),
-						Nav(lazy_gettext("Un jeu de Nim pour se détendre")),
-					]
+						Nav(lazy_gettext("Classification en macrotypes")),
+						Nav(lazy_gettext("Catégories de decks")),
+						Nav(lazy_gettext("Classification en tiers")),
+						Nav(lazy_gettext("Pour aller plus loin")),
+					],
 				),
+				Nav(lazy_gettext("L'Art de bien mélanger un deck")),
 			],
 		),
 		Nav(
