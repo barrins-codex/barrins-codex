@@ -2,10 +2,15 @@ import copy
 import urllib.parse
 import re
 import unidecode
+import os
 
 import flask
 import flask_babel
 import jinja2.exceptions
+
+import gzip
+import json
+library = {}
 
 from . import config
 from . import navigation
@@ -19,19 +24,18 @@ config.configure_app(app)
 
 def main():
 	# Base de données des cartes
-	import gzip
-	import json
-	cartes = json.load(gzip.open("barrins_codex/static/json/library.json.gz"))
-	library = {}
+	if (os.path.isfile("barrins_codex/library.json.gz")):
+		# File exists === dev
+		cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
+	else:
+		# Build file === prod
+		from . import build_library
+		cartes = build_library.build()
+		
 	for carte in cartes:
 		library[list(carte)[0]] = carte[list(carte)[0]]
 
 	app.run()
-
-
-def build():
-	from . import build_library
-	build_library.build()
 
 
 # Retrieving locale and timezone information

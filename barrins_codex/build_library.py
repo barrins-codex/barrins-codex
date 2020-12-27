@@ -4,7 +4,9 @@ import os
 import sys
 import unidecode
 import re
+# File Download
 import requests
+from tqdm.auto import tqdm
 
 
 def _name(card):
@@ -28,23 +30,25 @@ def _get(card,set,name=None):
 	}
 
 
-DIR_NAME = "barrins_codex/static/json"
+def _download(url):
+	file = url.split('/')[-1]
+	response = requests.get(url, stream=True)
+	with tqdm.wrapattr(open(file, "wb"), "write", miniters=1,
+			total=int(response.headers.get('content-length', 0)),
+			desc=file) as fout:
+		for chunk in response.iter_content(chunk_size=4096):
+			fout.write(chunk)
+
+DIR_NAME = "barrins_codex"
 SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token"}
 
 # https://api.scryfall.com/cards/{scryfallId}?format=image
 
 def build():
 	# Download AllPrintings.json.gz
-	url="https://mtgjson.com/api/v5/AllPrintings.json.gz"
-	file = requests.get(url)
-	with open('AllPrintings.json.gz', 'wb') as r:
-		r.write(file.content)
-
+	_download("https://mtgjson.com/api/v5/AllPrintings.json.gz")
 	# Download AllPrintings.json.gz
-	url="https://mtgjson.com/api/v5/SetList.json.gz"
-	file = requests.get(url)
-	with open('SetList.json.gz', 'wb') as r:
-		r.write(file.content)
+	_download("https://mtgjson.com/api/v5/SetList.json.gz")
 
 	prints = json.load(gzip.open("AllPrintings.json.gz"))
 	sets = json.load(gzip.open("SetList.json.gz"))
@@ -88,18 +92,23 @@ def build():
 							if _name(face_b) not in library:
 								library[_name(face_b)] = {_name(face_b):_get(card, set, face_b)}
 
+	try:
+		# Generating a file on dev
+		if not os.path.isdir(DIR_NAME):
+			os.mkdir(DIR_NAME)
+		fname = "library.json.gz"
+		fpath = os.path.join(DIR_NAME, fname)
+		json.dump(list(library.values()), gzip.open(fpath, "wt"))
+	except IOError:
+		# No generation on prod
+		pass
 
-	if not os.path.isdir(DIR_NAME):
-		os.mkdir(DIR_NAME)
+	# Deleting downloaded files
+	os.remove("AllPrintings.json.gz")
+	os.remove("SetList.json.gz")
 
-	fname = "library.json.gz"
-	fpath = os.path.join(DIR_NAME, fname)
-	json.dump(list(library.values()), gzip.open(fpath, "wt"))
-
-	fname = "cardlist.txt"
-	fpath = os.path.join(DIR_NAME, fname)
-	with open(fpath, "wt") as f:
-		f.write("\n".join(sorted(library.keys())))
+	# Returning constructed library
+	return library.values()
 
 if __name__ == "__main__":
 	build()
