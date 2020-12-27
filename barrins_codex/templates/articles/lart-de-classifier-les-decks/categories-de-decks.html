@@ -792,7 +792,38 @@
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-
+	<li>
+		{% trans trimmed
+			ci_lava_spike='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Lava Spike"))|safe
+		%}
+		<p>
+			<strong>Lava Spike</strong> :
+		</p>
+		<p>
+			Catégorie de deck combo qui se caractérise par plusieurs points :
+		</p>
+		<ul>
+			<li>
+				Une forte in-interactivité avec l'adversaire.
+			</li>
+			<li>
+				Une stratégie consistant à viser avec ses sorts directement l'adversaire, soit en
+				lui infligeant des blessures soit en mettant les cartes de sa bibliothèque dans son
+				cimetière.
+			</li>
+		</ul>
+		{{ ci_lava_spike }}
+		<p>
+			On retrouve dans cette catégorie principalement deux sortes de deck : Burn et Mill. Les
+			decks Mill "pure" compétitifs sont totalement absent des formats eternals et
+			correspondent pour la plupart au plan de jeu de certains decks limités bleus. Les decks
+			Burn quant à eux sont à l'inverse présent dans tout les formats ils sont bien entendu
+			tous à dominante rouge, mais tout les decks Burn compétitif ne sont pas nécessairement
+			monocolores comme l'atteste les exemples ci-après.
+		</p>
+		{% endtrans %}
+		<div class="clear"></div>
+	</li>
 	<li>
 		{% trans trimmed
 			ci_bloodghast='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Bloodghast"))|safe,
@@ -826,38 +857,6 @@
 			représentant et il me paraît compliqué d'en lister des caractéristiques arrêtés,
 			toutefois on peut noter que les deux decks cités ont de plus la particularité d'être
 			relativement imprévisible dans leurs sorties même pour leur pilote.
-		</p>
-		{% endtrans %}
-		<div class="clear"></div>
-	</li>
-	<li>
-		{% trans trimmed
-			ci_lava_spike='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Lava Spike"))|safe
-		%}
-		<p>
-			<strong>Lava Spike</strong> :
-		</p>
-		<p>
-			Catégorie de deck combo qui se caractérise par plusieurs points :
-		</p>
-		<ul>
-			<li>
-				Une forte in-interactivité avec l'adversaire.
-			</li>
-			<li>
-				Une stratégie consistant à viser avec ses sorts directement l'adversaire, soit en
-				lui infligeant des blessures soit en mettant les cartes de sa bibliothèque dans son
-				cimetière.
-			</li>
-		</ul>
-		{{ ci_lava_spike }}
-		<p>
-			On retrouve dans cette catégorie principalement deux sortes de deck : Burn et Mill. Les
-			decks Mill "pure" compétitifs sont totalement absent des formats eternals et
-			correspondent pour la plupart au plan de jeu de certains decks limités bleus. Les decks
-			Burn quant à eux sont à l'inverse présent dans tout les formats ils sont bien entendu
-			tous à dominante rouge, mais tout les decks Burn compétitif ne sont pas nécessairement
-			monocolores comme l'atteste les exemples ci-après.
 		</p>
 		{% endtrans %}
 		<div class="clear"></div>
