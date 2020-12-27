@@ -23,18 +23,6 @@ config.configure_app(app)
 
 
 def main():
-	# Base de données des cartes
-	if (os.path.isfile("barrins_codex/library.json.gz")):
-		# File exists === dev
-		cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
-	else:
-		# Build file === prod
-		from . import build_library
-		cartes = build_library.build()
-		
-	for carte in cartes:
-		library[list(carte)[0]] = carte[list(carte)[0]]
-
 	app.run()
 
 
@@ -174,6 +162,18 @@ def scryfall_id(name):
 
 @app.context_processor
 def display_card():
+	# Base de données des cartes
+	if (os.path.isfile("barrins_codex/library.json.gz")):
+		# File exists === dev
+		cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
+	else:
+		# Build file === prod
+		from . import build_library
+		cartes = build_library.build()
+
+	for carte in cartes:
+		library[list(carte)[0]] = carte[list(carte)[0]]
+
 	def card(name, display_name=None):
 		return flask.Markup(
 			"""<span class="card" onclick="dC('{scryfallId}')" onmouseover="hC('{scryfallId}')" onmouseout="oC()">{name}</span>""".format(
