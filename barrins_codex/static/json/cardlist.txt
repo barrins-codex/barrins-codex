@@ -31,6 +31,7 @@ absolutegrace
 absolutelaw
 absolverthrull
 absorb
+absorbidentity
 absorbvis
 abstractiguanart
 abstruseinterference
@@ -874,6 +875,7 @@ armamentcorps
 armamentmaster
 armamentofnyx
 armed
+armedandarmored
 armeddangerous
 armedresponse
 armillarysphere
@@ -1372,6 +1374,8 @@ bargainingtable
 bargein
 bargingsergeant
 barishi
+barkchannelpathway
+barkchannelpathwaytidechannelpathway
 barkhidemauler
 barkhidetroll
 barkshellblessing
@@ -1502,6 +1506,7 @@ beamsplittermage
 beanstalkgiant
 beanstalkgiantfertilefootsteps
 bearcub
+beardedaxe
 bearerofoverwhelmingtruths
 bearerofsilence
 beareroftheheavens
@@ -1765,6 +1770,8 @@ blightsickle
 blightsoildruid
 blightspeaker
 blightsteelcolossus
+blightsteppathway
+blightsteppathwaysearsteppathway
 blightwidow
 blimcomedicgenius
 blindblast
@@ -2554,6 +2561,7 @@ canopygorger
 canopyspider
 canopystalker
 canopysurge
+canopytactician
 canopyvista
 cantivore
 canyondrake
@@ -3170,6 +3178,7 @@ clearwatergoblet
 clearwaterpathway
 clearwaterpathwaymurkwaterpathway
 cleaverriot
+cleavingreaper
 cleavingsliver
 clergyenvec
 clergyoftheholynimbus
@@ -4041,6 +4050,8 @@ darkbargain
 darkbetrayal
 darkbladeagent
 darkblast
+darkborepathway
+darkborepathwayslitherborepathway
 darkconfidant
 darkdabbling
 darkdeal
@@ -5336,6 +5347,7 @@ elbrusthebindingbladewithengarunbound
 eldercathar
 elderdeepfiend
 elderdruid
+elderfangritualist
 eldergargaroth
 elderlandwurm
 eldermastery
@@ -5418,6 +5430,7 @@ elusivekrasis
 elusivespellfist
 elusivetormentor
 elusivetormentorinsidiousmist
+elvenambush
 elvencache
 elvenfortress
 elvenlyre
@@ -6370,6 +6383,7 @@ firefluxsquad
 firefly
 fireforgerspuzzleknot
 firefrightmage
+firegiantsfury
 firehoofcavalry
 fireice
 fireimp
@@ -7212,6 +7226,7 @@ giantoctopus
 giantopportunity
 giantoyster
 giantscorpion
+giantsgrasp
 giantshark
 giantsire
 giantslug
@@ -7272,6 +7287,7 @@ gigantosaurus
 gigapede
 gilanracallerofwirewood
 gild
+gildedassaultcart
 gildedcerodon
 gildeddrake
 gildedgoose
@@ -7317,6 +7333,7 @@ gladecoverscout
 gladegnarr
 gladehartcavalry
 glademuse
+gladewalkerritualist
 gladewatcher
 glaiveoftheguildpact
 glamerdye
@@ -8137,6 +8154,8 @@ hallowedspiritkeeper
 hallsofmist
 halohunter
 haltorder
+halvargodofbattle
+halvargodofbattleswordoftherealms
 hamletbackgoliath
 hamletcaptain
 hammerdropper
@@ -8431,6 +8450,8 @@ helvault
 hematitegolem
 hematitetalisman
 henchfiendofukor
+hengegatepathway
+hengegatepathwaymistgatepathway
 hengeguardian
 hengeoframos
 hengewalker
@@ -9757,6 +9778,7 @@ kayaorzhovusurper
 kayasghostform
 kayasguile
 kayaswrath
+kayatheinexorable
 kaysa
 kazandublademaster
 kazandumammoth
@@ -10315,6 +10337,7 @@ lathielthebounteousdawn
 lathlissdragonqueen
 lathnuhellion
 lathnusailback
+lathrilbladeoftheelves
 latnamslegacy
 latullakeldonoverseer
 latullasorders
@@ -10923,6 +10946,7 @@ maelstromnexus
 maelstrompulse
 maelstromwanderer
 magatraitortomortals
+magdabrazenoutlaw
 magebanearmor
 magefirewings
 mageilvec
@@ -11745,6 +11769,7 @@ mistformultimus
 mistformwakecaster
 mistformwall
 mistformwarchief
+mistgatepathway
 misthollowgriffin
 misthoofkirin
 mistintruder
@@ -14085,6 +14110,7 @@ pyramids
 pyrecharger
 pyreheartwolf
 pyrehound
+pyreofheroes
 pyretichunter
 pyreticritual
 pyrewildshaman
@@ -14348,6 +14374,7 @@ ramosianrevivalist
 ramosiansergeant
 ramosianskymarshal
 rampageoftheclans
+rampageofthevalkyries
 rampagingbaloths
 rampagingbrontodon
 rampagingcyclops
@@ -14366,6 +14393,7 @@ ramthrough
 ramunapexcavator
 ramunaphydra
 ramunapruins
+ranartheeverwatchful
 rancidearth
 rancidrats
 rancor
@@ -14502,6 +14530,7 @@ realmcloakedgiantcastoff
 realmrazer
 realmseekers
 realmsuncharted
+realmwalker
 realmwright
 reanimate
 reap
@@ -14710,6 +14739,7 @@ renegadefreighter
 renegadekrasis
 renegademap
 renegaderallier
+renegadereaper
 renegadesgetaway
 renegadetactics
 renegadetroops
@@ -15579,6 +15609,7 @@ sarkhanthemasterless
 sarkhanunbroken
 sarkhanvol
 sarpadianempiresvolvii
+sarulfrealmeater
 sarulicaretaker
 saruligatekeepers
 sasayaorochiascendant
@@ -15889,6 +15920,7 @@ searingspear
 searingspearaskari
 searingtouch
 searingwind
+searsteppathway
 seascapeaerialist
 seasclaim
 seascryer
@@ -16396,6 +16428,7 @@ shortsword
 shouldertoshoulder
 shovingmatch
 showandtell
+showdownoftheskalds
 showerofcoals
 showerofsparks
 showofvalor
@@ -16909,6 +16942,7 @@ sliptideserpent
 slithascendant
 slithbloodletter
 slitherblade
+slitherborepathway
 slitherhead
 slitheringshade
 slithermuse
@@ -17662,6 +17696,7 @@ starlightinvoker
 starlitangel
 starlitmantle
 starlitsanctum
+starnheimaspirant
 starofextinction
 starstorm
 start
@@ -18183,6 +18218,8 @@ surrakarspellblade
 surrakdragonclaw
 surrakthehuntcaller
 surrealmemoir
+surtlandelementalist
+surtlandflinger
 surveillingsprite
 surveyorsscope
 surveythewreckage
@@ -18268,6 +18305,7 @@ swordoftheanimist
 swordofthechosen
 swordofthemeek
 swordoftheparuns
+swordoftherealms
 swordoftruthandjustice
 swordofvengeance
 swordofwarandpeace
@@ -18858,6 +18896,7 @@ thornhidewolves
 thornlieutenant
 thornling
 thornmammoth
+thornmantlestriker
 thornofamethyst
 thornoftheblackrose
 thornscapeapprentice
@@ -19058,6 +19097,7 @@ tidalvisionary
 tidalwarrior
 tidalwave
 tidebindermage
+tidechannelpathway
 tidedrifter
 tideforceelemental
 tidehollowsculler
@@ -19927,6 +19967,7 @@ valiantchangeling
 valiantguard
 valiantknight
 valiantrescuer
+valkyrieharbinger
 valleydasher
 valleymaker
 valleyrannet
@@ -20613,6 +20654,7 @@ warbriarblessing
 warbringer
 warcadence
 warchanterofmogis
+warchanterskald
 warchariot
 warchiefgiant
 warclampmastiff
@@ -21356,6 +21398,7 @@ youngweirecruits
 youngwolf
 youthfulknight
 youthfulscholar
+youthfulvalkyrie
 yuanshaosinfantry
 yuanshaotheindecisive
 yukionna

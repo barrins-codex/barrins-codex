@@ -13,5 +13,5 @@ wheels/
 .env
 venv/
 AllCards.json.gz
-barrins_codex/AllPrintings.json.gz
-barrins_codex/SetList.json.gz
+AllPrintings.json.gz
+SetList.json.gz

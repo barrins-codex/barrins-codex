@@ -7,15 +7,6 @@ import flask
 import flask_babel
 import jinja2.exceptions
 
-# Base de données des cartes
-import gzip
-import json
-cartes = json.load(gzip.open("barrins_codex/static/json/library.json.gz"))
-library = {}
-for carte in cartes:
-	library[list(carte)[0]] = carte[list(carte)[0]]
-
-
 from . import config
 from . import navigation
 
@@ -27,7 +18,20 @@ config.configure_app(app)
 
 
 def main():
+	# Base de données des cartes
+	import gzip
+	import json
+	cartes = json.load(gzip.open("barrins_codex/static/json/library.json.gz"))
+	library = {}
+	for carte in cartes:
+		library[list(carte)[0]] = carte[list(carte)[0]]
+
 	app.run()
+
+
+def build():
+	from . import build_library
+	build_library.build()
 
 
 # Retrieving locale and timezone information

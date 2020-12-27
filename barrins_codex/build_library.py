@@ -4,6 +4,7 @@ import os
 import sys
 import unidecode
 import re
+import requests
 
 
 def _name(card):
@@ -27,12 +28,24 @@ def _get(card,set,name=None):
 	}
 
 
-DIR_NAME = "static/json"
+DIR_NAME = "barrins_codex/static/json"
 SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token"}
 
 # https://api.scryfall.com/cards/{scryfallId}?format=image
 
-if __name__ == "__main__":
+def build():
+	# Download AllPrintings.json.gz
+	url="https://mtgjson.com/api/v5/AllPrintings.json.gz"
+	file = requests.get(url)
+	with open('AllPrintings.json.gz', 'wb') as r:
+		r.write(file.content)
+
+	# Download AllPrintings.json.gz
+	url="https://mtgjson.com/api/v5/SetList.json.gz"
+	file = requests.get(url)
+	with open('SetList.json.gz', 'wb') as r:
+		r.write(file.content)
+
 	prints = json.load(gzip.open("AllPrintings.json.gz"))
 	sets = json.load(gzip.open("SetList.json.gz"))
 
@@ -87,3 +100,6 @@ if __name__ == "__main__":
 	fpath = os.path.join(DIR_NAME, fname)
 	with open(fpath, "wt") as f:
 		f.write("\n".join(sorted(library.keys())))
+
+if __name__ == "__main__":
+	build()
