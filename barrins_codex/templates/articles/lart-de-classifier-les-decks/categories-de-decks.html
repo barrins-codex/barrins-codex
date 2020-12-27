@@ -770,7 +770,7 @@
 		<ul>
 			<li>
 				Les decks qui vont avoir tendance à chercher dans leur bibliothèque les éléments de
-				la combo.
+				la combo ;
 			</li>
 			<li>
 				Les decks qui vont miser sur la redondance des éléments de la combo quitte à jouer
@@ -799,28 +799,35 @@
 		<p>
 			<strong>Lava Spike</strong> :
 		</p>
+		{{ ci_lava_spike }}
 		<p>
-			Catégorie de deck combo qui se caractérise par plusieurs points :
+			Catégorie de deck Aggro-Combo qui se caractérise par :
 		</p>
 		<ul>
 			<li>
-				Une forte in-interactivité avec l'adversaire.
+				Une absence d'interactivité avec l'adversaire ;
 			</li>
 			<li>
-				Une stratégie consistant à viser avec ses sorts directement l'adversaire, soit en
-				lui infligeant des blessures soit en mettant les cartes de sa bibliothèque dans son
-				cimetière.
+				Une stratégie qui consiste à cibler avec ses sorts directement l'adversaire.
 			</li>
 		</ul>
-		{{ ci_lava_spike }}
 		<p>
-			On retrouve dans cette catégorie principalement deux sortes de deck : Burn et Mill. Les
-			decks Mill "pure" compétitifs sont totalement absent des formats eternals et
-			correspondent pour la plupart au plan de jeu de certains decks limités bleus. Les decks
-			Burn quant à eux sont à l'inverse présent dans tout les formats ils sont bien entendu
-			tous à dominante rouge, mais tout les decks Burn compétitif ne sont pas nécessairement
-			monocolores comme l'atteste les exemples ci-après.
+			On retrouve dans cette catégorie principalement deux sortes de deck : <em>Burn</em> et
+			<em>Meule</em> :
 		</p>
+		<ul>
+			<li>
+				Les decks <em>Burn</em> utilisent leurs sorts pour infliger directement des dégâts à
+				l'adversaire. Ils sont présents dans tous les formats. Ils sont tous à dominante
+				rouge, mais tous ne sont pas nécessairement monocolores ;
+			</li>
+			<li>
+				Les decks <em>Meule</em> utilisent leurs sorts pour mettre les cartes de la
+				bibliothèque de l'adversaire dans son cimetière. Ils sont absent des formats
+				éternels et correspondent pour la plupart au plan de jeu de certains decks limités
+				bleus.
+			</li>
+		</ul>
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
@@ -832,31 +839,33 @@
 		<p>
 			<strong>Wave Combo</strong> :
 		</p>
+		{{ ci_bloodghast }}
 		<p>
-			Catégorie de decks aggro-combo qui se caractérise par plusieurs points :
+			Catégorie de deck Aggro-Combo qui se caractérise par :
 		</p>
 		<ul>
 			<li>
-				Un deck construit entièrement autour d'une mécanique avec des cartes très
-				synergiques entre-elles.
+				Une construction autour d'une mécanique avec des cartes très synergiques entre
+				elles ;
 			</li>
 			<li>
 				Une stratégie qui peut menacer extrêmement rapidement l'adversaire et se répéter
-				par vagues successives sur le long terme.
+				par vagues successives sur le long terme ;
 			</li>
 			<li>
-				Une absence de réel Big Turn
+				Une absence de réel Big Turn.
 			</li>
 		</ul>
-		{{ ci_bloodghast }}
 		<p>
-			Les principaux decks Wave Combo sont entièrement construit autour d'une mécanique dont
-			ils abusent des effets. Les deux decks principaux de cette catégorie sont Dredge qui
-			abuse de la capacité éponyme et des synergies avec le cimetière et {{ hollow_one }} basé
-			quant à lui sur les effets de défausses. Cette catégorie a finalement connu très peu de
-			représentant et il me paraît compliqué d'en lister des caractéristiques arrêtés,
-			toutefois on peut noter que les deux decks cités ont de plus la particularité d'être
-			relativement imprévisible dans leurs sorties même pour leur pilote.
+			Les principaux decks Wave Combo sont construits autour d'une mécanique dont ils abusent
+			des effets. Les deux decks principaux de cette catégorie sont Dredge qui abuse de la
+			capacité éponyme et des synergies avec le cimetière et {{ hollow_one }} basé quant à
+			lui sur les effets de défausses.
+		</p>
+		<p>
+			Cette catégorie a finalement connu très peu de représentants et il est compliqué d'en
+			lister des caractéristiques arrêtées. Toutefois, les deux decks cités ont la
+			particularité d'être relativement imprévisibles dans leur sortie même pour leur pilote.
 		</p>
 		{% endtrans %}
 		<div class="clear"></div>
@@ -867,134 +876,152 @@
 			kiln_fiend=card("Kiln Fiend"),
 			berserk=card("Berserk"),
 			temur_battle_rage=card("Temur Battle Rage"),
-			zur_the_enchanter=card("Zur the Enchanter")
+			zur_the_enchanter=card("Zur the Enchanter"),
+			jenara_asura_of_war=card("Jenara, Asura of War")
 		%}
 		<p>
 			<strong>Voltron</strong> :
 		</p>
+		{{ ci_glistener_elf }}
 		<p>
-			Catégorie de deck Aggro-combo se caractérisant par :
+			Catégorie de deck Aggro-Combo qui se caractérise par :
 		</p>
 		<ul>
 			<li>
 				Une condition de victoire basée sur le fait d'attaquer avec des créatures
-				(généralement une seule) pour tuer en peu de phase d'attaque (parfois une seule).
+				(généralement une seule) pour tuer en peu de phase d'attaque (parfois une seule) ;
 			</li>
 			<li>
-				Une clock plus rapide que les decks aggros classiques.
+				Un rythme de jeu plus rapide que les decks Aggro classiques.
 			</li>
 		</ul>
-		{{ ci_glistener_elf }}
 		<p>
-			Les decks Voltron empruntent certaines caractéristiques aux catégories Traditionnal
-			Combo et Storm Combo. Une carte emblématique de cette catégorie est {{ kiln_fiend }}
-			que l'on retrouve dans le deck Legacy Gro-A-Friend, dans le deck Peasant Red Assault et
-			dans le deck Pauper UR Blitz. On peut considérer qu'on a à faire à une combo en deux
-			cartes avec {{ berserk }} ou {{ temur_battle_rage }} (traditionnal combo), toutefois le
-			deck n'a pas besoin de cette seconde carte pour gagner et peut remporter la victoire
-			simplement par l'accumulation de sorts joué lors d'un même tour (Storm Combo). On
-			retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une créature
-			qui grossit plus ou moins lentement jusqu'à devenir létal.
+			Les decks Voltron empruntent certaines caractéristiques aux catégories Combo
+			Traditionnel et Storm Combo. Un deck emblématique de cette catégorie est
+			{{ kiln_fiend }} :
 		</p>
+		<ul>
+			<li>
+				Il s'agit d'une combo deux cartes avec {{ berserk }} ou {{ temur_battle_rage }}, ce
+				qui donne le côté Combo Traditionnel ;
+			</li>
+			<li>
+				Toutefois, le deck n'a pas besoin de cette seconde carte pour gagner et peut
+				remporter la victoire simplement par l'accumulation de sorts joué lors d'un même
+				tour, ce qui donne l'aspect Storm Combo.
+			</li>
+		</ul>
 		<p>
-			Le nom Voltron est issu du Commander pour désigner originellement des decks dont la
-			stratégie est entièrement basé sur leur général. Mateus Nogueira distingue dans sa
-			classification en catégorie pour le commander les decks Voltron Control (tels que
-			{{ zur_the_enchanter}}) des decks Voltron Aggro, dont cette catégorie se fait l'écho,
-			focalisés sur le fait de finir rapidement une partie via les blessures du commander.
+			On retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une
+			créature qui grossit jusqu'à devenir létale.
 		</p>
+		<div class="tip">
+			<h3>L'origine de Voltron</h3>
+			<p>
+				Le nom Voltron est issu du Commander pour désigner originellement des decks dont la
+				stratégie est entièrement basé sur leur général. Mateus Nogueira distingue dans sa
+				classification en catégorie pour le commander les decks Voltron Control (tels que
+				{{ zur_the_enchanter}}) des decks Voltron Aggro (tels que
+				{{ jenara_asura_of_war }}), focalisés sur le fait de finir rapidement une partie
+				via les blessures de général.
+			</p>
+		</div>
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
 	<li>
 		{% trans trimmed
 			ci_vizier_of_remedies='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Vizier of Remedies"))|safe,
-			birthing_pod=card("Birthing Pod")
+			birthing_pod=card("Birthing Pod"),
+			living_end=card("Living End"),
+			balustrade_spy=card("Balustrade Spy")
 		%}
 		<p>
-			<strong>Combo Créature</strong> :
+			<strong>Créature Combo</strong> :
 		</p>
 		<p>
-			Catégorie de deck Aggro-Combo se caractérisant par :
+			Catégorie de deck Aggro-Combo qui se caractérise par :
 		</p>
+		{{ ci_vizier_of_remedies }}
 		<ul>
 			<li>
-				La présence d'un grand nombre de créatures.
+				La présence d'un grand nombre de créatures ;
 			</li>
 			<li>
 				Une condition de victoire non-intéractive générée par une combo composée le plus
-				souvent de créatures.
+				souvent de créatures ;
 			</li>
 			<li>
 				Une condition de victoire secondaire consistant à gagner en attaquant avec ses
-				créatures (souvent en débordant son adversaire).
-			</li>
-		</ul>
-		{{ ci_vizier_of_remedies }}
-		<p>
-			Les decks Creature-Combo sont en un sens des hybrides entre les decks appartenant aux
-			familles Traditionnal Combo et Swarm ce qui en font naturellement des decks Aggro-Combo
-			mais totalement différent des decks voltron précédemment évoqués.
-		</p>
-		<p>
-			Cette catégorie va nous permettre d'aborder plus en détail le cas de Birthing Pod que
-			l'on retrouve essentiellement dans deux types de jeu :
-		</p>
-		<ul>
-			<li>
-				Les decks ayant une structure de midrange dont beaucoup de créatures joués
-				seulement en un exemplaire pour leur synergie avec pod dans le but de construire
-				diverses séquences d'actions en abusant des effets d'arrivée et de départ du jeu
-				des créatures. Ce sont ces decks là que nous classerons dans la catégorie Non-Blue.
-			</li>
-			<li>
-				Les decks basés sur une multitude de créature qui incorpore une combo en leur sein
-				et qui est la principale condition de victoire du deck. Le rôle de Birthing Pod est
-				avant tout ici d'assembler une combo même si il peut aussi tutoriser des solutions
-				face à des problèmes spécifiques. Ces decks appartiennent à la catégorie Creature-
-				Combo.
+				créatures (souvent en débordant son adversaire) ;
 			</li>
 		</ul>
 		<p>
-			On pourrait penser que {{ birthing_pod }} puisse être classer dans la catégorie Big
-			Spell puisque l'on a un deck qui se base essentiellement autour d'une carte, mais il
-			n'en est rien. D'une part cette carte est avant tout un moteur de CA et non un réel
-			kill. D'autre part, le fait de jouer la carte ne change pas de manière aussi radicale la
-			physionomie de la partie comme le ferait un Living End ou un Balustrade Spy, c'est au
-			mieux une clock pour l'adversaire.
+			Les decks Combo Créature sont des hybrides entre les decks appartenant aux familles
+			Combo Traditionnel et Swarm ce qui en fait naturellement des decks Aggro-Combo.
 		</p>
+		<div class="tip">
+			<h3>Le cas de {{ birthing_pod }}</h3>
+			<p>
+				Cette catégorie permet d'aborder plus en détail le cas de {{ birthing_pod }}
+				présente essentiellement dans deux types de jeu :
+			</p>
+			<ul>
+				<li>
+					Les decks ayant une structure de Midrange dont beaucoup de créatures sont jouées
+					seulement en un exemplaire pour leur synergie avec Pod dans le but de construire
+					diverses séquences d'actions en abusant des effets d'arrivée et de départ du
+					champ de bataille. Ces decks là sont classés dans la catégorie Midrange Non-
+					Bleu.
+				</li>
+				<li>
+					Les decks basés sur une multitude de créature qui incorpore une combo qui est
+					la principale condition de victoire du deck. Le rôle de {{ birthing_pod }} est
+					d'assembler une combo même s'il est également possible tutoriser des solutions
+					face à des problèmes spécifiques. Ces decks appartiennent à la catégorie Combo
+					Créature.
+				</li>
+			</ul>
+			<p>
+				{{ birthing_pod }} pourrait être classée dans la catégorie Big Spell car les decks
+				sont basés essentiellement autour de cette carte mais cette carte est avant tout un
+				moteur de <em>Card Advantage</em> et non un réel moyen de tuer l'adversaire. De
+				même, le fait de jouer la carte ne change pas de manière radicale la dynamique de
+				la partie comme le ferait {{ living_end }} ou {{ balustrade_spy }}, c'est au mieux
+				une menace pour l'adversaire.
+			</p>
+		</div>
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
 	<li>
 		{% trans trimmed
 			ci_psychatog='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Psychatog"))|safe,
-			how_to_grow_a_tog=external("http://www.starcitygames.com/magic/vintage/4552_Gardening_In_Vintage_How_To_GroATog_And_Clip_A_Lotus.html","How to Grow-A-Tog and Clip a Lotus")
+			how_to_grow_a_tog=external("hhttps://articles.starcitygames.com/premium/so-many-insane-plays-how-to-groatog-and-almost-clip-a-lotus/","How to Grow-A-Tog and Clip a Lotus")
 		%}
 		<p>
 			<strong>Aggro-Contrôle-Combo</strong>
 		</p>
 		<p>
-			Catégorie et macrotype à part entière se caractérisant par :
+			Catégorie et macrotype à part entière qui se caractérise par :
 		</p>
+		{{ ci_psychatog }}
 		<ul>
 			<li>
-				Une condition de victoire qui consiste à gagner en attaquant avec ses créatures.
+				Une condition de victoire qui consiste à gagner en attaquant avec ses créatures ;
 			</li>
 			<li>
-				Une condition de victoire non-intéractive basée sur une combo.
+				Une condition de victoire non-interactive basée sur une combo ;
 			</li>
 			<li>
-				Une volonté de gérer le board que ce soit de manière pro-active ou réactive.
+				Une volonté de gérer le board que ce soit de manière proactive ou réactive.
 			</li>
 		</ul>
-		{{ ci_psychatog }}
 		<p>
-			Les decks Aggro-Control-Combo sont extrêmement rare en dehors du Vintage car peu de
-			decks sont capable de produire des plans de jeux aussi variés de manière efficace. On
-			nomme dans cette catégorie le plus souvent le deck Gro-A-Tog en guise d'exemple cité
-			pour la première fois à ma connaissance dans l'article de 2003 de Stephen Menendian et
-			Paul Mastriano : {{ how_to_grow_a_tog }}.
+			Les decks Aggro-Control-Combo sont extrêmement rares en dehors du Vintage car peu de
+			decks sont capables de produire des plans de jeux aussi variés de manière efficace. Le
+			deck Grow-A-Tog est repris à titre d'exemple dans cette catégorie dans un article de
+			Stephen Menendian et Paul Mastriano de 2003 : {{ how_to_grow_a_tog }}.
 		</p>
 		{% endtrans %}
 		<div class="clear"></div>
