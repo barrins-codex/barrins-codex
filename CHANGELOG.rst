@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.3 (unreleased)
+----------------
+- Nothing yet
+
 0.2 (27-12-2020)
 -----------------
 - Add one primer
