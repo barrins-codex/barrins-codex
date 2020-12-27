@@ -58,28 +58,15 @@ STRUCTURE = Nav(
 			children=[
 				Nav(
 					lazy_gettext("L'Art de classifier les decks"),
-					index=False,
+					index=True,
 					children=[
-						Nav(lazy_gettext("Introduction")),
-						Nav(lazy_gettext("Classification en Macrotypes")),
-						Nav(lazy_gettext("Les Catégories de decks")),
-						Nav(lazy_gettext("La Classification en tiers")),
+						Nav(lazy_gettext("Classification en macrotypes")),
+						Nav(lazy_gettext("Catégories de decks")),
+						Nav(lazy_gettext("Classification en tiers")),
 						Nav(lazy_gettext("Pour aller plus loin")),
 					],
 				),
 				Nav(lazy_gettext("L'Art de bien mélanger un deck")),
-				Nav(lazy_gettext("La loi hypergéométrique")),
-				Nav(lazy_gettext("Win O Maths")),
-				Nav(
-					lazy_gettext("Complexité et Machine de Turing"),
-					index=True,
-					children=[
-						Nav(lazy_gettext("Jeux, Complexité et Résolution")),
-						Nav(lazy_gettext("Magic est-il vraiment le jeu le plus complexe ?")),
-						Nav(lazy_gettext("Une machine de Turing en carte Magic")),
-						Nav(lazy_gettext("Un jeu de Nim pour se détendre")),
-					]
-				),
 			],
 		),
 		Nav(
@@ -88,33 +75,6 @@ STRUCTURE = Nav(
 			children=[
 				Nav(lazy_gettext("Kess, Dissident Mage")),
 				Nav(lazy_gettext("Winota, Joiner of Forces")),
-			],
-		),
-		Nav(
-			lazy_gettext("Contributions"),
-			index=True,
-			children=[
-				Nav(
-					lazy_gettext("Tournois"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Empty")),
-					],
-				),
-				Nav(
-					lazy_gettext("Deck Techs"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Empty")),
-					],
-				),
-				Nav(
-					lazy_gettext("Autres"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Empty")),
-					],
-				),
 			],
 		),
 	],

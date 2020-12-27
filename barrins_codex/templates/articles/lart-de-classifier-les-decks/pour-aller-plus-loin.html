@@ -4,91 +4,100 @@
 <h2>{{ _("Pour aller plus loin") }}</h2>
 
 {% trans trimmed
+	hollow_one=card("Hollow One"),
+	thermo_alchemist=card("Thermo Alchemist")
 %}
-<h3>Le débat : Combo = Big Turn ?</h3>
+<h3>Quel est le lien lien entre Combo et Big Turn ?</h3>
 <p>
-	On est du coup en droit de se demander si la notion de Big Turn ne serait pas la notion idéal
-	pour définir la notion de Combo.
-</p>
-<p>
-	Ce qui permet de distinguer les différent macrotypes c'est leurs plans de jeu. On a du coup
-	tendance à associer de manière systématique les decks combos à la notion de "Big Turn". Ce plan
-	de jeu se résumant de manière assez simple en deux phases :
-</p>
-<ul>
+	La notion de <em>Big Turn</em> ne serait-elle pas la notion idéale pour définir Combo ? En
+	effet, ce qui permet de distinguer les différents macrotypes est leurs différents plans de jeu.
+	Il faudrait donc associer de manière systématique les decks combos à la notion de Big Turn qui
+	peut se résumer ainsi :
+<ol>
 	<li>
-		Phase 1 : Se mettre en place pour réussir son Big Turn.
+		Se mettre en place pour réussir son Big Turn ;
 	</li>
 	<li>
-		Phase 2 : Big Turn.
+		Résoudre le Big Turn.
 	</li>
-</ul>
+</ol>
 <p>
-	Et il est vrai que le Big Turn est un point commun que l'on retrouve dans 6 catégories Combo et
-	Aggro-Combo que j'ai cité ci-dessus. Le big turn correspond :
+	Il est vrai que ce Big Turn est un point commun des six catégories Combo et Aggro-Combo citées dans cet article. Le Big Turn correspond alors :
 </p>
 <ul>
 	<li>
-		Soit pour Storm Combo, au tour où il accumule les sorts et actions pour tuer son adversaire.
+		au tour où il y a accumulation des sorts et des actions pour tuer son adversaire
+		(<em>Storm Combo</em>) ;
 	</li>
 	<li>
-		Soit pour Big Spell, au tour où le "Big spell" est lancé.
+		au tour où le <em>Big Spell</em> est lancé
+		(<em>Big Spell</em>) ;
 	</li>
 	<li>
-		Soit pour Traditionnal Combo, au tour où la combo est assemblée.
+		au tour où la combo est assemblée
+		(<em>Traditionnal Combo</em>) ;
 	</li>
 	<li>
-		Soit pour Voltron, au tour où la créature devient léthal.
+		au tour où la créature devient léthale
+		(<em>Voltron</em>) ;
 	</li>
 	<li>
-		Soit pour Creature-Combo, au tour où la combo est assemblée.
+		au tour où la combo est assemblée
+		(<em>Creature-Combo</em>).
 	</li>
 </ul>
 <p>
-	De plus si on omet cette fois-ci la catégorie Creature-combo on peut affirmer que si le Big
-	Turn est d'une manière ou d'une autre "contrarié" par l'adversaire, alors les chances de gagner
-	pour le deck combo deviennent fortement compromises.
+	De plus, il est possible d'affirmer que si le Big Turn est d'une manière ou d'une autre
+	<em>contrarié</em> par l'adversaire, alors les chances de gagner pour le deck combo deviennent
+	fortement compromises.
 </p>
 <p>
-	Seulement voilà, on a 2 autres catégories Combo et Aggro-Combo qui n'ont pas de réels big turn
+	Il existe cependant deux catégories Combo et Aggro-Combo qui n'ont pas de réel Big Turn
 	: Lava Spike et Wave Combo.
 </p>
-<p>
-	Parlons tout d'abord des decks Lava Spike. Leur absence de Big Turn fait qu'on a souvent
-	tendance à les classifier dans Aggro suivant la classification en catégorie considérée. On
-	retrouve justement la classification Aggro/Control/Combo dans d'autres jeu similaires à Magic,
-	notamment Hearstone. Généralement on considère dans ces jeux qu'il existe deux types de decks
-	Aggros : Ceux basés sur des créatures et ceux basés sur des blasts et que la notion de deck
-	Combo est intrinsèquement relié à la notion de Big Turn. Autrement dit à Hearstone le débat est
-	assez tranché mais aussi parce que les possibilités de deckbuilding qu'offre Hearstone sont
-	bien plus réduites que celles offertes par Magic
-</p>
-<p>
-	Il est intéressant de noter qu'en Peasant et en Pauper, la présence de Thermo Alchemist
-	encourage les joueurs à jouer au troisième ou au quatrième tour un maximum de sorts consécutifs
-	pour infliger jusqu'à 16-17 blessures dans le tour, ce qui donne au final des versions de Burn
-	avec Big Turn.
-</p>
-<p>
-	On arrive finalement à cette fameuse catégorie Wave Combo. Les decks de cette catégorie font de
-	l'absence de Big Turn une de leur spécificité comme évoqué plus haut. Ce sont des decks qui se
-	veulent efficace sur le long terme et qui peuvent s'emballer à tout moment. Autant la
-	concession de placer Hollow One qui est un archétype très récent dans aggro est généralement
-	plutôt bien accepté, autant Dredge est unanimement reconnu comme étant un deck Combo mettant à
-	lui seul en défaut la théorie : Combo = Big Turn.
-</p>
+<ul>
+	<li>
+		<p><strong>Lava Spike</strong> :</p>
+		<p>
+			L'absence d'un Big Turn fait que ce deck a tendance à être classifié dans Aggro. De même dans d'autres jeux similaires à Magic, notamment Hearthstone, il existe deux types de decks Aggro :
+		</p>
+		<ol>
+			<li>Ceux basés sur les créatures ;</li>
+			<li>Ceux basés sur les dégâts directs (des decks <em>face</em>)</li>
+		</ol>
+		<p>
+			Dans ces jeux, la notion de deck combo est liée à la présence d'un Big Turn. Autrement
+			dit, à Hearthstone, le débat est tranché mais il est possible que cette classification
+			dépendend des possibilités de construction de decks.
+		</p>
+		<p>
+			Il est intéressant de noter qu'en Peasant et en Pauper, la présence de
+			{{ thermo_alchemist }} encourage les joueurs à jouer, au troisième ou au quatrième
+			tour, un maximum de sorts consécutifs pour infliger jusqu'à 16-17 blessures. Ce qui
+			donne au final des versions de Burn avec Big Turn.
+		</p>
+	</li>
+	<li>
+		<p><strong>Wave Combo</strong> :</p>
+		<p>
+			Les decks de cette catégorie font de l'absence de Big Turn une de leur spécificié. Ce
+			sont des decks qui se veulent efficaces sur le long terme et qui peuvent s'emballer à
+			tout moment. Autant la concession de placer {{ hollow_one }}, qui est un archétype très
+			récent, dans aggro est généralement plutôt bien acceptée, autant Dredge est unanimement
+			reconnu comme étant un deck Combo mettant à lui seul en défaut l'hypothèse émise plus
+			haut.
+		</p>
+	</li>
+</ul>
 {% endtrans %}
 
 {% trans trimmed
 %}
-<h3>Quelques liens autour de la classification</h3>
+<h3>Quelques liens</h3>
 <p>
-	Pour approfondir vos connaissances sur le sujet je vous conseille quelques très bons articles
-	complémentaires sur le sujet (en anglais) avec entre parenthèse la classification en macrotype
-	considérée par l'auteur (A-B-C-D-E-F).
-</p>
-<p>
-	Bonne lecture à tous
+	Pour approfondir le sujet, voici quelques très bons articles complémentaires sur le sujet
+	(en anglais) avec entre parenthèse la classification en macrotype considérée par l'auteur
+	(A-B-C-D-E-F).
 </p>
 {% endtrans %}
 <div class="align-left">
@@ -103,7 +112,7 @@
 				S. Menendian and P. Mastriano
 			</td>
 			<td>
-				{{ external("http://www.starcitygames.com/magic/vintage/4552_Gardening_In_Vintage_How_To_GroATog_And_Clip_A_Lotus.html", "How to Grow a Tog and Clip a Lotus") }}
+				{{ external("https://articles.starcitygames.com/premium/so-many-insane-plays-how-to-groatog-and-almost-clip-a-lotus/", "How to Grow a Tog and Clip a Lotus") }}
 			</td>
 			<td>
 
@@ -119,7 +128,7 @@
 				Stephen Menendian
 			</td>
 			<td>
-				{{ external("http://www.starcitygames.com/articles/6811_The-Type-I-Metagame-or-Why-I-Learned-to-Stop-Worrying-and-Love-the-Tog.html","The Type I Metagame or Why I Learned to Stop Worrying and Love the Tog") }}
+				{{ external("https://articles.starcitygames.com/premium/the-type-i-metagame-or-why-i-learned-to-stop-worrying-and-love-the-tog/","The Type I Metagame or Why I Learned to Stop Worry...") }}
 			</td>
 			<td>
 
@@ -135,7 +144,7 @@
 				Mike Mason
 			</td>
 			<td>
-				{{ external("http://www.starcitygames.com/magic/standard/10675_Watching_the_Clock.html","Watching the Clock") }}
+				{{ external("https://articles.starcitygames.com/premium/watching-the-clock/","Watching the Clock") }}
 			</td>
 			<td>
 				(C)
@@ -202,7 +211,7 @@
 				Carsten Kotter
 			</td>
 			<td>
-				{{ external("https://starcitygames.com/article/29240_The-Guide-To-Macro-Archetypes.html","The Guide To Macro-Archetypes") }}
+				{{ external("https://articles.starcitygames.com/premium/the-guide-to-macro-archetypes/","The Guide To Macro-Archetypes") }}
 			</td>
 			<td>
 				(F)
@@ -302,16 +311,4 @@
 		</tr>
 	</table>
 </div>
-
-{% trans trimmed %}
-<h3>Le mot de la fin</h3>
-<p>
-	Ainsi s'achève cette petite introduction.
-</p>
-<p>
-	Je tiens à remercier tout ceux qui m'ont aidé de près ou de loin à l'élaboration de cet
-	article, notamment Toufmade et Darkent mais aussi les joueurs Modern de Magicville sans qui cet
-	article n'aurait comporté que trois parties.
-</p>
-{% endtrans %}
 {% endblock %}
