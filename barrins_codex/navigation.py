@@ -77,33 +77,6 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Winota, Joiner of Forces")),
 			],
 		),
-		Nav(
-			lazy_gettext("Contributions"),
-			index=True,
-			children=[
-				Nav(
-					lazy_gettext("Tournois"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Empty")),
-					],
-				),
-				Nav(
-					lazy_gettext("Deck Techs"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Empty")),
-					],
-				),
-				Nav(
-					lazy_gettext("Autres"),
-					index=False,
-					children=[
-						Nav(lazy_gettext("Empty")),
-					],
-				),
-			],
-		),
 	],
 )
 
