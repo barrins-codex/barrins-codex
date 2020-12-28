@@ -21,14 +21,9 @@ python3 -m venv venv
 pip install -e ".[dev]"
 ```
 
-### Before running the Codex
-You will have to run a few commands to have an updated card database :
-
-```bash
-cd ./barrins_codex
-make library
-make clean
-```
+The first time the project is started, the page will take some time to compile a list of
+cards and their `scryfallId` to gain access to the card image. This script is also used
+to build a JSON version of a decklist.
 
 ## Run the Codex
 You can run the development version of the site using the `codex` entrypoint:
