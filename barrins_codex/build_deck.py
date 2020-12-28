@@ -1,8 +1,16 @@
 # Base de données des cartes
 import gzip
 import json
-cartes = json.load(gzip.open("static/json/library.json.gz"))
 library = {}
+# Vérification de la présence de la table de correspondance
+if (os.path.isfile("barrins_codex/library.json.gz")):
+	# File exists === dev
+	cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
+else:
+	# Build file === prod
+	from . import build_library
+	cartes = build_library.build()
+# Utilisation du fichier
 for carte in cartes:
 	library[list(carte)[0]] = carte[list(carte)[0]]
 
