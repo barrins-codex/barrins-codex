@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% trans trimmed
+	collective_brutality=card("Collective Brutality"),
+	duress=card("Duress"),
+	hymn_to_tourach=card("Hymn to Tourach"),
+	gitaxian_probe=card("Gitaxian Probe"),
+	inquisition_of_kozilek=card("Inquisition of Kozilek"),
+	mind_twist=card("Mind Twist"),
+	peek=card("Peek"),
+	thoughtseize=card("Thoughtseize")
+%}
+<h1>La défausse</h1>
+<p>
+	Prendre l’information sur la main de l'adversaire permet de donner une lisibilité sur ce qui va
+	arriver. Il est ainsi possible d'adapter son plan de jeu en fonction de ce qui reste à venir.
+</p>
+<p>
+	Les cartes de défausse permettent de récupérer de l'information directement dans la main de
+	l'adversaire et d'intervenir directement dessus. Il faut intervenir en priorité sur les
+	conditions de victoire, les tutors, et éventuellement les gestions qui pourraient gérer un
+	commandant le tour de son arrivée en jeu.
+</p>
+<p>
+	Ces cartes sont principalement {{ thoughtseize }}, {{ inquisition_of_kozilek }} et
+	{{ duress }}. Il est possible d'y ajouer {{ collective_brutality}}, {{ hymn_to_tourach }} et/ou
+	{{ mind_twist }} selon les decks attendus.
+</p>
+<p>
+	Il est aussi intéressant de jouer en plus des cartes de défausse, quand cela est possible, des
+	cartes qui permettent d'avoir l'information mais qui, au lieu d'intervenir dessus, font
+	piocher. Ces cartes sont {{ gitaxian_probe }} et {{ peek }}.
+</p>
+<div class="tip">
+	<h3>Le timing de la défausse</h3>
+	<p>
+		Jouer un sort de défausse dépend de ce qui en est attendu. Est-ce pour gagner de
+		l'information ? Est-ce dans l'objectif de sécuriser la résolution d'un sort ? Est-ce pour
+		empêcher l'adversaire de partir en combo ?
+	</p>
+	<p>
+		Selon ce qui attendu de ce sort, il est parfois préférable d'attendre que la partie se
+		développe jusqu'au moment le plus opportun pour le lancer. Il peut alors servir de
+		paratonnerre si l'adversaire choisit de le contrecarrer.
+	</p>
+	<p>
+		Jouer un sort de défausse dans les premiers tours doit permettre de garantir un avantage
+		stratégique déterminant. Si ce deck est uniquement lancé « pour dépenser du mana », cela ne
+		vaut pas le coût et le garder pour plus tard sera sûrement plus rentable.
+	</p>
+</div>
+{% endtrans %}
+{% endblock %}

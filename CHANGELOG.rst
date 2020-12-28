@@ -3,7 +3,8 @@ Changelog
 
 0.3 (unreleased)
 ----------------
-- Nothing yet
+- New section: Best Cards
+- Nothing else yet
 
 0.2 (27-12-2020)
 -----------------

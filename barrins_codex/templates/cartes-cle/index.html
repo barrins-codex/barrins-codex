@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>{{ _("Cartes clé") }}</h1>
+<p>
+	{% trans %}
+	Cette section explore les cartes clé du format <strong>Duel Commander</strong>.
+	{% endtrans %}
+</p>
+
+<h2>{{ _("Présentation par fonctionnalité") }}</h2>
+<ul>
+	<li>{{ link("/cartes-cle/presentation/les-contresorts") }}</li>
+	<li>{{ link("/cartes-cle/presentation/la-defausse") }}</li>
+	<li>{{ link("/cartes-cle/presentation/les-spot-removals") }}</li>
+	<li>{{ link("/cartes-cle/presentation/les-mass-removals") }}</li>
+</ul>
+
+<p>
+	<em>D'autres articles à venir ...</em>
+</p>
+{% endblock %}

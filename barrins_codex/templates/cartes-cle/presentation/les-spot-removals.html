@@ -1,0 +1,173 @@
+{% extends "cartes-cle/_layout.html" %}
+{% import "cartes-cle/_layout_card_column.html" as layout with context %}
+
+{% block content %}
+{% trans trimmed
+	blasts=link("/cartes-cle/presentation/les-blasts", "blasts")
+%}
+<h1>Les spot removals</h1>
+<div class="tip">
+	Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des permanents du champ
+	de bataille. Il en existe plusieurs catégories : les <em>spot removals</em> qui permettent de
+	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs. Les {{ blasts }}
+	font l'objet d'une étude détaillée à part.
+</div>
+{% endtrans %}
+
+{% call layout.card_column("Swords to Plowshares", _("Éxil de créature")) %}
+{% trans trimmed %}
+Meilleur removal de la couleur et est aussi carte la plus jouée en blanc dans le format.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Fatal Push", _("Destruction de créature")) %}
+{% trans trimmed %}
+L'anti-créature le plus joué du format. Cette carte a un coût très bas et permet de
+détruire une grande majorité des créatures, dont des généraux.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Deadly Rollick", _("Éxil de créature")) %}
+{% trans trimmed %}
+Carte relativement facile à intégrer dans un deck. L'effet de surprise est un plus non négligeable
+qui permet de se sortir de certaines situations.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Palace Jailer", _("Éxil de créature")) %}
+{% trans trimmed %}
+Joué lorsque cela ne va pas à l'encontre du plan de jeu. Sa gestion passant par le fait d'être
+<em>monarch</em>, elle crée dans le même temps du <em>Card Advantage</em> pendant quelques tours.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Abrupt Decay", _("Destruction de permanent")) %}
+{% trans trimmed
+	assassins_trophy=card("Assassin's Trophy")
+%}
+Anti-permanent très générique qui permet de gérer aussi bien des créatures que, par
+exemple, des planeswalkers problématiques. Se joue généralement avec {{ assassins_trophy }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Flame Slash", _("Dégâts à une créature")) %}
+{% trans trimmed
+	blasts=link("/cartes-cle/presentation/les-blasts", "blasts")
+%}
+Carte jouée en plus des {{ blasts }} car elle ne cible que les créatures. Le montant des dégâts
+infligés en fait un choix très intéressant.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Abrade", _("Dégâts à une créature")) %}
+{% trans trimmed %}
+Carte avec un coût de mana décent et des options intéressantes. Cela en fait une carte de choix
+pour les decks ayant besoin de gérer les artefacts en plus des créatures.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Council's Judgment", _("Éxil de permanent")) %}
+{% trans trimmed %}
+Carte qui ne cible pas le permanent qui va être éxilé. Cela en fait une gestion de choix contre les
+permanents inciblables, à cause de l'<em>Hexproof</em> ou du <em>Shroud</em> par exemple.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Dismember", _("Réduction de l'endurance")) %}
+{% trans trimmed %}
+Carte qui représente à elle seule cette famille de sorts. Réduire l'endurance d'un créature permet
+de passer outre le fait qu'elle soit <em>Indestrucible</em> par exemple.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Eliminate", _("Destruction de permanent")) %}
+{% trans trimmed %}
+Carte qui permet de gérer aussi bien une créature qu'un planeswalker. Elle est fréquente dans les
+decks qui ont besoin de gérer ces deux menaces à la fois.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Skyclave Apparition", _("Exil de permanent")) %}
+{% trans trimmed %}
+Créature disponible depuis l'extension <em>Zendikar Rising</em> qui est de plus en plus représentée.
+Exiler un permanent ayant un <em>CCM</em> de quatre peut se révéler dangereux.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Vindicate", _("Exil de permanent")) %}
+{% trans trimmed %}
+Rituel de gestion de permanent par définition. Cette carte est peu jouée à cause de son coût de
+mana qui peut parfois être prohibitif pour un rituel.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Assassin's Trophy", _("Destruction de permanent")) %}
+{% trans trimmed
+	abrupt_decay=card("Abrupt Decay")
+%}
+Sort de gestion de permanent qui remplace le permanent détruit par un terrain de base dégagé. Il
+est souvent joué avec {{ abrupt_decay }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Collective Brutality", _("Réduction de l'endurance")) %}
+{% trans trimmed
+	life_from_the_loam=card("Life from the Loam")
+%}
+Carte versatile qui fournit plusieurs utilisations. Elle est souvent jouée dans les decks qui
+utilisent leur cimetière avec {{ life_from_the_loam }} par exemple.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Vapor Snag", _("Bounce de créature")) %}
+{% trans trimmed %}
+Gestion utilisée principalement en complément des blasts dans les decks Tempo et Aggro. La carte
+s'intègre très bien dans ces plans de jeu.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Blink of an Eye", _("Bounce de permanent")) %}
+{% trans trimmed
+	into_the_roil=card("Into the Roil")
+%}
+Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de piocher une
+carte. Elle est souvent jouée avec {{ into_the_roil }}
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Into the Roil", _("Bounce de permanent")) %}
+{% trans trimmed
+	blink_of_an_eye=card("Blink of an Eye")
+%}
+Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de piocher une
+carte. Elle est souvent jouée avec {{ blink_of_an_eye }}
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Unexpectedly Absent", _("Bounce de permanent")) %}
+{% trans trimmed %}
+Ce sort renvoie le permanent dans la bibliothèque de son propriétaire. Cela peut s'avouer être une
+arme redoutable lorsque l'adversaire souhaite chercher dans sa bibliothèque.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Terminate", _("Destruction de créature")) %}
+{% trans trimmed
+	angraths_rampage=card("Angrath's Rampage"),
+	dreadbore=card("Dreadbore")
+%}
+Anti-créature sans défaut. Se joue généralement avec {{ dreadbore }} et {{ angraths_rampage }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Beast Within", _("Destruction de permanent")) %}
+{% trans trimmed
+	prey_upon=card("Prey Upon"),
+	song_of_the_dryads=card("Song of the Dryads")
+%}
+Une des rares gestion en vert avec {{ song_of_the_dryads }} qui est joué le plus souvent dans les
+mêmes decks. Selon les armes à disposition, des cartes comme {{ prey_upon }} peuvent aussi être
+envisageables.
+{% endtrans %}
+{% endcall %}
+{% endblock %}

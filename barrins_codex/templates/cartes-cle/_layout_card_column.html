@@ -1,0 +1,16 @@
+{% macro card_column(name, cat="") -%}
+<div class="column">
+	<div class="column-image">
+		{{ card_image(name, false, "normal") }}
+		<h4 style="text-align: center;">{{ name }}</h4>
+		{% if cat != "" %}
+		<p class="center-subtitle">
+			{{ gettext('%(cat)s', cat=cat) }}
+		</p>
+		{% endif %}
+	</div>
+	<p>
+		{{ caller() }}
+	</p>
+</div>
+{%- endmacro %}

@@ -183,13 +183,22 @@ def display_card():
 			)
 		)
 
-	def card_image(name, hover=True):
+	def card_image(name, hover=True, version="small"):
+		if_hover = ""
+		if hover:
+			if_hover = """ onmouseover="hC(\'{scryfallId}\')" onmouseout="oC()"' """
+
+		img = """
+			<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version={version}"
+			alt="{name}" onclick="dC(\'{scryfallId}\')" {is_hover} />
+		"""
+
 		return flask.Markup(
-			"""<img alt="{name}" onmouseout="oC()"
-				src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=small"
-				onmouseover="hC('{scryfallId}')" onclick="dC('{scryfallId}')" />""".format(
+			img.format(
 				name=name.replace(" ", " "),
 				scryfallId=scryfall_id(name),
+				version=version,
+				is_hover=(if_hover or ""),
 			)
 		)
 

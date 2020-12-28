@@ -77,6 +77,21 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Winota, Joiner of Forces")),
 			],
 		),
+		Nav(
+			lazy_gettext("Cartes clé"),
+			index=True,
+			children=[
+				Nav(
+					lazy_gettext("Présentation"),
+					index=False,
+					children=[
+						Nav(lazy_gettext("Les Contresorts")),
+						Nav(lazy_gettext("La Défausse")),
+						Nav(lazy_gettext("Les Spot Removals")),
+					],
+				),
+			],
+		),
 	],
 )
 
