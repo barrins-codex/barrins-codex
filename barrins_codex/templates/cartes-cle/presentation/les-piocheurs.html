@@ -1,0 +1,174 @@
+{% extends "cartes-cle/_layout.html" %}
+{% import "cartes-cle/_layout_card_column.html" as layout with context %}
+
+{% block content %}
+{% trans trimmed %}
+<h1>Les piocheurs</h1>
+<div class="tip">
+	Les piocheurs sont des cartes qui se remplacent voire qui crée du <em>Card Advantage</em>. En
+	effet, dès quil est possible de piocher plus d'une carte immédiatement ou sur plusieurs tours,
+	ces cartes deviennent redoutables pour garder une taille de main raisonnables et donc pouvoir
+	utiliser le maximum de sorts possible.
+</div>
+{% endtrans %}
+
+{% call layout.card_column("Brainstorm") %}
+{% trans trimmed
+	fetch="fetch"
+%}
+Carte qui est très puissante dans les formats Éternels. Son utilisation avec un {{ fetch }} permet
+de « recycler » des cartes peu utiles dans la situation et souvent de débloquer la situation.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Ponder") %}
+{% trans trimmed %}
+Carte jouée car elle permet de préparer les prochains tours. Il est nécessaire de choisir de
+mélanger la bibliothèque si jamais une seule des trois cartes est utile.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Preordain") %}
+{% trans trimmed %}
+Carte jouée car elle permet de préparer les prochains tours. Il est nécessaire de choisir de
+mélanger la bibliothèque si jamais une seule des trois cartes est utile.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Jace, the Mind Sculptor") %}
+{% trans trimmed
+	bounce=link("cartes-cle/presentation/les-spot-removals", "bounce")
+%}
+Planeswalker le plus joué, il offre des possibilités intéressantes entre du {{ bounce }}, de la
+pioche et une condition de victoire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Gitaxian Probe") %}
+{% trans trimmed %}
+Carte qui permet de gagner de l'information sur la main de l'adversaire, elle est privilégiée dans
+les decks Contrôle et les decks Combo qui ont besoin de davantage d'information que les autres
+decks de manière générale.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Teferi, Time Raveler") %}
+{% trans trimmed %}
+Planeswalker très oppressant, il est toujours utile car son -3 permet de le remplacer dans presque
+toutes les situations.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Narset, Parter of Veils") %}
+{% trans trimmed %}
+Planeswalker très utile contre Contrôle essentiellement car elle permet d'annuler tout
+<em>Card Advantage</em> que l'adversaire essaye de mettre en place.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Sylvan Library") %}
+{% trans trimmed %}
+Carte dont l'objectif est double : à la fois préparer les cartes qui sont piochées mais aussi
+piocher plus d'une carte si nécessaire. Il ne faut pas hésiter à piocher plus de cartes lorsque la
+qualité diminue pour renouveller le stock de cartes manipulées.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Baleful Strix") %}
+{% trans trimmed %}
+Créature qui se remplace, elle permet de tuer presque toutes les créatures qu'elle bloque. C'est
+une carte très appréciée dans l'ensemble des decks qui peuvent la jouer.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Opt") %}
+{% trans trimmed %}
+Un éphémère à bas coût qui permet de filtrer le deck, il est très apprécié.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Fire / Ice") %}
+{% trans trimmed %}
+Carte très versatile qui permet pour un coût décent de ralentir l'accès au mana de l'adversaire en
+plus de fournir la possibilité d'infliger des dégâts.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Sword of Fire and Ice") %}
+{% trans trimmed
+	blasts=link("cartes-cle/presentation/les-blasts", "blasts")
+%}
+Équipement recherché par les decks souhaitant esquiver les {{ blasts }} et de fournir une
+possibilité de piocher des cartes sur le long terme.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Serum Visions") %}
+{% trans trimmed %}
+Cantrip joué en Modern à défaut des autres, cette carte reste intéressante pour préparer un Big
+Turn. En effet, le filtrage n'a pas d'effet immédiat mais est quand même conséquent.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Impulse") %}
+{% trans trimmed %}
+Carte qui permet de filtrer le deck. Elle est jouée principalement dans les decks qui cherchent à
+accéder à une carte précise ou à un de ses doublons fonctionnels.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Blink of an Eye", _("Bounce de permanent")) %}
+{% trans trimmed
+	bounce=link("cartes-cle/presentation/les-spot-removals", "bounce"),
+	into_the_roil=card("Into the Roil")
+%}
+Avant tout un {{ bounce }}, cette carte permet pour une somme correcte de se remplacer.
+Elle est souvent jouée avec {{ into_the_roil }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Into the Roil", _("Bounce de permanent")) %}
+{% trans trimmed
+	bounce=link("cartes-cle/presentation/les-spot-removals", "bounce"),
+	blink_of_an_eye=card("Blink of an Eye")
+%}
+Avant tout un {{ bounce }}, cette carte permet pour une somme correcte de se remplacer.
+Elle est souvent jouée avec {{ blink_of_an_eye }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Peek") %}
+{% trans trimmed %}
+Lorsque l'accès à l'information est un besoin, jouer cette carte en plus de {{ gitaxian_probe }}
+peut se révéler utile car elle aussi se remplace.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Teferi, Hero of Dominaria") %}
+{% trans trimmed
+	bounce=link("cartes-cle/presentation/les-spot-removals", "bounce"),
+	jace_the_mind_sculptor=card("Jace, the Mind Sculptor")
+%}
+Planeswalker avec un coût élevé, il génère du <em>Card Advantage</em> rapidement et permet, si
+nécessaire, de {{ bounce }} un permanent si nécessaire. Tout comme {{ jace_the_mind_sculptor }}, son
+ultimatum est une condition de victoire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Sleight of Hand") %}
+{% trans trimmed
+	sleight_of_hand=card("Sleight of Hand")
+%}
+Autre cantrip joué dans les decks Combo, cette carte est à prioriser pendant le Big Turn,
+contrairement à {{ sleight_of_hand }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Cling to Dust") %}
+{% trans trimmed %}
+Carte qui est de plus en plus jouée car elle permet d'interagir avec le cimetière de l'adversaire
+tout en ayant la possibilité de se remplacer aisément.
+{% endtrans %}
+{% endcall %}
+
+{% endblock %}

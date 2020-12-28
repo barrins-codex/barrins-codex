@@ -1,0 +1,119 @@
+{% extends "cartes-cle/_layout.html" %}
+{% import "cartes-cle/_layout_card_column.html" as layout with context %}
+
+{% block content %}
+{% trans trimmed %}
+<h1>Les mass removals</h1>
+<div class="tip">
+	Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des permanents du champ
+	de bataille. Il en existe plusieurs catégories : les <em>spot removals</em> qui permettent de
+	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs.
+</div>
+{% endtrans %}
+
+{% call layout.card_column("Cyclonic Rift", _("Bounce global de créatures")) %}
+{% trans trimmed %}
+Carte jouée dans les decks qui atteignent facilement sept mana. C'est dans ce type de deck que la
+carte brille le plus.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Parallax Wave", _("Exil de créatures")) %}
+{% trans trimmed %}
+Enchantement recherché par la plupart des jeux à base de créature. Il permet de gérer une créature
+adverse pendant plusieurs tours ou plusieurs créatures adverses dans un temps plus court,
+permettant de verrouiller une fenêtre pour être léthal.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Fiery Confluence", _("Dégâts et Destruction")) %}
+{% trans trimmed %}
+Cette carte est un véritable couteau suisse. En effet, elle permet de s'attaquer aux petites
+créatures qui <em>chump block</em> et aux artefacts génants.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Toxic Deluge", _("Réduction globale de l'endurance")) %}
+{% trans trimmed %}
+Premier mass removal noir, cette carte permet de retirer du champ de bataille les créatures
+indestructibles et celles qui ne subissent pas de dégâts grâce à une Protection.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Balance", _("Sacrifice de ressources")) %}
+{% trans trimmed
+	rocks="rocks"
+%}
+Comme son nom l'indique, cette carte permet d'équilibrer certains types de ressources. Utilisée
+avec des {{ rocks }}, elle force rapidement l'adversaire à perdre plus de ressources.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Supreme Verdict", _("Destruction globale de créatures")) %}
+{% trans trimmed
+	wrath_of_god=card("Wrath of God")
+%}
+Il s'agit du digne successeur de {{ wrath_of_god }} en Modern dans UW Control. Le fait qu'elle soit
+incontrable justifie le mana coloré supplémentaire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Ugin, the Spirit Dragon", _("Exil global de permanents")) %}
+{% trans trimmed %}
+Ce planeswalker permet de gérer l'état de la partie au besoin. Ses capacités de loyauté couvrent un
+large éventail de posibilités dont les impacts ne sont pas négligeables.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Blast Zone", _("Destruction globale de permanents")) %}
+{% trans trimmed
+	pernicious_deed=card("Pernicious Deed")
+%}
+Bien que plus lent à préparer, ce terrain est plus joué que {{ pernicious_deed }}. La principale
+raison étant l'identité couleur qui permet de sélectionner ce terrain pour pouvoir bénéficier de
+cet effet si c'est nécessaire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Pyrokinesis", _("Dégâts à une créature")) %}
+{% trans trimmed
+	spellskite=card("Spellskite")
+%}
+Souvent utiliser pour infliger des dégâts à plusieurs créatures, il est également possible de n'en
+cibler qu'une seule. {{ Spellskite }} ne peut pas réduire le nombre de cibles de ce sort.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Sweltering Suns", _("Dégâts globaux aux créatures")) %}
+{% trans trimmed
+	anger_of_the_gods=card("Anger of the Gods")
+%}
+Ce sort de dégâts globaux aux créatures est plus joué qu'{{ anger_of_the_gods }} car il est
+possible de recycler la carte lorsque celle-ci n'est pas nécessaire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Pernicious Deed", _("Destruction globale de permanents")) %}
+{% trans trimmed %}
+Cette carte permet de détruire une grande partie des permanents sur le champ de bataille. Il n'est
+cependant pas possible de détruire des Planeswalkers avec celle-ci.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Damnation", _("Destruction globale de permanents")) %}
+{% trans trimmed
+	wrath_of_god=card("Wrath of God")
+%}
+Alter ego de {{ wrath_of_god }} vu qu'il s'agit de sa version <em>colorshiftée</em>. Elle est jouée
+lorsque le deck n'a pas suffisamment de mass removal parmi ceux cités précédemment.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Anger of the Gods", _("Dégâts globaux aux créatures")) %}
+{% trans trimmed %}
+Ce sort de dégâts globaux aux créatures permet de s'assurer que les créatures détruites ne seront
+pas réutilisées d'une quelconque manière par l'adversaire.
+{% endtrans %}
+{% endcall %}
+
+{% endblock %}

@@ -14,7 +14,7 @@
 </div>
 {% endtrans %}
 
-{% call layout.card_column("Swords to Plowshares", _("Éxil de créature")) %}
+{% call layout.card_column("Swords to Plowshares", _("Exil de créature")) %}
 {% trans trimmed %}
 Meilleur removal de la couleur et est aussi carte la plus jouée en blanc dans le format.
 {% endtrans %}
@@ -27,14 +27,14 @@ détruire une grande majorité des créatures, dont des généraux.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Deadly Rollick", _("Éxil de créature")) %}
+{% call layout.card_column("Deadly Rollick", _("Exil de créature")) %}
 {% trans trimmed %}
 Carte relativement facile à intégrer dans un deck. L'effet de surprise est un plus non négligeable
 qui permet de se sortir de certaines situations.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Palace Jailer", _("Éxil de créature")) %}
+{% call layout.card_column("Palace Jailer", _("Exil de créature")) %}
 {% trans trimmed %}
 Joué lorsque cela ne va pas à l'encontre du plan de jeu. Sa gestion passant par le fait d'être
 <em>monarch</em>, elle crée dans le même temps du <em>Card Advantage</em> pendant quelques tours.
@@ -59,14 +59,14 @@ infligés en fait un choix très intéressant.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Abrade", _("Dégâts à une créature")) %}
+{% call layout.card_column("Abrade", _("Dégâts et Destruction")) %}
 {% trans trimmed %}
 Carte avec un coût de mana décent et des options intéressantes. Cela en fait une carte de choix
 pour les decks ayant besoin de gérer les artefacts en plus des créatures.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Council's Judgment", _("Éxil de permanent")) %}
+{% call layout.card_column("Council's Judgment", _("Exil de permanent")) %}
 {% trans trimmed %}
 Carte qui ne cible pas le permanent qui va être éxilé. Cela en fait une gestion de choix contre les
 permanents inciblables, à cause de l'<em>Hexproof</em> ou du <em>Shroud</em> par exemple.
@@ -94,7 +94,7 @@ Exiler un permanent ayant un <em>CCM</em> de quatre peut se révéler dangereux.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Vindicate", _("Exil de permanent")) %}
+{% call layout.card_column("Vindicate", _("Destruction de permanent")) %}
 {% trans trimmed %}
 Rituel de gestion de permanent par définition. Cette carte est peu jouée à cause de son coût de
 mana qui peut parfois être prohibitif pour un rituel.
@@ -107,6 +107,15 @@ mana qui peut parfois être prohibitif pour un rituel.
 %}
 Sort de gestion de permanent qui remplace le permanent détruit par un terrain de base dégagé. Il
 est souvent joué avec {{ abrupt_decay }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Pyrokinesis", _("Dégâts à une créature")) %}
+{% trans trimmed
+	spellskite=card("Spellskite")
+%}
+Souvent utiliser pour infliger des dégâts à plusieurs créatures, il est également possible de n'en
+cibler qu'une seule. {{ Spellskite }} ne peut pas réduire le nombre de cibles de ce sort.
 {% endtrans %}
 {% endcall %}
 
@@ -131,7 +140,7 @@ s'intègre très bien dans ces plans de jeu.
 	into_the_roil=card("Into the Roil")
 %}
 Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de piocher une
-carte. Elle est souvent jouée avec {{ into_the_roil }}
+carte. Elle est souvent jouée avec {{ into_the_roil }}.
 {% endtrans %}
 {% endcall %}
 
@@ -140,7 +149,7 @@ carte. Elle est souvent jouée avec {{ into_the_roil }}
 	blink_of_an_eye=card("Blink of an Eye")
 %}
 Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de piocher une
-carte. Elle est souvent jouée avec {{ blink_of_an_eye }}
+carte. Elle est souvent jouée avec {{ blink_of_an_eye }}.
 {% endtrans %}
 {% endcall %}
 
@@ -148,6 +157,14 @@ carte. Elle est souvent jouée avec {{ blink_of_an_eye }}
 {% trans trimmed %}
 Ce sort renvoie le permanent dans la bibliothèque de son propriétaire. Cela peut s'avouer être une
 arme redoutable lorsque l'adversaire souhaite chercher dans sa bibliothèque.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Chandra, Torch of Defiance", _("Dégâts à une créature")) %}
+{% trans trimmed %}
+Ce planeswalker est très impactant car elle résume à elle-seule beaucoup d'outils qui permettent
+aussi bien de gérer une créature que de filtrer son deck en infligeant des dégâts directs à
+l'adversaire.
 {% endtrans %}
 {% endcall %}
 

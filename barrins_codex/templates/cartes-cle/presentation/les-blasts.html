@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% trans trimmed
+	bonecrusher_giant=card("Bonecrusher Giant"),
+	burst_lightning=card("Burst Lightning"),
+	chain_lightning=card("Chain Lightning"),
+	chandra_torch_of_defiance=card("Chandra, Torch of Defiance"),
+	fire_ice=card("Fire / Ice"),
+	grim_lavamancer=card("Grim Lavamancer"),
+	incinerate=card("Incinerate"),
+	lightning_bolt=card("Lightning Bolt"),
+	lightning_helix=card("Lightning Helix"),
+	lightning_strike=card("Lightning Strike"),
+	searing_spear=card("Searing Spear"),
+	shock=card("Shock")
+%}
+<h1>Les blasts</h1>
+<p>
+	Les blasts sont des éphémères et des rituels principalement rouge. L'objetctif est d'être en
+	mesure d'infliger des dégâts directs à l'adversaire ou à un des éléments du champ de bataille
+	comme un planewalker ou une créature. Selon les decks, la quantité de blasts change. Les
+	indémodables {{ lightning_bolt }} et {{ chain_lightning }} sont presque toujours inclus dans
+	les decks qui peuvent les jouer.
+</p>
+<p>
+	Parmi les sorts uniquement rouge, le trio suivant est joué dans la grande majorité des decks
+	Aggro et Tempo : {{ lightning_strike }}, {{ incinerate }} et {{ searing_spear }}. À ce trio
+	s'ajoute {{ lightning_helix }} qui inflige également trois blessures.
+</p>
+<p>
+	Certains {{ shock }} sont joués de manière assez régulière car leur diversité permet de couvrir
+	plusieurs axes de jeu. Parmi ceux-ci figurent {{ fire_ice }}, {{ bonecrusher_giant }},
+	{{ grim_lavamancer }}, {{ burst_lightning }} et {{ chandra_torch_of_defiance }}. Leurs
+	applications sont toutes différentes et c'est principalement ce qui justifie leur inclusion
+	dans un deck.
+</p>
+<p>
+	Enfin, {{ fiery_confluence }} est une carte qui permet d'infliger six dégâts à l'adversaire.
+	C'est principalement pour cette raison que la carte est jouée dans les decks Aggro et Tempo.
+</p>
+<div class="tip">
+	<h3>Bolt face ou trade ?</h3>
+	<p>
+		Il arrive toujours un moment où il faut faire un choix quant à la cible d'un blast. Vaut-il
+		mieux ingliger ces blessures directement à l'adversaire (<em>face</em>) ou faut-il utiliser
+		le sort sur une créature ou un planeswalker (<em>trade</em>) ?
+	</p>
+	<p>
+		Il faut prendre en compte le différentiel de dégâts qu'induit un <em>trade</em> par rapport
+		à lancer le sort <em>face</em>. En effet, si blaster une créature permet d'infliger deux
+		dégâts à l'adversaire, il vaut mieux lancer {{ lightning_bolt }} directement <em>face</em>.
+		Tout ceci à moins que la créature fasse partie d'une combo que l'adversaire essaye de
+		mettre en place depuis quelques tours.
+	</p>
+	<p>
+		Chercher le gain immédiat n'est pas toujours la solution et il est intéressant d'anticiper
+		le tour à venir voire le suivant pour prendre une décision pondérée.
+	</p>
+</div>
+{% endtrans %}
+{% endblock %}

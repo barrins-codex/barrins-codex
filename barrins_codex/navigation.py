@@ -85,9 +85,12 @@ STRUCTURE = Nav(
 					lazy_gettext("Présentation"),
 					index=False,
 					children=[
+						Nav(lazy_gettext("Les Blasts")),
 						Nav(lazy_gettext("Les Contresorts")),
 						Nav(lazy_gettext("La Défausse")),
+						Nav(lazy_gettext("Les Piocheurs")),
 						Nav(lazy_gettext("Les Spot Removals")),
+						Nav(lazy_gettext("Les Mass Removals")),
 					],
 				),
 			],
