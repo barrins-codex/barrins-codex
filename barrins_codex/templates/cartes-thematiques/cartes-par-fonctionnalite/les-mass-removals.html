@@ -11,32 +11,12 @@
 </div>
 {% endtrans %}
 
-{% call layout.card_column("Cyclonic Rift", _("Bounce global de créatures")) %}
-{% trans trimmed %}
-Carte jouée dans les decks qui atteignent facilement sept mana. C'est dans ce type de deck que la
-carte brille le plus.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Parallax Wave", _("Exil de créatures")) %}
-{% trans trimmed %}
-Enchantement recherché par la plupart des jeux à base de créature. Il permet de gérer une créature
-adverse pendant plusieurs tours ou plusieurs créatures adverses dans un temps plus court,
-permettant de verrouiller une fenêtre pour être léthal.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Fiery Confluence", _("Dégâts et Destruction")) %}
-{% trans trimmed %}
-Cette carte est un véritable couteau suisse. En effet, elle permet de s'attaquer aux petites
-créatures qui <em>chump block</em> et aux artefacts génants.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Toxic Deluge", _("Réduction globale de l'endurance")) %}
-{% trans trimmed %}
-Mass removal noir le plus joué, cette carte permet de retirer du champ de bataille les créatures
-indestructibles et celles qui ne subissent pas de dégâts grâce à une <em>Protection</em>.
+{% call layout.card_column("Armageddon", _("Destruction de terrains")) %}
+{% trans trimmed
+	non_blue_midrange=_("Midrange Non-Bleu")
+%}
+Carte utilisée dans les stratégies {{ non_blue_midrange }} pour gagner un avantage significatif et
+être en mesure de clore la partie en rencontrant peu de résistance de la part de l'adversaire.
 {% endtrans %}
 {% endcall %}
 
@@ -49,12 +29,141 @@ avec des {{ rocks }}, elle force rapidement l'adversaire à perdre plus de resso
 {% endtrans %}
 {% endcall %}
 
+{% call layout.card_column("Cataclysm", _("Sacrifice de ressources")) %}
+{% trans trimmed
+	voltron="voltron",
+	jenara_asura_of_war=card("Jenara, Asura of War")
+%}
+Carte qui réduit chaque joueur à une quantité minimale de permanents. Elle est souvent jouée dans
+des decks {{ voltron }} comme {{ jenara_asura_of_war }}. Aucun planeswalker ne survit à ce sort.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Parallax Wave", _("Exil de créatures")) %}
+{% trans trimmed %}
+Enchantement recherché par la plupart des jeux à base de créature. Il permet de gérer une créature
+adverse pendant plusieurs tours ou plusieurs créatures adverses dans un temps plus court,
+permettant de verrouiller une fenêtre pour être léthal.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Wrath of God", _("Destruction globale de créatures")) %}
+{% trans trimmed %}
+Carte ayant donné son nom à l'ensemble des cartes de destruction globale : <em>wrath</em>. Cette
+carte est présente dans le jeu depuis sa création et est toujours jouée dans des decks qui se
+rapprochent du macrotype midrange.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Cyclonic Rift", _("Bounce global de créatures")) %}
+{% trans trimmed %}
+Carte jouée dans les decks qui atteignent facilement sept mana. C'est dans ce type de deck que la
+carte brille le plus.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Damnation", _("Destruction globale de permanents")) %}
+{% trans trimmed
+	wrath_of_god=card("Wrath of God")
+%}
+Alter ego de {{ wrath_of_god }} vu qu'il s'agit de sa version <em>colorshiftée</em>. Elle est jouée
+lorsque le deck n'a pas suffisamment de mass removal parmi ceux cités précédemment.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Toxic Deluge", _("Réduction globale de l'endurance")) %}
+{% trans trimmed %}
+Mass removal noir le plus joué, cette carte permet de retirer du champ de bataille les créatures
+indestructibles et celles qui ne subissent pas de dégâts grâce à une <em>Protection</em>.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Anger of the Gods", _("Dégâts globaux aux créatures")) %}
+{% trans trimmed %}
+Ce sort de dégâts globaux aux créatures permet de s'assurer que les créatures détruites ne seront
+pas réutilisées d'une quelconque manière par l'adversaire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Devastation", _("Destruction globale de créatures et de terrains")) %}
+{% trans trimmed
+	daretti_scrap_savant=card("Daretti, Scrap Savant"),
+	maelstrom_wanderer=card("Maelstrom Wanderer"),
+	voltron="voltron"
+%}
+Ce sort permet de détruire toutes les créature et tous les terrains. Jouée principalement par les
+decks <em>fair</em> comme sort de rupture de l'équité, elle est jouée principalement dans les decks
+artefacts comme {{ daretti_scrap_savant }} et dans des decks {{ voltron }} comme
+{{ maelstrom_wanderer }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Fiery Confluence", _("Dégâts et Destruction")) %}
+{% trans trimmed %}
+Cette carte est un véritable couteau suisse. En effet, elle permet de s'attaquer aux petites
+créatures qui <em>chump block</em> et aux artefacts génants.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Pyrokinesis", _("Dégâts à une créature")) %}
+{% trans trimmed
+	spellskite=card("Spellskite")
+%}
+Souvent utilisée pour infliger des dégâts à plusieurs créatures, il est également possible de n'en
+cibler qu'une seule. {{ spellskite }} ne peut pas réduire le nombre de cibles de ce sort.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Ruination", _("Destruction globale de terrains")) %}
+{% trans trimmed
+	blood_moon=card("Blood Moon")
+%}
+Ce sort permet aux deck rouge, mono et bicolores, d'avoir un moyen de pression en plus de
+{{ blood_moon }} contre les decks proposant des plans de jeu très colorés.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Sweltering Suns", _("Dégâts globaux aux créatures")) %}
+{% trans trimmed
+	anger_of_the_gods=card("Anger of the Gods")
+%}
+Ce sort de dégâts globaux aux créatures est plus joué qu'{{ anger_of_the_gods }} car il est
+possible de recycler la carte lorsque celle-ci n'est pas nécessaire.
+{% endtrans %}
+{% endcall %}
+
 {% call layout.card_column("Supreme Verdict", _("Destruction globale de créatures")) %}
 {% trans trimmed
 	wrath_of_god=card("Wrath of God")
 %}
 Il s'agit du digne successeur de {{ wrath_of_god }} en Modern dans UW Control. Le fait qu'elle soit
 incontrable justifie le mana coloré supplémentaire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Magister of Worth", _("Destruction globale de créatures")) %}
+{% trans trimmed
+	reanimator="reanimator"
+%}
+Cette carte peut avoir son intérêt dans des plans de jeu basés sur les créatures ayant un coût de
+mana élevé comme {{ reanimator }} où il est possible de profiter de l'entièreté de sa capacité.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Pernicious Deed", _("Destruction globale de permanents")) %}
+{% trans trimmed %}
+Cette carte permet de détruire une grande partie des permanents sur le champ de bataille. Il n'est
+cependant pas possible de détruire des Planeswalkers avec celle-ci.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Nevinyrral's Disk", _("Destruction globale de permanents")) %}
+{% trans trimmed
+	daretti_scrap_savant=card("Daretti, Scrap Savant")
+%}
+Cet artefact permet de gérer la plupart des menaces existantes. Bien que jouée davatange en
+Commander, cette carte est jouée dans des decks basés sur les arpenteurs comme
+{{ daretti_scrap_savant }}.
 {% endtrans %}
 {% endcall %}
 
@@ -74,46 +183,4 @@ raison étant l'identité couleur qui permet de sélectionner ce terrain pour po
 cet effet si c'est nécessaire.
 {% endtrans %}
 {% endcall %}
-
-{% call layout.card_column("Pyrokinesis", _("Dégâts à une créature")) %}
-{% trans trimmed
-	spellskite=card("Spellskite")
-%}
-Souvent utilisée pour infliger des dégâts à plusieurs créatures, il est également possible de n'en
-cibler qu'une seule. {{ spellskite }} ne peut pas réduire le nombre de cibles de ce sort.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Sweltering Suns", _("Dégâts globaux aux créatures")) %}
-{% trans trimmed
-	anger_of_the_gods=card("Anger of the Gods")
-%}
-Ce sort de dégâts globaux aux créatures est plus joué qu'{{ anger_of_the_gods }} car il est
-possible de recycler la carte lorsque celle-ci n'est pas nécessaire.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Pernicious Deed", _("Destruction globale de permanents")) %}
-{% trans trimmed %}
-Cette carte permet de détruire une grande partie des permanents sur le champ de bataille. Il n'est
-cependant pas possible de détruire des Planeswalkers avec celle-ci.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Damnation", _("Destruction globale de permanents")) %}
-{% trans trimmed
-	wrath_of_god=card("Wrath of God")
-%}
-Alter ego de {{ wrath_of_god }} vu qu'il s'agit de sa version <em>colorshiftée</em>. Elle est jouée
-lorsque le deck n'a pas suffisamment de mass removal parmi ceux cités précédemment.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Anger of the Gods", _("Dégâts globaux aux créatures")) %}
-{% trans trimmed %}
-Ce sort de dégâts globaux aux créatures permet de s'assurer que les créatures détruites ne seront
-pas réutilisées d'une quelconque manière par l'adversaire.
-{% endtrans %}
-{% endcall %}
-
 {% endblock %}

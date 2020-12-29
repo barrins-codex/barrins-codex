@@ -12,12 +12,79 @@
 </div>
 {% endtrans %}
 
+
+{% call layout.card_column("Blink of an Eye", _("Bounce de permanent")) %}
+{% trans trimmed
+	bounce=link("/cartes-cle/presentation/les-spot-removals", "bounce"),
+	into_the_roil=card("Into the Roil")
+%}
+Avant tout un {{ bounce }}, cette carte permet pour une somme correcte de se remplacer.
+Elle est souvent jouée avec {{ into_the_roil }}.
+{% endtrans %}
+{% endcall %}
+
 {% call layout.card_column("Brainstorm") %}
 {% trans trimmed
 	fetch="fetch"
 %}
 Carte qui est très puissante dans les formats Éternels. Son utilisation avec un {{ fetch }} permet
 de « recycler » des cartes peu utiles et permet souvent de débloquer la situation.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Gitaxian Probe") %}
+{% trans trimmed %}
+Carte qui permet de gagner de l'information sur la main de l'adversaire, elle est privilégiée dans
+les decks Contrôle et les decks Combo qui ont besoin de davantage d'information que les autres
+decks de manière générale.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Impulse") %}
+{% trans trimmed %}
+Carte qui permet de filtrer le deck. Elle est jouée principalement dans les decks qui cherchent à
+accéder à une carte précise ou à un de ses doublons fonctionnels.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Into the Roil", _("Bounce de permanent")) %}
+{% trans trimmed
+	bounce=link("/cartes-cle/presentation/les-spot-removals", "bounce"),
+	blink_of_an_eye=card("Blink of an Eye")
+%}
+Avant tout un {{ bounce }}, cette carte permet pour une somme correcte de se remplacer.
+Elle est souvent jouée avec {{ blink_of_an_eye }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Jace, the Mind Sculptor") %}
+{% trans trimmed
+	bounce=link("/cartes-cle/presentation/les-spot-removals", "bounce")
+%}
+Planeswalker le plus joué, il offre des possibilités intéressantes entre du {{ bounce }}, de la
+pioche et une condition de victoire.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Narset, Parter of Veils") %}
+{% trans trimmed %}
+Planeswalker très utile contre Contrôle essentiellement car elle permet d'annuler tout
+<em>Card Advantage</em> que l'adversaire essaye de mettre en place.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Opt") %}
+{% trans trimmed %}
+Un éphémère à bas coût qui permet de filtrer le deck, il est très apprécié.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Peek") %}
+{% trans trimmed
+	gitaxian_probe=card("Gitaxian Probe")
+%}
+Lorsque l'accès à l'information est un besoin, jouer cette carte en plus de {{ gitaxian_probe }}
+peut se révéler utile car elle aussi se remplace.
 {% endtrans %}
 {% endcall %}
 
@@ -35,34 +102,26 @@ d'un Big Turn ou de la recherche d'une interaction particulière.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Jace, the Mind Sculptor") %}
+{% call layout.card_column("Sleight of Hand") %}
 {% trans trimmed
-	bounce=link("/cartes-cle/presentation/les-spot-removals", "bounce")
+	sleight_of_hand=card("Sleight of Hand")
 %}
-Planeswalker le plus joué, il offre des possibilités intéressantes entre du {{ bounce }}, de la
-pioche et une condition de victoire.
+Autre cantrip joué dans les decks Combo, cette carte est à prioriser pendant le Big Turn,
+contrairement à {{ sleight_of_hand }}.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Gitaxian Probe") %}
+{% call layout.card_column("Serum Visions") %}
 {% trans trimmed %}
-Carte qui permet de gagner de l'information sur la main de l'adversaire, elle est privilégiée dans
-les decks Contrôle et les decks Combo qui ont besoin de davantage d'information que les autres
-decks de manière générale.
+Cantrip joué en Modern à défaut des autres, cette carte reste intéressante pour préparer un Big
+Turn. En effet, le filtrage n'a pas d'effet immédiat mais est quand même conséquent.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Teferi, Time Raveler") %}
+{% call layout.card_column("Cling to Dust") %}
 {% trans trimmed %}
-Planeswalker très oppressant, il est toujours utile car son -3 permet de le remplacer dans presque
-toutes les situations.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Narset, Parter of Veils") %}
-{% trans trimmed %}
-Planeswalker très utile contre Contrôle essentiellement car elle permet d'annuler tout
-<em>Card Advantage</em> que l'adversaire essaye de mettre en place.
+Carte qui est de plus en plus jouée car elle permet d'interagir avec le cimetière de l'adversaire
+tout en ayant la possibilité de se remplacer aisément.
 {% endtrans %}
 {% endcall %}
 
@@ -81,12 +140,6 @@ une carte très appréciée dans l'ensemble des decks qui peuvent la jouer.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Opt") %}
-{% trans trimmed %}
-Un éphémère à bas coût qui permet de filtrer le deck, il est très apprécié.
-{% endtrans %}
-{% endcall %}
-
 {% call layout.card_column("Fire / Ice") %}
 {% trans trimmed %}
 Carte très versatile qui permet, pour un coût décent, de ralentir l'accès au mana de l'adversaire en
@@ -94,55 +147,10 @@ plus de fournir la possibilité d'infliger des dégâts directs.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Sword of Fire and Ice") %}
-{% trans trimmed
-	blasts=link("/cartes-cle/presentation/les-blasts", "blasts")
-%}
-Équipement recherché par les decks souhaitant esquiver les {{ blasts }} et obtenir la
-possibilité de piocher des cartes sur le long terme.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Serum Visions") %}
+{% call layout.card_column("Teferi, Time Raveler") %}
 {% trans trimmed %}
-Cantrip joué en Modern à défaut des autres, cette carte reste intéressante pour préparer un Big
-Turn. En effet, le filtrage n'a pas d'effet immédiat mais est quand même conséquent.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Impulse") %}
-{% trans trimmed %}
-Carte qui permet de filtrer le deck. Elle est jouée principalement dans les decks qui cherchent à
-accéder à une carte précise ou à un de ses doublons fonctionnels.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Blink of an Eye", _("Bounce de permanent")) %}
-{% trans trimmed
-	bounce=link("/cartes-cle/presentation/les-spot-removals", "bounce"),
-	into_the_roil=card("Into the Roil")
-%}
-Avant tout un {{ bounce }}, cette carte permet pour une somme correcte de se remplacer.
-Elle est souvent jouée avec {{ into_the_roil }}.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Into the Roil", _("Bounce de permanent")) %}
-{% trans trimmed
-	bounce=link("/cartes-cle/presentation/les-spot-removals", "bounce"),
-	blink_of_an_eye=card("Blink of an Eye")
-%}
-Avant tout un {{ bounce }}, cette carte permet pour une somme correcte de se remplacer.
-Elle est souvent jouée avec {{ blink_of_an_eye }}.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Peek") %}
-{% trans trimmed
-	gitaxian_probe=card("Gitaxian Probe")
-%}
-Lorsque l'accès à l'information est un besoin, jouer cette carte en plus de {{ gitaxian_probe }}
-peut se révéler utile car elle aussi se remplace.
+Planeswalker très oppressant, il est toujours utile car son -3 permet de le remplacer dans presque
+toutes les situations.
 {% endtrans %}
 {% endcall %}
 
@@ -157,20 +165,12 @@ ultimatum est une condition de victoire.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Sleight of Hand") %}
+{% call layout.card_column("Sword of Fire and Ice") %}
 {% trans trimmed
-	sleight_of_hand=card("Sleight of Hand")
+	blasts=link("/cartes-cle/presentation/les-blasts", "blasts")
 %}
-Autre cantrip joué dans les decks Combo, cette carte est à prioriser pendant le Big Turn,
-contrairement à {{ sleight_of_hand }}.
+Équipement recherché par les decks souhaitant esquiver les {{ blasts }} et obtenir la
+possibilité de piocher des cartes sur le long terme.
 {% endtrans %}
 {% endcall %}
-
-{% call layout.card_column("Cling to Dust") %}
-{% trans trimmed %}
-Carte qui est de plus en plus jouée car elle permet d'interagir avec le cimetière de l'adversaire
-tout en ayant la possibilité de se remplacer aisément.
-{% endtrans %}
-{% endcall %}
-
 {% endblock %}

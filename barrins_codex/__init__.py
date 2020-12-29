@@ -25,6 +25,14 @@ config.configure_app(app)
 def main():
 	app.run()
 
+# Adding symbols to context_processor
+BASE_CONTEXT = {
+	"W": flask.Markup("🔆"),
+	"U": flask.Markup("💧"),
+	"B": flask.Markup("💀"),
+	"R": flask.Markup("🔥"),
+	"G": flask.Markup("🌳"),
+}
 
 # Retrieving locale and timezone information
 @babel.localeselector
@@ -73,7 +81,9 @@ def index(lang_code=None, page=None):
 		return flask.redirect(page, 301)
 
 	flask.g.lang_code = lang_code
-	return flask.render_template(page)
+	context = copy.copy(BASE_CONTEXT)
+	context["lang"] = lang_code
+	return flask.render_template(page, **context)
 
 
 def _i18n_url(page, _anchor=None, locale=None, **params):
