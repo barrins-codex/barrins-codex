@@ -21,8 +21,12 @@
 	<meta name="keywords" content="Magic: the Gathering, MtG, Duel Commander, Commander, Duel, EDH">
 	{% block meta %}{% endblock %}
 	<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 	<link rel="icon" href="{{ url_for('static', filename='img/icons/codex.svg') }}">
+	<!-- Style Sheets -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+	<!-- Dark Mode -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/nightmode.css') }}"
+		 media="(prefers-color-scheme: dark)" >
 	<!-- Card display -->
 	<script src="{{ url_for('static', filename='js/dC.js') }}"></script>
 	{% block scripts %}{% endblock %}

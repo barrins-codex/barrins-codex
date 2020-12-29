@@ -1,0 +1,103 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #e3e7e9;
+		background: #222831;
+	}
+	a {
+		color: #e3e7e9;
+	}
+	a:hover,
+	a:focus {
+		color: #8d8176;
+		border-color: #8d8176;
+	}
+	article h1,
+	article h2,
+	article h3,
+	article h4,
+	article h5 {
+		color: #f2a365;
+	}
+	tr:hover,
+	tr.selected {
+		background-color: #30475e !important;
+	}
+	.tip {
+		background: #8d7e76;
+		color: #f0ece3;
+		border: 1px solid #92817a;
+	}
+	.tip h3 {
+		color: #222831;
+	}
+	.tip h3::before {
+		color: #222831;
+	}
+	.author {
+		background: #838383;
+		border: 1px solid #6B6B6B;
+	}
+	.decklist {
+		background-color: #556052;
+		color: #f0ece3;
+	}
+	.decklist p {
+		color: #d1d4c9;
+	}
+	.decklist .card:hover,
+	.decklist .card:focus {
+		color: #8d8176;
+	}
+}
+
+[data-user-color-scheme='dark'] {
+	body {
+		color: #e3e7e9;
+		background: #222831;
+	}
+	a {
+		color: #e3e7e9;
+	}
+	a:hover,
+	a:focus {
+		color: #8d8176;
+		border-color: #8d8176;
+	}
+	article h1,
+	article h2,
+	article h3,
+	article h4,
+	article h5 {
+		color: #f2a365;
+	}
+	tr:hover,
+	tr.selected {
+		background-color: #30475e !important;
+	}
+	.tip {
+		background: #8d7e76;
+		color: #f0ece3;
+		border: 1px solid #92817a;
+	}
+	.tip h3 {
+		color: #222831;
+	}
+	.tip h3::before {
+		color: #222831;
+	}
+	.author {
+		background: #838383;
+		border: 1px solid #6B6B6B;
+	}
+	.decklist {
+		background-color: #556052;
+		color: #f0ece3;
+	}
+	.decklist p {
+		color: #d1d4c9;
+	}
+	.decklist .card:hover,
+	.decklist .card:focus {
+		color: #306d44;
+	}
+}
