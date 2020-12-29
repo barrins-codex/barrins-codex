@@ -9,13 +9,25 @@
 </p>
 
 <h2>{{ _("Mécaniques de la colorpie") }}</h2>
+{% trans trimmed 
+	mechanical_color_pie=external("https://magic.wizards.com/en/articles/archive/making-magic/mechanical-color-pie-2017-2017-06-05")
+%}
+<p>
+	La <em>colorpie</em> est le pentagramme des couleurs de MTG : {{ W }}{{ U }}{{ B }}{{ R }}{{ G }}.
+	Chaque mécanique de MtG est reliée, de près ou de loin, à ce pentagramme. En effet, des couleurs sont
+	spécialisées dans certains domaines. Mark Roosewater, dans {{ mechanical_color_pie }}, présente un 
+	système de classification de ces mécaniques dans le pentagramme des couleurs.
+</p>
+{% endtrans %}
 {#
-	https://magic.wizards.com/en/articles/archive/making-magic/mechanical-color-pie-2017-2017-06-05
+	https://magic.wizards.com/fr/articles/archive/making-magic/pentagramme-des-couleurs-m%C3%A9canique-2017-2017-06-05
 #}
 <ul>
-	<li>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts") }}</li>
-	<li>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}</li>
-	<li>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}</li>
+	<li>{{ W }} <em>Hatebears</em></li>
+	<li>{{ U }} {{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}</li>
+	<li>{{ B }} {{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}</li>
+	<li>{{ R }} {{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts") }}</li>
+	<li>{{ G }} <em>Ramp</em></li>
 </ul>
 
 <h2>{{ _("Cartes par fonctionnalité") }}</h2>
