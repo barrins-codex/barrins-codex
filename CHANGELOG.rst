@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.3 (unreleased)
-----------------
+0.3.3 (2020-12-29)
+------------------
 - New section: Best Cards
 - Nothing else yet
 
