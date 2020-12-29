@@ -4,7 +4,7 @@ Changelog
 0.3.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout Dark Mode Theme
 
 
 0.3.3 (2020-12-29)
