@@ -78,16 +78,22 @@ STRUCTURE = Nav(
 			],
 		),
 		Nav(
-			lazy_gettext("Cartes clé"),
+			lazy_gettext("Cartes thématiques"),
 			index=True,
 			children=[
 				Nav(
-					lazy_gettext("Présentation"),
+					lazy_gettext("Mécaniques de la colorpie"),
 					index=False,
 					children=[
 						Nav(lazy_gettext("Les Blasts")),
 						Nav(lazy_gettext("Les Contresorts")),
 						Nav(lazy_gettext("La Défausse")),
+					],
+				),
+				Nav(
+					lazy_gettext("Cartes par fonctionnalité"),
+					index=False,
+					children=[
 						Nav(lazy_gettext("Les Piocheurs")),
 						Nav(lazy_gettext("Les Spot Removals")),
 						Nav(lazy_gettext("Les Mass Removals")),

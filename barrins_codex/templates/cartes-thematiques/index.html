@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>{{ _("Cartes clé") }}</h1>
+<p>
+	{% trans %}
+	Cette section explore les cartes clé du format <strong>Duel Commander</strong>.
+	{% endtrans %}
+</p>
+
+<h2>{{ _("Mécaniques de la colorpie") }}</h2>
+{#
+	https://magic.wizards.com/en/articles/archive/making-magic/mechanical-color-pie-2017-2017-06-05
+#}
+<ul>
+	<li>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts") }}</li>
+	<li>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}</li>
+	<li>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}</li>
+</ul>
+
+<h2>{{ _("Cartes par fonctionnalité") }}</h2>
+<ul>
+	<li>{{ link("/cartes-thematiques/cartes-par-fonctionnalite/les-piocheurs") }}</li>
+	<li>{{ link("/cartes-thematiques/cartes-par-fonctionnalite/les-spot-removals") }}</li>
+	<li>{{ link("/cartes-thematiques/cartes-par-fonctionnalite/les-mass-removals") }}</li>
+</ul>
+
+<p>
+	<em>D'autres articles à venir ...</em>
+</p>
+{% endblock %}
