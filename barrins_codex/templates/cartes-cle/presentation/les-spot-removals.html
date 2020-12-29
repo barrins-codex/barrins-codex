@@ -16,7 +16,7 @@
 
 {% call layout.card_column("Swords to Plowshares", _("Exil de créature")) %}
 {% trans trimmed %}
-Meilleur removal de la couleur et est aussi carte la plus jouée en blanc dans le format.
+Meilleur removal de la couleur et aussi carte la plus jouée en blanc dans le format.
 {% endtrans %}
 {% endcall %}
 
@@ -37,7 +37,8 @@ qui permet de se sortir de certaines situations.
 {% call layout.card_column("Palace Jailer", _("Exil de créature")) %}
 {% trans trimmed %}
 Joué lorsque cela ne va pas à l'encontre du plan de jeu. Sa gestion passant par le fait d'être
-<em>monarch</em>, elle crée dans le même temps du <em>Card Advantage</em> pendant quelques tours.
+<em>monarch</em>, elle crée, dans le même temps, du <em>Card Advantage</em> pendant quelques 
+tours.
 {% endtrans %}
 {% endcall %}
 
@@ -114,8 +115,8 @@ est souvent joué avec {{ abrupt_decay }}.
 {% trans trimmed
 	spellskite=card("Spellskite")
 %}
-Souvent utiliser pour infliger des dégâts à plusieurs créatures, il est également possible de n'en
-cibler qu'une seule. {{ Spellskite }} ne peut pas réduire le nombre de cibles de ce sort.
+Souvent utilisé pour infliger des dégâts à plusieurs créatures, il est également possible de n'en
+cibler qu'une seule. {{ spellskite }} ne peut pas réduire le nombre de cibles de ce sort.
 {% endtrans %}
 {% endcall %}
 
@@ -124,7 +125,7 @@ cibler qu'une seule. {{ Spellskite }} ne peut pas réduire le nombre de cibles d
 	life_from_the_loam=card("Life from the Loam")
 %}
 Carte versatile qui fournit plusieurs utilisations. Elle est souvent jouée dans les decks qui
-utilisent leur cimetière avec {{ life_from_the_loam }} par exemple.
+utilisent leur cimetière, avec {{ life_from_the_loam }} par exemple.
 {% endtrans %}
 {% endcall %}
 
@@ -162,7 +163,7 @@ arme redoutable lorsque l'adversaire souhaite chercher dans sa bibliothèque.
 
 {% call layout.card_column("Chandra, Torch of Defiance", _("Dégâts à une créature")) %}
 {% trans trimmed %}
-Ce planeswalker est très impactant car elle résume à elle-seule beaucoup d'outils qui permettent
+Ce planeswalker est très impactant car elle résume à elle seule beaucoup d'outils qui permettent
 aussi bien de gérer une créature que de filtrer son deck en infligeant des dégâts directs à
 l'adversaire.
 {% endtrans %}
@@ -185,6 +186,22 @@ Anti-créature sans défaut. Se joue généralement avec {{ dreadbore }} et {{ a
 Une des rares gestion en vert avec {{ song_of_the_dryads }} qui est joué le plus souvent dans les
 mêmes decks. Selon les armes à disposition, des cartes comme {{ prey_upon }} peuvent aussi être
 envisageables.
+{% endtrans %}
+
+{% call layout.card_column("Song of the Dryads", _("Neutralisation de permanent")) %}
+{% trans trimmed
+	darksteel_mutation=card("Darksteel Mutation"),
+	ghost_quarter=card("Ghost Quarter")
+%}
+Une des rares cartes de neutralisation de permanent avec {{ darksteel_mutation }}. Cette méthode 
+pour gérer un général adverse peut s'avérer optimale car il existe peu de cartes qui permettent de
+détruire un terrain, {{ ghost_quarter }} est une de ces rares cartes.
+{% endtrans %}
+
+{% call layout.card_column("On Thin Ice", _("Exil de créature")) %}
+{% trans trimmed %}
+Un des rares exils de créatures en enchantement. Cette carte nécessite de jouer des terrains basiques
+neigeux, ce qui n'est pas une condition compliquée à remplir.
 {% endtrans %}
 {% endcall %}
 {% endblock %}
