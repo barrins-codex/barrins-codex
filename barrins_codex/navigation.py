@@ -85,9 +85,9 @@ STRUCTURE = Nav(
 					lazy_gettext("Mécaniques de la colorpie"),
 					index=False,
 					children=[
-						Nav(lazy_gettext("Les Blasts")),
 						Nav(lazy_gettext("Les Contresorts")),
 						Nav(lazy_gettext("La Défausse")),
+						Nav(lazy_gettext("Les Blasts")),
 					],
 				),
 				Nav(
