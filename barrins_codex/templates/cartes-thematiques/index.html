@@ -21,16 +21,74 @@
 	que les couleurs sont censée faire en priorité dans le jeu.
 </p>
 {% endtrans %}
-{#
-	https://magic.wizards.com/fr/articles/archive/making-magic/pentagramme-des-couleurs-m%C3%A9canique-2017-2017-06-05
-#}
-<ul>
-	<li>{{ W }} <em>Les Hatebears</em></li>
-	<li>{{ U }} {{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}</li>
-	<li>{{ B }} {{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}</li>
-	<li>{{ R }} {{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts") }}</li>
-	<li>{{ G }} <em>Le Ramp</em></li>
-</ul>
+<div class="align-left">
+	<table class="triple-column">
+		<tr>
+			<td>{{ W }}</td>
+			<td><em>La destruction de permanents</em></td>
+		</tr>
+		<tr>
+			<td>{{ U }}</td>
+			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}</td>
+		</tr>
+		<tr>
+			<td>{{ B }}</td>
+			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}</td>
+		</tr>
+		<tr>
+			<td>{{ R }}</td>
+			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs") }}</td>
+		</tr>
+		<tr>
+			<td>{{ G }}</td>
+			<td><em>Le Ramp</em></td>
+		</tr>
+	</table>
+	<table class="triple-column">
+		<tr>
+			<td>{{ W }}</td>
+			<td><em>Taxer l'adversaire</em></td>
+		</tr>
+		<tr>
+			<td>{{ U }}</td>
+			<td><em>Le Bounce de permanents</em></td>
+		</tr>
+		<tr>
+			<td>{{ B }}</td>
+			<td><em>La gestion de créatures</em></td>
+		</tr>
+		<tr>
+			<td>{{ R }}</td>
+			<td><em>Les créatures aggressives</em></td>
+		</tr>
+		<tr>
+			<td>{{ G }}</td>
+			<td><em>Les grosses créatures</em></td>
+		</tr>
+	</table>
+	<table class="triple-column">
+		<tr>
+			<td>{{ W }}</td>
+			<td><em>La protection</em></td>
+		</tr>
+		<tr>
+			<td>{{ U }}</td>
+			<td><em>La pioche de cartes</em></td>
+		</tr>
+		<tr>
+			<td>{{ B }}</td>
+			<td><em>Réanimation de créatures</em></td>
+		</tr>
+		<tr>
+			<td>{{ R }}</td>
+			<td><em>Le remplacement de cartes</em></td>
+		</tr>
+		<tr>
+			<td>{{ G }}</td>
+			<td><em>Les tuteurs spécialisés</em></td>
+		</tr>
+	</table>
+</div>
 
 <h2>{{ _("Cartes par fonctionnalité") }}</h2>
 {% trans trimmed %}

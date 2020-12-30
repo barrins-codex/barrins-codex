@@ -402,6 +402,13 @@ div.result-message {
 	vertical-align: top;
 	margin: 0.7em;
 }
+.triple-column {
+	display: inline-block;
+	padding: 0;
+	vertical-align: top;
+	margin: 0.7em;
+	width: 27%;
+}
 .column-image {
 	margin: 0;
 	padding: 0;
@@ -792,6 +799,10 @@ form input[type="submit"] {
 	article div {
 		margin: 1.5em 0;
 		padding: 0.5em 1em;
+	}
+	.triple-column {
+		width: 100%;
+		display: block;
 	}
 }
 .clear {
