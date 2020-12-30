@@ -3,13 +3,13 @@
 
 {% block content %}
 {% trans trimmed
-	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts", "blasts")
+	les_blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs")
 %}
 <h1>Les spot removals</h1>
 <div class="tip">
 	Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des permanents du champ
 	de bataille. Il en existe plusieurs catégories : les <em>spot removals</em> qui permettent de
-	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs. Les {{ blasts }}
+	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs. {{ les_blasts }}
 	font l'objet d'une étude détaillée à part.
 </div>
 {% endtrans %}
@@ -136,7 +136,7 @@ l'adversaire.
 
 {% call layout.card_column("Flame Slash", _("Dégâts à une créature")) %}
 {% trans trimmed
-	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts", "blasts")
+	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégats directs"))
 %}
 Carte jouée en plus des {{ blasts }} car elle ne cible que les créatures. Le montant des dégâts
 infligés en fait un choix très intéressant.

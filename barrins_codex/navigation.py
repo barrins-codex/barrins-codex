@@ -87,7 +87,7 @@ STRUCTURE = Nav(
 					children=[
 						Nav(lazy_gettext("Les Contresorts")),
 						Nav(lazy_gettext("La Défausse")),
-						Nav(lazy_gettext("Les Blasts")),
+						Nav(lazy_gettext("Les Dégâts directs")),
 					],
 				),
 				Nav(

@@ -141,9 +141,11 @@ une carte très appréciée dans l'ensemble des decks qui peuvent la jouer.
 {% endcall %}
 
 {% call layout.card_column("Fire / Ice") %}
-{% trans trimmed %}
+{% trans trimmed
+	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégats directs"))
+%}
 Carte très versatile qui permet, pour un coût décent, de ralentir l'accès au mana de l'adversaire en
-plus de fournir la possibilité d'infliger des dégâts directs.
+plus de fournir la possibilité d'infliger des {{ blasts }}.
 {% endtrans %}
 {% endcall %}
 
@@ -167,7 +169,7 @@ ultimatum est une condition de victoire.
 
 {% call layout.card_column("Sword of Fire and Ice") %}
 {% trans trimmed
-	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-blasts", "blasts")
+	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégats directs"))
 %}
 Équipement recherché par les decks souhaitant esquiver les {{ blasts }} et obtenir la
 possibilité de piocher des cartes sur le long terme.
