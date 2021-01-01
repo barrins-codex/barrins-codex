@@ -11,38 +11,12 @@
 
 {% block archetype %}
 {% trans trimmed
-	brazen_borrower=card("Brazen Borrower"),
-	baleful_strix=card("Baleful Strix"),
-	bonecrusher_giant=card("Bonecrusher Giant"),
-	golos_tireless_pilgrim=card("Golos, Tireless Pilgrim"),
-	hullbreacher=card("Hullbreacher"),
 	kess_dissident_mage=card("Kess, Dissident Mage"),
-	opposition_agent=card("Opposition Agent"),
-	spellskite=card("Spellskite"),
-	snapcaster_mage=card("Snapcaster Mage"),
-	the_gitrog_monster=card("The Gitrog Monster"),
-	thing_in_the_ice=card("Thing in the Ice"),
-	true_name_nemesis=card("True-Name Nemesis"),
-	vendilion_clique=card("Vendilion Clique"),
-
-	abrade=card("Abrade"),
-	brainstorm=card("Brainstorm"),
-	chain_lightning=card("Chain Lightning"),
 	chain_of_smog=card("Chain of Smog"),
-	cling_to_dust=card("Cling to Dust"),
 	collective_brutality=card("Collective Brutality"),
-	cryptic_command=card("Cryptic Command"),
 	counterspell=card("Counterspell"),
-	damnation=card("Damnation"),
-	demonic_tutor=card("Demonic Tutor"),
-	fact_or_fiction=card("Fact or Fiction"),
 	fatal_push=card("Fatal Push"),
-	fiery_confluence=card("Fiery Confluence"),
-	gifts_ungiven=card("Gifts Ungiven"),
-	kolaghans_command=card("Kolaghan's Command"),
 	lightning_bolt=card("Lightning Bolt"),
-	mystic_confluence=card("Mystic Confluence"),
-	petty_theft=card("Petty Theft"),
 	preordain=card("Preordain"),
 	ponder=card("Ponder"),
 	serum_visions=card("Serum Visions"),
@@ -51,43 +25,8 @@
 	tainted_pact=card("Tainted Pact"),
 	thoughtseize=card("Thoughtseize"),
 	toxic_deluge=card("Toxic Deluge"),
-
-	blood_moon=card("Blood Moon"),
-
-	ashiok_dream_render=card("Ashiok, Dream Render"),
-	chandra_torch_of_defiance=card("Chandra, Torch of Defiance"),
-	jace_the_mindsculptor=card("Jace, the Mindsculptor"),
 	jace_wielder_of_mysteries=card("Jace, Wielder of Mysteries"),
-	liliana_of_the_veil=card("Liliana of the Veil"),
-	liliana_the_last_hope=card("Liliana, the Last Hope"),
-	narset_parter_of_veils=card("Narset, Parter of Veils"),
-	ral_storm_conduit=card("Ral, Storm Conduit"),
-
-	azcanta_the_sunken_ruin=card("Azcanta, the Sunken Ruin"),
-	blightstep_pathway=card("Blightstep Pathway"),
-	cabal_coffers=card("Cabal Coffers"),
-	castle_vantress=card("Castle Vantress"),
-	clearwater_pathway=card("Clearwater Pathway"),
-	command_tower=card("Command Tower"),
-	creeping_tar_pit=card("Creeping Tar Pit"),
-	field_of_ruin=card("Field of Ruin"),
-	glacial_chasm=card("Glacial Chasm"),
-	mana_confluence=card("Mana Confluence"),
-	maze_of_ith=card("Maze of Ith"),
-	path_of_ancestry=card("Path of Ancestry"),
-	prismatic_vista=card("Prismatic Vista"),
-	reflecting_pool=card("Reflecting Pool"),
-	riverglide_pathway=card("Riverglide Pathway"),
-	underground_river=card("Underground River"),
-	urborg_tomb_of_yawgmoth=card("Urborg, Tomb of Yawgmoth"),
-	valakut_molten_pinnacle=card("Valakut, the Molten Pinnacle"),
-
-	snow_island=card("Snow-covered Island", _("neigeuse")),
-	nonsnow_island=card("Island", _("non")),
-	island=card("Island", _("Île")),
-	snow_swamp=card("Snow-covered Swamp", _("neigeux")),
-	nonsnow_swamp=card("Swamp", _("non")),
-	swamp=card("Swamp", _("Marais"))
+	ral_storm_conduit=card("Ral, Storm Conduit")
 %}
 <h2>Présentation rapide</h2>
 <p>
@@ -106,6 +45,63 @@
 	de cartes extrêmement puissantes et même doublement puissantes une fois Kess sur la table et,
 	surtout, stabilisée. En effet, les performances de ce deck dépendent de la présence de
 	{{ kess_dissident_mage }} sur le champ de bataille.
+</p>
+
+<h2>Construction du deck</h2>
+<p>
+	Comme n’importe quel deck Contrôle, il est nécessaire de pouvoir jouer ses cartes sans
+	rencontrer de problèmes de mana. Il faut donc pouvoir s’assurer de jouer un terrain par tour en
+	early game avec un objectif de quatre terrains au tour quatre. Il est aussi important que
+	chaque carte jouée ait un impact correct sur l'état de la partie.
+</p>
+<p>
+	Le nombre de terrains ne doit pas descendre en dessous de 38 et ne pas monter au-dessus de 42.
+	En effet, hors de ces bornes, les risques d'absence ou de sur-représentation de terrains dans
+	les premiers tours sont très élevés et cela risque d'endommager le bon déroulé de la majorité
+	des parties.
+</p>
+<p>
+	Conernant les créatures, elles doivent permettre au deck de se développer tout en interagissant
+	avec l'adversaire. Jouer des créatures permet non seulement de temporiser ou de générer du
+	<em>Card Advantage</em> mais aussi de bloquer les créatures adverses et grignoter les points de
+	vie de l’adversaire avant que {{ kess_dissident_mage }} ne vienne finir le travail.
+</p>
+<p>
+	Quoiqu’il en soit, les créatures ne sont pas le cœur du deck et dépasser huit à neuf créatures
+	limite la quantité d'éphémères et de rituels qui sont parfois plus efficaces grâce à leur
+	rejouabilité via {{ kess_dissident_mage }}. C’est pour cette raison qu’il faut également
+	limiter le nombre de planeswalkers.
+</p>
+<p>
+	Ensuite, les planewalkers qui offrent une condition de victoire sont nombreux dans Magic mais
+	peu sont pertinents. Il faut alors se demander quelle est leur valeur ajoutée car les places
+	dans le  deck sont chères. Les arguments en défaveur des arpenteurs sont les mêmes que pour
+	les  créatures : ce sont des rituels qui demandent une certaine quantité de mana, ce qui laisse
+	plus  de possibilité à l'adversaire le tour où ils sont joués.
+</p>
+<p>
+	Enfin, pour maximiser la puissance du deck et pour profiter au maximum de
+	{{ kess_dissident_mage }}, les éphémères et les rituels sont au centre du deck et Grixis
+	apporte la combinaison de couleurs qui fournit le plus de carte dans ces types. Il faut donc
+	trouver un équilibre entre contresorts, moyens de gestion, piocheurs et blasts.
+</p>
+<p>
+	Posséder une ou deux combos dans un deck peut être rassurant pour débloquer certaines
+	situations. Même si elles sont marginales et peu représentées, il en existe deux qui peuvent
+	être viables :
+</p>
+<p>
+	■ {{ jace_wielder_of_mysteries }} + {{ tainted_pact }}<br>
+	{{ tainted_pact }} est une carte jouée dans la plupart des versions de
+	{{ kess_dissident_mage }} mais {{ jace_wielder_of_mysteries }} beaucoup moins.
+	Il est lourd à poser et force l'assemblage de trois sources bleues même s’il peut
+	permettre de bien creuser la bibliothèque.
+</p>
+<p>
+	■ {{ ral_storm_conduit }} + {{ chain_of_smog }}<br>
+	L'impact individuel des deux cartes est très bas et même si {{ chain_of_smog }} peut
+	faire du deux pour un, {{ ral_storm_conduit }} a un coût prohibitif et une capacité de loyauté
+	+1 médiocre.
 </p>
 
 <h2>Jouer avec le deck</h2>
@@ -127,36 +123,34 @@
 	trois ou quatre terrains sont idéales. Seuls des <em>cantrips</em> comme {{ preordain }} et
 	{{ serum_visions }} peuvent faire fléchir cette règle.
 </p>
-<ul>
-	<li>
-		<strong>Aggro</strong> :
-		{{ lightning_bolt }}, {{ fatal_push }}, et une <em>wrath</em> comme {{ toxic_deluge }}
-		sculptent les meilleures mains. Il ne faut surtout pas hésiter à gérer chaque créature de
-		l'adversaire pour lui faire perdre le maximum de pression sur le champ de bataille. Il faut
-		impérativement maintenir un niveau de points de vie suffisamment élevé avant l’arrivée de
-		{{ kess_dissident_mage }} pour garder une marge de manœuvre suffisante qui permettra de
-		tirer le meilleur de Kess.
-	</li>
-	<li>
-		<strong>Contrôle</strong> :
-		des <em>cantrips</em> ({{ ponder}} et consorts), des contres ({{ counterspell }} et
-		assimilés) et de la défausse ({{ thoughtseize}} et autres) sont les armes à privilégier.
-		Une main remplie presque totalement de cartes bleues face à Contrôle n’est pas un souci, au
-		contraire. Les cantrips adverses ne sont pas une menace, les arpenteurs et les tutors, si.
-		Les anti-bêtes sont à recycler sur {{ collective_brutality }} par exemple. Les blasts
-		peuvent être utiles face aux arpenteurs ou pour grignoter les points de vie de l’adversaire
-		et le forcer à prendre une position plus défensive, ce qui le mettra en difficulté.
-	</li>
-	<li>
-		<strong>Combo</strong> :
-		de la discard, de la gestion et des contres sont tout aussi importants. Il faut être
-		capable de répondre à tout moment à l’amorce d’une combo, c’est pourquoi les cartes donnant
-		l’information sur la main adverse sont très importantes. Il est toujours complexe de jouer
-		contre ce type de deck et il sera sûrement nécessaire de laisser passer quelques cartes qui
-		ont un impact correct sur la partie (parfois des créatures, parfois des tutors, parfois des
-		éléments de la combo) pour ne pas être épuisé au moment fatidique.
-	</li>
-</ul>
+<p>
+	<strong>Aggro</strong><br>
+	{{ lightning_bolt }}, {{ fatal_push }}, et une <em>wrath</em> comme {{ toxic_deluge }}
+	sculptent les meilleures mains. Il ne faut surtout pas hésiter à gérer chaque créature de
+	l'adversaire pour lui faire perdre le maximum de pression sur le champ de bataille. Il faut
+	impérativement maintenir un niveau de points de vie suffisamment élevé avant l’arrivée de
+	{{ kess_dissident_mage }} pour garder une marge de manœuvre suffisante qui permettra de tirer
+	le meilleur de Kess.
+</p>
+<p>
+	<strong>Contrôle</strong><br>
+	Des <em>cantrips</em> ({{ ponder}} et consorts), des contres ({{ counterspell }} et assimilés)
+	et de la défausse ({{ thoughtseize}} et autres) sont les armes à privilégier. Une main remplie
+	presque totalement de cartes bleues face à Contrôle n’est pas un souci, au contraire. Les
+	cantrips adverses ne sont pas une menace, les arpenteurs et les tutors, si. Les anti-bêtes sont
+	à recycler sur {{ collective_brutality }} par exemple. Les blasts peuvent être utiles face aux
+	arpenteurs ou pour grignoter les points de vie de l’adversaire et le forcer à prendre une
+	position plus défensive, ce qui le mettra en difficulté.
+</p>
+<p>
+	<strong>Combo</strong><br>
+	De la discard, de la gestion et des contres sont tout aussi importants. Il faut être capable de
+	répondre à tout moment à l’amorce d’une combo, c’est pourquoi les cartes donnant l’information
+	sur la main adverse sont très importantes. Il est toujours complexe de jouer contre ce type de
+	deck et il sera sûrement nécessaire de laisser passer quelques cartes qui ont un impact correct
+	sur la partie (parfois des créatures, parfois des tutors, parfois des éléments de la combo)
+	pour ne pas être épuisé au moment fatidique.
+</p>
 
 <div class="tip">
 	<h3>Anticiper le style de jeu de l'adversaire</h3>
