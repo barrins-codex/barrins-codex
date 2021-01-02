@@ -3,13 +3,12 @@ Changelog
 
 0.3.5 (unreleased)
 ------------------
-
-- Nothing changed yet.
+- Fix article sur le mélange
+- Liste des mécaniques à développer
 
 
 0.3.4 (2020-12-30)
 ------------------
-
 - Ajout Dark Mode Theme
 
 
