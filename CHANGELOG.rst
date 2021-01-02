@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.3.5 (unreleased)
+0.3.5 (2021-01-02)
 ------------------
 - Fix article sur le mélange
 - Liste des mécaniques à développer
