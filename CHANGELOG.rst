@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.3.6 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 0.3.5 (2021-01-02)
 ------------------
 - Fix article sur le mélange
