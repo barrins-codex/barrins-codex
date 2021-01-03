@@ -7,11 +7,21 @@ We worked on his [Codex of the Damned](https://codex-of-the-damned.org/) ([repo]
 The whole structure of this project is derived from his Codex, hence the name as a small tribute.
 
 ## Contributing
-Contributions are welcome. [Pull Requests](https://github.com/Spigushe/barrins-codex/pulls) will be merged if they respect the general style.
-[Issues](https://github.com/Spigushe/barrins-codex/issues) will be dealt with as quickly as possible.
-
+Contributions are welcome.
+- [Pull Requests](https://github.com/Spigushe/barrins-codex/pulls) will be merged if they respect the general style.
+- [Issues](https://github.com/Spigushe/barrins-codex/issues) will be dealt with as quickly as possible.
 This site uses [Flask](https://flask.palletsprojects.com) and [Babel](http://babel.pocoo.org)
 to generate pages dynamically and handle internationalisation.
+
+## Instructions to contributors
+Here are various general guidelines this website is enforcing:
+- Do not talk about yourself
+- Do not talk to the reader
+- Do not engage the reader in the talk
+- Use spaces between the call and the variable for better clarity `{{ some_variable }}`
+- Use mana symbols, they are emojis in the context (currently `{{ W }}`, `{{ U }}`, `{{ B }}`, `{{ R }}`, `{{ G }}`)
+- Use card names variables, they are in the context (example `{{ jace_the_mind_sculptor }}` for `Jace, the Mind Sculptor`)
+- If a card name doesn't compile, you are free to declare the name, it is mandatory for Adventure card and some other
 
 ## Installation
 To install a working developpment version of the site, use `pip`:
