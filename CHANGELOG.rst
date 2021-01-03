@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction des couleurs des decklists "light"
+- Correction de l'espacement des cartes thématiques
 
 
 1.0.1 (2021-01-03)
