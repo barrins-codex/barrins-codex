@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta property="og:title" content="{{ og_title|default('Barrin\'s Codex') }}" />
 	<meta property="og:description"
-		content="{{ og_description|default('Duel Commander strategy resources') }}" />
+		content="{{ og_description|default('Ressources stratégiques pour le Duel Commander') }}" />
 	<meta property="og:image" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')) }}" />
 	<meta property="og:image:url" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')) }}" />
 	{% if og_image_dimensions %}
@@ -17,7 +17,7 @@
 	{% if og_image_secure %}
 	<meta property="og:image:secure_url" content="{{ og_image_secure }}" />
 	{% endif %}
-	<meta name="description" content="Duel Commander strategy resources">
+	<meta name="description" content="Ressources stratégiques pour le Duel Commander">
 	<meta name="keywords" content="Magic: the Gathering, MtG, Duel Commander, Commander, Duel, EDH">
 	{% block meta %}{% endblock %}
 	<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">

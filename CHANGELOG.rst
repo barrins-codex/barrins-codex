@@ -4,7 +4,7 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix og_description
 
 
 1.0.0 (2021-01-03)
