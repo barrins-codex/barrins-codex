@@ -2,10 +2,10 @@
 
 {% block section %}
 {% trans trimmed
-	img_macrotype_a='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_a.svg'))|safe,
-	img_macrotype_b='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_b.svg'))|safe,
-	img_macrotype_c='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_c.svg'))|safe,
-	img_macrotype_d='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/macrotype_d.svg'))|safe,
+	img_macrotype_a='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_a.svg'))|safe,
+	img_macrotype_b='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_b.svg'))|safe,
+	img_macrotype_c='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_c.svg'))|safe,
+	img_macrotype_d='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_d.svg'))|safe,
 
 	aggro_controle_and_combo=external("https://magic.wizards.com/en/articles/archive/magic-academy/aggro-combo-and-control-2007-01-27", "Aggro, Contrôle and Combo"),
 	ah_yes_very_standard=external("https://magic.wizards.com/en/articles/archive/latest-developments/ah-yes-very-standard-2012-08-10", "Ah Yes. Very Standard."),
@@ -292,4 +292,8 @@
 	{{ the_guide_to_macro_archetypes }}.
 </p>
 {% endtrans %}
+{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/svg_handler.js') }}"></script>
 {% endblock %}
