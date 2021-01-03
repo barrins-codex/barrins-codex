@@ -2,8 +2,6 @@ document.querySelectorAll('img.svg').forEach(function(img){
 	var imgID = img.id;
 	var imgClass = img.className;
 	var imgURL = img.src;
-	var img_width = img.offsetWidth;
-	var img_height = img.offsetHeight;
 
 	fetch(imgURL).then(function(response) {
 		return response.text();
@@ -24,9 +22,10 @@ document.querySelectorAll('img.svg').forEach(function(img){
 		// Remove any invalid XML tags as per http://validator.w3.org
 		svg.removeAttribute('xmlns:a');
 		// Check if the viewport is set, if the viewport is not set the SVG wont't scale.
+		img_width = (img.parentNode.className === "site-logo") ? 250 : 550;
 		svg.setAttribute('viewBox', '0 0 ' + svg.getAttribute('height') + ' ' + svg.getAttribute('width'));
-		svg.setAttribute("height", 550*svg.getAttribute('height')/svg.getAttribute('width'));
-		svg.setAttribute("width", 550);
+		svg.setAttribute("height", img_width*svg.getAttribute('height')/svg.getAttribute('width'));
+		svg.setAttribute("width", img_width);
 		svg.setAttribute("preserveAspectRatio", "xMidYMid meet")
 		// Replace image with new SVG
 		img.parentNode.replaceChild(svg, img);
