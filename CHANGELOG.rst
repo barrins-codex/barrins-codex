@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.2 (unreleased)
+1.1.0 (2021-01-04)
 ------------------
 
 - Correction des couleurs des decklists "light"
