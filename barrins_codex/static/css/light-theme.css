@@ -84,7 +84,10 @@ tr.selected {
 	color: var(--dark-color);
 }
 .decklist p {
-	color: var(--brown-color);
+	color: var(--dark-color);
+}
+.decklist .card {
+	color: var(--blue-color);
 }
 .decklist .card:hover,
 .decklist .card:focus {
