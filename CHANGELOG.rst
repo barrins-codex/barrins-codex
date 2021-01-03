@@ -1,10 +1,12 @@
 Changelog
 =========
 
-0.3.9 (unreleased)
+0.3.9 (2021-01-03)
 ------------------
 
-- Nothing changed yet.
+- Correction des couleurs "light"
+- Création des pages "Mécaniques"
+- Ajout d'un encart pour les pages en construction
 
 
 0.3.8 (2021-01-03)
