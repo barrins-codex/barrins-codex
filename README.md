@@ -63,3 +63,16 @@ There are some utils provided in the codex:
 cd ./barrins_codex
 python ./build_deck.py PATH_TO_FILE
 ```
+
+## Versioning
+The version number take the form X.Y.Z where X, Y, and Z are non-negative integers, and do not
+contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version.
+Each element MUST increase numerically. For instance: `1.9.0` -> `1.10.0` -> `1.11.0`.
+
+Given a version number MAJOR.MINOR.PATCH, I increment the:
+1. MAJOR version when I make changes like visual design and such that redefine the whole website,
+1. MINOR version when I add a section or a page, and
+1. PATCH version when I make bug fixes.
+
+Additional labels for pre-release and build metadata are available as extensions to the
+MAJOR.MINOR.PATCH format.
