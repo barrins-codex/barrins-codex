@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.3.8 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 0.3.7 (2021-01-03)
 ------------------
 - Gestion des fichiers SVG via CSS+JS
