@@ -1,0 +1,91 @@
+:root {
+	--tip-background: #8d7e76;
+	--tip-border: #92817a;
+
+	--author-background: #838383;
+	--author-border: #6B6B6B;
+}
+
+.btn-toggle {
+	background: url("/static/img/icons/sun.svg");
+	background-size: 16px 16px;
+}
+
+body {
+	color: var(--light-color);
+	background-color: var(--dark-color);
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5 {
+	color: var(--orange-color);
+}
+
+a {
+	color: var(--light-color);
+}
+a:hover,
+a:focus {
+	color: var(--brown-color);
+	border-color: var(--brown-color);
+}
+
+tr:hover,
+tr.selected {
+	background-color: var(--blue-color) !important;
+}
+
+.card {
+	color: var(--orange-color);
+}
+
+.tip {
+	background: var(--tip-background);
+	color: var(--light-color);
+	border: 1px solid var(--tip-border);
+}
+.tip h3 {
+	color: var(--dark-color);
+}
+.tip h3::before {
+	color: var(--dark-color);
+}
+
+.warning {
+	background: var(--warning-dark);
+	border: 1px solid var(--warning-light);
+	color: var(--light-color);
+}
+.warning h3 {
+	color: var(--warning-light);
+}
+.warning h3::before {
+	color: var(--warning-light);
+}
+
+.decklist {
+	background-color: var(--decklist-dark);
+	color: var(--light-color);
+}
+.decklist p {
+	color: var(--grey-color);
+}
+.decklist .card:hover,
+.decklist .card:focus {
+	color: var(--brown-color);
+}
+.decklist .card {
+	color: var(--light-color);
+}
+
+.author {
+	background: var(--author-background);
+	border: 1px solid var(--author-border);
+}
+
+body img {
+	filter: brightness(.8) contrast(1.2);
+}

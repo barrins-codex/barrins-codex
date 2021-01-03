@@ -1,3 +1,27 @@
+:root {
+	--light-color: #e3e7e9;
+	--dark-color: #222831;
+
+	--brown-color: #8d8176;
+	--orange-color: #f2a365;
+	--blue-color: #30475e;
+	--grey-color: #444444;
+	--green-color: #306d44;
+
+	--warning-light: #fceeec;
+	--warning-dark: #4e332a;
+
+	--decklist-light: #e7fad7;
+	--decklist-dark: #556052;
+}
+
+.btn-toggle {
+	display: block;
+	text-indent: -9999px;
+	width: 16px;
+	height: 16px;
+}
+
 @font-face {
 	font-family: "FontAwesome";
 	font-weight: 900;
@@ -16,26 +40,19 @@
 		url("/static/fonts/fa-brands-400.woff2") format("woff2"),
 		url("/static/fonts/fa-brands-400.eot") format("embedded-opentype");
 }
+
 body {
 	font-family: "Times New Roman", Times, serif;
-	color: #000000;
-	background-color: #fffdf5;
 	margin: 1em;
 	-webkit-font-smoothing: antialiased;
 }
 a {
 	background-color: transparent;
-	color: #000000;
 	cursor: pointer;
 }
 header a,
 footer a {
 	text-decoration: none;
-}
-a:hover,
-a:focus {
-	color: #007acc;
-	border-color: #007acc;
 }
 header,
 footer {
@@ -126,11 +143,6 @@ h2 > img {
 	font-size: 2em;
 	text-align: center;
 }
-.modal-nav:hover,
-.modal-nav:focus {
-	color: #007acc;
-	cursor: pointer;
-}
 h3 {
 	font-size: 1.2rem;
 	margin-top: 0.8em;
@@ -210,10 +222,6 @@ article > img {
 	max-width: 700px;
 	margin: 0 auto;
 }
-i {
-	font-family: "Ankha VTES";
-	font-style: normal;
-}
 p {
 	max-width: 700px;
 	margin: 0.5em;
@@ -255,107 +263,12 @@ td > img {
 table {
 	border-collapse: collapse;
 }
-div.results {
-	max-height: 15em;
-	overflow: auto;
-	border: 0;
-	padding: 0;
-	border-radius: 0;
-	margin: 1em 0;
-}
 td {
 	text-align: left;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
 	border: none;
-}
-input {
-	padding: 0.5em;
-	font-size: 1em;
-	margin: 0;
-	width: 100%;
-}
-tr.results:nth-child(even) {
-	background-color: #eceae2;
-}
-tr:hover,
-tr.selected {
-	background-color: #bdbab0 !important;
-}
-td.results {
-	padding: 0.5em;
-}
-div.comments {
-	padding: 0;
-	margin: 0;
-	border: 0;
-	border-radius: 0;
-	clear: none;
-}
-div.result-message {
-	border: 0;
-	padding: 0;
-	margin: 1em 0;
-}
-.clear-search-btn {
-	width: 10%;
-	margin: 0;
-	padding: 0;
-	display: none;
-}
-.multi-card-search {
-	width: 100%;
-	margin: 0.5em 0;
-	padding: 0;
-}
-.multi-card-search-card {
-	border-radius: 0.5em;
-	background: #fcf4ec;
-	border: 1px solid rgb(220, 140, 70);
-	display: inline-block;
-	cursor: pointer;
-	padding: 0.5em;
-	margin: 0.5em 0.5em 0 0;
-}
-.multi-card-search-card::after {
-	font-family: "FontAwesome";
-	font-weight: 900;
-	content: "\f00d";
-	font-size: 1em;
-	margin-left: 0.5em;
-	color: #582110;
-}
-.autocomplete {
-	width: 50%;
-	margin: 0;
-	padding: 0;
-}
-.autocomplete-items {
-	border: 1px solid #d4d4d4;
-	z-index: 99;
-	margin: 0;
-	border: none;
-	border-radius: 0;
-	padding: 0;
-	width: 100%;
-	max-height: 15em;
-	overflow: scroll;
-	text-align: left;
-}
-.autocomplete-items div {
-	border-radius: 0;
-	margin: 0;
-	padding: 0.5em;
-	cursor: pointer;
-	background-color: #fff;
-	border-bottom: 1px solid #d4d4d4;
-}
-.autocomplete-items div:hover {
-	background-color: #e9e9e9;
-}
-.autocomplete-active {
-	background-color: #e9e9e9 !important;
 }
 .article-columns {
 	max-width: 1200px;
@@ -378,8 +291,7 @@ div.result-message {
 	font-family: "FontAwesome Brand";
 }
 .card {
-	font-style: italic;
-	text-decoration: underline;
+	text-decoration: none;
 	cursor: pointer;
 }
 .align-left {
@@ -418,13 +330,8 @@ div.result-message {
 	width: 80%;
 }
 .tip {
-	background: #fcf4ec;
-	border: 1px solid rgb(220, 140, 70);
 	max-width: 700px;
 	clear: both;
-}
-.tip h3 {
-	color: #583410;
 }
 .tip h3::before {
 	font-family: "FontAwesome";
@@ -432,15 +339,9 @@ div.result-message {
 	content: "\f0eb";
 	font-size: 1.5em;
 	margin-right: 0.5em;
-	color: #583410;
 }
 .warning {
-	background: #fceeec;
-	border: 1px solid rgb(220, 105, 70);
 	clear: both;
-}
-.warning h3 {
-	color: #582110;
 }
 .warning h3::before {
 	font-family: "FontAwesome";
@@ -448,11 +349,8 @@ div.result-message {
 	content: "\f071";
 	font-size: 1.5em;
 	margin-right: 0.5em;
-	color: #582110;
 }
 .author {
-	background: #ecf7fc;
-	border: 1px solid rgb(70, 185, 220);
 	max-width: 700px;
 	clear: both;
 	vertical-align: middle;
@@ -466,176 +364,11 @@ div.result-message {
 .author > p {
 	font-style: italic;
 }
-.game {
-	background: #e7fad7;
-	border: 1px solid rgb(118, 220, 70);
-	max-width: 700px;
-	clear: both;
-}
-.game h3::before {
-	font-family: "FontAwesome";
-	font-weight: 900;
-	content: "\f1ea";
-	font-size: 1.5em;
-	margin-right: 0.5em;
-	color: #335810;
-}
-.game-diagram {
-	/* background:  #bbd6a4; */
-	background: url("/static/img/background.jpg");
-	background-size: cover;
-	border-radius: 0.5em;
-	padding: 0.2em;
-	margin: 1em 0;
-	color: white;
-}
-.game-diagram .svg-icon {
-	filter: invert(100%)
-}
-.game-diagram-row {
-	border: 0.5em;
-	padding: 0;
-	margin: 1em;
-	margin-bottom: 4em;
-	display: flex;
-}
-.game-diagram-row h4 {
-	display: block;
-}
-.game-diagram-opponent-left,
-.game-diagram-opponent-right {
-	padding: 0;
-	margin: 0;
-	display: inline-block;
-}
-.game-diagram-opponent-left{
-	text-align: left;
-	margin-right: auto;
-}
-.game-diagram-opponent-right {
-	text-align: right;
-	margin-left: auto;
-}
-.game-cards {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	display: block;
-}
-.game-image {
-	margin:0 0.5em;
-	padding:0;
-	max-width: 70px;
-	height: auto;
-	display: inline-block;
-	position: relative;
-}
-.attached-1 {
-	margin:0;
-	padding:0;
-	position: absolute;
-	width: 100%;
-	height: auto;
-	top: -1em;
-	left: 1em;
-}
-.attached-2 {
-	margin:0;
-	padding:0;
-	position: absolute;
-	width: 100%;
-	height: auto;
-	top: -1.5em;
-	left: 1.5em;
-}
-.attached-3{
-	margin:0;
-	padding:0;
-	position: absolute;
-	width: 100%;
-	height: auto;
-	top: -2em;
-	left: 2em;
-}
-.attached-4{
-	margin:0;
-	padding:0;
-	position: absolute;
-	width: 100%;
-	height: auto;
-	top: -2.5em;
-	left: 2.5em;
-}
-.game-image img {
-	object-fit: contain;
-	width: 100%;
-	height: auto;
-}
-.locked img {
-	transform: rotate(90deg);
-}
-.unlocked img {
-	transform: rotate(0deg);
-}
-.blood {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgb(209, 35, 35);
-	border: 2px solid white;
-	border-radius: 1em;
-	color: white;
-	font-weight: bold;
-	padding: 1px 6px;
-	margin: 0;
-	text-align: center;
-	vertical-align: middle;
-}
-form {
-	margin: 1em 0;
-	text-align: left;
-}
-form input {
-	display: block;
-	margin: 0.5em 1em 0 0;
-	padding: 0.3em;
-}
-form input[type="submit"] {
-	text-align: left;
-	display: inline-block;
-	width: fit-content;
-	margin: 0.5em 1em 0 0;
-	padding: 1em;
-}
-.inline-form {
-	margin: 1em 0 0 0;
-	text-align: left;
-}
-.inline-form legend {
-	margin: 1em 0 0.5em 0;
-	font-weight: bold;
-}
-.inline-form input {
-	display: inline-block;
-	width: 2em;
-}
-.inline-form label {
-	display: inline-block;
-	text-align: left;
-	margin: 0;
-}
-.inline-form output {
-	display: inline-block;
-	text-align: right;
-	font-weight: bold;
-}
 .decklist {
 	float: left;
 	padding: 0.5em;
 	padding-left: 1em;
 	margin: 0 1.5em 1.5em 0;
-	background-color: #e7fad7;
 }
 .decklist h2 {
 	font-size: 1.5rem;
@@ -655,7 +388,6 @@ form input[type="submit"] {
 .decklist p {
 	font-size: 0.8em;
 	font-style: italic;
-	color: #444;
 }
 .decklist ul {
 	list-style: none;
@@ -667,10 +399,6 @@ form input[type="submit"] {
 	font-style: normal;
 	text-decoration: none;
 	cursor: pointer;
-}
-.decklist .card:hover,
-.decklist .card:focus {
-	color: #306d44;
 }
 .card-results {
 	padding: 0;
@@ -695,48 +423,12 @@ form input[type="submit"] {
 	outline: 0;
 	width: 300px;
 }
-.result-text {
-	clear: none;
-}
-.result-rulings {
-	margin: 0;
-	padding: 0;
-}
-.rulings-list {
-	list-style: decimal;
-	padding: 0;
-}
-.rulings-list a {
-	text-decoration: none;
-	font-size: 0.8em;
-}
-.rulings-list li {
-	margin: 0.5em;
-}
 .code {
 	font-family: "Courier New", Courier, monospace;
 	font-size: small;
 	font-weight: 500;
 }
-.sponsor {
-	text-align: left;
-	margin: 2em 0;
-	padding: 0;
-}
-.sponsor a {
-	text-decoration: none;
-	border: 1px;
-	border-radius: 0.5em;
-	border-color: #000000;
-	border-style: solid;
-	padding: 0.5em;
-	margin: 0;
-}
-.sponsor a:hover,
-.sponsor a:focus {
-	color: #007acc;
-	border-color: #007acc;
-}
+
 @media only screen and (max-width: 750px) {
 	header,
 	footer {

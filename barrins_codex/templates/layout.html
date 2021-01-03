@@ -24,9 +24,7 @@
 	<link rel="icon" href="{{ url_for('static', filename='img/icons/codex.svg') }}">
 	<!-- Style Sheets -->
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
-	<!-- Dark Mode -->
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/nightmode.css') }}"
-		 media="(prefers-color-scheme: dark)" >
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/light-theme.css') }}" id="theme-link">
 	<!-- Card display -->
 	<script src="{{ url_for('static', filename='js/dC.js') }}"></script>
 	{% block scripts %}{% endblock %}
@@ -46,6 +44,9 @@
 				<li>{{ link('/articles') }}</li>
 				<li>{{ link('/cartes-thematiques') }}</li>
 			</ul>
+		</nav>
+		<nav role="theme-switch">
+			<div class="btn-toggle">Toggle Dark-Mode</div>
 		</nav>
 		<!--
 		<nav role="translation">
@@ -83,6 +84,25 @@
 	</footer>
 </body>
 {% block script %}{% endblock %}
+<script>
+	const btn = document.querySelector(".btn-toggle");
+	const theme = document.querySelector("#theme-link");
+
+	if (localStorage.getItem("theme") == "dark") {
+		theme.href = "{{ url_for('static', filename='css/dark-theme.css') }}";
+	}
+
+	btn.addEventListener("click", function() {
+		// Swap out the URL for the different stylesheets
+		if (localStorage.getItem("theme") == "light") {
+			theme.href = "{{ url_for('static', filename='css/dark-theme.css') }}";
+			localStorage.setItem("theme", "dark");
+		} else {
+			theme.href = "{{ url_for('static', filename='css/light-theme.css') }}";
+			localStorage.setItem("theme", "light");
+		}
+	});
+</script>
 {% block style %}{% endblock %}
 
 </html>

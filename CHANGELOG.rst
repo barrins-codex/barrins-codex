@@ -3,8 +3,7 @@ Changelog
 
 0.3.6 (unreleased)
 ------------------
-
-- Nothing changed yet.
+- Support complet du dark mode
 
 
 0.3.5 (2021-01-02)
