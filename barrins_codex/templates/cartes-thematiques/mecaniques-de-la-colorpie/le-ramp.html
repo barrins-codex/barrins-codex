@@ -2,8 +2,57 @@
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
 {% block content %}
-{% trans trimmed %}
+{% trans trimmed
+	grosses_creatures=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", _("des grosses créatures")),
+	cailloux="les <em>%(str)s</em>"|format(str="cailloux")|safe
+%}
 <h1>{{ G }}Le ramp</h1>
+<p>
+	Le <em>Ramp</em> est une mécanique qui correspond à obtenir une source de mana additionnelle et
+	réutilisable en plus du terrain habituel. Cette mécanique tire son nom de {{ rampant_growth }},
+	{{ llanowar_elves }} est un autre exemple connu. Un deck utilisant cette mécanique joue souvent
+	{{ grosses_creatures }}.
+</p>
+<p>
+	Les sorts de ramp sont habituellement des rituels. Parmi les cartes jouées se trouvent
+	{{ farseek }}, {{ into_the_north }}, {{ natures_lore }}, {{ rampant_growth }} et
+	{{ three_visits }} à deux manas et {{ cultivate }}, {{ kodamas_reach }} et
+	{{ search_for_tomorrow }} à trois manas.
+</p>
+<p>
+	En plus de ces sorts, il arrive de voir {{ exploration }} et {{ explore }} qui modifient le
+	nombre de terrains qu'il est possible de jouer à chaque tour, aussi appelé <em>land drop</em>.
+	{{ restore }} est également considérée comme une carte de ramp.
+</p>
+<p>
+	Il existe également des cartes qui permettent de mettre des terrains en main. Les cartes les
+	plus fréquentes sont {{ expedition_map }}, {{ land_grant }}, {{ safewright_quest }},
+	{{ sylvan_scrying }}, {{ tithe }} et {{ traverse_the_ulvenwald }}. Ces cartes sont jouées quand
+	il est nécessaire de réunir plusieurs terrains pour quand le nombre de terrains dans le deck
+	est relativement bas.
+</p>
+<p>
+	Enfin, {{ cailloux }} permettent également de ramper. Ils sont disponibles dans presque toutes
+	les combinaisons de couleurs. Jouer des cailloux permet d'accentuer sur des stratégies qui ne
+	peuvent pas être développées avec les sorts de ramp présentés ici.
+</p>
+<div class="tip">
+	<h3>Jouer ramp ne se résume pas à {{ grosses_creatures }} </h3>
+	<p>
+		Les principaux decks utilisant cette mécanique sont des jeux qui ont besoin de cartes pour
+		accéder à un plan de jeu <em>unfair</em>. Cela peut être {{ grosses_creatures }} comme cela
+		peut être un plan de jeu Combo avec {{ maelstrom_wanderer }},
+		{{ titania_protector_of_argoth }} ou {{ the_gitrog_monster }}.
+	</p>
+	<p>
+		Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style de ramp recherché.
+		Par exemple, {{ the_gitrog_monster }} cherchera en priorité à jouer des sorts mettant les
+		terrains en jeu dégagés puis à augmenter le nombre de land drops.
+	</p>
+	<p>
+		Sans raison particulière, les sorts de ramp se révèleront être de mauvaises pioches en fin
+		de partie. Sans objectif à accomplir, ces cartes sont assez mauvaises dans un deck.
+	</p>
+</div>
 {% endtrans %}
-{{ layout.wip() }}
 {% endblock %}

@@ -10,6 +10,7 @@ The whole structure of this project is derived from his Codex, hence the name as
 Contributions are welcome.
 - [Pull Requests](https://github.com/Spigushe/barrins-codex/pulls) will be merged if they respect the general style.
 - [Issues](https://github.com/Spigushe/barrins-codex/issues) will be dealt with as quickly as possible.
+
 This site uses [Flask](https://flask.palletsprojects.com) and [Babel](http://babel.pocoo.org)
 to generate pages dynamically and handle internationalisation.
 
