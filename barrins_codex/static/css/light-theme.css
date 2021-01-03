@@ -15,6 +15,14 @@ svg path {
 	fill: var(--dark-color) !important;
 	stroke: none;
 }
+.site-logo svg path {
+	fill: var(--dark-color) !important;
+	stroke: var(--light-color) !important;
+}
+.site-logo:hover svg path {
+	fill: var(--orange-color) !important;
+	stroke: var(--light-color) !important;
+}
 
 body {
 	color: var(--dark-color);
