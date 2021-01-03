@@ -1,10 +1,10 @@
 Changelog
 =========
 
-1.0.0 (unreleased)
+1.0.0 (2021-01-03)
 ------------------
 
-- Nothing changed yet.
+- Site en beta
 
 
 0.3.9 (2021-01-03)
