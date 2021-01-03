@@ -1,16 +1,7 @@
 {% extends "layout.html" %}
 
 {% block content %}
-{% trans trimmed
-	collective_brutality=card("Collective Brutality"),
-	duress=card("Duress"),
-	hymn_to_tourach=card("Hymn to Tourach"),
-	gitaxian_probe=card("Gitaxian Probe"),
-	inquisition_of_kozilek=card("Inquisition of Kozilek"),
-	mind_twist=card("Mind Twist"),
-	peek=card("Peek"),
-	thoughtseize=card("Thoughtseize")
-%}
+{% trans trimmed %}
 <h1>{{ B }} La défausse</h1>
 <p>
 	Prendre l’information sur la main de l'adversaire permet de donner une lisibilité sur ce qui va
@@ -46,7 +37,7 @@
 	</p>
 	<p>
 		Jouer un sort de défausse dans les premiers tours doit permettre de garantir un avantage
-		stratégique déterminant. Si ce deck est uniquement lancé « pour dépenser du mana », cela ne
+		stratégique déterminant. Si ce sort est uniquement lancé « pour dépenser du mana », cela ne
 		vaut pas le coût et le garder pour plus tard sera sûrement plus rentable.
 	</p>
 </div>

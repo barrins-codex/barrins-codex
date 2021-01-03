@@ -160,6 +160,15 @@ def linker():
 	)
 
 
+# reecriture en variables
+def _var_name(name):
+	name = unidecode.unidecode(name).lower()
+	name = re.sub(r"'", "", name)
+	name = re.sub(r",", "", name)
+	name = re.sub(r"[^a-zA-Z0-9]", "_", name)
+	return name
+
+
 def _name(name):
 	name = unidecode.unidecode(name).lower()
 	name = re.sub(r"[^a-zA-Z0-9]", "", name)
@@ -180,9 +189,6 @@ def display_card():
 		# Build file === prod
 		from . import build_library
 		cartes = build_library.build()
-
-	for carte in cartes:
-		library[list(carte)[0]] = carte[list(carte)[0]]
 
 	def card(name, display_name=None):
 		return flask.Markup(
@@ -211,5 +217,11 @@ def display_card():
 				is_hover=(if_hover or ""),
 			)
 		)
+
+	for carte in cartes:
+		# Enabling card names checks
+		library[list(carte)[0]] = carte[list(carte)[0]]
+		# Adding card to context
+		BASE_CONTEXT[_var_name(library[list(carte)[0]]['name'])] = card(library[list(carte)[0]]['name'])
 
 	return dict(card=card, card_image=card_image)
