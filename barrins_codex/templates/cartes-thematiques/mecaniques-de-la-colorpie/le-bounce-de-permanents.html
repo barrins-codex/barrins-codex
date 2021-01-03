@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% import "cartes-thematiques/_layout_wip.html" as layout with context %}
+
+{% block content %}
+{% trans trimmed %}
+<h1>{{ U }}Le bounce de permanents</h1>
+{% endtrans %}
+{{ layout.wip() }}
+{% endblock %}

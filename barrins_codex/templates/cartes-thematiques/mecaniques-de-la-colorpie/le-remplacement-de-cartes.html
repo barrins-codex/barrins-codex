@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% import "cartes-thematiques/_layout_wip.html" as layout with context %}
+
+{% block content %}
+{% trans trimmed %}
+<h1>{{ R }}Le remplacement de cartes</h1>
+{% endtrans %}
+{{ layout.wip() }}
+{% endblock %}
