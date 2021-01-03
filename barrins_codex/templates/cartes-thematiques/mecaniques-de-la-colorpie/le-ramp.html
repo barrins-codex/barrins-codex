@@ -4,6 +4,7 @@
 {% block content %}
 {% trans trimmed
 	grosses_creatures=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", _("des grosses créatures")),
+	mana_dork=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks", _("les mana dorks")),
 	cailloux="les <em>%(str)s</em>"|format(str="cailloux")|safe
 %}
 <h1>{{ G }}Le ramp</h1>
@@ -25,11 +26,15 @@
 	{{ restore }} est également considérée comme une carte de ramp.
 </p>
 <p>
-	Il existe également des cartes qui permettent de mettre des terrains en main. Les cartes les
-	plus fréquentes sont {{ expedition_map }}, {{ land_grant }}, {{ safewright_quest }},
-	{{ sylvan_scrying }}, {{ tithe }} et {{ traverse_the_ulvenwald }}. Ces cartes sont jouées quand
-	il est nécessaire de réunir plusieurs terrains pour quand le nombre de terrains dans le deck
-	est relativement bas.
+	Il existe également des cartes qui permettent de mettre des terrains en main. Ce ne sont pas
+	des cartes de ramp. Les plus fréquentes sont {{ expedition_map }}, {{ land_grant }},
+	{{ safewright_quest }}, {{ sylvan_scrying }}, {{ tithe }} et {{ traverse_the_ulvenwald }}. Ces
+	cartes sont jouées quand il est nécessaire de réunir plusieurs terrains lorsque le nombre de
+	terrains dans le deck est relativement bas.
+</p>
+<p>
+	Une étude détaillée sur {{ mana_dork }} dont {{ llanowar_elves }} fait partie est disponible
+	dans une autre page de cette section.
 </p>
 <p>
 	Enfin, {{ cailloux }} permettent également de ramper. Ils sont disponibles dans presque toutes
@@ -45,9 +50,12 @@
 		{{ titania_protector_of_argoth }} ou {{ the_gitrog_monster }}.
 	</p>
 	<p>
-		Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style de ramp recherché.
-		Par exemple, {{ the_gitrog_monster }} cherchera en priorité à jouer des sorts mettant les
-		terrains en jeu dégagés puis à augmenter le nombre de land drops.
+		Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style recherché.
+		Par exemple, {{ the_gitrog_monster }} cherche en priorité à jouer des sorts mettant les
+		terrains en jeu dégagés puis à augmenter le nombre de land drops. L'approche de
+		{{ maelstrom_wanderer }} est différente : ce qui est recherché est l'augmentation du nombre
+		de terrains en jeu ; cela se traduit par jouer en priorité les sorts présentés dans le
+		deuxième paragraphe.
 	</p>
 	<p>
 		Sans raison particulière, les sorts de ramp se révèleront être de mauvaises pioches en fin

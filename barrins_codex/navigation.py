@@ -98,8 +98,8 @@ STRUCTURE = Nav(
 						Nav(lazy_gettext("Les Créatures agressives")),
 						Nav(lazy_gettext("Le Remplacement de cartes")),
 						Nav(lazy_gettext("Le Ramp")),
+						Nav(lazy_gettext("Les Mana dorks")),
 						Nav(lazy_gettext("Les Grosses créatures")),
-						Nav(lazy_gettext("La Recherche de créatures")),
 					],
 				),
 				Nav(
