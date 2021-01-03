@@ -6,6 +6,8 @@ Changelog
 
 - Correction des couleurs des decklists "light"
 - Correction de l'espacement des cartes thématiques
+- Rédaction de la page de ramp
+- Changement de l'entrée "la recherche de créatures" par "les mana dorks"
 
 
 1.0.1 (2021-01-03)
