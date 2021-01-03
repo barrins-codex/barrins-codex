@@ -1,9 +1,9 @@
 :root {
-	--tip-background: #fcf4ec;
-	--tip-border: rgb(220, 140, 70);
+	--tip-background: #F7E3D1;
+	--tip-border: #DC8C46;
 
-	--author-background: #ecf7fc;
-	--author-border: rgb(70, 185, 220);
+	--author-background: #D1EEF7;
+	--author-border: #46B9DC;
 }
 
 .btn-toggle {
