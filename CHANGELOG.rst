@@ -1,10 +1,10 @@
 Changelog
 =========
 
-0.3.8 (unreleased)
+0.3.8 (2021-01-03)
 ------------------
 
-- Nothing changed yet.
+- Correction de l'affichage du logo
 
 
 0.3.7 (2021-01-03)
