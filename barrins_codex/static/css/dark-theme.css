@@ -62,7 +62,10 @@ tr.selected {
 	border: 1px solid var(--tip-border);
 }
 .tip h3 {
-	color: var(--dark-color);
+	color: var(--dark-color) !important;
+}
+.tip h3 a {
+	color: var(--dark-color) !important;
 }
 .tip h3::before {
 	color: var(--dark-color);
@@ -74,7 +77,10 @@ tr.selected {
 	color: var(--light-color);
 }
 .warning h3 {
-	color: var(--warning-light);
+	color: var(--warning-light) !important;
+}
+.warning h3 a {
+	color: var(--warning-light) !important;
 }
 .warning h3::before {
 	color: var(--warning-light);
