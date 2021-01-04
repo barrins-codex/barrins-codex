@@ -7,6 +7,7 @@ Changelog
 - Ajout d'un paragraphe sur les enchants à mana dans ramp
 - Ajout d'un paragraphe sur les enchants à mana dans dorks
 - Retrait du tip dans l'analyse de Kess
+- Ajout d'une balise `<meta name="robots" content="all">` pour le data crawling
 
 
 1.2.1 (2021-01-04)
