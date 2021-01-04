@@ -1,10 +1,10 @@
 Changelog
 =========
 
-1.2.0 (unreleased)
+1.2.0 (2021-01-04)
 ------------------
 
-- Nothing changed yet.
+- Ajout outil analytique
 
 
 1.1.1 (2021-01-04)
