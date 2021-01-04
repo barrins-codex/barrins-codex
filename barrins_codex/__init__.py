@@ -181,6 +181,16 @@ def scryfall_id(name):
 
 @app.context_processor
 def display_card():
+	def card(name, display_name=None):
+		return flask.Markup(
+			"""<span class="card" onclick="dC('{scryfallId}')" onmouseover="hC('{scryfallId}')" onmouseout="oC()">{name}</span>""".format(
+				# replace spaces with non-breakable spaces in card names
+				name=(display_name or name).replace(" ", " "),
+				scryfallId=scryfall_id(name),
+			)
+		)
+
+
 	# Base de données des cartes
 	if (os.path.isfile("barrins_codex/library.json.gz")):
 		# File exists === dev
@@ -190,14 +200,12 @@ def display_card():
 		from . import build_library
 		cartes = build_library.build()
 
-	def card(name, display_name=None):
-		return flask.Markup(
-			"""<span class="card" onclick="dC('{scryfallId}')" onmouseover="hC('{scryfallId}')" onmouseout="oC()">{name}</span>""".format(
-				# replace spaces with non-breakable spaces in card names
-				name=(display_name or name).replace(" ", " "),
-				scryfallId=scryfall_id(name),
-			)
-		)
+	for carte in cartes:
+		# Enabling card names checks
+		library[list(carte)[0]] = carte[list(carte)[0]]
+		# Adding card to context
+		BASE_CONTEXT[_var_name(library[list(carte)[0]]['name'])] = card(library[list(carte)[0]]['name'])
+
 
 	def card_image(name, hover=True, version="small"):
 		if_hover = ""
@@ -217,11 +225,5 @@ def display_card():
 				is_hover=(if_hover or ""),
 			)
 		)
-
-	for carte in cartes:
-		# Enabling card names checks
-		library[list(carte)[0]] = carte[list(carte)[0]]
-		# Adding card to context
-		BASE_CONTEXT[_var_name(library[list(carte)[0]]['name'])] = card(library[list(carte)[0]]['name'])
 
 	return dict(card=card, card_image=card_image)
