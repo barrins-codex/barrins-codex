@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'un paragraphe sur les enchants à mana
+- Retrait du tip dans l'analyse de Kess
 
 
 1.2.1 (2021-01-04)
