@@ -2,8 +2,53 @@
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
 {% block content %}
-{% trans trimmed %}
+{% trans trimmed
+	mana_dork=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks", _("mana dorks")),
+	reanimation=link("/cartes-thematiques/mecaniques-de-la-colorpie/la-reanimation-de-creatures", _("réanimation")),
+
+	classification_en_macrotypes=link("/articles/lart-de-classifier-les-decks/classification-en-macrotypes")
+%}
 <h1>{{ G }}Les grosses créatures</h1>
+<p>
+	Une grosse créature est une créature dont la force et l'endurance dépassent 4/4 ou 5/3. C'est
+	en général l'opposée d'une créature <em>weenie</em> qui a peu de force et d'endurance.
+</p>
+<p>
+	Le vert bénéficie de telles créatures pour des coûts relativement bas. Les créatures
+	emblématiques sont {{ questing_beast }} et {{ elder_gargaroth }} qui bénéficient de mot-clés
+	avantageux et de capacités idéales pour de telles créatures. {{ primeval_titan }} est aussi un
+	bon exemple de ce style de créatures.
+</p>
+<p>
+	De part leur coût relativement haut, ces créatures sont parfois utilisées comme des moyens de
+	clore la partie rapidement. Ainsi se retrouvent {{ craterhoof_behemoth }},
+	{{ decimator_of_the_provinces }}, {{ end_raze_forerunners }}, {{ kamahl_heart_of_krosa }} et
+	{{ thunderfoot_baloth }} accompagnés régulièrement de {{ mana_dork }} pour fournir un effet
+	{{ overrun }}. Il n'est pas nécessaire de jouer plus de deux de ces créatures cependant.
+</p>
+<p>
+	D'autres de ces créatures sont des cibles de choix pour les effets de {{ reanimation }}. La
+	créature verte la plus jouée dans cet objectif est {{ woodfall_primus }}.
+</p>
+<p>
+	Les grosses créatures ne sont pas réservées au vert mais c'est cette couleur qui bénéficie des
+	exemplaires qui allient coût relativement faible et statistiques élevées.
+</p>
+<div class="tip">
+	<h3>Jouer des grosses créatures revient-il à jouer Ramp ?</h3>
+	<p>
+		L'attribution d'un macrotype à un deck intéresse beaucoup car cela permet en peu de mots de
+		décrire le comportement-type du deck face aux decks des autres macrotypes.
+	</p>
+	<p>
+		Comme cela a été présenté dans {{ classification_en_macrotypes }}, les decks Ramp
+		ont les mêmes comportement que les decks Contrôle face aux autres macrotypes.
+	</p>
+	<p>
+		Cependant, est-ce que jouer {{ questing_beast }} et {{ elder_gargaroth }} voire
+		{{ primeval_titan }} et {{ craterhoof_behemoth }} étiquette directement le deck au
+		macrotype Ramp ? 
+	</p>
+</div>
 {% endtrans %}
-{{ layout.wip() }}
 {% endblock %}
