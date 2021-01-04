@@ -16,7 +16,7 @@ from . import config
 from . import navigation
 
 
-app = flask.Flask(__name__, template_folder="templates")
+app = flask.Flask(__name__, template_folder="templates", static_folder='static')
 app.jinja_env.policies["ext.i18n.trimmed"] = True
 babel = flask_babel.Babel(app)
 config.configure_app(app)
@@ -58,6 +58,13 @@ def page_not_found(error):
 @app.route("/favicon.ico")
 def favicon():
 	return flask.redirect(flask.url_for("static", filename="img/favicon.ico"))
+
+
+# Serve robots and sitemap static files
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+	return flask.send_from_directory(app.static_folder, flask.request.path[1:])
 
 
 # Default route

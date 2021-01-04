@@ -4,7 +4,9 @@ Changelog
 1.2.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout robots.txt
+- Ajout sitemap.xml
+- Ajout d'une méthode pour les servir directement
 
 
 1.2.2 (2021-01-04)
