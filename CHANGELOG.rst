@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.2 (unreleased)
+1.2.2 (2021-01-04)
 ------------------
 
 - Ajout d'un paragraphe sur les enchants à mana dans ramp
