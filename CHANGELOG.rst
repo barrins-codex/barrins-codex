@@ -1,10 +1,11 @@
 Changelog
 =========
 
-1.2.0 (unreleased)
+1.1.1 (unreleased)
 ------------------
 
 - Espacement entre paragraphes
+- Correction de la page "ramp"
 
 
 1.1.0 (2021-01-04)

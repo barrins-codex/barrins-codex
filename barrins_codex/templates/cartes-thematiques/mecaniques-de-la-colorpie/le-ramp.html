@@ -5,14 +5,14 @@
 {% trans trimmed
 	grosses_creatures=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", _("des grosses créatures")),
 	mana_dork=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks", _("les mana dorks")),
+	disponible=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks", _("disponible")),
 	cailloux="les <em>%(str)s</em>"|format(str="cailloux")|safe
 %}
 <h1>{{ G }}Le ramp</h1>
 <p>
 	Le <em>Ramp</em> est une mécanique qui correspond à obtenir une source de mana additionnelle et
-	réutilisable en plus du terrain habituel. Cette mécanique tire son nom de {{ rampant_growth }},
-	{{ llanowar_elves }} est un autre exemple connu. Un deck utilisant cette mécanique joue souvent
-	{{ grosses_creatures }}.
+	réutilisable en plus du terrain habituel. Cette mécanique tire son nom de {{ rampant_growth }}.
+	Un deck utilisant cette mécanique joue souvent {{ grosses_creatures }}.
 </p>
 <p>
 	Les sorts de ramp sont habituellement des rituels. Parmi les cartes jouées se trouvent
@@ -26,43 +26,40 @@
 	{{ restore }} est également considérée comme une carte de ramp.
 </p>
 <p>
-	Il existe également des cartes qui permettent de mettre des terrains en main. Ce ne sont pas
-	des cartes de ramp. Les plus fréquentes sont {{ expedition_map }}, {{ land_grant }},
-	{{ safewright_quest }}, {{ sylvan_scrying }}, {{ tithe }} et {{ traverse_the_ulvenwald }}. Ces
-	cartes sont jouées quand il est nécessaire de réunir plusieurs terrains lorsque le nombre de
-	terrains dans le deck est relativement bas.
+	Il existe également des cartes qui permettent de mettre des terrains en main depuis la
+	bibliothèque. Ce ne sont pas des cartes de ramp. Les plus fréquentes sont {{ expedition_map }},
+	{{ land_grant }}, {{ safewright_quest }}, {{ sylvan_scrying }}, {{ tithe }} et
+	{{ traverse_the_ulvenwald }}. Ces cartes sont jouées quand il est nécessaire de réunir
+	plusieurs terrains ou lorsque le nombre de terrains dans le deck est relativement bas.
 </p>
 <p>
-	Une étude détaillée sur {{ mana_dork }} dont {{ llanowar_elves }} fait partie est disponible
-	dans une autre page de cette section. Des créatures comme {{ primeval_titan }} et
-	{{ oracle_of_mul_daya }} sont cependant à noter comme des sorts de ramp et non des mana dorks.
+	Une étude détaillée sur {{ mana_dork }}, dont {{ llanowar_elves }} fait partie, est
+	{{ disponible }}. Des créatures comme {{ primeval_titan }} et {{ oracle_of_mul_daya }} sont
+	cependant à noter comme des sorts de ramp et non des mana dorks.
 </p>
 <p>
 	Enfin, {{ cailloux }} permettent également de ramper. Ils sont disponibles dans presque toutes
-	les combinaisons de couleurs. Jouer des cailloux permet d'accentuer sur des stratégies qui ne
+	les combinaisons de couleurs. Jouer des cailloux permet d'accentuer des stratégies qui ne
 	peuvent pas être développées avec les sorts de ramp présentés ici.
 </p>
 <div class="tip">
-	<h3>Jouer ramp ne se résume pas à {{ grosses_creatures }} </h3>
+	<h3>Jouer ramp ne se résume pas à jouer {{ grosses_creatures }} </h3>
 	<p>
 		Les principaux decks utilisant cette mécanique sont des jeux qui ont besoin de cartes pour
-		accéder à un plan de jeu <em>unfair</em>. Cela peut être {{ grosses_creatures }} comme cela
-		peut être un plan de jeu Combo avec {{ maelstrom_wanderer }},
+		accéder à un plan de jeu <em>unfair</em>. Cela permet de jouer {{ grosses_creatures }} ou
+		de jouer un plan de jeu Combo avec {{ maelstrom_wanderer }},
 		{{ titania_protector_of_argoth }} ou {{ the_gitrog_monster }}.
 	</p>
 	<p>
-		Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style recherché.
+		Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style de ceux-ci.
 		Par exemple, {{ the_gitrog_monster }} cherche en priorité à jouer des sorts mettant les
-		terrains en jeu dégagés puis à augmenter le nombre de land drops.
-	</p>
-	<p>
-		L'approche de {{ maelstrom_wanderer }} est différente. Ce qui est recherché est
-		l'augmentation du nombre de terrains en jeu. Cela se traduit par jouer en priorité les
+		terrains en jeu dégagés puis à augmenter le nombre de land drop. L'approche de {{ maelstrom_wanderer }} est différente. Ce qui est recherché est
+		l'augmentation du nombre de terrains en jeu. Cela revient à jouer en priorité les
 		sorts présentés dans le deuxième paragraphe.
 	</p>
 	<p>
-		Sans raison particulière, les sorts de ramp se révèleront être de mauvaises pioches en fin
-		de partie. Sans objectif à accomplir, ces cartes sont assez mauvaises dans un deck.
+		Sans objectif à accomplir, ces cartes sont assez mauvaises dans un deck. En effet, les
+		sorts de ramp se révèlent être de mauvaises pioches en fin de partie.
 	</p>
 </div>
 {% endtrans %}
