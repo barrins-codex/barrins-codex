@@ -4,7 +4,7 @@ Changelog
 1.2.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Espacement entre paragraphes
 
 
 1.1.0 (2021-01-04)
