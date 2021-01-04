@@ -2,6 +2,15 @@
 <html lang="{{ lang }}">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-F9Q44T07MM"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-F9Q44T07MM');
+	</script>
 	{% block head %}
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,15 +36,6 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/light-theme.css') }}" id="theme-link">
 	<!-- Card display -->
 	<script src="{{ url_for('static', filename='js/dC.js') }}"></script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-F9Q44T07MM"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-F9Q44T07MM');
-	</script>
 	{% block scripts %}{% endblock %}
 	<title>Barrin's Codex</title>
 	{% endblock %}
