@@ -4,7 +4,7 @@ Changelog
 1.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'un paragraphe sur les enchants à mana
 
 
 1.2.1 (2021-01-04)
