@@ -4,7 +4,8 @@ Changelog
 1.2.2 (unreleased)
 ------------------
 
-- Ajout d'un paragraphe sur les enchants à mana
+- Ajout d'un paragraphe sur les enchants à mana dans ramp
+- Ajout d'un paragraphe sur les enchants à mana dans dorks
 - Retrait du tip dans l'analyse de Kess
 
 
