@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Écriture de la page grosses créatures
+- Suppression d'une fonction en doublon dans le backend
 
 
 1.2.3 (2021-01-04)

@@ -54,13 +54,8 @@ def page_not_found(error):
 	return flask.render_template("404.html"), 404
 
 
-# favicon redirection - need when serving card images directly
+# Static file redirection
 @app.route("/favicon.ico")
-def favicon():
-	return flask.redirect(flask.url_for("static", filename="img/favicon.ico"))
-
-
-# Serve robots and sitemap static files
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')
 def static_from_root():
