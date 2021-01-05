@@ -5,13 +5,15 @@
 {% trans trimmed
 	mana_dork=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks", _("mana dorks")),
 	reanimation=link("/cartes-thematiques/mecaniques-de-la-colorpie/la-reanimation-de-creatures", _("réanimation")),
+	les_contresorts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts"),
+	cartes_de_taxe=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe"),
 
 	classification_en_macrotypes=link("/articles/lart-de-classifier-les-decks/classification-en-macrotypes")
 %}
 <h1>{{ G }}Les grosses créatures</h1>
 <p>
-	Une grosse créature, <em>fatty</em>, est une créature dont la force et l'endurance dépassent 4/
-	4 ou 5/3. C'est en général l'opposée d'une créature <em>weenie</em> qui a peu de force et
+	Une grosse créature, <em>fatty</em>, est une créature dont la force et l'endurance dépassent
+	strictement 3. C'est l'opposée d'une créature <em>weenie</em> qui a peu de force et
 	d'endurance.
 </p>
 <p>
@@ -49,19 +51,24 @@
 	à réanimer sont {{ archetype_of_endurance }}, {{ terastodon }} ou encore {{ woodfall_primus }}.
 </p>
 <div class="tip">
-	<h3>Jouer des grosses créatures revient-il à jouer Ramp ?</h3>
+	<h3>Comment assurer l'impact de ses fatties ?</h3>
 	<p>
-		L'attribution d'un macrotype à un deck intéresse beaucoup car cela permet en peu de mots de
-		décrire le comportement-type du deck face aux decks des autres macrotypes.
+		C'est vraiment important que les fatties soient capables d'arriver sur le champ de bataille
+		pour avoir l'occasion de faire ce pour quoi ces cartes ont été choisies. Pour ce faire, il
+		faut réussir à résoudre son sort. Parmi les outils disponibles, il existe des cartes qui
+		rendent des sort <em>incontrables</em>, c'est-à-dire que {{ les_contresorts }} ne peuvent
+		pas faire ce pour quoi ils sont joués.
 	</p>
 	<p>
-		Comme cela a été présenté dans {{ classification_en_macrotypes }}, les decks Ramp
-		ont les mêmes comportement que les decks Contrôle face aux autres macrotypes.
+		Parmi les cartes jouables qui proposent cela, il y a soit les {{ cartes_de_taxe }}, comme
+		{{ defense_grid }} ou {{ thalia_guardian_of_thraben }}, soit les cartes qui permettent de
+		rendre des sorts incontrables, comme {{ allosaurus_shepherd }}, {{ destiny_spinner }},
+		{{ vexing_shusher }} et {{ prowling_serpopard }} qui sont les plus jouées dans ce but.
 	</p>
 	<p>
-		Cependant, est-ce que jouer {{ questing_beast }} et {{ elder_gargaroth }} voire
-		{{ primeval_titan }} et {{ craterhoof_behemoth }} étiquette directement le deck au
-		macrotype Ramp ?
+		Il faut ensuite pouvoir profiter de sa créature et pouvoir attaquer avec. Pour cela, des
+		cartes comme {{ lightning_greaves }} ou {{ spellskite }} sont envisageables pour éviter les
+		<em>spot removals</em>.
 	</p>
 </div>
 {% endtrans %}
