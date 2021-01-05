@@ -4,7 +4,7 @@ Changelog
 1.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Écriture de la page grosses créatures
 
 
 1.2.3 (2021-01-04)
