@@ -84,6 +84,11 @@
 	</article>
 	{% endblock %}
 
+	<div id="gist">
+		{% block gist %}
+		{% endblock %}
+	</div>
+	
 	<footer>
 		{% block footer %}
 		<nav role="navigation">
@@ -95,6 +100,7 @@
 	</footer>
 </body>
 {% block script %}{% endblock %}
+<!-- Mode sombre -->
 <script>
 	const btn = document.querySelector(".btn-toggle");
 	const theme = document.querySelector("#theme-link");

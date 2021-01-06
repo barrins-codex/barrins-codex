@@ -325,6 +325,13 @@ td {
 	margin: 0.7em;
 	width: 28%;
 }
+.double-column {
+	display: inline-block;
+	padding: 0;
+	vertical-align: top;
+	margin: 0.3em;
+	width: 40%;
+}
 .column-image {
 	margin: 0;
 	padding: 0;
@@ -500,10 +507,26 @@ td {
 		width: 100%;
 		display: block;
 	}
+	.double-column {
+		width: 100%;
+		display: block;
+	}
+	#gist {
+		max-width: 100%;
+		margin: 0 auto;
+	}
 }
 .clear {
 	padding: 0;
 	margin: 0;
 	border: 0;
 	clear: both;
+}
+#gist {
+	max-width: 900px;
+	margin: 0 auto;
+}
+#gist div {
+	padding: 0.3em;
+	margin: 0;
 }

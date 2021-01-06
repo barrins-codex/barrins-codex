@@ -14,9 +14,118 @@ Winota, Joiner of Forces
 {% endblock %}
 
 {% block archetype %}
-{% trans trimmed
-
-%}
-
+{% trans trimmed %}
+<h2>Les Win-O-Maths</h2>
 {% endtrans %}
+<form class="inline-form" id="win-o-math" autocomplete="off"
+	oninput="aL0_result.value = Math.round(atLeastOne(parseInt(aL0_stack.value), parseInt(aL0_copies.value), parseInt(aL0_draws.value)) * 10000) / 100+ ' %'">
+	<fieldset id="win-o-val">
+		<legend>{{ _("Probabilité de réussites successives") }}</legend>
+		<span class="double-column">
+			<label for="aL0_copies">{{ _("nombre d'humains :") }}</label>
+			<input type="text" id="copies" placeholder="23" />
+		</span>
+		<span class="double-column">
+			<label for="aL0_triggers">{{ _("nombre de réussites max :") }}</label>
+			<input type="text" id="triggers" placeholder="5" />
+		</span>
+		<span class="double-column">
+			<span onclick="calculate()">{{ _("Calcul") }}</span>
+		</span>
+		<div id="result" style="margin: 0; padding: 0.5em;"></div>
+	</fieldset>
+</form>
+{% endblock %}
+
+{% block gist %}
+<div class="clear">
+	<script src="https://gist.github.com/Spigushe/e2f657b1cb6c33e307840dfdfc817d24.js"></script>
+</div>
+{% endblock %}
+
+{% block script %}
+{{ super() }}
+<!-- Win-O-Math -->
+<script>
+	var calculate = function() {
+		var hnps = function (n,p,s) { return 1 - hnpss(n,p,s,0) };
+		var hnpss = function (n,p,s,e) {
+			if (n > p) { n = p }
+			let echooses = binom(s,e);
+			let nechooseps = binom(p-s,n-e);
+			let nchoosep = binom(p,n);
+			return echooses * nechooseps / nchoosep;
+		};
+		var binom = function (n, k) {
+			if ((k < 0) || (n < 0) || (k > n)) { return 0 }
+			let resultat = 1;
+			for (let i = 1; i < (Math.min(k, n-k) +1); i++) {
+				resultat = resultat * (n + 1 - i) / i;
+			}
+			return resultat;
+		};
+		var pyx = function (y,x) {
+			if (y == 0 && x == 0) { return 1 }
+			if ((y > x) || (y < 0)) { return 0 }
+			return pyx(y-1,x-1) * pryx(y-1,x-1) + pyx(y,x-1) * (1 - pryx(y,x-1));
+		};
+		var pryx = function (y,x) {
+			if (pyx(y,x) == 0) { return 0 }
+			let somme = 0;
+			for (let s = 0; s <= x * N; s++) { somme += hnps(N,P - x * N,S - s) * pyxs(y,x,s) }
+			return 1/pyx(y,x) * somme;
+		};
+		var pyxs = function (y,x,s) {
+			if ((y > s) || (y > x)) { return 0 }
+			if ((y == 0) && (s > 0)) { return 0 }
+			if ((x == 0) && (y == 0) && (s == 0)) { return 1 }
+			if ((x < 0) || (y < 0) || (s < 0)) { return 0 }
+			let somme = 0;
+			for (let i = 1; i <= N; i++) {
+				somme += pyxs(y-1,x-1,s-i) * hnpss(N,P-(x-1)*N,S-s+i,i);
+			}
+			return somme + pyxs(y,x-1,s) * hnpss(N,P-(x-1)*N,S-s,0);
+		};
+
+		// Size of set
+		var N = 6;
+		// Success in population
+		let copies = document.getElementById("copies");
+		var S = parseInt(copies.value || copies.placeholder);
+		// Size of deck
+		var P = 99;
+
+		// Triggers
+		let triggers = document.getElementById("triggers");
+		let max_triggers = triggers.value || triggers.placeholder;
+
+		// parentNode
+		var result = document.getElementById("result");
+		while (result.firstChild) { result.removeChild(result.firstChild) }
+
+		// Display
+		for (let i = 0; i <= max_triggers; i++) {
+			let str = "";
+			str = str + Math.round(pyx(i,max_triggers)*10000)/100+" % d'avoir ";
+			str = str + "<strong>" + i + "</strong>" + " réussite";
+			if (i > 1) { str = str + "s" }
+
+			let r = document.createElement("span");
+			r.setAttribute('class', "double-column");
+			r.innerHTML = str;
+			result.appendChild(r);
+		}
+	}
+</script>
+{% endblock %}
+
+
+{% block style %}
+<style>
+	input {
+		max-width: 3em;
+		margin: 0 1.5em;
+		text-align: center;
+	}
+</style>
 {% endblock %}
