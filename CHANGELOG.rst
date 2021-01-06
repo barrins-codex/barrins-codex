@@ -4,7 +4,7 @@ Changelog
 1.2.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Send library.json.gz
 
 
 1.2.4 (2021-01-06)
