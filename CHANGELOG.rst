@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.4 (unreleased)
+1.2.4 (2021-01-06)
 ------------------
 
 - Écriture de la page grosses créatures
