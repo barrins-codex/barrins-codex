@@ -12,10 +12,10 @@ import jinja2.exceptions
 import gzip
 import json
 if (os.path.isfile("barrins_codex/library.json.gz")):
-	# File exists === dev
+	# File exists
 	cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
 else:
-	# Build file === prod
+	# Build file
 	from . import build_library
 	cartes = build_library.build()
 library = {}

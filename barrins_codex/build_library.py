@@ -33,11 +33,18 @@ def _get(card,set,name=None):
 def _download(url):
 	file = url.split('/')[-1]
 	response = requests.get(url, stream=True)
-	with tqdm.wrapattr(open(file, "wb"), "write", miniters=1,
-			total=int(response.headers.get('content-length', 0)),
-			desc=file) as fout:
-		for chunk in response.iter_content(chunk_size=4096):
-			fout.write(chunk)
+	with open(file, "wb") as file:
+		response = requests.get(url)
+		# write to file
+		file.write(response.content)
+
+
+def _delete(file):
+	if (os.path.isfile(file)):
+		os.remove(file)
+	else:
+		print(r"{file} not found")
+
 
 DIR_NAME = "barrins_codex"
 SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token","box","master","memorabilia","funny"}
@@ -104,8 +111,8 @@ def build():
 		pass
 
 	# Deleting downloaded files
-	os.remove("AllPrintings.json.gz")
-	os.remove("SetList.json.gz")
+	_delete("AllPrintings.json.gz")
+	_delete("SetList.json.gz")
 
 	# Returning constructed library
 	return library.values()
