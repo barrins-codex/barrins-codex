@@ -4,7 +4,7 @@ Changelog
 2.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update robots.txt
 
 
 2.0.4 (2021-01-06)
