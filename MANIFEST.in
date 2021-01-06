@@ -1,4 +1,5 @@
 include LICENSE README.md CHANGELOG.rst
+include barrins_codex/library.json.gz
 
 graft barrins_codex
 prune utils

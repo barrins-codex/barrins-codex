@@ -4,7 +4,7 @@ Changelog
 1.2.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- library.json.gz
 
 
 1.2.5 (2021-01-06)
