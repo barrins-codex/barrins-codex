@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.7 (unreleased)
+1.2.7 (2021-01-06)
 ------------------
 
 - Fixed backend problem (wrong permission on vps folder)
