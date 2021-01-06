@@ -1,3 +1,7 @@
+# Fichier en paramètre
+import os
+import sys
+
 # Base de données des cartes
 import gzip
 import json
@@ -47,10 +51,6 @@ inst = { "type": "Instants", "count": 0, "cards": [] }
 sorc = { "type": "Sorceries", "count": 0, "cards": [] }
 land = { "type": "Lands", "count": 0, "cards": [] }
 
-
-# Fichier en paramètre
-import os
-import sys
 
 fn = sys.argv[1]
 if os.path.exists(fn):
