@@ -1,9 +1,13 @@
 {% extends "layout.html" %}
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
+{% block title %}
+{{ U }} Les Cantrips
+{% endblock %}
+
 {% block content %}
 {% trans trimmed %}
-<h1>{{ U }}Les cantrips</h1>
+<h1>{{ U }} Les cantrips</h1>
 {% endtrans %}
 {{ layout.wip() }}
 {% endblock %}

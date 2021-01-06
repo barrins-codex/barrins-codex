@@ -1,6 +1,10 @@
 {% extends "layout.html" %}
 {% import "articles/_contributors.html" as contributor with context %}
 
+{% block title %}
+L'Art de bien mélanger un deck
+{% endblock %}
+
 {% block content %}
 <h1>{{ _("L'Art de bien mélanger un deck") }}</h1>
 {{ contributor.zombie33() }}

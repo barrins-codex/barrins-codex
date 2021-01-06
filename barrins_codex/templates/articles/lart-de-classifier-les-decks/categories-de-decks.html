@@ -1,5 +1,9 @@
 {% extends "articles/lart-de-classifier-les-decks/_layout.html" %}
 
+{% block title %}
+Les Catégories de decks
+{% endblock %}
+
 {% block section %}
 {% trans trimmed
 	cat_decks='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/cat_decks.png'))|safe,

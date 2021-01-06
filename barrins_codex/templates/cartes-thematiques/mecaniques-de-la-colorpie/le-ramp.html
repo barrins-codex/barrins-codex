@@ -1,5 +1,8 @@
 {% extends "layout.html" %}
-{% import "cartes-thematiques/_layout_wip.html" as layout with context %}
+
+{% block title %}
+{{ G }} Le Ramp
+{% endblock %}
 
 {% block content %}
 {% trans trimmed
@@ -8,7 +11,7 @@
 	disponible=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks", _("disponible")),
 	cailloux="les <em>%(str)s</em>"|format(str="cailloux")|safe
 %}
-<h1>{{ G }}Le ramp</h1>
+<h1>{{ G }} Le ramp</h1>
 <p>
 	Le <em>Ramp</em> est une mécanique qui correspond à obtenir une source de mana additionnelle et
 	réutilisable en plus du terrain habituel. Cette mécanique tire son nom de {{ rampant_growth }}.

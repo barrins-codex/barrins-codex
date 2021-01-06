@@ -1,9 +1,13 @@
 {% extends "layout.html" %}
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
+{% block title %}
+{{ R }} Les créatures agressives
+{% endblock %}
+
 {% block content %}
 {% trans trimmed %}
-<h1>{{ R }}Les créatures agressives</h1>
+<h1>{{ R }} Les créatures agressives</h1>
 {% endtrans %}
 {{ layout.wip() }}
 {% endblock %}

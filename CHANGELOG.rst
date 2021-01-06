@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Retrait des sets "Secret Lair", "Master" et "Funny"
+- Ajout des titres de page différenciés 
 
 
 1.2.7 (2021-01-06)

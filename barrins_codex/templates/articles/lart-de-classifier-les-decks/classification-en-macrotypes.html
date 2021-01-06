@@ -1,5 +1,9 @@
 {% extends "articles/lart-de-classifier-les-decks/_layout.html" %}
 
+{% block title %}
+La Classification en macrotypes
+{% endblock %}
+
 {% block section %}
 {% trans trimmed
 	img_macrotype_a='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_a.svg'))|safe,

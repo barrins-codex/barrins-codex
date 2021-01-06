@@ -39,7 +39,7 @@
 	<!-- Card display -->
 	<script src="{{ url_for('static', filename='js/dC.js') }}"></script>
 	{% block scripts %}{% endblock %}
-	<title>Barrin's Codex</title>
+	<title>Barrin's Codex{% if self.title() | trim %} - {% endif %}{% block title %}{% endblock %}</title>
 	{% endblock %}
 </head>
 

@@ -1,9 +1,13 @@
 {% extends "layout.html" %}
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
+{% block title %}
+{{ W }} La Destruction de permanents
+{% endblock %}
+
 {% block content %}
 {% trans trimmed %}
-<h1>{{ W }}La destruction de permanents</h1>
+<h1>{{ W }} La destruction de permanents</h1>
 {% endtrans %}
 {{ layout.wip() }}
 {% endblock %}
