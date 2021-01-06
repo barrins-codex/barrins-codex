@@ -4,14 +4,14 @@ Changelog
 2.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix title index.html
 
 
 2.0.0 (2021-01-06)
 ------------------
 
 - Retrait des sets "Secret Lair", "Master" et "Funny"
-- Ajout des titres de page différenciés 
+- Ajout des titres de page différenciés
 
 
 1.2.7 (2021-01-06)
