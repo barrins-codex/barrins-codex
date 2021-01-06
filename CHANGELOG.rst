@@ -4,7 +4,7 @@ Changelog
 1.2.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Retrait des sets "Secret Lair", "Master" et "Funny"
 
 
 1.2.7 (2021-01-06)

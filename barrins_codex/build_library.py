@@ -40,7 +40,7 @@ def _download(url):
 			fout.write(chunk)
 
 DIR_NAME = "barrins_codex"
-SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token"}
+SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token","box","master","memorabilia","funny"}
 
 # https://api.scryfall.com/cards/{scryfallId}?format=image
 
