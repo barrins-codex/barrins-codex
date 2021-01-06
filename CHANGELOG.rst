@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.5 (unreleased)
+2.0.5 (2021-01-07)
 ------------------
 
 - Update robots.txt
