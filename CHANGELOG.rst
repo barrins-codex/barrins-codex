@@ -4,7 +4,7 @@ Changelog
 2.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix Manifest
 
 
 2.0.2 (2021-01-06)

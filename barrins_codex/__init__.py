@@ -8,8 +8,16 @@ import flask
 import flask_babel
 import jinja2.exceptions
 
+# Base de données des cartes
 import gzip
 import json
+if (os.path.isfile("barrins_codex/library.json.gz")):
+	# File exists === dev
+	cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
+else:
+	# Build file === prod
+	from . import build_library
+	cartes = build_library.build()
 library = {}
 
 from . import config
@@ -196,16 +204,6 @@ def display_card():
 				scryfallId=scryfall_id(name),
 			)
 		)
-
-
-	# Base de données des cartes
-	if (os.path.isfile("barrins_codex/library.json.gz")):
-		# File exists === dev
-		cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
-	else:
-		# Build file === prod
-		from . import build_library
-		cartes = build_library.build()
 
 	for carte in cartes:
 		# Enabling card names checks
