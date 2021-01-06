@@ -74,7 +74,6 @@ STRUCTURE = Nav(
 			index=True,
 			children=[
 				Nav(lazy_gettext("Kess, Dissident Mage")),
-				Nav(lazy_gettext("Winota, Joiner of Forces")),
 			],
 		),
 		Nav(
