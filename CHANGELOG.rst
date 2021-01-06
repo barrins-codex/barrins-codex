@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.2 (unreleased)
+2.0.2 (2021-01-06)
 ------------------
 
 - Fix favicon
