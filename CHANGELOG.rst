@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.4 (unreleased)
+2.0.4 (2021-01-06)
 ------------------
 
 - Ajout des Win-o-Maths
