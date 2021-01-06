@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.8 (unreleased)
+2.0.0 (2021-01-06)
 ------------------
 
 - Retrait des sets "Secret Lair", "Master" et "Funny"
