@@ -1,5 +1,4 @@
 include LICENSE README.md CHANGELOG.rst
-include barrins_codex/library.json.gz
 
 graft barrins_codex
 prune utils
@@ -14,3 +13,4 @@ global-exclude */__pycache__/*
 global-exclude *.egg-info/*
 global-exclude *.po
 global-exclude *.DS_Store
+global-exlude *.json.gz

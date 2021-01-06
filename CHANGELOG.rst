@@ -4,7 +4,8 @@ Changelog
 1.2.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fixed backend problem (wrong permission on vps folder)
+- Back to 1.2.4
 
 
 1.2.6 (2021-01-06)
