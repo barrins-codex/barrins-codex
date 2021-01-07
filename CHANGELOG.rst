@@ -4,7 +4,8 @@ Changelog
 2.0.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix decklist converter
+- Fix Winota decklist
 
 
 2.0.5 (2021-01-07)

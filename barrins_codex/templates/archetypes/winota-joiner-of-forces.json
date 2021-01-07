@@ -118,7 +118,7 @@
 					},
 					{
 						"count": "1",
-						"id": "4085a5bf-a71b-4c73-9b39-0dcc328fe11b",
+						"id": "7450c7d6-4c09-4264-a711-b956f62f4d0e",
 						"name": "Goblin Bushwhacker",
 						"types": [
 							"Creature"
@@ -199,7 +199,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b47f639e-4635-4c26-bb2a-4925f0582c21",
+						"id": "ff93d9e3-3e27-4bd4-955b-076788519694",
 						"name": "Legion Loyalist",
 						"types": [
 							"Creature"
@@ -296,6 +296,14 @@
 					},
 					{
 						"count": "1",
+						"id": "0a8e78b3-3232-4d48-9d6c-540951a0330e",
+						"name": "Rick, Steadfast Leader",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
 						"id": "ead15cf8-f692-4cb9-ac86-0dff00236145",
 						"name": "Samurai of the Pale Curtain",
 						"types": [
@@ -344,6 +352,15 @@
 					},
 					{
 						"count": "1",
+						"id": "014027c4-7f9d-4096-b308-ea4be574c0d4",
+						"name": "Skyclave Cleric ",
+						"types": [
+							"Creature",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
 						"id": "b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe",
 						"name": "Stonecoil Serpent",
 						"types": [
@@ -361,7 +378,7 @@
 					},
 					{
 						"count": "1",
-						"id": "97ff44c9-6ff5-432d-9876-488c96833c39",
+						"id": "b05031dc-f99c-49d3-9a20-3453587d8dea",
 						"name": "Thalia, Guardian of Thraben",
 						"types": [
 							"Creature"
@@ -400,7 +417,7 @@
 						]
 					}
 				],
-				"count": 47,
+				"count": 49,
 				"type": "Creatures"
 			},
 			{
@@ -464,9 +481,18 @@
 						"types": [
 							"Enchantment"
 						]
+					},
+					{
+						"count": "1",
+						"id": "05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c",
+						"name": "Legion's Landing ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
 					}
 				],
-				"count": 2,
+				"count": 3,
 				"type": "Enchantments"
 			},
 			{
@@ -500,15 +526,25 @@
 				"type": "Instants"
 			},
 			{
-				"cards": [],
-				"count": 0,
+				"cards": [
+					{
+						"count": "1",
+						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+						"name": "Shatterskull Smashing ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					}
+				],
+				"count": 1,
 				"type": "Sorceries"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "c9a8cc61-7e36-4df7-9c89-c32fce129c5a",
+						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
 						"name": "Arid Mesa",
 						"types": [
 							"Land"
@@ -540,7 +576,7 @@
 					},
 					{
 						"count": "1",
-						"id": "459042ef-0d5b-480f-9b8a-520e13ae9217",
+						"id": "2d120ddb-73e7-4dbc-b48c-4a6c74f331c3",
 						"name": "City of Brass",
 						"types": [
 							"Land"
@@ -612,7 +648,7 @@
 					},
 					{
 						"count": "1",
-						"id": "659039ed-c269-4c2d-bce6-91d143f0618e",
+						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
 						"name": "Marsh Flats",
 						"types": [
 							"Land"
@@ -660,7 +696,7 @@
 					},
 					{
 						"count": "1",
-						"id": "f2661d4a-450a-433a-b893-b1ee15982494",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
 						"name": "Scalding Tarn",
 						"types": [
 							"Land"
@@ -668,7 +704,7 @@
 					},
 					{
 						"count": "6",
-						"id": "d2209e6f-1d9d-43bb-a314-a8fefc509e78",
+						"id": "685a9d6d-497b-44a1-963f-501d61ea7f66",
 						"name": "Snow-Covered Mountain",
 						"types": [
 							"Land"
@@ -676,7 +712,7 @@
 					},
 					{
 						"count": "10",
-						"id": "7a961768-6166-4852-b518-23eb4cced47d",
+						"id": "3066cc8b-7a5a-4822-a202-dd560a4fda85",
 						"name": "Snow-Covered Plains",
 						"types": [
 							"Land"
@@ -707,7 +743,7 @@
 						]
 					}
 				],
-				"count": 42,
+				"count": 39,
 				"type": "Lands"
 			}
 		],
