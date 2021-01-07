@@ -18,7 +18,7 @@ Winota, Joiner of Forces
 <h2>Les Win-O-Maths</h2>
 {% endtrans %}
 <form class="inline-form" id="win-o-math" autocomplete="off"
-	oninput="aL0_result.value = Math.round(atLeastOne(parseInt(aL0_stack.value), parseInt(aL0_copies.value), parseInt(aL0_draws.value)) * 10000) / 100+ ' %'">
+	onsubmit="return calculate();">
 	<fieldset id="win-o-val">
 		<legend>{{ _("Probabilité de réussites successives") }}</legend>
 		<span class="double-column">
@@ -29,9 +29,7 @@ Winota, Joiner of Forces
 			<label for="aL0_triggers">{{ _("nombre de réussites max :") }}</label>
 			<input type="text" id="triggers" placeholder="5" />
 		</span>
-		<span class="double-column">
-			<span onclick="calculate()">{{ _("Calcul") }}</span>
-		</span>
+		<button type="submit" class="double-column" id="btn-calcul">{{ _("Calcul")}}</button>
 		<div id="result" style="margin: 0; padding: 0.5em;"></div>
 	</fieldset>
 </form>
@@ -106,15 +104,17 @@ Winota, Joiner of Forces
 		// Display
 		for (let i = 0; i <= max_triggers; i++) {
 			let str = "";
-			str = str + Math.round(pyx(i,max_triggers)*10000)/100+" % d'avoir ";
 			str = str + "<strong>" + i + "</strong>" + " réussite";
 			if (i > 1) { str = str + "s" }
-
+			str = str + " : " + Math.round(pyx(i,max_triggers)*10000)/100+" %";
 			let r = document.createElement("span");
 			r.setAttribute('class', "double-column");
 			r.innerHTML = str;
 			result.appendChild(r);
 		}
+
+		// Prevent default submitting
+		return false;
 	}
 </script>
 {% endblock %}
@@ -126,6 +126,18 @@ Winota, Joiner of Forces
 		max-width: 3em;
 		margin: 0 1.5em;
 		text-align: center;
+	}
+	#btn-calcul {
+		text-decoration: none;
+		border: 1px;
+		border-radius: 0.5em;
+		border-color: #ec5354;
+		border-style: solid;
+		padding: 0.5em;
+		margin: 0;
+		margin-top: 0.3em;
+		color: #ec5354;
+		width: 47%;
 	}
 </style>
 {% endblock %}
