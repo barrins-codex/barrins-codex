@@ -12,7 +12,7 @@ if (os.path.isfile("barrins_codex/library.json.gz")):
 	cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
 else:
 	# Build file === prod
-	from . import build_library
+	import build_library
 	cartes = build_library.build()
 # Utilisation du fichier
 for carte in cartes:
@@ -70,19 +70,25 @@ if os.path.exists(fn):
 			ajout = _get(ligne)
 			# First lands because of some specific cards
 			if "Land" in ajout["types"]:
-				# Increase land count before hand to handle mdfc
-				land["count"] = land["count"] + int(ajout["count"])
 				# Land first in case of Dryad Arbor
 				if "Creature" in ajout["types"] and "/" not in ligne:
 					# Dryad Arbor-like case
 					land["cards"].append(ajout)
+					land["count"] = land["count"] + int(ajout["count"]) # Increase land count
 				if len(ajout["types"]) == 1:
 					# Usual land cards
 					land["cards"].append(ajout)
+					land["count"] = land["count"] + int(ajout["count"]) # Increase land count
 
-			elif "Creature" in ajout["types"]:
-				crea["count"] = crea["count"] + int(ajout["count"])
-				crea["cards"].append(ajout)
+			if "Creature" in ajout["types"]:
+				if "Land" not in ajout["types"]:
+					# usual case
+					crea["count"] = crea["count"] + int(ajout["count"])
+					crea["cards"].append(ajout)
+				if "Land" in ajout["types"] and "/" in ligne:
+					# MDFC creature-land case
+					crea["count"] = crea["count"] + int(ajout["count"])
+					crea["cards"].append(ajout)
 
 			elif "Planeswalker" in ajout["types"]:
 				plan["count"] = plan["count"] + int(ajout["count"])

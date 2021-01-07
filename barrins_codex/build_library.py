@@ -47,7 +47,7 @@ def _delete(file):
 
 
 DIR_NAME = "barrins_codex"
-SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token","box","master","memorabilia","funny"}
+SKIP_TYPES = {"from_the_vault","masterpiece","promo","duel_deck","premium_deck","spellbook","token","master","memorabilia","funny"}
 
 # https://api.scryfall.com/cards/{scryfallId}?format=image
 
