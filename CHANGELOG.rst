@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Upgrade win-o-math calculator
+- Ajout présentation rapide de Winota
 
 
 2.0.6 (2021-01-07)
