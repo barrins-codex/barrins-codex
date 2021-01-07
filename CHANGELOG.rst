@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.7 (unreleased)
+2.0.7 (2021-01-07)
 ------------------
 
 - Upgrade win-o-math calculator
