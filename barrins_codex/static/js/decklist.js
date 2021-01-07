@@ -1,24 +1,37 @@
-function dCi(scryfallId,i) {
-	document.getElementById("card-image").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
-}
-/**
- * This section need to be reworked
- *
-function dCi(scryfallId,i) {
-	document.getElementById("card-image").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
-	var modal = document.getElementById("card-modal")
-	for (const c of modal.classList) {
-		if (c.startsWith("modal-card-")) {
-			modal.classList.remove(c)
+function dCi_id(i) {
+	// Get card-i
+	var card = document.getElementById(`card-${i}`)
+	// Get scryfallId
+	for (const c of card.classList) {
+		if (c.startsWith("scryfall-")) {
+			dCi(c.split("scryfall-")[1], i)
 		}
 	}
+}
+function dCi(scryfallId,i) {
+	document.getElementById("card-image").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
+
+	var modal = document.getElementById("card-modal")
+	// Remove previous card info
+	for (const c of modal.classList) {
+		if (c.startsWith("modal-card-")) { modal.classList.remove(c) }
+	}
+	// Set current card info
 	modal.classList.add(`modal-card-${i}`)
-	document.getElementById("card-prev").style.display = "block"
-	document.getElementById("card-next").style.display = "block"
+
+	// No before for first card
+	if (i > 0) { document.getElementById("card-prev").style.display = "block" }
+	else { document.getElementById("card-prev").style.display = "none" }
+	// No after for last card
+	if (document.getElementById("card-"+(i+1)) !== null) { document.getElementById("card-next").style.display = "block" }
+	else { document.getElementById("card-next").style.display = "none" }
+
+	// Display card
 	modal.style.display = "block"
 	modal.focus()
 }
 function cardIndex(modal) {
+	var modal = document.getElementById("card-modal")
 	for (const c of modal.classList) {
 		if (c.startsWith("modal-card-")) {
 			return parseInt(c.match(/[0-9]+/)[0])
@@ -27,27 +40,26 @@ function cardIndex(modal) {
 }
 function prevCard(event) {
 	event.stopPropagation()
-	dCi(cardIndex(event.target.parentElement) - 1)
+	console.log(cardIndex(event.target.parentElement))
+	dCi_id(cardIndex(event.target.parentElement) - 1)
 }
 function nextCard(event) {
 	event.stopPropagation()
-	dCi(cardIndex(event.target.parentElement) + 1)
+	dCi_id(cardIndex(event.target.parentElement) + 1)
 }
 function modalKeydown(event) {
 	event.stopPropagation()
 	event.preventDefault()
 	// arrow DOWN
 	if (event.keyCode === 40) {
-		dCi(cardIndex(event.target) + 1)
+		dCi_id(cardIndex(event.target) + 1)
 		// arrow UP
 	} else if (event.keyCode === 38) {
-		dCi(cardIndex(event.target) - 1)
+		dCi_id(cardIndex(event.target) - 1)
 	}
 }
- * End of section
- */
 function cardElement(element, i) {
-	return `<li>${element.count} <span class="card" id="card-${i}" onclick="dCi('${element.id}',${i})" onmouseover="hC('${element.id}')" onmouseout="oC()">${element.name}</span></li>`
+	return `<li>${element.count} <span class="card scryfall-${element.id}" id="card-${i}" onclick="dCi('${element.id}',${i})" onmouseover="hC('${element.id}')" onmouseout="oC()">${element.name}</span></li>`
 }
 function wrapText(text, maxlen) {
 	if (!text) {

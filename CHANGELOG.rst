@@ -4,7 +4,7 @@ Changelog
 2.0.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix card display in decklists
 
 
 2.0.7 (2021-01-07)
