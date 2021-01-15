@@ -4,7 +4,7 @@ Changelog
 2.0.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout de la page sur les bounces
 
 
 2.0.8 (2021-01-07)
