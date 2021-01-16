@@ -53,6 +53,15 @@
 					},
 					{
 						"count": "1",
+						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+						"name": "Bonecrusher Giant",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "2816c031-8816-4f52-b1db-590f0688d801",
 						"name": "Bruse Tarl, Boorish Herder",
 						"types": [
@@ -417,7 +426,7 @@
 						]
 					}
 				],
-				"count": 49,
+				"count": 50,
 				"type": "Creatures"
 			},
 			{
@@ -526,18 +535,8 @@
 				"type": "Instants"
 			},
 			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
-						"name": "Shatterskull Smashing ",
-						"types": [
-							"Sorcery",
-							"Land"
-						]
-					}
-				],
-				"count": 1,
+				"cards": [],
+				"count": 0,
 				"type": "Sorceries"
 			},
 			{
