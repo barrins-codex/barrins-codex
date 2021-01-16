@@ -1,4 +1,5 @@
 {% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/kelsien-the-plague.json" as deck_json %}
 
 {% block title %}
@@ -11,12 +12,8 @@ Winota, Joiner of Forces
 
 {% block archetype_name %}
 <h1>Kelsien, the Plague</h1>
+{{ layout.wip() }}
 {% endblock %}
 
 {% block archetype %}
-{% trans trimmed %}
-<p>
-	<em>Analyse à venir ...</em>
-</p>
-{% endtrans %}
 {% endblock %}

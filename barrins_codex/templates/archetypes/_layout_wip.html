@@ -1,0 +1,11 @@
+{% macro wip() -%}
+<div class="warning">
+	{% trans trimmed
+		github=external("https://github.com/Spigushe/barrins-codex", "Github")
+	%}
+	Nous sommes en train de préparer une analyse de cet archétype. Si vous voulez aider, nous
+	serions enchantés si vous pouviez suggérer une partie de l'analyse. Merci de nous contacter sur
+	notre {{ github }}.
+	{% endtrans %}
+</div>
+{%- endmacro %}
