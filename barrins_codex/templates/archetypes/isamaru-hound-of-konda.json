@@ -1,0 +1,669 @@
+{
+	"name": "Isamaru, Hound of Konda",
+	"player": "Denis Rosa",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "6afead32-3542-44c4-82d6-b6a81beb9f90",
+				"name": "Isamaru, Hound of Konda",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "228c1650-da3c-4099-91b6-18e3873c9cdb",
+						"name": "Archon of Emeria",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "403a50cc-fa16-42a4-b9f2-d8327e5d1bb6",
+						"name": "Aven Mindcensor",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "74b1eae0-1bf8-4922-a9e3-45c01ece9005",
+						"name": "Basri's Lieutenant",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "241e5c4e-0f0b-4a3f-91e0-87387a11e81e",
+						"name": "Benevolent Bodyguard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1542ad81-169e-4ac8-bd85-038494489594",
+						"name": "Bounty Agent",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f54eb705-6326-4bac-bf0e-68d42db7a270",
+						"name": "Brimaz, King of Oreskos",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3f82012-5c33-47bc-a3c8-56ae2eea1fb9",
+						"name": "Dauntless Bodyguard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "98b0a4a8-9319-451b-9b79-b0bca7a41e91",
+						"name": "Drannith Magistrate",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b6501e4e-8188-44ed-b661-55fe32bc7fec",
+						"name": "Flickerwisp",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "75754468-2850-42e6-ab22-61ff7b9d1214",
+						"name": "Giant Killer ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4e117771-5a8b-4812-b487-32ba34b7f724",
+						"name": "Giver of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b4c4f694-618a-43ed-8781-2a51a234ba8e",
+						"name": "Grand Abolisher",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94ebd5bd-99b3-4371-9ca2-e0504db1458e",
+						"name": "Hallowed Spiritkeeper",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0f672328-3361-498e-a9f4-2d8e69a8b072",
+						"name": "Imposing Sovereign",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b548e817-912b-4922-8b73-f1009aeb2ab8",
+						"name": "Knight of the White Orchid",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "58c39df6-b237-40d1-bdcb-2fe5d05392a9",
+						"name": "Kytheon, Hero of Akros ",
+						"types": [
+							"Creature",
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "85431851-36c6-4515-8000-d0b9a268b4c9",
+						"name": "Leonin Arbiter",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "42cc01f0-159c-4f34-8e6a-3c5c4a21ec07",
+						"name": "Leonin Relic-Warder",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fe964e7e-e2c5-4263-889d-0a531eb51442",
+						"name": "Luminarch Aspirant",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bb65df55-d6a6-4a57-a903-e5eb17637982",
+						"name": "Luminous Broodmoth",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "56086ccd-a628-435b-a7af-ca28d89276da",
+						"name": "Mirran Crusader",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fc0b64f2-2bbb-40bb-b025-3a303a22f68b",
+						"name": "Mother of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "79045117-093b-47e2-ad5c-973810bc4925",
+						"name": "Palace Jailer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6982a82c-dd32-40d2-8dd2-ec92d0fc6c2d",
+						"name": "Phyrexian Revoker",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "af3928b4-813a-4120-8799-de34235d60ac",
+						"name": "Ranger-Captain of Eos",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3cb635bb-def8-43f9-aad1-dd298dcc730b",
+						"name": "Recruiter of the Guard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9620716d-9be8-4ebd-80d2-679373f4f897",
+						"name": "Remorseful Cleric",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "feb59931-8941-46fb-8e1c-f80ff3730dd9",
+						"name": "Seasoned Hallowblade",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6911759c-7177-402c-a95a-f9f46efaf521",
+						"name": "Selfless Savior",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4624976-3773-4a1e-b725-5f6efce147a5",
+						"name": "Selfless Spirit",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
+						"name": "Skyclave Apparition",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c5a41a4f-aa85-44cd-8238-02894ff83223",
+						"name": "Stonecloaker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d3473d0-b46f-41f5-ac1e-ba217f7747d4",
+						"name": "Stoneforge Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b05031dc-f99c-49d3-9a20-3453587d8dea",
+						"name": "Thalia, Guardian of Thraben",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab0cee38-5e24-49d0-870c-22843ed4e101",
+						"name": "Thalia, Heretic Cathar",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bd26b7b1-992d-4b8c-bc33-51aab5abdf98",
+						"name": "Tithe Taker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f346387c-2f13-472b-b5b1-968b490eb38f",
+						"name": "Tomik, Distinguished Advokist",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
+						"name": "Walking Ballista",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					}
+				],
+				"count": 38,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "2d82cf3e-b29f-4eb1-a58f-dadddc6d7ec2",
+						"name": "Gideon Blackblade",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "187e887c-c39d-4d25-a506-cdc95fc70316",
+						"name": "Gideon, Ally of Zendikar",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "5803fdbb-57a4-4b70-8585-23c1cc54d657",
+						"name": "Ancient Den",
+						"types": [
+							"Artifact",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d023d44-482e-4f60-b9b1-eede9bfb732f",
+						"name": "Grafted Wargear",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "66024e69-ad60-4c9a-a0ca-da138d33ad80",
+						"name": "Mox Amber",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8854e9a7-a799-47d0-8662-95aa527d3210",
+						"name": "Skullclamp",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7832abb5-5107-4603-904e-491b221bd3e3",
+						"name": "Smuggler's Copter",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2626d4c9-fcef-4057-a154-7d987a4a4b84",
+						"name": "Sword of Fire and Ice",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3b6e5956-f795-451b-bb24-56462d1ced27",
+						"name": "Umezawa's Jitte",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 7,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "9736d6f4-5ff6-4006-b45d-8e630382d160",
+						"name": "Force of Virtue",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf643b03-d388-451b-933a-28f3c4087877",
+						"name": "Honor of the Pure",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b7d4f6b0-ea17-4374-a80c-ba4dd207e9d6",
+						"name": "On Thin Ice",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cef789e8-e4cc-4f61-bc15-debc2487777f",
+						"name": "Parallax Wave",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 4,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "4c8ff6cd-e3ac-4024-aacb-86f7e1f43ba0",
+						"name": "Brave the Elements",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0c9ebec9-3474-4062-9607-2e2a72f78299",
+						"name": "Enlightened Tutor",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c",
+						"name": "Fight as One",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c972abe6-c732-4745-bde4-8b51698f05be",
+						"name": "Flawless Maneuver",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d7e8a22d-a94e-4dfa-86a3-edb80a03d82a",
+						"name": "Harm's Way",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2ee3e42e-120c-468a-988d-4441b6025bbe",
+						"name": "Path to Exile",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "48364e19-a3ea-4980-925f-7918e57315f1",
+						"name": "Reverent Mantra",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "78ca16f8-336a-444b-9f78-e97a3f20a3bc",
+						"name": "Shining Shoal",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "be2b4177-e47c-4dde-9ead-31b7602065ec",
+						"name": "Swords to Plowshares",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a1501a42-e233-423b-b68a-1b76630bbccc",
+						"name": "Unexpectedly Absent",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 10,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "aaa187c9-90b3-4770-963a-8a9f932430ef",
+						"name": "Council's Judgment",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "3ac535c1-9ef3-45b5-8959-7e79589d47ad",
+						"name": "Blinkmoth Nexus",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f910495-8bd7-4134-a281-c16fd666d5cc",
+						"name": "Castle Ardenvale",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a7a8b6b8-b95f-4014-b17a-a6d44d965995",
+						"name": "City of Traitors",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1c28ab69-1a46-45af-a331-1f52f99a9da3",
+						"name": "Crystal Vein",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "219c1d76-40cf-4edf-8145-e6cec8ca39ad",
+						"name": "Eiganjo Castle",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e93d3a9f-abc2-4f63-a74d-e5936609386f",
+						"name": "Flagstones of Trokair",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11af0af6-eaaa-4067-a4b5-3305ea90fb29",
+						"name": "Ghost Quarter",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "59b6fe0c-7bbe-433f-8400-4be4ce0e3f15",
+						"name": "Mishra's Factory",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "927ed667-c228-4b96-a9f6-7cbadade8134",
+						"name": "Mutavault",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d2507bc2-da17-4e46-b4c5-ba0080ce2c6f",
+						"name": "Rishadan Port",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f070bcc2-d764-44da-91ab-f2af23aa42e6",
+						"name": "Scavenger Grounds",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6077f4e9-5717-4048-b798-4f8d535a4170",
+						"name": "Shefet Dunes",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "25",
+						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
+						"name": "Snow-Covered Plains",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 37,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}

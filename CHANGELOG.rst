@@ -7,6 +7,7 @@ Changelog
 - Ajout de la page sur les bounces
 - Ajout de la page sur les cantrips
 - MAJ liste de Winota vers version 5.1
+- Ajout de 3 decklistes
 
 
 2.0.8 (2021-01-07)

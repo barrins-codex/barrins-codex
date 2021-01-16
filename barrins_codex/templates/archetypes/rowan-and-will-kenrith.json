@@ -1,0 +1,801 @@
+{
+	"name": "Rowan and Will Kenrith",
+	"player": "Kaourintin Le Guiban",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "789e690b-e4f3-499e-aa58-97c3b63b8d32",
+				"name": "Rowan Kenrith",
+				"types": [
+					"Planeswalker"
+				]
+			},
+			{
+				"count": "1",
+				"id": "be8061c6-21b8-4146-8917-c73a82060ffe",
+				"name": "Will Kenrith",
+				"types": [
+					"Planeswalker"
+				]
+			}
+		],
+		"count": 2
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "d8ed0335-daa6-4dbe-a94d-4d56c8cfd093",
+						"name": "Akoum Warrior ",
+						"types": [
+							"Creature",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
+						"name": "Snapcaster Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "87f6aaba-ad2d-41ea-8d07-21c67d384aa0",
+						"name": "The Locust God",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "890eee8d-a339-4143-adfa-1b17ec10c099",
+						"name": "Umara Wizard ",
+						"types": [
+							"Creature",
+							"Land"
+						]
+					}
+				],
+				"count": 4,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ff8086cd-b868-4f4e-823e-2635ad7ebc07",
+						"name": "Chandra, Torch of Defiance",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c8817585-0d32-4d56-9142-0d29512e86a9",
+						"name": "Jace, the Mind Sculptor",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6710a1e4-299c-4ce1-afda-265d27097061",
+						"name": "Narset, Parter of Veils",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc",
+						"name": "Arcane Signet",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "afdbb860-2bea-4cf6-8959-6a19ba1de56c",
+						"name": "Sapphire Medallion",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e3257833-b237-49ef-856a-3c1d1c752cf8",
+						"name": "Vedalken Shackles",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+						"name": "Search for Azcanta ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "613694aa-b169-400d-8063-2b83d8303611",
+						"name": "Treachery",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "d27d5b87-6dfc-4b99-822b-f6f8489ad275",
+						"name": "Abrade",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab830392-4d7e-4b45-93cf-35ed1e935228",
+						"name": "Blink of an Eye",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
+						"name": "Brainstorm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "416943f1-8416-4e3b-961f-b38df3986058",
+						"name": "Burst Lightning",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
+						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "30f6fca9-003b-4f6b-9d6e-1e88adda4155",
+						"name": "Cryptic Command",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "39b41cb3-ca3d-4389-8f66-e1f77f5fb683",
+						"name": "Fact or Fiction",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "610135d6-d32f-4ee9-b053-dc32da14c333",
+						"name": "Fire ",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ffaab905-0b97-42c2-a1a3-1e72275caa82",
+						"name": "Flash of Insight",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e9be371c-c688-44ad-ab71-bd4c9f242d58",
+						"name": "Force of Negation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+						"name": "Force of Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
+						"name": "Force Spike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
+						"name": "Gifts Ungiven",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d6220b4-a5b8-45c8-9422-fab9eb32322c",
+						"name": "Harvest Pyre",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bda887f9-ea83-435e-b9d6-48f979a5fdb7",
+						"name": "Impulse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1af92296-455a-425e-9397-a96d09937767",
+						"name": "Incinerate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3463be0-df9e-4cb9-a90f-5d9d2ee729e0",
+						"name": "Into the Roil",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "301750a7-d1fd-435e-bfa8-9d2fb22ad627",
+						"name": "Jwari Disruption ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+						"name": "Lightning Bolt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "116d6679-2834-4cfe-a848-846c17f1af42",
+						"name": "Lightning Strike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "01e39726-6229-4956-b3f9-7eb1d91227ef",
+						"name": "Logic Knot",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94db1674-d72b-4c1f-b436-490e5363bee7",
+						"name": "Magmatic Sinkhole",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
+						"name": "Mana Leak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
+						"name": "Memory Lapse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+						"name": "Mental Misstep",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
+						"name": "Miscalculation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5045f15f-6bf9-43a9-a09c-904992625948",
+						"name": "Mystic Confluence",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e92c7477-d453-4fa4-acf4-3835ab9eb55a",
+						"name": "Negate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "323db259-d35e-467d-9a46-4adcb2fc107c",
+						"name": "Opt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11568cdf-6148-494c-8b98-f5ca5797d775",
+						"name": "Silundi Vision ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b3d6d42a-7607-4361-acc4-7f3cb956bfc9",
+						"name": "Skred",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
+						"name": "Spell Snare",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
+						"name": "Spikefield Hazard ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fcf7fd8a-adc3-4099-8e30-08375f263446",
+						"name": "Supreme Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
+						"name": "Tale's End",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2c1241d0-20d4-4eab-970d-74e476f023b4",
+						"name": "Thassa's Intervention",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7b93726a-9ee7-4010-9db1-1e1ac5955398",
+						"name": "Think Twice",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "228e551e-023a-4c9a-8f32-58dae6ffdf7f",
+						"name": "Valakut Awakening ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					}
+				],
+				"count": 38,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ec898bc9-9ab8-4394-8c4c-8d652f313919",
+						"name": "Anger of the Gods",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
+						"name": "Chain Lightning",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "15affc1b-2ebb-4934-87a2-10e89eafe894",
+						"name": "Flame Slash",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bef58faf-4d5e-4c66-9780-28abfc4c0c69",
+						"name": "Mizzium Mortars",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11f68867-a46c-447f-9061-2bc4dbdde206",
+						"name": "Order of Succession",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
+						"name": "Ponder",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+						"name": "Preordain",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "193071fe-180b-4d35-ba78-9c16675c29fc",
+						"name": "Sea Gate Restoration ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6ca3457c-4924-4824-8f32-7f4a12d2e2ea",
+						"name": "Serum Visions",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+						"name": "Shatterskull Smashing ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1b9510b8-6601-4116-8713-ff7649c000eb",
+						"name": "Subterranean Tremors",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f11cd406-c6ae-4018-ae45-4e5577aa82ae",
+						"name": "Sweltering Suns",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 12,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ea6bc7d5-e8f6-4103-920c-9f7ec5cd6c28",
+						"name": "Blast Zone",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "52e912b4-492f-415b-b0ad-d9f90c6139c6",
+						"name": "Cascade Bluffs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d313d051-7295-4884-8cbf-f2f835fd45f4",
+						"name": "Fabled Passage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3e84e179-9d59-4d08-8a36-51ad2fc32ae3",
+						"name": "Field of Ruin",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2d96b00c-8b73-4b4a-b784-4c7e779f8fd7",
+						"name": "Izzet Boilerworks",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "78114f25-f40a-4e2e-bf89-29ea9b3500e2",
+						"name": "Maze of Ith",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5538f54e-81dc-4396-9d47-3087df16b630",
+						"name": "Myriad Landscape",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "170e792c-80d5-4775-ad95-37614574ab84",
+						"name": "Mystic Sanctuary",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2668ac91-6cda-4f81-a08d-4fc5f9cb35b2",
+						"name": "Riverglide Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "983d129b-809b-436e-bb66-3c7028709e50",
+						"name": "Shivan Reef",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "8",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "2",
+						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
+						"name": "Snow-Covered Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b8ebe3cf-7143-453a-b0ef-2f5bdaac3185",
+						"name": "Steam Vents",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6bc412fc-e9d4-4283-bd4a-811384e79b5c",
+						"name": "Sulfur Falls",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "80f775ed-0ed0-451f-9916-01d00bbd5112",
+						"name": "Tectonic Edge",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1652bb3c-c365-4046-b07e-3d861fa324c6",
+						"name": "Temple of Epiphany",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b69cc893-4e71-4724-8df3-fcc0a037e399",
+						"name": "Temple of the False God",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f73ea932-5aba-4847-bb13-4cc0eb5dc726",
+						"name": "Volcanic Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd0ee251-6c79-499b-8366-c281c989b061",
+						"name": "Wandering Fumarole",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 36,
+				"type": "Lands"
+			}
+		],
+		"count": 98
+	}
+}

@@ -1,0 +1,22 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/rowan-and-will-kenrith.json" as deck_json %}
+
+{% block title %}
+Winota, Joiner of Forces
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Rowan and Will Kenrith</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed %}
+<p>
+	<em>Analyse à venir ...</em>
+</p>
+{% endtrans %}
+{% endblock %}

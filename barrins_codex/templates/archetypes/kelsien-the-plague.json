@@ -1,0 +1,861 @@
+{
+	"name": "Kelsien, the Plague",
+	"player": "Flavien Paillet",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "039d25d4-ce26-4ecf-bbf5-42187cf0230a",
+				"name": "Kelsien, the Plague",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "0d0950bb-d68d-4774-910e-4a72aa59f7ad",
+						"name": "Adanto Vanguard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "241e5c4e-0f0b-4a3f-91e0-87387a11e81e",
+						"name": "Benevolent Bodyguard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "425bff89-ad15-4d22-bce9-a4a07dbafd87",
+						"name": "Bomat Courier",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+						"name": "Bonecrusher Giant ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b0d88239-43dc-46b8-8d46-626e2f8f1070",
+						"name": "Dark Confidant",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3f82012-5c33-47bc-a3c8-56ae2eea1fb9",
+						"name": "Dauntless Bodyguard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "13e3c0c5-7451-4da9-acc0-d6e4e1f2655e",
+						"name": "Dire Fleet Daredevil",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "98b0a4a8-9319-451b-9b79-b0bca7a41e91",
+						"name": "Drannith Magistrate",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "05469d01-0d2b-47b9-8a69-16cf0c3d43f8",
+						"name": "Fanatical Firebrand",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2019a4dd-a2cb-47a0-a1d5-da40d42013f3",
+						"name": "Figure of Destiny",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "73aaaa09-c985-42f8-b426-06fd3b8de66d",
+						"name": "Fourth Bridge Prowler",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f6a45d0e-582a-4ec1-b83b-71b6a0ff6249",
+						"name": "General's Enforcer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4e117771-5a8b-4812-b487-32ba34b7f724",
+						"name": "Giver of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ee2a0d71-15a2-4061-b5f2-434755094aa4",
+						"name": "Grim Lavamancer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3f86f74-316a-4885-bf5e-103ffa20bf4d",
+						"name": "Icatian Javelineers",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72495879-39ce-449d-ad2f-ef32ea46f3aa",
+						"name": "Kari Zev, Skyship Raider",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88496096-fd9a-451a-85d9-31ccc3580623",
+						"name": "Kitesail Freebooter",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "58c39df6-b237-40d1-bdcb-2fe5d05392a9",
+						"name": "Kytheon, Hero of Akros ",
+						"types": [
+							"Creature",
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b5fef5fe-3e59-4fd6-8a88-7c1cee56892f",
+						"name": "Loyal Apprentice",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5ad36fb2-c44e-4085-ba0d-54277841ad3a",
+						"name": "Lurrus of the Dream-Den",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2b48497-b104-454c-8b5b-596393470f2d",
+						"name": "Mogg Fanatic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fc0b64f2-2bbb-40bb-b025-3a303a22f68b",
+						"name": "Mother of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "79045117-093b-47e2-ad5c-973810bc4925",
+						"name": "Palace Jailer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d6c04d8d-f552-4af3-b014-efb7a1c577f8",
+						"name": "Queen Marchesa",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "af3928b4-813a-4120-8799-de34235d60ac",
+						"name": "Ranger-Captain of Eos",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0ecbe097-ba51-42e5-957c-382eb66c08f0",
+						"name": "Robber of the Rich",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "feb59931-8941-46fb-8e1c-f80ff3730dd9",
+						"name": "Seasoned Hallowblade",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6911759c-7177-402c-a95a-f9f46efaf521",
+						"name": "Selfless Savior",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4624976-3773-4a1e-b725-5f6efce147a5",
+						"name": "Selfless Spirit",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
+						"name": "Skyclave Apparition",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d3473d0-b46f-41f5-ac1e-ba217f7747d4",
+						"name": "Stoneforge Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b05031dc-f99c-49d3-9a20-3453587d8dea",
+						"name": "Thalia, Guardian of Thraben",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2be39749-ad6f-4160-99eb-c677eee7f1b2",
+						"name": "Thraben Inspector",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ba9c7a2e-99c6-4498-a8ed-9171cd9373e0",
+						"name": "Tidehollow Sculler",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a02e3c10-cc21-4e06-a987-b03aee61bd50",
+						"name": "Vigilant Martyr",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 35,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "2d82cf3e-b29f-4eb1-a58f-dadddc6d7ec2",
+						"name": "Gideon Blackblade",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "455f3f0d-0609-46f0-a7b6-d933c4131f5c",
+						"name": "Basilisk Collar",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "aaae15dd-11b6-4421-99e9-365c7fe4a5d6",
+						"name": "Embercleave",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7832abb5-5107-4603-904e-491b221bd3e3",
+						"name": "Smuggler's Copter",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3b6e5956-f795-451b-bb24-56462d1ced27",
+						"name": "Umezawa's Jitte",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 4,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "4b8f32e2-5dc8-4f1b-8a69-d3ae06378ed8",
+						"name": "Experimental Frenzy",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c",
+						"name": "Legion's Landing ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cef789e8-e4cc-4f61-bc15-debc2487777f",
+						"name": "Parallax Wave",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "36c3288b-ab10-40df-a0ce-17ee4ecdb98e",
+						"name": "Boros Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c61fa2c0-63c0-4dc2-9f17-5a00530e3348",
+						"name": "Deadly Rollick",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0c9ebec9-3474-4062-9607-2e2a72f78299",
+						"name": "Enlightened Tutor",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
+						"name": "Fatal Push",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6a0139c2-ad86-4c71-ab6d-4840c37d5d20",
+						"name": "Fire Covenant",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c972abe6-c732-4745-bde4-8b51698f05be",
+						"name": "Flawless Maneuver",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+						"name": "Lightning Bolt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3e897af5-d450-4a7c-a02a-543914c2c680",
+						"name": "Lightning Helix",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "be2b4177-e47c-4dde-9ead-31b7602065ec",
+						"name": "Swords to Plowshares",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c513f51b-a0db-4c08-8acc-1e91060b93b7",
+						"name": "Tainted Pact",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1a2ba191-f11c-47d3-8459-34b0e0e56fd9",
+						"name": "Terminate",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 11,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "37e34017-0aeb-4a93-9edf-596bf3597a0e",
+						"name": "Call of the Death-Dweller",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
+						"name": "Chain Lightning",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
+						"name": "Demonic Tutor",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "15affc1b-2ebb-4934-87a2-10e89eafe894",
+						"name": "Flame Slash",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "db75b77f-a230-4bad-b697-a40687671842",
+						"name": "Steelshaper's Gift",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b62abd0c-ec3e-45d7-989d-da269812aeef",
+						"name": "Unearth",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 6,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "377cee38-e769-47b0-abd5-0f528600f36a",
+						"name": "Badlands",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "eb139e09-4e88-498a-908e-d16b5ddf1320",
+						"name": "Battlefield Forge",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3d71be5f-0fd7-4a88-8041-f4d6bc4cc9ac",
+						"name": "Blackcleave Cliffs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5faba6c8-3463-47c1-ba01-09eb87fcb2d5",
+						"name": "Blood Crypt",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6358592c-b6e8-4263-b96b-c548fdac5193",
+						"name": "Caves of Koilos",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2d120ddb-73e7-4dbc-b48c-4a6c74f331c3",
+						"name": "City of Brass",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e0b52b9c-7278-46b4-9f3c-3a7fc0c7e526",
+						"name": "Clifftop Retreat",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c8769e97-aee8-4466-a9d7-0f4245ae4a97",
+						"name": "Concealed Courtyard",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "91570836-9e36-4774-8d5d-7cbcee0012ba",
+						"name": "Dragonskull Summit",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "219c1d76-40cf-4edf-8145-e6cec8ca39ad",
+						"name": "Eiganjo Castle",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "713d95ae-4217-4544-9e00-06854fd0c6c7",
+						"name": "Fetid Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ced4c824-2dfc-42ae-84e6-09f8e3f51b5b",
+						"name": "Godless Shrine",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0127d42f-bf40-48f4-a3a0-1a1c4039f432",
+						"name": "Graven Cairns",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "160ac412-005f-48ca-a204-10207307c6c2",
+						"name": "Inspiring Vantage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a1d95d37-5dbe-4a25-bc80-a4db08f3c63a",
+						"name": "Isolated Chapel",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cb8d03e-e1d2-451e-97a8-141082f92501",
+						"name": "Mana Confluence",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
+						"name": "Marsh Flats",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1852c1e1-fbea-4b14-9927-4b1849f9b8a3",
+						"name": "Path of Ancestry",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2ff721e2-b12a-4cd1-b846-fccd61c6b69b",
+						"name": "Plateau",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "919a51f8-e7b5-4544-85a3-2d76f9d2d41d",
+						"name": "Reflecting Pool",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "225cd301-7d04-480d-94ed-52537d944c6f",
+						"name": "Rugged Prairie",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b7b598d0-535d-477d-a33d-d6a10ff5439a",
+						"name": "Sacred Foundry",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "748e6a61-9c1f-4225-9f04-e54002f63ac3",
+						"name": "Savai Triome",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "649aa116-4bb5-4974-b8dc-38a8c627717a",
+						"name": "Scrubland",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ac07e230-0297-4e1d-bdfe-119010e0ad8e",
+						"name": "Silent Clearing",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
+						"name": "Snow-Covered Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
+						"name": "Snow-Covered Plains",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
+						"name": "Snow-Covered Swamp",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ca7f2426-5a56-4dca-a059-65aa7266ac83",
+						"name": "Sulfurous Springs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+						"name": "Windswept Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 39,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}
