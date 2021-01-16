@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.9 (unreleased)
+2.0.9 (2021-01-16)
 ------------------
 
 - Ajout de la page sur les bounces
