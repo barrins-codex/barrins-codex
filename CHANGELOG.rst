@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - Ajout d'une cartouche wip dans section archetype
+- Ajout d'une liste de The Gitrog Monster
 
 
 2.0.9 (2021-01-16)

@@ -1,0 +1,19 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/the-gitrog-monster.json" as deck_json %}
+
+{% block title %}
+Winota, Joiner of Forces
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>The Gitrog Monster</h1>
+{{ layout.wip() }}
+{% endblock %}
+
+{% block archetype %}
+{% endblock %}
