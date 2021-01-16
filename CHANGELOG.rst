@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout de la page sur les bounces
+- Ajout de la page sur les cantrips
 - MAJ liste de Winota vers version 5.1
 
 

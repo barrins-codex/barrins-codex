@@ -6,8 +6,49 @@
 {% endblock %}
 
 {% block content %}
-{% trans trimmed %}
+{% trans trimmed
+	article_wizards=external("https://magic.wizards.com/en/articles/archive/latest-developments/magic%E2%80%99s-zero-level-spells-2006-08-04", "Magic's Zero-Level Spells"),
+	cantrips=link("/cartes-thematiques/les-cantrips")
+%}
 <h1>{{ U }} Les cantrips</h1>
+<p>
+	Un cantrip est un sort qui fait piocher une carte en plus de son effet principal. Les premiers
+	cantrips, issus d'anciennes extensions, faisaient piocher lors de l'entretien suivant, aussi
+	appelés <em>slowtrips</em>, alors que les plus récents, comme {{ ponder }},  permettent de
+	piocher immédiatement.
+</p>
+<p>
+	Ils sont appréciés car leur utilisation ne génère pas de <em>Card Disadvantage</em>. Les
+	cantrips les moins chers peuvent ainsi être joués davantage pour leur effet de pioche que pour
+	leur effet principal, épurant le deck pour un investissement en mana raisonnable.
+</p>
+<p>
+	<strong>Aaron Forsythe</strong> présente en détail dans un article sur le site de Wizards of
+	the Coast, {{ article_wizards }}, ce qu'est un cantrip et d'où vient ce mot qui n'est utilisé
+	sur aucune carte Magic.
+</p>
+<p>
+	Les cantrips les plus joués en Duel Commander sont {{ brainstorm }}, {{ ponder }} et
+	{{ preordain }} qui sont également joués dans tous les formats où ces sorts sont légaux. Selon
+	les besoins, il est possible de jouer également {{ opt }}, {{ serum_visions }} ou
+	{{ sleight_of_hand }}.
+</p>
+<p>
+	Les sorts {{ gitaxian_probe }} et {{ peek }} sont joués tant pour leur aspect cantrip que pour
+	la possibilité fournie d'accéder à des informations de qualité sur la partie et sur les
+	prochains tours.
+</p>
+<p>
+	Les cantrips bleus sont joués pour leur facilité d'interagir avec le dessus de sa bibliothèque
+	sans perdre de carte de sa main, assurant ainsi l'enchainement de terrains et de sorts
+	impactants en diminuant la dépendance à l'aléatoire.
+</p>
+<p>
+	Il existe aussi d'autre sorts qui sont des cantrips. Leur utilisation dépend du besoin de jouer
+	ces types de cartes. Il est possible de noter les cantrips suivants sont jouables dans certains
+	decks selon le plan de jeu adopté : {{ arcums_astrolabe }}, {{ cloudkin_seer }}, {{ explore }},
+	{{ fblthp_the_lost }}, {{ growth_spiral }}, {{ leadership_vacuum }} ou encore {{ repulse }}. La
+	page {{ cantrips }} reprend en détail quelques-uns des cantrips jouables.
+</p>
 {% endtrans %}
-{{ layout.wip() }}
 {% endblock %}
