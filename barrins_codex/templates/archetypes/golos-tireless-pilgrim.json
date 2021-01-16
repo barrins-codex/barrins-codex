@@ -1,0 +1,818 @@
+{
+	"name": "Golos, Tireless Pilgrim",
+	"player": "Adrien Demoget",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "1fa48620-4c3d-4f75-be1f-c12c4aa59f51",
+				"name": "Golos, Tireless Pilgrim",
+				"types": [
+					"Artifact",
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "c4a5f86f-44a8-4735-909a-770586d33a15",
+						"name": "Arboreal Grazer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0430db1a-5cad-4444-ba93-57fb32e65606",
+						"name": "Dread Presence",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6d964876-194b-49f1-8e74-cfe9269f2c62",
+						"name": "Dryad of the Ilysian Grove",
+						"types": [
+							"Enchantment",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8d74a469-c71d-4773-99d3-5456b31df424",
+						"name": "Emrakul, the Promised End",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6d5537da-112e-4679-a113-b5d7ce32a66b",
+						"name": "Primeval Titan",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "262331f4-5e9c-4019-8ab8-3a97a2a6f1e6",
+						"name": "Tireless Tracker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "97ec2e55-fa60-4ee1-b9c0-e6b84939697b",
+						"name": "Vampire Hexmage",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 7,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "3462a3d0-5552-49fa-9eb7-100960c55891",
+						"name": "Oko, Thief of Crowns",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9c017fa9-7021-417a-9c2e-3df409644fcf",
+						"name": "Ugin, the Spirit Dragon",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4a706ecf-3277-40e3-871c-4ba4ead16e20",
+						"name": "Wrenn and Six",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc",
+						"name": "Arcane Signet",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2462fdf-a594-47d0-8e10-b55901e350d9",
+						"name": "Arcum's Astrolabe",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "551c0a45-9515-4e51-84e5-79703832a661",
+						"name": "Expedition Map",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e5892a23-efae-4731-9b8f-41c87960fe93",
+						"name": "Nihil Spellbomb",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "14602fed-8666-4884-8fca-13529578f9e2",
+						"name": "Prophetic Prism",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 5,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "14f8f638-b7fc-4e38-8623-ce7d2ebc82e6",
+						"name": "Heartless Summoning",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3475eb3-909d-450b-9597-b241b259b425",
+						"name": "Infernal Darkness",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8652e3a1-bcd4-4c0c-a085-34f19702df26",
+						"name": "Pernicious Deed",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e75594cc-de47-49f2-9a8b-ba76c576368e",
+						"name": "Prismatic Omen",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0a71fb62-acbd-49f5-842f-0fc9fa48afea",
+						"name": "Solemnity",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 5,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "02517f12-cd8a-4d62-89cb-523b9b9295d5",
+						"name": "Abrupt Decay",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d00efb55-a859-408c-b727-6914584c06d2",
+						"name": "Assassin's Trophy",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4249cc64-f75b-4c76-a41a-5b25873c74bc",
+						"name": "Crop Rotation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5bcb4398-edd1-41a7-a496-b12bce22ceb6",
+						"name": "Defile",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f8eb4087-3a4c-4de8-8e29-f4cd71acb180",
+						"name": "Eliminate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0c9ebec9-3474-4062-9607-2e2a72f78299",
+						"name": "Enlightened Tutor",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
+						"name": "Fatal Push",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
+						"name": "Gifts Ungiven",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8185ecd0-2fdf-4d8b-a396-d5db593985b9",
+						"name": "Go for the Throat",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e4e6794a-feeb-4fc8-a2ee-38c75c18aaae",
+						"name": "Heartless Act",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
+						"name": "Intuition",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "179bd74b-c458-49d6-90ac-6075454e43dd",
+						"name": "Kaya's Guile",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6abc24e1-e721-471a-9efd-547f320675b0",
+						"name": "Mythos of Nethroi",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e38192e5-814f-4269-bae8-13867a73e7fa",
+						"name": "Shred Memory",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "be2b4177-e47c-4dde-9ead-31b7602065ec",
+						"name": "Swords to Plowshares",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b34d9054-5ad8-4a7d-a5c8-58bc39051834",
+						"name": "Worldly Tutor",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 16,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "59dcf43b-a65f-43e4-a683-437021565f6a",
+						"name": "Collective Brutality",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7fc1d7db-11a3-4ff9-8d27-1fe401053080",
+						"name": "Damnation",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e9df9c5e-7087-42b2-9001-c89d40a66c68",
+						"name": "Dark Petition",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
+						"name": "Demonic Tutor",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "49c07ea0-27ff-46fb-a41f-3e378c977b5d",
+						"name": "Duress",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3405ac8-a8e3-4c65-807e-6bfcfa162852",
+						"name": "Explore",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "75e4e808-1511-40ca-984b-f95fb8f5daf0",
+						"name": "Farseek",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "899ed197-e434-4f01-a71f-053ae3820d6c",
+						"name": "Life from the Loam",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "676ab73f-2759-43b6-9ae8-ca33a55ebf80",
+						"name": "Maelstrom Pulse",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "38d662a5-8ae1-42b6-8086-b7615e58da08",
+						"name": "Mutilate",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b1ce11c3-61bc-4391-b316-945661cfeaa9",
+						"name": "Nature's Lore",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "009d2fb8-6144-46d9-9085-26232c174109",
+						"name": "Necrotic Hex",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7e68f4df-88ce-4e09-a03c-7edf40bff167",
+						"name": "Sevinne's Reclamation",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a12222b9-dacc-4cd8-b6a5-2b4b260d53ea",
+						"name": "Sylvan Scrying",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b281a308-ab6b-47b6-bec7-632c9aaecede",
+						"name": "Thoughtseize",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bd9307ec-987b-4bbf-a679-cfaabe283a80",
+						"name": "Three Visits",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bbc69a17-db08-4b4a-bc37-98a12ea108dc",
+						"name": "Traverse the Ulvenwald",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1658f12b-8ac5-4d29-86d5-f20c4d5f7e48",
+						"name": "Vindicate",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 18,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "377cee38-e769-47b0-abd5-0f528600f36a",
+						"name": "Badlands",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e83d49c1-7d84-43f9-8548-5697603fefc0",
+						"name": "Bayou",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5faba6c8-3463-47c1-ba01-09eb87fcb2d5",
+						"name": "Blood Crypt",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "01769b12-4841-4a1a-a089-e061442203ed",
+						"name": "Bojuka Bog",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "17f91d5f-b717-4ff4-a598-6d57c22dd802",
+						"name": "Cabal Coffers",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "778739db-4431-4e58-91de-d2619aeef3ce",
+						"name": "Cascading Cataracts",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "00cb17a0-5a13-4d02-b7fb-f99531bc8ca5",
+						"name": "Dark Depths",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d2d5124b-4d73-4aa9-9331-88e03779ffad",
+						"name": "Eye of Ugin",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d313d051-7295-4884-8cbf-f2f835fd45f4",
+						"name": "Fabled Passage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3d23f800-7a6f-40e3-b242-9f5955e47a75",
+						"name": "Glacial Chasm",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ced4c824-2dfc-42ae-84e6-09f8e3f51b5b",
+						"name": "Godless Shrine",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2b74bb81-fb9a-40e5-a941-e517430b52f5",
+						"name": "Indatha Triome",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
+						"name": "Marsh Flats",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5538f54e-81dc-4396-9d47-3087df16b630",
+						"name": "Myriad Landscape",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "eff1f52c-5c43-4260-aaa0-6920846a191c",
+						"name": "Overgrown Tomb",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "748e6a61-9c1f-4225-9f04-e54002f63ac3",
+						"name": "Savai Triome",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "649aa116-4bb5-4974-b8dc-38a8c627717a",
+						"name": "Scrubland",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ca17acea-f079-4e53-8176-a2f5c5c408a1",
+						"name": "Snow-Covered Forest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
+						"name": "Snow-Covered Plains",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "6",
+						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
+						"name": "Snow-Covered Swamp",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "269a926d-7788-4668-8bd8-7572dbf5f5eb",
+						"name": "Thespian's Stage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "068bb15a-fc2d-42a2-859b-837b946d23c0",
+						"name": "Underground Sea",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "02e17705-739e-409f-a6fd-7bab22120b22",
+						"name": "Urborg, Tomb of Yawgmoth",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "37bce60d-2cb0-4772-9f5c-122a7ed426a0",
+						"name": "Valakut, the Molten Pinnacle",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "82fc9498-7397-4857-87fe-7c9010944ed8",
+						"name": "Vesuva",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
+						"name": "Watery Grave",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+						"name": "Windswept Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b87891cd-b457-4dff-8d18-a7eaf6748fc6",
+						"name": "Witch's Cottage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cc520518-2063-4b57-a0d4-10cf62a7175e",
+						"name": "Zagoth Triome",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 45,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}

@@ -74,6 +74,7 @@ STRUCTURE = Nav(
 			index=True,
 			children=[
 				Nav(lazy_gettext("Isamaru, Hound of Konda")),
+				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
 				Nav(lazy_gettext("Kelsien, the Plague")),
 				Nav(lazy_gettext("Kess, Dissident Mage")),
 				Nav(lazy_gettext("Rowan and Will Kenrith")),
