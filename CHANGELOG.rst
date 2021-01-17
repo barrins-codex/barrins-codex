@@ -9,6 +9,7 @@ Changelog
 - Ajout d'une liste de Aminatou, the Fateshifter
 - Ajout d'une liste de Golos, Tireless Pilgrim
 - Ajout d'une liste de The Gitrog Monster
+- Ajout d'une liste de Titania, Protector of Argoth
 
 
 2.0.9 (2021-01-16)

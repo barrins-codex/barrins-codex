@@ -1,0 +1,741 @@
+{
+	"name": "Titania, Protector of Argoth",
+	"player": "Myke Nismal",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "6f15ca0c-1128-485e-b9ca-69ce0e6a0b4e",
+				"name": "Titania, Protector of Argoth",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "e092bdd5-af65-44ce-8f72-519801115d82",
+						"name": "Arbor Elf",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fdfeeb64-0f86-45e9-97e3-dcec72683164",
+						"name": "Birds of Paradise",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "473d3633-6dc7-4026-a50e-3ea76b9e8c20",
+						"name": "Boreal Druid",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "59592a53-c5a5-4e0c-8b91-b2431fa84b07",
+						"name": "Courser of Kruphix",
+						"types": [
+							"Enchantment",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "44afd414-cc69-4888-ba12-7ea87e60b1f7",
+						"name": "Craterhoof Behemoth",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ba264166-948b-47d4-b302-64476acc1a55",
+						"name": "Destiny Spinner",
+						"types": [
+							"Enchantment",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6d964876-194b-49f1-8e74-cfe9269f2c62",
+						"name": "Dryad of the Ilysian Grove",
+						"types": [
+							"Enchantment",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d51269cf-a333-4a64-94cd-245798d840d2",
+						"name": "Elder Gargaroth",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e23da36a-66b6-4bf6-ae76-2240e9f916b6",
+						"name": "Elvish Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "39c431d7-d94b-46c4-bb89-f3db56214ab4",
+						"name": "Elvish Reclaimer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d74e7ded-d063-4d90-a9ff-91c44a8098d7",
+						"name": "Eternal Witness",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "450744cf-7eba-491b-97b0-ca80c6368bbb",
+						"name": "Fyndhorn Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "eb08b642-aff6-4c37-a952-f8ddcfc4767e",
+						"name": "Gilded Goose",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "36d4574a-3266-4497-b145-fb25820d8a7f",
+						"name": "Goreclaw, Terror of Qal Sisma",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2f632537-63bf-4490-86e6-e6067b9c1a3b",
+						"name": "Kazandu Mammoth ",
+						"types": [
+							"Creature",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "57ebd34e-dfe1-4093-a302-db395047a546",
+						"name": "Llanowar Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4b759f0-901f-4be3-93fa-224609b08d48",
+						"name": "Lotus Cobra",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a93e5fa9-cfe3-487b-af77-0dbf6c68ee04",
+						"name": "Magus of the Order",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "99a3376b-80be-4a53-9030-21d6256dc996",
+						"name": "Priest of Titania",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6d5537da-112e-4679-a113-b5d7ce32a66b",
+						"name": "Primeval Titan",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "92921fc1-11d0-41a9-b9b2-b44fd0913d31",
+						"name": "Prowling Serpopard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e41cf82d-3213-47ce-a015-6e51a8b07e4f",
+						"name": "Questing Beast",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8870ef0b-cb1f-463b-8509-fece4743d3d4",
+						"name": "Ramunap Excavator",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b800bb44-3594-4fb7-b007-10732632b51a",
+						"name": "Reclamation Sage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "50f23c47-278c-4188-8fb4-ae20a0c423c5",
+						"name": "Rhonas the Indomitable",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6aa5cc65-f8f1-4f6f-8b4e-2fedccbda684",
+						"name": "Rofellos, Llanowar Emissary",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "487116ab-b885-406b-aa54-56cb67eb3ca5",
+						"name": "Scavenging Ooze",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61f42823-8a48-4b81-a037-664ba1c69f29",
+						"name": "Scute Swarm",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8e318600-21af-4003-bcfa-be926cd24c5c",
+						"name": "Shifting Ceratops",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bfeeb515-7d3d-4678-a480-32485b197afb",
+						"name": "Spitting Spider",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "60d695b3-b02b-42c6-bf1b-9d97a8d82eae",
+						"name": "Sylvan Safekeeper",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bffc360e-db41-48f3-9365-680d55046e04",
+						"name": "Thought-Knot Seer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d9a8459b-4dea-4dc9-8b95-a3748472f699",
+						"name": "Thragtusk",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c6cf27a3-9bcf-475c-a324-7c3af50496dd",
+						"name": "Thrashing Brontodon",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "262331f4-5e9c-4019-8ab8-3a97a2a6f1e6",
+						"name": "Tireless Tracker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b65cb901-bfb0-454a-97ef-138021e524ff",
+						"name": "Wall of Roots",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 36,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "08cf7ee6-ba30-42cd-a5b3-fd2fe7252f11",
+						"name": "Garruk Wildspeaker",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "592c5e27-c538-425e-b41f-1d6708428853",
+						"name": "Vivien, Arkbow Ranger",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "3a9d1082-a862-45d4-9e5e-392e879fead6",
+						"name": "Zuran Orb",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "13cfca5f-e25a-432e-8679-54704eeeecc8",
+						"name": "Concordant Crossroads",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce4c6535-afea-4704-b35c-badeb04c4f4c",
+						"name": "Exploration",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "71a4860a-8bb6-45c0-b00a-b4a42da33ab9",
+						"name": "Garruk's Uprising",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0ccb4579-b090-45f6-a967-cec2c195f565",
+						"name": "Song of the Dryads",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "15625580-3cbd-459c-a667-87efdcdaf2b2",
+						"name": "Utopia Sprawl",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4ffdc806-876a-4403-bab2-c7350da4bf4a",
+						"name": "Wild Growth",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 6,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "7967cb69-1868-45c0-92d1-39dabe30f2a2",
+						"name": "Arachnogenesis",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e228bede-5972-4381-969b-9de26e570117",
+						"name": "Beast Within",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dac257a9-39bf-4185-9d2e-f80f0848a96a",
+						"name": "Chord of Calling",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "97a8a5fe-0391-489b-9556-0a1bf7e1900d",
+						"name": "Constant Mists",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4249cc64-f75b-4c76-a41a-5b25873c74bc",
+						"name": "Crop Rotation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4550b26a-3a73-4724-99d5-1e0a52c36701",
+						"name": "Summoner's Pact",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b34d9054-5ad8-4a7d-a5c8-58bc39051834",
+						"name": "Worldly Tutor",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 7,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "03998e86-ef67-4329-b106-61252f3f532a",
+						"name": "Edge of Autumn",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "985453e7-997e-4d77-a338-cc0290791ebe",
+						"name": "Finale of Devastation",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "01794178-cf41-454c-ac37-1d8b18e42db2",
+						"name": "Green Sun's Zenith",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b1ce11c3-61bc-4391-b316-945661cfeaa9",
+						"name": "Nature's Lore",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "64034e9c-1a1a-43e3-b101-cb2c7bbbccda",
+						"name": "Triumph of the Hordes",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 5,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ea6bc7d5-e8f6-4103-920c-9f7ec5cd6c28",
+						"name": "Blast Zone",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4fe9388d-b1ee-4f35-9fbd-5f504528b398",
+						"name": "Bonders' Enclave",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e3c2c66c-f7f0-41d5-a805-a129aeaf1b75",
+						"name": "Castle Garenbrig",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a7a8b6b8-b95f-4014-b17a-a6d44d965995",
+						"name": "City of Traitors",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0bec6181-e214-4833-8c2f-8a10d59b2879",
+						"name": "Command Beacon",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1c28ab69-1a46-45af-a331-1f52f99a9da3",
+						"name": "Crystal Vein",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d1fa74b2-f9bd-4617-8b65-878781f3a2fd",
+						"name": "Deserted Temple",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8cee476d-42e1-4997-87af-73e18f542167",
+						"name": "Dryad Arbor",
+						"types": [
+							"Land",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "75b03c30-c2b8-4207-b675-26c59c40a7e5",
+						"name": "Dust Bowl",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cb9a25c6-a1b7-4d6c-8a22-b407043a2280",
+						"name": "Evolving Wilds",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d313d051-7295-4884-8cbf-f2f835fd45f4",
+						"name": "Fabled Passage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11af0af6-eaaa-4067-a4b5-3305ea90fb29",
+						"name": "Ghost Quarter",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b11f5296-5f7d-41ca-a67d-e976273d7386",
+						"name": "Gingerbread Cabin",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3d23f800-7a6f-40e3-b242-9f5955e47a75",
+						"name": "Glacial Chasm",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "af7aafb7-6870-4d09-a191-70786766c459",
+						"name": "Hickory Woodlot",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "78114f25-f40a-4e2e-bf89-29ea9b3500e2",
+						"name": "Maze of Ith",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2d8f7396-23d3-48e2-8686-2b59ccbfc7e5",
+						"name": "Mouth of Ronom",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "834b27a0-dfd7-4f96-8cde-cacac4b24acc",
+						"name": "Nykthos, Shrine to Nyx",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "16",
+						"id": "ca17acea-f079-4e53-8176-a2f5c5c408a1",
+						"name": "Snow-Covered Forest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "80f775ed-0ed0-451f-9916-01d00bbd5112",
+						"name": "Tectonic Edge",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3b8b3d63-db84-4aa0-a529-f3c128fae964",
+						"name": "Terramorphic Expanse",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "48d6ce7c-5dc8-449b-acbd-db259ae687ed",
+						"name": "War Room",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+						"name": "Windswept Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 42,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}
