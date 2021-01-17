@@ -1,0 +1,736 @@
+{
+	"name": "Adeliz, the Cinder Wind",
+	"player": "Thomas Travert",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "b3c950e2-a43b-47f8-9ad6-1909ccc7acbf",
+				"name": "Adeliz, the Cinder Wind",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "425bff89-ad15-4d22-bce9-a4a07dbafd87",
+						"name": "Bomat Courier",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+						"name": "Bonecrusher Giant ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2089ec9-0665-448f-bfe9-d181de127814",
+						"name": "Brazen Borrower ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d257a3c9-443f-4899-badc-f075a14667c5",
+						"name": "Cursecatcher",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11bf83bb-c95b-4b4f-9a56-ce7a1816307a",
+						"name": "Delver of Secrets ",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fd97b3cf-924e-4f77-bb82-0bf19592389f",
+						"name": "Dreadhorde Arcanist",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "040ba7c4-c890-45b3-98cd-aa4ab7970e0a",
+						"name": "Ghitu Lavarunner",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3c0f5411-1940-410f-96ce-6f92513f753a",
+						"name": "Goblin Guide",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ee2a0d71-15a2-4061-b5f2-434755094aa4",
+						"name": "Grim Lavamancer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "869fb9f1-0d59-4874-aa52-ac665c3cc0e8",
+						"name": "Heartfire Immolator",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "43c6db4e-cc37-4473-b0f5-48d8a0b82f33",
+						"name": "Lightning Stormkin",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b5fef5fe-3e59-4fd6-8a88-7c1cee56892f",
+						"name": "Loyal Apprentice",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d8be6570-5b5f-4ffc-a5e5-67d7c41c8caa",
+						"name": "Magmatic Channeler",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1f685078-c9b3-42aa-be5a-be16be89ecc6",
+						"name": "Magus of the Moon",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "359b2f2b-7b58-47b6-b00c-8616f981e3a3",
+						"name": "Merfolk Trickster",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bfa31067-78f4-4804-a544-44d2cbaa80c6",
+						"name": "Monastery Swiftspear",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1e14e677-9bfa-4bcc-9772-8e7758d7538a",
+						"name": "Sea Gate Stormcaller",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d0e5f191-0b20-4bc4-b41e-36c53a182f85",
+						"name": "Siren Stormtamer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
+						"name": "Snapcaster Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8003786-6e2a-4e2d-a915-f23293c7273a",
+						"name": "Soul-Scar Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "281f6118-adb8-4a7d-9c77-5570f3399e6e",
+						"name": "Sprite Dragon",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7bba1b45-d8ae-42fd-b30f-c904640ab173",
+						"name": "Stormchaser Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2da0b45b-0ca9-40c4-bc7f-791039bc1876",
+						"name": "True-Name Nemesis",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cd702cf1-10ca-4448-9fb1-b6de635e839c",
+						"name": "Vendilion Clique",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a82fdb2f-b199-44ff-9615-90fc074cb8b0",
+						"name": "Viashino Pyromancer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bbac6d75-59ab-4d7d-87ae-46875abf8cc7",
+						"name": "Zurgo Bellstriker",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 26,
+				"type": "Creatures"
+			},
+			{
+				"cards": [],
+				"count": 0,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [],
+				"count": 0,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [],
+				"count": 0,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
+						"name": "Brainstorm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "416943f1-8416-4e3b-961f-b38df3986058",
+						"name": "Burst Lightning",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
+						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "58ebdee7-90b2-4b74-bb52-614b4042ceb7",
+						"name": "Daze",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "610135d6-d32f-4ee9-b053-dc32da14c333",
+						"name": "Fire ",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+						"name": "Force of Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
+						"name": "Force Spike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1af92296-455a-425e-9397-a96d09937767",
+						"name": "Incinerate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d8f0789-aa08-4ce5-8ed1-6544de1e3ed4",
+						"name": "Izzet Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+						"name": "Lightning Bolt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "116d6679-2834-4cfe-a848-846c17f1af42",
+						"name": "Lightning Strike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
+						"name": "Mana Leak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+						"name": "Mental Misstep",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "323db259-d35e-467d-9a46-4adcb2fc107c",
+						"name": "Opt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "25f98f02-9ada-4561-93fd-9cfcb0f48b5d",
+						"name": "Pyrokinesis",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dc595c63-af05-4c05-80e8-e1a90df26b0f",
+						"name": "Remand",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "44c5f884-d071-40c2-bb2c-925dc2197ea3",
+						"name": "Searing Spear",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3b42202-548e-46f2-90a6-6f952315d157",
+						"name": "Snap",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4f8b11a-6b21-4532-96c9-bdb2cad603e8",
+						"name": "Spell Pierce",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
+						"name": "Spell Snare",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "63b67070-38af-42e3-8d23-a081b06033fc",
+						"name": "Vapor Snag",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6975490f-7679-48b3-ba34-04dec97a29c2",
+						"name": "Wild Slash",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "59bf371a-164c-4db8-9207-197c2e7c3c10",
+						"name": "Wizard's Lightning",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 23,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
+						"name": "Chain Lightning",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1a6f256b-943e-4cfb-9fc9-d1ded68b5f97",
+						"name": "Chart a Course",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "819a513c-3be6-4bdc-8ba6-1f7326a8f3ea",
+						"name": "Fiery Confluence",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4dd8bdbd-99c9-4fa7-936a-acc7f4238507",
+						"name": "Fire Ambush",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "15affc1b-2ebb-4934-87a2-10e89eafe894",
+						"name": "Flame Slash",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
+						"name": "Gitaxian Probe",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf464f61-8a7f-493b-a80f-2f2b0ebd8bf6",
+						"name": "Incendiary Flow",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
+						"name": "Ponder",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+						"name": "Preordain",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86572747-8faa-4242-b059-07d11e6be1cd",
+						"name": "Roil Eruption",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6ca3457c-4924-4824-8f32-7f4a12d2e2ea",
+						"name": "Serum Visions",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1766d117-6ee1-4103-88e8-47b932a94d65",
+						"name": "Sleight of Hand",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9db3f454-4aeb-4e48-b961-bea760ea8ddf",
+						"name": "Volcanic Hammer",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 13,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1809361e-ae1a-4c47-8464-e6496e94d962",
+						"name": "Barbarian Ring",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "52e912b4-492f-415b-b0ad-d9f90c6139c6",
+						"name": "Cascade Bluffs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3aab13c-9d9d-4507-ae5d-da979990ae1b",
+						"name": "Fiery Islet",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "11",
+						"id": "1a25a714-c7f3-4697-8b69-8f966b4d370a",
+						"name": "Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "6",
+						"id": "69419307-53d5-40d7-82da-cab2e7bfbda4",
+						"name": "Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "927ed667-c228-4b96-a9f6-7cbadade8134",
+						"name": "Mutavault",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "af11d41a-0d29-45e9-9d27-a41282b9e292",
+						"name": "Ramunap Ruins",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2668ac91-6cda-4f81-a08d-4fc5f9cb35b2",
+						"name": "Riverglide Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "983d129b-809b-436e-bb66-3c7028709e50",
+						"name": "Shivan Reef",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4e587ea7-0632-4789-ba75-3c410da2bb96",
+						"name": "Spirebluff Canal",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b8ebe3cf-7143-453a-b0ef-2f5bdaac3185",
+						"name": "Steam Vents",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6bc412fc-e9d4-4283-bd4a-811384e79b5c",
+						"name": "Sulfur Falls",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f73ea932-5aba-4847-bb13-4cc0eb5dc726",
+						"name": "Volcanic Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 37,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}

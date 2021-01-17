@@ -73,6 +73,7 @@ STRUCTURE = Nav(
 			lazy_gettext("Archétypes"),
 			index=True,
 			children=[
+				Nav(lazy_gettext("Adeliz, the Cinder Wind")),
 				Nav(lazy_gettext("Isamaru, Hound of Konda")),
 				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
 				Nav(lazy_gettext("Kelsien, the Plague")),
