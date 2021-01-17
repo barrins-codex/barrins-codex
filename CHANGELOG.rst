@@ -6,6 +6,7 @@ Changelog
 
 - Ajout d'une cartouche wip dans section archetype
 - Ajout d'une liste de Adeliz, the Cinder Wind
+- Ajout d'une liste de Aminatou, the Fateshifter
 - Ajout d'une liste de Golos, Tireless Pilgrim
 - Ajout d'une liste de The Gitrog Monster
 
