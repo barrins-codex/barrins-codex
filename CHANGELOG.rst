@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.10 (unreleased)
+2.0.10 (2021-01-17)
 -------------------
 
 - Ajout d'une cartouche wip dans section archetype
