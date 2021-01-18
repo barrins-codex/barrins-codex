@@ -4,7 +4,7 @@ Changelog
 2.0.11 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Ajout disclaimer page Archétypes
 
 
 2.0.10 (2021-01-17)
