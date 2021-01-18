@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.11 (unreleased)
+2.0.11 (2021-01-18)
 -------------------
 
 - Ajout disclaimer page Archétypes
