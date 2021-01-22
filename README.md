@@ -70,9 +70,9 @@ contain leading zeroes. X is the major version, Y is the minor version, and Z is
 Each element MUST increase numerically. For instance: `1.9.0` -> `1.10.0` -> `1.11.0`.
 
 Given a version number MAJOR.MINOR.PATCH, I increment the:
-1. MAJOR version when I make changes like visual design and such that redefine the whole website,
-1. MINOR version when I add a section or a page, and
-1. PATCH version when I make bug fixes.
+1. MAJOR version when I add a section or make a backend evolution,
+1. MINOR version when I add a page or make a frontend evolution, and
+1. PATCH version when I make bug and typo fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the
 MAJOR.MINOR.PATCH format.
