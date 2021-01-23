@@ -6,7 +6,7 @@ Section Archétypes
 
 {% block content %}
 {% trans trimmed
-
+	deckbuilding=_("deckbuilding (<i>à venir</i>)")
 %}
 <h1>Archétypes</h1>
 <p>
@@ -20,27 +20,27 @@ Section Archétypes
 		<tbody>
 			<tr>
 				<td>{{ link("/archetypes/adeliz-the-cinder-wind") }}</td>
-				<td>(Agro-Contrôle)</td>
+				<td>(Tempo)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/aminatou-the-fateshifter") }}</td>
-				<td>(Contrôle)</td>
+				<td>(Prison)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/isamaru-hound-of-konda") }}</td>
-				<td>(Agro)</td>
+				<td>(Swarm)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/golos-tireless-pilgrim") }}</td>
-				<td>(Contrôle)</td>
+				<td>(Midrange Non-Bleu)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/kess-dissident-mage") }}</td>
-				<td>(Contrôle)</td>
+				<td>(Draw Go)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/kelsien-the-plague") }}</td>
-				<td>(Agro)</td>
+				<td>(Agro Linéaire)</td>
 			</tr>
 		</tbody>
 	</table>
@@ -48,7 +48,7 @@ Section Archétypes
 		<tbody>
 			<tr>
 				<td>{{ link("/archetypes/rowan-and-will-kenrith") }}</td>
-				<td>(Contrôle)</td>
+				<td>(Big Spell)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/the-gitrog-monster") }}</td>
@@ -56,11 +56,11 @@ Section Archétypes
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/titania-protector-of-argoth") }}</td>
-				<td>(Agro)</td>
+				<td>(Voltron Agro)</td>
 			</tr>
 			<tr>
 				<td>{{ link("/archetypes/winota-joiner-of-forces") }}</td>
-				<td>(Agro-Combo)</td>
+				<td>(Voltron Combo)</td>
 			</tr>
 			<tr>
 				<td colspan=2><em>D'autres analyses à venir</em></td>
@@ -68,14 +68,4 @@ Section Archétypes
 		</tbody>
 	</table>
 </div>
-{% trans trimmed
-	systeme_e=link("/articles/lart-de-classifier-les-decks/classification-en-macrotypes", _("Système E"), _anchor="classification_hybride")
-%}
-<p>
-	Les <em>macrotypes</em> utilisés pour les decks ci-dessus correspondent aux macrotypes décrits
-	dans le {{ systeme_e }}.
-	Les <em>archéypes</em> ne sont pas affichés car les decks créent leur propre archétype dans la
-	majeure partie des situations.
-</p>
-{% endtrans %}
 {% endblock %}
