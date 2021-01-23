@@ -6,6 +6,7 @@ Changelog
 
 - Fix nom de certaines pages
 - Correction page "archétypes"
+- Fix un lien
 
 
 2.0.12 (2021-01-23)
