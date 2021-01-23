@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - Fix de la page "Cartes thématiques"
+- Retrait de l'image manquante pour zombie33
 
 
 2.0.11 (2021-01-18)
