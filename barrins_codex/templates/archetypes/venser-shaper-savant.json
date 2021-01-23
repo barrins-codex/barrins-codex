@@ -1,0 +1,626 @@
+{
+	"name": "Venser, Shaper Savant",
+	"player": "Jules Lestienne",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "92a0243a-4661-4c7c-8dd2-9237bf9238de",
+				"name": "Venser, Shaper Savant",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "5d131784-c1a3-463e-a37b-b720af67ab62",
+						"name": "Alrund, God of the Cosmos ",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2089ec9-0665-448f-bfe9-d181de127814",
+						"name": "Brazen Borrower ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cffed4c-4e2b-414a-9b20-90ce21b47d16",
+						"name": "Elder Deep-Fiend",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8d74a469-c71d-4773-99d3-5456b31df424",
+						"name": "Emrakul, the Promised End",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8de3fdae-cc2c-4a14-b15b-4fe1a983dfbf",
+						"name": "Gilded Drake",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4df8aabc-7fcb-4b7b-980b-18f499e6c170",
+						"name": "Hullbreacher",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d10f8a05-78b0-42a7-adcd-83f6bafe5417",
+						"name": "Old Man of the Sea",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
+						"name": "Snapcaster Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "74b4c336-5d4c-4bc5-b82a-35084a6ad808",
+						"name": "Spellseeker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "359d1b13-6156-43b0-a9a7-6bfff36c1a91",
+						"name": "Thing in the Ice ",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2da0b45b-0ca9-40c4-bc7f-791039bc1876",
+						"name": "True-Name Nemesis",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cd702cf1-10ca-4448-9fb1-b6de635e839c",
+						"name": "Vendilion Clique",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 12,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "c8817585-0d32-4d56-9142-0d29512e86a9",
+						"name": "Jace, the Mind Sculptor",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6710a1e4-299c-4ce1-afda-265d27097061",
+						"name": "Narset, Parter of Veils",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "622a6523-3b12-4657-a656-00a57a3ae59c",
+						"name": "Extraplanar Lens",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "afdbb860-2bea-4cf6-8959-6a19ba1de56c",
+						"name": "Sapphire Medallion",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c7710eb5-c56a-437b-8847-2a829c404d47",
+						"name": "Sword of Feast and Famine",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3b6e5956-f795-451b-bb24-56462d1ced27",
+						"name": "Umezawa's Jitte",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e3257833-b237-49ef-856a-3c1d1c752cf8",
+						"name": "Vedalken Shackles",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 5,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "7fe593eb-df3c-43e5-97a6-418f91e87cb3",
+						"name": "Parallax Tide",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+						"name": "Search for Azcanta ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "613694aa-b169-400d-8063-2b83d8303611",
+						"name": "Treachery",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "57b852b6-4388-4a41-a5c0-bba37a5c1451",
+						"name": "Archmage's Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab830392-4d7e-4b45-93cf-35ed1e935228",
+						"name": "Blink of an Eye",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94d4c6c7-6e8d-4727-9a1b-efca18abc617",
+						"name": "Boomerang",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
+						"name": "Brainstorm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
+						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "30f6fca9-003b-4f6b-9d6e-1e88adda4155",
+						"name": "Cryptic Command",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "58ebdee7-90b2-4b74-bb52-614b4042ceb7",
+						"name": "Daze",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "39b41cb3-ca3d-4389-8f66-e1f77f5fb683",
+						"name": "Fact or Fiction",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ffaab905-0b97-42c2-a1a3-1e72275caa82",
+						"name": "Flash of Insight",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e9be371c-c688-44ad-ab71-bd4c9f242d58",
+						"name": "Force of Negation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+						"name": "Force of Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
+						"name": "Force Spike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5b87a025-ab29-4375-9338-536636051640",
+						"name": "Frantic Search",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
+						"name": "Gifts Ungiven",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3463be0-df9e-4cb9-a90f-5d9d2ee729e0",
+						"name": "Into the Roil",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
+						"name": "Intuition",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
+						"name": "Mana Leak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
+						"name": "Memory Lapse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+						"name": "Mental Misstep",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
+						"name": "Miscalculation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5045f15f-6bf9-43a9-a09c-904992625948",
+						"name": "Mystic Confluence",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "befb1728-4af3-420a-a51e-7fa95d2e7a00",
+						"name": "Psionic Blast",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dc595c63-af05-4c05-80e8-e1a90df26b0f",
+						"name": "Remand",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3b42202-548e-46f2-90a6-6f952315d157",
+						"name": "Snap",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
+						"name": "Spell Snare",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
+						"name": "Tale's End",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7b93726a-9ee7-4010-9db1-1e1ac5955398",
+						"name": "Think Twice",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 27,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5",
+						"name": "Echo of Eons",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ae593a2e-42d9-47e3-b6cb-f2e2133944d5",
+						"name": "Exhaustion",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
+						"name": "Gitaxian Probe",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b6dfe49-9fd6-4fa0-b73e-e6470d8e7ca7",
+						"name": "Mana Vapors",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bb5385d2-ca5d-4fb9-934b-b7cc8b38ac89",
+						"name": "Merchant Scroll",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
+						"name": "Ponder",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+						"name": "Preordain",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cd12fd06-26c5-42d8-936c-fe10b778a561",
+						"name": "Quiet Speculation",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3d62dbd-63db-4ac9-950f-9852627f23f2",
+						"name": "Time Spiral",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3484e885-253e-41dc-a541-1576debc9884",
+						"name": "Windfall",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 10,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c6c8d290-b5d2-412c-8db9-5a6246f430e8",
+						"name": "Guildless Commons",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "30",
+						"id": "1a25a714-c7f3-4697-8b69-8f966b4d370a",
+						"name": "Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5538f54e-81dc-4396-9d47-3087df16b630",
+						"name": "Myriad Landscape",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "170e792c-80d5-4775-ad95-37614574ab84",
+						"name": "Mystic Sanctuary",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c6eadd8-71d8-4a87-8395-efe8cc9f0676",
+						"name": "Riptide Laboratory",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "48d6ce7c-5dc8-449b-acbd-db259ae687ed",
+						"name": "War Room",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 40,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}

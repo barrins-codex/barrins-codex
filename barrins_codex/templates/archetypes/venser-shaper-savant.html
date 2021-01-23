@@ -1,0 +1,45 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/venser-shaper-savant.json" as deck_json %}
+
+{% block title %}
+Venser, Shaper Savant
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Venser, Shaper Savant</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	contresorts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresorts")),
+	bounces=link("/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents", "bounces"),
+	tuteurs=_("<em>tuteurs</em>")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	Venser est un deck tempo. C'est à dire un deck qui cherche à contrôler le rythme de la  partie.
+	Pour se faire, le général, {{ venser_shaper_savant }}, permet de gérer le tour 4, tour critique
+	en Duel Commander. Le deck s'articule autour de 2 axes :  le tempo et les synergies. Ces
+	dernières permettent au  deck de gagner ses parties et de compenser la restriction liée à
+	l'identité couleur.
+</p>
+<p>
+	Pour remplir son rôle de tempo, le deck utilise des {{ contresorts }}, des {{ bounces }}, des
+	cartes qui génèrent du <em>Card Advantage</em> et des {{ tuteurs }}. Il y a également des cartes
+	pour contrôler et gagner certains matches : {{ vedalken_shackles }} et {{ old_man_of_the_sea }}
+	contre agro et {{ search_for_azcanta }} contre contrôle par exemple.
+</p>
+<p>
+	Les synergies du deck se basent sur des permanents, des équipements ou des créatures comme
+	{{ elder_deep_fiend }}, {{ gilded_drake }} et {{ thing_in_the_ice }}. L'une des meilleures
+	cartes du deck est {{ parallax_tide }} qui est souvent combinée avec des {{ bounces }}. Une
+	autre synergie consiste à allier {{ narset_parter_of_veils }} ou {{ hullbreacher }} et un effet
+	comme celui de {{ time_spiral }}.
+</p>
+{% endtrans %}
+{% endblock %}

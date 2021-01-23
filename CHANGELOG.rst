@@ -7,6 +7,7 @@ Changelog
 - Fix nom de certaines pages
 - Correction page "archétypes"
 - Fix un lien
+- Ajout d'un review rapide de Venser
 
 
 2.0.12 (2021-01-23)

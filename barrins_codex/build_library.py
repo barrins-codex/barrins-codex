@@ -9,21 +9,16 @@ import requests
 from tqdm.auto import tqdm
 
 
-def _name(card):
-	if "name" in card:
-		name = card["name"]
-	else:
-		name = card
+def _name(card,name=None):
+	name = (name or card["name"])
 	name = unidecode.unidecode(name).lower()
 	name = re.sub(r"[^a-zA-Z0-9]", "", name)
 	return name
 
 
 def _get(card,set,name=None):
-	if name is not None:
-		name = card["name"]
 	return {
-		"name":name or card["name"],
+		"name":(name or card["name"]),
 		"date":set["releaseDate"],
 		"id":card["identifiers"]["scryfallId"],
 		"types":card["types"],
@@ -82,7 +77,7 @@ def build():
 							face_a = card_faces[0]
 							face_b = card_faces[1]
 							# Cards are already in the library
-							if (_name(face_a) or _name(face_b)) in library:
+							if (_name(card, face_a) and _name(card, face_b)) in library:
 								# Need to check types for any new type
 								list_types = library[_name(card)][_name(card)]["types"]
 								# library[_name(card)] if used above and will be updated
@@ -90,14 +85,17 @@ def build():
 									if t not in list_types:
 										list_types.append(t)
 								# Adding full set of types to card and all faces
-								library[_name(face_a)][_name(face_a)]["types"] = list_types
-								library[_name(face_b)][_name(face_b)]["types"] = list_types
+								try:
+									library[_name(card, face_a)][_name(card, face_a)]["types"] = list_types
+								except KeyError:
+									pass
+								library[_name(card, face_b)][_name(card, face_b)]["types"] = list_types
 							# Adding Face A to library
-							if _name(face_a) not in library:
-								library[_name(face_a)] = {_name(face_a):_get(card, set, face_a)}
+							if _name(card, face_a) not in library:
+								library[_name(card, face_a)] = {_name(card, face_a):_get(card, set, face_a)}
 							# Adding Face B to library
-							if _name(face_b) not in library:
-								library[_name(face_b)] = {_name(face_b):_get(card, set, face_b)}
+							if _name(card, face_b) not in library:
+								library[_name(card, face_b)] = {_name(card, face_b):_get(card, set, face_b)}
 
 	try:
 		# Generating a file on dev
