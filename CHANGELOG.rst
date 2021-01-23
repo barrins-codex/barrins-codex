@@ -4,7 +4,7 @@ Changelog
 2.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout de trois review sur des decks du Codex
 
 
 2.1.0 (2021-01-23)
