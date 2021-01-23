@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.12 (unreleased)
+2.0.12 (2021-01-23)
 -------------------
 
 - Fix de la page "Cartes thématiques"
