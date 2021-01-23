@@ -1,8 +1,8 @@
 Changelog
 =========
 
-2.0.13 (unreleased)
--------------------
+2.1.0 (2021-01-23)
+------------------
 
 - Fix nom de certaines pages
 - Correction page "archétypes"
