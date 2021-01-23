@@ -4,7 +4,7 @@ Changelog
 2.0.13 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Fix nom de certaines pages
 
 
 2.0.12 (2021-01-23)
