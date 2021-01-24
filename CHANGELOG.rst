@@ -6,6 +6,7 @@ Changelog
 
 - Ajout de trois review sur des decks du Codex
 - Fix présentation pour prochaine section
+- Ajout d'une review rapide de Isamaru
 
 
 2.1.0 (2021-01-23)
