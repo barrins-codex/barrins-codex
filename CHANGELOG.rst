@@ -4,6 +4,7 @@ Changelog
 2.3.2 (unreleased)
 ------------------
 
+- Ajout d'une présentation d'Adeliz
 - Ajout d'une présentation de Golos
 
 
