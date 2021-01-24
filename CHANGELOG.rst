@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Corrections dans la définition des archétypes
+- Corrections dans l'analyse d'Isamaru
 
 
 2.3.0 (2021-01-24)
