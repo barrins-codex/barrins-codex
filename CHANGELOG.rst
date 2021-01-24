@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.2.1 (unreleased)
+2.3.0 (2021-01-24)
 ------------------
 
 - Preloading style and core script for faster rendering
