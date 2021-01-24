@@ -4,7 +4,7 @@ Changelog
 2.3.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Corrections dans la définition des archétypes
 
 
 2.3.0 (2021-01-24)

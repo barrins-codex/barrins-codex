@@ -6,8 +6,6 @@ Les Catégories de decks
 
 {% block section %}
 {% trans trimmed
-	cat_decks='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/cat_decks.png'))|safe,
-	an_introduction_on_commander_archetype=external("http://eternalmagic.com.br/en/2017/06/introduction-on-commander-archetypes/", "An introduction on Commander Archetype"),
 	magic_ville=external("https://www.magic-ville.fr", "Magic-Ville")
 %}
 <h2>Les Catégories de decks</h2>
@@ -15,15 +13,6 @@ Les Catégories de decks
 	La classification en archétype permet d'affiner la classification en macrotype. La version la
 	plus connue est celle de Patrick Chapin basée sur la classification en 4 macrotypes (système
 	<strong>B</strong>).
-</p>
-<div>
-	{{ cat_decks }}
-</div>
-<p>
-	Suite à ce travail de classification, Mateus Nogueira a publié une série d'articles sur les
-	archétypes en Commander. Cette série peut être retrouvé ici :
-	{{ an_introduction_on_commander_archetype }}.
-</p>
 <p>
 	La classification ci-dessous a été réalisée par <strong>Zombie33</strong> pour le site
 	{{ magic_ville }} où cet article a été originellement publié. Elle comporte 21 catégories et se
@@ -449,39 +438,6 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_karn_liberated='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Karn Liberated",False))|safe
-		%}
-		<p>
-			<strong>Tapout</strong> :
-		</p>
-		{{ ci_karn_liberated }}
-		<p>
-			Catégorie de deck Contrôle qui se caractérise par :
-		</p>
-		<ul>
-			<li>
-				Des <em>mass removal</em> et des sorts visant à empêcher l'adversaire de jouer dans
-				le but d'acheter du temps ;
-			</li>
-			<li>
-				Des sorts agressifs pour profiter au maximum du temps acheté.
-			</li>
-		</ul>
-		<p>
-			Les decks Tapout jouent essentiellement à leur propre tour et ne gardent donc
-			généralement pas de manas disponibles lorsqu'ils ont fini de jouer. L'absence de
-			contresort dans un deck Contrôle est généralement un bon moyen de repérer si un deck
-			est un Tapout.
-		</p>
-		<p>
-			La première vraie apparition de Tapout en tournoi date de 1997 avec le deck standard
-			Big Blue de Erik Lauer.
-		</p>
-		{% endtrans %}
-		<div class="clear"></div>
-	</li>
-	<li>
-		{% trans trimmed
 			ci_cryptic_command='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Cryptic Command",False))|safe
 		%}
 		<p>
@@ -515,6 +471,39 @@ Les Catégories de decks
 			et donc piocheront plus de menaces que Draw Go pourra piocher de réponses. Pour
 			contrebalancer cela, les decks Draw Go sont obligés de compenser avec du
 			<em>Card Advantage</em>.
+		</p>
+		{% endtrans %}
+		<div class="clear"></div>
+	</li>
+	<li>
+		{% trans trimmed
+			ci_karn_liberated='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Karn Liberated",False))|safe
+		%}
+		<p>
+			<strong>Tapout</strong> :
+		</p>
+		{{ ci_karn_liberated }}
+		<p>
+			Catégorie de deck Contrôle qui se caractérise par :
+		</p>
+		<ul>
+			<li>
+				Des <em>mass removal</em> et des sorts visant à empêcher l'adversaire de jouer dans
+				le but d'acheter du temps ;
+			</li>
+			<li>
+				Des sorts agressifs pour profiter au maximum du temps acheté.
+			</li>
+		</ul>
+		<p>
+			Les decks Tapout jouent essentiellement à leur propre tour et ne gardent donc
+			généralement pas de manas disponibles lorsqu'ils ont fini de jouer. L'absence de
+			contresort dans un deck Contrôle est généralement un bon moyen de repérer si un deck
+			est un Tapout.
+		</p>
+		<p>
+			La première vraie apparition de Tapout en tournoi date de 1997 avec le deck standard
+			Big Blue de Erik Lauer.
 		</p>
 		{% endtrans %}
 		<div class="clear"></div>
