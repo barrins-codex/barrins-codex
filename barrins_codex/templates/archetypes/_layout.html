@@ -1,5 +1,9 @@
 {% extends "layout.html" %}
 
+{% block preload %}
+<link rel="preload" href="{{ url_for('static', filename='js/decklist.js') }}" as="script">
+{% endblock %}
+
 {% block scripts %}
 <script src="{{ url_for('static', filename='js/decklist.js') }}"></script>
 {% endblock %}
