@@ -12,8 +12,32 @@ Golos, Tireless Pilgrim
 
 {% block archetype_name %}
 <h1>Golos, Tireless Pilgrim</h1>
-{{ layout.wip() }}
 {% endblock %}
 
 {% block archetype %}
+{% trans trimmed
+	removals=_("cartes de gestion de permanents")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	{{ golos_tireless_pilgrim }} est un deck basé sur les terrains et leur facilité à influencer le
+	cours de la partie. Le général permet d'en mettre un sur le champ de bataille lorsqu'il entre
+	lui-même en jeu. Parmi ces terrains, {{ bojuka_bog }} permet de gérer le cimetière de
+	l'adveraire, {{ cabal_coffers }} de produire de grandes quantités de mana, {{ eye_of_ugin }}
+	d'avoir plus facilement {{ emrakul_the_promised_end }} en main, {{ glacial_chasm }} offre une
+	solution contre les decks agro et {{ valakut_the_molten_pinnacle }} met en place un moyen de
+	tuer l'adversaire.
+</p>
+<p>
+	En plus des terrains, le deck est basé autour de la forte quantité de {{ removals }}. La très
+	grande majorité des cartes et des terrains sont noirs, ce qui permet de renforcer la présence
+	de {{ cabal_coffers }} dans le deck. Des cartes incolores comme {{ ugin_the_spirit_dragon }} ou
+	{{ emrakul_the_promised_end }} permettent de tirer profit de la quantité de mana.
+</p>
+<p>
+	Enfin, {{ solemnity }} permet de ne pas mettre de marqueurs sur {{ glacial_chasm }} ou
+	{{ dark_depths }} qui peuvent être trouvés avec {{ golos_tireless_pilgrim }}.
+	{{ infernal_darkness }} est également jouée pour renforcer cette orientation du plan de jeu.
+</p>
+{% endtrans %}
 {% endblock %}

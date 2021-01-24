@@ -4,7 +4,7 @@ Changelog
 2.3.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'une présentation de Golos
 
 
 2.3.1 (2021-01-24)
