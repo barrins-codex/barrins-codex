@@ -4,7 +4,7 @@ Changelog
 2.2.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Preloading style and core script for faster rendering
 
 
 2.2.0 (2021-01-24)

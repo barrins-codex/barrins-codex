@@ -11,8 +11,11 @@
 
 		gtag('config', 'G-F9Q44T07MM');
 	</script>
-	<!-- Data Drawling -->
+	<!-- Data Crawling -->
 	<meta name="robots" content="all">
+	<!-- Preload -->
+	<link rel="preload" href="{{ url_for('static', filename='js/svg_handler.js') }}" as="script">
+	<link rel="preload" href="{{ url_for('static', filename='css/base.css') }}" as="style">
 	{% block head %}
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
