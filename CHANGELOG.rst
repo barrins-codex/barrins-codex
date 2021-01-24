@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout de trois review sur des decks du Codex
+- Fix présentation pour prochaine section
 
 
 2.1.0 (2021-01-23)
@@ -13,7 +14,7 @@ Changelog
 - Fix nom de certaines pages
 - Correction page "archétypes"
 - Fix un lien
-- Ajout d'un review rapide de Venser
+- Ajout d'une review rapide de Venser
 
 
 2.0.12 (2021-01-23)
