@@ -6,6 +6,7 @@ Changelog
 
 - Preloading style and core script for faster rendering
 - Preloading decklist rendering
+- Fixing hover issue in articles
 
 
 2.2.0 (2021-01-24)
