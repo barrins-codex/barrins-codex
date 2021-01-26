@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.3.2 (unreleased)
+2.4.0 (2021-01-26)
 ------------------
 
 - Ajout d'une présentation d'Adeliz
