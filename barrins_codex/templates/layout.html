@@ -50,10 +50,6 @@
 
 <body>
 	<header role="banner">
-		<a href="{{ i18n_url('') }}" class="site-logo">
-			<img src="{{ url_for('static', filename='img/icons/barrin.svg') }}" class="svg" alt="Barrin's Codex">
-			<h1>Barrin's Codex</h1>
-		</a>
 		<nav role="navigation">
 			<ul>
 				<li>{{ link('/archetypes') }}</li>
@@ -72,6 +68,8 @@
 			</ul>
 		</nav>
 		-->
+			<p class="site-logo"><a <a href="{{ i18n_url('') }}">Barrin's Codex</a></p>
+		{% block banner %}{% endblock %}
 	</header>
 
 	{% block card_display %}

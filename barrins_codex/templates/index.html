@@ -1,5 +1,9 @@
 {% extends "layout.html" %}
 
+{% block banner %}
+	<img class="banner" src="{{ url_for('static', filename='img/banner.jpg') }}" width="100%">
+{% endblock %}
+
 {% block content %}
 <p>
 	{# TRANSLATORS: please abide by MTG translation choices for game terms when possible. #}
