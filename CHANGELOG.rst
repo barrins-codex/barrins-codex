@@ -4,7 +4,7 @@ Changelog
 2.4.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Modification de la navigation dans les articles
 
 
 2.4.0 (2021-01-26)
