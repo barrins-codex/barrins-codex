@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Modification de la navigation dans les articles
+- Modification de l'apparence des sections
 
 
 2.4.0 (2021-01-26)

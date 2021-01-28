@@ -6,6 +6,7 @@ import os
 
 import flask
 import flask_babel
+from flask_babel import lazy_gettext
 import jinja2.exceptions
 
 # Base de données des cartes
@@ -231,4 +232,13 @@ def display_card():
 			)
 		)
 
-	return dict(card=card, card_image=card_image)
+	def card_art(name):
+		return flask.Markup(
+			"""<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=art_crop"
+			alt="{name}" />""".format(
+				name=name.replace(" ", " "),
+				scryfallId=scryfall_id(name)
+			)
+		)
+
+	return dict(card=card, card_image=card_image, card_art=card_art)

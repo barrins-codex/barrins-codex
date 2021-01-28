@@ -1,0 +1,11 @@
+{% macro card (page, url, text="") -%}
+<div class="column">
+	<a href="{{ i18n_url(url) }}">
+		{{ card_art(page) }}
+	</a>
+	<h4>{{ link(url) }}</h4>
+	<p class="center-subtitle">
+		{{ text }}
+	</p>
+</div>
+{%- endmacro %}
