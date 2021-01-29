@@ -16,7 +16,7 @@
 	<meta name="robots" content="all">
 	<!-- Preload -->
 	<link rel="preload" href="{{ url_for('static', filename='js/svg_handler.js') }}" as="script">
-	<link rel="preload" href="{{ url_for('static', filename='css/base.css') }}" as="style">
+	<link rel="preload" href="{{ url_for('static', filename='css/base_new.css') }}" as="style">
 	{% block preload %}{% endblock %}
 	{% block head %}
 	<meta charset="UTF-8" />
@@ -39,7 +39,7 @@
 	<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
 	<link rel="icon" href="{{ url_for('static', filename='img/icons/codex.svg') }}">
 	<!-- Style Sheets -->
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/base_new.css') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/light-theme.css') }}" id="theme-link">
 	<!-- Card display -->
 	<script src="{{ url_for('static', filename='js/dC.js') }}"></script>
@@ -49,26 +49,28 @@
 </head>
 
 <body>
-	<header role="banner">
-		<nav role="navigation">
-			<ul>
-				<li>{{ link('/archetypes') }}</li>
-				<li>{{ link('/articles') }}</li>
-				<li>{{ link('/cartes-thematiques') }}</li>
-			</ul>
-		</nav>
-		<nav role="theme-switch">
-			<div class="btn-toggle">Toggle Dark Mode</div>
-		</nav>
-		<!--
-		<nav role="translation">
-			<ul>
-				<li>{{ translation('en', "🇬🇧") }}</li>
-				<li>{{ translation('fr', "🇫🇷") }}</li>
-			</ul>
-		</nav>
-		-->
+	<header>
+		<div class="header">
 			<p class="site-logo"><a <a href="{{ i18n_url('') }}">Barrin's Codex</a></p>
+			<nav role="navigation">
+				<ul>
+					<li>{{ link('/archetypes') }}</li>
+					<li>{{ link('/articles') }}</li>
+					<li>{{ link('/cartes-thematiques') }}</li>
+				</ul>
+			</nav>
+			<div class="theme-switch">
+				<div class="btn-toggle">Toggle Dark Mode</div>
+			</div>
+			<!--
+			<nav role="translation">
+				<ul>
+					<li>{{ translation('en', "🇬🇧") }}</li>
+					<li>{{ translation('fr', "🇫🇷") }}</li>
+				</ul>
+			</nav>
+			-->
+		</div>
 		{% block banner %}{% endblock %}
 	</header>
 

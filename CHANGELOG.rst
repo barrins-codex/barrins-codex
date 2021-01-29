@@ -8,6 +8,7 @@ Changelog
 - Modification de l'apparence des sections
 - Remplacement de la bannière
 - Mise à jour de la page d'accueil
+- Nouvelle apparence
 
 
 2.4.0 (2021-01-26)
