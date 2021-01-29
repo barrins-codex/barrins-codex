@@ -9,9 +9,9 @@ function dCi_id(i) {
 	}
 }
 function dCi(scryfallId,i) {
-	document.getElementById("card-image").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
+	document.getElementById("card-image-decklist").src = "https://api.scryfall.com/cards/"+scryfallId+"?format=image";
 
-	var modal = document.getElementById("card-modal")
+	var modal = document.getElementById("card-decklist")
 	// Remove previous card info
 	for (const c of modal.classList) {
 		if (c.startsWith("modal-card-")) { modal.classList.remove(c) }
@@ -31,7 +31,7 @@ function dCi(scryfallId,i) {
 	modal.focus()
 }
 function cardIndex(modal) {
-	var modal = document.getElementById("card-modal")
+	var modal = document.getElementById("card-decklist")
 	for (const c of modal.classList) {
 		if (c.startsWith("modal-card-")) {
 			return parseInt(c.match(/[0-9]+/)[0])
@@ -80,7 +80,7 @@ function displayDeck(data, deckname=undefined) {
 	removeComments()
 	document.getElementById("deck-name").textContent = wrapText(
 		deckname || data.name || "(No Name)",
-		25
+		50
 	)
 	header_lines = []
 	if (data.player || data.author) {
@@ -117,5 +117,4 @@ function displayDeck(data, deckname=undefined) {
 		offset += section.cards.length
 	}
 	document.getElementById("library-list").innerHTML = cards.join("\n")
-	document.getElementById("decklist").style.display = "block"
 }
