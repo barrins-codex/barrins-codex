@@ -245,10 +245,14 @@ div.decklist {
 }
 div.review {
 }
+div.library {
+	position: relative;
+}
 div.list {
 	padding: 1em;
 	margin: 0;
 	clear: none;
+	position: relative;
 }
 div.decklist {
 	margin-top: 2em;
@@ -287,18 +291,11 @@ div.decklist {
 	font-size: 0.8em;
 }
 .modal-decklist {
-	z-index: 3;
 	display: none;
-	padding: 5em;
-	padding-top: 10em;
-	padding-left: 0.5em;
-	position: fixed;
-	left: 0;
+	position: absolute;
+	right: 0;
 	top: 0;
-	width: 100%;
-	height: 100%;
 	overflow: auto;
-	background-color: rgba(0, 0, 0, 0.4);
 }
 .modal-content-decklist {
 	padding: 0;
@@ -312,6 +309,7 @@ div.decklist {
 	font-weight: 900;
 	font-size: 2em;
 	text-align: center;
+	cursor: pointer;
 }
 
 /****************
