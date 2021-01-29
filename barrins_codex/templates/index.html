@@ -19,13 +19,11 @@
 <p>
 	{% trans trimmed
 		articles=link("/articles"),
-		archetypes=link("/archetypes"),
-		maths_et_magic=link("/maths-et-magic"),
-		contributions=link("/contributions")
+		archetypes=link("/archetypes")
 	%}
 	L'objectif de ce site est de créer du contenu sur des concepts avancés de
 	<strong>Magic: the Gathering</strong>. Les thèmes couverts correspondent aux items en haut
-	de cette page : {{ archetypes }}, {{ articles }} et d'autres thèmes à développer.
+	de cette page : {{ archetypes }}, {{ articles }} et encore d'autres thèmes.
 	{% endtrans %}
 </p>
 <p>
@@ -39,16 +37,17 @@
 {% endblock %}
 
 {% block footer %}
+{% trans trimmed
+	wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
+%}
 <p>
-	{% trans trimmed
-		wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
-	%}
 	<strong>Barrin's Codex</strong> est un contenu de fan non officiel autorisé dans le cadre de la
-	Politique des contenus de fans. Ni approuvé, ni promu par {{ wizards_of_the_coast }}. Certaines
-	parties des matériaux utilisés sont la propriété de Wizards of the Coast.
-	© {{ wizards_of_the_coast }} LLC.<br>
-	L'icone sur la page d'accueil est la carte <strong>Barrin, Tolarian Archmage</strong>.
-	Elle est illustrée par Ryan Pancoast et est la propriété de {{ wizards_of_the_coast }}.
-	{% endtrans %}
+	Politique des contenus de fans.
+	<br>Ni approuvé, ni promu par {{ wizards_of_the_coast }}.
 </p>
+<p>
+	Certaines parties des matériaux utilisés sont la propriété de Wizards of the Coast.
+	© {{ wizards_of_the_coast }} LLC.
+</p>
+{% endtrans %}
 {% endblock %}
