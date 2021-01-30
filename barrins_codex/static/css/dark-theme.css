@@ -8,7 +8,7 @@
 	--color-white: var(--brown-color);
 }
 
-.btn-toggle {
+.theme-toggle {
 	background: url("/static/img/icons/sun.svg");
 	background-size: 24px 24px;
 }

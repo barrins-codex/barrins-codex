@@ -8,7 +8,7 @@
 	--color-white: #ffffff;
 }
 
-.btn-toggle {
+.theme-toggle {
 	background: url("/static/img/icons/moon.svg");
 	background-size: 24px 24px;
 }
