@@ -60,7 +60,7 @@
 				</ul>
 			</nav>
 			<div class="theme-switch">
-				<div class="btn-toggle">Toggle Dark Mode</div>
+				<div class="theme-toggle">Toggle Dark Mode</div>
 			</div>
 			<!--
 			<nav role="translation">
@@ -102,7 +102,7 @@
 {% block script %}{% endblock %}
 <!-- Mode sombre -->
 <script>
-	const btn = document.querySelector(".btn-toggle");
+	const btn = document.querySelector(".theme-toggle");
 	const theme = document.querySelector("#theme-link");
 
 	if (localStorage.getItem("theme") == "dark") {
