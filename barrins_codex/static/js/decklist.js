@@ -32,8 +32,8 @@ function dCi(scryfallId,i) {
 }
 function cardElement(element, i) {
 	return `<li>${element.count} <span class="card" scryfallId="${element.id}" data-tippy-content="
-		<div>
-			<img src='https://api.scryfall.com/cards/${element.id}?format=image' class='card-image'>
+		<div class='card-container'>
+			<img data-src='https://api.scryfall.com/cards/${element.id}?format=image' class='card-image'>
 		</div>" >${element.name}</span></li>`
 }
 function wrapText(text, maxlen) {
