@@ -11,6 +11,7 @@ Changelog
 - Nouvelle apparence
 - Suppression de l'affichage au clic
 - Ajout de Popper/Tippy pour l'affichage des cartes (1/2)
+- Ajout de Popper/Tippy pour l'affichage des cartes (2/2)
 
 2.4.0 (2021-01-26)
 ------------------

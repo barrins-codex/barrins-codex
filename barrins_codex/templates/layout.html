@@ -94,7 +94,6 @@
 		{% endblock %}
 	</footer>
 </body>
-{% block script %}{% endblock %}
 
 <!-- SCRIPTS -->
 <script src="{{ url_for('static', filename='js/svg_handler.js') }}"></script>
@@ -119,7 +118,9 @@ btn.addEventListener("click", function() {
 		localStorage.setItem("theme", "light");
 	}
 });
-
+</script>
+{% block script %}
+<script>
 <!-- Displaying card images -->
 <!-- https://github.com/atomiks/tippyjs/issues/562 -->
 tippy('span.card', {
@@ -138,6 +139,7 @@ tippy('span.card', {
 	}
 });
 </script>
+{% endblock %}
 {% block style %}{% endblock %}
 
 </html>

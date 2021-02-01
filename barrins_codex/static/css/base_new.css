@@ -321,6 +321,9 @@ div.column img {
 /****************
  *    CARTES    *
  **************** */
+.card-container {
+	max-width: 270px;
+}
 .card-image {
 	padding: 0;
 	outline: 0;

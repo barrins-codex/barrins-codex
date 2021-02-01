@@ -200,7 +200,7 @@ def display_card():
 	def card(name, display_name=None):
 		return flask.Markup(
 			"""<span class="card" data-tippy-content="
-					<div>
+					<div class='card-container'>
 						<img data-src='https://api.scryfall.com/cards/{scryfallId}?format=image' class='card-image'>
 					</div>"
 				scryfallId="{scryfallId}" >{name}</span>""".format(
