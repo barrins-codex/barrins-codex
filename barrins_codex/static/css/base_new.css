@@ -321,6 +321,12 @@ div.column img {
 /****************
  *    CARTES    *
  **************** */
+.card-image {
+	padding: 0;
+	outline: 0;
+	max-width: 250px;
+}
+/*
 .modal {
 	z-index: 3;
 	display: none;

@@ -31,7 +31,10 @@ function dCi(scryfallId,i) {
 	modal.focus()
 }
 function cardElement(element, i) {
-	return `<li>${element.count} <span class="card scryfall-${element.id}" id="card-${i}" onclick="dCi('${element.id}',${i})" onmouseover="hC('${element.id}')" onmouseout="oC()">${element.name}</span></li>`
+	return `<li>${element.count} <span class="card" scryfallId="${element.id}" data-tippy-content="
+		<div>
+			<img src='https://api.scryfall.com/cards/${element.id}?format=image' class='card-image'>
+		</div>" >${element.name}</span></li>`
 }
 function wrapText(text, maxlen) {
 	if (!text) {
