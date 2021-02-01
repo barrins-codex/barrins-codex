@@ -290,27 +290,6 @@ div.decklist {
 	cursor: pointer;
 	font-size: 0.8em;
 }
-.modal-decklist {
-	display: none;
-	position: absolute;
-	right: 0;
-	top: 0;
-	overflow: auto;
-}
-.modal-content-decklist {
-	padding: 0;
-	outline: 0;
-	max-width: 300px;
-	margin: 0.5em;
-}
-.modal-nav {
-	font-family: "FontAwesome";
-	max-width: 300px;
-	font-weight: 900;
-	font-size: 2em;
-	text-align: center;
-	cursor: pointer;
-}
 
 /****************
  *   ARTICLES   *

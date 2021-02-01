@@ -9,6 +9,7 @@ Changelog
 - Remplacement de la bannière
 - Mise à jour de la page d'accueil
 - Nouvelle apparence
+- Suppression de l'affichage au clic
 
 
 2.4.0 (2021-01-26)
