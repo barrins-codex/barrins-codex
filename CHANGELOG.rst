@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.4.1 (unreleased)
+2.4.2 (unreleased)
 ------------------
 
 - Modification de la navigation dans les articles
@@ -15,6 +15,13 @@ Changelog
 - Modification de l'affichage des decklists
 - Correction du display des cartes dans les articles
 - Correction du display des cartes dans les pages "portfolio"
+
+2.4.1 (2021-02-02)
+------------------
+
+- Mise à jour du sitemap
+- Ajout d'une présentation de Kelsien
+
 
 2.4.0 (2021-01-26)
 ------------------
