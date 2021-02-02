@@ -1,14 +1,14 @@
-{% extends "articles/lart-de-classifier-les-decks/_layout.html" %}
+{% extends "articles/classifier-un-deck/_layout.html" %}
 
 {% block title %}
 La Classification en tiers
 {% endblock %}
 
-{% block section %}
-<h2>{{ _("La classification en tier et l'évolution d'un metagame") }}</h2>
+{% block content %}
+<h1>{{ _("La classification en tier et l'évolution d'un metagame") }}</h1>
 {% trans trimmed
 %}
-<h3>La classification en tier</h3>
+<h2>La classification en tier</h2>
 <p>
 	Une manière totalement différente de vouloir classer les decks est de les échelonner par
 	puissance au sein du format. Voici le vocabulaire pour cela.
@@ -54,7 +54,7 @@ La Classification en tiers
 	img_metagame='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/metagame_modern_2018.png'))|safe,
 	img_proba_restreintes='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/graph_proba_restreintes_modern_2018.png'))|safe
 %}
-<h3>Une matrice des matchup pour simuler des tournois</h3>
+<h2>Une matrice des matchup pour simuler des tournois</h2>
 <p>
 	L'objectif de cette section est de mettre à disposition un outil qui permet de pousser le propos
 	encore plus loin. Les macrotypes d'un format sont sensés s'équilibrer, il en est de même pour
@@ -114,7 +114,7 @@ La Classification en tiers
 {% endtrans %}
 
 {% trans trimmed %}
-<h3>L'évolution d'un metagame serait-elle prédictible ?</h3>
+<h2>L'évolution d'un metagame serait-elle prédictible ?</h2>
 <p>
 	En jouant sur la proportion de chaque archétype au départ, serait-il possible d'anticiper
 	l'évolution d'un metagame dans le temps ? Même si cela semble être la méthode à adopter, cette
@@ -168,7 +168,7 @@ La Classification en tiers
 	img_metagame='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/metagame_modern_2017.png'))|safe,
 	calculateur_proba=external("https://docs.google.com/spreadsheets/d/1t-zhBtRmeEfURzKOI7uRvATVAyK1n_qlp1_YLdO9yzo/edit#gid=1505945774","Matrice matchup – Categorie Modern 2017")
 %}
-<h3>Des outils à disposition</h3>
+<h2>Des outils à disposition</h2>
 <p>
 	Voici de quoi exploiter des matrices de matchup et créer des graphiques : un fichier pour des
 	matrices de taille inférieure à 8 et un autre pour des matrices pouvant aller jusqu'à une

@@ -4,9 +4,11 @@
 
 	--author-background: #838383;
 	--author-border: #6B6B6B;
+
+	--color-white: var(--brown-color);
 }
 
-.btn-toggle {
+.theme-toggle {
 	background: url("/static/img/icons/sun.svg");
 	background-size: 24px 24px;
 }
@@ -44,6 +46,16 @@ a {
 a:hover,
 a:focus {
 	color: var(--brown-color);
+	border-color: var(--brown-color);
+}
+header a:hover,
+header a:focus {
+	color: var(--dark-color);
+	border-color: var(--brown-color);
+}
+footer a:hover,
+footer a:focus {
+	color: var(--dark-color);
 	border-color: var(--brown-color);
 }
 
@@ -89,9 +101,6 @@ tr.selected {
 .decklist {
 	background-color: var(--decklist-dark);
 	color: var(--light-color);
-}
-.decklist p {
-	color: var(--grey-color);
 }
 .decklist .card:hover,
 .decklist .card:focus {

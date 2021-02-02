@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block title %}
-Section Cartes clé
+Section Cartes thématiques
 {% endblock %}
 
 {% block content %}
@@ -18,81 +18,34 @@ Section Cartes clé
 	mechanical_color_pie=external("https://magic.wizards.com/en/articles/archive/making-magic/mechanical-color-pie-2017-2017-06-05", "Mechanical Color Pie")
 %}
 <p>
-	La <em>color pie</em> est le pentagramme des couleurs de MtG : {{ W }}{{ U }}{{ B }}{{ R }}
-	{{ G }}. Chaque mécanique de MtG est reliée, de près ou de loin, à ce pentagramme. En effet,
+	La <em>color pie</em> est le pentagramme des couleurs de Magic : blanc, bleu, noir, rouge et
+	vert. Chaque mécanique de Magic est reliée, de près ou de loin, à ce pentagramme. En effet,
 	des couleurs sont spécialisées dans certains domaines. Mark Roosewater, dans
 	{{ mechanical_color_pie }}, présente un système de classification de ces mécaniques selon ce
 	que les couleurs sont censée faire en priorité dans le jeu.
 </p>
 {% endtrans %}
-<div class="align-left">
-	<table class="triple-column">
-		<tr>
-			<td>{{ W }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents") }}</td>
-		</tr>
-		<tr>
-			<td>{{ U }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}</td>
-		</tr>
-		<tr>
-			<td>{{ B }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}</td>
-		</tr>
-		<tr>
-			<td>{{ R }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs") }}</td>
-		</tr>
-		<tr>
-			<td>{{ G }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp") }}</td>
-		</tr>
-	</table>
-	<table class="triple-column">
-		<tr>
-			<td>{{ W }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe") }}</td>
-		</tr>
-		<tr>
-			<td>{{ U }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents") }}</td>
-		</tr>
-		<tr>
-			<td>{{ B }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-gestion-de-creatures") }}</td>
-		</tr>
-		<tr>
-			<td>{{ R }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives") }}</td>
-		</tr>
-		<tr>
-			<td>{{ G }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks") }}</td>
-		</tr>
-	</table>
-	<table class="triple-column">
-		<tr>
-			<td>{{ W }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-protection") }}</td>
-		</tr>
-		<tr>
-			<td>{{ U }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips") }}</td>
-		</tr>
-		<tr>
-			<td>{{ B }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/la-reanimation-de-creatures") }}</td>
-		</tr>
-		<tr>
-			<td>{{ R }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/le-remplacement-de-cartes") }}</td>
-		</tr>
-		<tr>
-			<td>{{ G }}</td>
-			<td>{{ link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures") }}</td>
-		</tr>
-	</table>
-</div>
+
+{{ bootstrap.card("Ravages of War", "/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents") }}
+{{ bootstrap.card("Ghostly Prison", "/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe") }}
+{{ bootstrap.card("God's Willing", "/cartes-thematiques/mecaniques-de-la-colorpie/la-protection") }}
+
+
+{{ bootstrap.card("Counterspell", "/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts") }}
+{{ bootstrap.card("Boomerang", "/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents") }}
+{{ bootstrap.card("Ponder", "/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips") }}
+
+{{ bootstrap.card("Thoughtseize", "/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse") }}
+{{ bootstrap.card("Eliminate", "/cartes-thematiques/mecaniques-de-la-colorpie/la-gestion-de-creatures") }}
+{{ bootstrap.card("Reanimate", "/cartes-thematiques/mecaniques-de-la-colorpie/la-reanimation-de-creatures") }}
+
+{{ bootstrap.card("Lightning Bolt", "/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs") }}
+{{ bootstrap.card("Zurgo, Bellstriker", "/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives") }}
+{{ bootstrap.card("Faithless Looting", "/cartes-thematiques/mecaniques-de-la-colorpie/le-remplacement-de-cartes") }}
+
+{{ bootstrap.card("Rampant Growth", "/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp") }}
+{{ bootstrap.card("Llanowar Elves", "/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks") }}
+{{ bootstrap.card("Elder Gargaroth", "/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures") }}
 <!--
 <h2>{{ _("Cartes par fonctionnalité") }}</h2>
 {% trans trimmed %}

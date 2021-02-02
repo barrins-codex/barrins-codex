@@ -1,10 +1,10 @@
-{% extends "articles/lart-de-classifier-les-decks/_layout.html" %}
+{% extends "articles/classifier-un-deck/_layout.html" %}
 
 {% block title %}
 La Classification en macrotypes
 {% endblock %}
 
-{% block section %}
+{% block content %}
 {% trans trimmed
 	img_macrotype_a='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_a.svg'))|safe,
 	img_macrotype_b='<img src="%(url)s" class="svg"/>'|format(url=url_for('static', filename='img/macrotype_b.svg'))|safe,
@@ -16,7 +16,7 @@ La Classification en macrotypes
 	the_guide_to_macro_archetypes=external("https://articles.starcitygames.com/premium/the-guide-to-macro-archetypes/", "The Guide to Macro-Archetypes"),
 	watching_the_clock=external("https://articles.starcitygames.com/premium/watching-the-clock/", "Watching the Clock")
 %}
-<h2>Les classifications en macrotypes</h2>
+<h1>Les classifications en macrotypes</h1>
 <p>
 	Il existe six modèles de classification en macrotypes. Certains de ces modèles utilisent les
 	mêmes noms pour désigner des ensembles légèrement différents.
@@ -114,7 +114,7 @@ La Classification en macrotypes
 	une classification totale des archétypes.
 </p>
 
-<h3 id="3_macrotypes">Système A — La classification en 3 macrotypes</h3>
+<h2 id="3_macrotypes">Système A — La classification en 3 macrotypes</h2>
 <p>
 	Il s'agit de la première classification établie et elle reste à ce jour la plus connue et la
 	plus répandue. On la retrouve sur divers outils traitant de stratégie dans les JCC et les JCE.
@@ -146,7 +146,7 @@ La Classification en macrotypes
 	part importante du metagame de part l'absence de decks combo efficaces.
 </p>
 
-<h3 id="4_macrotypes">Système B — La classification en 4 macrotypes</h3>
+<h2 id="4_macrotypes">Système B — La classification en 4 macrotypes</h2>
 <p>
 	Cette classification détaille davantage le macrotype Contrôle. En effet, ce macrotype ne
 	reflète pas la diversité des stratégies qui le composent actuellement.
@@ -174,7 +174,7 @@ La Classification en macrotypes
 	souvent ces macrotypes interagissent que faiblement ensemble.
 </p>
 
-<h3 id="5_macrotypes">Système C — La classification en 5 macrotypes</h3>
+<h2 id="5_macrotypes">Système C — La classification en 5 macrotypes</h2>
 <p>
 	Cette classification distingue Tempo et Midrange, deux stratégies différentes qui se retrouvent
 	dans la section <em>Midrange</em> de la section précédente. Elle est plébiscitée par Mike Mason
@@ -202,7 +202,7 @@ La Classification en macrotypes
 	contraire proactif jouant le rôle d'un aggro contre Contrôle.
 </p>
 
-<h3 id="6_macrotypes">Système D — La classification en 6 macrotypes</h3>
+<h2 id="6_macrotypes">Système D — La classification en 6 macrotypes</h2>
 <p>
 	Les decks Ramp jusque-là intégrés au macrotype Contrôle sont mis en évidence car la stratégie
 	développée au sein de ce macrotype ne correspond pas réellement aux systèmes développés
@@ -231,7 +231,7 @@ La Classification en macrotypes
 	détail.
 </p>
 
-<h3 id="classification_hybride">Système E — La classification à hybridation</h3>
+<h2 id="classification_hybride">Système E — La classification à hybridation</h2>
 <p>
 	Cette classification très populaire est basée sur la classification <strong>A</strong> (Aggro -
 	Contrôle - Combo) à laquelle sont ajoutés les 3 macrotypes hybrides : Aggro-Contrôle /
@@ -267,7 +267,7 @@ La Classification en macrotypes
 	classification : {{ aggro_controle_and_combo }}.
 </p>
 
-<h3 id="classification_totale">Système F — La classification en 8 macrotypes</h3>
+<h2 id="classification_totale">Système F — La classification en 8 macrotypes</h2>
 <p>
 	Il s'agit d'une classification totale. La diversité des macrotypes permet de classer tous les
 	decks. Le macrotype Aggro-Contrôle est séparé en Tempo et en Midrange et apparait pour la

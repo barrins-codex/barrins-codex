@@ -8,30 +8,27 @@
 <script src="{{ url_for('static', filename='js/decklist.js') }}"></script>
 {% endblock %}
 
-{% block card_display %}
-<div id="card-modal" class="modal" onclick="this.style.display='none'" tabindex="-1">
-	<div id=card-prev class="modal-nav">&#xf077</div>
-	<img class="modal-content" id="card-image">
-	<div id=card-next class="modal-nav">&#xf078</div>
-</div>
-<div id="card-hover" class="hover-modal" tabindex="-1">
-	<img class="modal-content" id="card-hover-image">
-</div>
-{% endblock %}
-
-{% block content %}
+{% block article %}
+<article id="analysis">
 {% block archetype_name %}{% endblock %}
-<div id="decklist" class="decklist" style="display: none">
-	<h2 id="deck-name"></h2>
-	<p id="deck-header"></p>
-	<h3 id="command_zone">Command Zone</h3>
-	<ul id="commanders">
-	</ul>
-	<h3 id="library-header"></h3>
-	<ul id="library-list">
-	</ul>
+<div id="review" class="review">
+	{% block archetype %}{% endblock %}
 </div>
-{% block archetype %}{% endblock %}
+<div id="decklist" class="decklist">
+	<div id="list" class="list">
+		<h2 id="deck-name"></h2>
+		<p id="deck-header"></p>
+		<div class="command_zone">
+			<h3 id="command_zone">Command Zone</h3>
+			<ul id="commanders">
+			</ul>
+		</div>
+		<div class="library" id="library-container">
+			<h3 id="library">Library</h3>
+		</div>
+	</div>
+</div>
+</article>
 {% endblock %}
 
 {% block script %}
@@ -39,10 +36,22 @@
 	window.onload = function () {
 		const content = document.querySelector('meta[property="decklist"]').content
 		const decklist = JSON.parse(JSON.parse(content))
-		document.getElementById("card-modal").addEventListener("keydown", modalKeydown)
-		document.getElementById("card-prev").addEventListener("click", prevCard)
-		document.getElementById("card-next").addEventListener("click", nextCard)
 		displayDeck(decklist)
+		tippy('span.card', {
+			touchHold: true,
+			hideOnClick: false,
+			interactive: true,
+			placement: 'right',
+			distance: 20,
+			arrow: true,
+			animateFill: false,
+			animation: 'shift-away',
+			// In ES5 as you don't have a transpilation step(?):
+			onShow: function(instance) {
+				var img = instance.popper.querySelector('img');
+				img.src = img.dataset.src;
+			}
+		});
 	}
 </script>
 {% endblock %}

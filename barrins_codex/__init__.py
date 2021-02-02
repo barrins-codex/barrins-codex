@@ -6,6 +6,7 @@ import os
 
 import flask
 import flask_babel
+from flask_babel import lazy_gettext
 import jinja2.exceptions
 
 # Base de données des cartes
@@ -198,7 +199,11 @@ def scryfall_id(name):
 def display_card():
 	def card(name, display_name=None):
 		return flask.Markup(
-			"""<span class="card" onclick="dC('{scryfallId}')" onmouseover="hC('{scryfallId}')" onmouseout="oC()">{name}</span>""".format(
+			"""<span class="card" data-tippy-content="
+					<div class='card-container'>
+						<img data-src='https://api.scryfall.com/cards/{scryfallId}?format=image' class='card-image'>
+					</div>"
+				scryfallId="{scryfallId}" >{name}</span>""".format(
 				# replace spaces with non-breakable spaces in card names
 				name=(display_name or name).replace(" ", " "),
 				scryfallId=scryfall_id(name),
@@ -212,14 +217,10 @@ def display_card():
 		BASE_CONTEXT[_var_name(library[list(carte)[0]]['name'])] = card(library[list(carte)[0]]['name'])
 
 
-	def card_image(name, hover=True, version="small"):
-		if_hover = ""
-		if hover:
-			if_hover = """ onmouseover="hC(\'{scryfallId}\')" onmouseout="oC()"' """
-
+	def card_image(name, version="png"):
 		img = """
 			<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version={version}"
-			alt="{name}" onclick="dC(\'{scryfallId}\')" {is_hover} />
+			alt="{name}" scryfallId="{scryfallId}" />
 		"""
 
 		return flask.Markup(
@@ -227,8 +228,16 @@ def display_card():
 				name=name.replace(" ", " "),
 				scryfallId=scryfall_id(name),
 				version=version,
-				is_hover=(if_hover or ""),
 			)
 		)
 
-	return dict(card=card, card_image=card_image)
+	def card_art(name):
+		return flask.Markup(
+			"""<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=art_crop"
+			alt="{name}" />""".format(
+				name=name.replace(" ", " "),
+				scryfallId=scryfall_id(name)
+			)
+		)
+
+	return dict(card=card, card_image=card_image, card_art=card_art)

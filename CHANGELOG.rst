@@ -4,8 +4,17 @@ Changelog
 2.4.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Modification de la navigation dans les articles
+- Modification de l'apparence des sections
+- Remplacement de la bannière
+- Mise à jour de la page d'accueil
+- Nouvelle apparence
+- Suppression de l'affichage au clic
+- Ajout de Popper/Tippy pour l'affichage des cartes (1/2)
+- Ajout de Popper/Tippy pour l'affichage des cartes (2/2)
+- Modification de l'affichage des decklists
+- Correction du display des cartes dans les articles
+- Correction du display des cartes dans les pages "portfolio"
 
 2.4.1 (2021-02-02)
 ------------------
