@@ -14,6 +14,7 @@ Changelog
 - Ajout de Popper/Tippy pour l'affichage des cartes (2/2)
 - Modification de l'affichage des decklists
 - Correction du display des cartes dans les articles
+- Correction du display des cartes dans les pages "portfolio"
 
 2.4.0 (2021-01-26)
 ------------------

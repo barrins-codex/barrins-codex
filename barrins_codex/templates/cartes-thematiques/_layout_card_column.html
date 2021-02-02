@@ -1,7 +1,7 @@
 {% macro card_column(name, cat="") -%}
 <div class="column">
 	<div class="column-image">
-		{{ card_image(name, false, "normal") }}
+		{{ card_image(name) }}
 		<h4 style="text-align: center;">{{ name }}</h4>
 		{% if cat != "" %}
 		<p class="center-subtitle">
@@ -12,5 +12,6 @@
 	<p>
 		{{ caller() }}
 	</p>
+	<div class="clear"></div>
 </div>
 {%- endmacro %}
