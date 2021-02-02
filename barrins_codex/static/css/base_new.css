@@ -71,9 +71,9 @@ nav ul {
 }
 
 .clear {
-	padding: 0;
-	margin: 0;
-	border: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
 	clear: both;
 }
 
@@ -277,6 +277,7 @@ div.decklist {
 .decklist p {
 	font-size: 0.9em;
 	font-style: italic;
+	margin: 0;
 }
 .decklist ul {
 	list-style: none;
@@ -316,7 +317,20 @@ div.column img {
 	width: 80%;
 	object-fit: cover;
 }
-
+article .center,
+article .center > *,
+article img {
+	display: block;
+	margin: 0 auto !important;
+}
+span.image {
+	max-width: 10em;
+	display: inline-block;
+	float: right;
+}
+span.image img {
+	max-width: 10em;
+}
 
 /****************
  *    CARTES    *
@@ -328,38 +342,6 @@ div.column img {
 	padding: 0;
 	outline: 0;
 	max-width: 250px;
-}
-/*
-.modal {
-	z-index: 3;
-	display: none;
-	padding: 5em;
-	padding-top: 10em;
-	padding-left: 0.5em;
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgba(0, 0, 0, 0.4);
-}
-.hover-modal {
-	z-index: 4;
-	display: none;
-	padding: 5em;
-	padding-top: 10em;
-	padding-left: 0.5em;
-	position: fixed;
-	left: 0;
-	top: 0;
-	overflow: hidden;
-}
-.modal-content {
-	padding: 0;
-	outline: 0;
-	max-width: 300px;
-	margin: 0.5em;
 }
 
 /****************
