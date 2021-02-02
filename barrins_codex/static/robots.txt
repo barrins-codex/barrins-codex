@@ -1,1 +1,2 @@
 User-agent: * Disallow: 
+Sitemap: https://barrins-codex.org/sitemap.xml
