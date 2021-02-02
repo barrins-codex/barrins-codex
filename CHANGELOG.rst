@@ -4,7 +4,7 @@ Changelog
 3.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Modification de carte "identité" pour certains articles
 
 
 3.0.0 (2021-02-02)
