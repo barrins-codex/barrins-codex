@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.4.1 (unreleased)
+2.4.1 (2021-02-02)
 ------------------
 
 - Mise à jour du sitemap
