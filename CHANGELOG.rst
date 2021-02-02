@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Modification de carte "identité" pour certains articles
+- Modification du ratio d'affichage des decklists
 
 
 3.0.0 (2021-02-02)
