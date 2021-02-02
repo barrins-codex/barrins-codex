@@ -22,7 +22,7 @@ Les Catégories de decks
 </p>
 {% endtrans %}
 
-<div class="align-left" style="font-size: 0.8em">
+<div class="center" style="font-size: 0.8em">
 	<table>
 		<thead>
 			<th></th>
@@ -104,7 +104,7 @@ Les Catégories de decks
 <ol style="padding-left:1em;">
 	<li>
 		{% trans trimmed
-			ci_thalia_guardian='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Thalia, Guardian of Thraben",False))|safe,
+			ci_thalia_guardian='<span class=image>%(card)s</span>'|format(card=card_image("Thalia, Guardian of Thraben"))|safe,
 			aether_vial=card("Æther Vial")
 		%}
 		<p>
@@ -146,7 +146,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_goblin_chainwhirler='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Goblin Chainwhirler",False))|safe,
+			ci_goblin_chainwhirler='<span class=image>%(card)s</span>'|format(card=card_image("Goblin Chainwhirler"))|safe,
 			giant_growth=card("Giant Growth")
 		%}
 		<p>
@@ -189,7 +189,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_cavern_of_souls='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Cavern of Souls",False))|safe,
+			ci_cavern_of_souls='<span class=image>%(card)s</span>'|format(card=card_image("Cavern of Souls"))|safe,
 			cavern_of_souls=card("Cavern of Souls"),
 			champion_of_the_parish=card("Champion of the Parish"),
 			rebel_1999_block_deck=external("https://www.mtgtop8.com/event?e=9167&d=252441&f=BL", "deck bloc Rebel de 1999"),
@@ -236,7 +236,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_carnophage='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Carnophage",False))|safe,
+			ci_carnophage='<span class=image>%(card)s</span>'|format(card=card_image("Carnophage"))|safe,
 			black_suicide_1999_brian_schneider_extended_deck=external("https://www.mtggoldfish.com/deck/407304#paper","deck Extended Black Suicide de Brian Schneider (1999)"),
 			ancient_tomb=card("Ancient Tomb"),
 			chrome_mox=card("Chrome Mox"),
@@ -280,7 +280,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_delver_of_secrets='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Delver of Secrets",False))|safe
+			ci_delver_of_secrets='<span class=image>%(card)s</span>'|format(card=card_image("Delver of Secrets"))|safe
 		%}
 		<p>
 			<strong>Tempo</strong> :
@@ -309,7 +309,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_abrupt_decay='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Abrupt Decay",False))|safe,
+			ci_abrupt_decay='<span class=image>%(card)s</span>'|format(card=card_image("Abrupt Decay"))|safe,
 			deranged_hermit=card("Deranged Hermit"),
 			phyrexian_plaguelord=card("Phyrexian Plaguelord")
 		%}
@@ -354,7 +354,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_knight_of_the_reliquary='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Knight of the Reliquary",False))|safe
+			ci_knight_of_the_reliquary='<span class=image>%(card)s</span>'|format(card=card_image("Knight of the Reliquary"))|safe
 		%}
 		<p>
 			<strong>Midrange Pur</strong> :
@@ -394,7 +394,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_gray_merchant='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Gray Merchant of Asphodel",False))|safe,
+			ci_gray_merchant='<span class=image>%(card)s</span>'|format(card=card_image("Gray Merchant of Asphodel"))|safe,
 			mono_black_control=external("https://www.mtgtop8.com/event?e=9201&d=252718&f=BL","Mono Black Control"),
 			astral_slide=external("https://www.mtgtop8.com/event?e=9207&d=252771&f=BL","Astral Slide"),
 			life_from_the_loam=card("Life from the Loam")
@@ -423,6 +423,7 @@ Les Catégories de decks
 			Bloc {{ mono_black_control }} de 2002 et {{ astral_slide }} de 2003 font partie des
 			permiers decks de cette catégorie.
 		</p>
+		<div class="clear"></div>
 		<div class="tip">
 			<h3>Le cas de {{ life_from_the_loam }}</h3>
 			<p>
@@ -438,7 +439,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_cryptic_command='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Cryptic Command",False))|safe
+			ci_cryptic_command='<span class=image>%(card)s</span>'|format(card=card_image("Cryptic Command"))|safe
 		%}
 		<p>
 			<strong>Draw Go</strong> :
@@ -477,7 +478,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_karn_liberated='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Karn Liberated",False))|safe
+			ci_karn_liberated='<span class=image>%(card)s</span>'|format(card=card_image("Karn Liberated"))|safe
 		%}
 		<p>
 			<strong>Tapout</strong> :
@@ -510,7 +511,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_stasis='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Stasis",False))|safe,
+			ci_stasis='<span class=image>%(card)s</span>'|format(card=card_image("Stasis"))|safe,
 			icy_manipulator=card("Icy Manipulator")
 		%}
 		<p>
@@ -543,7 +544,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_crop_rotation='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Crop Rotation",False))|safe,
+			ci_crop_rotation='<span class=image>%(card)s</span>'|format(card=card_image("Crop Rotation"))|safe,
 			muddle_the_mixture=card("Muddle the Mixture"),
 			thopter_foundry=card("Thopter Foundry"),
 			sword_of_the_meek=card("Sword of the Meek"),
@@ -600,7 +601,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_primeval_titan='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Primeval Titan",False))|safe
+			ci_primeval_titan='<span class=image>%(card)s</span>'|format(card=card_image("Primeval Titan"))|safe
 		%}
 		<p>
 			<strong>Ramp</strong> :
@@ -640,7 +641,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_living_end='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Living End",False))|safe,
+			ci_living_end='<span class=image>%(card)s</span>'|format(card=card_image("Living End"))|safe,
 			scapeshift=card("Scapeshift"),
 			valakut=card("Valakut, the Molten Pinnacle"),
 			prismatic_omen=card("Prismatic Omen")
@@ -669,6 +670,7 @@ Les Catégories de decks
 			l'aspect Ramp n'est absolument pas une caractéristique générale de cette catégorie,
 			Living End est justement un exemple de deck Big Spell sans aucun aspect ramp.
 		</p>
+		<div class="clear"></div>
 		<div class="tip">
 			<h3>Le duo {{ scapeshift }} et {{ valakut }}</h3>
 			<p>
@@ -704,7 +706,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_grapeshot='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Grapeshot",False))|safe
+			ci_grapeshot='<span class=image>%(card)s</span>'|format(card=card_image("Grapeshot"))|safe
 		%}
 		<p>
 			<strong>Combo Storm</strong> :
@@ -735,7 +737,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_painter_servant='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Painter's Servant",False))|safe,
+			ci_painter_servant='<span class=image>%(card)s</span>'|format(card=card_image("Painter's Servant"))|safe,
 			griselbrand=card("Griselbrand"),
 			show_and_tell=card("Show and Tell"),
 			sneak_attack=card("Sneak Attack")
@@ -774,6 +776,7 @@ Les Catégories de decks
 			Dans cette seconde variante, on peut citer les decks Reanimator ou, en Legacy, les
 			decks {{ show_and_tell }} qui incorporent aussi {{ sneak_attack }}.
 		</p>
+		<div class="clear"></div>
 		<div class="tip">
 			<h3>Le plan de jeu Reanimator</h3>
 			<p>
@@ -787,7 +790,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_lava_spike='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Lava Spike",False))|safe
+			ci_lava_spike='<span class=image>%(card)s</span>'|format(card=card_image("Lava Spike"))|safe
 		%}
 		<p>
 			<strong>Lava Spike</strong> :
@@ -826,7 +829,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_bloodghast='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Bloodghast",False))|safe,
+			ci_bloodghast='<span class=image>%(card)s</span>'|format(card=card_image("Bloodghast"))|safe,
 			hollow_one=card("Hollow One")
 		%}
 		<p>
@@ -865,7 +868,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_glistener_elf='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Glistener Elf",False))|safe,
+			ci_glistener_elf='<span class=image>%(card)s</span>'|format(card=card_image("Glistener Elf"))|safe,
 			kiln_fiend=card("Kiln Fiend"),
 			berserk=card("Berserk"),
 			temur_battle_rage=card("Temur Battle Rage"),
@@ -908,6 +911,7 @@ Les Catégories de decks
 			On retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une
 			créature qui grossit jusqu'à devenir létale.
 		</p>
+		<div class="clear"></div>
 		<div class="tip">
 			<h3>L'origine de Voltron</h3>
 			<p>
@@ -924,7 +928,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_vizier_of_remedies='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Vizier of Remedies",False))|safe,
+			ci_vizier_of_remedies='<span class=image>%(card)s</span>'|format(card=card_image("Vizier of Remedies"))|safe,
 			birthing_pod=card("Birthing Pod"),
 			living_end=card("Living End"),
 			balustrade_spy=card("Balustrade Spy")
@@ -953,6 +957,7 @@ Les Catégories de decks
 			Les decks Combo Créature sont des hybrides entre les decks appartenant aux familles
 			Combo Traditionnel et Swarm ce qui en fait naturellement des decks Aggro-Combo.
 		</p>
+		<div class="clear"></div>
 		<div class="tip">
 			<h3>Le cas de {{ birthing_pod }}</h3>
 			<p>
@@ -989,7 +994,7 @@ Les Catégories de decks
 	</li>
 	<li>
 		{% trans trimmed
-			ci_psychatog='<span style=%(style)s>%(card)s</span>'|format(style="float:right;height:100%;",card=card_image("Psychatog",False))|safe,
+			ci_psychatog='<span class=image>%(card)s</span>'|format(card=card_image("Psychatog"))|safe,
 			how_to_grow_a_tog=external("https://articles.starcitygames.com/premium/so-many-insane-plays-how-to-groatog-and-almost-clip-a-lotus/","How to Grow-A-Tog and Clip a Lotus")
 		%}
 		<p>

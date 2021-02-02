@@ -217,7 +217,7 @@ def display_card():
 		BASE_CONTEXT[_var_name(library[list(carte)[0]]['name'])] = card(library[list(carte)[0]]['name'])
 
 
-	def card_image(name, version="small"):
+	def card_image(name, version="png"):
 		img = """
 			<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version={version}"
 			alt="{name}" scryfallId="{scryfallId}" />
