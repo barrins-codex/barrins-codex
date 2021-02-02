@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Mise à jour du sitemap
+- Ajout d'une présentation de Kelsien
 
 
 2.4.0 (2021-01-26)
