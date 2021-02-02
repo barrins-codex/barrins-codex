@@ -4,7 +4,7 @@ Changelog
 2.4.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Mise à jour du sitemap
 
 
 2.4.0 (2021-01-26)
