@@ -1,6 +1,12 @@
 Changelog
 =========
 
+3.0.1 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 3.0.0 (2021-02-02)
 ------------------
 
@@ -15,6 +21,7 @@ Changelog
 - Modification de l'affichage des decklists
 - Correction du display des cartes dans les articles
 - Correction du display des cartes dans les pages "portfolio"
+
 
 2.4.1 (2021-02-02)
 ------------------
