@@ -458,17 +458,6 @@ article div.tip {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
-	.modal {
-		padding: 5vh 5vw;
-	}
-	.modal-content {
-		max-height: 70vh;
-		max-width: 85vw;
-	}
-	.modal-nav {
-		max-height: 15vh;
-		max-width: 85vw;
-	}
 }
 
 @media only screen and (min-width: 751px) {
@@ -477,10 +466,18 @@ article div.tip {
 	}
 	div.review {
 		margin-left: 8vw;
-		width: 62vw;
+		width: 54vw;
 	}
 	div.decklist {
 		margin-left: 2vw;
-		width: 24vw;
+		width: 34vw;
+	}
+	div.library {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	div.library div {
+		width: 15vw;
 	}
 }
