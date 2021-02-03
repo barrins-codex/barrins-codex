@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.0.2 (unreleased)
+3.0.2 (2021-02-03)
 ------------------
 
 - Amélioration de la génération des decklists
