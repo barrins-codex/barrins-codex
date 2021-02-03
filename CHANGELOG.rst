@@ -8,6 +8,7 @@ Changelog
 - Amélioration de l'affichage de l'analyse de Winota
 - Amélioration de l'affichage des deckslists
 - Mise à jour des listes et indication des dates de publication
+- Amélioration de l'affichage des titres des articles
 
 
 3.0.1 (2021-02-02)
