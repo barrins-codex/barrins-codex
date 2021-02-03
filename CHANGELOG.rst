@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Amélioration de la génération des decklists
+- Amélioration de l'affichage de l'analyse de Winota
 
 
 3.0.1 (2021-02-02)
