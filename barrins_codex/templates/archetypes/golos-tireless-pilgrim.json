@@ -1,6 +1,7 @@
 {
 	"name": "Golos, Tireless Pilgrim",
 	"player": "Adrien Demoget",
+	"date": "15/01/2021",
 	"command": {
 		"cards": [
 			{
@@ -46,6 +47,14 @@
 					},
 					{
 						"count": "1",
+						"id": "39c431d7-d94b-46c4-bb89-f3db56214ab4",
+						"name": "Elvish Reclaimer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
 						"id": "8d74a469-c71d-4773-99d3-5456b31df424",
 						"name": "Emrakul, the Promised End",
 						"types": [
@@ -64,14 +73,6 @@
 						"count": "1",
 						"id": "262331f4-5e9c-4019-8ab8-3a97a2a6f1e6",
 						"name": "Tireless Tracker",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "97ec2e55-fa60-4ee1-b9c0-e6b84939697b",
-						"name": "Vampire Hexmage",
 						"types": [
 							"Creature"
 						]
@@ -184,6 +185,14 @@
 					},
 					{
 						"count": "1",
+						"id": "b4a1e16a-39f0-47ab-aba8-73e82ba9ab18",
+						"name": "Phyrexian Unlife",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
 						"id": "e75594cc-de47-49f2-9a8b-ba76c576368e",
 						"name": "Prismatic Omen",
 						"types": [
@@ -199,7 +208,7 @@
 						]
 					}
 				],
-				"count": 5,
+				"count": 6,
 				"type": "Enchantments"
 			},
 			{
@@ -396,6 +405,14 @@
 					},
 					{
 						"count": "1",
+						"id": "40a3b4a6-1f87-4060-896e-e05aee0cbfee",
+						"name": "Inquisition of Kozilek",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
 						"id": "899ed197-e434-4f01-a71f-053ae3820d6c",
 						"name": "Life from the Loam",
 						"types": [
@@ -422,14 +439,6 @@
 						"count": "1",
 						"id": "b1ce11c3-61bc-4391-b316-945661cfeaa9",
 						"name": "Nature's Lore",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "009d2fb8-6144-46d9-9085-26232c174109",
-						"name": "Necrotic Hex",
 						"types": [
 							"Sorcery"
 						]
@@ -562,14 +571,6 @@
 					},
 					{
 						"count": "1",
-						"id": "00cb17a0-5a13-4d02-b7fb-f99531bc8ca5",
-						"name": "Dark Depths",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "d2d5124b-4d73-4aa9-9331-88e03779ffad",
 						"name": "Eye of Ugin",
 						"types": [
@@ -612,6 +613,14 @@
 						"count": "1",
 						"id": "2b74bb81-fb9a-40e5-a941-e517430b52f5",
 						"name": "Indatha Triome",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8d6adf14-e1ee-4248-bad2-67f209e686f6",
+						"name": "Krosan Verge",
 						"types": [
 							"Land"
 						]
@@ -713,7 +722,7 @@
 						]
 					},
 					{
-						"count": "6",
+						"count": "5",
 						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
 						"name": "Snow-Covered Swamp",
 						"types": [
@@ -722,8 +731,8 @@
 					},
 					{
 						"count": "1",
-						"id": "269a926d-7788-4668-8bd8-7572dbf5f5eb",
-						"name": "Thespian's Stage",
+						"id": "a70cb6d9-3955-4064-917b-11dec26440c5",
+						"name": "The World Tree",
 						"types": [
 							"Land"
 						]
@@ -809,7 +818,7 @@
 						]
 					}
 				],
-				"count": 45,
+				"count": 44,
 				"type": "Lands"
 			}
 		],

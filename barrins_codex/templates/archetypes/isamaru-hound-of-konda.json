@@ -1,6 +1,7 @@
 {
 	"name": "Isamaru, Hound of Konda",
 	"player": "Ninjamaru",
+	"date": "25/01/2021",
 	"command": {
 		"cards": [
 			{
@@ -36,24 +37,8 @@
 					},
 					{
 						"count": "1",
-						"id": "74b1eae0-1bf8-4922-a9e3-45c01ece9005",
-						"name": "Basri's Lieutenant",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "241e5c4e-0f0b-4a3f-91e0-87387a11e81e",
 						"name": "Benevolent Bodyguard",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1542ad81-169e-4ac8-bd85-038494489594",
-						"name": "Bounty Agent",
 						"types": [
 							"Creature"
 						]
@@ -263,16 +248,16 @@
 					},
 					{
 						"count": "1",
-						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
-						"name": "Skyclave Apparition",
+						"id": "aeec3c1e-e612-4700-888e-300912932552",
+						"name": "Sigrid, God-Favored",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "c5a41a4f-aa85-44cd-8238-02894ff83223",
-						"name": "Stonecloaker",
+						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
+						"name": "Skyclave Apparition",
 						"types": [
 							"Creature"
 						]
@@ -327,7 +312,7 @@
 						]
 					}
 				],
-				"count": 38,
+				"count": 36,
 				"type": "Creatures"
 			},
 			{
@@ -373,6 +358,14 @@
 					},
 					{
 						"count": "1",
+						"id": "e6cec97f-0a2b-4543-a02e-d5e42d337790",
+						"name": "Lightning Greaves",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
 						"id": "66024e69-ad60-4c9a-a0ca-da138d33ad80",
 						"name": "Mox Amber",
 						"types": [
@@ -412,7 +405,7 @@
 						]
 					}
 				],
-				"count": 7,
+				"count": 8,
 				"type": "Artifacts"
 			},
 			{
@@ -455,6 +448,14 @@
 			},
 			{
 				"cards": [
+					{
+						"count": "1",
+						"id": "c281997b-1566-4469-a14c-6645f81ab023",
+						"name": "Akroma's Will",
+						"types": [
+							"Instant"
+						]
+					},
 					{
 						"count": "1",
 						"id": "4c8ff6cd-e3ac-4024-aacb-86f7e1f43ba0",
@@ -536,7 +537,7 @@
 						]
 					}
 				],
-				"count": 10,
+				"count": 11,
 				"type": "Instants"
 			},
 			{
@@ -637,14 +638,6 @@
 					},
 					{
 						"count": "1",
-						"id": "f070bcc2-d764-44da-91ab-f2af23aa42e6",
-						"name": "Scavenger Grounds",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "6077f4e9-5717-4048-b798-4f8d535a4170",
 						"name": "Shefet Dunes",
 						"types": [
@@ -655,6 +648,14 @@
 						"count": "25",
 						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
 						"name": "Snow-Covered Plains",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "309ff3bf-acd3-4bea-b518-6e25f6cfce61",
+						"name": "Tyrite Sanctum",
 						"types": [
 							"Land"
 						]

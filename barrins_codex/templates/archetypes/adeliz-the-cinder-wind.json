@@ -1,6 +1,7 @@
 {
 	"name": "Adeliz, the Cinder Wind",
 	"player": "Thomas \" Lantariel \" Travert",
+	"date": "25/01/2021",
 	"command": {
 		"cards": [
 			{
@@ -292,6 +293,14 @@
 					},
 					{
 						"count": "1",
+						"id": "b1eb5b2c-1f02-48a6-a287-88eb189d6780",
+						"name": "Fireblast",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
 						"name": "Force of Will",
 						"types": [
@@ -435,7 +444,7 @@
 						]
 					}
 				],
-				"count": 23,
+				"count": 24,
 				"type": "Instants"
 			},
 			{
@@ -444,14 +453,6 @@
 						"count": "1",
 						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
 						"name": "Chain Lightning",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1a6f256b-943e-4cfb-9fc9-d1ded68b5f97",
-						"name": "Chart a Course",
 						"types": [
 							"Sorcery"
 						]
@@ -545,7 +546,7 @@
 						]
 					}
 				],
-				"count": 13,
+				"count": 12,
 				"type": "Sorceries"
 			},
 			{
@@ -607,7 +608,7 @@
 						]
 					},
 					{
-						"count": "11",
+						"count": "9",
 						"id": "1a25a714-c7f3-4697-8b69-8f966b4d370a",
 						"name": "Island",
 						"types": [
@@ -623,7 +624,7 @@
 						]
 					},
 					{
-						"count": "6",
+						"count": "8",
 						"id": "69419307-53d5-40d7-82da-cab2e7bfbda4",
 						"name": "Mountain",
 						"types": [

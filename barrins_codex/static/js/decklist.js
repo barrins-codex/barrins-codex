@@ -24,9 +24,17 @@ function setName (data) {
 function setHeader (data) {
 	header_lines = []
 	if (data.player || data.author) {
-		header_lines.push(wrapText(data.player || data.author, 40));
+		header_lines.push(wrapText(data.player || data.author, 40))
 	}
 	document.getElementById("deck-header").innerHTML = header_lines.join("<br/>")
+}
+
+function setFooter (data) {
+	footer_lines = []
+	if (data.date) {
+		footer_lines.push(wrapText("Decklist posted on " + data.date, 40))
+	}
+	document.getElementById("deck-footer").innerHTML = footer_lines.join("<br/>")
 }
 
 function setCommanders (data) {
@@ -62,8 +70,9 @@ function setLibrary (data) {
 }
 
 function displayDeck (data) {
-	setName(data);
-	setHeader(data);
-	setCommanders(data);
-	setLibrary(data);
+	setName(data)
+	setHeader(data)
+	setCommanders(data)
+	setLibrary(data)
+	setFooter(data)
 }

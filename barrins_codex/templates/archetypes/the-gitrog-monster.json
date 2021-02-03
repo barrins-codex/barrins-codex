@@ -1,6 +1,7 @@
 {
 	"name": "The Gitrog Monster",
 	"player": "Grégoire Payan",
+	"date": "15/01/2021",
 	"command": {
 		"cards": [
 			{
@@ -553,14 +554,6 @@
 					},
 					{
 						"count": "1",
-						"id": "00cb17a0-5a13-4d02-b7fb-f99531bc8ca5",
-						"name": "Dark Depths",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "8cee476d-42e1-4997-87af-73e18f542167",
 						"name": "Dryad Arbor",
 						"types": [
@@ -748,6 +741,14 @@
 						"count": "1",
 						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
 						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "00cb17a0-5a13-4d02-b7fb-f99531bc8ca5",
+						"name": "Dark Depths",
 						"types": [
 							"Land"
 						]
