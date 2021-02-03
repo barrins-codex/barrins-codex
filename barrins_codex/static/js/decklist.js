@@ -40,22 +40,24 @@ function setCommanders (data) {
 function setLibrary (data) {
 	var library = document.getElementById('library-container')
 	for (const section of data.library.cards) {
-		// Create container for current section
-		var divSection = document.createElement("div")
-		// Create title for current section
-		var title =  document.createElement("h4");
-		title.innerHTML = `— ${section.type} (${section.count}) —`
-		divSection.appendChild(title)
-		// Create cardlist for current section
-		var cardlist = document.createElement("ul")
-		var cards = new Array()
-		section.cards.forEach((value, index) => {
-			cards.push(cardElement(value))
-		})
-		cardlist.innerHTML = cards.join("\n")
-		divSection.appendChild(cardlist)
-		// Push section into decklist
-		library.appendChild(divSection)
+		if (section.count != 0) {
+			// Create container for current section
+			var divSection = document.createElement("div")
+			// Create title for current section
+			var title =  document.createElement("h4");
+			title.innerHTML = `— ${section.type} (${section.count}) —`
+			divSection.appendChild(title)
+			// Create cardlist for current section
+			var cardlist = document.createElement("ul")
+			var cards = new Array()
+			section.cards.forEach((value, index) => {
+				cards.push(cardElement(value))
+			})
+			cardlist.innerHTML = cards.join("\n")
+			divSection.appendChild(cardlist)
+			// Push section into decklist
+			library.appendChild(divSection)
+		}
 	}
 }
 
