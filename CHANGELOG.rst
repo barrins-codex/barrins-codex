@@ -6,6 +6,7 @@ Changelog
 
 - Ajout d'un article sur la méthode de deckbuilding
 - Modification de carte "identité" pour certains articles
+- Améliorations cosmétiques
 
 
 3.0.2 (2021-02-03)
