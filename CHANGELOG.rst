@@ -4,7 +4,7 @@ Changelog
 3.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'un article sur la méthode de deckbuilding
 
 
 3.0.2 (2021-02-03)

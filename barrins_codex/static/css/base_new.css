@@ -77,6 +77,10 @@ nav ul {
 	clear: both;
 }
 
+thead > * {
+	font-weight: bold;
+}
+
 /****************
  *    TITRES    *
  **************** */
@@ -315,8 +319,8 @@ article#article div.column {
 	max-width: 30%;
 }
 div.column > * {
-	padding: 0;
-	margin: 0;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 div.column p.center-subtitle {
 	font-size: 90%;
@@ -326,6 +330,9 @@ div.column p.center-subtitle {
 div.column img {
 	width: 80%;
 	object-fit: cover;
+}
+article#article div.column img {
+	width: 80% !important;
 }
 article .center,
 article .center > *,
@@ -355,6 +362,10 @@ span.image img {
 }
 .column {
 	margin-bottom: 1.2em !important;
+}
+.column-image {
+	margin: 3em 0;
+	padding: 0;
 }
 .column-image img {
 	max-height: 680px;
@@ -479,5 +490,8 @@ article div.tip {
 	}
 	div.library div {
 		width: 15vw;
+	}
+	article#article div.column {
+		width: 34%;
 	}
 }
