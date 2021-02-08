@@ -4,7 +4,7 @@ Changelog
 3.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Corrections sur l'article sur la méthode de deckbuilding
 
 
 3.0.3 (2021-02-07)
