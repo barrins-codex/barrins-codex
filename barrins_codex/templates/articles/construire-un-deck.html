@@ -31,7 +31,7 @@ Construire un deck
 		Qu’est-ce que le deck est supposé faire mieux que les autres decks déjà disponibles ?
 	</li>
 	<li>
-		Quelle est la méthode du deck pour gagner la partie ?
+		Quel est la stratégie principale du deck pour gagner la partie ?
 	</li>
 	<li>
 		Qu’apporte cette version aux autres decks qui partagent le même plan de jeu ?
@@ -81,16 +81,16 @@ Construire un deck
 	{% call layout.card_column("Silas Renn, Seeker Adept", "") %}
 		{% trans trimmed %}
 		Joué avec un partenaire donnant accès au moins au rouge, Silas Renn permettrait de garantir
-		la rejouabilité des artefacts. Le principal point faible de cette zone de commandement sera
-		l’accès à une quatrième voire à une cinquième couleur. Si Alix choisit une paire de
-		partenaires, la taille du deck sera légèrement plus faible et le deck pourrait gagner en
+		la rejouabilité des artefacts. Le principal point faible de cette zone de commandement est
+		l’accès difficile à une quatrième voire à une cinquième couleur. Si Alix choisit une paire 
+		de partenaires, la taille du deck sera légèrement plus faible et le deck pourrait gagner en
 		stabilité.
 		{% endtrans %}
 	{% endcall %}
 
 	{% call layout.card_column("Golos, Tireless Pilgrim", "") %}
 		{% trans trimmed %}
-		Golos permet de garantir l’accès aux cinq couleurs et est incolore, ce qui garantit un
+		Golos permet de d'avoir accès aux cinq couleurs et est incolore, ce qui garantit un
 		maximum de souplesse. Si Alix choisit Golos, il sera possible d’ajouter
 		{{ cascading_cataracts }} par exemple pour permettre d’utiliser sa capacité activée.
 		{% endtrans %}
@@ -120,6 +120,11 @@ Construire un deck
 		L’inadéquation entre la zone de commandement et le plan de jeu créera des frictions qui se
 		feront sentir dans des parties qui poussent le deck dans ses retranchements.
 	</p>
+	<p>
+		Ceci est le cas général, certaines stratégies ne sont viables qu'avec une zone de
+		commandement particulière qui crée à elle seule un plan de jeu unique. C'est le cas de
+		{{ winota_joiner_of_forces }} par exemple.
+	</p>
 </div>
 {% endtrans %}
 
@@ -134,7 +139,7 @@ Construire un deck
 </p>
 <p>
 	L'objectif est de dessiner un socle d'une vingtaine de cartes qui fonctionnent entre elles et
-	qui illustrent le plan de jeu.
+	qui posent les fondations du plan de jeu.
 </p>
 <div class="author">
 	<p>
@@ -208,12 +213,14 @@ Construire un deck
 </p>
 <ul>
 	<li>
-		{{ blood_moon }} impose de jouer un maximum de sources rouge sous forme de terrains non
-		basiques. Cela veut dire qu'il faut peu voire pas de montagne dans le deck ;
+		{{ blood_moon }} impose de jouer autant de sources non-rouges que possible sous forme 
+		de terrains basiques. Inversement, il faut un minimum de sources rouges sous forme de
+		terrains basiques ;
 	</li>
 	<li>
-		{{ tainted_pact }} demande de jouer 100 cartes différentes. Il faut donc jouer au maximum
-		un basique neigeux et un basique non-neigeux de chaque ;
+		{{ tainted_pact }} demande de ne jouer que des cartes différentes. Cela signifie qu'il
+		faut jouer au plus un terrain basique de chacune des couleurs du deck et leur version 
+		neigeuse ;
 	</li>
 	<li>
 		La zone de commandement impose un nombre minimum de terrains pour jouer le ou les
@@ -241,7 +248,7 @@ Construire un deck
 </p>
 <h3>Définir une tactique</h3>
 <p>
-	La première phase de test à permis de déterminer que le deck valait le coup d'être travaillé
+	La première phase de test a permis de déterminer que le deck valait le coup d'être travaillé
 	davantage et c'est cette phase qui correspond à l'étape la plus longue : quels sont les
 	problèmes que rencontre le deck actuellement ? quelles sont les cartes qui n'ont pas fonctionné
 	du tout lorsqu'elles ont été jouées ?
