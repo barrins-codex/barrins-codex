@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.0.4 (unreleased)
+3.0.4 (2021-02-08)
 ------------------
 
 - Corrections sur l'article sur la méthode de deckbuilding
