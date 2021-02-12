@@ -4,6 +4,7 @@ Changelog
 3.0.5 (unreleased)
 ------------------
 
+- Ajout d'un lien vers le livre de Patrick Chapin
 - Corrections dans le footer
 
 
