@@ -1,0 +1,92 @@
+{% extends "articles/complexite-et-machine-de-turing/_layout.html" %}
+
+{% block title %}
+Magic et Complexité
+{% endblock %}
+
+{% block content %}
+{% trans trimmed %}
+<h1>Magic est-il vraiment le jeu le plus complexe ?</h1>
+<h2>Complexité et Résolution</h2>
+<p>
+	Tout d'abord, ce qui a été démontré
+</p>
+<ul>
+	<li>
+		n'a pas nécessité l'emploi d'une intelligence artificielle ;
+	</li>
+	<li>
+		n'a rien à voir avec le fait qu'il existe 20 000 cartes à Magic ;
+	</li>
+	<li>
+		n'a rien à voir avec le fait que l'arbre des possibilités à Magic est potentiellement
+		infini ;
+	</li>
+	<li>
+		n'a rien à voir avec le fait que dans certains situations il n'existe pas de stratégie
+		gagnante.
+	</li>
+</ul>
+<p>
+	Ce qui a été démontré est que <strong>déterminer, à l'aide d'un algorithme, l'issue d'une
+	partie de Magic dans laquelle toutes les actions sont forcées est impossible</strong>.
+</p>
+<p>
+	Première conséquence, contre-intuitive, de ce résultat est qu'il n'existe aucun programme
+	informatique qui, ayant une connaissance complète du jeu, pourrait déterminer l'issue d'une
+	partie de Magic. Même en connaissant l'ordre des cartes dans la bibliothèque à chaque instant,
+	en connaissant toutes les décisions successives prises par les joueurs·euses et en supprimant
+	toutes les cartes à effet aléatoire, aucun algorithme ne serait capable de déterminer dans le
+	cas général le gagnant de la partie.
+</p>
+<p>
+	Cela signifie que le jeu échoue à vérifier une des hypothèses couramment formulées par
+	l'informatique lors de la modélisation de jeux à deux joueurs·euses. Cela suggère qu'il faut
+	repenser les idées sur les jeux, en particulier si l'objectif est de produire une théorie
+	informatique unifiée des jeux.
+</p>
+<p>
+	Pour parler de complexité, il faut se placer dans le pire des cas. Cet article démontre que
+	pour déterminer le gagnant d'une partie de Magic le pire des cas de figure n'est pas un cas de
+	figure calculable par ordinateur. Cela signifie que la complexité de Magic est bel est bien au
+	delà de la complexité de la plupart des jeux.
+</p>
+<p>
+	Jusqu'à présent Magic est le premier jeu non vidéo-ludique commercialisé à grande échelle pour
+	lequel cette propriété a été démontré et il est fort probable <em>mais non-démontré</em> qu'il
+	s'agisse du seul. Ce résultat n'a aucune conséquence particulière pour les joueurs·euses et
+	qu'il n'en a pas beaucoup plus pour les développeurs·euses d'intelligences artificielles.
+</p>
+<p>
+	En effet, l'informatique se doutait que <strong>créer une intelligence artificielle pour jouer
+	à Magic à l'aide d'un arbre des possibilités serait une très mauvaise idée</strong> voire tout
+	simplement impossible.
+</p>
+<h2>La preuve du résultat</h2>
+<p>
+	Outre avoir déchiffré le code de la machine Enigma, Alan Turing est aussi considéré comme le
+	père de l'informatique et des ordinateurs. En effet, une machine de Turing n'est ni plus ni
+	moins qu'un ordinateur théorique au fonctionnement basique. C'est grâce à cette notion qu'Alan
+	Turing pu définir formellement la notion d'algorithme et démontra un résultat fascinant connu
+	sous le nom du <strong>problème de l'arrêt</strong>.
+</p>
+<p>
+	Ce résultat stipule qu'il n'existe pas de programme informatique permettant de déterminer si un
+	algorithme va s'arrêter ou non à la simple lecture de ce dernier, ce que l'on appelle un
+	problème <em>indécidable</em>. La démonstration derrière ce résultat peut être complexe.
+</p>
+<p>
+	L'idée est de montrer qu'il est possible de créer une partie de Magic dont le déroulé est
+	identique à l’exécution d'un programme sur une machine de Turing. Cela revient à vérifier s'il
+	est possible de créer une machine de Turing avec des cartes Magic tout en forçant les
+	joueurs·euses à suivre son procédé sans qu'ils·elles puissent, à aucun moment, interférer avec
+	son fonctionnement.
+</p>
+<p>
+	L'issue du match en question ne dépend que d'une chose : savoir si le programme se termine ou
+	non. Étant donné qu'il s'agit d'un problème indécidable, cela permet par la même occasion
+	qu'aucun algorithme ne peut déterminer l'issue d'une partie de Magic même lorsque les actions
+	possibles pour les joueurs·euses sont forcées.
+</p>
+{% endtrans %}
+{% endblock %}

@@ -71,6 +71,7 @@ STRUCTURE = Nav(
 					index=True,
 					children=[
 						Nav(lazy_gettext("Jeu, Complexité et Résolution")),
+						Nav(lazy_gettext("Magic et Complexité")),
 					],
 				),
 				Nav(lazy_gettext("Construire un deck")),
