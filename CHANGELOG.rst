@@ -1,10 +1,25 @@
 Changelog
 =========
 
-3.0.3 (unreleased)
+3.0.5 (unreleased)
 ------------------
 
 - Ajout d'un lien vers le livre de Patrick Chapin
+- Corrections dans le footer
+
+
+3.0.4 (2021-02-08)
+------------------
+
+- Corrections sur l'article sur la méthode de deckbuilding
+
+
+3.0.3 (2021-02-07)
+------------------
+
+- Ajout d'un article sur la méthode de deckbuilding
+- Modification de carte "identité" pour certains articles
+- Améliorations cosmétiques
 
 
 3.0.2 (2021-02-03)

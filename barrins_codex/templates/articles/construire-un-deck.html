@@ -1,0 +1,380 @@
+{% extends "layout.html" %}
+{% import "cartes-thematiques/_layout_card_column.html" as layout with context %}
+
+{% block title %}
+Construire un deck
+{% endblock %}
+
+{% block content %}
+<h1>{{ _("Construire un deck en Duel Commander") }}</h1>
+
+{% trans trimmed
+	les_macrotypes=link("/articles/classifier-un-deck/les-macrotypes"),
+	les_archetypes=link("/articles/classifier-un-deck/les-archetypes")
+%}
+<p>
+	Pour une construction de deck efficace, il est important de connaître et de comprendre ce que
+	sont {{ les_macrotypes }} et les {{ les_archetypes }} car ces concepts permettent
+	d'analyser l’impact des plans de jeu les uns par rapport aux autres et d’anticiper dans une
+	certaine mesure les forces et les faiblesses du deck.
+</p>
+
+<h2>Choisir son plan de jeu</h2>
+<p>
+	Choisir un plan de jeu revient à définir l’optique du deck et son angle d’attaque. Avant de
+	commencer à sélectionner des cartes, il faut se poser quelques questions pour définir un cap.
+	Cette phase de questionnement permet de dessiner les grandes lignes qui définissent le
+	deck et de déterminer en quoi il est spécial :
+</p>
+<ul>
+	<li>
+		Qu’est-ce que le deck est supposé faire mieux que les autres decks déjà disponibles ?
+	</li>
+	<li>
+		Quel est la stratégie principale du deck pour gagner la partie ?
+	</li>
+	<li>
+		Qu’apporte cette version aux autres decks qui partagent le même plan de jeu ?
+	</li>
+</ul>
+<div class="author">
+	<p>
+		Alix cherche à construire un deck original basé sur les artefacts. Après s'être posé les
+		trois questions au-dessus, Alix a défini les grandes lignes du deck souhaité :
+	</p>
+	<p>
+		Il s'agira d'un deck ayant une forte densité d'artefacts et utilisera {{ paradox_engine }}
+		pour générer du mana. Le deck permettra de gagner la partie grâce à la forte quantité de
+		sorts lancés dans le même tour (le Big Turn) avec {{ aetherflux_reservoir }}. De plus, Alix
+		ne connaît aucun deck qui a ce plan de jeu et pense donc que cela pourrait être intéressant
+		à construire.
+	</p>
+</div>
+{% endtrans %}
+
+{% trans trimmed %}
+<h2>Choisir sa zone de commandement</h2>
+<p>
+	La composition de la zone de commandement doit avoir un impact sur la construction du deck. En
+	effet, il faut que la zone de commandement fournisse les couleurs nécessaires à l’expression la
+	plus entière du plan de jeu. Il faut également qu’elle fournisse un avantage stratégique si
+	possible : cela ne semble pas cohérent de jouer {{ aminatou_the_fateshifter }} si aucun
+	permanent non-terrain n’est envisagé.
+</p>
+<p>
+	Les questions sont donc à se poser au regard les unes des autres :
+</p>
+<ul>
+	<li>Quelles couleurs me permettent le mieux de faire ce que je souhaite ?</li>
+	<li>Quelle zone de commandement permet de faire mieux ce que je souhaite ?</li>
+</ul>
+<p>
+	Dans le cas d’Alix, elle trouve essentiel de pouvoir jouer {{ urza_lord_high_artificer }},
+	des <em>tuteurs</em> comme {{ demonic_tutor }} ou {{ enlightened_tutor }} et des moteurs de
+	pioche comme {{ jhoira_weatherlight_captain }} ou {{ whirlwind_of_thought }}. Il faut donc au
+	moins jouer trois à quatre couleurs. Parmi les zones de commandement possibles,
+	il y en a quelques unes notables :
+<p>
+{% endtrans %}
+
+<div>
+	{% call layout.card_column("Silas Renn, Seeker Adept", "") %}
+		{% trans trimmed %}
+		Joué avec un partenaire donnant accès au moins au rouge, Silas Renn permettrait de garantir
+		la rejouabilité des artefacts. Le principal point faible de cette zone de commandement est
+		l’accès difficile à une quatrième voire à une cinquième couleur. Si Alix choisit une paire
+		de partenaires, la taille du deck sera légèrement plus faible et le deck pourrait gagner en
+		stabilité.
+		{% endtrans %}
+	{% endcall %}
+
+	{% call layout.card_column("Golos, Tireless Pilgrim", "") %}
+		{% trans trimmed %}
+		Golos permet de d'avoir accès aux cinq couleurs et est incolore, ce qui garantit un
+		maximum de souplesse. Si Alix choisit Golos, il sera possible d’ajouter
+		{{ cascading_cataracts }} par exemple pour permettre d’utiliser sa capacité activée.
+		{% endtrans %}
+	{% endcall %}
+
+	{% call layout.card_column("Kenrith, the Returned King", "") %}
+		{% trans trimmed %}
+		Dans une optique <em>Storm</em>, Kenrith permet d’utiliser le mana généré pour gagner un
+		avantage direct. Si Alix choisit Kenrith, il faudra sûrement jouer {{ training_grounds }}
+		pour réduire le coût de la capacité activée qui permet de piocher une carte.
+		{% endtrans %}
+	{% endcall %}
+</div>
+{% trans trimmed %}
+<div class="tip">
+	<h3>Choisir son plan de jeu ou choisir sa zone de commandement d’abord ?</h3>
+	<p>
+		Choisir son plan de jeu et trouver une zone de commandement qui y correspond ensuite est un
+		processus qui permet la plus grande souplesse et donc la plus grande efficacité une fois le
+		choix arrêté.
+	</p>
+	<p>
+		Choisir en premier sa zone de commandement puis le plan de jeu reviendra à faire des choix
+		sous-optimaux pour que les deux correspondent.
+	</p>
+	<p>
+		L’inadéquation entre la zone de commandement et le plan de jeu créera des frictions qui se
+		feront sentir dans des parties qui poussent le deck dans ses retranchements.
+	</p>
+	<p>
+		Ceci est le cas général, certaines stratégies ne sont viables qu'avec une zone de
+		commandement particulière qui crée à elle seule un plan de jeu unique. C'est le cas de
+		{{ winota_joiner_of_forces }} par exemple.
+	</p>
+</div>
+{% endtrans %}
+
+{% trans trimmed
+	ramp=link("/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp", "ramp")
+%}
+<h2>Définir les cartes clé</h2>
+<p>
+	Les cartes clé sont les cartes autour desquelles le plan de jeu va s'articuler. Cela peut être
+	des créatures pour les decks agressifs, des terrains et de {{ ramp }} pour des decks
+	<em>Lands</em>, etc.
+</p>
+<p>
+	L'objectif est de dessiner un socle d'une vingtaine de cartes qui fonctionnent entre elles et
+	qui posent les fondations du plan de jeu.
+</p>
+<div class="author">
+	<p>
+		Alix a décidé d'articuler son deck autour des cartes suivantes :
+	</p>
+	<div class="column">
+		<h4 style="text-align: center;">Créatures</h4>
+		<ul style="list-style: none;">
+			<li>{{ jhoira_weatherlight_captain }}</li>
+			<li>{{ urza_lord_high_artificer }}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="column">
+		<h4 style="text-align: center;">Artefacts</h4>
+		<ul style="list-style: none;">
+			<li>{{ aetherflux_reservoir }}</li>
+			<li>{{ mystic_forge }}</li>
+			<li>{{ paradox_engine }}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="column">
+		<h4 style="text-align: center;">Planeswalkers</h4>
+		<ul style="list-style: none;">
+			<li>{{ tezzeret_the_seeker }}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="column">
+		<h4 style="text-align: center;">Enchantements</h4>
+		<ul style="list-style: none;">
+			<li>{{ song_of_creation }}</li>
+			<li>{{ whirlwind_of_thought }}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="column">
+		<h4 style="text-align: center;">Ephémères</h4>
+		<ul style="list-style: none;">
+			<li>{{ enlightened_tutor }}</li>
+			<li>{{ intuition }}</li>
+			<li>{{ gifts_ungiven }}</li>
+			<li>{{ paradoxical_outcome }}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="column">
+		<h4 style="text-align: center;">Rituels</h4>
+		<ul style="list-style: none;">
+			<li>{{ demonic_tutor }}</li>
+			<li>{{ sevinnes_reclamation }}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div>
+{% endtrans %}
+
+{% trans trimmed %}
+<h2>Délimiter les contraintes de construction</h2>
+<p>
+	Certaines cartes demandent une construction adaptée pour être plus efficaces. Il faut alors se
+	demander si l'impact de ces cates dans le plan de jeu est suffisant pour les jouer.
+</p>
+<p>
+	Par exemple, il est possible de jouer {{ blood_moon }} et {{ tainted_pact }} dans le même deck.
+	Il faut cependant pouvoir construire en tenant compte des différentes contraintes.
+</p>
+<p>
+	Voici une liste de quelques carte demandant une adaptation du choix des cartes :
+</p>
+<ul>
+	<li>
+		{{ blood_moon }} impose de jouer autant de sources non-rouges que possible sous forme
+		de terrains basiques. Inversement, il faut un minimum de sources rouges sous forme de
+		terrains basiques ;
+	</li>
+	<li>
+		{{ tainted_pact }} demande de ne jouer que des cartes différentes. Cela signifie qu'il
+		faut jouer au plus un terrain basique de chacune des couleurs du deck et leur version
+		neigeuse ;
+	</li>
+	<li>
+		La zone de commandement impose un nombre minimum de terrains pour jouer le ou les
+		commandants. Par exemple, il faut 44 terrains pour jouer de manière régulière
+		{{ archelos_lagoon_mystic }} sans pioche supplémentaire et sans accélération de mana.
+	</li>
+</ul>
+{% endtrans %}
+
+{% trans trimmed %}
+<h2>Les trois étape de la construction de deck</h2>
+<p>
+	Construire un deck optimal nécessite de passer par trois étapes d'affinage.
+</p>
+<h3>Définir une stratégie</h3>
+<p>
+	Il convient à ce moment-là de compléter le deck avec le maximum de cartes synergiques avec le
+	plan de jeu. Une fois le deck complété, une phase de test est nécessaire pour déterminer si le
+	deck se joue comme cela a été anticipé.
+</p>
+<p>
+	Si ce n'est pas le cas, deux options sont disponibles : arrêter de construire le deck ou
+	redéfinir le squelette et rebroder autour. Si cela fonctionne, il faut passer à l'étape
+	suivante.
+</p>
+<h3>Définir une tactique</h3>
+<p>
+	La première phase de test a permis de déterminer que le deck valait le coup d'être travaillé
+	davantage et c'est cette phase qui correspond à l'étape la plus longue : quels sont les
+	problèmes que rencontre le deck actuellement ? Quelles sont les cartes qui n'ont pas fonctionné
+	du tout lorsqu'elles ont été jouées ?
+</p>
+<p>
+	L'identification des cartes dites inutiles permet de libérer de la place dans le deck pour y
+	ajouter des solutions aux problèmes rencontrés lors de la première phase de tests.
+</p>
+<p>
+	Il faut ensuite faire des tests intensifs et extensifs comme détaillé dans la section suivante.
+</p>
+<h3>Valider les tactiques par rapport à la stratégie</h3>
+<p>
+	Il faut garder en tête qu'une action ne doit pas forcément aller dans le sens de la stratégie
+	mais ne doit jamais aller à l’opposé. Cette étape permet de confronter les cartes choisies dans
+	l'étape précédente à leur utilité dans le deck.
+</p>
+<p>
+	C'est également dans cette étape que sont ajoutées des cartes <em>hors plan de jeu</em> mais qui
+	permettent au deck de conserver une présence et un niveau de menace élevé contre les autres
+	decks. Il s'agit de cartes plutôt défensives qui sont rentrées à ce stade de la construction.
+</p>
+{% endtrans %}
+
+{% trans trimmed
+	biais=external("https://strategy.channelfireball.com/all-strategy/mtg/channelmagic-articles/8-biases-that-are-making-you-worse-at-magic/", "8 Biases That Are Making You Worse at Magic"),
+	loi_hypergeometrique=_("la loi hypergéométrique (<em>à venir</em>)")
+%}
+<h2>Eviter les biais psychologiques</h2>
+<p>
+	Paulo Vitor Damo Da Rosa évoque dans l'article {{ biais }} publié sur ChannelFireball des
+	comportements psychologiques involontaires qui altèrent la perception de données à Magic.
+</p>
+<p>
+	Pour éviter ces biais, voici quelques questions à se poser lors des phases de test. En garder
+	une trace écrite de ses réflexions évite aussi un des biais listé dans l'article.
+</p>
+<h3>Tester une carte</h3>
+<p>
+	Pour tester une carte, il ne faut pas attendre de la piocher et de la jouer. En effet, les
+	probabilités de piocher cette carte dans un deck de 98 à 99 cartes est faible et suit
+	{{ loi_hypergeometrique }}.
+</p>
+<p>
+	Il vaut mieux considérer la carte comme étant <em>en zone de commandement</em> et
+	de se poser régulièrement les questions suivantes :
+</p>
+<ul>
+	<li>
+		Si la carte est piochée ce tour-ci, sera-t-elle jouable ? résoudra-t-elle la situation ?
+	</li>
+	<li>
+		Si la carte piochée est un tuteur, est-ce que la carte testée serait le meilleur choix ?
+	</li>
+	<li>
+		Est-ce que la carte, si elle est piochée au prochain tour, apporte une solution à la
+		situation présente ?
+	</li>
+</ul>
+<h3>Tester et analyser les parties</h3>
+<p>
+	Tester le deck revient à jouer des parties. Il faut donc analyser ces parties pour comprendre
+	ce qui a fonctionné et ce qui n'a pas fonctionné. Cela se traduit en deux étapes :
+</p>
+<ol>
+	<li>
+		Garder une trace écrite de chaque partie avec les informations suivantes :
+		<ul>
+			<li>Qui a commencé ?</li>
+			<li>Qui a mulligané et combien de fois ?</li>
+			<li>Qui a gagné ?</li>
+			<li>Quel est le taux de victoire du deck ?</li>
+		</ul>
+	</li>
+	<li>
+		Etudier le rythme de la partie et les choix effectués :
+		<ul>
+			<li>
+				Quels choix ont fait gagner un avantage dans la partie et pourquoi ?
+			</li>
+			<li>
+				Quelles cartes ont permis de gagner un avantage et pourquoi ?
+			</li>
+			<li>
+				Quelles cartes ont été décevantes dans la partie et pourquoi ?
+			</li>
+			<li>
+				Quelles cartes aurait-il fallu piocher et pourquoi ?
+			</li>
+			<li>
+				Quelles cartes n'aurait-il pas fallu piocher et pourquoi ?
+			</li>
+		</ul>
+	</li>
+</ol>
+<h3>Discuter de ses retours</h3>
+<p>
+	Armé de tous ces retours sur chaque partie, il faut comparer son analyse avec son adversaire
+	dans un premier temps puis avec un groupe extérieur à la partie qui permettra de juger si les
+	ressentis à chaud étaient corrects.
+</p>
+<p>
+	L'avantage est de consolider les retours faits sur les parties et aussi de confronter sa propre
+	méthode d'analyse à celle d'autres personnes pour affuter son regard et supprimer au fur et à
+	mesure les différents biais qui sont ainsi révélés.
+</p>
+{% endtrans %}
+
+{% trans trimmed
+	spot_removal=link("/cartes-thematiques/les-spot-removals", "spot removal")
+%}
+<div class="tip">
+	<h3>Définir des critères universels d'acceptation</h3>
+	<p>
+		Lors de la construction du deck, il faut se fixer des limites qu'il ne faut pas dépasser en
+		terme de coût de mana pour un effet donné.
+	</p>
+	<p>
+		Par exemple, il est admis qu'un {{ spot_removal }} coûte 2 manas. En cas de surcoût, les
+		avantages fournis doivent être justifiés et conséquents au risque d'avoir un deck peu
+		efficace.
+	</p>
+	<p>
+		De même, dans des decks agressifs, il est admis qu'une créature doit pouvoir infliger
+		autant de dégâts que son coût en mana, parfois plus mais rarement moins.
+	</p>
+</div>
+{% endtrans %}
+{% endblock %}
