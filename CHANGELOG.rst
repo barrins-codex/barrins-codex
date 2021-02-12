@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.0.5 (unreleased)
+3.0.5 (2021-02-12)
 ------------------
 
 - Ajout d'un lien vers les livres de Patrick Chapin
