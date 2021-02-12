@@ -1,0 +1,161 @@
+{% extends "articles/complexite-et-machine-de-turing/_layout.html" %}
+
+{% block title %}
+Jeux, Complexité et Résolution
+{% endblock %}
+
+{% block content %}
+<h1>{{ _("Jeu, Complexité et Résolution") }}</h1>
+{% trans trimmed
+	table_resolution='<img src="%(url)s"/>'|format(url=url_for('static', filename='img/table_resolution.png'))|safe
+%}
+<p>
+	En mars 2016, une intelligence artificielle a été créée pour jouer au jeu de Go :
+	<strong>AlphaGo</strong>. Un match en cinq parties a ensuite été organisé avec un Grand Maître
+	du Go : Lee Sedol. Le match a s'ets soldé par quatre victoires à une en faveur d'AlphaGo. Nul
+	besoin de savoir jouer au Go pour comprendre la portée de ce qui a été accompli.
+</p>
+
+<h2>Présentation des concepts de complexité et de résolution</h2>
+<p>
+	Le jeu de Go fait partie d'une vaste famille de jeux de stratégie appelés <em>jeux finis à
+	informations complètes</em>. Il s'agit de jeux où chaque joueur connaît, lors de la prise de
+	décision, ses possibilités d'action, les possibilités d'action des autres joueurs·euses, les
+	gains résultants de ces actions et les motivations des autres joueurs·euses.
+</p>
+<h3>Qu'est-ce que la résolution d'un jeu ?</h3>
+<p>
+	Un jeu est fini si, à chaque étape, les joueurs·euses n'ont qu'un nombre fini d'actions
+	possibles et que le jeu s'arrêtera après un certain nombre d'actions. Le jeu de go s'arrête
+	lorsque le goban est rempli, soit après 361 coups.
+</p>
+<p>
+	Depuis l'avènement de l'informatique, des machines capables de jouer à ces jeux et d'élaborer
+	des stratégies en essayant de prévoir un maximum de coups à l'avance sont créées. Ces
+	ordinateurs construisent en réalité un arbre des possibilités où chaque choix fait par tel ou
+	tel joueur crée une nouvelle branche.
+</p>
+<p>
+	Grâce à l'informatique, il a été possible de construire l'arbre de certains jeux dans leur
+	totalité. Il n'est donc plus question de déterminer les possibilités après quatre ou cinq coups
+	mais à partir de la position initiale de déterminer toutes les parties possibles.
+</p>
+<p>
+	L'intérêt d'une telle construction est de trouver une stratégie gagnante pour un des
+	joueurs·euses (c'est à dire une stratégie qui lui assurera obligatoirement la victoire quelque
+	soit les choix de son adversaire) ou à l'inverse de démontrer qu'il n'existe pas de telle
+	stratégie et dans ce dernier cas, le jeu est dit équitable.
+</p>
+<p>
+	La terminologie mathématique parle de <strong>résolution d'un jeu</strong>.
+</p>
+<h3>Qu'est-ce que la complexité d'un jeu ?</h3>
+<p>
+	La complexité algorithmique est l'estimation des ressources nécessaires à l’exécution d'un
+	algorithme donné. Deux grandeurs peuvent attester de la complexité d'un jeu :
+</p>
+<ul>
+	<li>
+		le nombre d'états ou de positions possibles du jeu c'est à dire le nombre de nœuds de
+		l'arbre ;
+	</li>
+	<li>
+		le nombre de parties possibles, ce qui correspond au nombre de branches de l'arbre.
+	</li>
+</ul>
+{{ table_resolution }}
+<p>
+	Comme l'atteste le tableau ci-dessus, le jeu de stratégie le plus complexe ayant pu être
+	entièrement résolu à ce jour est le jeu de Dames sur un plateau 8x8. Cette résolution a demandé
+	18 années de calculs et a permis la modélisation de l'arbre des possibilités dans son ensemble.
+</p>
+<p>
+	Avant le jeu de Go, les échecs furent au centre des affrontements entre humain et machine. Et
+	après quelques essais infructueux, la première fois qu'un programme prit l'ascendant sur un
+	grand maître fut en 1997 dans un match opposant Kasparov et <strong>Deeper Blue</strong>. A
+	l'époque la machine Deeper Blue pesait plus d'une tonne et sa stratégie était entièrement basée
+	sur sa puissance de calcul. Le but étant de prévoir un maximum de coups à l'avance.
+</p>
+<p>
+	Il a fallut presque 20 ans pour que l'intelligence artificielle soit capable de franchir le cap
+	immense entre les échecs et le jeu de Go et rivaliser avec les experts humains. Cela n'a été
+	possible que grâce à l'avènement d'une révolution informatique récente : le <em>Machine
+	Learning</em>.
+</p>
+<p>
+	Après le succès d'Alpha Go en Mars 2016, <strong>Google DeepMind</strong> lors d'un
+	communiqué a affirmé sa volonté de s'attaquer à de nouveaux jeux dont : <em>Starcraft II</em>
+	(objectif rempli le 29 janvier 2019), <em>Hearstone</em> et <em>Magic: the Gathering</em>. Cela
+	pourra faire l'objet d'un article futur mais ce n'est pas l'objet de celui-ci.
+</p>
+{% endtrans %}
+
+{% trans trimmed %}
+<h2>Quelle est la complexité d'un jeu tel que Magic: the Gathering ?</h2>
+<p>
+	Tout d'abord, Magic: the Gathering n'est pas un jeu fini à informations complètes comme les
+	jeux étudiés ci-dessus. En effet :
+</p>
+<ul>
+	<li>
+		Certaines actions à Magic ont des effets aléatoires, ne serait-ce que la pioche
+		par exemple ;
+	</li>
+	<li>
+		Les joueurs·euses ignorent les possibilités d'action des autres joueurs·euses car leur main
+		est cachée ;
+	</li>
+	<li>
+		Les joueurs·euses ignorent les motivations des autres joueurs·euses car certaines
+		stratégies peuvent pousser un·e joueur·euse à être bas en point de vie ou à vider sa
+		bibliothèque ;
+	</li>
+	<li>
+		Un·e joueur·euse peut avoir une infinité d'actions possibles. Cela se produit à chaque fois
+		qu'un·e joueur·euse doit choisir une valeur pour effectuer une boucle par exemple ;
+	</li>
+	<li>
+		Les parties ne se terminent pas nécessairement. Un affrontement de decks composés de
+		terrains et d'{{ elixir_of_immortality }} ne se termine jamais par exemple alors que ces
+		decks sont pourtant capables de gagner des parties.
+	</li>
+</ul>
+<p>
+	Le jeu est à informations incomplètes et il y a une part de hasard dans son déroulement. C'est
+	une différence fondamentale avec les jeux précédents mais il est possible de raisonner en terme
+	d'espérance.
+</p>
+<p>
+	L'introduction de probabilités rend les choses encore plus compliquées mais il est possible
+	d'arriver à des résultats avec des jeux similaires. En 2015, par exemple, des informaticiens de
+	l'université d'Alberta ont réussis à résoudre une variante du Poker à deux joueurs·euses (heads-
+	up en Limit Hold'Em) avec un algorithme nommé <strong>Cepheus</strong>.
+</p>
+<p>
+	Certaines parties peuvent ne pas se terminer et c'est problématique. En effet, cela signifie
+	que l'arbre des possibilités peut être infini et c'est un problème pour en compter les
+	branches ! Ainsi, pour mesurer la complexité de Magic pour la comparer à d'autre jeux, il faut
+	trouver un autre outil car ce n'est pas la simple existence de parties infinies qui rend un jeu
+	complexe. Par exemple, la bataille peut ne pas se terminer si les joueurs·euses ne mélangent
+	pas leur défausse quand ils la récupèrent.
+</p>
+<p>
+	Un·e joueur·euse de Magic peut avoir une infinité de choix d'actions à certains moments. Quand
+	un·e joueur·euse peut mettre en place une boucle à Magic, il·elle peut choisir de l'effectuer
+	autant de fois qu'il·elle le souhaite. Dans la pratique, créer un million ou un milliard de
+	jetons correspond le plus souvent à un même cas de figure : <em>créer beaucoup trop de
+	jetons</em>. Le fait qu'il soit possible d'avoir à certains moments de la partie une infinité
+	de choix, peut provoquer des situations très particulières.
+</p>
+<p>
+	Prenons l'exemple de deux joueurs·euses possédant tou·te·s les deux sur le champ de bataille :
+	{{ lich }}, {{ transcendence }} et {{ laboratory_maniac }}. Un·e joueur·euse joue
+	{{ menacing_ogre }} et la partie se transforme immédiatement en : <em>Chaque joueur·euse
+	choisit secrètement un nombre et celui·celle qui a choisit le plus grand a gagné</em>.
+</p>
+<p>
+	C'est en fait l'exemple classique du jeu qui offre aux joueurs·euses une infinité de choix et
+	pour lequel il n'existe pas de meilleure stratégie.
+</p>
+{% endtrans %}
+{% endblock %}

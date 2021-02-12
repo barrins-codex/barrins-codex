@@ -4,7 +4,7 @@ Changelog
 3.0.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'un article sur la complexité mathématique de Magic 1/4
 
 
 3.0.5 (2021-02-12)

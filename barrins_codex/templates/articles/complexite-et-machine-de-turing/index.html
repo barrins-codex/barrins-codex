@@ -1,32 +1,32 @@
 {% extends "articles/complexite-et-machine-de-turing/_layout.html" %}
 
-{% block section %}
+{% block title %}
+Complexité et Machine de Turing
+{% endblock %}
+
+{% block content %}
+<h1>{{ _("Complexite et Machine de Turing") }}</h1>
+{{ contributor.zombie33() }}
+
 {% trans trimmed %}
 <p>
-	Le 23 Avril 2019 est sortie une publication mathématique traitant de Magic avec en bonus un
-	petit peu d'algorithmique théorique. Pour faire court, c'était Noël avant l'heure. Ce résultat
-	et surtout sa démonstration géniale m'ont très vite poussés à entamer la rédaction d'un article
-	sur le sujet. Mon enthousiaste fut de courte durée lorsque j'ai vu le contenu
-	de cet article déformé par la plupart des journaux en ligne manifestement pas assez spécialisé
-	dans le domaine. Ces articles aux titres aussi aguicheurs qu'approximatifs n'ont pu susciter
-	que de la confusion auprès des lecteurs.
+	Le 23 Avril 2019 est sortie une publication mathématique traitant de Magic avec de
+	l'algorithmique théorique. Cet article fait suite à cette publication et souhaite  clarifier
+	certaines notions et présenter la preuve du résultat d'une manière accessible à tou·te·s.
+	L'article abordera les notions de complexité, d'intelligence artificielle et de résolution d'un
+	jeu.
 </p>
 <p>
-	Au final, en plus de clarifier certaines notions et de présenter la preuve de ce résultat d'une
-	manière qui je l'espère sera accessible à tous, je m'autoriserais quelques digressions plus ou
-	moins grande autour des notions de complexité, d'intelligences artificielles et de résolution
-	de jeu.
-</p>
-<p>
-Bonne lecture à tous.
+	Cet article est de taille conséquente ; pour en faciliter la lecture, son contenu a été découpé
+	en plusieurs sections :
 </p>
 {% endtrans %}
 <ul>
 	<li>
-		{{ link("/articles/complexite-et-machine-de-turing/jeux-complexite-et-resolution") }}
+		{{ link("/articles/complexite-et-machine-de-turing/jeu-complexite-et-resolution") }}
 	</li>
 	<li>
-		{{ link("/articles/complexite-et-machine-de-turing/magic-estil-vraiment-le-jeu-le-plus-complexe") }}
+		{{ link("/articles/complexite-et-machine-de-turing/magic-et-complexite") }}
 	</li>
 	<li>
 		{{ link("/articles/complexite-et-machine-de-turing/une-machine-de-turing-en-carte-magic") }}
