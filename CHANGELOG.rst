@@ -4,7 +4,7 @@ Changelog
 3.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Corrections dans le footer
 
 
 3.0.4 (2021-02-08)
