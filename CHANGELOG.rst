@@ -4,7 +4,7 @@ Changelog
 3.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'un lien vers le livre de Patrick Chapin
 
 
 3.0.2 (2021-02-03)
