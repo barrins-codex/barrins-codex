@@ -163,7 +163,7 @@ def linker():
 		return _link(navigation.HELPER.get(path, {}).get("prev"), _class="prev")
 
 	def external(url, name):
-		return flask.Markup(f'<a target="_blank" href="{url}">{name}</a>')
+		return flask.Markup(f'<a target="_blank" rel="noreferrer" href="{url}">{name}</a>')
 
 	return dict(
 		i18n_url=i18n_url,

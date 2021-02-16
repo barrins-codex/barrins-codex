@@ -4,7 +4,7 @@ Changelog
 3.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction d'un problème de sécurité avec les liens externes
 
 
 3.1.2 (2021-02-16)
