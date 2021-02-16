@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.1.1 (unreleased)
+3.1.1 (2021-02-16)
 ------------------
 
 - Correction d'un lien sur le primer d'Orvar
