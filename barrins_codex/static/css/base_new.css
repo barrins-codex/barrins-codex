@@ -11,6 +11,16 @@
 		url("/static/fonts/fa-solid-900.eot") format("embedded-opentype");
 }
 
+@font-face {
+	font-family: "FontAwesome Brand";
+	font-weight: 400;
+	src: url("/static/fonts/fa-brands-400.ttf") format("truetype"),
+		url("/static/fonts/fa-brands-400.svg") format("svg"),
+		url("/static/fonts/fa-brands-400.woff") format("woff"),
+		url("/static/fonts/fa-brands-400.woff2") format("woff2"),
+		url("/static/fonts/fa-brands-400.eot") format("embedded-opentype");
+}
+
 /*****************
  *   COULEURS    *
  ***************** */
@@ -79,6 +89,10 @@ nav ul {
 
 thead > * {
 	font-weight: bold;
+}
+
+span.brand-icon {
+	font-family: "FontAwesome Brand";
 }
 
 /****************

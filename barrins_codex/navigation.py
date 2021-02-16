@@ -88,6 +88,7 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
 				Nav(lazy_gettext("Kelsien, the Plague")),
 				Nav(lazy_gettext("Kess, Dissident Mage")),
+				Nav(lazy_gettext("Orvar, the All-Form")),
 				Nav(lazy_gettext("Rowan and Will Kenrith")),
 				Nav(lazy_gettext("The Gitrog Monster")),
 				Nav(lazy_gettext("Titania, Protector of Argoth")),

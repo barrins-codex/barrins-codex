@@ -6,6 +6,7 @@ Changelog
 
 - Ajout d'un article sur la complexité mathématique de Magic 1/4
 - Ajout d'un article sur la complexité mathématique de Magic 2/4
+- Ajout d'un primer sur Orvar, the All-Form
 
 
 3.0.5 (2021-02-12)

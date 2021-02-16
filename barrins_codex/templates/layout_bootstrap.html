@@ -1,9 +1,13 @@
-{% macro card (page, url, text="") -%}
+{% macro card (page, url="", text="") -%}
 <div class="column">
 	<a href="{{ i18n_url(url) }}">
 		{{ card_art(page) }}
 	</a>
+	{% if url != "" %}
 	<h4>{{ link(url) }}</h4>
+	{% else %}
+	<h4>{{ page }}</h4>
+	{% endif %}
 	<p class="center-subtitle">
 		{{ text }}
 	</p>
