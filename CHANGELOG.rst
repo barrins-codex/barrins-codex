@@ -5,13 +5,14 @@ Changelog
 ------------------
 
 - Corrections sur Orvar
+- Correction du pseudo
 
 
 3.1.1 (2021-02-16)
 ------------------
 
 - Correction d'un lien sur le primer d'Orvar
-- Ajout du pseudo de Soulessoni
+- Ajout du pseudo de Soullessoni
 
 
 3.1.0 (2021-02-16)
