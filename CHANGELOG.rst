@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction d'un lien sur le primer d'Orvar
+- Ajout du pseudo de Soulessoni
 
 
 3.1.0 (2021-02-16)
