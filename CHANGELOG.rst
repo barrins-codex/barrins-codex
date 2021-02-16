@@ -4,7 +4,7 @@ Changelog
 3.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction d'un lien sur le primer d'Orvar
 
 
 3.1.0 (2021-02-16)
