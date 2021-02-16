@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.0.6 (unreleased)
+3.1.0 (2021-02-16)
 ------------------
 
 - Ajout d'un article sur la complexité mathématique de Magic 1/4
