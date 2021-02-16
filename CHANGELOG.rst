@@ -4,7 +4,7 @@ Changelog
 3.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Corrections sur Orvar
 
 
 3.1.1 (2021-02-16)
