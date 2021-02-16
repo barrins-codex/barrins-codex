@@ -9,6 +9,7 @@
 		url("/static/fonts/fa-solid-900.woff") format("woff"),
 		url("/static/fonts/fa-solid-900.woff2") format("woff2"),
 		url("/static/fonts/fa-solid-900.eot") format("embedded-opentype");
+	font-display: swap;
 }
 
 @font-face {
@@ -19,6 +20,7 @@
 		url("/static/fonts/fa-brands-400.woff") format("woff"),
 		url("/static/fonts/fa-brands-400.woff2") format("woff2"),
 		url("/static/fonts/fa-brands-400.eot") format("embedded-opentype");
+	font-display: swap;
 }
 
 /*****************

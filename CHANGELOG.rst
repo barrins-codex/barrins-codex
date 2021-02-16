@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction d'un problème de sécurité avec les liens externes
+- Amélioration de l'affichage du texte pendant le chargement des polices
 
 
 3.1.2 (2021-02-16)
