@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.2.3 (unreleased)
+3.2.3 (2021-02-18)
 ------------------
 
 - Création d'un layout pour les futurs calculateurs
