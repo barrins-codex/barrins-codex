@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction du nom d'une carte dans l'article A+B
+- Correction des valeurs limites pour le calcul de la série
 
 
 3.2.1 (2021-02-17)

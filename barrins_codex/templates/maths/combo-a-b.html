@@ -56,8 +56,8 @@ Construire un deck
 	var calculate = function () {
 		var pxy = function (x,y) {
 			let sum = 0;
-			for (let i = x; i <= A; i++) {
-				for (let j = y; j <= Math.max(B,P-i); j++) {
+			for (let i = x; i <= Math.min(A,P-2); i++) {
+				for (let j = y; j <= Math.min(B,P-1-i); j++) {
 					sum = sum + hxy(i,j);
 				}
 			}
