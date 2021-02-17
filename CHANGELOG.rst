@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.2.1 (unreleased)
+3.2.1 (2021-02-17)
 ------------------
 
 - Ajout d'un descriptif pour le simulateur A+B
