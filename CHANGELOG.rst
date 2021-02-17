@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.2.2 (unreleased)
+3.2.2 (2021-02-17)
 ------------------
 
 - Correction du nom d'une carte dans l'article A+B
