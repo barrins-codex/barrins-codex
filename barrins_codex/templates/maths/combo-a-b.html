@@ -1,0 +1,151 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Construire un deck
+{% endblock %}
+
+{% block content %}
+<h1>{{ _("Probabilités d'assembler A et B au tour T") }}</h1>
+
+{% trans trimmed
+	loi_hypergeometrique=_("la loi hypergéométrique (<i>article à venir</i>)")|safe
+%}
+<p>
+	Un deck combo a souvent besoin d'assembler deux cartes : <strong>A</strong> et <strong>B</strong>.
+	La facilité avec laquelle un deck assemble A et B est gage de stabilité du deck.
+	Il est donc important de déterminer cette facilité en se basant sur les probabilités et {{ loi_hypergeometrique }} à variables multiples.
+</p>
+
+<form class="inline-form" id="combo-a-b" autocomplete="off"
+	onsubmit="return calculate();">
+	<fieldset id="valeurs-a-b">
+		<legend>{{ _("Données nécessaires au calcul") }}</legend>
+		<span class="double-column">
+			<label for="sizeA">{{ _("taille du groupe A :") }}</label>
+			<input type="text" id="sizeA" placeholder="8" />
+		</span>
+		<span class="double-column">
+			<label for="sizeB">{{ _("taille du groupe B :") }}</label>
+			<input type="text" id="sizeB" placeholder="8" />
+		</span>
+		<span class="double-column">
+			<label for="turn">{{ _("tour d'assemblage :") }}</label>
+			<input type="text" id="turn" placeholder="4" />
+		</span>
+		<button type="submit" id="btn-calcul">{{ _("Calcul")}}</button>
+		<div id="result"></div>
+	</fieldset>
+</form>
+
+{% block script %}
+{{ super() }}
+<!-- Combo A+B -->
+<script>
+	// Calculator made by Spigushe
+
+	/**
+	 * Hypergeometric probabilities of at least one card
+	 * from two different categories
+	 * @requires
+	 * sA : size of group A
+	 * sB : size of group B
+	 * T : Number of the turn studied
+	 * @returns
+	 * Number between 0 and 1
+	 */
+	var calculate = function () {
+		var pxy = function (x,y) {
+			let sum = 0;
+			for (let i = x; i <= A; i++) {
+				for (let j = y; j <= Math.max(B,P-i); j++) {
+					sum = sum + hxy(i,j);
+				}
+			}
+			return sum;
+		}
+		var hxy = function (x,y) {
+			let achoosex = binom(A,x);
+			let bchoosey = binom(B,y);
+			let cchoosez = binom(99-A-B,P-x-y);
+			let nchoosep = binom(99,P);
+			return achoosex * bchoosey * cchoosez / nchoosep;
+		}
+		var binom = function (n,k) {
+			if (k > n) { let z = n; n = k; k = z; }
+			let r = 1;
+			for (let i = 1; i <= Math.min(k, n-k); i++) {
+				r = r * (n + 1 - i) / i;
+			}
+			return r;
+		}
+
+		// Size of group A
+		let iA = document.getElementById("sizeA");
+		var A = parseInt(iA.value || iA.placeholder);
+		// Size of group B
+		let iB = document.getElementById("sizeB");
+		var B = parseInt(iB.value || iB.placeholder);
+		// Population
+		let iP = document.getElementById("turn");
+		var P = 7 + parseInt(iP.value || iP.placeholder);
+		
+		// Display
+		let str = "";
+			str = str + "Assemblage A + B :";
+			str = str + Math.round(pyx(i,max_triggers)*10000)/100+" %";
+			let r = document.createElement("span");
+			r.setAttribute('class', "double-column");
+			r.innerHTML = str;
+			result.appendChild(r);
+		}
+
+		// Prevent default submitting
+		return false;
+	}
+</script>
+{% endblock %}
+
+
+{% block style %}
+<style>
+input {
+	max-width: 3em;
+	margin: 0 1.5em;
+	text-align: center;
+}
+#btn-calcul {
+	text-decoration: none;
+	border: 1px;
+	border-radius: 0.5em;
+	border-color: #ec5354;
+	border-style: solid;
+	padding: 0.5em;
+	margin: 1em auto;
+	color: #ec5354;
+	width: 47%;
+	text-align: center;
+	display: block;
+}
+#result {
+	margin: 0;
+	padding: 0.5em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.double-column {
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+	margin: 0.1em;
+	width: 47%;
+	text-align: center;
+}
+@media only screen and (max-width: 750px) {
+	.double-column {
+		width: 100%;
+		display: block;
+	}
+}
+</style>
+{% endblock %}
