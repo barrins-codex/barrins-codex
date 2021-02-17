@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.1.4 (unreleased)
+3.2.0 (2021-02-17)
 ------------------
 
 - Ajout d'une section non-répertoriée de simulateurs
