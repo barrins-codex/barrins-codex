@@ -474,8 +474,10 @@ article div.tip {
 		text-align: center;
 		font-size: 0.9em;
 	}
-	div.column {
-		max-width: 100%;
+	article div.column,
+	article#article div.column {
+		width: 80% !important;
+		max-width: 80% !important;
 	}
 	div.review,
 	div.decklist {

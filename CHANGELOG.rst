@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Déplacement des images des Ik-O-Maths
+- Correction d'un problème d'affichage sur mobile
 
 
 3.2.3 (2021-02-18)
