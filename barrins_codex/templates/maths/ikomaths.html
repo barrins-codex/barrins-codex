@@ -35,6 +35,15 @@ Ik-O-Maths
 		<div id="result"></div>
 	</fieldset>
 </form>
+
+<div>
+	{% call layout.card_column("Winota, Joiner of Forces",_("6 cartes vues à la fois")) %}
+	{% endcall %}
+	{% call layout.card_column("Kinnan, Bonder Prodigy",  _("5 cartes vues à la fois")) %}
+	{% endcall %}
+	{% call layout.card_column("Gyruda, Doom of Depths",  _("4 cartes vues à la fois")) %}
+	{% endcall %}
+</div>
 {% endblock %}
 
 {% block script %}
