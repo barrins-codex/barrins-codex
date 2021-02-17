@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.2.4 (unreleased)
+3.2.4 (2021-02-18)
 ------------------
 
 - Déplacement des images des Ik-O-Maths
