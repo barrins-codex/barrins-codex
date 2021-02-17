@@ -1,0 +1,21 @@
+  
+{% extends "layout.html" %}
+
+{% block title %}
+Section Maths
+{% endblock %}
+
+{% block content %}
+<h1>Calculs liés à Magic</h1>
+<p>
+	{% trans %}
+	Cette section fournit des calculs mathématiques pour <strong>Magic: the Gathering</strong>.
+	{% endtrans %}
+</p>
+
+{{ bootstrap.card("Amass the Components", "/maths/combo-a-b") }}
+
+<p>
+	<em>D'autres études à venir ...</em>
+</p>
+{% endblock %}

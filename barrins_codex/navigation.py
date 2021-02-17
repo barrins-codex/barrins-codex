@@ -127,6 +127,13 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Les Mass Removals")),
 			],
 		),
+		Nav(
+			lazy_gettext("Maths"),
+			index=True,
+			children=[
+				Nav(lazy_gettext("Combo A + B")),
+			],
+		),
 	],
 )
 
