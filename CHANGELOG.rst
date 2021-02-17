@@ -4,7 +4,7 @@ Changelog
 3.2.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Création d'un layout pour les futurs calculateurs
 
 
 3.2.2 (2021-02-17)
