@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Création d'un layout pour les futurs calculateurs
+- Ajout des Ik-O-Maths
 
 
 3.2.2 (2021-02-17)

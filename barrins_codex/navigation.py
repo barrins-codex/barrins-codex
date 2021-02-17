@@ -132,6 +132,7 @@ STRUCTURE = Nav(
 			index=True,
 			children=[
 				Nav(lazy_gettext("Combo A + B")),
+				Nav(lazy_gettext("Ik-O-Maths")),
 			],
 		),
 	],
