@@ -4,7 +4,8 @@ Changelog
 3.1.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'une section non-répertoriée de simulateurs
+- Ajout d'un simulateur pour l'accès a A+B
 
 
 3.1.3 (2021-02-17)
