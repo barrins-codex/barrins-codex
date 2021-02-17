@@ -4,7 +4,7 @@ Changelog
 3.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction du nom d'une carte dans l'article A+B
 
 
 3.2.1 (2021-02-17)
