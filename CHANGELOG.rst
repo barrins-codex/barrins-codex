@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Déplacement des images des Ik-O-Maths
+- Correction du paragraphe de présentation des Ik-O-Maths
 - Correction d'un problème d'affichage sur mobile
 
 
