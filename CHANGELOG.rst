@@ -4,7 +4,7 @@ Changelog
 3.2.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Amélioration du simulateur A+B
 
 
 3.2.4 (2021-02-18)

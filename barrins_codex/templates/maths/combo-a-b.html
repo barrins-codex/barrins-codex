@@ -42,6 +42,10 @@ Probas A+B
 			<label for="turn">{{ _("tour d'assemblage :") }}</label>
 			<input type="text" id="turn" placeholder="4" />
 		</span>
+		<span class="double-column">
+			<label for="cards">{{ _("nombre de cartes piochées :") }}</label>
+			<input type="text" id="cards" placeholder="10" />
+		</span>
 		<button type="submit" id="btn-calcul">{{ _("Calcul")}}</button>
 		<div id="result"></div>
 	</fieldset>
@@ -52,6 +56,21 @@ Probas A+B
 {{ super() }}
 <!-- Combo A+B -->
 <script>
+	const turn = document.getElementById("turn");
+	turn.addEventListener('keyup', turn2cards);
+	const cards = document.getElementById("cards");
+	cards.addEventListener('keyup', cards2turn);
+
+	function turn2cards () {
+		cards.value = Math.max(1,6 + parseInt(turn.value || turn.placeholder));
+		cards.placeholder = Math.max(1,6 + parseInt(turn.value || turn.placeholder));
+	}
+
+	function cards2turn () {
+		turn.value = Math.max(0,parseInt(cards.value || cards.placeholder) - 6);
+		turn.placeholder = Math.max(0,parseInt(cards.value || cards.placeholder) - 6);
+	}
+
 	// Calculator made by Spigushe
 	var calculate = function () {
 		var pxy = function (x,y) {
@@ -86,12 +105,12 @@ Probas A+B
 		let iB = document.getElementById("sizeB");
 		var B = parseInt(iB.value || iB.placeholder);
 		// Population
-		let iP = document.getElementById("turn");
-		var P = 7 + parseInt(iP.value || iP.placeholder);
+		var P = parseInt(cards.value || cards.placeholder);
 
 		// Respnse string
-		let str = "Assemblage A + B : ";
-		str = str + Math.round(pxy(1,1)*10000)/100+" %";
+		let str = "Turn " + parseInt(turn.value || turn.placeholder);
+		str = str + " (<i>" + P + " cards</i>)" + "<br>";
+		str = str + "A + B : " + Math.round(pxy(1,1)*10000)/100+" %";
 		// Creating DOM element
 		let r = document.createElement("span");
 		r.setAttribute('class', "double-column");
