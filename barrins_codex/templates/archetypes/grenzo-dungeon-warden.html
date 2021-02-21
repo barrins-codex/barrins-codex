@@ -1,0 +1,176 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/grenzo-dungeon-warden.json" as deck_json %}
+{% import "archetypes/_layout_card_column.html" as layout with context %}
+
+{% block title %}
+Grenzo, Dungeon Warden
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Grenzo, Dungeon Warden</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	guide_recruiter=external("https://docs.google.com/document/d/1UQhb9on--RrB4z1r1gSe6wGb_2JCY7cSDhTNw1AF8a8/edit#", "Guide Recruiter"),
+	card_snoop=layout.card_column("Conspicuous Snoop"),
+	card_prospector=layout.card_column("Skirk Prospector"),
+	card_pilferer=layout.card_column("Impulsive Pilferer"),
+	card_mogg=layout.card_column("Mogg War Marshal"),
+	card_denizen=layout.card_column("Foundry Street Denizen"),
+	card_instigator=layout.card_column("Goblin Instigator"),
+	card_token=layout.card_column("Mons's Goblin Raiders"),
+	card_legion=layout.card_column("Legion Loyalist"),
+	card_bush=layout.card_column("Reckless Bushwhacker"),
+	card_pashalik=layout.card_column("Sling-gang Lieutenant")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	{{ grenzo_dungeon_warden }} est un deck Aggro, plus précisemment Aggro linéaire de part sa sortie curvée terminée par la pose d'un lord tribal.
+	Le deck est tourné intégralement vers l'optimisation du boardstate à l'issue des premiers tours, qui est sa principale win condition.
+	{{ grenzo_dungeon_warden }} quand à lui fait office à la fois de curve filler en early ainsi que de CA engine une fois le midgame entamé.
+</p>
+<p>
+	Les premiers tours sont bien souvent des créatures sous-curvées comparées aux staples d'Aggro, qui se compensent durant les tours 3 et 4 avec la pose de lords qui transforment totalement la valeur du board. Un goblin avec un faible body mais un ETB se verra ainsi transformé en menace réelle dès les tours clé atteints.
+	Le deck s'appuie ainsi naturellement au maximum sur la versatilité des gobelins imprimés ainsi que le fort support tribal qu'ont les gobelins.
+</p>
+<p>
+	Ce deck se différencie très fortement de la plupart des autres decks aggros du format en ce qui concerne l'équilibrage de ses catégories de cartes :
+	pour optimiser la capacité de {{ grenzo_dungeon_warden }}, on se focalise sur quantité de hit et aller en dessous de 40 cibles crée une trop grande variance. On estime à 47~50 le bon nombre de créatures à jouer.
+	Cette capacité influe également sur la quantité de terrains à avoir. Ainsi, contrairement à Aggro "standard", le deck profite pleinement de chaque land drop, même une fois passé le t4. Il suffit d'un tour resté sur table pour que Grenzo transforme les manas en armée, sans aucun coût de CA.
+	Ainsi, nous avons dans le deck 40 slots de lands et 50 slots de créature ce qui laisse une place infime pour le reste des cartes, qui sont triées sur le volet. La faible densité de staples résultante se ressent et doit être bien appréhendée par le joueur. 
+</p>
+
+<h2>Un deck pas si linéaire que ça</h2>
+<p>
+	Bien que le plan de jeu principal rentre tout à fait dans sa catégorie d'Aggro linéaire, une fois la phase de déploiement terminée vers tour 4~5, le deck commence à prendre un tout autre tournant. En effet, ce dernier doit s'adapter immédiatement au plan de jeu à adopter pour maximiser ses chances de victoire, qui dépendent de l'archétype de l'adversaire ainsi que du déroulement du début de la partie.
+	Les changements de plan de jeu les plus fréquents sont les suivants :
+	<ul>
+		<li>
+			Contre aggro, il est très fréquent d'être en retard sur le board. On pourra utiliser le côté tribal ainsi que les lords hasty pour bait un commit adverse afin de transformer un faible restant de board ayant chump en one-turn-kill avec seulement deux cartes clé en main. Des cartes comme {{ judith_the_scourge_diva }} et {{ pashalik_mons }} sont très efficaces pour manger le board adverse et reprendre l'avantage.
+		</li>
+		<li>
+			Contre contrôle, il faut anticiper la guerre de CA des deux manières possibles. Soit notre main fera assez et il faut terminer la partie avant que l'adversaire ne puisse faire du CA, soit il faut faire dépenser de façon continue les ressources de notre adversaire jusqu'à le faire craquer. Laisser constamment deux créatures on board force l'adversaire à se prévenir d'un lord qui pourrait renverser la partie, en lui faisant ainsi gaspiller des ressources en prévention d'une menace potentielle. Les dégats que peuvent faire le board sont très durs à estimer, c'est un bon atout psychologique.
+		</li>
+		<li>
+			Contre combo, les sorties curvées les plus aggressives peuvent suffire à prendre de vitesse cet archétype. Il s'agit par défaut du matchup contre lequel le deck a le moins de prise, et la partie passera souvent par la maximisation des dégats direct que l'on pourra infliger. Contre les versions les moins interactives aller tuto soit le combo recruiter soit un des gobelins de gestion ciblée peut s'avérer crucial.
+		</li>
+	</ul>
+	
+	Il est important ici de statuer au sujet de cartes "mid" ou "lategame" qui brillent une fois les tours 4 ou 5 atteints. On peut prendre pour exemple les mass reanimator comme {{ living_death }} ou bien des CA engine comme {{ experimental_frenzy }}. Ces cartes sont en effet très bonnes une fois en situation de topdeck et grind.
+</p>
+<p>
+	Cependant, les développer implique de sacrifier sa board pressure et donc tout ce qui a été construit précédemment.
+	En plus de ça s'ajoute un coût caché qui est qu'une carte de mid va prendre la place d'une carte d'early, et donc faire arriver à un boardstate moins abouti que prévu et donc justifier sa propre présence en temps que carte de comeback.
+</p>
+<p>
+	Je considère qu'une carte qui justifie son inclusion parce qu'elle répare les dégats qu'elle fait au pack n'a pas sa place. De plus, elle force le all-in des ressources autour d'elle et donc pour un outil de grind ou de come-back elle peut simplement nous faire perdre avant qu'on puisse capitaliser dessus.
+</p>
+<p>
+	Par exemple, pour préparer {{ living_death }} il est important d'user son board en conséquence, de l'utiliser de façon moins conservative. Ainsi, si la death ne passe pas se retrouver dans une situation plus défavorable qu'avec une autre carte.
+</p>
+<p>
+	Dans une moindre mesure, les terrains permettant de filtrer notre bas de bibliothèque pour Grenzo, tels que {{ path_of_ancestry }}, vont tuer notre développement on curve et donc justifier leur utilité plus tard. Le tout en ayant l'assez mauvais goût de réduire soit la qualité de notre main, soit celle du bas de notre bibliothèque, et en forçant nos lignes de play sur la main ou Grenzo.
+	En détails :
+	<ul>
+	<li>
+		Si je scry top une créature, le scry n'apporte pas de plus value.
+	</li>
+	<li>
+		Si je scry bottom une créature, je force l'activation de Grenzo et donc maximise mes pertes sur un removal. Je perd aussi de la qualité de pioche.
+	</li>
+	<li>
+		Si je scry top un land, le scry n'apporte pas de plus value.
+	</li>
+	<li>
+		Si je scry bottom un land, je condamne assez fortement l'utilité à court terme de la capacité de Grenzo, qui est quand même la raison de la présence d'un scry engine
+	</li>
+	</ul>
+</p>
+
+<h2>Explications au sujet de la manabase</h2>
+<p>
+	La manabase du deck est soumise à un nombre important de contraintes, qui ont été ici sélectionnées, priorisées et optimisées.
+	Les contraintes sont les suivantes :
+	<ul>
+	<li>
+		Produire les couleurs nécessaires à toute sortie curvée du deck. Ici, on priorise à l'extrême le besoin de pouvoir jouer ses cartes en early, et dans un deck principalement mono-rouge cela veut dire que le support du noir va être très asymétrique. Ces manas doivent aussi venirs détapés, ce qui va fortement toucher la catégorie suivante.
+	</li>
+	<li>
+		Les lands utilitaires. Cette catégorie rassemble les scrylands ainsi que les lands de "combat trick". Ces lands se voient très utiles en midgame, car ils comptent comme des "demi-sorts". Cependant, aucun scrylands ne rentre dans les critères principaux du deck (ils ETB tap ou sont incolores), pour un upside pas si certain comme vu plus haut. En ce qui concerne les lands de combat trick, on va garder ceux qui produisent du rouge et qui arrivent untap.
+	</li>
+	<li>
+		Attention aux painlands. Le deck n'a aucun moyen de gagner de la vie, et joue exclusivement sur le board. Avoir des points de vie c'est se laisser la possibilité d'optimiser ses phases d'attaque et de block en pouvant encaisser les dégats avec la tête. C'est si important que tous les painlands sans alternative ({{ mana_confluence }} par rapport à {{ sulfurous_springs}}) sont cut.
+	</li>
+	</ul>
+<div class="tip">
+	<h3>L'équilibrage des couleurs</h3>
+	Les gobelins sortent peut-être vite, mais coutent très cher en couleurs. La méthode d'optimisation de la manabase poour ce deck est la suivante :
+	<ol>
+	<li>
+		La grande majorité des sorties va coûter soit {{ R }}->{{ R }}{{ R }}->1{{ R }}{{ B }} soit {{ R }}->{{ R }}{{ B }}->1{{ R }}{{ R }}. On peut donc résumer à {{ R }}->{{ R }}{{ R }}/{{ R }}{{ B }}->{{ R }}{{ R }}{{ B }} les contraintes imposées à la manabase.
+	</li>
+	<li>
+		On enlève tous les terrains incompatibles : la majorité des {{ swamp }}, les lands noirs non-basiques, les taplands.
+	</li>
+	<li>
+		Certaines cartes deviennent totalement incompatibles avec la manabase et sont donc écartées : les T1 {{ B }} comme {{ knucklebone_witch }} et les T3+ 1{{ B }}{{ B }}.
+	</li>
+	</ol>
+	La boucle est bouclée et la manabase est très en phase avec nos besoins, et les cartes en accord avec la manabase.
+</div>
+</p>
+
+<h2>Optimiser toutes les facettes du général</h2>
+<p>
+	Comme introduit un peu plus haut, la polyvalence de {{ grenzo_dungeon_warden }} est utilisée à son maximum dans le deck. Et ce sans ajouter une seule carte synergisant avec.
+	Tout d'abord en early c'est un gobelin qui arrivera systématiquement on curve. Il est d'ailleurs presque toujours meilleur de poser un gros Grenzo qu'un petit Grenzo et d'activer sa capacité. Si possible il faut le jouer pour la première fois pour 4 afin d'être bolt proof ainsi que pour poser un body midrange menaçant.
+</p>
+<p>	
+	Le deck souffre naturellement d'un manque total de CA. Cependant, ce manque est compensé par une forte curve à 3 dure à évacuer normalement par un deck aggro et un général qui arrive toujours on-curve, ce qui retarde le hellbent mais pas assez dans les MU les plus longs.
+	L'absence de CA requiert donc l'utilisation la plus minutieuse des ressources disponibles afin d'arriver à l'objectif : tuer avec le board.
+	Il est ici important d'identifier les deux sources de board du deck, et qu'il vaut mieux les alterner que de les utiliser en même temps :
+	<ul>
+	<li>
+		Développer {{ grenzo_dungeon_warden }} et abuser de sa capacité.
+	</li>
+	<li>
+		Vider sa main d'un coup, afin d'abuser des lords et surtout des donneurs de célérité.
+	</li>
+	</ul>
+	La justification derrière ce play est que la main post early a besoin de temps pour accumuler des menaces, et qu'en dehors de la curve et d'un "power play" les gobelins ne sont pas si menaçants.
+	Afin de protéger au maximum une main "combo", Grenzo sera là pour forcer les antibêtes et wrath. Un Grenzo laissé on board en late c'est potentiellement un nouveau board menaçant le tour suivant.
+	Cependant, si la main n'est pas prometteuse, alors c'est le grind de {{ grenzo_dungeon_warden }} qui sera la clé du MU. Il sera plus judicieux de lâcher les menaces individuelles de la main pour forcer les removals et pour finir la game sur des capacités de Grenzo en boucle.
+</p>
+<p>
+	En une phrase : Burn Grenzo pour protéger la main, ou burn la main pour protéger Grenzo.
+</p>
+
+<h2>Goblin recruiter, le retour du roi</h2>
+<p>
+	L'arrivée de {{ conspicuous_snoop }} dans le format a fait passer le {{ goblin_recruiter }} de simple carte de maitrise du topdeck à combo enabler.
+	En effet, il est possible de construire une pile de gobelins léthale jouable en un seul tour et ce pour 4 manas {{ R }}.
+	Un recruiter joué, c'est un signal envoyé à votre adversaire qu'il doit avoir une gestion le tour suivant, sous peine de perdre la partie.
+	Il est important de prendre en compte la faible capacité du deck à protéger le combo, il peut être avisé d'overcommit ses autres cartes pour s'acheter un tour sans removal de la part de notre adversaire.
+	<div class="tip">
+		<h3>La pile la plus efficace</h3>
+		<p>
+			{{ card_snoop }}{{ card_prospector }}{{ card_pilferer }}{{ card_mogg }}{{ card_denizen }}{{ card_instigator }}{{ card_token }}{{ card_token }}{{ card_token }}{{ card_legion }}{{ card_bush }}{{ card_pashalik }}
+		</p>
+		<p>
+			Les Raiders symbolisent l'ensemble des T1 du decks qui seront mis à cet endroit de la pile. Vous pouvez trouver un guide complet sur la construction de la pile ici : {{ guide_recruiter }}
+		</p>
+	</div>	
+</p>
+
+<h2>Conclusion</h2>
+<p>
+	{{ grenzo_dungeon_warden }} est un pack rapide et à multiples facettes ce qui le rend très plaisant à jouer et à maitriser. Cependant, bien que le deck soit renforcé régulièrement grâce à la popularité de la tribu gobelin, il reste un peu en dessous de ce qui se fait de mieux en aggro de part son manque de marge de manoeuvre qui punit fortement les missplays et une explosivité qui peut arriver un tour trop tard.
+</p>
+
+{% endtrans %}
+{% endblock %}

@@ -1,0 +1,714 @@
+{
+	"name": "Grenzo, Dungeon Warden",
+	"player": "Romain \"Ejell\" Fouchier",
+	"date": "10/02/2021",
+    "command": {
+        "cards": [
+            {
+                "count": "1",
+                "id": "6e19c383-88bd-4bde-ac81-c0eb6d5b5bd4",
+                "name": "Grenzo, Dungeon Warden",
+                "types": [
+                    "Creature"
+                ]
+            }
+        ],
+        "count": 1
+    },
+    "library": {
+        "cards": [
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "ba16bfb3-dbd3-4b3a-b155-08b613268d57",
+                        "name": "Adaptive Automaton",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "9f8cf3f9-4e3b-4af2-b5ef-a97eb1d2b674",
+                        "name": "Bolt Hound",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5d878dab-5ed2-4ef3-b2c7-472290892854",
+                        "name": "Conspicuous Snoop",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "159d476e-2f20-4f9b-adfd-9c541dc3e199",
+                        "name": "Ember Hauler",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "05469d01-0d2b-47b9-8a69-16cf0c3d43f8",
+                        "name": "Fanatical Firebrand",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ca657846-f352-4ac4-b2b3-d0ced6607163",
+                        "name": "Fireblade Charger",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "7008624f-ddff-4714-a73e-aa96df7f567a",
+                        "name": "Foundry Street Denizen",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "42d06c9a-f7e0-486b-b1d7-dc70a627c974",
+                        "name": "Frenzied Goblin",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "bec81e20-b644-421a-9c93-5a3dc52eb88b",
+                        "name": "Frogtosser Banneret",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2687c311-fd0c-4fe0-bce8-e3f412216796",
+                        "name": "Gempalm Incinerator",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "fa4bf664-3b92-4598-b905-2bc090958c8b",
+                        "name": "Goblin Arsonist",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "7450c7d6-4c09-4264-a711-b956f62f4d0e",
+                        "name": "Goblin Bushwhacker",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "89fcc35b-76fa-4408-8620-a1e11b2caf1f",
+                        "name": "Goblin Chieftain",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2b710c21-e9f5-4660-80f6-2104ec65f63f",
+                        "name": "Goblin Chirurgeon",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "8964afec-50a9-45c4-bd2b-d06f8e75f4ae",
+                        "name": "Goblin Cohort",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "86ecaedc-08f1-4de7-aae8-056df57940e0",
+                        "name": "Goblin Cratermaker",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3c0f5411-1940-410f-96ce-6f92513f753a",
+                        "name": "Goblin Guide",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "f32d7ce5-078b-40ff-8ecb-34309a0e3719",
+                        "name": "Goblin Instigator",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "455dff34-0ab2-4798-84a9-66dcf37f1789",
+                        "name": "Goblin King",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "dd57c7f3-4ca5-45e7-9be2-c5c1c3d6ad31",
+                        "name": "Goblin Lackey",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b84b11b0-7511-4a11-a949-aa93af9ddbd6",
+                        "name": "Goblin Matron",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "9b920dbc-0a61-43b2-9571-dc9d726842eb",
+                        "name": "Goblin Piledriver",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "aab03d01-ec92-473d-b983-18cf5f06ff39",
+                        "name": "Goblin Rabblemaster",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "61bd1548-2ffa-4705-ba88-913f37d4ce92",
+                        "name": "Goblin Recruiter",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3a9a1ecf-29f6-474e-bbcf-3455d388aa94",
+                        "name": "Goblin Sledder",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6fa4ce66-1811-4ff2-86cf-ddc37ba07f6c",
+                        "name": "Goblin Warchief",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "2e220c87-1223-4998-b0e5-23e2d930fa6b",
+                        "name": "Goblin Wardriver",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5b310b01-f9cb-48ce-8af3-5957d3abf098",
+                        "name": "Grotag Bug-Catcher",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "d915eebf-1617-4339-b8b0-72b313c6dab2",
+                        "name": "Imperial Recruiter",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "55ba9bea-5549-45cf-896c-501a1c81fd5a",
+                        "name": "Impulsive Pilferer",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0a742125-730d-4082-bfd8-5feb7733def4",
+                        "name": "Judith, the Scourge Diva",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "37ed04d3-cfa1-4778-aea6-b4c2c29e6e0a",
+                        "name": "Krenko, Tin Street Kingpin",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ff93d9e3-3e27-4bd4-955b-076788519694",
+                        "name": "Legion Loyalist",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5e84cb9c-9876-47a4-aea4-78574321bc36",
+                        "name": "Legion Warboss",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "00215182-51bd-4c7e-9675-179749a25a07",
+                        "name": "Mad Auntie",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "1aa4eba9-9e91-4beb-9296-a18baa73a318",
+                        "name": "Metallic Mimic",
+                        "types": [
+                            "Artifact",
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "73719325-b091-4464-b0b0-77dfbb19562a",
+                        "name": "Mogg Conscripts",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6ab0b7fe-cb6c-49e1-b8f4-e81c31a16ae2",
+                        "name": "Mogg Raider",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "d3f75cf8-5346-497d-b5af-72b268a72f2b",
+                        "name": "Mogg War Marshal",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "a8572dfd-9da1-4727-b549-47f9b119f6ac",
+                        "name": "Munitions Expert",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "acadf575-2076-4f0c-b66e-994898adf375",
+                        "name": "Murderous Redcap",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "11616853-34b1-4bb1-9590-461e12970ec3",
+                        "name": "Pashalik Mons",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0405b1b9-976a-4aaf-bec6-fa006decea74",
+                        "name": "Reckless Bushwhacker",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5ffd5cb7-7002-4c9e-b04f-6ee6d168afc3",
+                        "name": "Siege-Gang Commander",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5ec17ffd-6be9-4f1a-9279-24927b408da6",
+                        "name": "Skirk Prospector",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "f82aec21-441b-4fcd-b666-61723bd79531",
+                        "name": "Sling-Gang Lieutenant",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "15a4460d-3fe8-4b1f-9990-0a19c3345367",
+                        "name": "Sparksmith",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "617477d7-eb82-4324-b99b-d7c9ecbdcfda",
+                        "name": "Stingscourger",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "79f591cd-d277-4ba5-b1bf-1c09cac9cb8a",
+                        "name": "Torbran, Thane of Red Fell",
+                        "types": [
+                            "Creature"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3abab3d4-d525-41bf-85ee-fba7f999001f",
+                        "name": "Warren Instigator",
+                        "types": [
+                            "Creature"
+                        ]
+                    }
+                ],
+                "count": 50,
+                "type": "Creatures"
+            },
+            {
+                "cards": [],
+                "count": 0,
+                "type": "Planeswalkers"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "7832abb5-5107-4603-904e-491b221bd3e3",
+                        "name": "Smuggler's Copter",
+                        "types": [
+                            "Artifact"
+                        ]
+                    }
+                ],
+                "count": 1,
+                "type": "Artifacts"
+            },
+            {
+                "cards": [],
+                "count": 0,
+                "type": "Enchantments"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "c61fa2c0-63c0-4dc2-9f17-5a00530e3348",
+                        "name": "Deadly Rollick",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "4ccd8394-cbc9-4346-9b48-f6be447b3e08",
+                        "name": "Dismember",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
+                        "name": "Fatal Push",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+                        "name": "Lightning Bolt",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "25f98f02-9ada-4561-93fd-9cfcb0f48b5d",
+                        "name": "Pyrokinesis",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "18a3cca1-e50e-49b6-9e1a-f86640e3b177",
+                        "name": "Snuff Out",
+                        "types": [
+                            "Instant"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3c7dfc93-36fe-499c-9019-cd45797ffbbf",
+                        "name": "Tarfire",
+                        "types": [
+                            "Tribal",
+                            "Instant"
+                        ]
+                    }
+                ],
+                "count": 7,
+                "type": "Instants"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
+                        "name": "Demonic Tutor",
+                        "types": [
+                            "Sorcery"
+                        ]
+                    }
+                ],
+                "count": 1,
+                "type": "Sorceries"
+            },
+            {
+                "cards": [
+                    {
+                        "count": "1",
+                        "id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+                        "name": "Arid Mesa",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "098685c9-cd85-4279-a3b5-b495485bba35",
+                        "name": "Auntie's Hovel",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "377cee38-e769-47b0-abd5-0f528600f36a",
+                        "name": "Badlands",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "3d71be5f-0fd7-4a88-8041-f4d6bc4cc9ac",
+                        "name": "Blackcleave Cliffs",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "5faba6c8-3463-47c1-ba01-09eb87fcb2d5",
+                        "name": "Blood Crypt",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+                        "name": "Bloodstained Mire",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "8bb8512e-6913-4be6-8828-24cfcbec042e",
+                        "name": "Castle Embereth",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "74c5bc49-318c-44fc-b276-f6d036fdf054",
+                        "name": "Command Tower",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "91570836-9e36-4774-8d5d-7cbcee0012ba",
+                        "name": "Dragonskull Summit",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "0127d42f-bf40-48f4-a3a0-1a1c4039f432",
+                        "name": "Graven Cairns",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "723a163e-97c1-4177-a067-873bebd9a87d",
+                        "name": "Marsh Flats",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "18",
+                        "id": "69419307-53d5-40d7-82da-cab2e7bfbda4",
+                        "name": "Mountain",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+                        "name": "Polluted Delta",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+                        "name": "Prismatic Vista",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "af11d41a-0d29-45e9-9d27-a41282b9e292",
+                        "name": "Ramunap Ruins",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "9f10f026-eba0-4e33-b465-f3a852402718",
+                        "name": "Scalding Tarn",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "d2d5f30e-cc3a-46c1-82a9-2cd73705b2f5",
+                        "name": "Shinka, the Bloodsoaked Keep",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "ca7f2426-5a56-4dca-a059-65aa7266ac83",
+                        "name": "Sulfurous Springs",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "2",
+                        "id": "9f9e61c0-b185-4704-913f-9284ed0ce250",
+                        "name": "Swamp",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "b96a5b3a-ee54-4864-a84c-385a97b8cb7b",
+                        "name": "Unclaimed Territory",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+                        "name": "Verdant Catacombs",
+                        "types": [
+                            "Land"
+                        ]
+                    },
+                    {
+                        "count": "1",
+                        "id": "a8503cca-7e7d-44c4-8587-81376b396398",
+                        "name": "Wooded Foothills",
+                        "types": [
+                            "Land"
+                        ]
+                    }
+                ],
+                "count": 40,
+                "type": "Lands"
+            }
+        ],
+        "count": 99
+    }
+}
