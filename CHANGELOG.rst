@@ -4,7 +4,7 @@ Changelog
 3.2.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Proof-reading
 
 
 3.2.5 (2021-02-18)
