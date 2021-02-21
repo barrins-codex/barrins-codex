@@ -26,7 +26,8 @@ Grenzo, Dungeon Warden
 	card_token=layout.card_column("Mons's Goblin Raiders"),
 	card_legion=layout.card_column("Legion Loyalist"),
 	card_bush=layout.card_column("Reckless Bushwhacker"),
-	card_pashalik=layout.card_column("Sling-gang Lieutenant")
+	card_pashalik=layout.card_column("Sling-gang Lieutenant"),
+	archetype_linear_aggro=link("/articles/classifier-un-deck/les-archetypes", _("l'archétype Agro Linéaire"), _anchor="archetype_linear_aggro")
 %}
 <h2>Présentation rapide</h2>
 <p>
@@ -61,52 +62,91 @@ Grenzo, Dungeon Warden
 	densité de staples se ressent et doit être prise en compte lorsque le deck est joué.
 </p>
 
-<h2>Un deck pas si linéaire que ça</h2>
+<h2>Un deck Aggro ?</h2>
 <p>
-	Bien que le plan de jeu principal rentre tout à fait dans sa catégorie d'Aggro linéaire, une fois la phase de déploiement terminée vers tour 4~5, le deck commence à prendre un tout autre tournant. En effet, ce dernier doit s'adapter immédiatement au plan de jeu à adopter pour maximiser ses chances de victoire, qui dépendent de l'archétype de l'adversaire ainsi que du déroulement du début de la partie.
-	Les changements de plan de jeu les plus fréquents sont les suivants :
-	<ul>
-		<li>
-			Contre aggro, il est très fréquent d'être en retard sur le board. On pourra utiliser le côté tribal ainsi que les lords hasty pour bait un commit adverse afin de transformer un faible restant de board ayant chump en one-turn-kill avec seulement deux cartes clé en main. Des cartes comme {{ judith_the_scourge_diva }} et {{ pashalik_mons }} sont très efficaces pour manger le board adverse et reprendre l'avantage.
-		</li>
-		<li>
-			Contre contrôle, il faut anticiper la guerre de CA des deux manières possibles. Soit notre main fera assez et il faut terminer la partie avant que l'adversaire ne puisse faire du CA, soit il faut faire dépenser de façon continue les ressources de notre adversaire jusqu'à le faire craquer. Laisser constamment deux créatures on board force l'adversaire à se prévenir d'un lord qui pourrait renverser la partie, en lui faisant ainsi gaspiller des ressources en prévention d'une menace potentielle. Les dégats que peuvent faire le board sont très durs à estimer, c'est un bon atout psychologique.
-		</li>
-		<li>
-			Contre combo, les sorties curvées les plus aggressives peuvent suffire à prendre de vitesse cet archétype. Il s'agit par défaut du matchup contre lequel le deck a le moins de prise, et la partie passera souvent par la maximisation des dégats direct que l'on pourra infliger. Contre les versions les moins interactives aller tuto soit le combo recruiter soit un des gobelins de gestion ciblée peut s'avérer crucial.
-		</li>
-	</ul>
-	
-	Il est important ici de statuer au sujet de cartes "mid" ou "lategame" qui brillent une fois les tours 4 ou 5 atteints. On peut prendre pour exemple les mass reanimator comme {{ living_death }} ou bien des CA engine comme {{ experimental_frenzy }}. Ces cartes sont en effet très bonnes une fois en situation de topdeck et grind.
+	Bien que le plan de jeu principal corresponde à {{ archetype_linear_aggro }}, une fois la phase
+	de développement terminée, vers les tours quatre et cinq, le deck doit adapter sa tactique. En
+	effet, il doit s'aligner sur le plan de jeu à adopter pour maximiser ses chances de victoire
+	selon l'archétype auquel le deck de l'adversaire appartient et selon s'est déroulée cette phase
+	de développement. Les changements de plan de jeu les plus fréquents sont les suivants :
 </p>
-<p>
-	Cependant, les développer implique de sacrifier sa board pressure et donc tout ce qui a été construit précédemment.
-	En plus de ça s'ajoute un coût caché qui est qu'une carte de mid va prendre la place d'une carte d'early, et donc faire arriver à un boardstate moins abouti que prévu et donc justifier sa propre présence en temps que carte de comeback.
-</p>
-<p>
-	Je considère qu'une carte qui justifie son inclusion parce qu'elle répare les dégats qu'elle fait au pack n'a pas sa place. De plus, elle force le all-in des ressources autour d'elle et donc pour un outil de grind ou de come-back elle peut simplement nous faire perdre avant qu'on puisse capitaliser dessus.
-</p>
-<p>
-	Par exemple, pour préparer {{ living_death }} il est important d'user son board en conséquence, de l'utiliser de façon moins conservative. Ainsi, si la death ne passe pas se retrouver dans une situation plus défavorable qu'avec une autre carte.
-</p>
-<p>
-	Dans une moindre mesure, les terrains permettant de filtrer notre bas de bibliothèque pour Grenzo, tels que {{ path_of_ancestry }}, vont tuer notre développement on curve et donc justifier leur utilité plus tard. Le tout en ayant l'assez mauvais goût de réduire soit la qualité de notre main, soit celle du bas de notre bibliothèque, et en forçant nos lignes de play sur la main ou Grenzo.
-	En détails :
-	<ul>
+<ul>
 	<li>
-		Si je scry top une créature, le scry n'apporte pas de plus value.
+		Contre aggro, il est très fréquent d'être en retard sur le board. Il faut prioriser
+		l'aspect tribal des gobelins et les lords pour transformer quelques créatures ayant survécu
+		aux créatures qu'elles bloquaient en un tour létal avec seulement deux cartes en main. Des
+		cartes comme {{ judith_the_scourge_diva }} et {{ pashalik_mons }} sont très efficaces pour
+		tuer les créatures de l'adversaire et reprendre l'avantage.
 	</li>
 	<li>
-		Si je scry bottom une créature, je force l'activation de Grenzo et donc maximise mes pertes sur un removal. Je perd aussi de la qualité de pioche.
+		Contre contrôle, il faut anticiper la guerre de Card Advantage des deux manières possibles.
+		Soit les cartes en main seront suffisantes et il faut alors terminer la partie avant que
+		l'adversaire ne puisse faire du CA ; soit il faut faire dépenser de façon continue les
+		ressources de l'adversaire jusqu'à le faire craquer. Laisser constamment deux créatures en
+		jeu force l'adversaire à se prévenir d'un lord qui pourrait renverser l'équilibre des
+		menaces. Cette tactique permet de faire dépenser les ressources adverses en prévention
+		d'une menace potentielle. Les dégats que peuvent délivrer les créatures en jeu sont très
+		durs à estimer, c'est un bon atout psychologique.
 	</li>
 	<li>
-		Si je scry top un land, le scry n'apporte pas de plus value.
+		Contre combo, les sorties les plus aggressives peuvent suffire à prendre de vitesse
+		l'adversaire. Il s'agit par défaut du match pendant lequel le deck a le moins de prise, et
+		la partie passera souvent par la maximisation des dégats directs qui pourront être
+		infligés. Contre les versions les moins interactives, l'accès à la combo
+		{{ goblin_recruiter }} ou à un des gobelins de gestion ciblée peut s'avérer crucial.
 	</li>
-	<li>
-		Si je scry bottom un land, je condamne assez fortement l'utilité à court terme de la capacité de Grenzo, qui est quand même la raison de la présence d'un scry engine
-	</li>
-	</ul>
+</ul>
+<h2>Des cartes spécifiques pour changer de plan de jeu ?</h2>
+<p>
+	Les sorts de réanimation globale comme {{ living_death }} ou des moteurs de Card Advantage
+	comme {{ experimental_frenzy }} peuvent briller lors du passage au <em>midgame</em> voire au
+	<em>lategame</em>. En effet, ces cartes sont très bonnes lorsque le deck commence à
+	l'essouffler ou lorsqu'il faut épuiser l'adversaire.
 </p>
+<p>
+	Cependant, jouer des cartes spécifiques et de coût relativement élevé peut bloquer la main et
+	ralentir le développement du deck. Il est donc nécessaire de prendre en compte l'impact de ces
+	cartes sur la partie depuis la main de départ et non pas lorsque celles-ci deviennent jouables
+	car elles occupent la place potentielle d'une carte à faible coût de mana jouable dans les
+	premiers tours.
+</p>
+<p>
+	Justifier l'inclusion d'une carte dans le deck parce qu'elle répare les dégats qu'elle fait au
+	deck n'est pas un argument tangible. En effet, elle force dès le début de la partie
+	l'utilisation des ressources autour d'elle de manière spécifique et elle peut simplement faire
+	perdre avant de pouvoir apporter l'effet pour lequel cette carte a été ajoutée.
+</p>
+<p>
+	Par exemple, pour préparer {{ living_death }}, il est important de dépenser ses créatures en
+	conséquence, de les utiliser de façon moins conservative. Ainsi, si le sort n'est pas résolu,
+	la situation sera plus défavorable que si les créatures avaient été utilisées de manière
+	habituelle.
+</p>
+<p>
+	Dans une moindre mesure, les terrains qui permettent de filtrer le dessous de la bibliothèque
+	pour Grenzo, tels que {{ path_of_ancestry }}, vont ralentir le développement du deck en terme
+	d'aggro et leur utilité ne sera significative que tard dans la partie. En plus de ce
+	ralentissement significatif, ces cartes vont réduire tantôt la qualité des cartes en main,
+	tantôt celle des cartes en dessous de la bibliothèque. Les choix induits selon la carte vue sur
+	le Regard a en plus un impact sur la partie :
+</p>
+<ul>
+	<li>
+		Si une créature est laissée au-dessus, il n'y a pas de plus value ;
+	</li>
+	<li>
+		Si une créature est envoyée en dessous de la bibliothèque, cela force l'activation de
+		Grenzo pour la récupérer et donc rend la sortie plus sensible aux gestions de l'adversaire.
+		La pioche a, de plus, de fortes chances de perdre en qualité ;
+	</li>
+	<li>
+		Si un terrain est laissé au-dessus de la bibliothèque, il n'y a pas de plus value ;
+	</li>
+	<li>
+		Si un terrain est envoyé en dessous de la bibliothèque, l'utilisation à court terme de la
+		capacité de Grenzo n'a pas de sens et va dans le sens opposé à l'utilisation d'un tel outil.
+	</li>
+</ul>
 
 <h2>Explications au sujet de la manabase</h2>
 <p>
