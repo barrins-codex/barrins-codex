@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Proof-reading
+- Ajout d'un primer sur Grenzo, Dungeon Warden
 
 
 3.2.5 (2021-02-18)
