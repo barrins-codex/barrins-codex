@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Proof-reading
+- Préparation de la traduction en anglais
 
 
 3.2.5 (2021-02-18)
