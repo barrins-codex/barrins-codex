@@ -96,6 +96,7 @@ Grenzo, Dungeon Warden
 		{{ goblin_recruiter }} ou à un des gobelins de gestion ciblée peut s'avérer crucial.
 	</li>
 </ul>
+
 <h2>Des cartes spécifiques pour changer de plan de jeu ?</h2>
 <p>
 	Les sorts de réanimation globale comme {{ living_death }} ou des moteurs de Card Advantage
@@ -104,6 +105,7 @@ Grenzo, Dungeon Warden
 	l'essouffler ou lorsqu'il faut épuiser l'adversaire.
 </p>
 <p>
+	{{ ci_frenzy }}
 	Cependant, jouer des cartes spécifiques et de coût relativement élevé peut bloquer la main et
 	ralentir le développement du deck. Il est donc nécessaire de prendre en compte l'impact de ces
 	cartes sur la partie depuis la main de départ et non pas lorsque celles-ci deviennent jouables
@@ -148,36 +150,47 @@ Grenzo, Dungeon Warden
 	</li>
 </ul>
 
-<h2>Explications au sujet de la manabase</h2>
+<h2>Choix des terrains et de la production de manas colorés</h2>
 <p>
-	La manabase du deck est soumise à un nombre important de contraintes, qui ont été ici sélectionnées, priorisées et optimisées.
-	Les contraintes sont les suivantes :
-	<ul>
+	La production de manas colorés est soumise à un nombre important de contraintes.
+	Celles-ci ont été priorisées et optimisées dans l'ordre suivant :
+</p>
+<ol>
 	<li>
-		Produire les couleurs nécessaires à toute sortie curvée du deck. Ici, on priorise à l'extrême le besoin de pouvoir jouer ses cartes en early, et dans un deck principalement mono-rouge cela veut dire que le support du noir va être très asymétrique. Ces manas doivent aussi venirs détapés, ce qui va fortement toucher la catégorie suivante.
+		<strong>Les couleurs doivent sortir dans le même ordre que les créatures</strong><br>
+		C'est un paradigme que tous les decks Aggro cherchent à réaliser. La priorité dans ce deck est de jouer n'importe quelle carte dès que le nombre de terrains le permet ; il faut donc que lesdits terrains produisent les bonnes couleurs dans les bonnes quantités. Le deck étant fortement orienté {{ R }}, la production de {{ B }} est très asymétrique pour permettre au deck de jouer des cartes {{ R }}{{ R }} dès le tour deux.
 	</li>
 	<li>
-		Les lands utilitaires. Cette catégorie rassemble les scrylands ainsi que les lands de "combat trick". Ces lands se voient très utiles en midgame, car ils comptent comme des "demi-sorts". Cependant, aucun scrylands ne rentre dans les critères principaux du deck (ils ETB tap ou sont incolores), pour un upside pas si certain comme vu plus haut. En ce qui concerne les lands de combat trick, on va garder ceux qui produisent du rouge et qui arrivent untap.
+		<strong>Les terrains doivent produire du mana dès qu'ils sont posés</strong><br>
+		C'est encore une des principales contraintes d'un deck Aggro pour optimiser sa sortie de créatures ou de sorts de dégâts directs.
 	</li>
 	<li>
-		Attention aux painlands. Le deck n'a aucun moyen de gagner de la vie, et joue exclusivement sur le board. Avoir des points de vie c'est se laisser la possibilité d'optimiser ses phases d'attaque et de block en pouvant encaisser les dégats avec la tête. C'est si important que tous les painlands sans alternative ({{ mana_confluence }} par rapport à {{ sulfurous_springs}}) sont cut.
+		<strong>Jouer de l'utilitaire dans les terrains</strong><br>
+		Les terrains utilitaires sont, à un certain moment de la partie, l'équivalent d'un <em>demi-sort</em> et sont très utiles dès le <em>midgame</em> atteint. En corrélation avec le critère 2, il n'y a pas de terrains comme {{ path_of_ancestry }} car ces terrains ne permettent pas de jouer de créatures dégagées et, comme vu plus haut, leur ajout n'aide pas forcément le deck à mieux sortir. Il reste donc les terrains {{ R }} qui arrivent dégagés.
 	</li>
-	</ul>
+	<li>
+		<strong>Ne pas perdre la partie en utilisant ses terrains</strong><br>
+		En effet, les <em>painlands</em> sont une famille de terrains bien utiles pour leur capacité de fournir du mana coloré. Cependant, la contrepartie est le coût en points de vie. Dans ce deck sans moyens de régénérer ses points de vie, jouer une grande quantité de ce type de terrains est presque équivalent à du suicide contre d'autres decks Aggro. Ne pas jouer de <em>painlands</em> ou en jouer très peu permet d'utiliser ses points de vie comme une ressource permettant de résister aux attaques de l'adversaire. Restent alors les <em>painlands</em> comme {{ sulfurous_springs }} qui offrent un moyen alternatif de gagner du mana, à l'opposé de {{ mana_confluence }}.
+	</li>
+</ol>
 <div class="tip">
 	<h3>L'équilibrage des couleurs</h3>
-	Les gobelins sortent peut-être vite, mais coutent très cher en couleurs. La méthode d'optimisation de la manabase poour ce deck est la suivante :
+	Les gobelins sortent peut-être vite, mais coutent très cher en mana coloré. La méthode d'optimisation de la manabase pour ce deck est la suivante :
 	<ol>
-	<li>
-		La grande majorité des sorties va coûter soit {{ R }}->{{ R }}{{ R }}->1{{ R }}{{ B }} soit {{ R }}->{{ R }}{{ B }}->1{{ R }}{{ R }}. On peut donc résumer à {{ R }}->{{ R }}{{ R }}/{{ R }}{{ B }}->{{ R }}{{ R }}{{ B }} les contraintes imposées à la manabase.
-	</li>
-	<li>
-		On enlève tous les terrains incompatibles : la majorité des {{ swamp }}, les lands noirs non-basiques, les taplands.
-	</li>
-	<li>
-		Certaines cartes deviennent totalement incompatibles avec la manabase et sont donc écartées : les T1 {{ B }} comme {{ knucklebone_witch }} et les T3+ 1{{ B }}{{ B }}.
-	</li>
+		<li>
+			La séquence des besoins en manas colorés est {{ R }} puis {{ R }}{{ R }} ou {{ R }}{{ B }} puis {{ R }}{{ R }}{{ B }}.
+		</li>
+		<li>
+			Les besoins en {{ B }} étant assez faibles, il faut limiter au maximum le nombre de sources uniquement noires
+		</li>
+		<li>
+			La présence de {{ blood_moon }} dans le format rend difficile l'utilisation de terrains {{ B }} non-basiques.
+		</li>
+		<li>
+			Parmis les cartes non-terrains, certaines sont écartées d'office : les cartes coûtant {{ B }} comme {{ knucklebone_witch }} ou ayant un double symbole {{ B }}{{ B }} dans leur coût.
+		</li>
 	</ol>
-	La boucle est bouclée et la manabase est très en phase avec nos besoins, et les cartes en accord avec la manabase.
+	Cette réflexion permet d'aligner les besoins en mana coloré, les créatures et les cartes utilitaires qui viennent compléter le deck.
 </div>
 </p>
 
