@@ -4,7 +4,8 @@ Changelog
 3.2.6 (unreleased)
 ------------------
 
-- Proof-reading
+- Préparation de la traduction en anglais
+- Proof-reading de plusieurs articles
 - Ajout d'un primer sur Grenzo, Dungeon Warden
 
 
