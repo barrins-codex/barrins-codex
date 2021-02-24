@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.2.6 (unreleased)
+3.3.0 (2021-02-24)
 ------------------
 
 - Préparation de la traduction en anglais
