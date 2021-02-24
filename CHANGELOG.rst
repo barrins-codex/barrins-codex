@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.2 (unreleased)
+3.3.2 (2021-02-24)
 ------------------
 
 - Mise à jour du site map
