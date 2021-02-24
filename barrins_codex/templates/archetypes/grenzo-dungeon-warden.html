@@ -1,0 +1,299 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/grenzo-dungeon-warden.json" as deck_json %}
+{% import "archetypes/_layout_card_column.html" as layout with context %}
+
+{% block title %}
+Grenzo, Dungeon Warden
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Grenzo, Dungeon Warden</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	ci_chieftain='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Goblin Chieftain"),style="'margin:0.3em;float:left;'")|safe,
+	ci_frenzy='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Experimental Frenzy"),style="'margin:0.3em;float:right;'")|safe,
+	ci_worldgorger='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Worldgorger Dragon"),style="'margin:0.3em;float:left;'")|safe,
+	guide_recruiter=external("https://docs.google.com/document/d/1UQhb9on--RrB4z1r1gSe6wGb_2JCY7cSDhTNw1AF8a8/edit#", "Guide Recruiter"),
+	card_snoop=layout.card_column("Conspicuous Snoop"),
+	card_prospector=layout.card_column("Skirk Prospector"),
+	card_pilferer=layout.card_column("Impulsive Pilferer"),
+	card_mogg=layout.card_column("Mogg War Marshal"),
+	card_denizen=layout.card_column("Foundry Street Denizen"),
+	card_instigator=layout.card_column("Goblin Instigator"),
+	card_token=layout.card_column("Mons's Goblin Raiders"),
+	card_legion=layout.card_column("Legion Loyalist"),
+	card_bush=layout.card_column("Reckless Bushwhacker"),
+	card_pashalik=layout.card_column("Sling-gang Lieutenant"),
+	archetype_linear_aggro=link("/articles/classifier-un-deck/les-archetypes", _("l'archétype Agro Linéaire"), _anchor="archetype_linear_aggro")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	{{ grenzo_dungeon_warden }} est un deck Aggro linéaire de part sa sortie curvée terminée par la
+	pose d'un lord tribal. Le deck est tourné intégralement vers l'optimisation de l'occupation du
+	champ de bataille à l'issue des premiers tours, qui est sa principale condition de victoire.
+	{{ grenzo_dungeon_warden }}, quant à lui, fait office à la fois de curve filler en début de
+	partie (<em>l'early game</em>) ainsi que de moteur à Card Advantage après les quatre premiers
+	tours environ (<em>le midgame</em>).
+</p>
+<p>
+	{{ ci_chieftain }}
+	Les créatures des premiers tours sont souvent moins puissantes que les cartes habituelles
+	(<em>les staples</em>) d'Aggro. Les {{ goblin_king }} et autres <em>lords</em> joués tours
+	trois et quatre transforment totalement la puissance et l'impact de ces créatures. Un goblin
+	avec de faibles force et endurance (un faible <em>body</em>) mais un effet d'arrivée en jeu se
+	verra ainsi transformé en une menace réelle dès ces tours clé atteints. Le deck s'appuie ainsi
+	au maximum sur la versatilité des gobelins ainsi que le fort support tribal que fournit le type
+	de créature gobelin.
+</p>
+<p>
+	Ce deck se différencie très fortement de la plupart des autres decks Aggro du format en ce qui
+	concerne l'équilibrage de ses catégories de cartes : pour optimiser la capacité de
+	{{ grenzo_dungeon_warden }}, le focus est mis sur quantité de cartes qui remplissent les
+	conditions de sa capacité activée et jouer moins de quarante créatures crée une trop grande
+	variance. L'expérience montre qu'il faut jouer entre quarante-sept et cinquante créatures pour
+	que sa capacité soit utilisée au maximum. Cette capacité influe également sur la quantité de
+	terrains à avoir. Ainsi, contrairement à un deck Aggro « standard », le deck profite pleinement
+	de chaque terrain joué, même une fois passé  le tour quatre. Il suffit d'un tour sur le champ
+	de bataille pour que Grenzo transforme le mana disponible en armée de gobelin sans utiliser les
+	cartes de la main. Ainsi, avec une quarantaine de terrains et une cinquantaine de créatures, il
+	reste une place infime pour d'autres carte qui sont alors triées sur le volet. La faible
+	densité de staples se ressent et doit être prise en compte lorsque le deck est joué.
+</p>
+
+<h2>Un deck Aggro ?</h2>
+<p>
+	Bien que le plan de jeu principal corresponde à {{ archetype_linear_aggro }}, une fois la phase
+	de développement terminée, vers les tours quatre et cinq, le deck doit adapter sa tactique. En
+	effet, il doit s'aligner sur le plan de jeu à adopter pour maximiser ses chances de victoire
+	selon l'archétype auquel le deck de l'adversaire appartient et selon s'est déroulée cette phase
+	de développement. Les changements de plan de jeu les plus fréquents sont les suivants :
+</p>
+<ul>
+	<li>
+		Contre aggro, il est très fréquent d'être en retard sur le board. Il faut prioriser
+		l'aspect tribal des gobelins et les lords pour transformer quelques créatures ayant survécu
+		aux créatures qu'elles bloquaient en un tour létal avec seulement deux cartes en main. Des
+		cartes comme {{ judith_the_scourge_diva }} et {{ pashalik_mons }} sont très efficaces pour
+		tuer les créatures de l'adversaire et reprendre l'avantage.
+	</li>
+	<li>
+		Contre contrôle, il faut anticiper la guerre de Card Advantage des deux manières possibles.
+		Soit les cartes en main seront suffisantes et il faut alors terminer la partie avant que
+		l'adversaire ne puisse faire du CA ; soit il faut faire dépenser de façon continue les
+		ressources de l'adversaire jusqu'à le faire craquer. Laisser constamment deux créatures en
+		jeu force l'adversaire à se prévenir d'un lord qui pourrait renverser l'équilibre des
+		menaces. Cette tactique permet de faire dépenser les ressources adverses en prévention
+		d'une menace potentielle. Les dégats que peuvent délivrer les créatures en jeu sont très
+		durs à estimer, c'est un bon atout psychologique.
+	</li>
+	<li>
+		Contre combo, les sorties les plus aggressives peuvent suffire à prendre de vitesse
+		l'adversaire. Il s'agit par défaut du match pendant lequel le deck a le moins de prise, et
+		la partie passera souvent par la maximisation des dégats directs qui pourront être
+		infligés. Contre les versions les moins interactives, l'accès à la combo
+		{{ goblin_recruiter }} ou à un des gobelins de gestion ciblée peut s'avérer crucial.
+	</li>
+</ul>
+
+<h2>Des cartes spécifiques pour changer de plan de jeu ?</h2>
+<p>
+	Les sorts de réanimation globale comme {{ living_death }} ou des moteurs de Card Advantage
+	comme {{ experimental_frenzy }} peuvent briller lors du passage au <em>midgame</em> voire au
+	<em>lategame</em>. En effet, ces cartes sont très bonnes lorsque le deck commence à
+	l'essouffler ou lorsqu'il faut épuiser l'adversaire.
+</p>
+<p>
+	{{ ci_frenzy }}
+	Cependant, jouer des cartes spécifiques et de coût relativement élevé peut bloquer la main et
+	ralentir le développement du deck. Il est donc nécessaire de prendre en compte l'impact de ces
+	cartes sur la partie depuis la main de départ et non pas lorsque celles-ci deviennent jouables
+	car elles occupent la place potentielle d'une carte à faible coût de mana jouable dans les
+	premiers tours.
+</p>
+<p>
+	Justifier l'inclusion d'une carte dans le deck parce qu'elle répare les dégats qu'elle fait au
+	deck n'est pas un argument tangible. En effet, elle force dès le début de la partie
+	l'utilisation des ressources autour d'elle de manière spécifique et elle peut simplement faire
+	perdre avant de pouvoir apporter l'effet pour lequel cette carte a été ajoutée.
+</p>
+<p>
+	Par exemple, pour préparer {{ living_death }}, il est important de dépenser ses créatures en
+	conséquence, de les utiliser de façon moins conservative. Ainsi, si le sort n'est pas résolu,
+	la situation sera plus défavorable que si les créatures avaient été utilisées de manière
+	habituelle.
+</p>
+<p>
+	Dans une moindre mesure, les terrains qui permettent de filtrer le dessous de la bibliothèque
+	pour Grenzo, tels que {{ path_of_ancestry }}, vont ralentir le développement du deck en terme
+	d'aggro et leur utilité ne sera significative que tard dans la partie. En plus de ce
+	ralentissement significatif, ces cartes vont réduire tantôt la qualité des cartes en main,
+	tantôt celle des cartes en dessous de la bibliothèque. Les choix induits selon la carte vue sur
+	le Regard a en plus un impact sur la partie :
+</p>
+<ul>
+	<li>
+		Si une créature est laissée au-dessus, il n'y a pas de plus value ;
+	</li>
+	<li>
+		Si une créature est envoyée en dessous de la bibliothèque, cela force l'activation de
+		Grenzo pour la récupérer et donc rend la sortie plus sensible aux gestions de l'adversaire.
+		La pioche a, de plus, de fortes chances de perdre en qualité ;
+	</li>
+	<li>
+		Si un terrain est laissé au-dessus de la bibliothèque, il n'y a pas de plus value ;
+	</li>
+	<li>
+		Si un terrain est envoyé en dessous de la bibliothèque, l'utilisation à court terme de la
+		capacité de Grenzo n'a pas de sens et va dans le sens opposé à l'utilisation d'un tel outil.
+	</li>
+</ul>
+
+<h2>Choix des terrains et de la production de manas colorés</h2>
+<p>
+	La production de manas colorés est soumise à un nombre important de contraintes.
+	Celles-ci ont été priorisées et optimisées dans l'ordre suivant :
+</p>
+<ol>
+	<li>
+		<strong>Les couleurs doivent sortir dans le même ordre que les créatures</strong><br>
+		C'est un paradigme que tous les decks Aggro cherchent à réaliser. La priorité dans ce deck
+		est de jouer n'importe quelle carte dès que le nombre de terrains le permet ; il faut donc
+		que lesdits terrains produisent les bonnes couleurs dans les bonnes quantités. Le deck
+		étant fortement orienté {{ R }}, la production de {{ B }} est très asymétrique pour
+		permettre au deck de jouer des cartes {{ R }}{{ R }} dès le tour deux.
+	</li>
+	<li>
+		<strong>Les terrains doivent produire du mana dès qu'ils sont posés</strong><br>
+		C'est encore une des principales contraintes d'un deck Aggro pour optimiser sa sortie de
+		créatures ou de sorts de dégâts directs.
+	</li>
+	<li>
+		<strong>Jouer de l'utilitaire dans les terrains</strong><br>
+		Les terrains utilitaires sont, à un certain moment de la partie, l'équivalent d'un
+		<em>demi-sort</em> et sont très utiles dès le <em>midgame</em> atteint. En corrélation avec
+		le critère 2, il n'y a pas de terrains comme {{ path_of_ancestry }} car ces terrains ne
+		permettent pas de jouer de créatures dégagées et, comme vu plus haut, leur ajout n'aide pas
+		forcément le deck à mieux sortir. Il reste donc les terrains {{ R }} qui arrivent dégagés.
+	</li>
+	<li>
+		<strong>Ne pas perdre la partie en utilisant ses terrains</strong><br>
+		En effet, les <em>painlands</em> sont une famille de terrains bien utiles pour leur
+		capacité de fournir du mana coloré. Cependant, la contrepartie est le coût en points de
+		vie. Dans ce deck sans moyens de régénérer ses points de vie, jouer une grande quantité de
+		ce type de terrains est presque équivalent à du suicide contre d'autres decks Aggro. Ne pas
+		jouer de <em>painlands</em> ou en jouer très peu permet d'utiliser ses points de vie comme
+		une ressource permettant de résister aux attaques de l'adversaire. Restent alors les
+		<em>painlands</em> comme {{ sulfurous_springs }} qui offrent un moyen alternatif de gagner
+		du mana, à l'opposé de {{ mana_confluence }}.
+	</li>
+</ol>
+<div class="tip">
+	<h3>L'équilibrage des couleurs</h3>
+	Les gobelins sortent peut-être vite, mais coutent très cher en mana coloré. La méthode
+	d'optimisation de la manabase pour ce deck est la suivante :
+	<ol>
+		<li>
+			La séquence des besoins en manas colorés est {{ R }} puis {{ R }}{{ R }} ou
+			{{ R }}{{ B }} puis {{ R }}{{ R }}{{ B }}.
+		</li>
+		<li>
+			Les besoins en {{ B }} étant assez faibles, il faut limiter au maximum le nombre de
+			sources uniquement noires
+		</li>
+		<li>
+			La présence de {{ blood_moon }} dans le format rend difficile l'utilisation de terrains
+			{{ B }} non-basiques.
+		</li>
+		<li>
+			Parmis les cartes non-terrains, certaines sont écartées d'office : les cartes coûtant
+			{{ B }} comme {{ knucklebone_witch }} ou ayant un double symbole {{ B }}{{ B }} dans
+			leur coût.
+		</li>
+	</ol>
+	Cette réflexion permet d'aligner les besoins en mana coloré, les créatures et les cartes
+	utilitaires qui viennent compléter le deck.
+</div>
+
+<h2>Optimiser l'utilisation de la zone de commandement</h2>
+<p>
+	{{ ci_worldgorger }}
+	Comme dit plus haut, la polyvalence de {{ grenzo_dungeon_warden }} est utilisée à son maximum
+	dans ce deck sans ajouter une seule carte spécifique, comme {{ worldgorger_dragon }} dans des
+	versions plus orientées sur la combo. L'utilisation de Grenzo permet de garantir qu'un gobelin
+	à deux manas systématiquement tour deux. Il est cependant plus efficace en tant que créature
+	plus chère afin de ne pas mourir sur {{ lightning_bolt }} et pour effectuer la transition vers
+	le <em>midgame</em> de manière plus menaçante tout en permettant d'utiliser sa capacité plus
+	facilement.
+</p>
+<p>
+	Le deck souffre naturellement d'un manque de <em>Card Advantage</em>. Cependant, cette absence
+	est compensée par une forte densité de créatures à trois manas qui sont difficiles à toutes
+	jouer par un deck Aggro et un général qui arrive quand nécessaire lors d'un creux dans le coût
+	des créatures dans la main. L'utilisation de Grenzo permet de conserver des cartes en main mais
+	pas suffisamment pour les parties qui s'étirent dans les tours. Ainsi, cela requiert une
+	utilisation rigoureuse et rationnée des ressources disponibles afin d'arriver à tuer avec les
+	créatures. Il est ici important d'identifier les deux moyens d'imposer de la pression à
+	l'adversaire pour pouvoir les alterner au besoin :
+</p>
+<ul>
+	<li>
+		Jouer avec les cartes de sa main pour utiliser l'effet des <em>lords</em> ;
+	</li>
+	<li>
+		Jouer et utiliser la capacité de {{ grenzo_dungeon_warden }}.
+	</li>
+</ul>
+<p>
+	En effet, une fois en <em>midgame</em> ou en <em>lategame</em>, il faut du temps pour accumuler
+	de nouveau des menaces et les gobelins ne sont pas très menaçants seuls. De plus, si la main
+	n'est pas prometteuse, Grenzo permet de temporiser et de fournir du carburant à la main. Il
+	sera plus judicieux d'utiliser les menaces individuelles de la main pour forcer la gestion de
+	l'adversaire et pour finir la partie sur l'utilisation de la capacité de Grenzo en boucle.
+	Enfin, pour protéger au maximum une main <em>combo</em>, Grenzo permet de forcer la gestion de
+	l'adversaire car une fois sur le champ de bataille en fin de partie c'est la promesse d'une
+	pression constante.
+</p>
+<p>
+	Pour résumer, Grenzo protège la main et la main protège Grenzo.
+</p>
+
+<h2>Goblin recruiter, le retour du roi</h2>
+<p>
+	L'arrivée de {{ conspicuous_snoop }} dans le format a fait passer le {{ goblin_recruiter }} de
+	simple carte de gestion de la pioche à un moteur à combo. En effet, il est possible de
+	construire une pile de gobelins léthale jouable en un seul tour pour {{ R }} {{ R }} {{ R }}
+	{{ R }}. Un recruiter joué est un signal envoyé à l'adversaire. Il doit avoir une gestion le
+	tour suivant, sous peine de perdre la partie. Il est important de prendre en compte la faible
+	capacité du deck à protéger le combo, il peut être avisé d'utiliser ses autres cartes de
+	manière un peu extrême pour divertir l'attention de l'adversaire.
+</p>
+<div class="tip">
+	<h3>La pile la plus efficace</h3>
+	<p>
+		{{ card_snoop }}{{ card_prospector }}{{ card_pilferer }}{{ card_mogg }}{{ card_denizen }}
+		{{ card_instigator }}{{ card_token }}{{ card_token }}{{ card_token }}{{ card_legion }}
+		{{ card_bush }}{{ card_pashalik }}
+	</p>
+	<p>
+		Les Raiders symbolisent l'ensemble des créatures à un mana du decks qui seront mis à cet
+		endroit de la pile. Il existe un guide complet sur la construction de la pile ici :
+		{{ guide_recruiter }}
+	</p>
+</div>
+
+<h2>Conclusion</h2>
+<p>
+	{{ grenzo_dungeon_warden }} est un jeu rapide et à multiples facettes ce qui le rend très
+	plaisant à jouer et à maitriser. Cependant, bien que le deck soit renforcé régulièrement grâce
+	à la popularité de la tribu gobelin, il reste un peu en dessous de ce qui se fait de mieux en
+	aggro de part son manque de marge de manœuvre qui punit fortement les missplays et une
+	explosivité qui peut arriver un tour trop tard.
+</p>
+{% endtrans %}
+{% endblock %}

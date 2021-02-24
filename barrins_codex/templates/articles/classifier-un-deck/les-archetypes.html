@@ -102,7 +102,7 @@ Les Archétypes
 	{% endtrans %}
 </p>
 <ol style="padding-left:1em;">
-	<li>
+	<li id="archetype_swarm">
 		{% trans trimmed
 			ci_thalia_guardian='<span class=image>%(card)s</span>'|format(card=card_image("Thalia, Guardian of Thraben"))|safe,
 			aether_vial=card("Æther Vial")
@@ -144,7 +144,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_red_aggro">
 		{% trans trimmed
 			ci_goblin_chainwhirler='<span class=image>%(card)s</span>'|format(card=card_image("Goblin Chainwhirler"))|safe,
 			giant_growth=card("Giant Growth")
@@ -187,7 +187,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_linear_aggro">
 		{% trans trimmed
 			ci_cavern_of_souls='<span class=image>%(card)s</span>'|format(card=card_image("Cavern of Souls"))|safe,
 			cavern_of_souls=card("Cavern of Souls"),
@@ -234,7 +234,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_suicide">
 		{% trans trimmed
 			ci_carnophage='<span class=image>%(card)s</span>'|format(card=card_image("Carnophage"))|safe,
 			black_suicide_1999_brian_schneider_extended_deck=external("https://www.mtggoldfish.com/deck/407304#paper","deck Extended Black Suicide de Brian Schneider (1999)"),
@@ -278,7 +278,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_tempo">
 		{% trans trimmed
 			ci_delver_of_secrets='<span class=image>%(card)s</span>'|format(card=card_image("Delver of Secrets"))|safe
 		%}
@@ -307,7 +307,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_rock>
 		{% trans trimmed
 			ci_abrupt_decay='<span class=image>%(card)s</span>'|format(card=card_image("Abrupt Decay"))|safe,
 			deranged_hermit=card("Deranged Hermit"),
@@ -352,7 +352,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_pure_midrange">
 		{% trans trimmed
 			ci_knight_of_the_reliquary='<span class=image>%(card)s</span>'|format(card=card_image("Knight of the Reliquary"))|safe
 		%}
@@ -392,7 +392,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_nonblue_midrange">
 		{% trans trimmed
 			ci_gray_merchant='<span class=image>%(card)s</span>'|format(card=card_image("Gray Merchant of Asphodel"))|safe,
 			mono_black_control=external("https://www.mtgtop8.com/event?e=9201&d=252718&f=BL","Mono Black Control"),
@@ -437,7 +437,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_draw_go">
 		{% trans trimmed
 			ci_cryptic_command='<span class=image>%(card)s</span>'|format(card=card_image("Cryptic Command"))|safe
 		%}
@@ -476,7 +476,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_tapout">
 		{% trans trimmed
 			ci_karn_liberated='<span class=image>%(card)s</span>'|format(card=card_image("Karn Liberated"))|safe
 		%}
@@ -509,7 +509,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_prison">
 		{% trans trimmed
 			ci_stasis='<span class=image>%(card)s</span>'|format(card=card_image("Stasis"))|safe,
 			icy_manipulator=card("Icy Manipulator")
@@ -542,7 +542,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_pure_control_combo">
 		{% trans trimmed
 			ci_crop_rotation='<span class=image>%(card)s</span>'|format(card=card_image("Crop Rotation"))|safe,
 			muddle_the_mixture=card("Muddle the Mixture"),
@@ -599,7 +599,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_ramp">
 		{% trans trimmed
 			ci_primeval_titan='<span class=image>%(card)s</span>'|format(card=card_image("Primeval Titan"))|safe
 		%}
@@ -639,7 +639,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_big_spell">
 		{% trans trimmed
 			ci_living_end='<span class=image>%(card)s</span>'|format(card=card_image("Living End"))|safe,
 			scapeshift=card("Scapeshift"),
@@ -704,7 +704,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_storm_combo">
 		{% trans trimmed
 			ci_grapeshot='<span class=image>%(card)s</span>'|format(card=card_image("Grapeshot"))|safe
 		%}
@@ -735,7 +735,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_traditional_combo">
 		{% trans trimmed
 			ci_painter_servant='<span class=image>%(card)s</span>'|format(card=card_image("Painter's Servant"))|safe,
 			griselbrand=card("Griselbrand"),
@@ -788,7 +788,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_lava_spike">
 		{% trans trimmed
 			ci_lava_spike='<span class=image>%(card)s</span>'|format(card=card_image("Lava Spike"))|safe
 		%}
@@ -827,7 +827,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_wave_combo">
 		{% trans trimmed
 			ci_bloodghast='<span class=image>%(card)s</span>'|format(card=card_image("Bloodghast"))|safe,
 			hollow_one=card("Hollow One")
@@ -866,7 +866,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_voltron">
 		{% trans trimmed
 			ci_glistener_elf='<span class=image>%(card)s</span>'|format(card=card_image("Glistener Elf"))|safe,
 			kiln_fiend=card("Kiln Fiend"),
@@ -926,7 +926,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_creature_combo">
 		{% trans trimmed
 			ci_vizier_of_remedies='<span class=image>%(card)s</span>'|format(card=card_image("Vizier of Remedies"))|safe,
 			birthing_pod=card("Birthing Pod"),
@@ -992,7 +992,7 @@ Les Archétypes
 		{% endtrans %}
 		<div class="clear"></div>
 	</li>
-	<li>
+	<li id="archetype_acc">
 		{% trans trimmed
 			ci_psychatog='<span class=image>%(card)s</span>'|format(card=card_image("Psychatog"))|safe,
 			how_to_grow_a_tog=external("https://articles.starcitygames.com/premium/so-many-insane-plays-how-to-groatog-and-almost-clip-a-lotus/","How to Grow-A-Tog and Clip a Lotus")
