@@ -16,6 +16,9 @@ Grenzo, Dungeon Warden
 
 {% block archetype %}
 {% trans trimmed
+	ci_chieftain='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Goblin Chieftain"),style="'margin:0.3em;float:left;'")|safe,
+	ci_frenzy='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Experimental Frenzy"),style="'margin:0.3em;float:right;'")|safe,
+	ci_worldgorger='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Worldgorger Dragon"),style="'margin:0.3em;float:left;'")|safe,
 	guide_recruiter=external("https://docs.google.com/document/d/1UQhb9on--RrB4z1r1gSe6wGb_2JCY7cSDhTNw1AF8a8/edit#", "Guide Recruiter"),
 	card_snoop=layout.card_column("Conspicuous Snoop"),
 	card_prospector=layout.card_column("Skirk Prospector"),
@@ -39,6 +42,7 @@ Grenzo, Dungeon Warden
 	tours environ (<em>le midgame</em>).
 </p>
 <p>
+	{{ ci_chieftain }}
 	Les créatures des premiers tours sont souvent moins puissantes que les cartes habituelles
 	(<em>les staples</em>) d'Aggro. Les {{ goblin_king }} et autres <em>lords</em> joués tours
 	trois et quatre transforment totalement la puissance et l'impact de ces créatures. Un goblin
@@ -218,6 +222,7 @@ Grenzo, Dungeon Warden
 
 <h2>Optimiser l'utilisation de la zone de commandement</h2>
 <p>
+	{{ ci_worldgorger }}
 	Comme dit plus haut, la polyvalence de {{ grenzo_dungeon_warden }} est utilisée à son maximum
 	dans ce deck sans ajouter une seule carte spécifique, comme {{ worldgorger_dragon }} dans des
 	versions plus orientées sur la combo. L'utilisation de Grenzo permet de garantir qu'un gobelin
