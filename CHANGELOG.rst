@@ -4,7 +4,7 @@ Changelog
 3.3.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction de l'alignement d'une image dans Grenzo
 
 
 3.3.0 (2021-02-24)
