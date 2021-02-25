@@ -4,7 +4,7 @@ Changelog
 3.3.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Versioning fix
 
 
 3.3.3 (2021-02-25)
