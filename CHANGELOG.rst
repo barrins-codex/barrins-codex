@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Mise à jour du site map
+- Optimisation de l'affichage
 
 
 3.4.0 (2021-02-25)

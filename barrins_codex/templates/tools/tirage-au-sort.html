@@ -46,6 +46,7 @@ const enddra = document.getElementById("enddra") // End of draws
 tibowl.style.display = "none"
 btdraw.style.display = "none"
 enddra.style.display = "none"
+document.getElementById("draw_lots").style.display = "none"
 
 var lots = []
 var ticket_i = 0
@@ -78,6 +79,7 @@ function getInputStringList (f,d) {
 function updateBowl () {
 	if (lots.length > 0) {
 		tibowl.innerHTML = lots.length + " tickets"
+		document.getElementById("draw_lots").style.display = "block"
 		tibowl.style.display = "block"
 		btdraw.style.display = "block"
 		enddra.style.display = "none"
@@ -107,7 +109,7 @@ function showTicket (t) {
 			currti.style.display = "none"
 			clearInterval(hide);
 		}
-	}, 3000)
+	}, 2200)
 }
 function drawLot () {
 	let ticket = lots[0]
