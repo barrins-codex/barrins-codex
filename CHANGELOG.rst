@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.4 (unreleased)
+3.4.0 (2021-02-25)
 ------------------
 
 - Versioning fix
