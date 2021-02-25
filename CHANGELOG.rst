@@ -4,7 +4,7 @@ Changelog
 3.4.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Mise à jour du site map
 
 
 3.4.0 (2021-02-25)
