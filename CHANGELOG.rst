@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Versioning fix
+- Section name change
 
 
 3.3.3 (2021-02-25)
