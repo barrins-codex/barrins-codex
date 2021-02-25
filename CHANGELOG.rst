@@ -4,7 +4,7 @@ Changelog
 3.3.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction typographie dans Grenzo
 
 
 3.3.2 (2021-02-24)
