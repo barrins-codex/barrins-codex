@@ -1,0 +1,121 @@
+{% extends "tools/_layout.html" %}
+{% import "cartes-thematiques/_layout_card_column.html" as layout with context %}
+
+{% block title %}
+Tirage au sort
+{% endblock %}
+
+{% block content %}
+<h1>{{ _("Tirage au sort") }}</h1>
+<div class="double-column">
+	<form class="inline-form" id="drawing-lots-info" autocomplete="off"
+		onsubmit="put();return false;">
+		<fieldset id="submit_lots">
+			<label for="sumbit">{{ _("Indiquer un nom par ligne") }}</label>
+			<div style="width:80%;padding:1em;">
+				<textarea rows="15" id="sumbit" style="width:100%;margin:0;padding:0;"></textarea>
+			</div>
+			<button type="submit" id="btn-submit" class="btn-calcul">{{ _("Valider")}}</button>
+		</fieldset>
+	</form>
+</div>
+<div class="double-column">
+	<form class="inline-form" id="drawing-lots-results" autocomplete="off"
+		onsubmit="drawLot();return false;">
+		<fieldset id="draw_lots">
+			<p id="tibowl"></p>
+			<button type="submit" id="btdraw" class="btn-calcul">{{ _("Tirer au sort")}}</button>
+			<p id="enddra"><strong>{{ _("Résultats finaux :") }}</strong></p>
+			<p id="currti"></p>
+			<p id="lotsdr"></p>
+		</fieldset>
+	</form>
+</div>
+{% endblock %}
+
+{% block script %}
+{{ super() }}
+<!-- Drawing Lots -->
+<script>
+const sumbit = document.getElementById("sumbit") // Values by user
+const lotsdr = document.getElementById("lotsdr") // Tickets drawn
+const tibowl = document.getElementById("tibowl") // Number of tickets
+const currti = document.getElementById("currti") // Current ticket
+const btdraw = document.getElementById("btdraw") // Draw button
+const enddra = document.getElementById("enddra") // End of draws
+tibowl.style.display = "none"
+btdraw.style.display = "none"
+enddra.style.display = "none"
+
+var lots = []
+var ticket_i = 0
+
+if(typeof Array.prototype.shuffle !== "function") {
+	Array.prototype.shuffle = function() {
+		var a = this
+		for (var d = a.length-1; d > 0; --d) {
+			var b = Math.floor(Math.random()*(d+1))
+			var c=a[b];a[b]=a[d];a[d]=c
+		}
+		return a
+	}
+}
+
+function getInputStringList (f,d) {
+	if (typeof(d) === "undefined") {d="\n;,"}
+	for (var c = 0; c < d.length ; ++c) {
+		var e = f.split(d[c])
+		for (var a = 0; a < e.length ; ) {
+			e[a] = e[a].replace(/\s+/g," ").trim();
+			if (e[a] === "") {e.splice(a,1)}
+			else {++a}
+		}
+		if ( e.length > 1) {return e}
+	}
+	return [f]
+}
+
+function updateBowl () {
+	if (lots.length > 0) {
+		tibowl.innerHTML = lots.length + " tickets"
+		tibowl.style.display = "block"
+		btdraw.style.display = "block"
+		enddra.style.display = "none"
+	} else {
+		tibowl.style.display = "none"
+		btdraw.style.display = "none"
+		enddra.style.display = "block"
+	}
+}
+
+function put () {
+	var values = sumbit.value.trim()
+	if (values === "") { return false }
+	lots = getInputStringList(values).shuffle()
+	updateBowl()
+}
+
+function addToList(t) {
+	let str = ticket_i + ". " + t
+	lotsdr.innerHTML = str + "<br>" + lotsdr.innerHTML
+}
+function showTicket (t) {
+	currti.innerHTML = "Ticket : <strong>" + t + "</strong>"
+	currti.style.display = "block"
+	hide = setInterval(function() {
+		if (currti.style.display === "block") {
+			currti.style.display = "none"
+			clearInterval(hide);
+		}
+	}, 3000)
+}
+function drawLot () {
+	let ticket = lots[0]
+	lots = lots.slice(1)
+	ticket_i++
+	showTicket(ticket)
+	addToList(ticket)
+	updateBowl()
+}
+</script>
+{% endblock %}

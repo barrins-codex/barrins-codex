@@ -6,6 +6,7 @@ Changelog
 
 - Versioning fix
 - Section name change
+- Ajout d'un outil de tirage au sort
 
 
 3.3.3 (2021-02-25)
