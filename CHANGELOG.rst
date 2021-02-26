@@ -6,6 +6,7 @@ Changelog
 
 - Mise à jour du site map
 - Optimisation de l'affichage
+- Correction d'erreurs de saisie (Archétypes, listes et article)
 
 
 3.4.0 (2021-02-25)
