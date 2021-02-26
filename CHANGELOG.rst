@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.4.1 (unreleased)
+3.4.1 (2021-02-26)
 ------------------
 
 - Mise à jour du site map
