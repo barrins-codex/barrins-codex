@@ -4,7 +4,7 @@ Changelog
 3.4.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Amélioration de l'outil de tirage au sort : reset au remplissage du bol
 
 
 3.4.1 (2021-02-26)

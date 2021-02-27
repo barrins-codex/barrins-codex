@@ -91,6 +91,8 @@ function updateBowl () {
 }
 
 function put () {
+	lotsdr.innerHTML = ""
+	ticket_i = 0
 	var values = sumbit.value.trim()
 	if (values === "") { return false }
 	lots = getInputStringList(values).shuffle()
