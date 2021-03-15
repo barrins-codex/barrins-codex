@@ -75,8 +75,8 @@ if os.path.exists(fn):
 					# Dryad Arbor-like case
 					land["cards"].append(ajout)
 					land["count"] = land["count"] + int(ajout["count"]) # Increase land count
-				if len(ajout["types"]) == 1:
-					# Usual land cards
+				else:
+					# Usual land cards and artifact lands
 					land["cards"].append(ajout)
 					land["count"] = land["count"] + int(ajout["count"]) # Increase land count
 
