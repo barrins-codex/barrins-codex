@@ -1,0 +1,68 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/kinnan-bonder-prodigy.json" as deck_json %}
+
+{% block title %}
+Kinnan, Bonder Prodigy
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Kinnan, Bonder Prodigy</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	meularde=card("Grindstone", "Meularde"),
+	stompy=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", "créatures stompy")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	{{ kinnan_bonder_prodigy }} est un deck basé sur la capacité statique du commandant pour créer
+	des quantités arbitrairement grandes de mana en réserve. Pour cela le deck se repose sur deux
+	combos différentes :
+</p>
+<ul>
+	<li>
+		<strong>{{ basalt_monolith }}</strong> :<br>
+		Seule, cette carte permet de générer mana infini et donc de gagner avec
+		{{ walking_ballista }} par exemple ;
+	</li>
+	<li>
+		<p>
+			<strong>
+				Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage
+			</strong> :<br>
+			Les créatures disponibles sont : {{ birds_of_paradise }}, {{ bloom_tender }},
+			{{ incubation_druid }}, {{ paradise_druid }}, {{ sylvan_caryatid}}. Les auras sont
+			{{ freed_from_the_real }} et {{ pemmins_aura }}.
+		</p>
+	</li>
+</ul>
+
+<h2>Trucs et astuces</h2>
+<p>
+	Le deck est assez dépendant des artefacts et une autre combo est ajoutée. Il s'agit de
+	{{ painters_servant }} + {{ grindstone }} qui permet de <em>meuler</em> le deck de l'adversaire
+	(d'après le nom français de la carte : {{ meularde }}).
+</p>
+<p>
+	Cette forte relation avec les artefacts se traduit également par la présence de
+	{{ urza_lord_high_artificer }} et {{ emry_lurker_of_the_loch}} qui permettent des synergies
+	intéressantes avec {{ winter_orb }} ou {{ aether_spellbomb }} par exemple.
+</p>
+
+<h2>Variantes</h2>
+<p>
+	Certaines versions du deck se passent de telle ou de telle combo sans pour autant dévier
+	dans la structure globale du deck.
+</p>
+<p>
+	Une version avec des {{ stompy }} a été testée pendant une période. Les résultats n'ont pas
+	permis de statuer sur l'efficacité de la version.
+</p>
+{% endtrans %}
+{% endblock %}
