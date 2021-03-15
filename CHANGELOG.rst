@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.4.2 (unreleased)
+3.5.0 (2021-03-15)
 ------------------
 
 - Amélioration de l'outil de tirage au sort : reset au remplissage du bol
