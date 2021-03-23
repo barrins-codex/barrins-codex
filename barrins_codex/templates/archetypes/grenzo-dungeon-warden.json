@@ -1,12 +1,12 @@
 {
-	"name": "Grenzo, Dungeon Warden",
-	"player": "Romain \"Ejell\" Fouchier",
-	"date": "10/02/2021",
+    "name": "Grenzo, Dungeon Warden",
+    "player": "Romain \"Ejell\" Fouchier",
+    "date": "23/03/2021",
     "command": {
         "cards": [
             {
                 "count": "1",
-                "id": "6e19c383-88bd-4bde-ac81-c0eb6d5b5bd4",
+                "id": "43dba110-0319-4c64-8a96-539627e315ad",
                 "name": "Grenzo, Dungeon Warden",
                 "types": [
                     "Creature"
@@ -327,7 +327,7 @@
                     },
                     {
                         "count": "1",
-                        "id": "d3f75cf8-5346-497d-b5af-72b268a72f2b",
+                        "id": "7fb6d241-f68b-45c8-a79a-f6c274bd8512",
                         "name": "Mogg War Marshal",
                         "types": [
                             "Creature"
@@ -399,7 +399,7 @@
                     },
                     {
                         "count": "1",
-                        "id": "617477d7-eb82-4324-b99b-d7c9ecbdcfda",
+                        "id": "d6bcc2bc-75a7-4b01-856b-4e0b8703e302",
                         "name": "Stingscourger",
                         "types": [
                             "Creature"
@@ -461,7 +461,7 @@
                     },
                     {
                         "count": "1",
-                        "id": "4ccd8394-cbc9-4346-9b48-f6be447b3e08",
+                        "id": "08d405dc-180f-4edb-8c53-80a034ee622e",
                         "name": "Dismember",
                         "types": [
                             "Instant"
@@ -493,14 +493,6 @@
                     },
                     {
                         "count": "1",
-                        "id": "18a3cca1-e50e-49b6-9e1a-f86640e3b177",
-                        "name": "Snuff Out",
-                        "types": [
-                            "Instant"
-                        ]
-                    },
-                    {
-                        "count": "1",
                         "id": "3c7dfc93-36fe-499c-9019-cd45797ffbbf",
                         "name": "Tarfire",
                         "types": [
@@ -509,11 +501,19 @@
                         ]
                     }
                 ],
-                "count": 7,
+                "count": 6,
                 "type": "Instants"
             },
             {
                 "cards": [
+                    {
+                        "count": "1",
+                        "id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
+                        "name": "Chain Lightning",
+                        "types": [
+                            "Sorcery"
+                        ]
+                    },
                     {
                         "count": "1",
                         "id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
@@ -523,7 +523,7 @@
                         ]
                     }
                 ],
-                "count": 1,
+                "count": 2,
                 "type": "Sorceries"
             },
             {
@@ -602,14 +602,6 @@
                     },
                     {
                         "count": "1",
-                        "id": "0127d42f-bf40-48f4-a3a0-1a1c4039f432",
-                        "name": "Graven Cairns",
-                        "types": [
-                            "Land"
-                        ]
-                    },
-                    {
-                        "count": "1",
                         "id": "723a163e-97c1-4177-a067-873bebd9a87d",
                         "name": "Marsh Flats",
                         "types": [
@@ -617,7 +609,7 @@
                         ]
                     },
                     {
-                        "count": "18",
+                        "count": "20",
                         "id": "69419307-53d5-40d7-82da-cab2e7bfbda4",
                         "name": "Mountain",
                         "types": [
@@ -642,7 +634,7 @@
                     },
                     {
                         "count": "1",
-                        "id": "af11d41a-0d29-45e9-9d27-a41282b9e292",
+                        "id": "f82a7ea8-aa1c-4ff9-b1f7-06452492c788",
                         "name": "Ramunap Ruins",
                         "types": [
                             "Land"
@@ -676,14 +668,6 @@
                         "count": "2",
                         "id": "9f9e61c0-b185-4704-913f-9284ed0ce250",
                         "name": "Swamp",
-                        "types": [
-                            "Land"
-                        ]
-                    },
-                    {
-                        "count": "1",
-                        "id": "b96a5b3a-ee54-4864-a84c-385a97b8cb7b",
-                        "name": "Unclaimed Territory",
                         "types": [
                             "Land"
                         ]
