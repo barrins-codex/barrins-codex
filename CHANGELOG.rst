@@ -6,6 +6,7 @@ Changelog
 
 - Ajout d'un primer sur Magda, Brazen Outlaw
 - Correction de la navigation
+- Correction de l'affichage des decklists
 
 
 3.5.0 (2021-03-15)
