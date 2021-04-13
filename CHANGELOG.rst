@@ -4,7 +4,7 @@ Changelog
 3.6.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction d'un nom de carte dans le primer de Magda
 
 
 3.6.0 (2021-04-13)
