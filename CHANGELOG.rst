@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.5.1 (unreleased)
+3.6.0 (2021-04-13)
 ------------------
 
 - Ajout d'un primer sur Magda, Brazen Outlaw
