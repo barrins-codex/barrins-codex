@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.1 (unreleased)
+3.6.1 (2021-04-13)
 ------------------
 
 - Correction d'un nom de carte dans le primer de Magda
