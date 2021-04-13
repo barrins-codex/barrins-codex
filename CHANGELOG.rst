@@ -4,7 +4,7 @@ Changelog
 3.5.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction de la navigation
 
 
 3.5.0 (2021-03-15)

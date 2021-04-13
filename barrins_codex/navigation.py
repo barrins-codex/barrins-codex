@@ -53,6 +53,26 @@ STRUCTURE = Nav(
 	index=True,
 	children=[
 		Nav(
+			lazy_gettext("Archétypes"),
+			index=True,
+			children=[
+				Nav(lazy_gettext("Adeliz, the Cinder Wind")),
+				Nav(lazy_gettext("Aminatou, the Fateshifter")),
+				Nav(lazy_gettext("Isamaru, Hound of Konda")),
+				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
+				Nav(lazy_gettext("Grenzo, Dungeon Warden")),
+				Nav(lazy_gettext("Kelsien, the Plague")),
+				Nav(lazy_gettext("Kess, Dissident Mage")),
+				Nav(lazy_gettext("Kinnan, Bonder Prodigy")),
+				Nav(lazy_gettext("Orvar, the All-Form")),
+				Nav(lazy_gettext("Rowan and Will Kenrith")),
+				Nav(lazy_gettext("The Gitrog Monster")),
+				Nav(lazy_gettext("Titania, Protector of Argoth")),
+				Nav(lazy_gettext("Venser, Shaper Savant")),
+				Nav(lazy_gettext("Winota, Joiner of Forces")),
+			],
+		),
+		Nav(
 			lazy_gettext("Articles"),
 			index=True,
 			children=[
@@ -76,26 +96,6 @@ STRUCTURE = Nav(
 				),
 				Nav(lazy_gettext("Construire un deck")),
 				Nav(lazy_gettext("Mélanger un deck")),
-			],
-		),
-		Nav(
-			lazy_gettext("Archétypes"),
-			index=True,
-			children=[
-				Nav(lazy_gettext("Adeliz, the Cinder Wind")),
-				Nav(lazy_gettext("Aminatou, the Fateshifter")),
-				Nav(lazy_gettext("Isamaru, Hound of Konda")),
-				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
-				Nav(lazy_gettext("Grenzo, Dungeon Warden")),
-				Nav(lazy_gettext("Kelsien, the Plague")),
-				Nav(lazy_gettext("Kess, Dissident Mage")),
-				Nav(lazy_gettext("Kinnan, Bonder Prodigy")),
-				Nav(lazy_gettext("Orvar, the All-Form")),
-				Nav(lazy_gettext("Rowan and Will Kenrith")),
-				Nav(lazy_gettext("The Gitrog Monster")),
-				Nav(lazy_gettext("Titania, Protector of Argoth")),
-				Nav(lazy_gettext("Venser, Shaper Savant")),
-				Nav(lazy_gettext("Winota, Joiner of Forces")),
 			],
 		),
 		Nav(
