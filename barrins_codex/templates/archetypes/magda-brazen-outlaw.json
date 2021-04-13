@@ -1,0 +1,622 @@
+{
+	"name": "Madga, Brazen Outlaw",
+	"player": "Martin Cuchet",
+	"date": "13/04/2021",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "079e6263-e54c-4899-a336-5315909b9322",
+				"name": "Magda, Brazen Outlaw",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ba16bfb3-dbd3-4b3a-b155-08b613268d57",
+						"name": "Adaptive Automaton",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2411c341-a470-4484-9248-7c1d3ca12978",
+						"name": "Axgard Cavalry",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86b5c38e-7d74-4862-8187-f5db4a3d1e0f",
+						"name": "Bloodfire Dwarf",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "eb8a16f6-55c1-40eb-998f-592bf31916b1",
+						"name": "Bloodline Pretender",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d6eb23c9-6061-4ad1-a8f3-2c791c49f352",
+						"name": "Breakneck Berserker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5ab86a8a-7a0a-473e-9a97-da2fe0ab866c",
+						"name": "Captain Lannery Storm",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d50bf06-97ab-4874-a484-9289f41dc98e",
+						"name": "Dwarven Armorer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7bc734e9-fb09-4094-94b6-76c0458649e9",
+						"name": "Dwarven Berserker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2970831a-738b-476f-9d46-39f10a1f91e7",
+						"name": "Dwarven Blastminer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9ac576b2-cda4-4aea-aa5c-933ec0457dda",
+						"name": "Dwarven Bloodboiler",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6f00d726-4289-48ff-8c14-6a5080a00fda",
+						"name": "Dwarven Grunt",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b7142196-c379-4932-9402-97642ad2ebdb",
+						"name": "Dwarven Miner",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6a15d274-85b4-4f3c-b502-f6dfe7db4d37",
+						"name": "Dwarven Recruiter",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "099873b1-7181-4b9d-8ce1-8ec63c814afe",
+						"name": "Dwarven Scorcher",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4db9aa47-f42b-41e9-948c-8b012c3809fb",
+						"name": "Dwarven Trader",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "da5003a6-211e-43d3-9a3c-756496357163",
+						"name": "Enslaved Dwarf",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "212462b7-e23e-4c87-93aa-9cadefbf1ac8",
+						"name": "Fearless Liberator",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a55c4d47-5252-40af-961d-c08bc688028a",
+						"name": "Goblin Engineer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "17cd920a-de09-454a-a9da-c84512e3aff1",
+						"name": "Goblin Welder",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d915eebf-1617-4339-b8b0-72b313c6dab2",
+						"name": "Imperial Recruiter",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e2c07842-9b70-40b1-9b97-9a9279b7ebc4",
+						"name": "Liberated Dwarf",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1aa4eba9-9e91-4beb-9296-a18baa73a318",
+						"name": "Metallic Mimic",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4a734abe-7bfd-4153-be2d-1c289fb60996",
+						"name": "Pardic Miner",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bb86f28b-2c0b-421a-b728-a5f447150b76",
+						"name": "Reckless Fireweaver",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3d13d84-01e4-4429-93db-e5afff811527",
+						"name": "Rimrock Knight ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "7",
+						"id": "464adbae-70ea-48e1-b8ae-b404766f7a5a",
+						"name": "Seven Dwarves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cff5902e-2ca1-43bb-b636-c860b3d0b3f2",
+						"name": "Spark Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "79f591cd-d277-4ba5-b1bf-1c09cac9cb8a",
+						"name": "Torbran, Thane of Red Fell",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5f5edfc7-3281-4240-bc14-fbd4bbe9ae82",
+						"name": "Universal Automaton",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "74f68014-489d-4f51-a959-0f335541cb4e",
+						"name": "Vault Robber",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 36,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "07c12af6-7b70-4489-83c6-e7f764c2c21e",
+						"name": "Daretti, Scrap Savant",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "4160bb5f-4b49-4535-94f5-776d7abd1d1a",
+						"name": "Aethersphere Harvester",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ee48bcd6-afb5-4023-9417-ed3126bcc31d",
+						"name": "Ashnod's Transmogrant",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5b087992-9c30-4434-acb3-a12ee6f207b3",
+						"name": "Clock of Omens",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "45c48042-178f-432e-9eee-10bfa1e0795f",
+						"name": "Funeral Longboat",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5274c2fa-eb0e-438b-8a48-d0b58829083a",
+						"name": "Gilded Assault Cart",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "df1df511-b52c-45cd-9503-ffce4271a802",
+						"name": "Grinding Station",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "daed8456-011e-44e2-b180-6a8a75089257",
+						"name": "Idol of Oblivion",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f631447c-36e3-4d82-a658-19c9767a216b",
+						"name": "Liquimetal Coating",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "00d03b17-75ae-40d2-8570-b219ef0dfd4a",
+						"name": "Mindslaver",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5643253b-0996-45a8-9488-5bcc9192f867",
+						"name": "Mizzium Tank",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "436cd66c-0622-43cd-8748-af4d21a2db3f",
+						"name": "Relic of Progenitus",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8854e9a7-a799-47d0-8662-95aa527d3210",
+						"name": "Skullclamp",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf4a4939-130b-40d7-8a0f-e31eb931d2d5",
+						"name": "Sky Skiff",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7832abb5-5107-4603-904e-491b221bd3e3",
+						"name": "Smuggler's Copter",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3b3869b-6da1-4b01-a2e7-2018d478b6e5",
+						"name": "Springleaf Drum",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ad62f313-8a8a-4ffa-ada2-b12b76288729",
+						"name": "Tangle Wire",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fe402b8e-f966-4971-90a5-950d8cff5025",
+						"name": "Throne of the God-Pharaoh",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3b6e5956-f795-451b-bb24-56462d1ced27",
+						"name": "Umezawa's Jitte",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab3cec7e-513e-400d-a1a8-2c71cdde02c6",
+						"name": "Winter Orb",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 19,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "d072e9ca-aae7-45dc-8025-3ce590bae63f",
+						"name": "Blood Moon",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b8f32e2-5dc8-4f1b-8a69-d3ae06378ed8",
+						"name": "Experimental Frenzy",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2e4a0c29-a759-465f-9136-9d709b6f30fc",
+						"name": "Ghirapur Aether Grid",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "636cfc66-f1df-4c2e-b94e-dc621c6c289e",
+						"name": "Goblin Bombardment",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 4,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+						"name": "Lightning Bolt",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "671c008a-8ff8-42d7-9e03-6d8a9ddace67",
+						"name": "Faithless Looting",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c01c9474-90a1-4c2e-bd90-471ff4fd04e5",
+						"name": "Gamble",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8bb8512e-6913-4be6-8828-24cfcbec042e",
+						"name": "Castle Embereth",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e3cd82e5-6072-4334-a493-01ca4ad6b4eb",
+						"name": "Faceless Haven",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf08c317-6f2d-47e3-ab5b-8af73fd3e404",
+						"name": "Holdout Settlement",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "927ed667-c228-4b96-a9f6-7cbadade8134",
+						"name": "Mutavault",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d2507bc2-da17-4e46-b4c5-ba0080ce2c6f",
+						"name": "Rishadan Port",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "25",
+						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
+						"name": "Snow-Covered Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c7b0404e-0f42-456b-91ce-f960195c4951",
+						"name": "Survivors' Encampment",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 36,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}

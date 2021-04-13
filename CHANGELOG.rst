@@ -4,6 +4,7 @@ Changelog
 3.5.1 (unreleased)
 ------------------
 
+- Ajout d'un primer sur Magda, Brazen Outlaw
 - Correction de la navigation
 
 

@@ -1,0 +1,81 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/magda-brazen-outlaw.json" as deck_json %}
+
+{% block title %}
+Madga, Brazen Outlaw
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Madga, Brazen Outlaw</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	meularde=card("Grindstone", "Meularde"),
+	stompy=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", "créatures stompy")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	{{ magda_brazen_outlaw }} est est créature légendaire publiée dans Kaldheim. Elle coûte deux
+	manas et ses capacités permettent de développer plusieurs stratégies :
+</p>
+<ul>
+	<li>
+		<strong>Les autres nains que vous contrôlez gagnent +1/+0</strong> :<br/>
+		Jouer des nains permet de stabiliser un plan de jeu agressif et
+		d'infliger des dégâts qui pourraient mettre fin à la partie rapidement.
+	</li>
+	<li>
+		<strong>À chaque fois qu'un nain que vous contrôlez devient engagé, créez un jeton Trésor
+		</strong> :<br/>
+		Cette compétence permet de synergiser avec le plan ci-dessus et même peut-être en créer un
+		en réhabilitant une stratégie datant de Amonkhet : {{ throne_of_the_god_pharaoh }}.
+	</li>
+	<li>
+		<strong>Sacrifiez cinq trésors : Cherchez dans votre bibliothèque une carte d'artefact ou
+		de dragon, mettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque
+		</strong> :<br/>
+		Cette capacité est celle sur laquelle toutes les versions du deck cherchent à capitaliser.
+		Pour résumer, Magda permet d'attaquer, de générer du mana et de trouver la carte qu'il faut
+		si nécessaire. Cela peut vouloir dire qu'il faut une combo dans le deck car l'aggro est
+		assurée par les nains.
+	</li>
+</ul>
+
+<h2>Trucs et astuces</h2>
+<p>
+	Pour se passer de la dépendance à une phase d'attaque, le deck joue des véhicules pour engager
+	les créatures quand cela est nécessaire. Une fois animé, un véhicule peut se piloter lui-même
+	pour profiter au mieux du Trône.
+</p>
+<p>
+	La combo du deck passe par la génération de jetons Trésor en utilisant {{ clock_of_omens }} et
+	une créature-artefact naine ou magda qui a gagné le type artefact. L'ajout de
+	{{ grinding_station }} permet de meuler l'adversaire ou d'être engagée à la place des jetons
+	Trésor s'il y a besoin de mana.
+</p>
+<p>
+	Les recruteurs ({{ dwarven_recruiter }} et {{ imperial_recruiter }}) peuvent trouver des nains
+	selon les besoins : {{ torbran_thane_of_the_red_fell }} pour plus d'agressivité, un nain
+	artefact pour la combo ou {{ dwarvent_bloodboiler }} pour engager les nains. L'Imperial peut
+	également trouver {{ reckless_fireweaver }} pour synergiser avec les différentes stratégies.
+</p>
+
+<h2>Variantes</h2>
+<p>
+	Certaines versions du deck utilisent des dragons pour capitaliser sur l'agressivité et les
+	dégâts. Dans un environnement propice aux decks du macrotype Contrôle, cela peut s'avérer
+	difficile de finir une partie si aucun outil auxiliaire n'est disponible.
+</p>
+<p>
+	Il existe également des versions encore plus focalisées sur l'aspect combo. C'est
+	principalement le cas des decks Commander pour lesquels la stratégie aggro semble hors de
+	propos au vu du nombre de points de vie à réduire.
+</p>
+{% endtrans %}
+{% endblock %}
