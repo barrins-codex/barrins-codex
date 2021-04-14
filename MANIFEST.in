@@ -8,6 +8,7 @@ exclude babel.cfg
 exclude .markdownlint.json
 exclude messages.pot
 exclude HOWTO_RELEASE.md
+exclude decklist.txt
 
 global-exclude */__pycache__/*
 global-exclude *.egg-info/*
