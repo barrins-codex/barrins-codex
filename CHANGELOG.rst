@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'un primer sur Cosima/Omenkeel
+- Correction de deux typos sur Magda
 
 
 3.6.2 (2021-04-14)
