@@ -68,6 +68,7 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Orvar, the All-Form")),
 				Nav(lazy_gettext("Rowan and Will Kenrith")),
 				Nav(lazy_gettext("The Gitrog Monster")),
+				Nav(lazy_gettext("The Omenkeel")),
 				Nav(lazy_gettext("Titania, Protector of Argoth")),
 				Nav(lazy_gettext("Venser, Shaper Savant")),
 				Nav(lazy_gettext("Winota, Joiner of Forces")),

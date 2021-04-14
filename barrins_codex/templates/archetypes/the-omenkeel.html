@@ -1,0 +1,57 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/the-omenkeel.json" as deck_json %}
+
+{% block title %}
+The Omenkeel
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>The Omenkeel</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed %}
+<h2>Présentation rapide</h2>
+<p>
+	{{ the_omenkeel }} est la face verso d'une carte double face modale publiée dans Kaldheim. Il s'agit d'un véhicule dont les capacités sont :
+</p>
+<ul>
+	<li>
+		<strong>À chaque fois qu'un véhicule que vous contrôlez inflige des blessures de combat à
+		un joueur, ce joueur exile autant de cartes du dessus de sa bibliothèque. Vous pouvez jouer
+		les terrains parmi ces cartes tant qu'elles restent exilées</strong> :<br/>
+		Avoir une 3/3 pour deux manas est déjà intéressant en mono-bleu. Cette capacité permet de
+		jouer un nombre de terrains suffisamment faible pour continuer à jouer des terrains depuis
+		les cartes exilées.
+	</li>
+	<li>
+		<strong>Pilotage 1</strong> :<br/>
+		Le faible prérequis pour le Pilotage est très intéressant et permet de jouer des créatures
+		utilitaires car elles seront rentabilisées par cette capacité.
+	</li>
+</ul>
+
+<h2>Trucs et astuces</h2>
+<p>
+	The Omenkeel donne virtuellement la célérité aux créatures ; en jouer une avant la phase
+	d'attaque permet d'infliger de plus en plus de dégâts à l'adversaire.
+</p>
+<p>
+	Lorsque le deck affronte un adversaire agressif dès le début de partie et que le premier tour
+	est joué par l'adversaire, un swap sur {{ hakka_whispering_raven }} permet de le ralentir et de
+	construire une ligne solide d'attaquants. Hakka permet également de faire avancer le deck après
+	une attaque si nécessaire. Alrund en fin de partie permet d'assurer un flux constant de cartes.
+</p>
+
+<h2>Variantes</h2>
+<p>
+	Le plan de jeu est partagé par d'autres généraux : {{ kira_great_glass_spinner }},
+	{{ vendilion_clique }} et d'autres decks mono-bleu basés sur les créatures.
+</p>
+{% endtrans %}
+{% endblock %}

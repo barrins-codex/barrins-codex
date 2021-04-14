@@ -4,7 +4,7 @@ Changelog
 3.6.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'un primer sur Cosima/Omenkeel
 
 
 3.6.2 (2021-04-14)
