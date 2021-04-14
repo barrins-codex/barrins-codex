@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.2 (unreleased)
+3.6.2 (2021-04-14)
 ------------------
 
 - Ajout de Magda dans le sitemap
