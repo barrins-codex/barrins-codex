@@ -4,7 +4,7 @@ Changelog
 3.6.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout de Magda dans le sitemap
 
 
 3.6.1 (2021-04-13)
