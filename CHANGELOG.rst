@@ -8,6 +8,7 @@ Changelog
 - Mise à jour de la liste de Aminatou
 - Mise à jour de la liste de Golos
 - Mise à jour de la liste de Winota
+- Ajout d'une mention pour le ban de Gifts
 
 
 3.6.4 (2021-07-28)
