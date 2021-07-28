@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.3 (unreleased)
+3.6.3 (2021-07-28)
 ------------------
 
 - Ajout d'un primer sur Cosima/Omenkeel
