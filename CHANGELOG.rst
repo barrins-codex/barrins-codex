@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Mise à jour de la liste de Adeliz
+- Mise à jour de la liste de Aminatou
 - Mise à jour de la liste de Winota
 
 

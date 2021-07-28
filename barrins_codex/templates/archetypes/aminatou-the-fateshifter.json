@@ -1,859 +1,868 @@
 {
 	"name": "Aminatou, the Fateshifter",
-	"player": "Félix \" Midas \"",
-	"date": "13/12/2020",
+	"player": "Grégoire \"Koraysh\" Payan",
+	"date": "10/07/2020",
 	"command": {
-		"cards": [
-			{
-				"count": "1",
-				"id": "16b9f43a-9c3f-4bfa-9eb1-734189a4bb1f",
-				"name": "Aminatou, the Fateshifter",
-				"types": [
-					"Planeswalker"
-				]
-			}
-		],
-		"count": 1
-	},
-	"library": {
-		"cards": [
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "a1b799b2-bb4e-482f-9afd-5aab90090710",
-						"name": "Baleful Strix",
-						"types": [
-							"Artifact",
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
-						"name": "Snapcaster Mage",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "74b4c336-5d4c-4bc5-b82a-35084a6ad808",
-						"name": "Spellseeker",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "2da0b45b-0ca9-40c4-bc7f-791039bc1876",
-						"name": "True-Name Nemesis",
-						"types": [
-							"Creature"
-						]
-					}
-				],
-				"count": 4,
-				"type": "Creatures"
-			},
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "08c48e42-5c82-4212-ace5-348177dc04b2",
-						"name": "Ashiok, Dream Render",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "c8817585-0d32-4d56-9142-0d29512e86a9",
-						"name": "Jace, the Mind Sculptor",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e969921c-251a-4469-9578-e243d37dc9a7",
-						"name": "Kaya, Ghost Assassin",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e653437e-2e56-4443-aec5-5bb7d8860238",
-						"name": "Liliana of the Veil",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6710a1e4-299c-4ce1-afda-265d27097061",
-						"name": "Narset, Parter of Veils",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5d10b752-d9cb-419d-a5c4-d4ee1acb655e",
-						"name": "Teferi, Hero of Dominaria",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6e2b2e55-21a3-4f71-a14b-d3d1b137d18c",
-						"name": "Teferi, Time Raveler",
-						"types": [
-							"Planeswalker"
-						]
-					}
-				],
-				"count": 7,
-				"type": "Planeswalkers"
-			},
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "e503b59c-df3e-4f52-9a59-195f02a6cb18",
-						"name": "Pithing Needle",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "07c17b01-ee5d-491a-8403-b3f819b778c4",
-						"name": "Wishclaw Talisman",
-						"types": [
-							"Artifact"
-						]
-					}
-				],
-				"count": 2,
-				"type": "Artifacts"
-			},
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "74de5ed5-eab0-44ff-aa9a-077d487f1b5e",
-						"name": "Detention Sphere",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "faba010d-5b1b-4562-91d6-ec55303c4dcd",
-						"name": "Oath of Kaya",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "a5f30ecd-d009-4d44-aef4-c926ed55a521",
-						"name": "Omen of the Sea",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "7fe593eb-df3c-43e5-97a6-418f91e87cb3",
-						"name": "Parallax Tide",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "cef789e8-e4cc-4f61-bc15-debc2487777f",
-						"name": "Parallax Wave",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
-						"name": "Search for Azcanta ",
-						"types": [
-							"Enchantment",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "613694aa-b169-400d-8063-2b83d8303611",
-						"name": "Treachery",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "de41e04f-b796-428a-a040-97726769cf69",
-						"name": "Trial of Ambition",
-						"types": [
-							"Enchantment"
-						]
-					}
-				],
-				"count": 8,
-				"type": "Enchantments"
-			},
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
-						"name": "Brainstorm",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
-						"name": "Counterspell",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5d6b5054-2224-4f68-9d82-3ed17c5dacc4",
-						"name": "Dovin's Veto",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "f8eb4087-3a4c-4de8-8e29-f4cd71acb180",
-						"name": "Eliminate",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "0c9ebec9-3474-4062-9607-2e2a72f78299",
-						"name": "Enlightened Tutor",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
-						"name": "Fatal Push",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e9be371c-c688-44ad-ab71-bd4c9f242d58",
-						"name": "Force of Negation",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
-						"name": "Force of Will",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
-						"name": "Force Spike",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8185ecd0-2fdf-4d8b-a396-d5db593985b9",
-						"name": "Go for the Throat",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "01e39726-6229-4956-b3f9-7eb1d91227ef",
-						"name": "Logic Knot",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
-						"name": "Mana Leak",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ab03b4e2-91ee-449b-bb8a-ac340ecdd582",
-						"name": "Mana Tithe",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
-						"name": "Memory Lapse",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
-						"name": "Mental Misstep",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
-						"name": "Miscalculation",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5045f15f-6bf9-43a9-a09c-904992625948",
-						"name": "Mystic Confluence",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "dc595c63-af05-4c05-80e8-e1a90df26b0f",
-						"name": "Remand",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "a4f8b11a-6b21-4532-96c9-bdb2cad603e8",
-						"name": "Spell Pierce",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
-						"name": "Spell Snare",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "be2b4177-e47c-4dde-9ead-31b7602065ec",
-						"name": "Swords to Plowshares",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "c513f51b-a0db-4c08-8acc-1e91060b93b7",
-						"name": "Tainted Pact",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
-						"name": "Tale's End",
-						"types": [
-							"Instant"
-						]
-					}
-				],
-				"count": 23,
-				"type": "Instants"
-			},
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "ce648aa3-098b-4af0-a433-fd290bc85904",
-						"name": "Balance",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "59dcf43b-a65f-43e4-a683-437021565f6a",
-						"name": "Collective Brutality",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "aaa187c9-90b3-4770-963a-8a9f932430ef",
-						"name": "Council's Judgment",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
-						"name": "Demonic Tutor",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "49c07ea0-27ff-46fb-a41f-3e378c977b5d",
-						"name": "Duress",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
-						"name": "Gitaxian Probe",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "29184c64-03f3-4a50-ac18-e34b6c89635e",
-						"name": "Innocent Blood",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "40a3b4a6-1f87-4060-896e-e05aee0cbfee",
-						"name": "Inquisition of Kozilek",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
-						"name": "Ponder",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
-						"name": "Preordain",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "21a6bdf6-0c91-49c3-8f9d-7f244807e689",
-						"name": "Supreme Verdict",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "b281a308-ab6b-47b6-bec7-632c9aaecede",
-						"name": "Thoughtseize",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "d00fa18f-d50a-4d3f-929e-91f29141b1df",
-						"name": "Toxic Deluge",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1658f12b-8ac5-4d29-86d5-f20c4d5f7e48",
-						"name": "Vindicate",
-						"types": [
-							"Sorcery"
-						]
-					}
-				],
-				"count": 14,
-				"type": "Sorceries"
-			},
-			{
-				"cards": [
-					{
-						"count": "1",
-						"id": "f31cf014-7ac9-428b-9ce9-8ba5ebfdd252",
-						"name": "Adarkar Wastes",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
-						"name": "Arid Mesa",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
-						"name": "Bloodstained Mire",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "01769b12-4841-4a1a-a089-e061442203ed",
-						"name": "Bojuka Bog",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6358592c-b6e8-4263-b96b-c548fdac5193",
-						"name": "Caves of Koilos",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "4c830a99-595b-4aed-9f6b-85a78917f498",
-						"name": "Celestial Colonnade",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
-						"name": "Command Tower",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "c8769e97-aee8-4466-a9d7-0f4245ae4a97",
-						"name": "Concealed Courtyard",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1250441b-8255-4ae1-b064-a75eb24faaf3",
-						"name": "Creeping Tar Pit",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e530388b-eb19-4211-abd8-8a4c3c38c3af",
-						"name": "Darkslick Shores",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8ef728f1-5153-47d6-8f9c-dfd473ee0750",
-						"name": "Drowned Catacomb",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
-						"name": "Flooded Strand",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "cef133d9-26d2-4a1e-8d6a-829f1067c169",
-						"name": "Glacial Fortress",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ced4c824-2dfc-42ae-84e6-09f8e3f51b5b",
-						"name": "Godless Shrine",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "f97a6d34-03ab-49f1-b02e-405b733f8843",
-						"name": "Hallowed Fountain",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "54065d26-39ae-412c-b60e-d22d7f3e78be",
-						"name": "Irrigated Farmland",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1a25a714-c7f3-4697-8b69-8f966b4d370a",
-						"name": "Island",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
-						"name": "Marsh Flats",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "78114f25-f40a-4e2e-bf89-29ea9b3500e2",
-						"name": "Maze of Ith",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
-						"name": "Misty Rainforest",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "3fe71ae5-5553-4b41-89e0-fd767f9bf430",
-						"name": "Mystic Gate",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5cbfbafa-f58f-40b2-a374-68ac35b77d89",
-						"name": "Plains",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
-						"name": "Polluted Delta",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
-						"name": "Prismatic Vista",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "919a51f8-e7b5-4544-85a3-2d76f9d2d41d",
-						"name": "Reflecting Pool",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "a8de9ac4-e03f-4d08-b836-83f461159bd3",
-						"name": "River of Tears",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
-						"name": "Scalding Tarn",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "649aa116-4bb5-4974-b8dc-38a8c627717a",
-						"name": "Scrubland",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "99939b90-e88c-4c2f-ba78-56d455611703",
-						"name": "Seachrome Coast",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-						"name": "Snow-Covered Island",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
-						"name": "Snow-Covered Swamp",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "9181d30d-4f8e-421f-89b8-149ed8000fb2",
-						"name": "Sunken Ruins",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "9f9e61c0-b185-4704-913f-9284ed0ce250",
-						"name": "Swamp",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e3d4fd29-dab5-481f-94c9-eeb70f3c29dd",
-						"name": "Temple of Deceit",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "49fdfb01-560a-4996-afc2-879c8d10e042",
-						"name": "Tundra",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "9b411380-878e-4f96-b9db-85bb3dec55d1",
-						"name": "Underground River",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "068bb15a-fc2d-42a2-859b-837b946d23c0",
-						"name": "Underground Sea",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "02e17705-739e-409f-a6fd-7bab22120b22",
-						"name": "Urborg, Tomb of Yawgmoth",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
-						"name": "Verdant Catacombs",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
-						"name": "Watery Grave",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
-						"name": "Windswept Heath",
-						"types": [
-							"Land"
-						]
-					}
-				],
-				"count": 41,
-				"type": "Lands"
-			}
-		],
-		"count": 99
-	}
+		  "cards": [
+				{
+					 "count": "1",
+					 "id": "16b9f43a-9c3f-4bfa-9eb1-734189a4bb1f",
+					 "name": "Aminatou, the Fateshifter",
+					 "types": [
+						  "Planeswalker"
+					 ]
+				}
+		  ],
+		  "count": 1
+	 },
+	 "library": {
+		  "cards": [
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "5d131784-c1a3-463e-a37b-b720af67ab62",
+								"name": "Alrund, God of the Cosmos ",
+								"types": [
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "3e417331-84ec-4513-8022-e93ffc260a38",
+								"name": "Baleful Strix",
+								"types": [
+									 "Artifact",
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e72f4329-db6f-4284-b63e-55f22a0a0f6e",
+								"name": "Basilica Bell-Haunt",
+								"types": [
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "8de3fdae-cc2c-4a14-b15b-4fe1a983dfbf",
+								"name": "Gilded Drake",
+								"types": [
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "4df8aabc-7fcb-4b7b-980b-18f499e6c170",
+								"name": "Hullbreacher",
+								"types": [
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "086f97e9-8b62-44f3-b467-149c2ac5ca78",
+								"name": "Opposition Agent",
+								"types": [
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
+								"name": "Snapcaster Mage",
+								"types": [
+									 "Creature"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "0db4b34f-2d60-4ff3-8ef7-9cedb9b71cdc",
+								"name": "Wall of Omens",
+								"types": [
+									 "Creature"
+								]
+						  }
+					 ],
+					 "count": 8,
+					 "type": "Creatures"
+				},
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "08c48e42-5c82-4212-ace5-348177dc04b2",
+								"name": "Ashiok, Dream Render",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "0013a9c4-77a1-418d-85c2-bd68b65cd3d4",
+								"name": "Dakkon, Shadow Slayer",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "c8817585-0d32-4d56-9142-0d29512e86a9",
+								"name": "Jace, the Mind Sculptor",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "67851439-26d6-422d-9bce-8c9c25ffc0c2",
+								"name": "Kaya, Ghost Assassin",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b",
+								"name": "Kaya, Orzhov Usurper",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e653437e-2e56-4443-aec5-5bb7d8860238",
+								"name": "Liliana of the Veil",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "6710a1e4-299c-4ce1-afda-265d27097061",
+								"name": "Narset, Parter of Veils",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "f6721431-418e-4c92-818a-50417066c229",
+								"name": "Teferi, Hero of Dominaria",
+								"types": [
+									 "Planeswalker"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "6e2b2e55-21a3-4f71-a14b-d3d1b137d18c",
+								"name": "Teferi, Time Raveler",
+								"types": [
+									 "Planeswalker"
+								]
+						  }
+					 ],
+					 "count": 9,
+					 "type": "Planeswalkers"
+				},
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "552be01e-cd54-46ba-b38a-96883a48d985",
+								"name": "Arcane Signet",
+								"types": [
+									 "Artifact"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "43ec73b2-4215-4e30-ad6d-1764879030f4",
+								"name": "Talisman of Dominance",
+								"types": [
+									 "Artifact"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "41ff849e-2439-4690-8aa4-769039b6da4c",
+								"name": "Talisman of Progress",
+								"types": [
+									 "Artifact"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "07c17b01-ee5d-491a-8403-b3f819b778c4",
+								"name": "Wishclaw Talisman",
+								"types": [
+									 "Artifact"
+								]
+						  }
+					 ],
+					 "count": 4,
+					 "type": "Artifacts"
+				},
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "74de5ed5-eab0-44ff-aa9a-077d487f1b5e",
+								"name": "Detention Sphere",
+								"types": [
+									 "Enchantment"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "faba010d-5b1b-4562-91d6-ec55303c4dcd",
+								"name": "Oath of Kaya",
+								"types": [
+									 "Enchantment"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "a5f30ecd-d009-4d44-aef4-c926ed55a521",
+								"name": "Omen of the Sea",
+								"types": [
+									 "Enchantment"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "053d6b3b-72d4-4a55-a79e-0a601aecf108",
+								"name": "Out of Time",
+								"types": [
+									 "Enchantment"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "cef789e8-e4cc-4f61-bc15-debc2487777f",
+								"name": "Parallax Wave",
+								"types": [
+									 "Enchantment"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+								"name": "Search for Azcanta ",
+								"types": [
+									 "Enchantment",
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "613694aa-b169-400d-8063-2b83d8303611",
+								"name": "Treachery",
+								"types": [
+									 "Enchantment"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "de41e04f-b796-428a-a040-97726769cf69",
+								"name": "Trial of Ambition",
+								"types": [
+									 "Enchantment"
+								]
+						  }
+					 ],
+					 "count": 8,
+					 "type": "Enchantments"
+				},
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "48070245-1370-4cf1-be15-d4e8a8b92ba8",
+								"name": "Brainstorm",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "52c2de5f-e486-4cfe-9fb6-be0078ce5f93",
+								"name": "Cling to Dust",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
+								"name": "Counterspell",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "2392b542-5ae6-4d0e-808c-734f1d06afa4",
+								"name": "Dovin's Veto",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "f8eb4087-3a4c-4de8-8e29-f4cd71acb180",
+								"name": "Eliminate",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "0c9ebec9-3474-4062-9607-2e2a72f78299",
+								"name": "Enlightened Tutor",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "39b41cb3-ca3d-4389-8f66-e1f77f5fb683",
+								"name": "Fact or Fiction",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
+								"name": "Fatal Push",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+								"name": "Force of Will",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
+								"name": "Gifts Ungiven",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e4e6794a-feeb-4fc8-a2ee-38c75c18aaae",
+								"name": "Heartless Act",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
+								"name": "Intuition",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "179bd74b-c458-49d6-90ac-6075454e43dd",
+								"name": "Kaya's Guile",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+								"name": "Mental Misstep",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "be45567a-ca1d-4e3a-a630-ddf4fbd97bc6",
+								"name": "Swords to Plowshares",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "c513f51b-a0db-4c08-8acc-1e91060b93b7",
+								"name": "Tainted Pact",
+								"types": [
+									 "Instant"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "a1501a42-e233-423b-b68a-1b76630bbccc",
+								"name": "Unexpectedly Absent",
+								"types": [
+									 "Instant"
+								]
+						  }
+					 ],
+					 "count": 17,
+					 "type": "Instants"
+				},
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "a8619034-173c-4950-a0b4-1ae1dcfd0bc5",
+								"name": "Balance",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "aaa187c9-90b3-4770-963a-8a9f932430ef",
+								"name": "Council's Judgment",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
+								"name": "Demonic Tutor",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "49c07ea0-27ff-46fb-a41f-3e378c977b5d",
+								"name": "Duress",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "40a3b4a6-1f87-4060-896e-e05aee0cbfee",
+								"name": "Inquisition of Kozilek",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
+								"name": "Ponder",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+								"name": "Preordain",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "825969b9-3c70-4fca-8cab-696e9ca7cdb2",
+								"name": "Prismatic Ending",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "7e68f4df-88ce-4e09-a03c-7edf40bff167",
+								"name": "Sevinne's Reclamation",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "21a6bdf6-0c91-49c3-8f9d-7f244807e689",
+								"name": "Supreme Verdict",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e6e76c6b-9d60-4bc8-b88d-6c9c7fade9a6",
+								"name": "Thoughtseize",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "d00fa18f-d50a-4d3f-929e-91f29141b1df",
+								"name": "Toxic Deluge",
+								"types": [
+									 "Sorcery"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "683c4e13-525c-45c9-8832-bfe67965c34e",
+								"name": "Vindicate",
+								"types": [
+									 "Sorcery"
+								]
+						  }
+					 ],
+					 "count": 13,
+					 "type": "Sorceries"
+				},
+				{
+					 "cards": [
+						  {
+								"count": "1",
+								"id": "f31cf014-7ac9-428b-9ce9-8ba5ebfdd252",
+								"name": "Adarkar Wastes",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
+								"name": "Arid Mesa",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+								"name": "Bloodstained Mire",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "6e1d1e83-c34a-46af-8aec-ff698446099f",
+								"name": "Bojuka Bog",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "4c830a99-595b-4aed-9f6b-85a78917f498",
+								"name": "Celestial Colonnade",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
+								"name": "Command Tower",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e530388b-eb19-4211-abd8-8a4c3c38c3af",
+								"name": "Darkslick Shores",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "8ef728f1-5153-47d6-8f9c-dfd473ee0750",
+								"name": "Drowned Catacomb",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "d313d051-7295-4884-8cbf-f2f835fd45f4",
+								"name": "Fabled Passage",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+								"name": "Flooded Strand",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "cef133d9-26d2-4a1e-8d6a-829f1067c169",
+								"name": "Glacial Fortress",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e2c39866-98c2-4c60-98e1-eaf8e40b2d29",
+								"name": "Godless Shrine",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "f321aa38-7aaf-48fd-b516-18e702fbddef",
+								"name": "Hallowed Fountain",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "9e70c602-cb80-472b-9c8d-9625de084fe7",
+								"name": "Island",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "a1d95d37-5dbe-4a25-bc80-a4db08f3c63a",
+								"name": "Isolated Chapel",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
+								"name": "Marsh Flats",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
+								"name": "Misty Rainforest",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "3fe71ae5-5553-4b41-89e0-fd767f9bf430",
+								"name": "Mystic Gate",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "879f7f54-25a3-440b-848d-0e780277a681",
+								"name": "Plains",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+								"name": "Polluted Delta",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "991a1790-a3a2-4def-8848-cc698915a242",
+								"name": "Prismatic Vista",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "919a51f8-e7b5-4544-85a3-2d76f9d2d41d",
+								"name": "Reflecting Pool",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
+								"name": "Scalding Tarn",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "649aa116-4bb5-4974-b8dc-38a8c627717a",
+								"name": "Scrubland",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "99939b90-e88c-4c2f-ba78-56d455611703",
+								"name": "Seachrome Coast",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+								"name": "Search for Azcanta ",
+								"types": [
+									 "Enchantment",
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+								"name": "Snow-Covered Island",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
+								"name": "Snow-Covered Plains",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
+								"name": "Snow-Covered Swamp",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "9181d30d-4f8e-421f-89b8-149ed8000fb2",
+								"name": "Sunken Ruins",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "ab950987-d88c-4326-98f4-1b1195788921",
+								"name": "Swamp",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e3d4fd29-dab5-481f-94c9-eeb70f3c29dd",
+								"name": "Temple of Deceit",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "adad8390-66d8-4022-a059-c68e44e718fe",
+								"name": "Temple of Enlightenment",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "bba526f9-fbe5-4922-a209-8b381653420e",
+								"name": "Temple of Silence",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "49fdfb01-560a-4996-afc2-879c8d10e042",
+								"name": "Tundra",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "9b411380-878e-4f96-b9db-85bb3dec55d1",
+								"name": "Underground River",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "068bb15a-fc2d-42a2-859b-837b946d23c0",
+								"name": "Underground Sea",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "9e1a9e38-6ffc-490f-b0be-23ba4e8204c6",
+								"name": "Urborg, Tomb of Yawgmoth",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
+								"name": "Verdant Catacombs",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "67ef01b3-93f7-41e8-834d-9f6768e3b16c",
+								"name": "Watery Grave",
+								"types": [
+									 "Land"
+								]
+						  },
+						  {
+								"count": "1",
+								"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+								"name": "Windswept Heath",
+								"types": [
+									 "Land"
+								]
+						  }
+					 ],
+					 "count": 41,
+					 "type": "Lands"
+				}
+		  ],
+		  "count": 99
+	 }
 }
