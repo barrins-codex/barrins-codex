@@ -6,6 +6,7 @@ Changelog
 
 - Ajout d'une liste de Arcades
 - Ajout d'une liste de Galazeth
+- Ajout d'une liste de Miara-Tevesh
 - Mise à jour de la liste de Isamaru
 
 

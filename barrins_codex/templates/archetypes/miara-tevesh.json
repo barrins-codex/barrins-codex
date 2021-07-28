@@ -1,0 +1,636 @@
+{
+	"name": "Miara / Tevesh",
+	"player": "Axel \"Moncana\" Rousset",
+	"date": "10/07/2021",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "8f244716-78ab-46f5-b6e9-fc1e6db28052",
+				"name": "Tevesh Szat, Doom of Fools",
+				"types": [
+					"Planeswalker"
+				]
+			},
+			{
+				"count": "1",
+				"id": "7bdb9bfe-5e56-429d-af23-7548532e2406",
+				"name": "Miara, Thorn of the Glade",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 2
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "dce5db87-4a78-4b8d-b5c2-918ccd1ba4e3",
+						"name": "Dauthi Voidwalker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0430db1a-5cad-4444-ba93-57fb32e65606",
+						"name": "Dread Presence",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8d74a469-c71d-4773-99d3-5456b31df424",
+						"name": "Emrakul, the Promised End",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e73d8a84-2c0d-423c-89c7-71de0af9e1ac",
+						"name": "Murderous Rider",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "87089d28-46a7-4247-a784-c34b9f822172",
+						"name": "Bloodghast",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "93c2c11d-dfc3-4ba9-8c0f-a98114090396",
+						"name": "Rankle, Master of Pranks",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5d275f04-cc60-4e3f-95cc-3d02bc916b82",
+						"name": "Wurmcoil Engine",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3526751-0101-4d91-a496-c53cd92326e0",
+						"name": "Tourach, Dread Cantor",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8644d4d1-8499-40a8-a01f-68172c82bf58",
+						"name": "Gifted Aetherborn",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "17a278d0-f601-4d57-bc3d-2972f8602a69",
+						"name": "Kalitas, Traitor of Ghet",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "eb348f07-1d48-4877-8a56-60655d64a3f7",
+						"name": "Nighthawk Scavenger",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "086f97e9-8b62-44f3-b467-149c2ac5ca78",
+						"name": "Opposition Agent",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 12,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "9c017fa9-7021-417a-9c2e-3df409644fcf",
+						"name": "Ugin, the Spirit Dragon",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e653437e-2e56-4443-aec5-5bb7d8860238",
+						"name": "Liliana of the Veil",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "551c0a45-9515-4e51-84e5-79703832a661",
+						"name": "Expedition Map",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "552be01e-cd54-46ba-b38a-96883a48d985",
+						"name": "Arcane Signet",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8854e9a7-a799-47d0-8662-95aa527d3210",
+						"name": "Skullclamp",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f85698a-821f-452d-9e31-e525c0100f2d",
+						"name": "Jet Medallion",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "02a34135-0955-4045-9558-6e61338baaf0",
+						"name": "Mind Stone",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e5892a23-efae-4731-9b8f-41c87960fe93",
+						"name": "Nihil Spellbomb",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 6,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "80f88df1-4e1a-4557-bb7a-1ac86641043e",
+						"name": "Bitterblossom",
+						"types": [
+							"Tribal",
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86067dfe-65c3-4c96-bccd-b3915d6663f9",
+						"name": "Contamination",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d4800a7d-c229-4ced-97ff-0e58645d58d6",
+						"name": "Oubliette",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "c61fa2c0-63c0-4dc2-9f17-5a00530e3348",
+						"name": "Deadly Rollick",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d25ae489-1600-4eca-afd2-6274d525046a",
+						"name": "Defile",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "18069340-a698-4f75-82cc-cc94fcf82184",
+						"name": "Disfigure",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88e35c80-6cfe-49fc-8138-562233ccf987",
+						"name": "Erebos's Intervention",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "493a5ca7-5f90-4af4-b6db-43ae09a2f2c9",
+						"name": "Dark Ritual",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "56b34afa-0183-49aa-aa5f-03e070020136",
+						"name": "Fade from Memory",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "52c2de5f-e486-4cfe-9fb6-be0078ce5f93",
+						"name": "Cling to Dust",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "013d5260-f906-4f6a-97ed-725197743b60",
+						"name": "Cremate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "50c33f18-0a5c-4e46-ab0d-6e450915594f",
+						"name": "Culling the Weak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fa651c32-78b8-40e1-a097-bda4dbc3f6fa",
+						"name": "Scarab Feast",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
+						"name": "Fatal Push",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ee4c6135-eee9-43ec-bbe8-76912352dcac",
+						"name": "Victim of Night",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6e6499cb-6073-4c94-8c82-47f489094df5",
+						"name": "Withering Boon",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8185ecd0-2fdf-4d8b-a396-d5db593985b9",
+						"name": "Go for the Throat",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ed96b05d-b2ca-4c8f-969b-cac9b4562fab",
+						"name": "Hero's Downfall",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 15,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "e9df9c5e-7087-42b2-9001-c89d40a66c68",
+						"name": "Dark Petition",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f480df6d-e227-4ccb-ad6d-a4ad48a360ad",
+						"name": "Dead of Winter",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "77be13ed-5ef5-4452-a16f-ccd3599d8555",
+						"name": "Demonic Tutor",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b58299a8-e674-46de-ae25-c98410e0b445",
+						"name": "Diabolic Intent",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "14bfd72a-78c1-4167-89bf-ea1fccccd5b1",
+						"name": "Dimir Machinations",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "630d4080-8183-41fb-8091-740719083765",
+						"name": "Distress",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "49c07ea0-27ff-46fb-a41f-3e378c977b5d",
+						"name": "Duress",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "09270c65-546e-4737-a6b7-402cbb87917a",
+						"name": "Agonizing Remorse",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f7d6a020-8843-4a97-9d00-86f3928e8acd",
+						"name": "Beseech the Queen",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "059e8447-6b1c-4651-a734-a8fea2cbf7b2",
+						"name": "Bloodchief's Thirst",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1ee98955-4c47-4d45-9377-608dfa755337",
+						"name": "Bone Shards",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "59dcf43b-a65f-43e4-a683-437021565f6a",
+						"name": "Collective Brutality",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "941b65da-b9b3-4e15-bab5-bcbfd20dbe05",
+						"name": "Damnation",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e6e76c6b-9d60-4bc8-b88d-6c9c7fade9a6",
+						"name": "Thoughtseize",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d00fa18f-d50a-4d3f-929e-91f29141b1df",
+						"name": "Toxic Deluge",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3faa8c5e-9e1b-4cee-b322-a033bf33dcbc",
+						"name": "Hymn to Tourach",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "29184c64-03f3-4a50-ac18-e34b6c89635e",
+						"name": "Innocent Blood",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "40a3b4a6-1f87-4060-896e-e05aee0cbfee",
+						"name": "Inquisition of Kozilek",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bbb6765c-a052-46dc-a589-200b8ba8c99f",
+						"name": "Mind Twist",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 19,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "a5d05ff7-78d4-45d9-8fd7-ec0468528ac7",
+						"name": "Blast Zone",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e1efb0d3-2c72-46ff-bdc1-1069967365a0",
+						"name": "Cabal Coffers",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d2507bc2-da17-4e46-b4c5-ba0080ce2c6f",
+						"name": "Rishadan Port",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "78748ac8-4726-4156-a97e-023f80fef610",
+						"name": "Scavenger Grounds",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "80f775ed-0ed0-451f-9916-01d00bbd5112",
+						"name": "Tectonic Edge",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9e1a9e38-6ffc-490f-b0be-23ba4e8204c6",
+						"name": "Urborg, Tomb of Yawgmoth",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
+						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b87891cd-b457-4dff-8d18-a7eaf6748fc6",
+						"name": "Witch's Cottage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
+						"name": "Marsh Flats",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "05b2cc68-1d20-421f-9800-af0996071554",
+						"name": "Phyrexian Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "29",
+						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
+						"name": "Snow-Covered Swamp",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 41,
+				"type": "Lands"
+			}
+		],
+		"count": 98
+	}
+}

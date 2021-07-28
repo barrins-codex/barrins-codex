@@ -67,6 +67,7 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Kess, Dissident Mage")),
 				Nav(lazy_gettext("Kinnan, Bonder Prodigy")),
 				Nav(lazy_gettext("Magda, Brazen Outlaw")),
+				Nav(lazy_gettext("Miara / Tevesh")),
 				Nav(lazy_gettext("Minsc, Beloved Ranger")),
 				Nav(lazy_gettext("Orvar, the All-Form")),
 				Nav(lazy_gettext("Rowan and Will Kenrith")),
