@@ -6,6 +6,7 @@ Changelog
 
 - Ajout d'une liste de Arcades
 - Ajout d'une liste de Galazeth
+- Mise à jour de la liste de Isamaru
 
 
 3.6.3 (2021-07-28)

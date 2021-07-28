@@ -1,7 +1,7 @@
 {
 	"name": "Isamaru, Hound of Konda",
-	"player": "Ninjamaru",
-	"date": "25/01/2021",
+	"player": "Théau Méry",
+	"date": "10/07/2021",
 	"command": {
 		"cards": [
 			{
@@ -21,15 +21,15 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "228c1650-da3c-4099-91b6-18e3873c9cdb",
-						"name": "Archon of Emeria",
+						"id": "74b769c1-48a0-448b-98d9-0d86526ef51e",
+						"name": "Auriok Champion",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "403a50cc-fa16-42a4-b9f2-d8327e5d1bb6",
+						"id": "76cf42b4-f767-48b7-b38c-b98306909f06",
 						"name": "Aven Mindcensor",
 						"types": [
 							"Creature"
@@ -37,8 +37,8 @@
 					},
 					{
 						"count": "1",
-						"id": "241e5c4e-0f0b-4a3f-91e0-87387a11e81e",
-						"name": "Benevolent Bodyguard",
+						"id": "1542ad81-169e-4ac8-bd85-038494489594",
+						"name": "Bounty Agent",
 						"types": [
 							"Creature"
 						]
@@ -47,6 +47,14 @@
 						"count": "1",
 						"id": "f54eb705-6326-4bac-bf0e-68d42db7a270",
 						"name": "Brimaz, King of Oreskos",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "65975f50-70b1-4d64-8d81-5ef2da479c48",
+						"name": "Containment Priest",
 						"types": [
 							"Creature"
 						]
@@ -69,7 +77,33 @@
 					},
 					{
 						"count": "1",
-						"id": "b6501e4e-8188-44ed-b661-55fe32bc7fec",
+						"id": "9d3a7998-ccac-45ad-a4e9-3a2cb057f63b",
+						"name": "Elite Spellbinder",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3537373-ef54-4578-9d05-6216420ee349",
+						"name": "Esper Sentinel",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "abc8e0f8-fdb9-4f24-a3e3-439f6cc3ebdc",
+						"name": "Ethersworn Canonist",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6931aad2-aa2c-4069-9e5a-2566b9f3eae4",
 						"name": "Flickerwisp",
 						"types": [
 							"Creature"
@@ -78,7 +112,7 @@
 					{
 						"count": "1",
 						"id": "75754468-2850-42e6-ab22-61ff7b9d1214",
-						"name": "Giant Killer ",
+						"name": "Giant Killer",
 						"types": [
 							"Creature",
 							"Instant"
@@ -86,7 +120,7 @@
 					},
 					{
 						"count": "1",
-						"id": "4e117771-5a8b-4812-b487-32ba34b7f724",
+						"id": "f2bdcfec-d412-442c-91c8-53022c8e316d",
 						"name": "Giver of Runes",
 						"types": [
 							"Creature"
@@ -94,40 +128,8 @@
 					},
 					{
 						"count": "1",
-						"id": "b4c4f694-618a-43ed-8781-2a51a234ba8e",
-						"name": "Grand Abolisher",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "94ebd5bd-99b3-4371-9ca2-e0504db1458e",
-						"name": "Hallowed Spiritkeeper",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "0f672328-3361-498e-a9f4-2d8e69a8b072",
-						"name": "Imposing Sovereign",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "b548e817-912b-4922-8b73-f1009aeb2ab8",
-						"name": "Knight of the White Orchid",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "58c39df6-b237-40d1-bdcb-2fe5d05392a9",
-						"name": "Kytheon, Hero of Akros ",
+						"name": "Kytheon, Hero of Akros",
 						"types": [
 							"Creature",
 							"Planeswalker"
@@ -159,14 +161,6 @@
 					},
 					{
 						"count": "1",
-						"id": "bb65df55-d6a6-4a57-a903-e5eb17637982",
-						"name": "Luminous Broodmoth",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "56086ccd-a628-435b-a7af-ca28d89276da",
 						"name": "Mirran Crusader",
 						"types": [
@@ -175,7 +169,7 @@
 					},
 					{
 						"count": "1",
-						"id": "fc0b64f2-2bbb-40bb-b025-3a303a22f68b",
+						"id": "8bdb0349-a759-473e-a192-7ca85ef8e515",
 						"name": "Mother of Runes",
 						"types": [
 							"Creature"
@@ -183,7 +177,7 @@
 					},
 					{
 						"count": "1",
-						"id": "79045117-093b-47e2-ad5c-973810bc4925",
+						"id": "ed869151-02e9-4daa-994d-ccdf9f9dc3c8",
 						"name": "Palace Jailer",
 						"types": [
 							"Creature"
@@ -200,7 +194,7 @@
 					},
 					{
 						"count": "1",
-						"id": "af3928b4-813a-4120-8799-de34235d60ac",
+						"id": "ab9eef1c-8e8e-45e6-aaef-98ff569a1845",
 						"name": "Ranger-Captain of Eos",
 						"types": [
 							"Creature"
@@ -216,16 +210,16 @@
 					},
 					{
 						"count": "1",
-						"id": "9620716d-9be8-4ebd-80d2-679373f4f897",
-						"name": "Remorseful Cleric",
+						"id": "ead15cf8-f692-4cb9-ac86-0dff00236145",
+						"name": "Samurai of the Pale Curtain",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "feb59931-8941-46fb-8e1c-f80ff3730dd9",
-						"name": "Seasoned Hallowblade",
+						"id": "f8c3cca4-23c0-4c14-ab56-51ba011f5974",
+						"name": "Sanctifier en-Vec",
 						"types": [
 							"Creature"
 						]
@@ -248,17 +242,26 @@
 					},
 					{
 						"count": "1",
-						"id": "aeec3c1e-e612-4700-888e-300912932552",
-						"name": "Sigrid, God-Favored",
+						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
+						"name": "Skyclave Apparition",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
-						"name": "Skyclave Apparition",
+						"id": "47a6234f-309f-4e03-9263-66da48b57153",
+						"name": "Solitude",
 						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f44e5128-e146-4e46-b313-a40d82719d1d",
+						"name": "Spirit of the Labyrinth",
+						"types": [
+							"Enchantment",
 							"Creature"
 						]
 					},
@@ -288,14 +291,6 @@
 					},
 					{
 						"count": "1",
-						"id": "bd26b7b1-992d-4b8c-bc33-51aab5abdf98",
-						"name": "Tithe Taker",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "f346387c-2f13-472b-b5b1-968b490eb38f",
 						"name": "Tomik, Distinguished Advokist",
 						"types": [
@@ -304,15 +299,30 @@
 					},
 					{
 						"count": "1",
-						"id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
-						"name": "Walking Ballista",
+						"id": "a02e3c10-cc21-4e06-a987-b03aee61bd50",
+						"name": "Vigilant Martyr",
 						"types": [
-							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "17b59819-4746-4c67-b6e5-4157d498a065",
+						"name": "Vryn Wingmare",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1b88b198-60e1-43fe-8551-32bce30b2aab",
+						"name": "Weathered Wayfarer",
+						"types": [
 							"Creature"
 						]
 					}
 				],
-				"count": 36,
+				"count": 37,
 				"type": "Creatures"
 			},
 			{
@@ -341,31 +351,6 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "5803fdbb-57a4-4b70-8585-23c1cc54d657",
-						"name": "Ancient Den",
-						"types": [
-							"Artifact",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1d023d44-482e-4f60-b9b1-eede9bfb732f",
-						"name": "Grafted Wargear",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e6cec97f-0a2b-4543-a02e-d5e42d337790",
-						"name": "Lightning Greaves",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
 						"id": "66024e69-ad60-4c9a-a0ca-da138d33ad80",
 						"name": "Mox Amber",
 						"types": [
@@ -390,6 +375,14 @@
 					},
 					{
 						"count": "1",
+						"id": "7c850b94-75c9-4457-8b5e-1193352d6fcb",
+						"name": "Soul-Guide Lantern",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
 						"id": "2626d4c9-fcef-4057-a154-7d987a4a4b84",
 						"name": "Sword of Fire and Ice",
 						"types": [
@@ -405,23 +398,15 @@
 						]
 					}
 				],
-				"count": 8,
+				"count": 6,
 				"type": "Artifacts"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "9736d6f4-5ff6-4006-b45d-8e630382d160",
-						"name": "Force of Virtue",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "cf643b03-d388-451b-933a-28f3c4087877",
-						"name": "Honor of the Pure",
+						"id": "d372bb70-2d2a-4c44-8f69-4abff8ba7c2a",
+						"name": "Gelid Shackles",
 						"types": [
 							"Enchantment"
 						]
@@ -441,6 +426,15 @@
 						"types": [
 							"Enchantment"
 						]
+					},
+					{
+						"count": "1",
+						"id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
+						"name": "Urza's Saga",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
 					}
 				],
 				"count": 4,
@@ -448,14 +442,6 @@
 			},
 			{
 				"cards": [
-					{
-						"count": "1",
-						"id": "c281997b-1566-4469-a14c-6645f81ab023",
-						"name": "Akroma's Will",
-						"types": [
-							"Instant"
-						]
-					},
 					{
 						"count": "1",
 						"id": "4c8ff6cd-e3ac-4024-aacb-86f7e1f43ba0",
@@ -474,14 +460,6 @@
 					},
 					{
 						"count": "1",
-						"id": "5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c",
-						"name": "Fight as One",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "c972abe6-c732-4745-bde4-8b51698f05be",
 						"name": "Flawless Maneuver",
 						"types": [
@@ -490,16 +468,8 @@
 					},
 					{
 						"count": "1",
-						"id": "d7e8a22d-a94e-4dfa-86a3-edb80a03d82a",
-						"name": "Harm's Way",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "2ee3e42e-120c-468a-988d-4441b6025bbe",
-						"name": "Path to Exile",
+						"id": "9ae707d5-d81d-4320-b947-6016dc188898",
+						"name": "Mana Tithe",
 						"types": [
 							"Instant"
 						]
@@ -522,8 +492,16 @@
 					},
 					{
 						"count": "1",
-						"id": "be2b4177-e47c-4dde-9ead-31b7602065ec",
+						"id": "be45567a-ca1d-4e3a-a630-ddf4fbd97bc6",
 						"name": "Swords to Plowshares",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e59f4627-58ab-45c8-b31b-eaa52dad33fc",
+						"name": "Teferi's Protection",
 						"types": [
 							"Instant"
 						]
@@ -537,11 +515,27 @@
 						]
 					}
 				],
-				"count": 11,
+				"count": 9,
 				"type": "Instants"
 			},
 			{
 				"cards": [
+					{
+						"count": "1",
+						"id": "77f1f6ac-983f-4f3e-8906-47f774e8367b",
+						"name": "Armageddon",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "024ae668-a1ae-4020-89c8-acbd8bd0a691",
+						"name": "Cataclysm",
+						"types": [
+							"Sorcery"
+						]
+					},
 					{
 						"count": "1",
 						"id": "aaa187c9-90b3-4770-963a-8a9f932430ef",
@@ -549,9 +543,17 @@
 						"types": [
 							"Sorcery"
 						]
+					},
+					{
+						"count": "1",
+						"id": "db75b77f-a230-4bad-b697-a40687671842",
+						"name": "Steelshaper's Gift",
+						"types": [
+							"Sorcery"
+						]
 					}
 				],
-				"count": 1,
+				"count": 4,
 				"type": "Sorceries"
 			},
 			{
@@ -574,22 +576,6 @@
 					},
 					{
 						"count": "1",
-						"id": "a7a8b6b8-b95f-4014-b17a-a6d44d965995",
-						"name": "City of Traitors",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1c28ab69-1a46-45af-a331-1f52f99a9da3",
-						"name": "Crystal Vein",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "219c1d76-40cf-4edf-8145-e6cec8ca39ad",
 						"name": "Eiganjo Castle",
 						"types": [
@@ -598,7 +584,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e93d3a9f-abc2-4f63-a74d-e5936609386f",
+						"id": "a0acea27-88de-4d27-8da2-8f82439526a1",
 						"name": "Flagstones of Trokair",
 						"types": [
 							"Land"
@@ -614,7 +600,7 @@
 					},
 					{
 						"count": "1",
-						"id": "59b6fe0c-7bbe-433f-8400-4be4ce0e3f15",
+						"id": "7c05c946-66c3-4785-90f9-ca0c606e036b",
 						"name": "Mishra's Factory",
 						"types": [
 							"Land"
@@ -638,6 +624,14 @@
 					},
 					{
 						"count": "1",
+						"id": "78748ac8-4726-4156-a97e-023f80fef610",
+						"name": "Scavenger Grounds",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
 						"id": "6077f4e9-5717-4048-b798-4f8d535a4170",
 						"name": "Shefet Dunes",
 						"types": [
@@ -645,7 +639,7 @@
 						]
 					},
 					{
-						"count": "25",
+						"count": "26",
 						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
 						"name": "Snow-Covered Plains",
 						"types": [
@@ -654,14 +648,23 @@
 					},
 					{
 						"count": "1",
-						"id": "309ff3bf-acd3-4bea-b518-6e25f6cfce61",
-						"name": "Tyrite Sanctum",
+						"id": "80f775ed-0ed0-451f-9916-01d00bbd5112",
+						"name": "Tectonic Edge",
 						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
+						"name": "Urza's Saga",
+						"types": [
+							"Enchantment",
 							"Land"
 						]
 					}
 				],
-				"count": 37,
+				"count": 38,
 				"type": "Lands"
 			}
 		],
