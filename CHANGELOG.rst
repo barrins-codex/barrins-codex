@@ -9,6 +9,7 @@ Changelog
 - Mise à jour de la liste de Golos
 - Mise à jour de la liste de Winota
 - Ajout d'une mention pour le ban de Gifts
+- Gestion des cartes bannies
 
 
 3.6.4 (2021-07-28)

@@ -1,8 +1,15 @@
 function cardElement (element) {
-	return `<li>${element.count} <span class="card" scryfallId="${element.id}" data-tippy-content="
+	line = `<li>${element.count} <span class="card" scryfallId="${element.id}" data-tippy-content="
 		<div class='card-container'>
 			<img data-src='https://api.scryfall.com/cards/${element.id}?format=image' class='card-image'>
-		</div>" >${element.name}</span></li>`
+		</div>" >${element.name}</span>`
+
+	// Banned cards
+	if (element.name == "Gifts Ungiven") {
+		line = line + ` <span title="banned on July 26th 2021"><i class="fas fa-times-circle"></i></span>`
+	}
+
+	return line + `</li>`
 }
 
 function wrapText (text, maxlen) {

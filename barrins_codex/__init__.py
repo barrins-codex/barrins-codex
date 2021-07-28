@@ -75,6 +75,12 @@ def favicon():
 def static_from_root():
 	return flask.send_from_directory(app.static_folder, flask.request.path[1:])
 
+# Serve webfonts
+@app.route('/webfonts/<path:font>')
+@app.route('/<lang_code>/webfonts/<path:font>')
+def static_fonts(lang_code=None, font=None):
+	return flask.redirect(flask.url_for("static", filename=f"fonts/{font}"))
+
 
 # Default route
 @app.route("/")
