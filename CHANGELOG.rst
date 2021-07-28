@@ -4,6 +4,7 @@ Changelog
 3.6.5 (unreleased)
 ------------------
 
+- Mise à jour de la liste de Adeliz
 - Mise à jour de la liste de Winota
 
 

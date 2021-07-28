@@ -1,7 +1,7 @@
 {
 	"name": "Adeliz, the Cinder Wind",
-	"player": "Thomas \" Lantariel \" Travert",
-	"date": "25/01/2021",
+	"player": "Thomas \"Lantariel\" Travert",
+	"date": "20/07/2021",
 	"command": {
 		"cards": [
 			{
@@ -26,15 +26,6 @@
 						"types": [
 							"Artifact",
 							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
-						"name": "Bonecrusher Giant ",
-						"types": [
-							"Creature",
-							"Instant"
 						]
 					},
 					{
@@ -64,8 +55,16 @@
 					},
 					{
 						"count": "1",
-						"id": "fd97b3cf-924e-4f77-bb82-0bf19592389f",
+						"id": "27933adb-9c7a-4248-9908-f01e6a6bf12c",
 						"name": "Dreadhorde Arcanist",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3989e920-05df-4b30-9ec3-e6ecaa436fce",
+						"name": "Faerie Seer",
 						"types": [
 							"Creature"
 						]
@@ -96,6 +95,14 @@
 					},
 					{
 						"count": "1",
+						"id": "22579ac0-ad3f-4000-a65a-46a17a7f1aa5",
+						"name": "Harmonic Prodigy",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
 						"id": "869fb9f1-0d59-4874-aa52-ac665c3cc0e8",
 						"name": "Heartfire Immolator",
 						"types": [
@@ -112,7 +119,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b5fef5fe-3e59-4fd6-8a88-7c1cee56892f",
+						"id": "dab85ca8-1ce8-43df-a6a1-00fef6b1d1c0",
 						"name": "Loyal Apprentice",
 						"types": [
 							"Creature"
@@ -128,14 +135,6 @@
 					},
 					{
 						"count": "1",
-						"id": "1f685078-c9b3-42aa-be5a-be16be89ecc6",
-						"name": "Magus of the Moon",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "359b2f2b-7b58-47b6-b00c-8616f981e3a3",
 						"name": "Merfolk Trickster",
 						"types": [
@@ -144,7 +143,7 @@
 					},
 					{
 						"count": "1",
-						"id": "bfa31067-78f4-4804-a544-44d2cbaa80c6",
+						"id": "439d4ade-45c8-414b-a2fe-a57f9672bceb",
 						"name": "Monastery Swiftspear",
 						"types": [
 							"Creature"
@@ -152,8 +151,8 @@
 					},
 					{
 						"count": "1",
-						"id": "1e14e677-9bfa-4bcc-9772-8e7758d7538a",
-						"name": "Sea Gate Stormcaller",
+						"id": "a9738cda-adb1-47fb-9f4c-ecd930228c4d",
+						"name": "Ragavan, Nimble Pilferer",
 						"types": [
 							"Creature"
 						]
@@ -176,7 +175,7 @@
 					},
 					{
 						"count": "1",
-						"id": "a8003786-6e2a-4e2d-a915-f23293c7273a",
+						"id": "bb58d181-500f-4698-a2ba-e378e5335676",
 						"name": "Soul-Scar Mage",
 						"types": [
 							"Creature"
@@ -200,7 +199,7 @@
 					},
 					{
 						"count": "1",
-						"id": "2da0b45b-0ca9-40c4-bc7f-791039bc1876",
+						"id": "33ad086b-9bf2-4086-b820-a4ff7854a674",
 						"name": "True-Name Nemesis",
 						"types": [
 							"Creature"
@@ -208,7 +207,7 @@
 					},
 					{
 						"count": "1",
-						"id": "cd702cf1-10ca-4448-9fb1-b6de635e839c",
+						"id": "74ebe58d-0f94-47f7-b17b-0d9492b931d5",
 						"name": "Vendilion Clique",
 						"types": [
 							"Creature"
@@ -253,7 +252,7 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
+						"id": "48070245-1370-4cf1-be15-d4e8a8b92ba8",
 						"name": "Brainstorm",
 						"types": [
 							"Instant"
@@ -269,7 +268,7 @@
 					},
 					{
 						"count": "1",
-						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
+						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
 						"name": "Counterspell",
 						"types": [
 							"Instant"
@@ -285,7 +284,7 @@
 					},
 					{
 						"count": "1",
-						"id": "610135d6-d32f-4ee9-b053-dc32da14c333",
+						"id": "0e09b054-4d33-4a12-bf2a-9b0009f33044",
 						"name": "Fire ",
 						"types": [
 							"Instant"
@@ -311,6 +310,14 @@
 						"count": "1",
 						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
 						"name": "Force Spike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0cf8cb1e-314a-4894-82df-f9812825f52e",
+						"name": "Galvanic Blast",
 						"types": [
 							"Instant"
 						]
@@ -349,6 +356,14 @@
 					},
 					{
 						"count": "1",
+						"id": "67b9fcc4-51d8-410b-9f36-fe6cc45e2b25",
+						"name": "Magma Spray",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
 						"name": "Mana Leak",
 						"types": [
@@ -365,8 +380,16 @@
 					},
 					{
 						"count": "1",
-						"id": "323db259-d35e-467d-9a46-4adcb2fc107c",
-						"name": "Opt",
+						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
+						"name": "Miscalculation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e92c7477-d453-4fa4-acf4-3835ab9eb55a",
+						"name": "Negate",
 						"types": [
 							"Instant"
 						]
@@ -381,7 +404,7 @@
 					},
 					{
 						"count": "1",
-						"id": "dc595c63-af05-4c05-80e8-e1a90df26b0f",
+						"id": "69001c08-2541-47e3-8343-2e5089a9b193",
 						"name": "Remand",
 						"types": [
 							"Instant"
@@ -391,6 +414,14 @@
 						"count": "1",
 						"id": "44c5f884-d071-40c2-bb2c-925dc2197ea3",
 						"name": "Searing Spear",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "59fa8e8d-bcb8-47bf-b71a-df11c8d0f2c9",
+						"name": "Shock",
 						"types": [
 							"Instant"
 						]
@@ -421,6 +452,24 @@
 					},
 					{
 						"count": "1",
+						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
+						"name": "Spikefield Hazard ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3c7dfc93-36fe-499c-9019-cd45797ffbbf",
+						"name": "Tarfire",
+						"types": [
+							"Tribal",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "63b67070-38af-42e3-8d23-a081b06033fc",
 						"name": "Vapor Snag",
 						"types": [
@@ -444,7 +493,7 @@
 						]
 					}
 				],
-				"count": 24,
+				"count": 30,
 				"type": "Instants"
 			},
 			{
@@ -453,22 +502,6 @@
 						"count": "1",
 						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
 						"name": "Chain Lightning",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "819a513c-3be6-4bdc-8ba6-1f7326a8f3ea",
-						"name": "Fiery Confluence",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "4dd8bdbd-99c9-4fa7-936a-acc7f4238507",
-						"name": "Fire Ambush",
 						"types": [
 							"Sorcery"
 						]
@@ -491,15 +524,7 @@
 					},
 					{
 						"count": "1",
-						"id": "cf464f61-8a7f-493b-a80f-2f2b0ebd8bf6",
-						"name": "Incendiary Flow",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
+						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
 						"name": "Ponder",
 						"types": [
 							"Sorcery"
@@ -515,15 +540,7 @@
 					},
 					{
 						"count": "1",
-						"id": "86572747-8faa-4242-b059-07d11e6be1cd",
-						"name": "Roil Eruption",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6ca3457c-4924-4824-8f32-7f4a12d2e2ea",
+						"id": "8405a6c8-1dfb-4ac5-b44c-bce9e4bcc38c",
 						"name": "Serum Visions",
 						"types": [
 							"Sorcery"
@@ -536,24 +553,16 @@
 						"types": [
 							"Sorcery"
 						]
-					},
-					{
-						"count": "1",
-						"id": "9db3f454-4aeb-4e48-b961-bea760ea8ddf",
-						"name": "Volcanic Hammer",
-						"types": [
-							"Sorcery"
-						]
 					}
 				],
-				"count": 12,
+				"count": 7,
 				"type": "Sorceries"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
 						"name": "Arid Mesa",
 						"types": [
 							"Land"
@@ -585,7 +594,7 @@
 					},
 					{
 						"count": "1",
-						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
 						"name": "Command Tower",
 						"types": [
 							"Land"
@@ -608,8 +617,8 @@
 						]
 					},
 					{
-						"count": "9",
-						"id": "1a25a714-c7f3-4697-8b69-8f966b4d370a",
+						"count": "8",
+						"id": "9e70c602-cb80-472b-9c8d-9625de084fe7",
 						"name": "Island",
 						"types": [
 							"Land"
@@ -617,7 +626,7 @@
 					},
 					{
 						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
 						"name": "Misty Rainforest",
 						"types": [
 							"Land"
@@ -625,7 +634,7 @@
 					},
 					{
 						"count": "8",
-						"id": "69419307-53d5-40d7-82da-cab2e7bfbda4",
+						"id": "edabc558-2c54-4c7b-a6fa-1e75ddcf12f9",
 						"name": "Mountain",
 						"types": [
 							"Land"
@@ -649,7 +658,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
 						"name": "Prismatic Vista",
 						"types": [
 							"Land"
@@ -657,7 +666,7 @@
 					},
 					{
 						"count": "1",
-						"id": "af11d41a-0d29-45e9-9d27-a41282b9e292",
+						"id": "f82a7ea8-aa1c-4ff9-b1f7-06452492c788",
 						"name": "Ramunap Ruins",
 						"types": [
 							"Land"
@@ -673,7 +682,7 @@
 					},
 					{
 						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
 						"name": "Scalding Tarn",
 						"types": [
 							"Land"
@@ -681,9 +690,18 @@
 					},
 					{
 						"count": "1",
-						"id": "983d129b-809b-436e-bb66-3c7028709e50",
+						"id": "8886f31a-f12b-4ffa-992c-1f3b28e72da5",
 						"name": "Shivan Reef",
 						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
+						"name": "Spikefield Hazard ",
+						"types": [
+							"Instant",
 							"Land"
 						]
 					},
@@ -697,7 +715,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b8ebe3cf-7143-453a-b0ef-2f5bdaac3185",
+						"id": "d516b248-c0be-4c49-83ab-393354c33563",
 						"name": "Steam Vents",
 						"types": [
 							"Land"
