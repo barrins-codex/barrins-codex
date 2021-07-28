@@ -4,7 +4,7 @@ Changelog
 3.6.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Mise à jour de la liste de Winota
 
 
 3.6.4 (2021-07-28)

@@ -1,7 +1,7 @@
 {
 	"name": "Winota, Joiner of Forces",
 	"player": "Martin Cuchet",
-	"date": "25/11/2020",
+	"date": "10/07/2020",
 	"command": {
 		"cards": [
 			{
@@ -55,10 +55,18 @@
 					{
 						"count": "1",
 						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
-						"name": "Bonecrusher Giant",
+						"name": "Bonecrusher Giant ",
 						"types": [
 							"Creature",
 							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1542ad81-169e-4ac8-bd85-038494489594",
+						"name": "Bounty Agent",
+						"types": [
+							"Creature"
 						]
 					},
 					{
@@ -73,6 +81,14 @@
 						"count": "1",
 						"id": "dcb94950-3f3e-4876-84f8-d5e4d9cfecee",
 						"name": "Charming Prince",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f7b8521e-8706-4480-9a47-9600a015cc96",
+						"name": "Cloudshredder Sliver",
 						"types": [
 							"Creature"
 						]
@@ -120,7 +136,7 @@
 					},
 					{
 						"count": "1",
-						"id": "4e117771-5a8b-4812-b487-32ba34b7f724",
+						"id": "f2bdcfec-d412-442c-91c8-53022c8e316d",
 						"name": "Giver of Runes",
 						"types": [
 							"Creature"
@@ -160,24 +176,8 @@
 					},
 					{
 						"count": "1",
-						"id": "ee9c697e-d2c0-413b-9142-ecf5d7cf5322",
-						"name": "Goblin Rabblemaster",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "b4c4f694-618a-43ed-8781-2a51a234ba8e",
 						"name": "Grand Abolisher",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "29b6ec9d-3861-48bf-a198-dc7efba5d89c",
-						"name": "Grim Initiate",
 						"types": [
 							"Creature"
 						]
@@ -225,7 +225,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b5fef5fe-3e59-4fd6-8a88-7c1cee56892f",
+						"id": "dab85ca8-1ce8-43df-a6a1-00fef6b1d1c0",
 						"name": "Loyal Apprentice",
 						"types": [
 							"Creature"
@@ -241,7 +241,7 @@
 					},
 					{
 						"count": "1",
-						"id": "1f685078-c9b3-42aa-be5a-be16be89ecc6",
+						"id": "7c9bd75c-9606-4607-bfa6-d6acdee12820",
 						"name": "Magus of the Moon",
 						"types": [
 							"Creature"
@@ -249,7 +249,16 @@
 					},
 					{
 						"count": "1",
-						"id": "fc0b64f2-2bbb-40bb-b025-3a303a22f68b",
+						"id": "8e4e0f81-f92b-4a3a-bb29-adcc3de211b4",
+						"name": "Mila, Crafty Companion ",
+						"types": [
+							"Creature",
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8bdb0349-a759-473e-a192-7ca85ef8e515",
 						"name": "Mother of Runes",
 						"types": [
 							"Creature"
@@ -257,7 +266,7 @@
 					},
 					{
 						"count": "1",
-						"id": "79045117-093b-47e2-ad5c-973810bc4925",
+						"id": "ed869151-02e9-4daa-994d-ccdf9f9dc3c8",
 						"name": "Palace Jailer",
 						"types": [
 							"Creature"
@@ -282,7 +291,7 @@
 					},
 					{
 						"count": "1",
-						"id": "6a2b2954-0734-4219-b6df-c6cc3dcd8d5a",
+						"id": "9d2502c8-bf80-404c-9a9a-b843d355fcaa",
 						"name": "Pia Nalaar",
 						"types": [
 							"Creature"
@@ -290,7 +299,15 @@
 					},
 					{
 						"count": "1",
-						"id": "af3928b4-813a-4120-8799-de34235d60ac",
+						"id": "a9738cda-adb1-47fb-9f4c-ecd930228c4d",
+						"name": "Ragavan, Nimble Pilferer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab9eef1c-8e8e-45e6-aaef-98ff569a1845",
 						"name": "Ranger-Captain of Eos",
 						"types": [
 							"Creature"
@@ -346,7 +363,7 @@
 					},
 					{
 						"count": "1",
-						"id": "19f1ac65-aed8-4ac6-ba90-e088db6c1389",
+						"id": "0e57335d-4066-4d73-83cd-67a215e01a4e",
 						"name": "Simian Spirit Guide",
 						"types": [
 							"Creature"
@@ -371,18 +388,18 @@
 					},
 					{
 						"count": "1",
-						"id": "b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe",
-						"name": "Stonecoil Serpent",
+						"id": "47a6234f-309f-4e03-9263-66da48b57153",
+						"name": "Solitude",
 						"types": [
-							"Artifact",
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "4d3473d0-b46f-41f5-ac1e-ba217f7747d4",
-						"name": "Stoneforge Mystic",
+						"id": "b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe",
+						"name": "Stonecoil Serpent",
 						"types": [
+							"Artifact",
 							"Creature"
 						]
 					},
@@ -427,7 +444,7 @@
 						]
 					}
 				],
-				"count": 50,
+				"count": 52,
 				"type": "Creatures"
 			},
 			{
@@ -448,30 +465,14 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "34f7bad2-d28f-42d2-9246-fe3545ef49a7",
-						"name": "Jeweled Amulet",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
 						"id": "153983dd-54dc-420d-9249-665b0d669614",
 						"name": "Lotus Petal",
 						"types": [
 							"Artifact"
 						]
-					},
-					{
-						"count": "1",
-						"id": "8854e9a7-a799-47d0-8662-95aa527d3210",
-						"name": "Skullclamp",
-						"types": [
-							"Artifact"
-						]
 					}
 				],
-				"count": 3,
+				"count": 1,
 				"type": "Artifacts"
 			},
 			{
@@ -486,7 +487,7 @@
 					},
 					{
 						"count": "1",
-						"id": "636cfc66-f1df-4c2e-b94e-dc621c6c289e",
+						"id": "e262f55e-9239-4a97-a19e-9b08fb34502e",
 						"name": "Goblin Bombardment",
 						"types": [
 							"Enchantment"
@@ -530,21 +531,48 @@
 						"types": [
 							"Instant"
 						]
+					},
+					{
+						"count": "1",
+						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
+						"name": "Spikefield Hazard ",
+						"types": [
+							"Instant",
+							"Land"
+						]
 					}
 				],
-				"count": 3,
+				"count": 4,
 				"type": "Instants"
 			},
 			{
-				"cards": [],
-				"count": 0,
+				"cards": [
+					{
+						"count": "1",
+						"id": "c062caf7-f0eb-44db-9f74-e6711a13fada",
+						"name": "Rite of Flame",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+						"name": "Shatterskull Smashing ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					}
+				],
+				"count": 2,
 				"type": "Sorceries"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
 						"name": "Arid Mesa",
 						"types": [
 							"Land"
@@ -552,7 +580,7 @@
 					},
 					{
 						"count": "1",
-						"id": "eb139e09-4e88-498a-908e-d16b5ddf1320",
+						"id": "24bf3126-d962-40da-a2bb-84faf7cae05a",
 						"name": "Battlefield Forge",
 						"types": [
 							"Land"
@@ -600,7 +628,7 @@
 					},
 					{
 						"count": "1",
-						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
 						"name": "Command Tower",
 						"types": [
 							"Land"
@@ -640,6 +668,15 @@
 					},
 					{
 						"count": "1",
+						"id": "05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c",
+						"name": "Legion's Landing ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
 						"id": "4cb8d03e-e1d2-451e-97a8-141082f92501",
 						"name": "Mana Confluence",
 						"types": [
@@ -648,8 +685,16 @@
 					},
 					{
 						"count": "1",
-						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
 						"name": "Marsh Flats",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7c05c946-66c3-4785-90f9-ca0c606e036b",
+						"name": "Mishra's Factory",
 						"types": [
 							"Land"
 						]
@@ -672,7 +717,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
 						"name": "Prismatic Vista",
 						"types": [
 							"Land"
@@ -688,7 +733,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b7b598d0-535d-477d-a33d-d6a10ff5439a",
+						"id": "52e55b85-92c1-4b83-9a9d-4afb8e938e4f",
 						"name": "Sacred Foundry",
 						"types": [
 							"Land"
@@ -696,15 +741,33 @@
 					},
 					{
 						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
 						"name": "Scalding Tarn",
 						"types": [
 							"Land"
 						]
 					},
 					{
-						"count": "6",
-						"id": "685a9d6d-497b-44a1-963f-501d61ea7f66",
+						"count": "1",
+						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+						"name": "Shatterskull Smashing ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "014027c4-7f9d-4096-b308-ea4be574c0d4",
+						"name": "Skyclave Cleric ",
+						"types": [
+							"Creature",
+							"Land"
+						]
+					},
+					{
+						"count": "2",
+						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
 						"name": "Snow-Covered Mountain",
 						"types": [
 							"Land"
@@ -712,9 +775,18 @@
 					},
 					{
 						"count": "10",
-						"id": "3066cc8b-7a5a-4822-a202-dd560a4fda85",
+						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
 						"name": "Snow-Covered Plains",
 						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
+						"name": "Spikefield Hazard ",
+						"types": [
+							"Instant",
 							"Land"
 						]
 					},
@@ -743,7 +815,7 @@
 						]
 					}
 				],
-				"count": 39,
+				"count": 40,
 				"type": "Lands"
 			}
 		],
