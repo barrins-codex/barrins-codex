@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.4 (unreleased)
+3.6.4 (2021-07-28)
 ------------------
 
 - Ajout d'une liste de Arcades
