@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.5 (unreleased)
+3.6.5 (2021-07-28)
 ------------------
 
 - Mise à jour de la liste de Adeliz
