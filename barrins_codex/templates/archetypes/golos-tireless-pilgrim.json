@@ -1,7 +1,7 @@
 {
 	"name": "Golos, Tireless Pilgrim",
-	"player": "Adrien Demoget",
-	"date": "15/01/2021",
+	"player": "Adrien \"Soullessoni\" Demoget",
+	"date": "10/07/2021",
 	"command": {
 		"cards": [
 			{
@@ -63,7 +63,15 @@
 					},
 					{
 						"count": "1",
-						"id": "6d5537da-112e-4679-a113-b5d7ce32a66b",
+						"id": "4e4fb50c-a81f-44d3-93c5-fa9a0b37f617",
+						"name": "Omnath, Locus of Creation",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "53760940-50e4-45d4-8297-353c9fc896e9",
 						"name": "Primeval Titan",
 						"types": [
 							"Creature"
@@ -76,17 +84,42 @@
 						"types": [
 							"Creature"
 						]
+					},
+					{
+						"count": "1",
+						"id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
+						"name": "Walking Ballista",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
 					}
 				],
-				"count": 7,
+				"count": 9,
 				"type": "Creatures"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
+						"id": "0013a9c4-77a1-418d-85c2-bd68b65cd3d4",
+						"name": "Dakkon, Shadow Slayer",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
 						"id": "3462a3d0-5552-49fa-9eb7-100960c55891",
 						"name": "Oko, Thief of Crowns",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6e2b2e55-21a3-4f71-a14b-d3d1b137d18c",
+						"name": "Teferi, Time Raveler",
 						"types": [
 							"Planeswalker"
 						]
@@ -108,14 +141,14 @@
 						]
 					}
 				],
-				"count": 3,
+				"count": 5,
 				"type": "Planeswalkers"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc",
+						"id": "552be01e-cd54-46ba-b38a-96883a48d985",
 						"name": "Arcane Signet",
 						"types": [
 							"Artifact"
@@ -206,16 +239,24 @@
 						"types": [
 							"Enchantment"
 						]
+					},
+					{
+						"count": "1",
+						"id": "18cb7bf6-9c7c-4e62-a678-7b75862e2f64",
+						"name": "Valakut Exploration",
+						"types": [
+							"Enchantment"
+						]
 					}
 				],
-				"count": 6,
+				"count": 7,
 				"type": "Enchantments"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "02517f12-cd8a-4d62-89cb-523b9b9295d5",
+						"id": "57010ba9-52be-484d-9976-7576c4ce48d0",
 						"name": "Abrupt Decay",
 						"types": [
 							"Instant"
@@ -239,7 +280,7 @@
 					},
 					{
 						"count": "1",
-						"id": "5bcb4398-edd1-41a7-a496-b12bce22ceb6",
+						"id": "d25ae489-1600-4eca-afd2-6274d525046a",
 						"name": "Defile",
 						"types": [
 							"Instant"
@@ -273,14 +314,6 @@
 						"count": "1",
 						"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
 						"name": "Gifts Ungiven",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8185ecd0-2fdf-4d8b-a396-d5db593985b9",
-						"name": "Go for the Throat",
 						"types": [
 							"Instant"
 						]
@@ -327,7 +360,7 @@
 					},
 					{
 						"count": "1",
-						"id": "be2b4177-e47c-4dde-9ead-31b7602065ec",
+						"id": "be45567a-ca1d-4e3a-a630-ddf4fbd97bc6",
 						"name": "Swords to Plowshares",
 						"types": [
 							"Instant"
@@ -342,22 +375,14 @@
 						]
 					}
 				],
-				"count": 16,
+				"count": 15,
 				"type": "Instants"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "59dcf43b-a65f-43e4-a683-437021565f6a",
-						"name": "Collective Brutality",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "7fc1d7db-11a3-4ff9-8d27-1fe401053080",
+						"id": "941b65da-b9b3-4e15-bab5-bcbfd20dbe05",
 						"name": "Damnation",
 						"types": [
 							"Sorcery"
@@ -383,22 +408,6 @@
 						"count": "1",
 						"id": "49c07ea0-27ff-46fb-a41f-3e378c977b5d",
 						"name": "Duress",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "f3405ac8-a8e3-4c65-807e-6bfcfa162852",
-						"name": "Explore",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "75e4e808-1511-40ca-984b-f95fb8f5daf0",
-						"name": "Farseek",
 						"types": [
 							"Sorcery"
 						]
@@ -437,7 +446,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b1ce11c3-61bc-4391-b316-945661cfeaa9",
+						"id": "a2a64307-b0ab-4f28-ad37-47d8b4c8b882",
 						"name": "Nature's Lore",
 						"types": [
 							"Sorcery"
@@ -453,7 +462,7 @@
 					},
 					{
 						"count": "1",
-						"id": "a12222b9-dacc-4cd8-b6a5-2b4b260d53ea",
+						"id": "1f882c71-dd90-4eac-9756-0bf487cba625",
 						"name": "Sylvan Scrying",
 						"types": [
 							"Sorcery"
@@ -461,7 +470,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b281a308-ab6b-47b6-bec7-632c9aaecede",
+						"id": "e6e76c6b-9d60-4bc8-b88d-6c9c7fade9a6",
 						"name": "Thoughtseize",
 						"types": [
 							"Sorcery"
@@ -477,29 +486,21 @@
 					},
 					{
 						"count": "1",
-						"id": "bbc69a17-db08-4b4a-bc37-98a12ea108dc",
-						"name": "Traverse the Ulvenwald",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1658f12b-8ac5-4d29-86d5-f20c4d5f7e48",
+						"id": "683c4e13-525c-45c9-8832-bfe67965c34e",
 						"name": "Vindicate",
 						"types": [
 							"Sorcery"
 						]
 					}
 				],
-				"count": 18,
+				"count": 14,
 				"type": "Sorceries"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
 						"name": "Arid Mesa",
 						"types": [
 							"Land"
@@ -523,7 +524,7 @@
 					},
 					{
 						"count": "1",
-						"id": "5faba6c8-3463-47c1-ba01-09eb87fcb2d5",
+						"id": "1716b4dd-9045-462b-b053-72de450a8cde",
 						"name": "Blood Crypt",
 						"types": [
 							"Land"
@@ -539,7 +540,7 @@
 					},
 					{
 						"count": "1",
-						"id": "01769b12-4841-4a1a-a089-e061442203ed",
+						"id": "6e1d1e83-c34a-46af-8aec-ff698446099f",
 						"name": "Bojuka Bog",
 						"types": [
 							"Land"
@@ -547,7 +548,7 @@
 					},
 					{
 						"count": "1",
-						"id": "17f91d5f-b717-4ff4-a598-6d57c22dd802",
+						"id": "e1efb0d3-2c72-46ff-bdc1-1069967365a0",
 						"name": "Cabal Coffers",
 						"types": [
 							"Land"
@@ -563,7 +564,7 @@
 					},
 					{
 						"count": "1",
-						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
 						"name": "Command Tower",
 						"types": [
 							"Land"
@@ -603,7 +604,7 @@
 					},
 					{
 						"count": "1",
-						"id": "ced4c824-2dfc-42ae-84e6-09f8e3f51b5b",
+						"id": "e2c39866-98c2-4c60-98e1-eaf8e40b2d29",
 						"name": "Godless Shrine",
 						"types": [
 							"Land"
@@ -627,7 +628,7 @@
 					},
 					{
 						"count": "1",
-						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
 						"name": "Marsh Flats",
 						"types": [
 							"Land"
@@ -635,7 +636,7 @@
 					},
 					{
 						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
 						"name": "Misty Rainforest",
 						"types": [
 							"Land"
@@ -643,7 +644,7 @@
 					},
 					{
 						"count": "1",
-						"id": "5538f54e-81dc-4396-9d47-3087df16b630",
+						"id": "7eadf4ea-1fd8-4f35-baf6-c9e7ce706795",
 						"name": "Myriad Landscape",
 						"types": [
 							"Land"
@@ -651,7 +652,7 @@
 					},
 					{
 						"count": "1",
-						"id": "eff1f52c-5c43-4260-aaa0-6920846a191c",
+						"id": "4fc75949-0bd1-4cd9-9e66-6624dcd41872",
 						"name": "Overgrown Tomb",
 						"types": [
 							"Land"
@@ -667,7 +668,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
 						"name": "Prismatic Vista",
 						"types": [
 							"Land"
@@ -683,7 +684,7 @@
 					},
 					{
 						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
 						"name": "Scalding Tarn",
 						"types": [
 							"Land"
@@ -747,7 +748,7 @@
 					},
 					{
 						"count": "1",
-						"id": "02e17705-739e-409f-a6fd-7bab22120b22",
+						"id": "9e1a9e38-6ffc-490f-b0be-23ba4e8204c6",
 						"name": "Urborg, Tomb of Yawgmoth",
 						"types": [
 							"Land"
@@ -763,7 +764,7 @@
 					},
 					{
 						"count": "1",
-						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
 						"name": "Verdant Catacombs",
 						"types": [
 							"Land"
@@ -771,7 +772,7 @@
 					},
 					{
 						"count": "1",
-						"id": "82fc9498-7397-4857-87fe-7c9010944ed8",
+						"id": "0726f70a-c1c4-4edb-86fb-9be280d9ea73",
 						"name": "Vesuva",
 						"types": [
 							"Land"
@@ -779,7 +780,7 @@
 					},
 					{
 						"count": "1",
-						"id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
+						"id": "67ef01b3-93f7-41e8-834d-9f6768e3b16c",
 						"name": "Watery Grave",
 						"types": [
 							"Land"
