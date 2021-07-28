@@ -1,0 +1,104 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_card_column.html" as layout with context %}
+{% import "archetypes/minsc-beloved-ranger.json" as deck_json %}
+
+{% block title %}
+Minsc, Beloved Ranger
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Minsc, Beloved Ranger</h1>
+{% endblock %}
+
+{% block archetype %}
+{% trans trimmed
+	card_boonweaver=layout.card_column("Boonweaver Giant"),
+	card_druid=layout.card_column("Devoted Druid"),
+	card_felidar=layout.card_column("Felidar Guardian"),
+	card_finks=layout.card_column("Kitchen Finks"),
+	card_karmic=layout.card_column("Karmic Guide"),
+	card_kiki=layout.card_column("Kiki-Jiki, Mirror Breaker"),
+	card_minsc=layout.card_column("Minsc, Beloved Ranger"),
+	card_pattern=layout.card_column("Pattern of Rebirth"),
+	card_pod=layout.card_column("Birthing Pod"),
+	card_reveillark=layout.card_column("Reveillark"),
+	card_vizier=layout.card_column("Vizier of Remedies")
+%}
+<h2>Présentation rapide</h2>
+<p>
+	{{ minsc_beloved_ranger }} est un deck basé sur les créatures et sur les combos que ces
+	créatures créent entre elles. Le deck peut tout aussi bien prendre le rôle de l'agresseur que
+	le rôle du combo selon les situations. L'idéal étant de privilégier l'agression à la mise en
+	place de combos tant que les cartes ne sont pas réunies. Il ne faut pas hésiter à initier des
+	combos lorsque la situation s'y prête.
+</p>
+
+<h2>Liste des combos</h2>
+<p>
+	La capacité de {{ minsc_beloved_ranger }} lui permet de prendre le rôle du moteur de sacrifice
+	dans certaines boucles en transformant ses créatures en 0/0 de base, ce qui les tue assez
+	souvent.
+</p>
+<p>
+	L'idée ici est de présenter les combo principales, les variations sont à découvrir en jouant
+	pour ne pas perdre l'intérêt de découvrir des combos soi-même.
+</p>
+
+<h3>Produire une quantité arbitrairement grande de mana</h3>
+<p>
+	{{ card_vizier }}
+	{{ card_druid }}
+</p>
+<p>
+	<i>
+		Il suffit alors d'utiliser la capacité de {{ minsc_beloved_ranger }} sur Boo pour
+		infliger suffisamment de dégâts.
+	</i>
+</p>
+
+<h3>Gagner une quantité arbitrairement grande de points de vie</h3>
+<p>
+	{{ card_minsc }}
+	{{ card_vizier }}
+	{{ card_finks }}
+</p>
+
+<h3>Mettre toutes ses créatures en jeu</h3>
+<p>
+	{{ card_boonweaver }}
+	{{ card_pattern }}
+	{{ card_minsc }}
+	{{ card_karmic }}
+	{{ card_felidar }}
+	{{ card_reveillark }}
+</p>
+<p>
+	<i>
+		{{ mogg_fanatic }} est un moyen de tuer son adversaire en le mettant dans la boucle à la
+		place du géant.
+	</i>
+</p>
+
+<h3>Créer une quantité arbitrairement grande de jetons de créatures</h3>
+<p>
+	{{ card_minsc }}
+	{{ card_pod }}
+	{{ card_felidar }}
+	{{ card_karmic }}
+	{{ card_kiki }}
+</p>
+
+<div class="tip">
+	<h3>Mot de la fin</h3>
+	<p>
+		La liste et les combo présentés ici peuvent ne pas être la version finale du deck. En
+		effet, la liste a été postée moins d'une semaine après la sortie officielle de l'extension
+		<strong>Adventures in the Forgotten Realms</strong>.
+	</p>
+</div>
+{% endtrans %}
+{% endblock %}

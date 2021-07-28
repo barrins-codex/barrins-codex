@@ -1,0 +1,859 @@
+{
+	"name": "Minsc, Beloved Ranger",
+	"player": "Martin Cuchet",
+	"date": "28/07/2021",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "72405607-a60e-42af-b523-64008d3f89b9",
+				"name": "Minsc, Beloved Ranger",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "4367bc78-0912-4abd-8edd-bc792558d01a",
+						"name": "Academy Rector",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "030cc5a5-efa2-446f-9adc-e5a16193bfe3",
+						"name": "Avacyn's Pilgrim",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fdfeeb64-0f86-45e9-97e3-dcec72683164",
+						"name": "Birds of Paradise",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "35dbe45e-16df-4ebb-a76a-df24124de23b",
+						"name": "Bloom Tender",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+						"name": "Bonecrusher Giant ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "85003365-7c5f-4283-995d-e466deef444b",
+						"name": "Boonweaver Giant",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07",
+						"name": "Devoted Druid",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "98b0a4a8-9319-451b-9b79-b0bca7a41e91",
+						"name": "Drannith Magistrate",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e1915d93-c7dd-4bb7-bd5c-63a359a02b97",
+						"name": "Duskwatch Recruiter ",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d50fa57-db11-419e-b73b-666a6b25f7de",
+						"name": "Elvish Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "eb0e0404-4846-4891-acfa-bd0951ecf9c6",
+						"name": "Endurance",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "584dfb52-4a6c-4a33-9ae1-12227b938f9a",
+						"name": "Eternal Witness",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bddcec63-a60a-4d73-af6d-9ac978703811",
+						"name": "Fauna Shaman",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b8adc1ba-969c-4597-ba96-7469669bf0bb",
+						"name": "Felidar Guardian",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "450744cf-7eba-491b-97b0-ca80c6368bbb",
+						"name": "Fyndhorn Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f2bdcfec-d412-442c-91c8-53022c8e316d",
+						"name": "Giver of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "05bd329b-5707-42fc-af1c-084cc604e805",
+						"name": "Imperial Recruiter",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c48e3d51-1c63-4b39-97df-92c260311dad",
+						"name": "Karmic Guide",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8a30fe7c-3c6b-4d05-adb7-9f87df29cd3b",
+						"name": "Kiki-Jiki, Mirror Breaker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a844d537-df73-422d-a154-f1c6b92d0469",
+						"name": "Kitchen Finks",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c9cd7448-6f8b-4ce4-bde5-2c17271dcef7",
+						"name": "Knight of Autumn",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "57ebd34e-dfe1-4093-a302-db395047a546",
+						"name": "Llanowar Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bb65df55-d6a6-4a57-a903-e5eb17637982",
+						"name": "Luminous Broodmoth",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2b48497-b104-454c-8b5b-596393470f2d",
+						"name": "Mogg Fanatic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8bdb0349-a759-473e-a192-7ca85ef8e515",
+						"name": "Mother of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ed869151-02e9-4daa-994d-ccdf9f9dc3c8",
+						"name": "Palace Jailer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e41cf82d-3213-47ce-a015-6e51a8b07e4f",
+						"name": "Questing Beast",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a9738cda-adb1-47fb-9f4c-ecd930228c4d",
+						"name": "Ragavan, Nimble Pilferer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3cb635bb-def8-43f9-aad1-dd298dcc730b",
+						"name": "Recruiter of the Guard",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "90bad312-80e3-45b0-9556-60ce06808a47",
+						"name": "Renegade Rallier",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7db7e70c-ce79-4a52-b97b-f1bd46e0768c",
+						"name": "Reveillark",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4176dda4-ec5c-4734-bb48-0876304aa219",
+						"name": "Saffi Eriksdotter",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "487116ab-b885-406b-aa54-56cb67eb3ca5",
+						"name": "Scavenging Ooze",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b83cfbaa-7890-4f6f-878b-4edb45677371",
+						"name": "Skyclave Apparition",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "47a6234f-309f-4e03-9263-66da48b57153",
+						"name": "Solitude",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d3473d0-b46f-41f5-ac1e-ba217f7747d4",
+						"name": "Stoneforge Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "60d695b3-b02b-42c6-bf1b-9d97a8d82eae",
+						"name": "Sylvan Safekeeper",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "36ab760e-93e0-4dbc-aaa1-02316f62ed3f",
+						"name": "Vizier of Remedies",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "99d1e843-71c9-4a65-bc36-d23858ef5ead",
+						"name": "Voice of Resurgence",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 39,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "4cd69ed9-4c33-4bb5-89a3-fd042d1daa1f",
+						"name": "Domri, Anarch of Bolas",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "b768efa2-e56b-4a7e-ace8-d673f10e0714",
+						"name": "Birthing Pod",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8854e9a7-a799-47d0-8662-95aa527d3210",
+						"name": "Skullclamp",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3b6e5956-f795-451b-bb24-56462d1ced27",
+						"name": "Umezawa's Jitte",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "e262f55e-9239-4a97-a19e-9b08fb34502e",
+						"name": "Goblin Bombardment",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cef789e8-e4cc-4f61-bc15-debc2487777f",
+						"name": "Parallax Wave",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c0e34219-9fd9-4f11-a244-670fb75ef938",
+						"name": "Pattern of Rebirth",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c060c178-3c0e-493f-b6f0-ead5b1d6f191",
+						"name": "Survival of the Fittest",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61efbd57-7e56-4087-beba-18d8445db7dd",
+						"name": "Wild Growth",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 5,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ea751fe2-b64a-4265-8885-a9016b29b5b3",
+						"name": "Eladamri's Call",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0c9ebec9-3474-4062-9607-2e2a72f78299",
+						"name": "Enlightened Tutor",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c972abe6-c732-4745-bde4-8b51698f05be",
+						"name": "Flawless Maneuver",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+						"name": "Lightning Bolt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "be45567a-ca1d-4e3a-a630-ddf4fbd97bc6",
+						"name": "Swords to Plowshares",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b34d9054-5ad8-4a7d-a5c8-58bc39051834",
+						"name": "Worldly Tutor",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 6,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
+						"name": "Chain Lightning",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d0c46e0f-524d-47c8-a628-5540c86b93cf",
+						"name": "Eldritch Evolution",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "985453e7-997e-4d77-a338-cc0290791ebe",
+						"name": "Finale of Devastation",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "15affc1b-2ebb-4934-87a2-10e89eafe894",
+						"name": "Flame Slash",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "01794178-cf41-454c-ac37-1d8b18e42db2",
+						"name": "Green Sun's Zenith",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "825969b9-3c70-4fca-8cab-696e9ca7cdb2",
+						"name": "Prismatic Ending",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 6,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "24bf3126-d962-40da-a2bb-84faf7cae05a",
+						"name": "Battlefield Forge",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "70afcfca-c065-4a33-95b1-ec2b08bcb493",
+						"name": "Brushland",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2d120ddb-73e7-4dbc-b48c-4a6c74f331c3",
+						"name": "City of Brass",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "28f1d784-f286-418d-a712-bc07ad10d4a2",
+						"name": "Copperline Gorge",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bb3a843b-2dea-4b44-be74-c09c18b9b969",
+						"name": "Dryad Arbor",
+						"types": [
+							"Land",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1927d645-ca43-4b8e-9932-7e70acca7aa6",
+						"name": "Fire-Lit Thicket",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b6a46b11-3225-45aa-b54e-4d19d81b51cf",
+						"name": "Forest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "de4b75ad-7539-4184-a940-6014a0327b3a",
+						"name": "Grove of the Burnwillows",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "93f7c880-9bae-4d29-b7b6-b6be6b2ffa89",
+						"name": "Horizon Canopy",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6f1406d4-0568-40eb-8002-f882105cd11b",
+						"name": "Karplusan Forest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cb8d03e-e1d2-451e-97a8-141082f92501",
+						"name": "Mana Confluence",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
+						"name": "Marsh Flats",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "edabc558-2c54-4c7b-a6fa-1e75ddcf12f9",
+						"name": "Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4ae7a4a1-0da6-44a9-b7e8-a28733580d0c",
+						"name": "Path of Ancestry",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "879f7f54-25a3-440b-848d-0e780277a681",
+						"name": "Plains",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2ff721e2-b12a-4cd1-b846-fccd61c6b69b",
+						"name": "Plateau",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "345e053a-3178-485c-8602-1624bbf2f064",
+						"name": "Razorverge Thicket",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b6f59e19-9ac1-4f86-893e-5b3364122fc6",
+						"name": "Rootbound Crag",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "225cd301-7d04-480d-94ed-52537d944c6f",
+						"name": "Rugged Prairie",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "52e55b85-92c1-4b83-9a9d-4afb8e938e4f",
+						"name": "Sacred Foundry",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a6714aba-7576-41b8-9f6b-5303f5b69689",
+						"name": "Savannah",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "22f40dfc-a35d-4094-9805-0de8b7f61cb0",
+						"name": "Stirring Wildwood",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4acf970d-d2d7-413d-aba7-587ee53d8d5c",
+						"name": "Stomping Ground",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c36820fa-ee86-4206-9a0d-737a67cf5208",
+						"name": "Sunbaked Canyon",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0f234312-00e8-49f7-a489-f4c316b0a81a",
+						"name": "Sunpetal Grove",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "79cc2242-6064-4c90-a46b-0e59144bc04a",
+						"name": "Taiga",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "34a3039d-46cd-4a51-b726-6eb0b485c9c5",
+						"name": "Temple Garden",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
+						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+						"name": "Windswept Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "36b591ec-0231-4b91-a132-eb3aedfdf8fa",
+						"name": "Wooded Bastion",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "47dd5c4b-5972-43e1-ae2a-ebf275006458",
+						"name": "Yavimaya Hollow",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 39,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}

@@ -1,13 +1,13 @@
 {
 	"name": "The Omenkeel",
-	"player": "Alexander Loskoutoff",
-	"date": "14/04/2021",
+	"player": "Martin Cuchet",
+	"date": "28/07/2021",
 	"command": {
 		"cards": [
 			{
 				"count": "1",
 				"id": "fab2fca4-a99f-4ffe-9c02-edb6e0be2358",
-				"name": "The Omenkeel",
+				"name": "Cosima, God of the Voyage ",
 				"types": [
 					"Creature",
 					"Artifact"
@@ -48,6 +48,14 @@
 						"count": "1",
 						"id": "89cef049-6a47-4264-b2bc-b9d291a09c4c",
 						"name": "Avalanche Caller",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a103a725-4750-4d9e-8792-6fbbb81bba0e",
+						"name": "Baral, Chief of Compliance",
 						"types": [
 							"Creature"
 						]
@@ -95,7 +103,7 @@
 					},
 					{
 						"count": "1",
-						"id": "d1fcfeb4-1818-4e08-be4c-27b8a9dc12e6",
+						"id": "3989e920-05df-4b30-9ec3-e6ecaa436fce",
 						"name": "Faerie Seer",
 						"types": [
 							"Creature"
@@ -176,22 +184,6 @@
 					},
 					{
 						"count": "1",
-						"id": "112077b8-1514-4320-a70f-b23f3c7ce18a",
-						"name": "Merfolk Windrobber",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "65c8f074-e260-4f8e-85d1-1904ca928b51",
-						"name": "Mist-Syndicate Naga",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "d10f8a05-78b0-42a7-adcd-83f6bafe5417",
 						"name": "Old Man of the Sea",
 						"types": [
@@ -203,6 +195,15 @@
 						"id": "280f2a85-1900-460b-a768-164fc2dea636",
 						"name": "Pteramander",
 						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a671ec19-32f4-4fde-8ee0-1224471e79db",
+						"name": "Silver Raven",
+						"types": [
+							"Artifact",
 							"Creature"
 						]
 					},
@@ -232,14 +233,6 @@
 					},
 					{
 						"count": "1",
-						"id": "3899605d-2203-4ab6-9ff5-69490382eea4",
-						"name": "Spellstutter Sprite",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
 						"id": "b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe",
 						"name": "Stonecoil Serpent",
 						"types": [
@@ -249,15 +242,23 @@
 					},
 					{
 						"count": "1",
-						"id": "242cdffb-5037-4d49-b194-4b60274a8758",
-						"name": "Threnody Singer",
+						"id": "701256d5-1389-48b7-9581-d6037209bd06",
+						"name": "Subtlety",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "2da0b45b-0ca9-40c4-bc7f-791039bc1876",
+						"id": "c6f9ece1-669a-47c9-96c3-1e1dbf87421c",
+						"name": "Svyelun of Sea and Sky",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "33ad086b-9bf2-4086-b820-a4ff7854a674",
 						"name": "True-Name Nemesis",
 						"types": [
 							"Creature"
@@ -265,7 +266,7 @@
 					},
 					{
 						"count": "1",
-						"id": "cd702cf1-10ca-4448-9fb1-b6de635e839c",
+						"id": "74ebe58d-0f94-47f7-b17b-0d9492b931d5",
 						"name": "Vendilion Clique",
 						"types": [
 							"Creature"
@@ -322,17 +323,9 @@
 						"types": [
 							"Artifact"
 						]
-					},
-					{
-						"count": "1",
-						"id": "ab3cec7e-513e-400d-a1a8-2c71cdde02c6",
-						"name": "Winter Orb",
-						"types": [
-							"Artifact"
-						]
 					}
 				],
-				"count": 4,
+				"count": 3,
 				"type": "Artifacts"
 			},
 			{
@@ -377,7 +370,7 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
+						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
 						"name": "Counterspell",
 						"types": [
 							"Instant"
@@ -393,7 +386,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e821d337-4bc5-4401-ac9b-34adf4012b73",
+						"id": "3906d538-f1ca-4799-b91c-2e0d2934f241",
 						"name": "Delay",
 						"types": [
 							"Instant"
@@ -401,7 +394,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e9be371c-c688-44ad-ab71-bd4c9f242d58",
+						"id": "b769ba9e-2ac8-48a9-9f45-23a4ccd0cb96",
 						"name": "Force of Negation",
 						"types": [
 							"Instant"
@@ -411,14 +404,6 @@
 						"count": "1",
 						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
 						"name": "Force of Will",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
-						"name": "Force Spike",
 						"types": [
 							"Instant"
 						]
@@ -449,14 +434,6 @@
 					},
 					{
 						"count": "1",
-						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
-						"name": "Miscalculation",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "befb1728-4af3-420a-a51e-7fa95d2e7a00",
 						"name": "Psionic Blast",
 						"types": [
@@ -465,7 +442,15 @@
 					},
 					{
 						"count": "1",
-						"id": "dc595c63-af05-4c05-80e8-e1a90df26b0f",
+						"id": "d77f0731-fb40-4dc2-8530-afcb5ce1f27f",
+						"name": "Reject",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "69001c08-2541-47e3-8343-2e5089a9b193",
 						"name": "Remand",
 						"types": [
 							"Instant"
@@ -497,6 +482,22 @@
 					},
 					{
 						"count": "1",
+						"id": "616d1b20-61c1-4d39-a9b5-ad9fd61699e4",
+						"name": "Stifle",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "40af215c-d3f7-42f0-85cd-77a3fcd919ba",
+						"name": "Suspend",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
 						"name": "Tale's End",
 						"types": [
@@ -520,7 +521,7 @@
 						]
 					}
 				],
-				"count": 18,
+				"count": 19,
 				"type": "Instants"
 			},
 			{
@@ -551,7 +552,7 @@
 					},
 					{
 						"count": "1",
-						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
+						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
 						"name": "Ponder",
 						"types": [
 							"Sorcery"
@@ -597,7 +598,15 @@
 					},
 					{
 						"count": "1",
-						"id": "59b6fe0c-7bbe-433f-8400-4be4ce0e3f15",
+						"id": "bfb5d83f-2b7c-4c22-ac37-938e7cd1654a",
+						"name": "Frostwalk Bastion",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7c05c946-66c3-4785-90f9-ca0c606e036b",
 						"name": "Mishra's Factory",
 						"types": [
 							"Land"
@@ -605,7 +614,7 @@
 					},
 					{
 						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
 						"name": "Misty Rainforest",
 						"types": [
 							"Land"
@@ -629,7 +638,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
 						"name": "Prismatic Vista",
 						"types": [
 							"Land"
@@ -637,14 +646,14 @@
 					},
 					{
 						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
 						"name": "Scalding Tarn",
 						"types": [
 							"Land"
 						]
 					},
 					{
-						"count": "26",
+						"count": "25",
 						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
 						"name": "Snow-Covered Island",
 						"types": [

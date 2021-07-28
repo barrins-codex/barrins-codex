@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'un primer sur Cosima/Omenkeel
+- Ajout d'un primer sur Minsc, Beloved Ranger
 - Correction de deux typos sur Magda
 
 
