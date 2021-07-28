@@ -4,7 +4,7 @@ Changelog
 3.6.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'une liste de Arcades
 
 
 3.6.3 (2021-07-28)

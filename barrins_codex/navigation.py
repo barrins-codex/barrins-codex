@@ -58,6 +58,7 @@ STRUCTURE = Nav(
 			children=[
 				Nav(lazy_gettext("Adeliz, the Cinder Wind")),
 				Nav(lazy_gettext("Aminatou, the Fateshifter")),
+				Nav(lazy_gettext("Arcades, the Strategist")),
 				Nav(lazy_gettext("Isamaru, Hound of Konda")),
 				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
 				Nav(lazy_gettext("Grenzo, Dungeon Warden")),

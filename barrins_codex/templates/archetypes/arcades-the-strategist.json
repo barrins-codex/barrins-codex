@@ -1,0 +1,859 @@
+{
+	"name": "Arcades, the Strategist",
+	"player": "Martin Cuchet",
+	"date": "18/05/2020",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "0652f9e2-ba2a-4c0a-bbfc-9b00ee5d28d4",
+				"name": "Arcades, the Strategist",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "7fe8f88e-8a51-494b-a008-fbfe624f97f7",
+						"name": "Angelic Wall",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e092bdd5-af65-44ce-8f72-519801115d82",
+						"name": "Arbor Elf",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "030cc5a5-efa2-446f-9adc-e5a16193bfe3",
+						"name": "Avacyn's Pilgrim",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "725584fe-9e97-4020-89b1-5e5b45a5beb2",
+						"name": "Axebane Guardian",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fdfeeb64-0f86-45e9-97e3-dcec72683164",
+						"name": "Birds of Paradise",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b7d7108f-635c-423b-988a-bc8fc4c6edef",
+						"name": "Crashing Drawbridge",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c1096ce5-f776-4028-b231-e6eaee35014b",
+						"name": "Drift of Phantasms",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4d50fa57-db11-419e-b73b-666a6b25f7de",
+						"name": "Elvish Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5095e2ab-a7f5-45bc-8b2f-31198ea27bba",
+						"name": "Fortified Rampart",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f2bdcfec-d412-442c-91c8-53022c8e316d",
+						"name": "Giver of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3aa2d511-6eec-42dd-9ebe-1260c8527856",
+						"name": "Jeskai Barricade",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "57ebd34e-dfe1-4093-a302-db395047a546",
+						"name": "Llanowar Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8bdb0349-a759-473e-a192-7ca85ef8e515",
+						"name": "Mother of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "400382a4-aea2-4827-b06a-1b0b3745908b",
+						"name": "Noble Hierarch",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "46f90a7e-e11c-43bd-b4a2-a0970848fe1b",
+						"name": "Orator of Ojutai",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "50974264-b509-4df9-802b-623805a4cbee",
+						"name": "Overgrown Battlement",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cc4ba296-950c-4e39-ab5e-06be07e4a190",
+						"name": "Riptide Turtle",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1730d219-a28f-4930-8088-4cfcb627f157",
+						"name": "Shield Sphere",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "868256bb-d4e2-42eb-a43a-360148aec06f",
+						"name": "Stalwart Shield-Bearers",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9621f341-bf85-4b77-bf19-2fb013b4c955",
+						"name": "Sunscape Familiar",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d40b65c1-b24d-492d-81b9-d8474ebdc08c",
+						"name": "Sylvan Caryatid",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "16185c50-f7b8-4cea-a129-dfad8e9df781",
+						"name": "Tetsuko Umezawa, Fugitive",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ba462242-82de-4173-98d2-b1b7a1f3d8b4",
+						"name": "Vine Trellis",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f836b155-8829-460b-91f8-4cd00b988196",
+						"name": "Wall of Blossoms",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0cd95bba-0c3d-4f2c-94ea-bbd3f396292c",
+						"name": "Wall of Denial",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "734e29ed-9732-4a94-909b-226bb4955930",
+						"name": "Wall of Essence",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5f159193-fcf8-437c-b14a-06718a446a5c",
+						"name": "Wall of Glare",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a76ec859-59a6-45b2-bbd8-6f89453fe3ec",
+						"name": "Wall of Mulch",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0db4b34f-2d60-4ff3-8ef7-9cedb9b71cdc",
+						"name": "Wall of Omens",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b65cb901-bfb0-454a-97ef-138021e524ff",
+						"name": "Wall of Roots",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6ac0f66a-213f-463e-8ebb-35ff5940ea06",
+						"name": "Wall of Runes",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "792e2aed-ce6e-4fa1-a31c-a4574e5cf1f5",
+						"name": "Wall of Tanglecord",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4638d815-fb86-490c-84d6-777a1c6131d6",
+						"name": "Wall of Tears",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 33,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "79d05299-27bd-4826-bbdb-f24ac9a5005b",
+						"name": "Huatli, the Sun's Heart",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8d64871b-6ee5-426b-9828-125cb9c7746d",
+						"name": "Nissa, Steward of Elements",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6e2b2e55-21a3-4f71-a14b-d3d1b137d18c",
+						"name": "Teferi, Time Raveler",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "cf825a56-4870-463a-a2ef-eec86be891db",
+						"name": "Ensnaring Bridge",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab3cec7e-513e-400d-a1a8-2c71cdde02c6",
+						"name": "Winter Orb",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "6bf261c8-98e4-491e-9e51-a9058ff2c03a",
+						"name": "Assault Formation",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce124f6e-ef0c-4d01-a876-e34d3e445108",
+						"name": "High Alert",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d824f8bd-58f8-4796-80b5-5cd3033d35e8",
+						"name": "The Birth of Meletis",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
+						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "58ebdee7-90b2-4b74-bb52-614b4042ceb7",
+						"name": "Daze",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2392b542-5ae6-4d0e-808c-734f1d06afa4",
+						"name": "Dovin's Veto",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ea751fe2-b64a-4265-8885-a9016b29b5b3",
+						"name": "Eladamri's Call",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b769ba9e-2ac8-48a9-9f45-23a4ccd0cb96",
+						"name": "Force of Negation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+						"name": "Force of Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
+						"name": "Force Spike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c5e72882-dbf8-42d2-9a98-31f2f71e2ed9",
+						"name": "Heroic Intervention",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
+						"name": "Mana Leak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9ae707d5-d81d-4320-b947-6016dc188898",
+						"name": "Mana Tithe",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+						"name": "Mental Misstep",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cc785b0-0a77-4b02-b0b4-2bda2fc621cc",
+						"name": "Muddle the Mixture",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e92c7477-d453-4fa4-acf4-3835ab9eb55a",
+						"name": "Negate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "69001c08-2541-47e3-8343-2e5089a9b193",
+						"name": "Remand",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3384ee4e-738f-4442-bccd-4f96022b7219",
+						"name": "Simic Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4f8b11a-6b21-4532-96c9-bdb2cad603e8",
+						"name": "Spell Pierce",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
+						"name": "Spell Snare",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "be45567a-ca1d-4e3a-a630-ddf4fbd97bc6",
+						"name": "Swords to Plowshares",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
+						"name": "Tale's End",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "195e94a4-a698-4c66-9428-5cc8a40d42c6",
+						"name": "Tower Defense",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2dc0bafd-debc-4b62-9fe0-56b4aad02484",
+						"name": "Unsubstantiate",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 21,
+				"type": "Instants"
+			},
+			{
+				"cards": [],
+				"count": 0,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "f31cf014-7ac9-428b-9ce9-8ba5ebfdd252",
+						"name": "Adarkar Wastes",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b6de14ae-0132-4261-af00-630bf15918cd",
+						"name": "Barkchannel Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8744471b-a528-47d9-84d0-4526273f55e9",
+						"name": "Botanical Sanctum",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0511e232-2a72-40f5-a400-4f7ebc442d17",
+						"name": "Branchloft Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "19477aca-b8db-4061-9a78-ebb189a9df22",
+						"name": "Breeding Pool",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "70afcfca-c065-4a33-95b1-ec2b08bcb493",
+						"name": "Brushland",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d313d051-7295-4884-8cbf-f2f835fd45f4",
+						"name": "Fabled Passage",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b6a46b11-3225-45aa-b54e-4d19d81b51cf",
+						"name": "Forest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cef133d9-26d2-4a1e-8d6a-829f1067c169",
+						"name": "Glacial Fortress",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f321aa38-7aaf-48fd-b516-18e702fbddef",
+						"name": "Hallowed Fountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7ef37cb3-d803-47d7-8a01-9c803aa2eadc",
+						"name": "Hengegate Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d631d040-51e9-4540-91e7-aeb5ade84090",
+						"name": "Hinterland Harbor",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9e70c602-cb80-472b-9c8d-9625de084fe7",
+						"name": "Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
+						"name": "Marsh Flats",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "879f7f54-25a3-440b-848d-0e780277a681",
+						"name": "Plains",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "345e053a-3178-485c-8602-1624bbf2f064",
+						"name": "Razorverge Thicket",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a6714aba-7576-41b8-9f6b-5303f5b69689",
+						"name": "Savannah",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "99939b90-e88c-4c2f-ba78-56d455611703",
+						"name": "Seachrome Coast",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ca17acea-f079-4e53-8176-a2f5c5c408a1",
+						"name": "Snow-Covered Forest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
+						"name": "Snow-Covered Plains",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0f234312-00e8-49f7-a489-f4c316b0a81a",
+						"name": "Sunpetal Grove",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "34a3039d-46cd-4a51-b726-6eb0b485c9c5",
+						"name": "Temple Garden",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fd105eda-aff6-4b01-a892-e9502346caee",
+						"name": "Tropical Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "49fdfb01-560a-4996-afc2-879c8d10e042",
+						"name": "Tundra",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
+						"name": "Verdant Catacombs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0ab6bfbd-d2e1-4c4c-9f91-6f69c5b8e3bb",
+						"name": "Waterlogged Grove",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+						"name": "Windswept Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a661606e-675a-4fd9-963b-cd7bd3f96438",
+						"name": "Yavimaya Coast",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 37,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}
