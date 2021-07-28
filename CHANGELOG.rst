@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'une liste de Arcades
+- Ajout d'une liste de Galazeth
 
 
 3.6.3 (2021-07-28)

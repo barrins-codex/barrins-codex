@@ -1,0 +1,19 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/galazeth-prismari.json" as deck_json %}
+
+{% block title %}
+Galazeth Prismari
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Galazeth Prismari</h1>
+{{ layout.wip() }}
+{% endblock %}
+
+{% block archetype %}
+{% endblock %}

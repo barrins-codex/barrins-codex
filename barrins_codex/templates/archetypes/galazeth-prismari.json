@@ -1,0 +1,791 @@
+{
+	"name": "Galazeth Prismari",
+	"player": "Martin Cuchet",
+	"date": "15/04/2021",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "06c9158c-064b-4d12-b860-d2c1450d1897",
+				"name": "Galazeth Prismari",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
+						"name": "Snapcaster Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "74b4c336-5d4c-4bc5-b82a-35084a6ad808",
+						"name": "Spellseeker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b05fa81a-a0f5-4cb1-b4c7-f4016ab65c4c",
+						"name": "Tribute Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86d744cd-225c-4279-898a-858dc316cf7f",
+						"name": "Urza, Lord High Artificer",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 4,
+				"type": "Creatures"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "c8817585-0d32-4d56-9142-0d29512e86a9",
+						"name": "Jace, the Mind Sculptor",
+						"types": [
+							"Planeswalker"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf339735-eb1a-46f0-8c3e-eae06f278eca",
+						"name": "Tezzeret the Seeker",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 2,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "a54e8ce9-edd7-4ae7-9521-6fb6727cf63b",
+						"name": "Aether Spellbomb",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2462fdf-a594-47d0-8e10-b55901e350d9",
+						"name": "Arcum's Astrolabe",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf825a56-4870-463a-a2ef-eec86be891db",
+						"name": "Ensnaring Bridge",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f0ac295e-93e4-490b-b8a3-a9794c7f56e4",
+						"name": "Great Furnace",
+						"types": [
+							"Artifact",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1e5d9c01-f8db-43ef-bb50-f9e38e99f8d0",
+						"name": "Lightning Greaves",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "153983dd-54dc-420d-9249-665b0d669614",
+						"name": "Lotus Petal",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8bed742a-a12a-4728-a771-07e3d1417419",
+						"name": "Pacification Array",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2a2862c5-afa8-4e38-a312-483300f8b194",
+						"name": "Pentad Prism",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e503b59c-df3e-4f52-9a59-195f02a6cb18",
+						"name": "Pithing Needle",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "088c801d-381f-403b-aeb7-fbbfafee99bf",
+						"name": "Pyrite Spellbomb",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "afdbb860-2bea-4cf6-8959-6a19ba1de56c",
+						"name": "Sapphire Medallion",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1fedc183-2d95-471c-ba78-2169e4df13f8",
+						"name": "Seat of the Synod",
+						"types": [
+							"Artifact",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fa420ea4-93ef-44e5-ad13-c186a4451624",
+						"name": "Sorcerous Spyglass",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "86bf43b1-8d4e-4759-bb2d-0b2e03ba7012",
+						"name": "Static Orb",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e3257833-b237-49ef-856a-3c1d1c752cf8",
+						"name": "Vedalken Shackles",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ab3cec7e-513e-400d-a1a8-2c71cdde02c6",
+						"name": "Winter Orb",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 16,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "d072e9ca-aae7-45dc-8025-3ce590bae63f",
+						"name": "Blood Moon",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "639cb483-ffe2-4abc-a050-5cdc8aebd5a2",
+						"name": "Future Sight",
+						"types": [
+							"Enchantment"
+						]
+					},
+					{
+						"count": "1",
+						"id": "613694aa-b169-400d-8063-2b83d8303611",
+						"name": "Treachery",
+						"types": [
+							"Enchantment"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "8a2ab58d-a632-4162-82b2-664e9ac4b319",
+						"name": "Archmage's Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "48070245-1370-4cf1-be15-d4e8a8b92ba8",
+						"name": "Brainstorm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
+						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "30f6fca9-003b-4f6b-9d6e-1e88adda4155",
+						"name": "Cryptic Command",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff08e5ed-f47b-4d8e-8b8b-41675dccef8b",
+						"name": "Cyclonic Rift",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cdbcb537-86fb-4649-859d-c9da12327f85",
+						"name": "Engulf the Shore",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bbf5e27b-b1ab-470c-8204-146032e26b5b",
+						"name": "Evacuation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "39b41cb3-ca3d-4389-8f66-e1f77f5fb683",
+						"name": "Fact or Fiction",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b769ba9e-2ac8-48a9-9f45-23a4ccd0cb96",
+						"name": "Force of Negation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+						"name": "Force of Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
+						"name": "Force Spike",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5b87a025-ab29-4375-9338-536636051640",
+						"name": "Frantic Search",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f3463be0-df9e-4cb9-a90f-5d9d2ee729e0",
+						"name": "Into the Roil",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
+						"name": "Lightning Bolt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
+						"name": "Mana Leak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
+						"name": "Memory Lapse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+						"name": "Mental Misstep",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
+						"name": "Miscalculation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cc785b0-0a77-4b02-b0b4-2bda2fc621cc",
+						"name": "Muddle the Mixture",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "337214ad-2976-4692-89c4-2c5001bf087f",
+						"name": "Mystic Confluence",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e92c7477-d453-4fa4-acf4-3835ab9eb55a",
+						"name": "Negate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f163cfbf-6df6-4af5-9fe4-23b0d511586a",
+						"name": "Nexus of Fate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "69001c08-2541-47e3-8343-2e5089a9b193",
+						"name": "Remand",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "67954eb1-1c61-432c-9113-104909511ad4",
+						"name": "Repeal",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3b42202-548e-46f2-90a6-6f952315d157",
+						"name": "Snap",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4f8b11a-6b21-4532-96c9-bdb2cad603e8",
+						"name": "Spell Pierce",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
+						"name": "Spell Snare",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ad1bcb44-a562-4f66-b862-6d0ef3546ab4",
+						"name": "Sublime Epiphany",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
+						"name": "Tale's End",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 29,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "44e49332-b1e1-4b88-b508-516b55c67a1d",
+						"name": "Fabricate",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "15affc1b-2ebb-4934-87a2-10e89eafe894",
+						"name": "Flame Slash",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
+						"name": "Gitaxian Probe",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
+						"name": "Ponder",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+						"name": "Preordain",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+						"name": "Shatterskull Smashing ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6eab6765-eba3-4844-81ca-ae37a6e903df",
+						"name": "Transmute Artifact",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 7,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "a95b7645-154f-4904-bf71-db7eb24d4df2",
+						"name": "Academy Ruins",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
+						"name": "Arid Mesa",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
+						"name": "Bloodstained Mire",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "52e912b4-492f-415b-b0ad-d9f90c6139c6",
+						"name": "Cascade Bluffs",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0a8b9d37-e89c-44ad-bd1b-51cb06ec3e0b",
+						"name": "Castle Vantress",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5284d3ba-0542-48d7-8305-bfb2775c3674",
+						"name": "Field of Ruin",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f0ac295e-93e4-490b-b8a3-a9794c7f56e4",
+						"name": "Great Furnace",
+						"types": [
+							"Artifact",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "275471e3-ded1-40ac-91ef-369dce5764d9",
+						"name": "Inventors' Fair",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "7",
+						"id": "9e70c602-cb80-472b-9c8d-9625de084fe7",
+						"name": "Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "edabc558-2c54-4c7b-a6fa-1e75ddcf12f9",
+						"name": "Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7eadf4ea-1fd8-4f35-baf6-c9e7ce706795",
+						"name": "Myriad Landscape",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "31f83f35-c4dc-46f0-9109-9d0d0181d9c8",
+						"name": "Mystic Sanctuary",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2668ac91-6cda-4f81-a08d-4fc5f9cb35b2",
+						"name": "Riverglide Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1fedc183-2d95-471c-ba78-2169e4df13f8",
+						"name": "Seat of the Synod",
+						"types": [
+							"Artifact",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
+						"name": "Shatterskull Smashing ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8886f31a-f12b-4ffa-992c-1f3b28e72da5",
+						"name": "Shivan Reef",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "7",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
+						"name": "Snow-Covered Mountain",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4e587ea7-0632-4789-ba75-3c410da2bb96",
+						"name": "Spirebluff Canal",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d516b248-c0be-4c49-83ab-393354c33563",
+						"name": "Steam Vents",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "6bc412fc-e9d4-4283-bd4a-811384e79b5c",
+						"name": "Sulfur Falls",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f73ea932-5aba-4847-bb13-4cc0eb5dc726",
+						"name": "Volcanic Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a8503cca-7e7d-44c4-8587-81376b396398",
+						"name": "Wooded Foothills",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 41,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}
