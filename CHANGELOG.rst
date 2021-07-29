@@ -4,6 +4,7 @@ Changelog
 3.6.6 (unreleased)
 ------------------
 
+- Ajout d'une liste de Niv-Mizzet Reborn
 - Ajout d'une liste de Octavia
 - Correction du symbole pour les cartes bannies
 

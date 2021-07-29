@@ -48,7 +48,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/en/archetypes/isamaru-hound-of-konda.html</loc>
+  <loc>https://barrins-codex.org/en/archetypes/galazeth-prismari.html</loc>
   <lastmod>2021-07-28T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -58,12 +58,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/en/archetypes/galazeth-prismari.html</loc>
+  <loc>https://barrins-codex.org/en/archetypes/grenzo-dungeon-warden.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/en/archetypes/isamaru-hound-of-konda.html</loc>
   <lastmod>2021-07-28T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/en/archetypes/grenzo-dungeon-warden.html</loc>
+  <loc>https://barrins-codex.org/en/archetypes/kelsien-the-plague.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -73,7 +78,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/en/archetypes/kelsien-the-plague.html</loc>
+  <loc>https://barrins-codex.org/en/archetypes/kinan-bonder-prodigy.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -93,8 +98,18 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://barrins-codex.org/en/archetypes/niv-mizzet-reborn.html</loc>
+  <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://barrins-codex.org/en/archetypes/octavia-living-thesis.html</loc>
-  <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/en/archetypes/orvar-the-allform.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
