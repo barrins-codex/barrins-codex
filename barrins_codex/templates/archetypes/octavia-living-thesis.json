@@ -1,0 +1,697 @@
+{
+	"name": "Octavia, Living Thesis",
+	"player": "Martin Cuchet",
+	"date": "29/07/2021",
+	"command": {
+		"cards": [
+			{
+				"count": "1",
+				"id": "eb5e63cc-eb4f-40c6-b298-99cb8fe8585f",
+				"name": "Octavia, Living Thesis",
+				"types": [
+					"Creature"
+				]
+			}
+		],
+		"count": 1
+	},
+	"library": {
+		"cards": [
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "a103a725-4750-4d9e-8792-6fbbb81bba0e",
+						"name": "Baral, Chief of Compliance",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c2089ec9-0665-448f-bfe9-d181de127814",
+						"name": "Brazen Borrower ",
+						"types": [
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7e41765e-43fe-461d-baeb-ee30d13d2d93",
+						"name": "Snapcaster Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "701256d5-1389-48b7-9581-d6037209bd06",
+						"name": "Subtlety",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c6f9ece1-669a-47c9-96c3-1e1dbf87421c",
+						"name": "Svyelun of Sea and Sky",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "33ad086b-9bf2-4086-b820-a4ff7854a674",
+						"name": "True-Name Nemesis",
+						"types": [
+							"Creature"
+						]
+					}
+				],
+				"count": 6,
+				"type": "Creatures"
+			},
+			{
+				"cards": [],
+				"count": 0,
+				"type": "Planeswalkers"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "afdbb860-2bea-4cf6-8959-6a19ba1de56c",
+						"name": "Sapphire Medallion",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "08b89af1-7b22-4153-b42d-a2ea4e0f320c",
+						"name": "The Magic Mirror",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e3257833-b237-49ef-856a-3c1d1c752cf8",
+						"name": "Vedalken Shackles",
+						"types": [
+							"Artifact"
+						]
+					}
+				],
+				"count": 3,
+				"type": "Artifacts"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+						"name": "Search for Azcanta ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					}
+				],
+				"count": 1,
+				"type": "Enchantments"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "8a2ab58d-a632-4162-82b2-664e9ac4b319",
+						"name": "Archmage's Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "48070245-1370-4cf1-be15-d4e8a8b92ba8",
+						"name": "Brainstorm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cb4e315-1a77-479a-9f15-fb23575de805",
+						"name": "Censor",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
+						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "30f6fca9-003b-4f6b-9d6e-1e88adda4155",
+						"name": "Cryptic Command",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f2a0e716-22b7-4a5e-9b7a-d4a806ee7427",
+						"name": "Curate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cdbcb537-86fb-4649-859d-c9da12327f85",
+						"name": "Engulf the Shore",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5f79c8a0-291e-4e13-b765-4cf8c726cf30",
+						"name": "Essence Scatter",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "39b41cb3-ca3d-4389-8f66-e1f77f5fb683",
+						"name": "Fact or Fiction",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b769ba9e-2ac8-48a9-9f45-23a4ccd0cb96",
+						"name": "Force of Negation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
+						"name": "Force of Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0bd05638-d621-4967-b7e3-63121c88f18b",
+						"name": "Hieroglyphic Illumination",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bda887f9-ea83-435e-b9d6-48f979a5fdb7",
+						"name": "Impulse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
+						"name": "Intuition",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "301750a7-d1fd-435e-bfa8-9d2fb22ad627",
+						"name": "Jwari Disruption ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
+						"name": "Mana Leak",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a0486784-de03-47a7-949d-550fd23492bc",
+						"name": "Mana Short",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
+						"name": "Memory Lapse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
+						"name": "Mental Misstep",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1f343724-6ecd-494f-8bfc-93676af4e173",
+						"name": "Mental Note",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4b4956a2-9a39-4152-9c98-70e4b2acfa26",
+						"name": "Miscalculation",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "337214ad-2976-4692-89c4-2c5001bf087f",
+						"name": "Mystic Confluence",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fbe04cb8-a8b9-4241-baae-b398a2509a3a",
+						"name": "Mystical Dispute",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e92c7477-d453-4fa4-acf4-3835ab9eb55a",
+						"name": "Negate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "323db259-d35e-467d-9a46-4adcb2fc107c",
+						"name": "Opt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "869a6c06-eae5-418e-9a5c-26598a929416",
+						"name": "Peek",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d77f0731-fb40-4dc2-8530-afcb5ce1f27f",
+						"name": "Reject",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "69001c08-2541-47e3-8343-2e5089a9b193",
+						"name": "Remand",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "67954eb1-1c61-432c-9113-104909511ad4",
+						"name": "Repeal",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5dc06309-c297-4f53-a2f1-155464f424b7",
+						"name": "Repulse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11568cdf-6148-494c-8b98-f5ca5797d775",
+						"name": "Silundi Vision ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a3b42202-548e-46f2-90a6-6f952315d157",
+						"name": "Snap",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a4f8b11a-6b21-4532-96c9-bdb2cad603e8",
+						"name": "Spell Pierce",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "72122836-a2f3-4001-9f08-93a7bf011ab1",
+						"name": "Spell Snare",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fcf7fd8a-adc3-4099-8e30-08375f263446",
+						"name": "Supreme Will",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "40af215c-d3f7-42f0-85cd-77a3fcd919ba",
+						"name": "Suspend",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
+						"name": "Tale's End",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "50e1d85b-f094-40e2-8811-640076d7d546",
+						"name": "Think Twice",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "142944d5-1b11-4ec4-b6b4-b5c03e682cd3",
+						"name": "Thought Scour",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2dc0bafd-debc-4b62-9fe0-56b4aad02484",
+						"name": "Unsubstantiate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "63b67070-38af-42e3-8d23-a081b06033fc",
+						"name": "Vapor Snag",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f2718457-1e3b-48bc-99fe-2300277ee1e0",
+						"name": "Winds of Rebuke",
+						"types": [
+							"Instant"
+						]
+					}
+				],
+				"count": 42,
+				"type": "Instants"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "ae593a2e-42d9-47e3-b6cb-f2e2133944d5",
+						"name": "Exhaustion",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
+						"name": "Gitaxian Probe",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "501599d6-1072-4124-b05d-01f96de153f3",
+						"name": "Hard Evidence",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bb5385d2-ca5d-4fb9-934b-b7cc8b38ac89",
+						"name": "Merchant Scroll",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
+						"name": "Ponder",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+						"name": "Preordain",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "193071fe-180b-4d35-ba78-9c16675c29fc",
+						"name": "Sea Gate Restoration ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "29306305-cb71-4fef-bf86-f5deb4e7e561",
+						"name": "Strategic Planning",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ddb863a0-3ff8-42a3-a151-4ea9aa433336",
+						"name": "Whelming Wave",
+						"types": [
+							"Sorcery"
+						]
+					}
+				],
+				"count": 9,
+				"type": "Sorceries"
+			},
+			{
+				"cards": [
+					{
+						"count": "1",
+						"id": "3ac535c1-9ef3-45b5-8959-7e79589d47ad",
+						"name": "Blinkmoth Nexus",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f48061f5-02c3-432d-8d4b-9d0891258ecf",
+						"name": "Faerie Conclave",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "203011ef-3737-4fd1-bd23-0e531b5a7c32",
+						"name": "Ipnu Rivulet",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "301750a7-d1fd-435e-bfa8-9d2fb22ad627",
+						"name": "Jwari Disruption ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7c05c946-66c3-4785-90f9-ca0c606e036b",
+						"name": "Mishra's Factory",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "927ed667-c228-4b96-a9f6-7cbadade8134",
+						"name": "Mutavault",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "7eadf4ea-1fd8-4f35-baf6-c9e7ce706795",
+						"name": "Myriad Landscape",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "31f83f35-c4dc-46f0-9109-9d0d0181d9c8",
+						"name": "Mystic Sanctuary",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "193071fe-180b-4d35-ba78-9c16675c29fc",
+						"name": "Sea Gate Restoration ",
+						"types": [
+							"Sorcery",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+						"name": "Search for Azcanta ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11568cdf-6148-494c-8b98-f5ca5797d775",
+						"name": "Silundi Vision ",
+						"types": [
+							"Instant",
+							"Land"
+						]
+					},
+					{
+						"count": "26",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fe17b08f-4790-4885-8b2b-b22f00b52d4e",
+						"name": "Witch's Clinic",
+						"types": [
+							"Land"
+						]
+					}
+				],
+				"count": 42,
+				"type": "Lands"
+			}
+		],
+		"count": 99
+	}
+}
