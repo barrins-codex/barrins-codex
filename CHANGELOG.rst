@@ -4,7 +4,7 @@ Changelog
 3.6.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction du symbole pour les cartes bannies
 
 
 3.6.5 (2021-07-28)

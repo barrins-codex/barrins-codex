@@ -6,7 +6,7 @@ function cardElement (element) {
 
 	// Banned cards
 	if (element.name == "Gifts Ungiven") {
-		line = line + ` <span title="banned on July 26th 2021"><i class="fas fa-times-circle"></i></span>`
+		line = line + ` <span title="banned on July 26th 2021"><i class="fas fa-exclamation-triangle"></i></span>`
 	}
 
 	return line + `</li>`
