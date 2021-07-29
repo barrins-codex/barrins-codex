@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.6 (unreleased)
+3.6.6 (2021-07-29)
 ------------------
 
 - Ajout d'une liste de Niv-Mizzet Reborn
