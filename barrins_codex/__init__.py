@@ -247,3 +247,17 @@ def display_card():
 		)
 
 	return dict(card=card, card_image=card_image, card_art=card_art)
+
+def archive():
+	#: Save the site to archive.org
+	import waybackpy
+	import advertools as adv
+	from tqdm.notebook import tqdm_notebook
+	#: Getting the sitemap
+	df = adv.sitemap_to_df("https://www.barrins-codex.org/sitemap.xml")
+	user_agent = 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Mobile Safari/537.36'
+	#: Iterating for everypage in sitemap
+	for i in df['loc']:
+		wayback = waybackpy.Url(i, user_agent=user_agent)
+		archive = wayback.save()
+		print(f"200: {archive.archive_url}")

@@ -1,10 +1,10 @@
 Changelog
 =========
 
-3.6.9 (unreleased)
+4.0.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'une fonctionnalité pour sauvegarder une image du site
 
 
 3.6.8 (2021-08-06)
