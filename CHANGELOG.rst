@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0.1 (unreleased)
+4.0.1 (2021-08-06)
 ------------------
 
 - Désactivation de la fonctionnalité
