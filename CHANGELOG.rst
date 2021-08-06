@@ -8,6 +8,7 @@ Changelog
 - Corrections esthétiques
 - Fix génération de decks
 - Update de la liste de Kess
+- Update de la liste de Gitrog
 
 
 3.6.7 (2021-08-06)

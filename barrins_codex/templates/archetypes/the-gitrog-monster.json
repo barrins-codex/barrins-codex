@@ -1,7 +1,7 @@
 {
 	"name": "The Gitrog Monster",
-	"player": "Grégoire Payan",
-	"date": "15/01/2021",
+	"player": "Grégoire \" Koraysh \" Payan",
+	"date": "01/08/2021",
 	"command": {
 		"cards": [
 			{
@@ -62,7 +62,15 @@
 					},
 					{
 						"count": "1",
-						"id": "6d5537da-112e-4679-a113-b5d7ce32a66b",
+						"id": "086f97e9-8b62-44f3-b467-149c2ac5ca78",
+						"name": "Opposition Agent",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "53760940-50e4-45d4-8297-353c9fc896e9",
 						"name": "Primeval Titan",
 						"types": [
 							"Creature"
@@ -78,8 +86,8 @@
 					},
 					{
 						"count": "1",
-						"id": "6f15ca0c-1128-485e-b9ca-69ce0e6a0b4e",
-						"name": "Titania, Protector of Argoth",
+						"id": "5c5be54d-660e-42ab-b5ea-5e1cf3bad0bc",
+						"name": "Tireless Provisioner",
 						"types": [
 							"Creature"
 						]
@@ -93,12 +101,21 @@
 						]
 					}
 				],
-				"count": 9,
+				"count": 11,
 				"type": "Creatures"
 			},
 			{
-				"cards": [],
-				"count": 0,
+				"cards": [
+					{
+						"count": "1",
+						"id": "cb966bb2-1634-400e-9dd0-b8befda81f6a",
+						"name": "Nissa, Who Shakes the World",
+						"types": [
+							"Planeswalker"
+						]
+					}
+				],
+				"count": 1,
 				"type": "Planeswalkers"
 			},
 			{
@@ -121,14 +138,22 @@
 					},
 					{
 						"count": "1",
-						"id": "3a9d1082-a862-45d4-9e5e-392e879fead6",
+						"id": "e503b59c-df3e-4f52-9a59-195f02a6cb18",
+						"name": "Pithing Needle",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "618c8ecc-686d-41de-b9b1-1a7ee9cc7c14",
 						"name": "Zuran Orb",
 						"types": [
 							"Artifact"
 						]
 					}
 				],
-				"count": 3,
+				"count": 4,
 				"type": "Artifacts"
 			},
 			{
@@ -151,14 +176,6 @@
 					},
 					{
 						"count": "1",
-						"id": "8652e3a1-bcd4-4c0c-a085-34f19702df26",
-						"name": "Pernicious Deed",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
 						"id": "fcddbea7-3025-47b1-a597-2d2b2711fb81",
 						"name": "Squandered Resources",
 						"types": [
@@ -173,7 +190,7 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "02517f12-cd8a-4d62-89cb-523b9b9295d5",
+						"id": "57010ba9-52be-484d-9976-7576c4ce48d0",
 						"name": "Abrupt Decay",
 						"types": [
 							"Instant"
@@ -213,8 +230,16 @@
 					},
 					{
 						"count": "1",
-						"id": "4ccd8394-cbc9-4346-9b48-f6be447b3e08",
+						"id": "08d405dc-180f-4edb-8c53-80a034ee622e",
 						"name": "Dismember",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f8eb4087-3a4c-4de8-8e29-f4cd71acb180",
+						"name": "Eliminate",
 						"types": [
 							"Instant"
 						]
@@ -253,14 +278,6 @@
 					},
 					{
 						"count": "1",
-						"id": "8967ceff-9e25-46da-926b-e05f4ee98325",
-						"name": "Realms Uncharted",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "e38192e5-814f-4269-bae8-13867a73e7fa",
 						"name": "Shred Memory",
 						"types": [
@@ -283,15 +300,6 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "c5cb3052-358d-44a7-8cfd-cd31b236494a",
-						"name": "Bala Ged Recovery ",
-						"types": [
-							"Sorcery",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "f7d6a020-8843-4a97-9d00-86f3928e8acd",
 						"name": "Beseech the Queen",
 						"types": [
@@ -302,14 +310,6 @@
 						"count": "1",
 						"id": "59dcf43b-a65f-43e4-a683-437021565f6a",
 						"name": "Collective Brutality",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "7fc1d7db-11a3-4ff9-8d27-1fe401053080",
-						"name": "Damnation",
 						"types": [
 							"Sorcery"
 						]
@@ -340,7 +340,7 @@
 					},
 					{
 						"count": "1",
-						"id": "03998e86-ef67-4329-b106-61252f3f532a",
+						"id": "1c72229c-f3da-4e35-af79-14452efe581b",
 						"name": "Edge of Autumn",
 						"types": [
 							"Sorcery"
@@ -388,7 +388,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b1ce11c3-61bc-4391-b316-945661cfeaa9",
+						"id": "a2a64307-b0ab-4f28-ad37-47d8b4c8b882",
 						"name": "Nature's Lore",
 						"types": [
 							"Sorcery"
@@ -404,6 +404,14 @@
 					},
 					{
 						"count": "1",
+						"id": "b929963b-a6c9-4160-ba76-9e647eccb285",
+						"name": "Regrowth",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
 						"id": "0c0ae36e-19c8-4e05-8c02-cc7fb5da5a39",
 						"name": "Restore",
 						"types": [
@@ -412,7 +420,7 @@
 					},
 					{
 						"count": "1",
-						"id": "029b6d93-0f7a-4df4-8c01-96cbd5e03315",
+						"id": "0c65336f-f735-4c35-9278-ad97255eb5bb",
 						"name": "Search for Tomorrow",
 						"types": [
 							"Sorcery"
@@ -436,7 +444,7 @@
 					},
 					{
 						"count": "1",
-						"id": "a12222b9-dacc-4cd8-b6a5-2b4b260d53ea",
+						"id": "1f882c71-dd90-4eac-9756-0bf487cba625",
 						"name": "Sylvan Scrying",
 						"types": [
 							"Sorcery"
@@ -444,7 +452,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b281a308-ab6b-47b6-bec7-632c9aaecede",
+						"id": "e6e76c6b-9d60-4bc8-b88d-6c9c7fade9a6",
 						"name": "Thoughtseize",
 						"types": [
 							"Sorcery"
@@ -467,7 +475,7 @@
 						]
 					}
 				],
-				"count": 23,
+				"count": 22,
 				"type": "Sorceries"
 			},
 			{
@@ -482,7 +490,7 @@
 					},
 					{
 						"count": "1",
-						"id": "c6ae4a0f-6b58-4a29-826e-cda2f115cdda",
+						"id": "b38d7666-0791-44b4-877e-8fd33ce008aa",
 						"name": "Barren Moor",
 						"types": [
 							"Land"
@@ -498,14 +506,6 @@
 					},
 					{
 						"count": "1",
-						"id": "ea6bc7d5-e8f6-4103-920c-9f7ec5cd6c28",
-						"name": "Blast Zone",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "7f430794-0d86-4f6a-97e0-4bbb6716d613",
 						"name": "Bloodstained Mire",
 						"types": [
@@ -514,7 +514,7 @@
 					},
 					{
 						"count": "1",
-						"id": "01769b12-4841-4a1a-a089-e061442203ed",
+						"id": "6e1d1e83-c34a-46af-8aec-ff698446099f",
 						"name": "Bojuka Bog",
 						"types": [
 							"Land"
@@ -522,7 +522,7 @@
 					},
 					{
 						"count": "1",
-						"id": "17f91d5f-b717-4ff4-a598-6d57c22dd802",
+						"id": "e1efb0d3-2c72-46ff-bdc1-1069967365a0",
 						"name": "Cabal Coffers",
 						"types": [
 							"Land"
@@ -538,14 +538,6 @@
 					},
 					{
 						"count": "1",
-						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
-						"name": "Command Tower",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "1c28ab69-1a46-45af-a331-1f52f99a9da3",
 						"name": "Crystal Vein",
 						"types": [
@@ -554,7 +546,7 @@
 					},
 					{
 						"count": "1",
-						"id": "8cee476d-42e1-4997-87af-73e18f542167",
+						"id": "bb3a843b-2dea-4b44-be74-c09c18b9b969",
 						"name": "Dryad Arbor",
 						"types": [
 							"Land",
@@ -563,7 +555,7 @@
 					},
 					{
 						"count": "1",
-						"id": "cb9a25c6-a1b7-4d6c-8a22-b407043a2280",
+						"id": "71afb548-691d-4c72-b369-85f9b451c71d",
 						"name": "Evolving Wilds",
 						"types": [
 							"Land"
@@ -578,8 +570,8 @@
 						]
 					},
 					{
-						"count": "5",
-						"id": "771e307c-b2e3-47ac-aac2-59f0c3542fa6",
+						"count": "7",
+						"id": "b6a46b11-3225-45aa-b54e-4d19d81b51cf",
 						"name": "Forest",
 						"types": [
 							"Land"
@@ -611,15 +603,7 @@
 					},
 					{
 						"count": "1",
-						"id": "54734347-eee7-4c52-b514-7342afeccabd",
-						"name": "Homeward Path",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
 						"name": "Marsh Flats",
 						"types": [
 							"Land"
@@ -635,7 +619,7 @@
 					},
 					{
 						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
 						"name": "Misty Rainforest",
 						"types": [
 							"Land"
@@ -643,7 +627,7 @@
 					},
 					{
 						"count": "1",
-						"id": "eff1f52c-5c43-4260-aaa0-6920846a191c",
+						"id": "4fc75949-0bd1-4cd9-9e66-6624dcd41872",
 						"name": "Overgrown Tomb",
 						"types": [
 							"Land"
@@ -667,6 +651,14 @@
 					},
 					{
 						"count": "1",
+						"id": "05b2cc68-1d20-421f-9800-af0996071554",
+						"name": "Phyrexian Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
 						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
 						"name": "Polluted Delta",
 						"types": [
@@ -675,31 +667,15 @@
 					},
 					{
 						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
 						"name": "Prismatic Vista",
 						"types": [
 							"Land"
 						]
 					},
 					{
-						"count": "2",
-						"id": "ca17acea-f079-4e53-8176-a2f5c5c408a1",
-						"name": "Snow-Covered Forest",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "2",
-						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
-						"name": "Snow-Covered Swamp",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "5",
-						"id": "9f9e61c0-b185-4704-913f-9284ed0ce250",
+						"count": "6",
+						"id": "ab950987-d88c-4326-98f4-1b1195788921",
 						"name": "Swamp",
 						"types": [
 							"Land"
@@ -707,7 +683,7 @@
 					},
 					{
 						"count": "1",
-						"id": "3b8b3d63-db84-4aa0-a529-f3c128fae964",
+						"id": "08ac4e43-4e16-46a2-96f5-58d5550984c4",
 						"name": "Terramorphic Expanse",
 						"types": [
 							"Land"
@@ -723,7 +699,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b73571bd-b6e5-4338-a9b1-d847a8ad43d1",
+						"id": "d213bb6c-b6e1-4603-8e01-a2e28af5a15f",
 						"name": "Tranquil Thicket",
 						"types": [
 							"Land"
@@ -731,7 +707,7 @@
 					},
 					{
 						"count": "1",
-						"id": "02e17705-739e-409f-a6fd-7bab22120b22",
+						"id": "9e1a9e38-6ffc-490f-b0be-23ba4e8204c6",
 						"name": "Urborg, Tomb of Yawgmoth",
 						"types": [
 							"Land"
@@ -739,7 +715,16 @@
 					},
 					{
 						"count": "1",
-						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+						"id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
+						"name": "Urza's Saga",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
 						"name": "Verdant Catacombs",
 						"types": [
 							"Land"
@@ -747,8 +732,8 @@
 					},
 					{
 						"count": "1",
-						"id": "00cb17a0-5a13-4d02-b7fb-f99531bc8ca5",
-						"name": "Dark Depths",
+						"id": "43bf015b-152e-4d67-b773-e75fb2487a32",
+						"name": "Volrath's Stronghold",
 						"types": [
 							"Land"
 						]
@@ -768,9 +753,17 @@
 						"types": [
 							"Land"
 						]
+					},
+					{
+						"count": "1",
+						"id": "4e4b6e22-93b2-4896-bba5-0ceaa5d8ea3c",
+						"name": "Yavimaya, Cradle of Growth",
+						"types": [
+							"Land"
+						]
 					}
 				],
-				"count": 47,
+				"count": 46,
 				"type": "Lands"
 			}
 		],
