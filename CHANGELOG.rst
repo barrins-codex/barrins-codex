@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.7 (unreleased)
+3.6.7 (2021-08-06)
 ------------------
 
 - Update de la liste de Kinnan
