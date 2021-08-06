@@ -248,6 +248,7 @@ def display_card():
 
 	return dict(card=card, card_image=card_image, card_art=card_art)
 
+"""
 def archive():
 	#: Save the site to archive.org
 	import waybackpy
@@ -261,3 +262,4 @@ def archive():
 		wayback = waybackpy.Url(i, user_agent=user_agent)
 		archive = wayback.save()
 		print(f"200: {archive.archive_url}")
+"""
