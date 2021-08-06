@@ -64,6 +64,7 @@ STRUCTURE = Nav(
 				Nav(lazy_gettext("Galazeth Prismari")),
 				Nav(lazy_gettext("Golos, Tireless Pilgrim")),
 				Nav(lazy_gettext("Grenzo, Dungeon Warden")),
+				Nav(lazy_gettext("Hogaak, Arisen Necropolis")),
 				Nav(lazy_gettext("Kelsien, the Plague")),
 				Nav(lazy_gettext("Kess, Dissident Mage")),
 				Nav(lazy_gettext("Kinnan, Bonder Prodigy")),

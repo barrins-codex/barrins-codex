@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'une liste de Doran
+- Ajout d'une liste de Hogaak
 - Corrections esthétiques
 - Fix génération de decks
 - Update de la liste de Kess
