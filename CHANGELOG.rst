@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.6.8 (unreleased)
+3.6.8 (2021-08-06)
 ------------------
 
 - Ajout d'une liste de Doran
