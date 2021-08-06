@@ -1,7 +1,7 @@
 {
 	"name": "Kinnan, Bonder Prodigy",
-	"player": "Martin Cuchet",
-	"date": "15/03/2021",
+	"player": "Paul Laguës",
+	"date": "25/07/2021",
 	"command": {
 		"cards": [
 			{
@@ -21,105 +21,8 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "fdfeeb64-0f86-45e9-97e3-dcec72683164",
-						"name": "Birds of Paradise",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6c89c1fd-4717-4249-a74f-d9d4935c5753",
-						"name": "Bloom Tender",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07",
-						"name": "Devoted Druid",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "c1096ce5-f776-4028-b231-e6eaee35014b",
-						"name": "Drift of Phantasms",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ed7a0227-ac70-40fb-8198-a55eacf913fa",
-						"name": "Elvish Mystic",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "bf4b9a8a-b42a-46fb-b0d0-9cf800f63c8a",
-						"name": "Emry, Lurker of the Loch",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "d74e7ded-d063-4d90-a9ff-91c44a8098d7",
-						"name": "Eternal Witness",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "450744cf-7eba-491b-97b0-ca80c6368bbb",
-						"name": "Fyndhorn Elves",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "075bbe5d-d0f3-4be3-a3a6-072d5d3d614c",
-						"name": "Incubation Druid",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "57ebd34e-dfe1-4093-a302-db395047a546",
-						"name": "Llanowar Elves",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "be407a81-b25a-4e5d-845e-be0cc0d18db8",
-						"name": "Painter's Servant",
-						"types": [
-							"Artifact",
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6ed8d9e7-cdad-450d-8329-fa653d387a63",
-						"name": "Paradise Druid",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "03ee2d7e-50ee-4f5a-b787-cf9669a892f3",
-						"name": "Prophet of Distortion",
+						"id": "473d3633-6dc7-4026-a50e-3ea76b9e8c20",
+						"name": "Boreal Druid",
 						"types": [
 							"Creature"
 						]
@@ -135,8 +38,33 @@
 					},
 					{
 						"count": "1",
-						"id": "d40b65c1-b24d-492d-81b9-d8474ebdc08c",
-						"name": "Sylvan Caryatid",
+						"id": "4d50fa57-db11-419e-b73b-666a6b25f7de",
+						"name": "Elvish Mystic",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
+						"name": "Walking Ballista",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fdfeeb64-0f86-45e9-97e3-dcec72683164",
+						"name": "Birds of Paradise",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "03ee2d7e-50ee-4f5a-b787-cf9669a892f3",
+						"name": "Prophet of Distortion",
 						"types": [
 							"Creature"
 						]
@@ -151,6 +79,63 @@
 					},
 					{
 						"count": "1",
+						"id": "8d74a469-c71d-4773-99d3-5456b31df424",
+						"name": "Emrakul, the Promised End",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "450744cf-7eba-491b-97b0-ca80c6368bbb",
+						"name": "Fyndhorn Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c6fba2e4-ea27-4ef0-9b27-bc61a7c6b0ab",
+						"name": "Reclamation Sage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "57ebd34e-dfe1-4093-a302-db395047a546",
+						"name": "Llanowar Elves",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "bf4b9a8a-b42a-46fb-b0d0-9cf800f63c8a",
+						"name": "Emry, Lurker of the Loch",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "be407a81-b25a-4e5d-845e-be0cc0d18db8",
+						"name": "Painter's Servant",
+						"types": [
+							"Artifact",
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "74b4c336-5d4c-4bc5-b82a-35084a6ad808",
+						"name": "Spellseeker",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
 						"id": "845bf543-0367-4d2c-81ba-e424bfbfb7de",
 						"name": "Thrasios, Triton Hero",
 						"types": [
@@ -159,16 +144,32 @@
 					},
 					{
 						"count": "1",
-						"id": "6c180888-6acd-401b-815a-6ed434482681",
-						"name": "Tribute Mage",
+						"id": "584dfb52-4a6c-4a33-9ae1-12227b938f9a",
+						"name": "Eternal Witness",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "586a4c31-65c7-4c7f-b5f6-74b105b2a629",
+						"id": "86d744cd-225c-4279-898a-858dc316cf7f",
+						"name": "Urza, Lord High Artificer",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "2e006682-5236-4a32-9f3d-7337b2c42b21",
 						"name": "Trinket Mage",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b05fa81a-a0f5-4cb1-b4c7-f4016ab65c4c",
+						"name": "Tribute Mage",
 						"types": [
 							"Creature"
 						]
@@ -180,26 +181,9 @@
 						"types": [
 							"Creature"
 						]
-					},
-					{
-						"count": "1",
-						"id": "9e7fb3c0-5159-4d1f-8490-ce4c9a60f567",
-						"name": "Urza, Lord High Artificer",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
-						"name": "Walking Ballista",
-						"types": [
-							"Artifact",
-							"Creature"
-						]
 					}
 				],
-				"count": 22,
+				"count": 20,
 				"type": "Creatures"
 			},
 			{
@@ -227,97 +211,9 @@
 			{
 				"cards": [
 					{
-						"count": "1",
-						"id": "a54e8ce9-edd7-4ae7-9521-6fb6727cf63b",
-						"name": "Aether Spellbomb",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "f0b666de-5a89-417d-a946-00aafd1f1979",
-						"name": "Arcane Signet",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "c2462fdf-a594-47d0-8e10-b55901e350d9",
-						"name": "Arcum's Astrolabe",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "f79de5e7-1545-420c-bfe1-ee2444fca85b",
-						"name": "Basalt Monolith",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "b768efa2-e56b-4a7e-ace8-d673f10e0714",
-						"name": "Birthing Pod",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "24fe738e-c24c-4b0b-b177-e502ced57cc7",
-						"name": "Coldsteel Heart",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "cf825a56-4870-463a-a2ef-eec86be891db",
-						"name": "Ensnaring Bridge",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1e60622b-7c25-444d-8eeb-c443acdfc488",
-						"name": "Fellwar Stone",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "f4459187-de64-456f-bb66-56dea40d5c3e",
-						"name": "Grindstone",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e6cec97f-0a2b-4543-a02e-d5e42d337790",
-						"name": "Lightning Greaves",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "153983dd-54dc-420d-9249-665b0d669614",
-						"name": "Lotus Petal",
-						"types": [
-							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ecbe852d-4538-41dd-bfce-a134a7bc3022",
-						"name": "Mind Stone",
+						"count": "2",
+						"id": "e503b59c-df3e-4f52-9a59-195f02a6cb18",
+						"name": "Pithing Needle",
 						"types": [
 							"Artifact"
 						]
@@ -332,24 +228,63 @@
 					},
 					{
 						"count": "1",
-						"id": "14602fed-8666-4884-8fca-13529578f9e2",
-						"name": "Prophetic Prism",
+						"id": "c2462fdf-a594-47d0-8e10-b55901e350d9",
+						"name": "Arcum's Astrolabe",
 						"types": [
 							"Artifact"
 						]
 					},
 					{
 						"count": "1",
-						"id": "1fedc183-2d95-471c-ba78-2169e4df13f8",
-						"name": "Seat of the Synod",
+						"id": "a54e8ce9-edd7-4ae7-9521-6fb6727cf63b",
+						"name": "Aether Spellbomb",
 						"types": [
-							"Artifact",
-							"Land"
+							"Artifact"
 						]
 					},
 					{
 						"count": "1",
-						"id": "6a8ce2ab-d3e6-486c-a577-2d4f2c750cde",
+						"id": "ab3cec7e-513e-400d-a1a8-2c71cdde02c6",
+						"name": "Winter Orb",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "07be53ef-c7b7-44fe-9754-b76871c6b55f",
+						"name": "Fellwar Stone",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "02a34135-0955-4045-9558-6e61338baaf0",
+						"name": "Mind Stone",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "552be01e-cd54-46ba-b38a-96883a48d985",
+						"name": "Arcane Signet",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "cf825a56-4870-463a-a2ef-eec86be891db",
+						"name": "Ensnaring Bridge",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cb9a0b9-ddc8-4cdc-b352-0289c66f6fed",
 						"name": "Simic Signet",
 						"types": [
 							"Artifact"
@@ -357,24 +292,24 @@
 					},
 					{
 						"count": "1",
-						"id": "e47e85d1-8c4a-43a9-92b3-7cb2a5b89219",
-						"name": "Sorcerous Spyglass",
+						"id": "551c0a45-9515-4e51-84e5-79703832a661",
+						"name": "Expedition Map",
 						"types": [
 							"Artifact"
 						]
 					},
 					{
 						"count": "1",
-						"id": "f3b3869b-6da1-4b01-a2e7-2018d478b6e5",
-						"name": "Springleaf Drum",
+						"id": "b768efa2-e56b-4a7e-ace8-d673f10e0714",
+						"name": "Birthing Pod",
 						"types": [
 							"Artifact"
 						]
 					},
 					{
 						"count": "1",
-						"id": "fd52688a-39fd-430f-b950-cb56e0004396",
-						"name": "Talisman of Curiosity",
+						"id": "153983dd-54dc-420d-9249-665b0d669614",
+						"name": "Lotus Petal",
 						"types": [
 							"Artifact"
 						]
@@ -389,31 +324,62 @@
 					},
 					{
 						"count": "1",
-						"id": "a8f69425-c530-4752-95b5-06e99b74c8b7",
-						"name": "Tree of Tales",
+						"id": "b9383190-c4b2-4b38-8938-2c57782faf03",
+						"name": "Talisman of Curiosity",
 						"types": [
-							"Artifact",
-							"Land"
+							"Artifact"
 						]
 					},
 					{
 						"count": "1",
-						"id": "ab3cec7e-513e-400d-a1a8-2c71cdde02c6",
-						"name": "Winter Orb",
+						"id": "f3b3869b-6da1-4b01-a2e7-2018d478b6e5",
+						"name": "Springleaf Drum",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1e5d9c01-f8db-43ef-bb50-f9e38e99f8d0",
+						"name": "Lightning Greaves",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "0c3be020-37a3-49ce-8604-27794175bf9d",
+						"name": "Prismatic Lens",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f4459187-de64-456f-bb66-56dea40d5c3e",
+						"name": "Grindstone",
+						"types": [
+							"Artifact"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f79de5e7-1545-420c-bfe1-ee2444fca85b",
+						"name": "Basalt Monolith",
 						"types": [
 							"Artifact"
 						]
 					}
 				],
-				"count": 22,
+				"count": 23,
 				"type": "Artifacts"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "c47ee6f6-50c1-4f56-b9ce-4c309bfb92ca",
-						"name": "Freed from the Real",
+						"id": "d5b5d2a7-8185-4df0-a35a-f89c12857f87",
+						"name": "Sylvan Library",
 						"types": [
 							"Enchantment"
 						]
@@ -422,14 +388,6 @@
 						"count": "1",
 						"id": "639cb483-ffe2-4abc-a050-5cdc8aebd5a2",
 						"name": "Future Sight",
-						"types": [
-							"Enchantment"
-						]
-					},
-					{
-						"count": "1",
-						"id": "9fb3e38b-086e-4fbc-b7b1-8564c18276d7",
-						"name": "Pemmin's Aura",
 						"types": [
 							"Enchantment"
 						]
@@ -442,8 +400,8 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
-						"name": "Brainstorm",
+						"id": "b34d9054-5ad8-4a7d-a5c8-58bc39051834",
+						"name": "Worldly Tutor",
 						"types": [
 							"Instant"
 						]
@@ -458,16 +416,40 @@
 					},
 					{
 						"count": "1",
-						"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
-						"name": "Gifts Ungiven",
+						"id": "48070245-1370-4cf1-be15-d4e8a8b92ba8",
+						"name": "Brainstorm",
 						"types": [
 							"Instant"
 						]
 					},
 					{
 						"count": "1",
-						"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
-						"name": "Intuition",
+						"id": "460aebc5-6150-4927-8d92-72bad788be42",
+						"name": "Whir of Invention",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "39b41cb3-ca3d-4389-8f66-e1f77f5fb683",
+						"name": "Fact or Fiction",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "58ebdee7-90b2-4b74-bb52-614b4042ceb7",
+						"name": "Daze",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4cc785b0-0a77-4b02-b0b4-2bda2fc621cc",
+						"name": "Muddle the Mixture",
 						"types": [
 							"Instant"
 						]
@@ -482,39 +464,54 @@
 					},
 					{
 						"count": "1",
-						"id": "d3f6a9c7-9b19-420d-a7b3-40fe31ce5713",
-						"name": "Whir of Invention",
+						"id": "5ecb5078-4439-4fdc-88e8-aac3becbbad8",
+						"name": "Stroke of Genius",
 						"types": [
 							"Instant"
 						]
 					},
 					{
 						"count": "1",
-						"id": "b34d9054-5ad8-4a7d-a5c8-58bc39051834",
-						"name": "Worldly Tutor",
+						"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
+						"name": "Intuition",
 						"types": [
 							"Instant"
 						]
 					}
 				],
-				"count": 7,
+				"count": 10,
 				"type": "Instants"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "c5cb3052-358d-44a7-8cfd-cd31b236494a",
-						"name": "Bala Ged Recovery ",
+						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
+						"name": "Ponder",
 						"types": [
-							"Sorcery",
-							"Land"
+							"Sorcery"
 						]
 					},
 					{
 						"count": "1",
-						"id": "d0c46e0f-524d-47c8-a628-5540c86b93cf",
-						"name": "Eldritch Evolution",
+						"id": "92d8f67e-4f2f-4a1f-b190-7c3f39e477e4",
+						"name": "Neoform",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
+						"name": "Preordain",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
+						"name": "Gitaxian Probe",
 						"types": [
 							"Sorcery"
 						]
@@ -537,8 +534,8 @@
 					},
 					{
 						"count": "1",
-						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
-						"name": "Gitaxian Probe",
+						"id": "6eab6765-eba3-4844-81ca-ae37a6e903df",
+						"name": "Transmute Artifact",
 						"types": [
 							"Sorcery"
 						]
@@ -553,38 +550,14 @@
 					},
 					{
 						"count": "1",
-						"id": "92d8f67e-4f2f-4a1f-b190-7c3f39e477e4",
-						"name": "Neoform",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
-						"name": "Ponder",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
-						"name": "Preordain",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6eab6765-eba3-4844-81ca-ae37a6e903df",
-						"name": "Transmute Artifact",
+						"id": "d0c46e0f-524d-47c8-a628-5540c86b93cf",
+						"name": "Eldritch Evolution",
 						"types": [
 							"Sorcery"
 						]
 					}
 				],
-				"count": 10,
+				"count": 9,
 				"type": "Sorceries"
 			},
 			{
@@ -598,131 +571,9 @@
 						]
 					},
 					{
-						"count": "1",
-						"id": "c5cb3052-358d-44a7-8cfd-cd31b236494a",
-						"name": "Bala Ged Recovery ",
-						"types": [
-							"Sorcery",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "b6de14ae-0132-4261-af00-630bf15918cd",
-						"name": "Barkchannel Pathway ",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8744471b-a528-47d9-84d0-4526273f55e9",
-						"name": "Botanical Sanctum",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "bb54233c-0844-4965-9cde-e8a4ef3e11b8",
-						"name": "Breeding Pool",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "0a8b9d37-e89c-44ad-bd1b-51cb06ec3e0b",
-						"name": "Castle Vantress",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "74c5bc49-318c-44fc-b276-f6d036fdf054",
-						"name": "Command Tower",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
-						"name": "Flooded Strand",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "d631d040-51e9-4540-91e7-aeb5ade84090",
-						"name": "Hinterland Harbor",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "275471e3-ded1-40ac-91ef-369dce5764d9",
-						"name": "Inventors' Fair",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
-						"name": "Misty Rainforest",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
-						"name": "Polluted Delta",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
-						"name": "Prismatic Vista",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
-						"name": "Scalding Tarn",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1fedc183-2d95-471c-ba78-2169e4df13f8",
-						"name": "Seat of the Synod",
-						"types": [
-							"Artifact",
-							"Land"
-						]
-					},
-					{
-						"count": "8",
+						"count": "5",
 						"id": "ca17acea-f079-4e53-8176-a2f5c5c408a1",
 						"name": "Snow-Covered Forest",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "6",
-						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-						"name": "Snow-Covered Island",
 						"types": [
 							"Land"
 						]
@@ -738,16 +589,8 @@
 					},
 					{
 						"count": "1",
-						"id": "fd105eda-aff6-4b01-a892-e9502346caee",
-						"name": "Tropical Island",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
-						"name": "Verdant Catacombs",
+						"id": "19477aca-b8db-4061-9a78-ebb189a9df22",
+						"name": "Breeding Pool",
 						"types": [
 							"Land"
 						]
@@ -762,8 +605,24 @@
 					},
 					{
 						"count": "1",
-						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
-						"name": "Windswept Heath",
+						"id": "c45d763d-75f5-4d96-ae7c-9eb869d4dead",
+						"name": "Flooded Grove",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d631d040-51e9-4540-91e7-aeb5ade84090",
+						"name": "Hinterland Harbor",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
+						"name": "Verdant Catacombs",
 						"types": [
 							"Land"
 						]
@@ -778,14 +637,144 @@
 					},
 					{
 						"count": "1",
-						"id": "35cd7440-247c-4878-9a0d-9b9bc1feb847",
+						"id": "47dd5c4b-5972-43e1-ae2a-ebf275006458",
+						"name": "Yavimaya Hollow",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "a661606e-675a-4fd9-963b-cd7bd3f96438",
 						"name": "Yavimaya Coast",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8744471b-a528-47d9-84d0-4526273f55e9",
+						"name": "Botanical Sanctum",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1fedc183-2d95-471c-ba78-2169e4df13f8",
+						"name": "Seat of the Synod",
+						"types": [
+							"Artifact",
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ff2f5f58-9a95-4ca6-93a0-813738f0072f",
+						"name": "Polluted Delta",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "275471e3-ded1-40ac-91ef-369dce5764d9",
+						"name": "Inventors' Fair",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
+						"name": "Misty Rainforest",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "8c2996d9-3287-4480-8c04-7a378e37e3cf",
+						"name": "Flooded Strand",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
+						"name": "Command Tower",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
+						"name": "Scalding Tarn",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
+						"name": "Prismatic Vista",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e7b28650-cddc-4878-b1d1-b5a764f4df49",
+						"name": "Windswept Heath",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4e4b6e22-93b2-4896-bba5-0ceaa5d8ea3c",
+						"name": "Yavimaya, Cradle of Growth",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
+						"name": "Urza's Saga",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					},
+					{
+						"count": "6",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "fd105eda-aff6-4b01-a892-e9502346caee",
+						"name": "Tropical Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "b6de14ae-0132-4261-af00-630bf15918cd",
+						"name": "Barkchannel Pathway",
 						"types": [
 							"Land"
 						]
 					}
 				],
-				"count": 36,
+				"count": 35,
 				"type": "Lands"
 			}
 		],
