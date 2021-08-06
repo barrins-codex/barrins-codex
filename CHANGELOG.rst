@@ -4,6 +4,7 @@ Changelog
 3.6.8 (unreleased)
 ------------------
 
+- Corrections esthétiques
 - Fix génération de decks
 - Update de la liste de Kess
 

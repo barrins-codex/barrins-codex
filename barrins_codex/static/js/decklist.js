@@ -6,7 +6,7 @@ function cardElement (element) {
 
 	// Banned cards
 	if (element.name == "Gifts Ungiven") {
-		line = line + ` <span title="banned on July 26th 2021"><i class="fas fa-exclamation-triangle"></i></span>`
+		line = line + ` <span title="banned on July 26th 2021"><i class="fas fa-exclamation-triangle fa-xs"></i></span>`
 	}
 
 	// MDFC Land Cards
@@ -16,7 +16,7 @@ function cardElement (element) {
 			&& !(element.types.includes("Enchantment"))
 			&& !(element.types.includes("Artifact"))
 		) {
-			line = line + ` <i class="fas fa-globe-europe"></i>`
+			line = line + ` <i class="fas fa-globe-europe fa-xs"></i>`
 		}
 	}
 
