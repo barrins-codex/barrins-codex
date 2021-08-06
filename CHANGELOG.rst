@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0.0 (unreleased)
+4.0.0 (2021-08-06)
 ------------------
 
 - Ajout d'une fonctionnalité pour sauvegarder une image du site
