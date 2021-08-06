@@ -4,6 +4,7 @@ Changelog
 3.6.7 (unreleased)
 ------------------
 
+- Update de la liste de Kinnan
 - Update de la liste d'Octavia
 
 
