@@ -4,7 +4,7 @@ Changelog
 3.6.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update de la liste d'Octavia
 
 
 3.6.6 (2021-07-29)

@@ -1,7 +1,7 @@
 {
 	"name": "Octavia, Living Thesis",
 	"player": "Martin Cuchet",
-	"date": "29/07/2021",
+	"date": "06/08/2021",
 	"command": {
 		"cards": [
 			{
@@ -21,6 +21,14 @@
 				"cards": [
 					{
 						"count": "1",
+						"id": "5d131784-c1a3-463e-a37b-b720af67ab62",
+						"name": "Alrund, God of the Cosmos ",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
 						"id": "a103a725-4750-4d9e-8792-6fbbb81bba0e",
 						"name": "Baral, Chief of Compliance",
 						"types": [
@@ -34,6 +42,15 @@
 						"types": [
 							"Creature",
 							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "ceb7308d-608c-4ede-9496-d795fc5bb271",
+						"name": "Merfolk Secretkeeper ",
+						"types": [
+							"Creature",
+							"Sorcery"
 						]
 					},
 					{
@@ -67,9 +84,17 @@
 						"types": [
 							"Creature"
 						]
+					},
+					{
+						"count": "1",
+						"id": "74ebe58d-0f94-47f7-b17b-0d9492b931d5",
+						"name": "Vendilion Clique",
+						"types": [
+							"Creature"
+						]
 					}
 				],
-				"count": 6,
+				"count": 9,
 				"type": "Creatures"
 			},
 			{
@@ -128,6 +153,14 @@
 						"count": "1",
 						"id": "8a2ab58d-a632-4162-82b2-664e9ac4b319",
 						"name": "Archmage's Charm",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "27855a38-a682-4f97-ad22-ac625e86faec",
+						"name": "Behold the Multiverse",
 						"types": [
 							"Instant"
 						]
@@ -230,14 +263,6 @@
 					},
 					{
 						"count": "1",
-						"id": "c99f6785-e5a1-4fdc-9fb5-e1a372e7e848",
-						"name": "Intuition",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "301750a7-d1fd-435e-bfa8-9d2fb22ad627",
 						"name": "Jwari Disruption ",
 						"types": [
@@ -249,14 +274,6 @@
 						"count": "1",
 						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
 						"name": "Mana Leak",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "a0486784-de03-47a7-949d-550fd23492bc",
-						"name": "Mana Short",
 						"types": [
 							"Instant"
 						]
@@ -408,14 +425,6 @@
 					},
 					{
 						"count": "1",
-						"id": "40af215c-d3f7-42f0-85cd-77a3fcd919ba",
-						"name": "Suspend",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
 						"name": "Tale's End",
 						"types": [
@@ -448,6 +457,14 @@
 					},
 					{
 						"count": "1",
+						"id": "7a960516-3864-4a7a-8117-d25dec0dd665",
+						"name": "Unsummon",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "63b67070-38af-42e3-8d23-a081b06033fc",
 						"name": "Vapor Snag",
 						"types": [
@@ -463,19 +480,11 @@
 						]
 					}
 				],
-				"count": 42,
+				"count": 41,
 				"type": "Instants"
 			},
 			{
 				"cards": [
-					{
-						"count": "1",
-						"id": "ae593a2e-42d9-47e3-b6cb-f2e2133944d5",
-						"name": "Exhaustion",
-						"types": [
-							"Sorcery"
-						]
-					},
 					{
 						"count": "1",
 						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
@@ -488,14 +497,6 @@
 						"count": "1",
 						"id": "501599d6-1072-4124-b05d-01f96de153f3",
 						"name": "Hard Evidence",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "bb5385d2-ca5d-4fb9-934b-b7cc8b38ac89",
-						"name": "Merchant Scroll",
 						"types": [
 							"Sorcery"
 						]
@@ -542,7 +543,7 @@
 						]
 					}
 				],
-				"count": 9,
+				"count": 7,
 				"type": "Sorceries"
 			},
 			{
