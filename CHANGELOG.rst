@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Fix génération de decks
+- Update de la liste de Kess
 
 
 3.6.7 (2021-08-06)

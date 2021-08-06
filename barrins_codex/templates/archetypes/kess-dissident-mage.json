@@ -1,7 +1,7 @@
 {
 	"name": "Kess, Dissident Mage",
 	"player": "Guillaume Cailliez",
-	"date": "22/12/2020",
+	"date": "01/08/2020",
 	"command": {
 		"cards": [
 			{
@@ -21,7 +21,15 @@
 				"cards": [
 					{
 						"count": "1",
-						"id": "a1b799b2-bb4e-482f-9afd-5aab90090710",
+						"id": "e33ad733-6706-420f-940c-d228ddcbf638",
+						"name": "Augur of Bolas",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "3e417331-84ec-4513-8022-e93ffc260a38",
 						"name": "Baleful Strix",
 						"types": [
 							"Artifact",
@@ -33,23 +41,39 @@
 						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
 						"name": "Bonecrusher Giant ",
 						"types": [
-							"Instant",
-							"Creature"
+							"Creature",
+							"Instant"
 						]
 					},
 					{
 						"count": "1",
-						"id": "d42a57b2-fbe9-4024-a593-f6dc711a2e9d",
+						"id": "c2089ec9-0665-448f-bfe9-d181de127814",
 						"name": "Brazen Borrower ",
 						"types": [
-							"Instant",
+							"Creature",
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "97543d69-547e-41f8-9a4f-908e5eb0ee4a",
+						"name": "Ethereal Forager",
+						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "086f97e9-8b62-44f3-b467-149c2ac5ca78",
-						"name": "Opposition Agent",
+						"id": "20c4aae1-7665-4df7-bd51-a1d95bf8a17d",
+						"name": "Murktide Regent",
+						"types": [
+							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "e900c1eb-968b-4046-b824-c167a7a5b682",
+						"name": "Sedgemoor Witch",
 						"types": [
 							"Creature"
 						]
@@ -61,55 +85,31 @@
 						"types": [
 							"Creature"
 						]
-					},
-					{
-						"count": "1",
-						"id": "2da0b45b-0ca9-40c4-bc7f-791039bc1876",
-						"name": "True-Name Nemesis",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "cd702cf1-10ca-4448-9fb1-b6de635e839c",
-						"name": "Vendilion Clique",
-						"types": [
-							"Creature"
-						]
 					}
 				],
-				"count": 7,
+				"count": 8,
 				"type": "Creatures"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "ff8086cd-b868-4f4e-823e-2635ad7ebc07",
-						"name": "Chandra, Torch of Defiance",
+						"id": "c8817585-0d32-4d56-9142-0d29512e86a9",
+						"name": "Jace, the Mind Sculptor",
 						"types": [
 							"Planeswalker"
 						]
 					},
 					{
 						"count": "1",
-						"id": "e653437e-2e56-4443-aec5-5bb7d8860238",
-						"name": "Liliana of the Veil",
-						"types": [
-							"Planeswalker"
-						]
-					},
-					{
-						"count": "1",
-						"id": "6710a1e4-299c-4ce1-afda-265d27097061",
-						"name": "Narset, Parter of Veils",
+						"id": "9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d",
+						"name": "Teferi, Master of Time",
 						"types": [
 							"Planeswalker"
 						]
 					}
 				],
-				"count": 3,
+				"count": 2,
 				"type": "Planeswalkers"
 			},
 			{
@@ -118,8 +118,18 @@
 				"type": "Artifacts"
 			},
 			{
-				"cards": [],
-				"count": 0,
+				"cards": [
+					{
+						"count": "1",
+						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
+						"name": "Search for Azcanta ",
+						"types": [
+							"Enchantment",
+							"Land"
+						]
+					}
+				],
+				"count": 1,
 				"type": "Enchantments"
 			},
 			{
@@ -134,15 +144,15 @@
 					},
 					{
 						"count": "1",
-						"id": "ab830392-4d7e-4b45-93cf-35ed1e935228",
-						"name": "Blink of an Eye",
+						"id": "27855a38-a682-4f97-ad22-ac625e86faec",
+						"name": "Behold the Multiverse",
 						"types": [
 							"Instant"
 						]
 					},
 					{
 						"count": "1",
-						"id": "dd595e2f-65e4-46e8-9d28-f94ac308b275",
+						"id": "48070245-1370-4cf1-be15-d4e8a8b92ba8",
 						"name": "Brainstorm",
 						"types": [
 							"Instant"
@@ -158,8 +168,16 @@
 					},
 					{
 						"count": "1",
-						"id": "ce30f926-bc06-46ee-9f35-0cdf09a67043",
+						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
 						"name": "Counterspell",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f99f864e-a10f-47f4-94c5-4571b5c11b3b",
+						"name": "Countersquall",
 						"types": [
 							"Instant"
 						]
@@ -174,6 +192,14 @@
 					},
 					{
 						"count": "1",
+						"id": "ff08e5ed-f47b-4d8e-8b8b-41675dccef8b",
+						"name": "Cyclonic Rift",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "c61fa2c0-63c0-4dc2-9f17-5a00530e3348",
 						"name": "Deadly Rollick",
 						"types": [
@@ -182,8 +208,24 @@
 					},
 					{
 						"count": "1",
-						"id": "8bf5df5b-164d-4ec2-a5e6-bbaea152e271",
+						"id": "01acd1c1-86b2-4423-9ba7-5b9725c0514f",
 						"name": "Drown in the Loch",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "f8eb4087-3a4c-4de8-8e29-f4cd71acb180",
+						"name": "Eliminate",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "88e35c80-6cfe-49fc-8138-562233ccf987",
+						"name": "Erebos's Intervention",
 						"types": [
 							"Instant"
 						]
@@ -198,7 +240,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b9a50516-a20f-4e6e-b4f2-0049b673f942",
+						"id": "6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7",
 						"name": "Fatal Push",
 						"types": [
 							"Instant"
@@ -206,7 +248,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e9be371c-c688-44ad-ab71-bd4c9f242d58",
+						"id": "b769ba9e-2ac8-48a9-9f45-23a4ccd0cb96",
 						"name": "Force of Negation",
 						"types": [
 							"Instant"
@@ -214,32 +256,8 @@
 					},
 					{
 						"count": "1",
-						"id": "ec136ce7-bad4-4ebb-ab00-b86de3d209a7",
+						"id": "dd60b291-0a88-4e8e-bef8-76cdfd6c8183",
 						"name": "Force of Will",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
-						"name": "Force Spike",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "4b11f693-716e-41de-a0ea-2a5178a284dc",
-						"name": "Gifts Ungiven",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "bda887f9-ea83-435e-b9d6-48f979a5fdb7",
-						"name": "Impulse",
 						"types": [
 							"Instant"
 						]
@@ -254,6 +272,14 @@
 					},
 					{
 						"count": "1",
+						"id": "4fa953a9-171c-4532-a352-40ce27eed3c4",
+						"name": "Leadership Vacuum",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "ce711943-c1a1-43a0-8b89-8d169cfb8e06",
 						"name": "Lightning Bolt",
 						"types": [
@@ -262,24 +288,8 @@
 					},
 					{
 						"count": "1",
-						"id": "84803db8-fdb0-462b-92f6-33d591593d2d",
-						"name": "Liliana's Triumph",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "0b54b6f3-9ee3-4f6e-bde6-b54fc038a132",
 						"name": "Mana Leak",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
-						"name": "Memory Lapse",
 						"types": [
 							"Instant"
 						]
@@ -302,24 +312,8 @@
 					},
 					{
 						"count": "1",
-						"id": "5045f15f-6bf9-43a9-a09c-904992625948",
+						"id": "337214ad-2976-4692-89c4-2c5001bf087f",
 						"name": "Mystic Confluence",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "fbe04cb8-a8b9-4241-baae-b398a2509a3a",
-						"name": "Mystical Dispute",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "323db259-d35e-467d-9a46-4adcb2fc107c",
-						"name": "Opt",
 						"types": [
 							"Instant"
 						]
@@ -334,10 +328,27 @@
 					},
 					{
 						"count": "1",
-						"id": "dc595c63-af05-4c05-80e8-e1a90df26b0f",
-						"name": "Remand",
+						"id": "866b7fd4-86e3-4b42-b1ea-33bad0db1f9f",
+						"name": "Prismari Command",
 						"types": [
 							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "d77f0731-fb40-4dc2-8530-afcb5ce1f27f",
+						"name": "Reject",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
+						"id": "11568cdf-6148-494c-8b98-f5ca5797d775",
+						"name": "Silundi Vision ",
+						"types": [
+							"Instant",
+							"Land"
 						]
 					},
 					{
@@ -350,30 +361,23 @@
 					},
 					{
 						"count": "1",
-						"id": "c513f51b-a0db-4c08-8acc-1e91060b93b7",
-						"name": "Tainted Pact",
+						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
+						"name": "Spikefield Hazard ",
 						"types": [
-							"Instant"
+							"Instant",
+							"Land"
 						]
 					},
 					{
 						"count": "1",
-						"id": "1421115b-9a98-4ab2-bcb2-7d8899ce12db",
-						"name": "Tale's End",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1a2ba191-f11c-47d3-8459-34b0e0e56fd9",
+						"id": "4c942af8-e5c1-47e0-a662-d9ef531f0dad",
 						"name": "Terminate",
 						"types": [
 							"Instant"
 						]
 					}
 				],
-				"count": 31,
+				"count": 30,
 				"type": "Instants"
 			},
 			{
@@ -388,7 +392,7 @@
 					},
 					{
 						"count": "1",
-						"id": "f7be5c0a-b538-4bc5-89c7-f5a81de7ccc3",
+						"id": "059e8447-6b1c-4651-a734-a8fea2cbf7b2",
 						"name": "Bloodchief's Thirst",
 						"types": [
 							"Sorcery"
@@ -404,15 +408,15 @@
 					},
 					{
 						"count": "1",
-						"id": "59dcf43b-a65f-43e4-a683-437021565f6a",
-						"name": "Collective Brutality",
+						"id": "d71a8ea5-199e-473e-a2b1-e2f7cc804ffc",
+						"name": "Cruel Ultimatum",
 						"types": [
 							"Sorcery"
 						]
 					},
 					{
 						"count": "1",
-						"id": "7fc1d7db-11a3-4ff9-8d27-1fe401053080",
+						"id": "941b65da-b9b3-4e15-bab5-bcbfd20dbe05",
 						"name": "Damnation",
 						"types": [
 							"Sorcery"
@@ -444,8 +448,8 @@
 					},
 					{
 						"count": "1",
-						"id": "819a513c-3be6-4bdc-8ba6-1f7326a8f3ea",
-						"name": "Fiery Confluence",
+						"id": "31b770cc-09e7-4c0b-b2a4-462ab4f7200d",
+						"name": "Expressive Iteration",
 						"types": [
 							"Sorcery"
 						]
@@ -460,8 +464,8 @@
 					},
 					{
 						"count": "1",
-						"id": "995486ce-58bb-4753-a812-0ca73ef1a235",
-						"name": "Gitaxian Probe",
+						"id": "501599d6-1072-4124-b05d-01f96de153f3",
+						"name": "Hard Evidence",
 						"types": [
 							"Sorcery"
 						]
@@ -484,7 +488,7 @@
 					},
 					{
 						"count": "1",
-						"id": "91382955-bcfc-4fb6-8cce-dc107e5b4c32",
+						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
 						"name": "Ponder",
 						"types": [
 							"Sorcery"
@@ -492,7 +496,7 @@
 					},
 					{
 						"count": "1",
-						"id": "c1ab73a5-6c55-4c30-a965-8adf3dba2ddd",
+						"id": "1453f92e-df2d-4789-aa1b-a5b5c51567d4",
 						"name": "Preordain",
 						"types": [
 							"Sorcery"
@@ -500,23 +504,15 @@
 					},
 					{
 						"count": "1",
-						"id": "6ca3457c-4924-4824-8f32-7f4a12d2e2ea",
-						"name": "Serum Visions",
+						"id": "8c8f3b5e-71b4-42e0-9ddb-630e3dcf1be7",
+						"name": "Pyroclasm",
 						"types": [
 							"Sorcery"
 						]
 					},
 					{
 						"count": "1",
-						"id": "f11cd406-c6ae-4018-ae45-4e5577aa82ae",
-						"name": "Sweltering Suns",
-						"types": [
-							"Sorcery"
-						]
-					},
-					{
-						"count": "1",
-						"id": "b281a308-ab6b-47b6-bec7-632c9aaecede",
+						"id": "e6e76c6b-9d60-4bc8-b88d-6c9c7fade9a6",
 						"name": "Thoughtseize",
 						"types": [
 							"Sorcery"
@@ -531,14 +527,14 @@
 						]
 					}
 				],
-				"count": 19,
+				"count": 18,
 				"type": "Sorceries"
 			},
 			{
 				"cards": [
 					{
 						"count": "1",
-						"id": "81ad48fa-9464-40bf-8bf5-af31a6a38fb3",
+						"id": "25ac5405-df7b-4097-914a-022cb18e20d4",
 						"name": "Arid Mesa",
 						"types": [
 							"Land"
@@ -562,7 +558,15 @@
 					},
 					{
 						"count": "1",
-						"id": "5faba6c8-3463-47c1-ba01-09eb87fcb2d5",
+						"id": "0ce39a19-f51d-4a35-ae80-5b82eb15fcff",
+						"name": "Blightstep Pathway ",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "1716b4dd-9045-462b-b053-72de450a8cde",
 						"name": "Blood Crypt",
 						"types": [
 							"Land"
@@ -586,14 +590,6 @@
 					},
 					{
 						"count": "1",
-						"id": "0a8b9d37-e89c-44ad-bd1b-51cb06ec3e0b",
-						"name": "Castle Vantress",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "b4b99ebb-0d54-4fe5-a495-979aaa564aa8",
 						"name": "Clearwater Pathway ",
 						"types": [
@@ -602,7 +598,7 @@
 					},
 					{
 						"count": "1",
-						"id": "86424491-a372-40c4-bfb5-faa2b2d41d4c",
+						"id": "3edb78c2-0a3c-46e1-a7ff-97dbd8402495",
 						"name": "Command Tower",
 						"types": [
 							"Land"
@@ -642,8 +638,8 @@
 					},
 					{
 						"count": "1",
-						"id": "3e84e179-9d59-4d08-8a36-51ad2fc32ae3",
-						"name": "Field of Ruin",
+						"id": "d313d051-7295-4884-8cbf-f2f835fd45f4",
+						"name": "Fabled Passage",
 						"types": [
 							"Land"
 						]
@@ -657,8 +653,8 @@
 						]
 					},
 					{
-						"count": "1",
-						"id": "bb15b40c-9795-42ae-9f88-8b8023b6c010",
+						"count": "2",
+						"id": "9e70c602-cb80-472b-9c8d-9625de084fe7",
 						"name": "Island",
 						"types": [
 							"Land"
@@ -666,15 +662,7 @@
 					},
 					{
 						"count": "1",
-						"id": "4cb8d03e-e1d2-451e-97a8-141082f92501",
-						"name": "Mana Confluence",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "723a163e-97c1-4177-a067-873bebd9a87d",
+						"id": "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42",
 						"name": "Marsh Flats",
 						"types": [
 							"Land"
@@ -682,7 +670,7 @@
 					},
 					{
 						"count": "1",
-						"id": "8ed80db2-b30d-4306-8d9f-a43cd77d37e3",
+						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
 						"name": "Misty Rainforest",
 						"types": [
 							"Land"
@@ -698,7 +686,7 @@
 					},
 					{
 						"count": "1",
-						"id": "e37da81e-be12-45a2-9128-376f1ad7b3e8",
+						"id": "991a1790-a3a2-4def-8848-cc698915a242",
 						"name": "Prismatic Vista",
 						"types": [
 							"Land"
@@ -722,7 +710,7 @@
 					},
 					{
 						"count": "1",
-						"id": "9f10f026-eba0-4e33-b465-f3a852402718",
+						"id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
 						"name": "Scalding Tarn",
 						"types": [
 							"Land"
@@ -730,7 +718,7 @@
 					},
 					{
 						"count": "1",
-						"id": "983d129b-809b-436e-bb66-3c7028709e50",
+						"id": "8886f31a-f12b-4ffa-992c-1f3b28e72da5",
 						"name": "Shivan Reef",
 						"types": [
 							"Land"
@@ -738,7 +726,7 @@
 					},
 					{
 						"count": "1",
-						"id": "3d7c3929-cd56-448d-9752-6d5f9d1fd778",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
 						"name": "Snow-Covered Island",
 						"types": [
 							"Land"
@@ -746,15 +734,7 @@
 					},
 					{
 						"count": "1",
-						"id": "685a9d6d-497b-44a1-963f-501d61ea7f66",
-						"name": "Snow-Covered Mountain",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "5dce8b37-50da-4f21-9664-e4d6ce6c4e3c",
+						"id": "6aa85af8-15f5-4620-8aea-0b45c28372ed",
 						"name": "Snow-Covered Swamp",
 						"types": [
 							"Land"
@@ -770,7 +750,7 @@
 					},
 					{
 						"count": "1",
-						"id": "b8ebe3cf-7143-453a-b0ef-2f5bdaac3185",
+						"id": "d516b248-c0be-4c49-83ab-393354c33563",
 						"name": "Steam Vents",
 						"types": [
 							"Land"
@@ -794,6 +774,14 @@
 					},
 					{
 						"count": "1",
+						"id": "ab950987-d88c-4326-98f4-1b1195788921",
+						"name": "Swamp",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
 						"id": "9b411380-878e-4f96-b9db-85bb3dec55d1",
 						"name": "Underground River",
 						"types": [
@@ -810,7 +798,7 @@
 					},
 					{
 						"count": "1",
-						"id": "02e17705-739e-409f-a6fd-7bab22120b22",
+						"id": "9e1a9e38-6ffc-490f-b0be-23ba4e8204c6",
 						"name": "Urborg, Tomb of Yawgmoth",
 						"types": [
 							"Land"
@@ -818,7 +806,7 @@
 					},
 					{
 						"count": "1",
-						"id": "397470c4-7f02-44ee-a18f-00bd950844d4",
+						"id": "94c229ea-90da-4aa0-bfda-b162fb3b5b8b",
 						"name": "Verdant Catacombs",
 						"types": [
 							"Land"
@@ -834,7 +822,15 @@
 					},
 					{
 						"count": "1",
-						"id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
+						"id": "dd0ee251-6c79-499b-8366-c281c989b061",
+						"name": "Wandering Fumarole",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "1",
+						"id": "67ef01b3-93f7-41e8-834d-9f6768e3b16c",
 						"name": "Watery Grave",
 						"types": [
 							"Land"
@@ -849,7 +845,7 @@
 						]
 					}
 				],
-				"count": 39,
+				"count": 43,
 				"type": "Lands"
 			}
 		],
