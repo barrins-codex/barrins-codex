@@ -69,73 +69,50 @@ if os.path.exists(fn):
 		if name in library:
 			ajout = _get(ligne)
 
+			if "Land" in ajout["types"]:
+				land["count"] = land["count"] + int(ajout["count"])
+
+				if len(ajout["types"]) == 1:
+					land["cards"].append(ajout)
+				elif "Creature" in ajout["types"]:
+					if "/" not in ligne:
+						crea["count"] = crea["count"] + int(ajout["count"])
+						land["cards"].append(ajout)
+						continue #: Will never add "Dryad Arbor" to Creatures
+				elif "Enchantment" in ajout["types"]:
+					if "/" not in ligne:
+						ench["count"] = ench["count"] + int(ajout["count"])
+						land["cards"].append(ajout)
+						continue #: Will never add Urza's Saga to Enchantments
+				elif "Artifact" in ajout["types"]:
+					if "/" not in ligne:
+						arti["count"] = arti["count"] + int(ajout["count"])
+						land["cards"].append(ajout)
+						continue #: Will never add Seat of the Synod to Artifacts
+
 			if "Creature" in ajout["types"]:
 				crea["count"] = crea["count"] + int(ajout["count"])
-				if "Land" not in ajout["types"]:
-					crea["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" in ligne:
-					# MDFC creature-land case
-					crea["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" not in ligne:
-					# Dryad Arbor case
-					land["count"] = land["count"] + int(ajout["count"])
-					land["cards"].append(ajout)
+				crea["cards"].append(ajout)
 
 			elif "Planeswalker" in ajout["types"]:
 				plan["count"] = plan["count"] + int(ajout["count"])
-				if "Land" not in ajout["types"]: #: usual case
-					plan["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" in ligne: #: (m)dfc
-					plan["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" not in ligne: #: hybrid types
-					land["count"] = land["count"] + int(ajout["count"])
-					land["cards"].append(ajout)
+				plan["cards"].append(ajout)
 
 			elif "Artifact" in ajout["types"]:
 				arti["count"] = arti["count"] + int(ajout["count"])
-				if "Land" not in ajout["types"]: #: usual case
-					arti["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" in ligne: #: (m)dfc
-					arti["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" not in ligne: #: hybrid types
-					land["count"] = land["count"] + int(ajout["count"])
-					land["cards"].append(ajout)
-
+				arti["cards"].append(ajout)
 
 			elif "Enchantment" in ajout["types"]:
 				ench["count"] = ench["count"] + int(ajout["count"])
-				if "Land" not in ajout["types"]: #: usual case
-					ench["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" in ligne: #: (m)dfc
-					ench["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" not in ligne: #: hybrid types
-					land["count"] = land["count"] + int(ajout["count"])
-					land["cards"].append(ajout)
-
+				ench["cards"].append(ajout)
 
 			elif "Instant" in ajout["types"]:
 				inst["count"] = inst["count"] + int(ajout["count"])
-				if "Land" not in ajout["types"]: #: usual case
-					inst["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" in ligne: #: (m)dfc
-					inst["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" not in ligne: #: hybrid types
-					land["count"] = land["count"] + int(ajout["count"])
-					land["cards"].append(ajout)
+				inst["cards"].append(ajout)
 
 			elif "Sorcery" in ajout["types"]:
 				sorc["count"] = sorc["count"] + int(ajout["count"])
-				if "Land" not in ajout["types"]: #: usual case
-					sorc["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" in ligne: #: (m)dfc
-					sorc["cards"].append(ajout)
-				if "Land" in ajout["types"] and "/" not in ligne: #: hybrid types
-					land["count"] = land["count"] + int(ajout["count"])
-					land["cards"].append(ajout)
-
-			elif "Land" in ajout["types"]:
-				land["count"] = land["count"] + int(ajout["count"])
-				land["cards"].append(ajout)
+				sorc["cards"].append(ajout)
 
 	# Fermeture du fichier
 	f.close()

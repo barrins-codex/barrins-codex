@@ -4,7 +4,7 @@ Changelog
 3.6.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix génération de decks
 
 
 3.6.7 (2021-08-06)
