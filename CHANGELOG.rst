@@ -6,6 +6,7 @@ Changelog
 
 - Update de la liste de Kinnan
 - Update de la liste d'Octavia
+- Modification de l'affichage des Lands MDFC
 
 
 3.6.6 (2021-07-29)

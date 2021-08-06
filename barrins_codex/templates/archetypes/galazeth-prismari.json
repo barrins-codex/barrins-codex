@@ -105,15 +105,6 @@
 					},
 					{
 						"count": "1",
-						"id": "f0ac295e-93e4-490b-b8a3-a9794c7f56e4",
-						"name": "Great Furnace",
-						"types": [
-							"Artifact",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "1e5d9c01-f8db-43ef-bb50-f9e38e99f8d0",
 						"name": "Lightning Greaves",
 						"types": [
@@ -166,15 +157,6 @@
 						"name": "Sapphire Medallion",
 						"types": [
 							"Artifact"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1fedc183-2d95-471c-ba78-2169e4df13f8",
-						"name": "Seat of the Synod",
-						"types": [
-							"Artifact",
-							"Land"
 						]
 					},
 					{
@@ -710,15 +692,6 @@
 					},
 					{
 						"count": "1",
-						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
-						"name": "Shatterskull Smashing ",
-						"types": [
-							"Sorcery",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "8886f31a-f12b-4ffa-992c-1f3b28e72da5",
 						"name": "Shivan Reef",
 						"types": [
@@ -782,7 +755,7 @@
 						]
 					}
 				],
-				"count": 41,
+				"count": 40,
 				"type": "Lands"
 			}
 		],

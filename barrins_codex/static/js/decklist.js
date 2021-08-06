@@ -9,6 +9,17 @@ function cardElement (element) {
 		line = line + ` <span title="banned on July 26th 2021"><i class="fas fa-exclamation-triangle"></i></span>`
 	}
 
+	// MDFC Land Cards
+	if ((element.types.length > 1) && (element.types.includes("Land"))) {
+		if (
+			(element.name != "Dryad Arbor")
+			&& !(element.types.includes("Enchantment"))
+			&& !(element.types.includes("Artifact"))
+		) {
+			line = line + ` <i class="fas fa-globe-europe"></i>`
+		}
+	}
+
 	return line + `</li>`
 }
 

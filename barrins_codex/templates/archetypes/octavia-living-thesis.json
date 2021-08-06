@@ -582,15 +582,6 @@
 					},
 					{
 						"count": "1",
-						"id": "301750a7-d1fd-435e-bfa8-9d2fb22ad627",
-						"name": "Jwari Disruption ",
-						"types": [
-							"Instant",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "7c05c946-66c3-4785-90f9-ca0c606e036b",
 						"name": "Mishra's Factory",
 						"types": [
@@ -646,33 +637,6 @@
 						]
 					},
 					{
-						"count": "1",
-						"id": "193071fe-180b-4d35-ba78-9c16675c29fc",
-						"name": "Sea Gate Restoration ",
-						"types": [
-							"Sorcery",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "1a7e242e-bb48-4134-a1c2-6033713d658f",
-						"name": "Search for Azcanta ",
-						"types": [
-							"Enchantment",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "11568cdf-6148-494c-8b98-f5ca5797d775",
-						"name": "Silundi Vision ",
-						"types": [
-							"Instant",
-							"Land"
-						]
-					},
-					{
 						"count": "26",
 						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
 						"name": "Snow-Covered Island",
@@ -689,7 +653,7 @@
 						]
 					}
 				],
-				"count": 42,
+				"count": 41,
 				"type": "Lands"
 			}
 		],

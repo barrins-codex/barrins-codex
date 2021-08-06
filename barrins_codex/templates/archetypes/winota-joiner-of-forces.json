@@ -748,24 +748,6 @@
 						]
 					},
 					{
-						"count": "1",
-						"id": "bc7239ea-f8aa-4a6f-87bd-c35359635673",
-						"name": "Shatterskull Smashing ",
-						"types": [
-							"Sorcery",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "014027c4-7f9d-4096-b308-ea4be574c0d4",
-						"name": "Skyclave Cleric ",
-						"types": [
-							"Creature",
-							"Land"
-						]
-					},
-					{
 						"count": "2",
 						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
 						"name": "Snow-Covered Mountain",
@@ -778,15 +760,6 @@
 						"id": "afd2730f-878e-47ee-ad2a-73f8fa4e0794",
 						"name": "Snow-Covered Plains",
 						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "1",
-						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
-						"name": "Spikefield Hazard ",
-						"types": [
-							"Instant",
 							"Land"
 						]
 					},

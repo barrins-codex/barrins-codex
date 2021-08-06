@@ -698,15 +698,6 @@
 					},
 					{
 						"count": "1",
-						"id": "a69541db-3f4e-412f-aa8e-dec1e74f74dc",
-						"name": "Spikefield Hazard ",
-						"types": [
-							"Instant",
-							"Land"
-						]
-					},
-					{
-						"count": "1",
 						"id": "4e587ea7-0632-4789-ba75-3c410da2bb96",
 						"name": "Spirebluff Canal",
 						"types": [
