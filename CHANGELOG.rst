@@ -4,7 +4,7 @@ Changelog
 4.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout d'une analyse de Arcades
 
 
 4.0.1 (2021-08-06)
