@@ -13,26 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/fr/archetypes/index.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/index.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/index.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/tools/index.html</loc>
-  <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://barrins-codex.org/fr/archetypes/adeliz-the-cinder-wind.html</loc>
   <lastmod>2021-07-28T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
@@ -152,16 +132,61 @@
   <lastmod>2021-07-28T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+<!-- Archetypes -->
 <url>
-  <loc>https://barrins-codex.org/fr/articles/lart-de-classifier-les-decks/index.html</loc>
+  <loc>https://barrins-codex.org/fr/archetypes/index.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<!-- Articles -->
+<url>
+  <loc>https://barrins-codex.org/fr/articles/index.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- Classifier un deck -->
+<url>
+  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/index.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/fr/articles/lart-de-bien-melanger-un-deck.html</loc>
+  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/les-macrotypes.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/les-archetypes.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/les-tiers.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/pour-aller-plus-loin.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<!-- articles "spot" -->
+<url>
+  <loc>https://barrins-codex.org/fr/articles/construire-un-deck.html</loc>
+  <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+
+<!-- Cartes thématiques -->
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/index.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- Mécaniques -->
 <url>
   <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
@@ -237,6 +262,29 @@
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<!-- Autres articles -->
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/les-mass-removals.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/les-piocheurs.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/les-spot-removals.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- Outils -->
+<url>
+  <loc>https://barrins-codex.org/fr/tools/index.html</loc>
+  <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://barrins-codex.org/fr/tools/combo-a-b.html</loc>
   <lastmod>2021-02-24T00:00:00+00:00</lastmod>
@@ -252,26 +300,4 @@
   <lastmod>2021-02-24T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/lart-de-classifier-les-decks/classification-en-macrotypes.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/lart-de-classifier-les-decks/categories-de-decks.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/lart-de-classifier-les-decks/classification-en-tiers.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/lart-de-classifier-les-decks/pour-aller-plus-loin.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
 </urlset>
