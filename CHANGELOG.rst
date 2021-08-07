@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'une analyse de Arcades
+- Retrait de l'article sur la complexité de Magic
 
 
 4.0.1 (2021-08-06)

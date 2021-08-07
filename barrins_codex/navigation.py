@@ -96,14 +96,6 @@ STRUCTURE = Nav(
 						Nav(lazy_gettext("Pour aller plus loin")),
 					],
 				),
-				Nav(
-					lazy_gettext("Complexité et Machine de Turing"),
-					index=True,
-					children=[
-						Nav(lazy_gettext("Jeu, Complexité et Résolution")),
-						Nav(lazy_gettext("Magic et Complexité")),
-					],
-				),
 				Nav(lazy_gettext("Construire un deck")),
 				Nav(lazy_gettext("Mélanger un deck")),
 			],
