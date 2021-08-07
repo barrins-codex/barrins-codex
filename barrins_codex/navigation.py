@@ -97,7 +97,6 @@ STRUCTURE = Nav(
 					],
 				),
 				Nav(lazy_gettext("Construire un deck")),
-				Nav(lazy_gettext("Mélanger un deck")),
 			],
 		),
 		Nav(
