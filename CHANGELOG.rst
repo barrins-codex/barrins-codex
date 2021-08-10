@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0.3 (unreleased)
+4.0.3 (2021-08-10)
 ------------------
 
 - [BETA only] Correction de l'intégration
