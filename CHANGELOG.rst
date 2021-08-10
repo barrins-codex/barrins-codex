@@ -9,6 +9,7 @@ Changelog
 - Retrait de l'article sur le mélange
 - Correction du sitemap
 - Update de la liste de Adeliz
+- [BETA only] Ajout d'un embed sur octavia
 
 
 4.0.1 (2021-08-06)
