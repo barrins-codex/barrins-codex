@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0.2 (unreleased)
+4.0.2 (2021-08-10)
 ------------------
 
 - Ajout d'une analyse de Arcades
