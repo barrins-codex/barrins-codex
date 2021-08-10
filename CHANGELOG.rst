@@ -4,7 +4,7 @@ Changelog
 4.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- [BETA only] Correction de l'intégration
 
 
 4.0.2 (2021-08-10)
