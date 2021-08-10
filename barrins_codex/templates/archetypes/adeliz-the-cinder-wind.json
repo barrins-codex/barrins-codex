@@ -1,7 +1,7 @@
 {
 	"name": "Adeliz, the Cinder Wind",
-	"player": "Thomas \"Lantariel\" Travert",
-	"date": "20/07/2021",
+	"player": "Nicolas Campiglia",
+	"date": "10/08/2021",
 	"command": {
 		"cards": [
 			{
@@ -26,6 +26,15 @@
 						"types": [
 							"Artifact",
 							"Creature"
+						]
+					},
+					{
+						"count": "1",
+						"id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+						"name": "Bonecrusher Giant ",
+						"types": [
+							"Creature",
+							"Instant"
 						]
 					},
 					{
@@ -55,16 +64,16 @@
 					},
 					{
 						"count": "1",
-						"id": "27933adb-9c7a-4248-9908-f01e6a6bf12c",
-						"name": "Dreadhorde Arcanist",
+						"id": "4ced112a-e775-4f97-97b3-74877e9dce12",
+						"name": "Dragon's Rage Channeler",
 						"types": [
 							"Creature"
 						]
 					},
 					{
 						"count": "1",
-						"id": "3989e920-05df-4b30-9ec3-e6ecaa436fce",
-						"name": "Faerie Seer",
+						"id": "27933adb-9c7a-4248-9908-f01e6a6bf12c",
+						"name": "Dreadhorde Arcanist",
 						"types": [
 							"Creature"
 						]
@@ -153,14 +162,6 @@
 						"count": "1",
 						"id": "a9738cda-adb1-47fb-9f4c-ecd930228c4d",
 						"name": "Ragavan, Nimble Pilferer",
-						"types": [
-							"Creature"
-						]
-					},
-					{
-						"count": "1",
-						"id": "d0e5f191-0b20-4bc4-b41e-36c53a182f85",
-						"name": "Siren Stormtamer",
 						"types": [
 							"Creature"
 						]
@@ -260,14 +261,6 @@
 					},
 					{
 						"count": "1",
-						"id": "416943f1-8416-4e3b-961f-b38df3986058",
-						"name": "Burst Lightning",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "1920dae4-fb92-4f19-ae4b-eb3276b8dac7",
 						"name": "Counterspell",
 						"types": [
@@ -308,32 +301,8 @@
 					},
 					{
 						"count": "1",
-						"id": "1d03d73f-0530-4125-8689-1c43e502e331",
-						"name": "Force Spike",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "0cf8cb1e-314a-4894-82df-f9812825f52e",
-						"name": "Galvanic Blast",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
 						"id": "1af92296-455a-425e-9397-a96d09937767",
 						"name": "Incinerate",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "4d8f0789-aa08-4ce5-8ed1-6544de1e3ed4",
-						"name": "Izzet Charm",
 						"types": [
 							"Instant"
 						]
@@ -372,6 +341,14 @@
 					},
 					{
 						"count": "1",
+						"id": "d0524213-198d-4c9f-a9ba-8906ec841b19",
+						"name": "Memory Lapse",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "61e9c6df-1c84-4eab-9076-a4feb6347c10",
 						"name": "Mental Misstep",
 						"types": [
@@ -396,6 +373,14 @@
 					},
 					{
 						"count": "1",
+						"id": "323db259-d35e-467d-9a46-4adcb2fc107c",
+						"name": "Opt",
+						"types": [
+							"Instant"
+						]
+					},
+					{
+						"count": "1",
 						"id": "25f98f02-9ada-4561-93fd-9cfcb0f48b5d",
 						"name": "Pyrokinesis",
 						"types": [
@@ -414,14 +399,6 @@
 						"count": "1",
 						"id": "44c5f884-d071-40c2-bb2c-925dc2197ea3",
 						"name": "Searing Spear",
-						"types": [
-							"Instant"
-						]
-					},
-					{
-						"count": "1",
-						"id": "59fa8e8d-bcb8-47bf-b71a-df11c8d0f2c9",
-						"name": "Shock",
 						"types": [
 							"Instant"
 						]
@@ -461,10 +438,9 @@
 					},
 					{
 						"count": "1",
-						"id": "3c7dfc93-36fe-499c-9019-cd45797ffbbf",
-						"name": "Tarfire",
+						"id": "7a960516-3864-4a7a-8117-d25dec0dd665",
+						"name": "Unsummon",
 						"types": [
-							"Tribal",
 							"Instant"
 						]
 					},
@@ -493,7 +469,7 @@
 						]
 					}
 				],
-				"count": 30,
+				"count": 27,
 				"type": "Instants"
 			},
 			{
@@ -502,6 +478,22 @@
 						"count": "1",
 						"id": "b7cef88c-0ad6-47c4-b6c8-f989586aa635",
 						"name": "Chain Lightning",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "819a513c-3be6-4bdc-8ba6-1f7326a8f3ea",
+						"name": "Fiery Confluence",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
+						"id": "4dd8bdbd-99c9-4fa7-936a-acc7f4238507",
+						"name": "Fire Ambush",
 						"types": [
 							"Sorcery"
 						]
@@ -524,6 +516,14 @@
 					},
 					{
 						"count": "1",
+						"id": "cf464f61-8a7f-493b-a80f-2f2b0ebd8bf6",
+						"name": "Incendiary Flow",
+						"types": [
+							"Sorcery"
+						]
+					},
+					{
+						"count": "1",
 						"id": "9cee2eb1-f60e-4626-ba4a-b543142ca950",
 						"name": "Ponder",
 						"types": [
@@ -540,22 +540,22 @@
 					},
 					{
 						"count": "1",
-						"id": "8405a6c8-1dfb-4ac5-b44c-bce9e4bcc38c",
-						"name": "Serum Visions",
+						"id": "86572747-8faa-4242-b059-07d11e6be1cd",
+						"name": "Roil Eruption",
 						"types": [
 							"Sorcery"
 						]
 					},
 					{
 						"count": "1",
-						"id": "1766d117-6ee1-4103-88e8-47b932a94d65",
-						"name": "Sleight of Hand",
+						"id": "9db3f454-4aeb-4e48-b961-bea760ea8ddf",
+						"name": "Volcanic Hammer",
 						"types": [
 							"Sorcery"
 						]
 					}
 				],
-				"count": 7,
+				"count": 10,
 				"type": "Sorceries"
 			},
 			{
@@ -617,25 +617,9 @@
 						]
 					},
 					{
-						"count": "8",
-						"id": "9e70c602-cb80-472b-9c8d-9625de084fe7",
-						"name": "Island",
-						"types": [
-							"Land"
-						]
-					},
-					{
 						"count": "1",
 						"id": "88231c0d-0cc8-44ec-bf95-81d1710ac141",
 						"name": "Misty Rainforest",
-						"types": [
-							"Land"
-						]
-					},
-					{
-						"count": "8",
-						"id": "edabc558-2c54-4c7b-a6fa-1e75ddcf12f9",
-						"name": "Mountain",
 						"types": [
 							"Land"
 						]
@@ -692,6 +676,22 @@
 						"count": "1",
 						"id": "8886f31a-f12b-4ffa-992c-1f3b28e72da5",
 						"name": "Shivan Reef",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "9",
+						"id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
+						"name": "Snow-Covered Island",
+						"types": [
+							"Land"
+						]
+					},
+					{
+						"count": "7",
+						"id": "5474e67c-628f-41b0-aa31-3d85a267265a",
+						"name": "Snow-Covered Mountain",
 						"types": [
 							"Land"
 						]

@@ -8,6 +8,7 @@ Changelog
 - Retrait de l'article sur la complexité de Magic
 - Retrait de l'article sur le mélange
 - Correction du sitemap
+- Update de la liste de Adeliz
 
 
 4.0.1 (2021-08-06)
