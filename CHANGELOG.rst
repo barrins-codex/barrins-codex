@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Amélioration des métadonnées
+- Correction des blocs de traduction concernant les cartes bannies
 - Intégration moxfield pour les decklists
 
 
