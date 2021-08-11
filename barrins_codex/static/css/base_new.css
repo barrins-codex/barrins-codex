@@ -261,7 +261,8 @@ div#analysis {
 	flex-direction: row;
 }
 div.review,
-div.decklist {
+div.decklist,
+#moxfield-frame {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0;
@@ -279,7 +280,8 @@ div.list {
 	clear: none;
 	position: relative;
 }
-div.decklist {
+div.decklist,
+#moxfield-frame  {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	border-radius: 1em;
@@ -480,7 +482,8 @@ article div.tip {
 		max-width: 80% !important;
 	}
 	div.review,
-	div.decklist {
+	div.decklist,
+	#moxfield-frame {
 		clear: both;
 		display: block;
 		max-width: 80%;
@@ -497,7 +500,8 @@ article div.tip {
 		margin-left: 8vw;
 		width: 54vw;
 	}
-	div.decklist {
+	div.decklist,
+	#moxfield-frame {
 		margin-left: 2vw;
 		width: 34vw;
 	}

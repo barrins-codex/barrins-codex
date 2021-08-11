@@ -4,7 +4,7 @@ Changelog
 4.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Intégration moxfield pour les decklists
 
 
 4.0.3 (2021-08-10)
