@@ -4,6 +4,7 @@ Changelog
 4.0.4 (unreleased)
 ------------------
 
+- Amélioration des métadonnées
 - Intégration moxfield pour les decklists
 
 

@@ -21,7 +21,7 @@
 	{% block head %}
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta property="og:title" content="{{ og_title|default('Barrin\'s Codex') }}" />
+	<meta property="og:title" content="{% block page_title %}Barrin's Codex{% if self.title() | trim %} - {% endif %}{% block title %}{% endblock %}{% endblock %}" />
 	<meta property="og:description"
 		content="{{ og_description|default('Ressources stratégiques pour le Duel Commander') }}" />
 	<meta property="og:image" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')) }}" />
@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/base_new.css') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/light-theme.css') }}" id="theme-link">
 	{% block scripts %}{% endblock %}
-	<title>Barrin's Codex{% if self.title() | trim %} - {% endif %}{% block title %}{% endblock %}</title>
+	<title>{{ self.page_title() }}</title>
 	{% endblock %}
 </head>
 
