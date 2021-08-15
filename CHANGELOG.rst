@@ -4,7 +4,7 @@ Changelog
 4.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Amélioration de la dénomination des pages
 
 
 4.1.0 (2021-08-11)

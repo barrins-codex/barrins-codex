@@ -2,10 +2,6 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/adeliz-the-cinder-wind.json" as deck_json %}
 
-{% block title %}
-Adeliz, the Cinder Wind
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}

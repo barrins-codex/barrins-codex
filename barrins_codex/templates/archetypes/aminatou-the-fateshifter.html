@@ -2,10 +2,6 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/aminatou-the-fateshifter.json" as deck_json %}
 
-{% block title %}
-Aminatou, the Fateshifter
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}

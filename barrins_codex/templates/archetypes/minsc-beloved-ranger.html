@@ -2,10 +2,6 @@
 {% import "archetypes/_layout_card_column.html" as layout with context %}
 {% import "archetypes/minsc-beloved-ranger.json" as deck_json %}
 
-{% block title %}
-Minsc, Beloved Ranger
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}

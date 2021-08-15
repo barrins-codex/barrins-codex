@@ -2,10 +2,6 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/the-omenkeel.json" as deck_json %}
 
-{% block title %}
-The Omenkeel
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}

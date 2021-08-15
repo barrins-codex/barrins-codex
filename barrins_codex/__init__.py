@@ -171,10 +171,20 @@ def linker():
 	def external(url, name):
 		return flask.Markup(f'<a target="_blank" rel="noreferrer" href="{url}">{name}</a>')
 
+	def title():
+		try:
+			name = navigation.HELPER.get(path, {}).get("self").name
+			if name != "Home":
+				return f"Barrin's Codex - {name}"
+			return f"Barrin's Codex"
+		except:
+			return f"Barrin's Codex - 404"
+
 	return dict(
 		i18n_url=i18n_url,
 		link=link,
 		translation=translation,
+		title=title,
 		top=top,
 		next=next,
 		prev=prev,

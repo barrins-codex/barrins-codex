@@ -2,10 +2,6 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/miara-tevesh.json" as deck_json %}
 
-{% block title %}
-Miara - Tevesh
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}
