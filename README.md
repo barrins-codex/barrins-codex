@@ -1,4 +1,10 @@
 # Barrin's Codex
+[![PyPI version](https://badge.fury.io/py/barrins-codex.svg)](https://badge.fury.io/py/barrins-codex)
+[![Validation](https://github.com/Spigushe/barrins-codex/actions/workflows/Validation/badge.svg)][https://github.com/Spigushe/barrins-codex]
+[![Python version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Code Style](https://img.shields.io/badge/code%20style-black-black)](https://github.com/psf/black)
+
 A website about MtG Duel Commander Strategy
 
 ## Special Thanks
