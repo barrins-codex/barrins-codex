@@ -6,6 +6,7 @@ Changelog
 
 - Amélioration de la dénomination des pages
 - Utilisation des checks de black et de flake8
+- Ajout de tests
 
 
 4.1.0 (2021-08-11)

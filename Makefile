@@ -11,3 +11,8 @@ po: po-update po-compile
 
 release:
 	fullrelease
+
+test:
+	black barrins_codex
+	flake8 barrins_codex
+	pytest
