@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.1.1 (unreleased)
+5.0.0 (2021-08-15)
 ------------------
 
 - Amélioration de la dénomination des pages
