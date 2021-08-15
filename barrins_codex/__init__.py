@@ -182,13 +182,10 @@ def linker():
         try:
             if navigation.HELPER.get(path, {}).get("self").path != "":
                 name = navigation.HELPER.get(path, {}).get("self").name
-                if navigation.HELPER.get(path, {}).get("top").path != "":
-                    top = navigation.HELPER.get(path, {}).get("top").name
-                    return f"Barrin's Codex - {top} {name}"
                 return f"Barrin's Codex - {name}"
         except AttributeError:
             pass
-        return "Barrin's Codex - 404"
+        return "Barrin's Codex"
 
     return dict(
         i18n_url=i18n_url,
