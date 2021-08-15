@@ -13,6 +13,6 @@ release:
 	fullrelease
 
 test:
-	black barrins_codex
-	flake8 barrins_codex
+	black .
+	flake8 .
 	pytest
