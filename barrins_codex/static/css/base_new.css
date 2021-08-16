@@ -261,8 +261,7 @@ div#analysis {
 	flex-direction: row;
 }
 div.review,
-div.decklist,
-#moxfield-frame {
+div.decklist{
 	display: inline-block;
 	vertical-align: top;
 	padding: 0;
@@ -280,8 +279,7 @@ div.list {
 	clear: none;
 	position: relative;
 }
-div.decklist,
-#moxfield-frame  {
+div.decklist  {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	border-radius: 1em;
@@ -482,8 +480,8 @@ article div.tip {
 		max-width: 80% !important;
 	}
 	div.review,
-	div.decklist,
-	#moxfield-frame {
+	div.detailed,
+	div.decklist {
 		clear: both;
 		display: block;
 		max-width: 80%;
@@ -492,18 +490,22 @@ article div.tip {
 	}
 }
 
-@media only screen and (min-width: 751px) {
+@media only screen and (min-width: 761px) {
 	div.column img {
 		min-height: 240px;
 	}
-	div.review {
-		margin-left: 8vw;
-		width: 54vw;
+	article > .review {
+		margin-left: 4vw;
+		width: 55vw;
 	}
-	div.decklist,
-	#moxfield-frame {
-		margin-left: 2vw;
-		width: 34vw;
+	article > .detailed {
+		margin-left: 8vw;
+		margin-right: 8vw;
+		margin-bottom: 5vh;
+	}
+	div.decklist {
+		margin-right: 4vw;
+		width: 35vw;
 	}
 	div.library {
 		display: flex;
