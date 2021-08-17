@@ -6,39 +6,44 @@
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}
 
-{% block moxfield %}
-ghTXBoESP0SlSSCr_QT-hg
-{% endblock %}
+{% block moxfield %}ghTXBoESP0SlSSCr_QT-hg{% endblock %}
 
 {% block highlights %}
-{% trans trimmed
-	contresort=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresort")),
-	degats=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégâts directs"))
-%}
 <p>
+	{% trans trimmed %}
 	De part sa capacité déclenchée, {{ adeliz_the_cinder_wind }} pousse à se rapprocher de
 	<em>UR Prowess</em>, deck tempo emblématique du Legacy et du Modern. Jouer tempo en Duel
 	Commander peut rapidement être récompensé car une fois l'avance prise dans la partie, il ne
 	reste qu'à protéger sa ou ses menaces. Cependant, dès que le jeu est forcé à prendre du retard,
 	il lui devient difficile de reprendre l'avantage.
+	{% endtrans %}
 </p>
 <p>
-	Le deck est également appelé <em>Adeliz Ten Bolts</em> en référence aux neuf cartes ayant un
+	{% trans trimmed
+		contresort=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresort"))
+	%}
+	Le deck est également appelé <em>Adeliz Ten Bolts</em> en référence aux cartes ayant un
 	effet similaire à {{ lightning_bolt }}. L'utilisation de ces cartes permet de dicter le rythme
 	de la partie en infligeant des {{ degats }} et en renforçant les créatures Sorcier sur le champ
 	de bataille.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Il ne faut pas toujours voir {{ adeliz_the_cinder_wind }} comme une créature de tour trois mais
 	plutôt comme une créature de tour cinq car elle devient beaucoup plus impactante lorsqu'au
 	moins un autre sort est joué le tour où elle arrive. Dans la majorité des parties, le deck tue
 	en deux à trois phases d'attaque.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		contresort=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresort"))
+	%}
 	Jouer {{ adeliz_the_cinder_wind }} tour cinq permet aussi de garantir un {{ contresort }} au
 	cas où l'adversaire souhaite interagir avec la générale. En effet, comme la majorité des decks
 	tempo, ce deck dispose d'une quantité correcte de contresorts pour protéger ses menaces et
 	ralentir le développement de l'adversaire.
+	{% endtrans %}
 </p>
-{% endtrans %}
 {% endblock %}

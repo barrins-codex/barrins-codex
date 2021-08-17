@@ -10,16 +10,9 @@
 iePNj6c1rU-Ltdzbsm-s3w
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Golos, Tireless Pilgrim</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed
-	removals=_("cartes de gestion de permanents")
-%}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	{{ golos_tireless_pilgrim }} est un deck basé sur les terrains et leur facilité à influencer le
 	cours de la partie. Le général permet d'en mettre un sur le champ de bataille lorsqu'il entre
 	lui-même en jeu. Parmi ces terrains, {{ bojuka_bog }} permet de gérer le cimetière de
@@ -27,26 +20,29 @@ iePNj6c1rU-Ltdzbsm-s3w
 	d'avoir plus facilement {{ emrakul_the_promised_end }} en main, {{ glacial_chasm }} offre une
 	solution contre les decks aggro et {{ valakut_the_molten_pinnacle }} met en place un moyen de
 	tuer l'adversaire.
+	{% endtrans %}
 </p>
 <p>
-	En plus des terrains, le deck est basé autour de la forte quantité de {{ removals }}. La très
-	grande majorité des cartes et des terrains sont noirs, ce qui permet de renforcer la présence
-	de {{ cabal_coffers }} dans le deck. Des cartes incolores comme {{ ugin_the_spirit_dragon }} ou
-	{{ emrakul_the_promised_end }} permettent de tirer profit de la quantité de mana.
+	{% trans trimmed %}
+	En plus des terrains, le deck est basé autour de la forte quantité de cartes de gestion de
+	permanents. La très grande majorité des cartes et des terrains sont noirs, ce qui permet de
+	renforcer la présence de {{ cabal_coffers }} dans le deck. Des cartes incolores comme
+	{{ ugin_the_spirit_dragon }} ou {{ emrakul_the_promised_end }} permettent de tirer profit de la
+	quantité de mana.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Enfin, {{ solemnity }} permet de ne pas mettre de marqueurs sur {{ glacial_chasm }} ou
 	{{ dark_depths }} qui peuvent être trouvés avec {{ golos_tireless_pilgrim }}.
 	{{ infernal_darkness }} est également jouée pour renforcer cette orientation du plan de jeu.
+	{% endtrans %}
 </p>
-{% endtrans %}
 
-{% trans trimmed %}
 <div class="warning">
-	<h3>Ce deck contient des cartes bannies</h3>
+	<h3>{{ _("Ce deck contient des cartes bannies") }}</h3>
 	<ul>
-		<li>{{ gifts_ungiven }} a été banni le 26 juillet 2021</li>
+		<li>{{ gifts_ungiven }} {{ _("a été banni le 26 juillet 2021") }}</li>
 	</ul>
 </div>
-{% endtrans %}
 {% endblock %}

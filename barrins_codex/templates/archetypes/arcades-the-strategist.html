@@ -6,47 +6,56 @@
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}
 
-{% block moxfield %}
-N1tgtUSFF0W2JfoCwxi3WQ
-{% endblock %}
+{% block moxfield %}N1tgtUSFF0W2JfoCwxi3WQ{% endblock %}
 
-{% block archetype_name %}
-<h1>Arcades, the Strategist</h1>
-{% endblock %}
-
-{% block archetype %}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	{{ arcades_the_strategist }} est un deck basé sur des créatures et des interactions. La
 	stratégie mise en œuvre par le commandant est la grande pression exercée par les murs de part
 	leur forte endurance.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Les couleurs de Bant permettent de fournir au jeu des outils efficaces d'interaction avec
 	l'adversaire tant proactifs que réactifs. Le fait que la majorité des créatures soient des murs
 	permet aussi d'affronter plus efficacement les decks agressifs.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Le flux de cartes est assuré par le commandant, ce qui permet de réduire le besoin de cartes
 	affectant le <i>Card Advantage</i> dans le deck. Quelques cartes sont présentes pour remplacer
 	le commandant si nécessaire : {{ assault_formation }} et {{ high_alert }} principalement.
+	{% endtrans %}
 </p>
-<h2>Trucs et astuces</h2>
+{% endblock %}
+
+{% block tips %}
 <p>
+	{% trans trimmed %}
 	Comprendre rapidement s'il est possible de prendre le contrôle de la partie en terme de pression
 	tant sur le champ de bataille que sur la qualité des cartes jouées est primordial pour piloter
 	correctement un deck tempo.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Les murs permettent de ralentir fortement aggro mais ne permettent pas de mettre les decks
 	contrôle en danger. Il est important de garder ses contresorts pour garantir la résolution du
 	commandant et pour le protéger. Jouer un contresort sur d'autres sorts n'est nécessaire que pour
 	garder la mainmise sur la partie.
+	{% endtrans %}
 </p>
-<h2>Variantes</h2>
+{% endblock %}
+
+{% block variants %}
 <p>
+	{% trans trimmed %}
 	La structure de ce deck est commune à beaucoup de deck tempo comme {{ jenara_asura_of_war }}.
 	Cependant, les choix de créatures varient à cause du coût en mana du commandant et des
 	synergies éventuelles.
+	{% endtrans %}
 </p>
 {% endblock %}

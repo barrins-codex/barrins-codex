@@ -22,18 +22,6 @@
 	</div>
 	{% endif %}
 
-	{%+ if self.moxfield()|trim %}
-	<div class="moxfield">
-		<iframe
-			src="https://www.moxfield.com/embed/{% block moxfield %}{% endblock %}?hideTotal=true"
-			id="moxfield-frame"
-			frameBorder="0"
-			width="100%"
-			onload="moxfieldOnLoad(event)"
-		></iframe>
-	</div>
-	{% endif %}
-
 	{%+ if self.tips()|trim %}
 	<div id="tips" class="detailed">
 		<h2>{{ _("Trucs et astuces") }}</h2>
@@ -45,6 +33,18 @@
 	<div id="variants" class="detailed">
 		<h2>{{ _("Variantes") }}</h2>
 		{% block variants %}{% endblock %}
+	</div>
+	{% endif %}
+
+	{%+ if self.moxfield()|trim %}
+	<div class="moxfield">
+		<iframe
+			src="https://www.moxfield.com/embed/{% block moxfield %}{% endblock %}?hideTotal=true"
+			id="moxfield-frame"
+			frameBorder="0"
+			width="100%"
+			onload="moxfieldOnLoad(event)"
+		></iframe>
 	</div>
 	{% endif %}
 
