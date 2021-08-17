@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-17 15:58+0200\n"
+"POT-Creation-Date: 2021-08-17 16:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -401,7 +401,7 @@ msgstr ""
 "threats or to disrupt the opponent's game."
 
 #: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:14
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:19
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:25
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:7
 msgid "contresorts"
 msgstr "counterspells"
@@ -443,11 +443,17 @@ msgstr ""
 # " out of some dire situations."
 #: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:36
 #: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:43
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:281
+#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:17
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:46
 msgid "Ce deck contient des cartes bannies"
 msgstr "This deck contains banned cards"
 
 #: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:38
 #: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:45
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:283
+#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:19
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:48
 msgid "a été banni le 26 juillet 2021"
 msgstr "has been banned on July, 26th 2021"
 
@@ -1474,171 +1480,323 @@ msgid ""
 " éléments de la combo) pour ne pas être épuisé au moment fatidique."
 msgstr ""
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:14
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:15
 #, python-format
 msgid ""
-"<p> %(kinnan_bonder_prodigy)s est un deck basé sur la capacité statique du "
+"%(kinnan_bonder_prodigy)s est un deck basé sur la capacité statique du "
 "commandant pour créer des quantités arbitrairement grandes de mana en "
-"réserve. Pour cela le deck se repose sur deux combos différentes : </p> <ul> "
-"<li> <strong>%(basalt_monolith)s</strong> :<br> Seule, cette carte permet de "
-"générer mana infini et donc de gagner avec %(walking_ballista)s par exemple ;"
-" </li> <li> <p> <strong> Une créature qui génère %(U)s et %(G)s et une aura "
-"qui la dégage </strong> :<br> Les créatures disponibles sont : "
-"%(birds_of_paradise)s, %(bloom_tender)s, %(incubation_druid)s, "
-"%(paradise_druid)s, %(sylvan_caryatid)s. Les auras sont "
-"%(freed_from_the_real)s et %(pemmins_aura)s. </p> </li> </ul>"
+"réserve. Pour cela le deck se repose sur deux combos différentes :"
 msgstr ""
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:41
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:24
 #, python-format
 msgid ""
-"<p> Le deck est assez dépendant des artefacts et une autre combo est ajoutée."
-" Il s'agit de %(painters_servant)s + %(grindstone)s qui permet de "
-"<em>meuler</em> le deck de l'adversaire (d'après le nom français de la carte "
-": %(meularde)s). </p> <p> Cette forte relation avec les artefacts se traduit "
-"également par la présence de %(urza_lord_high_artificer)s et "
-"%(emry_lurker_of_the_loch)s qui permettent des synergies intéressantes avec "
-"%(winter_orb)s ou %(aether_spellbomb)s par exemple. </p>"
+"Seule, cette carte permet de générer mana infini et donc de gagner avec "
+"%(walking_ballista)s par exemple ;"
 msgstr ""
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:58
-#, python-format
-msgid ""
-"<p> Certaines versions du deck se passent de telle ou de telle combo sans "
-"pour autant dévier dans la structure globale du deck. </p> <p> Une version "
-"avec des %(stompy)s a été testée pendant une période. Les résultats n'ont pas"
-" permis de statuer sur l'efficacité de la version. </p>"
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:32
+msgid "Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage"
 msgstr ""
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:17
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:34
+msgid "Les créatures disponibles sont :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:37
+msgid "Les auras sont "
+msgstr ""
+
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:46
 #, python-format
 msgid ""
-"<h2>Présentation rapide</h2> <p> %(magda_brazen_outlaw)s est est créature "
-"légendaire publiée dans Kaldheim. Elle coûte deux manas et ses capacités "
-"permettent de développer plusieurs stratégies : </p> <ul> <li> <strong>Les "
-"autres nains que vous contrôlez gagnent +1/+0</strong> :<br/> Jouer des nains"
-" permet de stabiliser un plan de jeu agressif et d'infliger des dégâts qui "
-"pourraient mettre fin à la partie rapidement. </li> <li> <strong>À chaque "
-"fois qu'un nain que vous contrôlez devient engagé, créez un jeton Trésor "
-"</strong> :<br/> Cette compétence permet de synergiser avec le plan ci-dessus"
-" et même peut-être en créer un en réhabilitant une stratégie datant de "
-"Amonkhet : %(throne_of_the_god_pharaoh)s. </li> <li> <strong>Sacrifiez cinq "
-"trésors : Cherchez dans votre bibliothèque une carte d'artefact ou de dragon,"
-" mettez cette carte sur le champ de bataille, puis mélangez votre "
-"bibliothèque </strong> :<br/> Cette capacité est celle sur laquelle toutes "
-"les versions du deck cherchent à capitaliser. Pour résumer, Magda permet "
-"d'attaquer, de générer du mana et de trouver la carte qu'il faut si "
-"nécessaire. Cela peut vouloir dire qu'il faut une combo dans le deck car "
-"l'aggro est assurée par les nains. </li> </ul> <h2>Trucs et astuces</h2> <p> "
+"Le deck est assez dépendant des artefacts et une autre combo est ajoutée. Il "
+"s'agit de %(painters_servant)s + %(grindstone)s qui permet de <em>meuler</em>"
+" le deck de l'adversaire (d'après le nom français de la carte : "
+"%(meularde)s)."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:55
+#, python-format
+msgid ""
+"Cette forte relation avec les artefacts se traduit également par la présence "
+"de %(urza_lord_high_artificer)s et %(emry_lurker_of_the_loch)s qui permettent"
+" des synergies intéressantes avec %(winter_orb)s ou %(aether_spellbomb)s par "
+"exemple."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:65
+msgid ""
+"Certaines versions du deck se passent de telle ou de telle combo sans pour "
+"autant dévier dans la structure globale du deck."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:71
+#, python-format
+msgid ""
+"Une version avec des %(stompy)s a été testée pendant une période. Les "
+"résultats n'ont pas permis de statuer sur l'efficacité de la version."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:14
+#, python-format
+msgid ""
+"%(magda_brazen_outlaw)s est est créature légendaire publiée dans Kaldheim. "
+"Elle coûte deux manas et ses capacités permettent de développer plusieurs "
+"stratégies :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:21
+msgid "Les autres nains que vous contrôlez gagnent +1/+0"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:22
+msgid ""
+"Jouer des nains permet de stabiliser un plan de jeu agressif et d'infliger "
+"des dégâts qui pourraient mettre fin à la partie rapidement."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:29
+msgid ""
+"À chaque fois qu'un nain que vous contrôlez devient engagé,\n"
+"\t\t\tcréez un jeton Trésor"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:32
+#, python-format
+msgid ""
+"Cette compétence permet de synergiser avec le plan ci-dessus et même peut-"
+"être en créer un en réhabilitant une stratégie datant de Amonkhet : "
+"%(throne_of_the_god_pharaoh)s."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:39
+msgid ""
+"Sacrifiez cinq trésors :\n"
+"\t\t\tCherchez dans votre bibliothèque une carte d'artefact ou de dragon,\n"
+"\t\t\tmettez cette carte sur le champ de bataille, puis mélangez votre "
+"bibliothèque"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:43
+msgid ""
+"Cette capacité est celle sur laquelle toutes les versions du deck cherchent à"
+" capitaliser. Pour résumer, Magda permet d'attaquer, de générer du mana et de"
+" trouver la carte qu'il faut si nécessaire. Cela peut vouloir dire qu'il faut"
+" une combo dans le deck car l'aggro est assurée par les nains."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:55
+msgid ""
 "Pour se passer de la dépendance à une phase d'attaque, le deck joue des "
 "véhicules pour engager les créatures quand cela est nécessaire. Une fois "
-"animé, un véhicule peut se piloter lui-même pour profiter au mieux du Trône. "
-"</p> <p> La combo du deck passe par la génération de jetons Trésor en "
-"utilisant %(clock_of_omens)s et une créature-artefact naine ou magda qui a "
-"gagné le type artefact. L'ajout de %(grinding_station)s permet de meuler "
-"l'adversaire ou d'être engagée à la place des jetons Trésor s'il y a besoin "
-"de mana. </p> <p> Les recruteurs (%(dwarven_recruiter)s et "
-"%(imperial_recruiter)s) peuvent trouver des nains selon les besoins : "
-"%(torbran_thane_of_red_fell)s pour plus d'agressivité, un nain artefact pour "
-"la combo ou %(dwarvent_bloodboiler)s pour engager les nains. L'Imperial peut "
-"également trouver %(reckless_fireweaver)s pour synergiser avec les "
-"différentes stratégies. </p> <h2>Variantes</h2> <p> Certaines versions du "
-"deck utilisent des dragons pour capitaliser sur l'agressivité et les dégâts. "
-"Dans un environnement propice aux decks du macrotype Contrôle, cela peut "
-"s'avérer difficile de finir une partie si aucun outil auxiliaire n'est "
-"disponible. </p> <p> Il existe également des versions encore plus focalisées "
-"sur l'aspect combo. C'est principalement le cas des decks Commander pour "
-"lesquels la stratégie aggro semble hors de propos au vu du nombre de points "
-"de vie à réduire. </p>"
+"animé, un véhicule peut se piloter lui-même pour profiter au mieux du Trône."
 msgstr ""
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:18
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:62
 #, python-format
 msgid ""
-"<h2>Présentation rapide</h2> <p> %(minsc_beloved_ranger)s est un deck basé "
-"sur les créatures et sur les combos que ces créatures créent entre elles. Le "
-"deck peut tout aussi bien prendre le rôle de l'agresseur que le rôle du combo"
-" selon les situations. L'idéal étant de privilégier l'agression à la mise en "
-"place de combos tant que les cartes ne sont pas réunies. Il ne faut pas "
-"hésiter à initier des combos lorsque la situation s'y prête. </p> <h2>Liste "
-"des combos</h2> <p> La capacité de %(minsc_beloved_ranger)s lui permet de "
-"prendre le rôle du moteur de sacrifice dans certaines boucles en transformant"
-" ses créatures en 0/0 de base, ce qui les tue assez souvent. </p> <p> L'idée "
-"ici est de présenter les combo principales, les variations sont à découvrir "
-"en jouant pour ne pas perdre l'intérêt de découvrir des combos soi-même. </p>"
-" <h3>Produire une quantité arbitrairement grande de mana</h3> <p> "
-"%(card_vizier)s %(card_druid)s </p> <p> <i> Il suffit alors d'utiliser la "
-"capacité de %(minsc_beloved_ranger)s sur Boo pour infliger suffisamment de "
-"dégâts. </i> </p> <h3>Gagner une quantité arbitrairement grande de points de "
-"vie</h3> <p> %(card_minsc)s %(card_vizier)s %(card_finks)s </p> <h3>Mettre "
-"toutes ses créatures en jeu</h3> <p> %(card_boonweaver)s %(card_pattern)s "
-"%(card_minsc)s %(card_karmic)s %(card_felidar)s %(card_reveillark)s </p> <p> "
-"<i> %(mogg_fanatic)s est un moyen de tuer son adversaire en le mettant dans "
-"la boucle à la place du géant. </i> </p> <h3>Créer une quantité "
-"arbitrairement grande de jetons de créatures</h3> <p> %(card_minsc)s "
-"%(card_pod)s %(card_felidar)s %(card_karmic)s %(card_kiki)s </p> <div "
-"class=\"tip\"> <h3>Mot de la fin</h3> <p> La liste et les combo présentés ici"
-" peuvent ne pas être la version finale du deck. En effet, la liste a été "
-"postée moins d'une semaine après la sortie officielle de l'extension "
-"<strong>Adventures in the Forgotten Realms</strong>. </p> </div>"
+"La combo du deck passe par la génération de jetons Trésor en utilisant "
+"%(clock_of_omens)s et une créature-artefact naine ou magda qui a gagné le "
+"type artefact. L'ajout de %(grinding_station)s permet de meuler l'adversaire "
+"ou d'être engagée à la place des jetons Trésor s'il y a besoin de mana."
 msgstr ""
-"<h2>Highlights</h2> <p> %(minsc_beloved_ranger)s is a creature-combo based "
-"deck. It can either be the beater or the combo depending on situations. It is"
-" recommended to plan for agressive plays rather than assembling some combos "
-"as long as some definitive plan has not been decided. The moment some combo "
-"is met, it is decent too consider playing towards it. </p> <h2>List of the "
-"main combos</h2> <p> %(minsc_beloved_ranger)s's ability is the key to "
-"sacrificing creatures as it can change their base power and toughness to 0, "
-"which is quite lethal most of the time. </p> <p> The purpose of this section "
-"is to present the major combos, leaving variants to the reader to find. </p> "
-"<h3>Producing an arbitrary big quantity of mana</h3> <p> %(card_vizier)s "
-"%(card_druid)s </p> <p> <i> %(minsc_beloved_ranger)s 's ability can then pump"
-" Boo to deal sufficient damages to the opponent. </i> </p> <h3>Gaining an "
-"arbitrary big quantity of lifepoints</h3> <p> %(card_minsc)s %(card_vizier)s "
-"%(card_finks)s </p> <h3>Putting every creature onto the battlefield</h3> <p> "
-"%(card_boonweaver)s %(card_pattern)s %(card_minsc)s %(card_karmic)s "
-"%(card_felidar)s %(card_reveillark)s </p> <p> <i> %(mogg_fanatic)s is a way "
-"to kill the opponent if it take the place of the Giant. </i> </p> "
-"<h3>Producing an arbitrary big quantity of tokens</h3> <p> %(card_minsc)s "
-"%(card_pod)s %(card_felidar)s %(card_karmic)s %(card_kiki)s </p> <div "
-"class=\"tip\"> <h3>Mot de la fin</h3> <p> The decklist and the combos shown "
-"here may not be the final version of the deck. This entry has been made less "
-"than a week after  <strong>Adventures in the Forgotten Realms</strong> has "
-"been released. </p> </div>"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:18
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:70
 #, python-format
 msgid ""
-"<h2>Présentation du général</h2> <p> %(orvar_the_all_form)s ne coûte qu'un "
-"seul coloré pour un coût total de quatre manas. Cela permet de jouer des "
-"terrains utilitaires sans diminuer les chances de lancer Orvar. Par contre, "
-"ses force et endurance sont un peu basses. Une 3/3 est sensible à "
-"%(lightning_bolt)s mais il y a des moyens de contourner ce problème. Enfin, "
-"les capacités d'Orvar sont : </p> %(ci_swarmyard)s <p> "
-"<strong>Changelin</strong><br> Cette capacité qui fournit tous les types de "
-"créature n'est pas anecdotique et fournit les meilleurs moyens de protéger "
-"%(orvar_the_all_form)s. </p> <p> <strong>À chaque fois que vous lancez un "
-"sort d'éphémère ou de rituel, s'il cible au moins un autre permanent que vous"
-" contrôlez, créez un jeton qui est une copie d'un de ces "
-"permanents.</strong><br> Cette capacité est la clé de voute du deck. En "
-"effet, l'objectif est d'utiliser au maximum cette capacité. Cette capacité ne"
-" permet de produire qu'un seul jeton et les cartes comme %(ghostly_flicker)s "
-"ne sont pas forcément à envisager. De même, cette capacité ne fonctionne que "
-"sur les permanents contrôlés, cela ne fonctionnera pas avec %(gilded_drake)s "
-"car la possession n'est pas prise en compte. Enfin, il est possible de copier"
-" n'importe quel permanent, que ce soit une créature, une terrain ou un "
+"Les recruteurs (%(dwarven_recruiter)s et %(imperial_recruiter)s) peuvent "
+"trouver des nains selon les besoins : %(torbran_thane_of_red_fell)s pour plus"
+" d'agressivité, un nain artefact pour la combo ou %(dwarvent_bloodboiler)s "
+"pour engager les nains. L'Imperial peut également trouver "
+"%(reckless_fireweaver)s pour synergiser avec les différentes stratégies."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:81
+msgid ""
+"Certaines versions du deck utilisent des dragons pour capitaliser sur "
+"l'agressivité et les dégâts. Dans un environnement propice aux decks du "
+"macrotype Contrôle, cela peut s'avérer difficile de finir une partie si aucun"
+" outil auxiliaire n'est disponible."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:88
+msgid ""
+"Il existe également des versions encore plus focalisées sur l'aspect combo. "
+"C'est principalement le cas des decks Commander pour lesquels la stratégie "
+"aggro semble hors de propos au vu du nombre de points de vie à réduire."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:15
+#, python-format
+msgid ""
+"%(minsc_beloved_ranger)s est un deck basé sur les créatures et sur les combos"
+" que ces créatures créent entre elles. Le deck peut tout aussi bien prendre "
+"le rôle de l'agresseur que le rôle du combo selon les situations. L'idéal "
+"étant de privilégier l'agression à la mise en place de combos tant que les "
+"cartes ne sont pas réunies. Il ne faut pas hésiter à initier des combos "
+"lorsque la situation s'y prête."
+msgstr ""
+"%(minsc_beloved_ranger)s is a creature-combo based deck. It can either be the"
+" beater or the combo deck depending on situations. It is recommended to plan "
+"for agressive plays rather than assembling some combos as long as some "
+"definitive plan has not yet been decided. The moment some combo piece is "
+"drawn, it is decent to consider playing towards it."
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:24
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:140
+msgid "Liste des combos"
+msgstr "List of the main combos"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:26
+#, python-format
+msgid ""
+"La capacité de %(minsc_beloved_ranger)s lui permet de prendre le rôle du "
+"moteur de sacrifice dans certaines boucles en transforma"
+msgstr ""
+"%(minsc_beloved_ranger)s's ability is the key to sacrificing creatures as it "
+"can change their base power and toughness to 0, which is quite lethal most of"
+" the time."
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:33
+msgid ""
+"L'idée ici est de présenter les combo principales, les variations sont à "
+"découvrir en jouant pour ne pas perdre l'intérêt de découvrir des combos soi-"
+"même."
+msgstr ""
+"The purpose of this section is to present the major combos, leaving variants "
+"to the reader to find."
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:39
+msgid "Produire une quantité arbitrairement grande de mana"
+msgstr "Producing an arbitrary big quantity of mana"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:46
+#, python-format
+msgid ""
+"Il suffit alors d'utiliser la capacité de %(minsc_beloved_ranger)s sur Boo "
+"pour infliger suffisamment de dégâts."
+msgstr ""
+"%(minsc_beloved_ranger)s 's ability can then pump Boo to deal sufficient "
+"damage to the opponent."
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:53
+msgid "Gagner une quantité arbitrairement grande de points de vie"
+msgstr "Gaining an arbitrary big quantity of life points"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:60
+msgid "Mettre toutes ses créatures en jeu"
+msgstr "Putting every creature from the deck onto the battlefield<"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:71
+#, python-format
+msgid ""
+"%(mogg_fanatic)s est un moyen de tuer son adversaire en le mettant dans la "
+"boucle à la place du géant."
+msgstr ""
+"%(mogg_fanatic)s is a way to kill the opponent if it takes the place of the "
+"Giant."
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:78
+msgid "Créer une quantité arbitrairement grande de jetons de créatures"
+msgstr "Producing an arbitrary big quantity of tokens"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:88
+msgid "Mot de la fin"
+msgstr "Closing words"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:90
+msgid ""
+"La liste et les combo présentés ici peuvent ne pas être la version finale du "
+"deck. En effet, la liste a été postée moins d'une semaine après la sortie "
+"officielle de l'extension <strong>Adventures in the Forgotten "
+"Realms</strong>."
+msgstr ""
+"The decklist and the combos shown here may not be the final version of the "
+"deck. This entry has been made less than a week after <strong>Adventures in "
+"the Forgotten Realms</strong> has been released."
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:15
+#, python-format
+msgid ""
+"%(orvar_the_all_form)s ne coûte qu'un seul coloré pour un coût total de "
+"quatre manas. Cela permet de jouer des terrains utilitaires sans diminuer les"
+" chances de lancer Orvar. Par contre, ses force et endurance sont un peu "
+"basses. Une 3/3 est sensible à %(lightning_bolt)s mais il y a des moyens de "
+"contourner ce problème. Enfin, les capacités d'Orvar sont :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:26
+msgid "Changelin"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:27
+#, python-format
+msgid ""
+"Cette capacité qui fournit tous les types de créature n'est pas anecdotique "
+"et fournit les meilleurs moyens de protéger %(orvar_the_all_form)s."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:34
+msgid ""
+"À chaque fois que vous lancez un sort d'éphémère ou de rituel, s'il cible au "
+"moins un autre permanent que vous contrôlez, créez un jeton qui est une copie"
+" d'un de ces permanents."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:40
+#, python-format
+msgid ""
+"Cette capacité est la clé de voute du deck. En effet, l'objectif est "
+"d'utiliser au maximum cette capacité. Cette capacité ne permet de produire "
+"qu'un seul jeton et les cartes comme %(ghostly_flicker)s ne sont pas "
+"forcément à envisager. De même, cette capacité ne fonctionne que sur les "
+"permanents contrôlés, cela ne fonctionnera pas avec %(gilded_drake)s car la "
+"possession n'est pas prise en compte. Enfin, il est possible de copier "
+"n'importe quel permanent, que ce soit une créature, une terrain ou un "
 "planeswalker peu importe si la cible du sort est encore en jeu lorsque la "
-"capacité d'Orver se résoud. </p> <p> <strong>Quand un sort ou une capacité "
-"qu'un adversaire contrôle vous contraint à vous défausser de cette carte, "
-"créez un jeton qui une copie d'un permanent ciblé.</strong><br> L'objectif "
-"est que le général soit en jeu ou en zone de commandement. Cette capacité "
-"peut s'avérer utile en cas de défausse adverse comme avec "
+"capacité d'Orver se résoud."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:52
+msgid ""
+"Quand un sort ou une capacité qu'un adversaire contrôle vous contraint à vous"
+" défausser de cette carte, créez un jeton qui une copie d'un permanent ciblé."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:57
+#, python-format
+msgid ""
+"L'objectif est que le général soit en jeu ou en zone de commandement. Cette "
+"capacité peut s'avérer utile en cas de défausse adverse comme avec "
 "%(liliana_of_the_veil)s. En effet, se renvoyer Orvar en main permet de copier"
-" un permanent et de le rejouer depuis la zone de commandement. </p> "
-"<h2>Présentation de la liste</h2> <div class=\"tip\"> <p> La liste du deck "
-"présentée est la version du 14 février 2021, elle peut avoir évolué depuis sa"
-" mise en ligne suite à des tests notamment. La présentation suit donc la "
-"liste présentée même si %(la_liste)s a évolé depuis. </p> </div> <p> "
+" un permanent et de le rejouer depuis la zone de commandement."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:65
+#, fuzzy
+msgid "Présentation de la liste"
+msgstr "Highlights"
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:69
+msgid "la liste"
+msgstr "the list"
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:68
+#, python-format
+msgid ""
+"La liste du deck présentée est la version du 14 février 2021, elle peut avoir"
+" évolué depuis sa mise en ligne suite à des tests notamment. La présentation "
+"suit donc la liste présentée même si %(la_liste)s a évolé depuis."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:80
+msgid "Les fetches"
+msgstr "Fetches"
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:79
+#, python-format
+msgid ""
 "Concernant la base de mana, le deck embarque un gros paquet de "
 "%(snow_covered_island)s pour %(arcums_astrolabe)s et pour bluffer la présence"
 " de %(ascendant_spirit)s. %(fetches)s permettent de trouver "
@@ -1648,260 +1806,439 @@ msgid ""
 "%(mishras_factory)s et %(griffin_canyon)s, si copiés suffisamment de fois, "
 "permettent à %(orvar_the_all_form)s de tuer l'adversaire en attaquant. Les "
 "derniers terrains utilitaires permettent d'accélérer la production de mana ou"
-" de piocher. </p> <p> Le deck se base très fortement sur les decks mono-bleu "
-": %(counterspells)s, %(cantrips)s et des classiques comme "
-"%(vedalken_shackles)s. Ces cartes permettent au deck de rester stable et de "
-"faire face à la majorité des menaces du format. L'utilisation de quelques "
-"planeswalkers permet d'être moins dépendant du général. </p> <p> "
+" de piocher."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:94
+msgid "des contres"
+msgstr "counterspells"
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:93
+#, python-format
+msgid ""
+"Le deck se base très fortement sur les decks mono-bleu : %(counterspells)s, "
+"%(cantrips)s et des classiques comme %(vedalken_shackles)s. Ces cartes "
+"permettent au deck de rester stable et de faire face à la majorité des "
+"menaces du format. L'utilisation de quelques planeswalkers permet d'être "
+"moins dépendant du général."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:95
+msgid "de la pioche"
+msgstr "some card draw"
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:104
+#, python-format
+msgid ""
 "%(thing_in_the_ice)s renvoie toutes les non-horreur et, grâce au Changeling, "
 "Orvar restera toujours sur le champ de bataille. La carte est donc idéale "
 "mais ne protègera pas le général d'un %(removal)s. Enfin, %(spellskite)s "
 "permet à la fois de résister face aux decks agressifs et de protéger le "
-"général. </p> <p> Il y a un module de créatures dites <em>untapper</em>, "
-"comme %(palinchron)s, qui permettent d'être dupliquées pour un coût moindre "
-"que la mana qu'elles génèrent. Ces créatures sont assez faibles par elles-"
-"mêmes mais sont nécessaires aux différentes combos du deck. %(body_double)s "
-"permet de s'assurer d'en récupérer au moins une sur %(intuition)s ou "
-"%(gifts_ungiven)s. </p> <p> Le second module important est celui des sorts "
-"avec Buyback. Ces sorts sont presque les seuls à créer des copies avec la "
-"capacité de %(orvar_the_all_form)s. Cela permet de garder une structure "
-"cohérente et de ne pas créer de trop forte dépendance au général. Il ne faut "
-"pas hésiter dans certains cas à les jouer sur un simple terrain en fin de "
-"tour pour décupler la mana disponible plus tard. Le meilleur est "
-"%(whim_of_volrath)s pour son faible coût, suivi de %(mind_games)s qui peut "
-"très bien être utilisé pour son effet initial. </p> <p> Enfin, des tuteurs "
-"partout et en pagaille. De %(spellseeker)s qui est un très bon permanent à "
-"copier et à recopier à %(merchant_scroll)s en passant par %(dizzy_spell)s et "
-"sa Transmutation. L'objectif de ces cartes est de faciliter l'assemblage des "
-"combos du deck. </p> <h2>Les combos du deck</h2> <div class=\"tip\"> <p> "
+"général."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:114
+#, python-format
+msgid ""
+"Il y a un module de créatures dites <em>untapper</em>, comme %(palinchron)s, "
+"qui permettent d'être dupliquées pour un coût moindre que la mana qu'elles "
+"génèrent. Ces créatures sont assez faibles par elles-mêmes mais sont "
+"nécessaires aux différentes combos du deck. %(body_double)s permet de "
+"s'assurer d'en récupérer au moins une sur %(intuition)s ou %(gifts_ungiven)s."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:123
+#, python-format
+msgid ""
+"Le second module important est celui des sorts avec Buyback. Ces sorts sont "
+"presque les seuls à créer des copies avec la capacité de "
+"%(orvar_the_all_form)s. Cela permet de garder une structure cohérente et de "
+"ne pas créer de trop forte dépendance au général. Il ne faut pas hésiter dans"
+" certains cas à les jouer sur un simple terrain en fin de tour pour décupler "
+"la mana disponible plus tard. Le meilleur est %(whim_of_volrath)s pour son "
+"faible coût, suivi de %(mind_games)s qui peut très bien être utilisé pour son"
+" effet initial."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:133
+#, python-format
+msgid ""
+"Enfin, des tuteurs partout et en pagaille. De %(spellseeker)s qui est un très"
+" bon permanent à copier et à recopier à %(merchant_scroll)s en passant par "
+"%(dizzy_spell)s et sa Transmutation. L'objectif de ces cartes est de "
+"faciliter l'assemblage des combos du deck."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:143
+msgid ""
 "Toutes les combos du deck suivent la structure suivante et en sont des "
-"dérivées : </p> %(card_orvar)s %(card_crystal)s %(card_whim)s <ol > <li> "
+"dérivées :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:150
+#, python-format
+msgid ""
 "Lancer %(whim_of_volrath)s sur un terrain qui produit du mana bleu et en "
-"payant sont coût de rappel pour 0 </li> <li>%(orvar_the_all_form)s crée une "
-"copie du terrain</li> <li>Recommencer l'étape 1</li> </ol> </div> <p> La "
-"combo présentée ci-dessus est une combo de structe <strong>A</strong> + "
+"payant sont coût de rappel pour 0"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:155
+msgid "crée une copie du terrain"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:156
+msgid "Recommencer l'étape 1"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:160
+msgid ""
+"La combo présentée ci-dessus est une combo de structe <strong>A</strong> + "
 "<strong>B</strong> + <strong>Orvar</strong>. A permet de créer du mana, B "
-"permet de copie le permanent qui produit du mana. Cela donne : </p> <ol style"
-"=\"list-style:upper-latin;\"> <li> Les <em>untappers</em> : %(palinchron)s, "
-"%(peregrine_drake)s, %(treachery)s, %(gilded_lotus)s et %(cloud_of_faeries)s "
-"sous conditions ; </li> <li> Les <em>buybackers</em> : %(whim_of_volrath)s, "
-"%(mind_games)s et %(clockspinning)s. </li> </ol> <p> Après avoir effectué "
-"cette combo, la mana à disposition est en quantité très importante, tout "
-"comme les créatures qui ont été copiées pour générer du mana dans la majorité"
-" des cas. Cette situation devrait suffire à tuer l'adversaire mais il est "
-"possible d'aller encore plus loin : il est possible de copier en quantité "
-"astronomique n'importe quel permanent, notamment %(mystic_sanctuary)s pour "
-"créer des boucles avec %(cryptic_command)s et/ou %(mystic_confluence)s et "
-"%(cantrips)s. </p> <ul> <li> Étape 1 : Copie de %(mystic_sanctuary)s, qui "
-"remet %(cryptic_command)s sur le dessus de la bilbiothèque ; </li> <li> Étape"
-" 2 : Utilisation %(cantrips)s, et copie %(mystic_sanctuary)s pour le remettre"
-" sur le dessus de la bilbiothèque ; </li> <li> Étape 3 : Lancement de "
-"%(cryptic_command)s avec n'importe quel mode et celui qui fait piocher ; "
-"</li> <li> Retour à l'étape 1. </li> </ul> <p> En choisissant le mode qui "
-"<em>renvoie un permanent dans la main de son propriétaire</em>, l'adversaire "
-"n'a plus de permanent. Cela ne suffit pas encore pour tuer. En remplaçant "
-"%(cryptic_command)s par %(mystic_confluence)s, il est possible de piocher sa "
-"bibliothèque et de trouver %(mishras_factory)s et %(griffin_canyon)s pour les"
-" copier autant de fois que nécessaire pour renforcer %(orvar_the_all_form)s "
-"et attaquer avec ce dernier pour tuer l'adversaire. </p> <p> Le deck permet "
-"de jouer quelques combos supplémentaires qu'il faut relever mais il faut "
-"également noter que ce n'est pas la volonté du deck de les assembler à tout "
-"prix dans la forme présentée ci-dessous : </p> <ul> <li> %(extraplanar_lens)s"
-" et %(palinchron)s permet de faire mana infini ; </li> <li> "
+"permet de copie le permanent qui produit du mana. Cela donne :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:168
+msgid "Les <em>untappers</em>, certains sous conditions :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:170
+msgid "et"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:173
+#, fuzzy
+msgid "Les <em>buybackers</em> :"
+msgstr "<em>tutors</em>"
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:178
+#, python-format
+msgid ""
+"Après avoir effectué cette combo, la mana à disposition est en quantité très "
+"importante, tout comme les créatures qui ont été copiées pour générer du mana"
+" dans la majorité des cas. Cette situation devrait suffire à tuer "
+"l'adversaire mais il est possible d'aller encore plus loin : il est possible "
+"de copier en quantité astronomique n'importe quel permanent, notamment "
+"%(mystic_sanctuary)s pour créer des boucles avec %(cryptic_command)s et/ou "
+"%(mystic_confluence)s et %(cantrips)s."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:189
+#, python-format
+msgid ""
+"Étape 1 : Copie de %(mystic_sanctuary)s, qui remet %(cryptic_command)s sur le"
+" dessus de la bilbiothèque ;"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:195
+#, python-format
+msgid ""
+"Étape 2 : Utilisation %(cantrips)s, et copie %(mystic_sanctuary)s pour le "
+"remettre sur le dessus de la bilbiothèque ;"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:201
+#, python-format
+msgid ""
+"Étape 3 : Lancement de %(cryptic_command)s avec n'importe quel mode et celui "
+"qui fait piocher ;"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:207
+msgid "Retour à l'étape 1"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:211
+#, python-format
+msgid ""
+"En choisissant le mode qui <em>renvoie un permanent dans la main de son "
+"propriétaire</em>, l'adversaire n'a plus de permanent. Cela ne suffit pas "
+"encore pour tuer. En remplaçant %(cryptic_command)s par "
+"%(mystic_confluence)s, il est possible de piocher sa bibliothèque et de "
+"trouver %(mishras_factory)s et %(griffin_canyon)s pour les copier autant de "
+"fois que nécessaire pour renforcer %(orvar_the_all_form)s et attaquer avec ce"
+" dernier pour tuer l'adversaire."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:221
+msgid ""
+"Le deck permet de jouer quelques combos supplémentaires qu'il faut relever "
+"mais il faut également noter que ce n'est pas la volonté du deck de les "
+"assembler à tout prix dans la forme présentée ci-dessous :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:229
+#, python-format
+msgid "%(extraplanar_lens)s et %(palinchron)s permet de faire mana infini ;"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:234
+#, python-format
+msgid ""
 "%(cryptic_command)s et %(mystic_sanctuary)s permet de ralentir la partie le "
 "temps de partir en combo réellement au prix de la perte du développement du "
-"nombre de terrains ; </li> <li> %(parallax_tide)s et un <em>buybacker</em> "
-"permet d'asphyxier l'adversaire avec Orvar en jeu. </li> </ul> <div "
-"class=\"tip\"> <h3>Les conseils de Soullessoni</h3> <p> Le combo ne "
-"fonctionne pas avec les cartes légendaires ! Le sort <em>buybacker</em> va "
-"déclencher la capacité d'Orvar, le jeton copie va être créé, et il faudra "
-"sacrifier un des deux permanents. Si l'original est sacrifié, le "
-"<em>buybacker</em> va perdre sa cible et être retiré de la pile pour être mis"
-" au cimetière. </p> <p> Les cartes à un mana qui ciblent un permanent, en "
-"général ou l'engager ou le dégager, ont été écartées car elles ne permettent "
-"généralement ni de cibler les terrains ni de faire piocher une carte. La "
-"seule exception dans la liste est %(thermal_flux)s qui peut servir de ramp à "
-"un mana. </p> <p> Une stratégie avec %(spellseeker)s est d'aller chercher un "
-"<em>buybacker</em> pour ensuite le copier et aller chercher "
-"%(merchant_scroll)s, qui trouve %(intuition)s, qui récupère %(palinchron)s, "
-"%(peregrine_drake)s ou %(body_double)s, et hop, combo. </p> </div> <p> <i> "
-"Soullessoni reste disponible sur <span class=\"brand-icon\" style=\"color: "
-"#758AD4;\">&#xf392</span> %(magic_biquette)s pour discuter du deck. </i> </p>"
+"nombre de terrains ;"
 msgstr ""
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:20
-msgid "la liste"
-msgstr "the list"
-
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:21
-msgid "Les fetches"
-msgstr "Fetches"
-
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:22
-msgid "des contres"
-msgstr "counterspells"
-
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:23
-msgid "de la pioche"
-msgstr "some card draw"
-
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:225
-#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:20
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:46
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:240
 #, python-format
 msgid ""
-"<div class=\"warning\"> <h3>Ce deck contient des cartes bannies</h3> <ul> "
-"<li>%(gifts_ungiven)s a été banni le 26 juillet 2021</li> </ul> </div>"
-msgstr ""
-" <div class=\"warning\"> <h3>This deck contains banned cards</h3> <ul> "
-"<li>%(gifts_ungiven)s has been banned on the 26th of July 2021.</li> </ul> "
-"</div>"
-
-#: barrins_codex/templates/archetypes/the-gitrog-monster.html:18
-#, python-format
-msgid ""
-"<h2>Présentation rapide</h2> <p> %(the_gitrog_monster)s est un deck créé dans"
-" le but d'utiliser au maximum les interactions avec les terrains. La facilité"
-" d'accès à des sorts de contrôle et l'utilisation d'un squelette comboisant "
-"en fait un des rares decks réellement <em>Contrôle-Combo</em> en Duel "
-"Commander. </p> <p> L'utilisation de terrains se traduit par la facilité à en"
-" mettre en jeu depuis la bibliothèque ou le cimetière et à les sacrifier pour"
-" tirer profit de la capacité de %(the_gitrog_monster)s faisant piocher. C'est"
-" cette pioche qui permet d'assembler les différentes combos du deck et "
-"d'avoir accès aux outils de gestion. </p> <p> Le deck est basé sur "
-"l'interaction entre %(splendid_reclamation)s et %(seasons_past)s. Ces deux "
-"cartes permettent de faire faire des aller-retours aux terrains entre le "
-"champ de bataille et le cimetière, fournissant une quantité importante de "
-"cartes en main. En ajoutant un moyen de sacrifier ses terrains, un moyen de "
-"générer du mana et un moyen de récupérer %(seasons_past)s dans son deck, il "
-"est possible de garantir une boucle qui génère une quantité mathématiquement "
-"élevée <em>à condition de tuer %(the_gitrog_monster)s avant de vider la "
-"bibliothèque</em>. L'ajout de %(collective_brutality)s ou de cartes "
-"similaires permet de transformer la boucle précedente en moyen de tuer "
-"l'adversaire. </p>"
+"%(parallax_tide)s et un <em>buybacker</em> permet d'asphyxier l'adversaire "
+"avec Orvar en jeu."
 msgstr ""
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:18
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:247
+msgid "Les conseils de Soullessoni"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:249
+msgid ""
+"Le combo ne fonctionne pas avec les cartes légendaires ! Le sort "
+"<em>buybacker</em> va déclencher la capacité d'Orvar, le jeton copie va être "
+"créé, et il faudra sacrifier un des deux permanents. Si l'original est "
+"sacrifié, le <em>buybacker</em> va perdre sa cible et être retiré de la pile "
+"pour être mis au cimetière."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:257
 #, python-format
 msgid ""
-"<h2>Présentation rapide</h2> <p> %(the_omenkeel)s est la face verso d'une "
-"carte double face modale publiée dans Kaldheim. Il s'agit d'un véhicule dont "
-"les capacités sont : </p> <ul> <li> <strong>À chaque fois qu'un véhicule que "
-"vous contrôlez inflige des blessures de combat à un joueur, ce joueur exile "
-"autant de cartes du dessus de sa bibliothèque. Vous pouvez jouer les terrains"
-" parmi ces cartes tant qu'elles restent exilées</strong> :<br/> Avoir une 3/3"
-" pour deux manas est déjà intéressant en mono-bleu. Cette capacité permet de "
-"jouer un nombre de terrains suffisamment faible pour continuer à jouer des "
-"terrains depuis les cartes exilées. </li> <li> <strong>Pilotage 1</strong> "
-":<br/> Le faible prérequis pour le Pilotage est très intéressant et permet de"
-" jouer des créatures utilitaires car elles seront rentabilisées par cette "
-"capacité. </li> </ul> <h2>Trucs et astuces</h2> <p> The Omenkeel donne "
-"virtuellement la célérité aux créatures ; en jouer une avant la phase "
-"d'attaque permet d'infliger de plus en plus de dégâts à l'adversaire. </p> "
-"<p> Lorsque le deck affronte un adversaire agressif dès le début de partie et"
-" que le premier tour est joué par l'adversaire, un swap sur "
+"Les cartes à un mana qui ciblent un permanent, en général ou l'engager ou le "
+"dégager, ont été écartées car elles ne permettent généralement ni de cibler "
+"les terrains ni de faire piocher une carte. La seule exception dans la liste "
+"est %(thermal_flux)s qui peut servir de ramp à un mana."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:265
+#, python-format
+msgid ""
+"Une stratégie avec %(spellseeker)s est d'aller chercher un <em>buybacker</em>"
+" pour ensuite le copier et aller chercher %(merchant_scroll)s, qui trouve "
+"%(intuition)s, qui récupère %(palinchron)s, %(peregrine_drake)s ou "
+"%(body_double)s, et hop, combo."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:274
+msgid "Soullessoni reste disponible pour discuter du deck sur "
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-gitrog-monster.html:15
+#, python-format
+msgid ""
+"%(the_gitrog_monster)s est un deck créé dans le but d'utiliser au maximum les"
+" interactions avec les terrains. La facilité d'accès à des sorts de contrôle "
+"et l'utilisation d'un squelette comboisant en fait un des rares decks "
+"réellement <em>Contrôle-Combo</em> en Duel Commander."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-gitrog-monster.html:22
+#, python-format
+msgid ""
+"L'utilisation de terrains se traduit par la facilité à en mettre en jeu "
+"depuis la bibliothèque ou le cimetière et à les sacrifier pour tirer profit "
+"de la capacité de %(the_gitrog_monster)s faisant piocher. C'est cette pioche "
+"qui permet d'assembler les différentes combos du deck et d'avoir accès aux "
+"outils de gestion."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-gitrog-monster.html:30
+#, python-format
+msgid ""
+"Le deck est basé sur l'interaction entre %(splendid_reclamation)s et "
+"%(seasons_past)s. Ces deux cartes permettent de faire faire des aller-retours"
+" aux terrains entre le champ de bataille et le cimetière, fournissant une "
+"quantité importante de cartes en main. En ajoutant un moyen de sacrifier ses "
+"terrains, un moyen de générer du mana et un moyen de récupérer "
+"%(seasons_past)s dans son deck, il est possible de garantir une boucle qui "
+"génère une quantité mathématiquement élevée <em>à condition de tuer "
+"%(the_gitrog_monster)s avant de vider la bibliothèque</em>. L'ajout de "
+"%(collective_brutality)s ou de cartes similaires permet de transformer la "
+"boucle précedente en moyen de tuer l'adversaire."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:15
+#, python-format
+msgid ""
+"%(the_omenkeel)s est la face verso d'une carte double face modale publiée "
+"dans Kaldheim. Il s'agit d'un véhicule dont les capacités sont :"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:23
+msgid ""
+"À chaque fois qu'un véhicule que vous contrôlez inflige des blessures de "
+"combat à un joueur, ce joueur exile autant de cartes du dessus de sa "
+"bibliothèque. Vous pouvez jouer les terrains parmi ces cartes tant qu'elles "
+"restent exilées"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:29
+msgid ""
+"Avoir une 3/3 pour deux manas est déjà intéressant en mono-bleu. Cette "
+"capacité permet de jouer un nombre de terrains suffisamment faible pour "
+"continuer à jouer des terrains depuis les cartes exilées."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:36
+msgid "Pilotage"
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:37
+msgid ""
+"Le faible prérequis pour le Pilotage est très intéressant et permet de jouer "
+"des créatures utilitaires car elles seront rentabilisées par cette capacité."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:47
+msgid ""
+"The Omenkeel donne virtuellement la célérité aux créatures ; en jouer une "
+"avant la phase d'attaque permet d'infliger de plus en plus de dégâts à "
+"l'adversaire."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/the-omenkeel.html:53
+#, python-format
+msgid ""
+"Lorsque le deck affronte un adversaire agressif dès le début de partie et que"
+" le premier tour est joué par l'adversaire, un swap sur "
 "%(hakka_whispering_raven)s permet de le ralentir et de construire une ligne "
 "solide d'attaquants. Hakka permet également de faire avancer le deck après "
 "une attaque si nécessaire. Alrund en fin de partie permet d'assurer un flux "
-"constant de cartes. </p> <h2>Variantes</h2> <p> Le plan de jeu est partagé "
-"par d'autres généraux : %(kira_great_glass_spinner)s, %(vendilion_clique)s et"
-" d'autres decks mono-bleu basés sur les créatures. </p>"
+"constant de cartes."
 msgstr ""
 
-#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:18
+#: barrins_codex/templates/archetypes/the-omenkeel.html:64
 #, python-format
 msgid ""
-"<h2>Présentation rapide</h2> <p> La générale, "
-"%(titania_protector_of_argoth)s, est une créature dont le coût en mana est "
-"assez élevé comparé à la moyenne du Duel Commander aux alentours de 4. De "
-"plus, sa faible endurance la rend sensible aux cartes comme "
-"%(lightning_bolt)s jouée dans une grande majorité des decks le pouvant. </p> "
-"<p> Après cet état des lieux à charge contre %(titania_protector_of_argoth)s,"
-" il faut noter ses points positifs. Sa capacité à ramener un terrain en jeu "
+"Le plan de jeu est partagé par d'autres généraux : "
+"%(kira_great_glass_spinner)s, %(vendilion_clique)s et d'autres decks mono-"
+"bleu basés sur les créatures."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:15
+#, python-format
+msgid ""
+"La générale, %(titania_protector_of_argoth)s, est une créature dont le coût "
+"en mana est assez élevé comparé à la moyenne du Duel Commander aux alentours "
+"de 4. De plus, sa faible endurance la rend sensible aux cartes comme "
+"%(lightning_bolt)s jouée dans une grande majorité des decks le pouvant."
+msgstr ""
+"The commander, %(titania_protector_of_argoth)s, is a creature with a fairly "
+"high mana value compared to the average commanders in Duel Commander which is"
+" around four. Moreover, its low toughness makes it susceptible to cards like "
+"%(lightning_bolt)s played in a vast majority of decks that are able to."
+
+#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:23
+#, python-format
+msgid ""
+"Après cet état des lieux à charge contre %(titania_protector_of_argoth)s, il "
+"faut noter ses points positifs. Sa capacité à ramener un terrain en jeu "
 "depuis le cimetière est un réel avantage car cela réduit virtuellement la "
 "taxe de commandant en ne demandant que de rejouer un terrain supplémentaire. "
 "De plus, sa capacité à générer des jetons de créature est le point fort le "
-"plus exploité dans ce deck. </p>"
+"plus exploité dans ce deck."
 msgstr ""
-"<h2>Highlights</h2> <p>The general, %(titania_protector_of_argoth)s, is a "
-"creature with a fairly high mana cost compared to the average in Duel "
-"Commander which is around four. Also, its low toughness makes it susceptible "
-"to cards like %(lightning_bolt)s played in a vast majority of decks that are "
-"able to. </p> <p> After this statement against "
-"%(titania_protector_of_argoth)s, its positive points must be noted. Its "
-"ability to bring a land into play from the graveyard is a real advantage as "
-"it virtually reduces the commander tax by only requiring to play an "
-"additional land. Additionally, its ability to create creature tokens is the "
-"most exploited strength in this deck. </p>"
+"After this statement against %(titania_protector_of_argoth)s, its positive "
+"points must be noted. Its ability to bring a land into play from the "
+"graveyard is a real advantage as it virtually reduces the commander tax to "
+"only requiring to play an additional land. Additionally, its ability to "
+"create creature tokens is the most exploited strength in this deck."
 
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:18
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:15
 #, python-format
 msgid ""
-"<h2>Présentation rapide</h2> <p> Venser est un deck tempo. C'est à dire un "
-"deck qui cherche à contrôler le rythme de la  partie. Pour se faire, le "
-"général, %(venser_shaper_savant)s, permet de gérer le tour 4, tour critique "
-"en Duel Commander. Le deck s'articule autour de 2 axes :  le tempo et les "
-"synergies. Ces dernières permettent au  deck de gagner ses parties et de "
-"compenser la restriction liée à l'identité couleur. </p> <p> Pour remplir son"
-" rôle de tempo, le deck utilise des %(contresorts)s, des %(bounces)s, des "
-"cartes qui génèrent du <em>Card Advantage</em> et des %(tuteurs)s. Il y a "
-"également des cartes pour contrôler et gagner certains matches : "
-"%(vedalken_shackles)s et %(old_man_of_the_sea)s contre aggro et "
-"%(search_for_azcanta)s contre contrôle par exemple. </p> <p> Les synergies du"
-" deck se basent sur des permanents, des équipements ou des créatures comme "
-"%(elder_deep_fiend)s, %(gilded_drake)s et %(thing_in_the_ice)s. L'une des "
-"meilleures cartes du deck est %(parallax_tide)s qui est souvent combinée avec"
-" des %(bounces)s. Une autre synergie consiste à allier "
-"%(narset_parter_of_veils)s ou %(hullbreacher)s et un effet comme celui de "
-"%(time_spiral)s. </p>"
+"Venser est un deck tempo. C'est à dire un deck qui cherche à contrôler le "
+"rythme de la  partie. Pour se faire, le général, %(venser_shaper_savant)s, "
+"permet de gérer le tour 4, tour critique en Duel Commander. Le deck "
+"s'articule autour de 2 axes :  le tempo et les synergies. Ces dernières "
+"permettent au  deck de gagner ses parties et de compenser la restriction liée"
+" à l'identité couleur."
 msgstr ""
 
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:21
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:24
+#, python-format
+msgid ""
+"Pour remplir son rôle de tempo, le deck utilise des %(contresorts)s, des "
+"%(bounces)s, des cartes qui génèrent du <em>Card Advantage</em> et des "
+"%(tuteurs)s. Il y a également des cartes pour contrôler et gagner certains "
+"matches : %(vedalken_shackles)s et %(old_man_of_the_sea)s contre aggro et "
+"%(search_for_azcanta)s contre contrôle par exemple."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:27
 msgid "<em>tuteurs</em>"
 msgstr "<em>tutors</em>"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:17
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:36
 #, python-format
 msgid ""
-"<h2>Présentation rapide</h2> <p> Il s'agit d'un deck agressif qui se "
-"transforme en deck combo lorsque %(winota_joiner_of_forces)s est sur le champ"
-" de bataille. En effet, sa capacité se déclenche pour chaque créature non-"
-"humaine qui est déclarée attaquante. </p> <p> Étant basée sur la structure "
-"d'un aggro classique, le deck se prend en main rapidement malgré la présence "
-"de plusieurs synergies discrètes qui permettent de renforcer la puissance du "
-"deck et l'expérience de jeu. Maitriser ces synergies permet d'accéder "
-"aisément aux tables hautes lors des tournois. </p> <p> Le rythme de la partie"
-" doit être dicté par ce deck. C'est aux créatures du deck d'installer une "
-"grosse pression (une <em>clock</em>) qui permet d'être l'agresseur "
-"rapidement. Il faut garder en tête que le deck joue des %(hatebear)s qui "
-"permettent de ralentir le développement de l'adversaire. </p> <p> La "
-"combinaison de couleur <em>Boros</em> donne accès aux meilleures créatures de"
-" %(taxe)s en blanc et les meilleures créatures %(aggro)s en rouge tout en "
-"gardant %(lightning_bolt)s pour des %(blasts)s. </p> <h2>Les Win-O-Maths</h2>"
+"Les synergies du deck se basent sur des permanents, des équipements ou des "
+"créatures comme %(elder_deep_fiend)s, %(gilded_drake)s et "
+"%(thing_in_the_ice)s. L'une des meilleures cartes du deck est "
+"%(parallax_tide)s qui est souvent combinée avec des %(bounces)s. Une autre "
+"synergie consiste à allier %(narset_parter_of_veils)s ou %(hullbreacher)s et "
+"un effet comme celui de %(time_spiral)s."
 msgstr ""
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:20
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:14
+#, python-format
+msgid ""
+"Il s'agit d'un deck agressif qui se transforme en deck combo lorsque "
+"%(winota_joiner_of_forces)s est sur le champ de bataille. En effet, sa "
+"capacité se déclenche pour chaque créature non-humaine qui est déclarée "
+"attaquante."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:21
+msgid ""
+"Étant basée sur la structure d'un aggro classique, le deck se prend en main "
+"rapidement malgré la présence de plusieurs synergies discrètes qui permettent"
+" de renforcer la puissance du deck et l'expérience de jeu. Maitriser ces "
+"synergies permet d'accéder aisément aux tables hautes lors des tournois."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:29
+#, python-format
+msgid ""
+"Le rythme de la partie doit être dicté par ce deck. C'est aux créatures du "
+"deck d'installer une grosse pression (une <em>clock</em>) qui permet d'être "
+"l'agresseur rapidement. Il faut garder en tête que le deck joue des "
+"%(hatebear)s qui permettent de ralentir le développement de l'adversaire."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:39
+#, python-format
+msgid ""
+"La combinaison de couleur <em>Boros</em> donne accès aux meilleures créatures"
+" de %(taxe)s en blanc et les meilleures créatures %(aggro)s en rouge tout en "
+"gardant %(lightning_bolt)s pour des %(blasts)s."
+msgstr ""
+
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:41
 msgid "agressives"
 msgstr "aggressives"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:21
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:42
 msgid "dégâts directs"
 msgstr "direct damages"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:52
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:50
+#, fuzzy
+msgid "Les Win-O-Maths"
+msgstr "Ik-O-Maths"
+
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:54
 #: barrins_codex/templates/tools/ikomaths.html:22
 msgid "Probabilité de réussites successives"
 msgstr "Probability of successive successes"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:54
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:56
 msgid "nombre d'humains :"
 msgstr "Number of humans:"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:58
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:60
 msgid "nombre de réussites max :"
 msgstr "maximum number of successes:"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:61
+#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:63
 #: barrins_codex/templates/tools/combo-a-b.html:49
 #: barrins_codex/templates/tools/ikomaths.html:35
 msgid "Calcul"
@@ -2186,25 +2523,52 @@ msgid "L'Art de classifier les decks"
 msgstr "The Art of Classifying Decks"
 
 #: barrins_codex/templates/articles/classifier-un-deck/index.html:6
-#, python-format
 msgid ""
-"<p> Au sens premier, le metagame est l'étude des différentes stratégies qu'un"
-" jeu permet. Avoir une vue globale des stratégies possibles et de leurs "
+"Au sens premier, le metagame est l'étude des différentes stratégies qu'un jeu"
+" permet. Avoir une vue globale des stratégies possibles et de leurs "
 "efficacités les unes par rapport aux autres est un point crucial pour "
 "progresser et améliorer son style de jeu. Vouloir regrouper les différents "
 "decks selon leurs points communs ou leurs startégies permet de mieux les "
-"étudier. Par conséquent, comment classer les decks ? </p> <p> Deux méthodes "
-"s'opposent : </p> <ul> <li> L'approche par <strong>archétype</strong> qui "
-"rassemble des decks similaires en terme de cartes jouées ; </li> <li> "
+"étudier. Par conséquent, comment classer les decks ?"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:15
+msgid "Deux méthodes s'opposent :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:19
+msgid ""
+"L'approche par <strong>archétype</strong> qui rassemble des decks similaires "
+"en terme de cartes jouées ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:25
+msgid ""
 "L'approche en <strong>macrotype</strong> qui rassemble des decks dont le plan"
 " de jeu est similaire. Cette approche rapproche un maximum de decks dans un "
-"minimum de macrotypes. </li> </ul> <p> Cet article est de taille conséquente "
-"; pour en faciliter la lecture, son contenu a été découpé en plusieurs "
-"sections : </p> <ul> <li> %(partie_1)s les plus répandus, leurs avantages et "
-"leurs limites ; </li> <li> %(partie_2)s et leurs liens avec les macrotypes ; "
-"</li> <li> %(partie_3)s et l'évolution d'un metagame avec le temps ; </li> "
-"<li> %(partie_4)s conclue cet article et propose des pistes de réflexion. "
-"</li> </ul>"
+"minimum de macrotypes."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:32
+msgid ""
+"Cet article est de taille conséquente ; pour en faciliter la lecture, son "
+"contenu a été découpé en plusieurs sections :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:40
+msgid "les plus répandus, leurs avantages et leurs limites ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:44
+msgid "et leurs liens avec les macrotypes ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:48
+msgid "et l'évolution d'un metagame avec le temps ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck/index.html:52
+msgid "conclue cet article et propose des pistes de réflexion."
 msgstr ""
 
 #: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:4
@@ -4223,194 +4587,3 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
-
-#~ msgid "Jouer et utiliser la capacité de {{ grenzo_dungeon_warden }}."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<h2>Présentation rapide</h2> <p> Jamais top "
-#~ "tier, jamais trash tier, Kess fait "
-#~ "partie de ces généraux peu fréquents "
-#~ "mais qui restent toujours présents peu "
-#~ "importe l’évolution du format. Avec une "
-#~ "bonne maîtrise du deck, réaliser une "
-#~ "bonne performance en tournoi est accessible."
-#~ " </p> <p> Jouer Contrôle peut être "
-#~ "un gros investissement financier au départ"
-#~ " qui est possible de rentabiliser. En "
-#~ "effet, chaque carte est jouable en "
-#~ "dehors de ce jeu et pourra trouver "
-#~ "une place ailleurs. </p> <p> Il est"
-#~ " nécessaire de maîtriser ce style de "
-#~ "jeu pour garder confiance lorsque la "
-#~ "partie semble être hors de contrôle. "
-#~ "L’éventail de couleurs de Grixis donne "
-#~ "accès à un panel non négligeable de"
-#~ " cartes extrêmement puissantes et même "
-#~ "doublement puissantes une fois Kess sur "
-#~ "la table et, surtout, stabilisée. En "
-#~ "effet, les performances de ce deck "
-#~ "dépendent de la présence de "
-#~ "%(kess_dissident_mage)s sur le champ de "
-#~ "bataille. </p> <h2>Construction du deck</h2> "
-#~ "<p> Comme n’importe quel deck Contrôle, "
-#~ "il est nécessaire de pouvoir jouer ses"
-#~ " cartes sans rencontrer de problèmes de"
-#~ " mana. Il faut donc pouvoir s’assurer "
-#~ "de jouer un terrain par tour en "
-#~ "early game avec un objectif de quatre"
-#~ " terrains au tour quatre. Il est "
-#~ "aussi important que chaque carte jouée "
-#~ "ait un impact correct sur l'état de"
-#~ " la partie. </p> <p> Le nombre de"
-#~ " terrains ne doit pas descendre en "
-#~ "dessous de 38 et ne pas monter "
-#~ "au-dessus de 42. En effet, hors de"
-#~ " ces bornes, les risques d'absence ou "
-#~ "de sur-représentation de terrains dans "
-#~ "les premiers tours sont très élevés et"
-#~ " cela risque d'endommager le bon déroulé"
-#~ " de la majorité des parties. </p> "
-#~ "<p> Conernant les créatures, elles doivent"
-#~ " permettre au deck de se développer "
-#~ "tout en interagissant avec l'adversaire. "
-#~ "Jouer des créatures permet non seulement "
-#~ "de temporiser ou de générer du "
-#~ "<em>Card Advantage</em> mais aussi de "
-#~ "bloquer les créatures adverses et grignoter"
-#~ " les points de vie de l’adversaire "
-#~ "avant que %(kess_dissident_mage)s ne vienne "
-#~ "finir le travail. </p> <p> Quoiqu’il "
-#~ "en soit, les créatures ne sont pas "
-#~ "le cœur du deck et dépasser huit "
-#~ "à neuf créatures limite la quantité "
-#~ "d'éphémères et de rituels qui sont "
-#~ "parfois plus efficaces grâce à leur "
-#~ "rejouabilité via %(kess_dissident_mage)s. C’est "
-#~ "pour cette raison qu’il faut également "
-#~ "limiter le nombre de planeswalkers. </p> "
-#~ "<p> Ensuite, les planewalkers qui offrent"
-#~ " une condition de victoire sont nombreux"
-#~ " dans Magic mais peu sont pertinents. "
-#~ "Il faut alors se demander quelle est"
-#~ " leur valeur ajoutée car les places "
-#~ "dans le  deck sont chères. Les "
-#~ "arguments en défaveur des arpenteurs sont"
-#~ " les mêmes que pour les  créatures "
-#~ ": ce sont des rituels qui demandent"
-#~ " une certaine quantité de mana, ce "
-#~ "qui laisse plus  de possibilité à "
-#~ "l'adversaire le tour où ils sont "
-#~ "joués. </p> <p> Enfin, pour maximiser "
-#~ "la puissance du deck et pour profiter"
-#~ " au maximum de %(kess_dissident_mage)s, les "
-#~ "éphémères et les rituels sont au "
-#~ "centre du deck et Grixis apporte la"
-#~ " combinaison de couleurs qui fournit le"
-#~ " plus de carte dans ces types. Il"
-#~ " faut donc trouver un équilibre entre "
-#~ "contresorts, moyens de gestion, piocheurs et"
-#~ " blasts. </p> <p> Posséder une ou "
-#~ "deux combos dans un deck peut être "
-#~ "rassurant pour débloquer certaines situations. "
-#~ "Même si elles sont marginales et peu"
-#~ " représentées, il en existe deux qui "
-#~ "peuvent être viables : </p> <p> ■ "
-#~ "%(jace_wielder_of_mysteries)s + %(tainted_pact)s<br> "
-#~ "%(tainted_pact)s est une carte jouée dans"
-#~ " la plupart des versions de "
-#~ "%(kess_dissident_mage)s mais %(jace_wielder_of_mysteries)s "
-#~ "beaucoup moins. Il est lourd à poser"
-#~ " et force l'assemblage de trois sources"
-#~ " bleues même s’il peut permettre de "
-#~ "bien creuser la bibliothèque. </p> <p> "
-#~ "■ %(ral_storm_conduit)s + %(chain_of_smog)s<br> "
-#~ "L'impact individuel des deux cartes est "
-#~ "très bas et même si %(chain_of_smog)s "
-#~ "peut faire du deux pour un, "
-#~ "%(ral_storm_conduit)s a un coût prohibitif "
-#~ "et une capacité de loyauté +1 "
-#~ "médiocre. </p> <h2>Jouer avec le deck</h2>"
-#~ " <p> Il n’existe pas de match avec"
-#~ " une issue connue d'avance, il faut "
-#~ "se battre pour gagner, c’est ce qui"
-#~ " rend le deck intéressant à jouer. "
-#~ "Plus que l'impact individuel des cartes "
-#~ "ou du général, ce qui compte le "
-#~ "plus sont la manière d'appréhender la "
-#~ "partie, la réponse aux menaces proposées "
-#~ "par l'adversaire et les décisions prises "
-#~ "tout au long de la partie. </p> "
-#~ "<p> Comme c'est un deck Contrôle, il"
-#~ " se joue de manière réactive. La "
-#~ "capacité à répondre à toute éventualité "
-#~ "dans les premiers tours dépend des "
-#~ "cartes actives, de leur quantité et de"
-#~ " leur qualité. </p> <p> Il ne faut"
-#~ " garder ni trop ni trop peu de "
-#~ "terrains en main de départ car cela"
-#~ " nuit à la quantité et à la "
-#~ "qualité des sorts qui peuvent être "
-#~ "lancés. Toutefois, l'objetctif est d'avoir "
-#~ "quatre terrains sur le champ de "
-#~ "bataille au tour quatre, donc les "
-#~ "mains de départ à trois ou quatre "
-#~ "terrains sont idéales. Seuls des "
-#~ "<em>cantrips</em> comme %(preordain)s et "
-#~ "%(serum_visions)s peuvent faire fléchir cette "
-#~ "règle. </p> <p> <strong>Aggro</strong><br> "
-#~ "%(lightning_bolt)s, %(fatal_push)s, et une "
-#~ "<em>wrath</em> comme %(toxic_deluge)s sculptent "
-#~ "les meilleures mains. Il ne faut "
-#~ "surtout pas hésiter à gérer chaque "
-#~ "créature de l'adversaire pour lui faire "
-#~ "perdre le maximum de pression sur le"
-#~ " champ de bataille. Il faut "
-#~ "impérativement maintenir un niveau de points"
-#~ " de vie suffisamment élevé avant "
-#~ "l’arrivée de %(kess_dissident_mage)s pour garder"
-#~ " une marge de manœuvre suffisante qui "
-#~ "permettra de tirer le meilleur de "
-#~ "Kess. </p> <p> <strong>Contrôle</strong><br> Des"
-#~ " <em>cantrips</em> (%(ponder)s et consorts), "
-#~ "des contres (%(counterspell)s et assimilés) "
-#~ "et de la défausse (%(thoughtseize)s et "
-#~ "autres) sont les armes à privilégier. "
-#~ "Une main remplie presque totalement de "
-#~ "cartes bleues face à Contrôle n’est "
-#~ "pas un souci, au contraire. Les "
-#~ "cantrips adverses ne sont pas une "
-#~ "menace, les arpenteurs et les tutors, "
-#~ "si. Les anti-bêtes sont à recycler "
-#~ "sur %(collective_brutality)s par exemple. Les "
-#~ "blasts peuvent être utiles face aux "
-#~ "arpenteurs ou pour grignoter les points "
-#~ "de vie de l’adversaire et le forcer"
-#~ " à prendre une position plus défensive,"
-#~ " ce qui le mettra en difficulté. "
-#~ "</p> <p> <strong>Combo</strong><br> De la "
-#~ "discard, de la gestion et des contres"
-#~ " sont tout aussi importants. Il faut "
-#~ "être capable de répondre à tout moment"
-#~ " à l’amorce d’une combo, c’est pourquoi"
-#~ " les cartes donnant l’information sur la"
-#~ " main adverse sont très importantes. Il"
-#~ " est toujours complexe de jouer contre"
-#~ " ce type de deck et il sera "
-#~ "sûrement nécessaire de laisser passer "
-#~ "quelques cartes qui ont un impact "
-#~ "correct sur la partie (parfois des "
-#~ "créatures, parfois des tutors, parfois des"
-#~ " éléments de la combo) pour ne pas"
-#~ " être épuisé au moment fatidique. </p>"
-#~ " <!-- <div class=\"tip\"> <h3>Anticiper le "
-#~ "style de jeu de l'adversaire</h3> <p> "
-#~ "Sauf cas particulier, il est possible "
-#~ "de déterminer le macrotype voire l’archétype"
-#~ " choisi par l’adversaire en voyant le "
-#~ "général. Cela permet donc d’estimer de "
-#~ "manière assez fiable si les cartes en"
-#~ " main auront un impact ou non. </p>"
-#~ " </div> -->"
-#~ msgstr ""
-

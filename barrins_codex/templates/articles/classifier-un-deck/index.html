@@ -2,54 +2,54 @@
 
 {% block content %}
 <h1>{{ _("L'Art de classifier les decks") }}</h1>
-{{ contributor.zombie33() }}
-{% trans trimmed
-	partie_1=link("/articles/classifier-un-deck/les-macrotypes"),
-	partie_2=link("/articles/classifier-un-deck/les-archetypes"),
-	partie_3=link("/articles/classifier-un-deck/les-tiers"),
-	partie_4=link("/articles/classifier-un-deck/pour-aller-plus-loin")
-%}
 <p>
+	{% trans trimmed %}
 	Au sens premier, le metagame est l'étude des différentes stratégies qu'un jeu permet. Avoir une
 	vue globale des stratégies possibles et de leurs efficacités les unes par rapport aux autres
 	est un point crucial pour progresser et améliorer son style de jeu. Vouloir regrouper les
 	différents decks selon leurs points communs ou leurs startégies permet de mieux les étudier.
 	Par conséquent, comment classer les decks ?
+	{% endtrans %}
 </p>
 <p>
-	Deux méthodes s'opposent :
+	{{ _("Deux méthodes s'opposent :") }}
 </p>
 <ul>
 	<li>
+		{% trans trimmed %}
 		L'approche par <strong>archétype</strong> qui rassemble des decks similaires en terme de
 		cartes jouées ;
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed %}
 		L'approche en <strong>macrotype</strong> qui rassemble des decks dont le plan de jeu est
 		similaire. Cette approche rapproche un maximum de decks dans un minimum de macrotypes.
+		{% endtrans %}
 	</li>
 </ul>
 <p>
+	{% trans trimmed %}
 	Cet article est de taille conséquente ; pour en faciliter la lecture, son contenu a été découpé
 	en plusieurs sections :
+	{% endtrans %}
 </p>
 <ul>
 	<li>
-		{{ partie_1 }}
-		les plus répandus, leurs avantages et leurs limites ;
+		{{ link("/articles/classifier-un-deck/les-macrotypes") }}
+		{{ _("les plus répandus, leurs avantages et leurs limites ;") }}
 	</li>
 	<li>
-		{{ partie_2 }}
-		et leurs liens avec les macrotypes ;
+		{{ link("/articles/classifier-un-deck/les-archetypes") }}
+		{{ _("et leurs liens avec les macrotypes ;") }}
 	</li>
 	<li>
-		{{ partie_3 }}
-		et l'évolution d'un metagame avec le temps ;
+		{{ link("/articles/classifier-un-deck/les-tiers") }}
+		{{ _("et l'évolution d'un metagame avec le temps ;") }}
 	</li>
 	<li>
-		{{ partie_4 }}
-		conclue cet article et propose des pistes de réflexion.
+		{{ link("/articles/classifier-un-deck/pour-aller-plus-loin") }}
+		{{ _("conclue cet article et propose des pistes de réflexion.") }}
 	</li>
 </ul>
-{% endtrans %}
 {% endblock %}

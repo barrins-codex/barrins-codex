@@ -10,48 +10,60 @@
 1jQDZ9z2gUGWeOut8UFANw
 {% endblock %}
 
-{% block archetype_name %}
-<h1>The Omenkeel</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed %}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
-	{{ the_omenkeel }} est la face verso d'une carte double face modale publiée dans Kaldheim. Il s'agit d'un véhicule dont les capacités sont :
+	{% trans trimmed %}
+	{{ the_omenkeel }} est la face verso d'une carte double face modale publiée dans Kaldheim. Il
+	s'agit d'un véhicule dont les capacités sont :
+	{% endtrans %}
 </p>
 <ul>
 	<li>
-		<strong>À chaque fois qu'un véhicule que vous contrôlez inflige des blessures de combat à
-		un joueur, ce joueur exile autant de cartes du dessus de sa bibliothèque. Vous pouvez jouer
-		les terrains parmi ces cartes tant qu'elles restent exilées</strong> :<br/>
+		<strong>
+			{% trans trimmed %}
+			À chaque fois qu'un véhicule que vous contrôlez inflige des blessures de combat à un
+			joueur, ce joueur exile autant de cartes du dessus de sa bibliothèque. Vous pouvez
+			jouer les terrains parmi ces cartes tant qu'elles restent exilées
+			{% endtrans %}
+		</strong> :<br/>
+		{% trans trimmed %}
 		Avoir une 3/3 pour deux manas est déjà intéressant en mono-bleu. Cette capacité permet de
 		jouer un nombre de terrains suffisamment faible pour continuer à jouer des terrains depuis
 		les cartes exilées.
+		{% endtrans %}
 	</li>
 	<li>
-		<strong>Pilotage 1</strong> :<br/>
+		<strong>{{ _("Pilotage") }} 1</strong> :<br/>
+		{% trans trimmed %}
 		Le faible prérequis pour le Pilotage est très intéressant et permet de jouer des créatures
 		utilitaires car elles seront rentabilisées par cette capacité.
+		{% endtrans %}
 	</li>
 </ul>
+{% endblock %}
 
-<h2>Trucs et astuces</h2>
+{% block tips %}
 <p>
+	{% trans trimmed %}
 	The Omenkeel donne virtuellement la célérité aux créatures ; en jouer une avant la phase
 	d'attaque permet d'infliger de plus en plus de dégâts à l'adversaire.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Lorsque le deck affronte un adversaire agressif dès le début de partie et que le premier tour
 	est joué par l'adversaire, un swap sur {{ hakka_whispering_raven }} permet de le ralentir et de
 	construire une ligne solide d'attaquants. Hakka permet également de faire avancer le deck après
 	une attaque si nécessaire. Alrund en fin de partie permet d'assurer un flux constant de cartes.
+	{% endtrans %}
 </p>
+{% endblock %}
 
-<h2>Variantes</h2>
+{% block variants %}
 <p>
+	{% trans trimmed %}
 	Le plan de jeu est partagé par d'autres généraux : {{ kira_great_glass_spinner }},
 	{{ vendilion_clique }} et d'autres decks mono-bleu basés sur les créatures.
+	{% endtrans %}
 </p>
-{% endtrans %}
 {% endblock %}

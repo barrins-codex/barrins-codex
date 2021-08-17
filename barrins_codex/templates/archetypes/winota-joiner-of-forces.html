@@ -9,43 +9,45 @@
 ApQ-U-RjQU6qZiLGn5Q9Xw
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Winota, Joiner of Forces</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed
-	hatebear=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe", "hatebears"),
-	taxe=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe", "taxe"),
-	aggro=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives", _("agressives")),
-	blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégâts directs"))
-%}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	Il s'agit d'un deck agressif qui se transforme en deck combo lorsque
 	{{ winota_joiner_of_forces }} est sur le champ de bataille. En effet, sa capacité se déclenche
 	pour chaque créature non-humaine qui est déclarée attaquante.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Étant basée sur la structure d'un aggro classique, le deck se prend en main rapidement malgré
 	la présence de plusieurs synergies discrètes qui permettent de renforcer la puissance du deck
 	et l'expérience de jeu. Maitriser ces synergies permet d'accéder aisément aux tables hautes
 	lors des tournois.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		hatebear=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe", "hatebears")
+	%}
 	Le rythme de la partie doit être dicté par ce deck. C'est aux créatures du deck d'installer une
 	grosse pression (une <em>clock</em>) qui permet d'être l'agresseur rapidement. Il faut garder
 	en tête que le deck joue des {{ hatebear }} qui permettent de ralentir le développement de
 	l'adversaire.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		taxe=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe", "taxe"),
+		aggro=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives", _("agressives")),
+		blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégâts directs"))
+	%}
 	La combinaison de couleur <em>Boros</em> donne accès aux meilleures créatures de {{ taxe }} en
 	blanc et les meilleures créatures {{ aggro }} en rouge tout en gardant {{ lightning_bolt }}
 	pour des {{ blasts }}.
+	{% endtrans %}
 </p>
 
-<h2>Les Win-O-Maths</h2>
-{% endtrans %}
+<h2>{{ _("Les Win-O-Maths") }}</h2>
 <form class="inline-form" id="win-o-math" autocomplete="off"
 	onsubmit="return calculate();">
 	<fieldset id="win-o-val">
