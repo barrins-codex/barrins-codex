@@ -2,24 +2,16 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/kinnan-bonder-prodigy.json" as deck_json %}
 
-{% block title %}
-Kinnan, Bonder Prodigy
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Kinnan, Bonder Prodigy</h1>
+{% block moxfield %}
+cny66XvaQkajgzFYTo2Pvg
 {% endblock %}
 
-{% block archetype %}
-{% trans trimmed
-	meularde=card("Grindstone", "Meularde"),
-	stompy=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", "créatures stompy")
-%}
-<h2>Présentation rapide</h2>
+{% block highlights %}
+{% trans trimmed %}
 <p>
 	{{ kinnan_bonder_prodigy }} est un deck basé sur la capacité statique du commandant pour créer
 	des quantités arbitrairement grandes de mana en réserve. Pour cela le deck se repose sur deux
@@ -42,8 +34,13 @@ Kinnan, Bonder Prodigy
 		</p>
 	</li>
 </ul>
+{% endtrans %}
+{% endblock %}
 
-<h2>Trucs et astuces</h2>
+{% block tips %}
+{% trans trimmed
+	meularde=card("Grindstone", "Meularde")
+%}
 <p>
 	Le deck est assez dépendant des artefacts et une autre combo est ajoutée. Il s'agit de
 	{{ painters_servant }} + {{ grindstone }} qui permet de <em>meuler</em> le deck de l'adversaire
@@ -54,8 +51,13 @@ Kinnan, Bonder Prodigy
 	{{ urza_lord_high_artificer }} et {{ emry_lurker_of_the_loch}} qui permettent des synergies
 	intéressantes avec {{ winter_orb }} ou {{ aether_spellbomb }} par exemple.
 </p>
+{% endtrans %}
+{% endblock %}
 
-<h2>Variantes</h2>
+{% block variants %}
+{% trans trimmed
+	stompy=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", "créatures stompy")
+%}
 <p>
 	Certaines versions du deck se passent de telle ou de telle combo sans pour autant dévier
 	dans la structure globale du deck.
@@ -64,12 +66,5 @@ Kinnan, Bonder Prodigy
 	Une version avec des {{ stompy }} a été testée pendant une période. Les résultats n'ont pas
 	permis de statuer sur l'efficacité de la version.
 </p>
-
-<div class="warning">
-	<h3>Ce deck contient des cartes bannies</h3>
-	<ul>
-		<li>{{ gifts_ungiven }} a été banni le 26 juillet 2021</li>
-	</ul>
-</div>
 {% endtrans %}
 {% endblock %}

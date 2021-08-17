@@ -2,12 +2,12 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/kelsien-the-plague.json" as deck_json %}
 
-{% block title %}
-Kelsien, the Plague
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block moxfield %}
+1M1O1mLnt0CNO5_LJ3SKbw
 {% endblock %}
 
 {% block archetype_name %}

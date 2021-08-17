@@ -11,3 +11,8 @@ po: po-update po-compile
 
 release:
 	fullrelease
+
+test:
+	black .
+	flake8 .
+	pytest

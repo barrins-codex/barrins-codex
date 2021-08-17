@@ -2,12 +2,12 @@
 {% import "archetypes/orvar-the-allform.json" as deck_json %}
 {% import "archetypes/_layout_card_column.html" as layout with context %}
 
-{% block title %}
-Orvar, the All-Form
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block moxfield %}
+TIDoYtb5LUW0gqkbv6MtRg
 {% endblock %}
 
 {% block archetype_name %}
@@ -220,7 +220,9 @@ Orvar, the All-Form
 		pour discuter du deck.
 	</i>
 </p>
+{% endtrans %}
 
+{% trans trimmed %}
 <div class="warning">
 	<h3>Ce deck contient des cartes bannies</h3>
 	<ul>

@@ -2,24 +2,19 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/adeliz-the-cinder-wind.json" as deck_json %}
 
-{% block title %}
-Adeliz, the Cinder Wind
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Adeliz, the Cinder Wind</h1>
+{% block moxfield %}
+ghTXBoESP0SlSSCr_QT-hg
 {% endblock %}
 
-{% block archetype %}
+{% block highlights %}
 {% trans trimmed
 	contresort=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresort")),
 	degats=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs", _("dégâts directs"))
 %}
-<h2>Présentation rapide</h2>
 <p>
 	De part sa capacité déclenchée, {{ adeliz_the_cinder_wind }} pousse à se rapprocher de
 	<em>UR Prowess</em>, deck tempo emblématique du Legacy et du Modern. Jouer tempo en Duel

@@ -2,12 +2,12 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/aminatou-the-fateshifter.json" as deck_json %}
 
-{% block title %}
-Aminatou, the Fateshifter
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block moxfield %}
+peaQ3xAUn0SoZHm4nIw4_A
 {% endblock %}
 
 {% block archetype_name %}
@@ -20,15 +20,22 @@ Aminatou, the Fateshifter
 %}
 <h2>Présentation rapide</h2>
 <p>
-	Principalement prison, {{ aminatou_the_fateshifter }} allie les {{ contresorts }} à la gestion de permanents par des permanents faisant leur effet en entrant sur le champ de bataille. Cela permet d'utiliser au maximum la capacité de loyauté -1 du planeswalker.
+	Principalement prison, {{ aminatou_the_fateshifter }} allie les {{ contresorts }} à la gestion
+	de permanents par des permanents faisant leur effet en entrant sur le champ de bataille. Cela
+	permet d'utiliser au maximum la capacité de loyauté -1 du planeswalker.
 </p>
 <p>
-	La qualité des cartes et la facilité à réutiliser certains effets font de ce deck un deck asphyxiant pour l'adversaire qui aura du mal à échapper à la prison que peut mettre en place {{ aminatou_the_fateshifter }}.
+	La qualité des cartes et la facilité à réutiliser certains effets font de ce deck un deck
+	asphyxiant pour l'adversaire qui aura du mal à échapper à la prison que peut mettre en place
+	{{ aminatou_the_fateshifter }}.
 </p>
 <p>
-	Certaines versions du deck utilisent la combo {{ rest_in_peace }} et {{ helm_of_obedience }} pour avoir une possibilité de se sortir de situations qui mettent la partie en péril.
+	Certaines versions du deck utilisent la combo {{ rest_in_peace }} et {{ helm_of_obedience }}
+	pour avoir une possibilité de se sortir de situations qui mettent la partie en péril.
 </p>
+{% endtrans %}
 
+{% trans trimmed %}
 <div class="warning">
 	<h3>Ce deck contient des cartes bannies</h3>
 	<ul>

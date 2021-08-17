@@ -2,12 +2,12 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/venser-shaper-savant.json" as deck_json %}
 
-{% block title %}
-Venser, Shaper Savant
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block moxfield %}
+dlWIPSBHxECyiKoaHsSSSw
 {% endblock %}
 
 {% block archetype_name %}
@@ -41,7 +41,9 @@ Venser, Shaper Savant
 	autre synergie consiste à allier {{ narset_parter_of_veils }} ou {{ hullbreacher }} et un effet
 	comme celui de {{ time_spiral }}.
 </p>
+{% endtrans %}
 
+{% trans trimmed %}
 <div class="warning">
 	<h3>Ce deck contient des cartes bannies</h3>
 	<ul>

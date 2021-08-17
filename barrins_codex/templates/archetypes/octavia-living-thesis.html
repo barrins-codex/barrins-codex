@@ -2,12 +2,12 @@
 {% import "archetypes/_layout_wip.html" as layout with context %}
 {% import "archetypes/octavia-living-thesis.json" as deck_json %}
 
-{% block title %}
-Octavia, Living Thesis
-{% endblock %}
-
 {% block meta %}
 <meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block moxfield %}
+U8Ud8J8DwUq46onfFxFzgQ
 {% endblock %}
 
 {% block archetype_name %}
