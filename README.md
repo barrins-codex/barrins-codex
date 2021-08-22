@@ -62,13 +62,48 @@ You can set the `DEBUG` environment variable to activate the debug mode:
 DEBUG=1 codex
 ```
 
-## Utils
+## Useful tools
+
 There are some utils provided in the codex:
 
-- decklist to JSON
+### Decklist Converter
+Using an alphabetically sorted decklist, just put `SB:` before every card in Command Zone.
 ```bash
 cd ./barrins_codex
 python ./build_deck.py PATH_TO_FILE
+```
+
+### Google Translate
+
+Use python and Google Translate to help with translation:
+
+```python
+import clipboard
+import pprint
+import re
+
+def pre():
+    s = "".join(s for s in clipboard.paste().split("\n"))
+    s = re.sub(r"%\(([^\)]*)\)s", r"§KEEP\1§", s)
+    clipboard.copy(s)
+
+def post():
+    s = clipboard.paste()
+    s = pprint.pformat(re.sub(r"§KEEP([^§]*)§", r"%(\1)s", s), width=88)
+    s = re.sub(
+            r"(^')|('$)",
+            '"',
+            re.sub(r"^\s*", "", s[1:-1], flags=re.MULTILINE),
+            flags=re.MULTILINE
+        ).replace("\\n", "")
+    clipboard.copy(s)
+
+# usage:
+#  > copy paragraph to translate from the PO file
+# pre()
+# > copy translation
+# post()
+# > copy result to the PO file
 ```
 
 ## Versioning
