@@ -64,16 +64,18 @@
 			<div class="theme-switch">
 				<div class="theme-toggle">Toggle Dark Mode</div>
 			</div>
-			<!--
-			<nav role="translation">
-				<ul>
-					<li>{{ translation('en', "🇬🇧") }}</li>
-					<li>{{ translation('fr', "🇫🇷") }}</li>
-				</ul>
-			</nav>
-			-->
 		</div>
 		{% block banner %}{% endblock %}
+		{%+ if lang == "en" %}
+		<div class="tip" style="margin: 0 5%;margin-top: 1em;text-align: center;">
+			<p>
+				{% trans trimmed %}
+				Le Codex est en cours de traduction, il se peut qu'une partie du site ne soit pas
+				traduit dans la langue sélectionnée.
+				{% endtrans %}
+			</p>
+		</div>
+		{% endif %}
 	</header>
 
 	{% block card_display %}

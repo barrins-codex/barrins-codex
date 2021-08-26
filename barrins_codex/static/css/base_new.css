@@ -421,7 +421,8 @@ article div.warning {
 /****************
  *      TIP     *
  **************** */
-article div.tip {
+article div.tip,
+header div.tip {
 	padding: 0.5em 2em;
 	border-radius: 1em;
 	margin: 1.5em;

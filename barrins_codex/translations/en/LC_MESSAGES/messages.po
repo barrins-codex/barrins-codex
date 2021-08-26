@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-26 20:07+0200\n"
+"POT-Creation-Date: 2021-08-26 20:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -285,6 +285,14 @@ msgstr ""
 " Fan Content Policy. <br>Not approved/endorsed by %(wizards_of_the_coast)s. </p><p> "
 "Portions of the materials used are property of Wizards of the Coast. "
 "©%(wizards_of_the_coast)s LLC. </p>"
+
+#: barrins_codex/templates/layout.html:80
+msgid ""
+"Le Codex est en cours de traduction, il se peut qu'une partie du site ne soit pas "
+"traduit dans la langue sélectionnée."
+msgstr ""
+"The Codex is being translated, part of the site may not be translated into the "
+"selected language."
 
 #: barrins_codex/templates/archetypes/_layout.html:20
 msgid "Présentation rapide"

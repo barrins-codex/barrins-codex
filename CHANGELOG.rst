@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Refactoring "Classifier un deck"
+- [PARTIEL] Traduction du site en anglais
 
 
 5.0.1 (2021-08-26)
