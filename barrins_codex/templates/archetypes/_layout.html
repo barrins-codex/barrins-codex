@@ -82,24 +82,24 @@
 		const content = document.querySelector('meta[property="decklist"]').content
 		const decklist = JSON.parse(JSON.parse(content))
 		displayDeck(decklist)
-		tippy('span.card', {
-			touchHold: true,
-			hideOnClick: false,
-			interactive: true,
-			placement: 'right',
-			distance: 20,
-			arrow: true,
-			animateFill: false,
-			animation: 'shift-away',
-			// In ES5 as you don't have a transpilation step(?):
-			onShow: function(instance) {
-				var img = instance.popper.querySelector('img');
-				img.src = img.dataset.src;
-			}
-		});
 	}
 	// Not displaying moxfield frame
 	document.getElementById("moxfield-frame").style.display = "none";
 {% endif %}
+tippy('span.card', {
+	touchHold: true,
+	hideOnClick: false,
+	interactive: true,
+	placement: 'right',
+	distance: 20,
+	arrow: true,
+	animateFill: false,
+	animation: 'shift-away',
+	// In ES5 as you don't have a transpilation step(?):
+	onShow: function(instance) {
+		var img = instance.popper.querySelector('img');
+		img.src = img.dataset.src;
+	}
+});
 </script>
 {% endblock %}

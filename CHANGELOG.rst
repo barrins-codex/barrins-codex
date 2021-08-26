@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout d'une vidéo de decktech de Isamaru
+- Correction d'un problème d'affichage
 
 
 5.0.0 (2021-08-15)
