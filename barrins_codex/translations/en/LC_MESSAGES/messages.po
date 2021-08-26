@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-22 18:26+0200\n"
+"POT-Creation-Date: 2021-08-26 18:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -123,124 +123,107 @@ msgstr "Winota, Joiner of Forces"
 msgid "Articles"
 msgstr "Articles"
 
-#: barrins_codex/navigation.py:90
+#: barrins_codex/navigation.py:89
 msgid "Classifier un deck"
 msgstr "Classifying decks"
 
-#: barrins_codex/navigation.py:93
-msgid "Les macrotypes"
-msgstr "Macrotypes"
-
-#: barrins_codex/navigation.py:94
-msgid "Les archétypes"
-msgstr "Archetypes"
-
-#: barrins_codex/navigation.py:95
-msgid "Les tiers"
-msgstr "Tiers"
-
-#: barrins_codex/navigation.py:96
-#: barrins_codex/templates/articles/classifier-un-deck/pour-aller-plus-loin.html:4
-msgid "Pour aller plus loin"
-msgstr "Afterwords"
-
-#: barrins_codex/navigation.py:99
+#: barrins_codex/navigation.py:90
 msgid "Construire un deck"
 msgstr "Building decks"
 
-#: barrins_codex/navigation.py:103 barrins_codex/templates/cartes-thematiques/index.html:4
+#: barrins_codex/navigation.py:94 barrins_codex/templates/cartes-thematiques/index.html:4
 msgid "Cartes thématiques"
 msgstr "Theme Cards"
 
-#: barrins_codex/navigation.py:107
+#: barrins_codex/navigation.py:98
 msgid "Mécaniques de la colorpie"
 msgstr "Mechanics of the colorpie"
 
-#: barrins_codex/navigation.py:110
+#: barrins_codex/navigation.py:101
 msgid "La Destruction de permanents"
 msgstr "Destruction of permanents"
 
-#: barrins_codex/navigation.py:111
+#: barrins_codex/navigation.py:102
 msgid "Les Cartes de taxe"
 msgstr "Tax Cards"
 
-#: barrins_codex/navigation.py:112
+#: barrins_codex/navigation.py:103
 msgid "La Protection"
 msgstr "Protection"
 
-#: barrins_codex/navigation.py:113
+#: barrins_codex/navigation.py:104
 msgid "Les Contresorts"
 msgstr "Counterspells"
 
-#: barrins_codex/navigation.py:114
+#: barrins_codex/navigation.py:105
 msgid "Le Bounce de permanents"
 msgstr "Bounce of permanents"
 
-#: barrins_codex/navigation.py:115
+#: barrins_codex/navigation.py:106
 msgid "Les Cantrips"
 msgstr "Cantrips"
 
-#: barrins_codex/navigation.py:116
+#: barrins_codex/navigation.py:107
 msgid "La Défausse"
 msgstr "Discard"
 
-#: barrins_codex/navigation.py:117
+#: barrins_codex/navigation.py:108
 msgid "La Gestion de créatures"
 msgstr "Creature Removals"
 
-#: barrins_codex/navigation.py:118
+#: barrins_codex/navigation.py:109
 msgid "La Réanimation de créatures"
 msgstr "Reanimation of Creatures"
 
-#: barrins_codex/navigation.py:119
+#: barrins_codex/navigation.py:110
 msgid "Les Dégâts directs"
 msgstr "Blasts"
 
-#: barrins_codex/navigation.py:120
+#: barrins_codex/navigation.py:111
 msgid "Les Créatures agressives"
 msgstr "Aggressive Creatures"
 
-#: barrins_codex/navigation.py:121
+#: barrins_codex/navigation.py:112
 msgid "Le Remplacement de cartes"
 msgstr "Looting"
 
-#: barrins_codex/navigation.py:122
+#: barrins_codex/navigation.py:113
 msgid "Le Ramp"
 msgstr "Ramp"
 
-#: barrins_codex/navigation.py:123
+#: barrins_codex/navigation.py:114
 msgid "Les Mana dorks"
 msgstr "Mana Dorks"
 
-#: barrins_codex/navigation.py:124
+#: barrins_codex/navigation.py:115
 msgid "Les Grosses Créatures"
 msgstr "Big Creatures"
 
-#: barrins_codex/navigation.py:127
+#: barrins_codex/navigation.py:118
 msgid "Les Piocheurs"
 msgstr "Cantrips"
 
-#: barrins_codex/navigation.py:128
+#: barrins_codex/navigation.py:119
 msgid "Les Spot Removals"
 msgstr "Spot Removals"
 
-#: barrins_codex/navigation.py:129
+#: barrins_codex/navigation.py:120
 msgid "Les Mass Removals"
 msgstr "Mass Removals"
 
-#: barrins_codex/navigation.py:133
+#: barrins_codex/navigation.py:124
 msgid "Tools"
 msgstr "Tool"
 
-#: barrins_codex/navigation.py:136
+#: barrins_codex/navigation.py:127
 msgid "Combo A + B"
 msgstr "A + B Combo"
 
-#: barrins_codex/navigation.py:137
+#: barrins_codex/navigation.py:128
 msgid "Ik-O-Maths"
 msgstr "Ik-O-Maths"
 
-#: barrins_codex/navigation.py:138 barrins_codex/templates/tools/tirage-au-sort.html:9
+#: barrins_codex/navigation.py:129 barrins_codex/templates/tools/tirage-au-sort.html:9
 msgid "Tirage au sort"
 msgstr "Drawing lots"
 
@@ -1190,6 +1173,14 @@ msgstr ""
 "The decisions taken are not always obvious and have strong consequences for the rest "
 "of the game."
 
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:71
+#, python-format
+msgid ""
+"La vidéo suivante a été réalisée par %(chroniques)s et publiée le 25 août 2021 avec "
+"la participation de %(theau_mery)s suite à sa participation au Master Zap de juillet "
+"2021."
+msgstr ""
+
 #: barrins_codex/templates/archetypes/kelsien-the-plague.html:15
 msgid ""
 "Le principe du deck est assez classique dans la forme : jouer trois bêtes sur les "
@@ -1404,6 +1395,7 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:149
+#: barrins_codex/templates/articles/classifier-un-deck.html:66
 msgid "Contrôle"
 msgstr "Control"
 
@@ -2177,6 +2169,899 @@ msgstr ""
 "several years in the the design of the Ban List. As he is also a maths teacher, his "
 "articles are often related to this discipline."
 
+#: barrins_codex/templates/articles/classifier-un-deck.html:5
+#, fuzzy
+msgid "Classifier un deck en Duel Commander"
+msgstr "Building a Duel Commander deck"
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:7
+msgid ""
+"Au sens premier, le <em>metagame</em> est l'étude des différentes stratégies qu'un "
+"jeu permet. Avoir une vue globale des stratégies possibles et de leurs efficacités "
+"les unes par rapport aux autres est un point crucial pour progresser et améliorer son"
+" style de jeu. Vouloir regrouper les différents decks selon leurs points communs ou "
+"leurs startégies permet de mieux les étudier. Par conséquent, <strong>comment classer"
+" un deck en Duel Commander ?</strong>"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:16
+msgid "Deux méthodes s'opposent :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:20
+msgid ""
+"L'approche en <strong>macrotype</strong> qui rassemble le maximum de decks dont le "
+"plan de jeu est similaire dans un minimum de groupes ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:26
+msgid ""
+"L'approche par <strong>archétype</strong> qui rassemble des decks similaires en terme"
+" de cartes jouées."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:33
+msgid "La Classification en macrotypes"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:35
+#, python-format
+msgid ""
+"La classification est plébiscitée par Mike Mason dans son article "
+"%(watching_the_clock)s. Elle se base sur la traditionnelle classification Aggro > "
+"Contrôle > Combo de Patrick Chapin et détaille le comportement des différentes "
+"stratégies qui existaient sous l'appelation <em>Contrôle</em> de P. Chapin."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:45
+msgid ""
+"Voici une présentation rapide des différents macrotypes développés par Mike Mason. "
+"Les différents <em>archétypes</em> trouvent tous une place dans les macrotypes "
+"suivants."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:53
+msgid ""
+"Deck agressif dont le principal objectif est d'amener l'adversaire à zéro point de "
+"vie le plus rapidement possible en jouant des créatures ou des sorts de dégâts "
+"directs."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:60
+msgid ""
+"Deck dont la stratégie consiste à poser rapidement une ou plusieurs menaces puis à "
+"les protéger suffisamment longtemps, le plus souvent à l'aide de contresorts, pour "
+"gagner."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:67
+msgid ""
+"Deck dont l'objectif est de ralentir le déroulement de la partie afin d'installer une"
+" guerre d'attrition basée essentiellement sur du <em>Card Advantage</em>."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:74
+msgid ""
+"Deck ayant un plan de jeu proche de Contrôle mais qui va ensuite poser des créatures "
+"dont les forces et endurances sont supérieures aux créatures jouées par Aggro."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:81
+msgid ""
+"Deck basé sur une forte interaction entre deux cartes ou plus (une "
+"<em>combinaison</em>) qui permet de gagner la partie instantanément ou qui mène à un "
+"très fort avantage quasi- synonyme de victoire."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:92
+msgid "La Classification en archetypes"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:94
+msgid ""
+"La classification en archétype permet d'affiner la classification en macrotypes en "
+"utilisant la tactique comme un élément de comparaison."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:100
+msgid "Voici les principaux archétypes :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:112
+#: barrins_codex/templates/articles/classifier-un-deck.html:203
+msgid "Catégorie de deck Aggro qui se caractérise par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:116
+msgid "Gagne par l'accumulation de petites créatures ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:119
+msgid ""
+"Gagne généralement le combat en débordant l'adversaire avec les créatures plutôt "
+"qu'en essayant de tuer les créatures adverses ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:122
+msgid ""
+"Gagne en misant sur l'accumulation de créatures sans synergie particulière entre "
+"elles (en partageant un type par exemple)."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:126
+#, python-format
+msgid ""
+"Les principaux représentants de cette catégorie sont les decks <em>Weenie White</em>."
+" Dans les formats éternels, comme le Modern ou le Legacy, ces créatures sont choisies"
+" pour gêner le développement adverse, voire le contrecarrer (ces créatures sont "
+"nommées <em>hatebear</em>). Ceci n'est toutefois pas une caractéristique générale des"
+" decks Swarm : la volonté principale reste d'envahir le champ de bataille (avec "
+"l'aide de %(aether_vial)s en Modern et en Legacy)."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:136
+msgid ""
+"Si l'accumulation de créatures sur le champ de bataille est issue d'une combo ou si "
+"cette accumulation est susceptible de s'emballer à cause d'interactions ou de combos,"
+" le deck rentrera alors dans la catégorie Créature-Combo. Ces decks sont présentés "
+"plus tard et sont en général moins agressifs."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:153
+msgid "Catégorie de deck Aggro se caractérisant par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:157
+msgid ""
+"Une courbe plus basse qui permet au deck de prendre l'ascendant sur l'adversaire dans"
+" les premiers tours ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:163
+msgid ""
+"La possibilité de clore une partie avec des sorts de dégâts directs (des "
+"<em>blasts</em>) ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:169
+msgid ""
+"Le besoin de se débarraser des bloqueurs adverses à l'aide des blasts se trouve en "
+"directe opposition avec la possiblité de cibler directement l'adversaire"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:176
+#, python-format
+msgid ""
+"Bien que l'archétype s'appelle Red Aggro, la couleur rouge n'est absolument pas une "
+"nécessité pour faire partie de cette catégorie. Les decks <em>Mono Green Stompy</em> "
+"en sont d'ailleurs un bon exemple car les boosts, comme %(giant_growth)s, ciblant des"
+" créatures avec capacités d'évasion ou des créatures bloquées remplacent le rôle des "
+"blasts. Les decks de cette catégorie font partie de ces decks plutôt simples à "
+"construire et relativement efficaces dans la plupart des formats."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:186
+msgid ""
+"En fonction du ratio entre les sorts de dégâts directs et les sorts de créatures dans"
+" le deck, le nom du deck change : RDW / Sligh / Burn (voir la catégorie Lava Spike "
+"pour ce dernier). Souvent confondus, les decks RDW se distinguent pourtant "
+"notablement des decks Gobelins par leur absence ou quasi-absence de synergies "
+"\"tribales\"."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:197
+#, fuzzy
+msgid "Aggro Linéaire"
+msgstr "Linear Aggro archetype"
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:207
+msgid ""
+"Les cartes sont exclusivement basées sur un thème commun, les créatures ont "
+"généralement le même type ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:213
+msgid "Le deck utilise des synergies entre les cartes liées à ce thème commun."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:219
+msgid ""
+"Beaucoup de decks Aggro Linéaire sont des decks tribaux, le thème commun étant un "
+"type de créature mais ce n'est toutefois pas une généralité. On retrouve aussi les "
+"decks <em>Affinity</em> et <em>Tempered Steel</em> dans cette catégorie dont le thème"
+" commun est ici « Artefact ». De plus, tous les decks tribaux ne sont pas des Aggro "
+"Linéaire, en effet <em>Faeries</em> est par exemple un deck Tempo et <em>Elfball</em>"
+" un deck Storm Combo."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:229
+#, python-format
+msgid ""
+"Les deck Aggro Linéaire sont extrêmement populaires dans tous les formats et toutes "
+"les extensions récentes de Magic sont construites pour que cette catégorie de deck "
+"soit présente en limité. Le premier archétype à rentrer dans cette catégorie fut le "
+"%(rebel_1999_block_deck)s"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:239
+#, python-format
+msgid ""
+"Il en faut parfois peu pour qu'un deck intègre cette catégorie. C'est par exemple le "
+"cas du deck standard %(rick_stout_uw_human)s qui se distingua des autres listes UW "
+"par l'ajout de %(cavern_of_souls)s et %(champion_of_the_parish)s qui intégrait "
+"parfaitement à ce deck tribal."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:258
+msgid ""
+"Catégorie de deck Aggro (appelée <em>Fish</em> par Patrick Chapin) et se "
+"caractérisant par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:265
+msgid ""
+"Des accélérateurs de mana en vue de poser le plus vite possible des créatures pour "
+"mettre la pression sur l'adversaire ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:271
+msgid ""
+"Des sorts de gestions qui empêchent l'adversaire de répondre aux menaces posées dans "
+"les premiers tours."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:278
+msgid ""
+"L'appellation Suicide vient du fait que le deck à tendance à jouer des cartes qui "
+"vont l'affecter de manière néfaste. Certaines cartes peuvent nécessiter, par exemple,"
+" une perte de point de vie, un sacrifice de permanent ou encore de faire du <em>Card "
+"Disadvantage</em> (CD), comme les accélérateurs de mana éphémères extrêmement courant"
+" dans ces decks. Un des premiers deck de cette catégorie fut le deck Extended "
+"<strong>Black Suicide</strong> de Brian Schneider (1999)."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:288
+#, python-format
+msgid ""
+"On classe également dans cette catégorie le deck <em>Dragon Stompy</em> dans lequel "
+"on retrouve le besoin de mana dans les premiers tours via %(simian_spirit_guide)s, "
+"%(chrome_mox)s et %(ancient_tomb)s pour mettre en place un léthal rapide et une carte"
+" qui va empêcher le développement adverse. Le deck mise sur cette impulsion qu'il "
+"aura mis sur le début de partie et pour laquelle il a dû faire énormément de CD."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:306
+msgid ""
+"Catégorie de deck Aggro-Contrôle, parfois assimilée aux decks Aggro et parfois "
+"considérée comme un macrotype à part entière. Les decks Tempo basent leur stratégie "
+"sur le fait de toujours vouloir conserver un meilleur tempo que celui de l'adversaire"
+" à l'aide de sorts peu cher. On parle aussi de <em>Disruptive Aggro</em> pour "
+"désigner cette famille de deck."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:315
+msgid ""
+"Les decks Tempo sont connus pour jouer le rôle de l’agresseur contre Contrôle et le "
+"rôle du défenseur contre Aggro."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:321
+msgid ""
+"Les principales faiblesses des decks Tempo sont qu'ils ne produisent pas de <em>Card "
+"Advantage</em> et que leur stratégie s'épuise sur le long terme. De plus, s'ils "
+"perdent leur avantage, il leur est difficile de reprendre l'ascendant sur la partie. "
+"Malgré cela, des decks reconnus comme étant les meilleurs decks de leur format "
+"appartiennent à cette catégorie."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:339
+#: barrins_codex/templates/articles/classifier-un-deck.html:386
+#: barrins_codex/templates/articles/classifier-un-deck.html:428
+msgid "Catégorie de deck Midrange qui se caractérise par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:343
+msgid "Des créatures généralement un peu plus grosses qu'Aggro classique ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:346
+msgid "De l'accélération de mana et de la disruption ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:349
+msgid "Du vert pour les créatures et du noir pour la défausse et les removals."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:353
+#, python-format
+msgid ""
+"Cette catégorie de deck vient d'un deck nommé par Malka un fan de catch : \"The Rock "
+"and His Millions\" où \"The Rock\" en hommage à Dwayne The Rock Johnson correspondait"
+" à la carte %(phyrexian_plaguelord)s et \"His Millions\" correspondaient aux "
+"écureuils crées par %(deranged_hermit)s. On peut distinguer principalement deux types"
+" de decks Rock :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:362
+msgid ""
+"Les decks plus orientés Contrôle qui se focalisent plutôt sur un <em>Card "
+"Advantage</em> progressif. Ces decks essentiellement B/G ont tendance à jouer le rôle"
+" du Contrôle même contre d'autres decks Contrôle ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:369
+msgid ""
+"Les decks Rock plus Aggro qui se focalisent davantage sur la solidité de ses "
+"créatures que sur le Card Advantage. Ces decks correspondent essentiellement aux "
+"decks Junk (Abzan W/B/G)."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:380
+#, fuzzy
+msgid "Midrange Pur"
+msgstr "Non-Blue Midrange"
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:390
+msgid "La qualité intrinsèque des cartes plutôt que les synergies entre elles ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:393
+msgid "Des créatures polyvalentes et des <em>removals</em> peu cher ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:396
+msgid "La possibilité de s'adapter à n'importe quel environnement."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:400
+msgid ""
+"Les decks Pure Midrange sont parfois appelés <em>Good Stuff</em> car ils ont tendance"
+" à incorporer les meilleurs sorts du format, les removals les moins chers ainsi que "
+"les meilleures créatures pour chaque coût converti de mana. Cette configuration force"
+" bien souvent ces decks à jouer tricolore, voire quadricolore si la base de mana le "
+"permet."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:408
+msgid ""
+"Les decks Pure Midrange sont des decks relativement faciles et rapides à construire "
+"une fois que sont identifiées les meilleurs cartes à disposition dans un format. Ils "
+"font donc très régulièrement partie des premiers decks à apparaître avec notamment "
+"les Aggro Linéaire et les Red Aggro. Ces decks ont aussi tendance à être mauvais "
+"contre les decks <em>unfair</em> et excellents contre les decks <em>fair</em>. C'est "
+"pourquoi dans un format résolu, lorsqu'un deck Midrange est capable d'incorporer au "
+"moins un sort unfair tel que de la destruction massive de terrain, il peut faire "
+"d'excellent résultats."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:422
+#: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:15
+msgid "Midrange Non-Bleu"
+msgstr "Non-Blue Midrange"
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:432
+msgid "De la gestion presque totalement dirigée contre les créatures adverses ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:435
+msgid ""
+"La présence d'un <em>moteur de pioche</em> (ou de <em>Card Advantage</em>) quelconque"
+" dont le deck est assez dépendant."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:442
+#, python-format
+msgid ""
+"Bien que la majorité des decks de cette catégorie n'utilisent pas de mana bleu, ce "
+"n'est pas une condition nécessaire pour faire partie de cette catégorie. Les decks "
+"Non-Bleu sont globalement rares dans les formats eternels (voire absents du Legacy et"
+" du Vintage) car ils ne sont généralement pas assez polyvalents pour s'y imposer. Les"
+" decks Bloc %(mono_black_control)s de 2002 et %(astral_slide)s de 2003 font partie "
+"des permiers decks de cette catégorie."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:457
+#, python-format
+msgid "Le cas de %(life_from_the_loam)s"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:462
+#, python-format
+msgid ""
+"Cette catégorie permet d'aborder le cas de %(life_from_the_loam)s présente dans des "
+"decks appartenant à des catégories diverses. L'un de ces decks, la version Aggro Loam"
+" de l'Extended que l'on retrouve aussi en Modern, vérifie justement les critères du "
+"deck Midrange Non-Bleu, %(life_from_the_loam)s jouant ici le rôle du moteur de CA "
+"dont le deck est assez dépendant."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:481
+#: barrins_codex/templates/articles/classifier-un-deck.html:528
+#: barrins_codex/templates/articles/classifier-un-deck.html:567
+#: barrins_codex/templates/articles/classifier-un-deck.html:605
+#: barrins_codex/templates/articles/classifier-un-deck.html:653
+msgid "Catégorie de deck Contrôle qui se caractérise par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:485
+msgid ""
+"Une grande quantité de contresorts pour interagir au maximum contre les actions "
+"adverses ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:491
+msgid "Un moteur à <em>Card Advantage</em> pour compenser l'épuisement des contresorts ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:496
+msgid ""
+"La présence de <em>mass removals</em> pour gérer l'ensemble des cartes qui ont pu se "
+"résoudre."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:503
+msgid ""
+"Le terme Draw Go est une allusion aux tours rapides d'un joueur de cet archétype « My"
+" Turn, Draw, Go ! ». Ces decks se distinguent donc radicalement des decks Tapout vus "
+"précédemment."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:510
+msgid ""
+"Les decks Draw Go ont tendance à faire du <em>un pour un</em> avec leurs contresorts."
+" Ils sont naturellement désavantagés contre les decks Aggro qui jouent moins de "
+"terrains et donc piocheront plus de menaces que Draw Go ne pourra piocher de "
+"réponses. Pour contrebalancer cela, les decks Draw Go sont obligés de compenser avec "
+"du <em>Card Advantage</em>."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:532
+msgid ""
+"Des <em>mass removal</em> et des sorts visant à empêcher l'adversaire de jouer dans "
+"le but d'acheter du temps ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:538
+msgid "Des sorts agressifs pour profiter au maximum du temps acheté."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:544
+msgid ""
+"Les decks Tapout jouent essentiellement à leur propre tour et ne gardent donc "
+"généralement pas de manas disponibles lorsqu'ils ont fini de jouer. L'absence de "
+"contresort dans un deck Contrôle est généralement un bon moyen de repérer si un deck "
+"est un Tapout."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:552
+msgid ""
+"La première vraie apparition de Tapout en tournoi date de 1997 avec le deck standard "
+"Big Blue de Erik Lauer."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:571
+msgid ""
+"La volonté de garder le champ de bataille sous contrôle plutôt que de lui opposer des"
+" menaces ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:577
+msgid "Utilise ses sorts permissifs avant tout pour protéger sa propre stratégie ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:582
+msgid "Une fin de partie où l'adversaire est privé d’interactions."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:588
+#, python-format
+msgid ""
+"Les decks Prison (aussi appelé Lock), comme les decks Tapout, ont tendance à utiliser"
+" leur mana de manière proactive. Toutefois, là où un deck Tapout va engager tout son "
+"mana pour poser une créature qui va dissuader son adversaire d'attaquer, un deck "
+"Prison préférera prévenir l'attaque, par exemple avec un %(icy_manipulator)s."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:609
+msgid "Un jeu entre Draw Go et Tapout avec une victoire issue d'une combo ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:612
+msgid ""
+"Une stratégie lente mais qui peut éventuellement menacer de gagner très tôt dans la "
+"partie ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:618
+msgid "De nombreux sorts de gestion et/ou de contresorts."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:622
+msgid ""
+"Contrairement à la majorité des decks Combo, les decks de cette famille peuvent faire"
+" du <em>Card Advantage</em> plutôt que de simplement creuser ou tutoriser les "
+"éléments de leur combo. On retrouve très souvent dans ces decks un questionnement sur"
+" la méthode à utiliser pour atteindre sa combo ou au contraire de contrôler le board "
+"si cela devient nécessaire. Voici quelques exemples :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:657
+msgid ""
+"La présence de nombreuses cartes productrices de mana et/ou de cartes permettant de "
+"mettre sur le champ de bataille plus d'un terrain par tour ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:663
+msgid ""
+"La présence de cartes variées ayant un coût de mana élevé qui sont censées être "
+"jouées en <em>mid game</em>."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:670
+msgid ""
+"Il ne faut pas confondre les decks Ramp avec les decks de la catégorie Big Spell bien"
+" que ceux-ci peuvent aussi avoir une optique Ramp en début de partie."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:676
+msgid ""
+"Lorsqu'ils sont bien construits et qu'ils contiennent des sorts adaptés aux decks "
+"présents dans l'environnement de tournoi, les decks Ramp peuvent être redoutables. "
+"Ils sont faciles à piloter et ont une grande solidité sur le long terme. S'ils ne "
+"tuent pas dans le début de partie, ils ont toujours un plan B."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:684
+msgid ""
+"Toutefois, si leur accélération de mana est sabotée, les decks Ramp sont terriblement"
+" ralentis dans leur stratégie et restent souvent au point mort. Ils ont globalement "
+"les mêmes problèmes que Midrange contre Contrôle et Tempo : s'ils sont pris de "
+"vitesse, ils doivent subir les sorts de gestion adverses."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:701
+#: barrins_codex/templates/articles/classifier-un-deck.html:781
+#: barrins_codex/templates/articles/classifier-un-deck.html:812
+msgid "Catégorie de deck Combo qui se caractérise par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:705
+msgid ""
+"La présence d'un kill (le <em>big spell</em>) dont l'efficacité est due "
+"essentiellement au fait que tout le deck soit construit autour et pour maximiser "
+"l'effet de cette carte."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:712
+msgid ""
+"La résolution de ce <em>big spell</em> entraîne une victoire immédiate ou change "
+"radicalement la dynamique de la partie."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:719
+msgid ""
+"Un aspect Ramp est généralement présent dans les decks Big Spell, mais contrairement "
+"aux decks Ramp, ces decks sont construits autour d'une carte en particulier. De plus "
+"l'aspect Ramp n'est absolument pas une caractéristique générale de cette catégorie, "
+"Living End est justement un exemple de deck Big Spell sans aucun aspect ramp."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:729
+#, python-format
+msgid "Le duo %(scapeshift)s et %(valakut)s"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:734
+msgid ""
+"Ce duo de cartes a donné son nom à de nombreux archétypes et tous ces archétypes ne "
+"correspondent pas aux même catégories."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:740
+msgid ""
+"La version Standard de Valakut est un deck Ramp qui se contente de jouer Valakut pour"
+" rentabiliser son aspect ramp sur le long terme, quitte à en faire son kill. Ici pas "
+"de Scapeshift."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:747
+msgid ""
+"Le deck Modern Scapeshift est un deck Contrôle-Combo Pur avec de nombreux sorts de "
+"gestions et contresorts pour temporiser et qui en fin de partie menace de tuer à tout"
+" moment en jouant Scapeshift."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:754
+msgid ""
+"Le deck Modern Valakut, quant à lui, est bien un deck Big Spell où tout le deck est "
+"construit autour d'un plan de jeu simpliste qui se résume à avoir le plus vite "
+"possible suffisamment de terrains en jeu et jouer son Big Spell : Scapeshift."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:762
+#, python-format
+msgid ""
+"Enfin la version Omen Scapeshift se distingue foncièrement des autres par sa quasi-"
+"absence de montagne et donc à la nécessité d'avoir %(prismatic_omen)s sur le champ de"
+" bataille avant de lancer scapeshift ce qui fait du deck un Combo Traditionnel."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:785
+msgid "L'accumulation des sorts et actions faites lors d'un même tour ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:788
+msgid "L'absence de sorts spécifique, voire de séquence, pour gagner ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:791
+msgid "Le besoin de quantité d'actions plus que de leur qualité."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:795
+msgid ""
+"Les decks Storm Combo ont un <em>big turn</em> à l'issue duquel l'adversaire est "
+"défait. Le nom de cette catégorie est tirée de la capacité <em>Storm</em>. Tous les "
+"decks avec une carte Storm en guise de kill appartiennent à cette catégorie. Ce ne "
+"sont pas les seuls, High Tide ou KCI font aussi partie de cette catégorie."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:806
+msgid "Combo Traditionnel"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:816
+msgid ""
+"Une condition de victoire basée directement ou indirectement sur une combo formée de "
+"deux ou trois cartes ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:822
+msgid "Des cartes permettant d'aller chercher les éléments de la combo."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:826
+msgid ""
+"Les stratégies des Combo Traditionnel peuvent être très variées. On peut en "
+"distinguer deux variantes :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:833
+msgid ""
+"Les decks qui vont avoir tendance à chercher dans leur bibliothèque les éléments de "
+"la combo ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:839
+msgid ""
+"Les decks qui vont miser sur la redondance des éléments de la combo quitte à jouer "
+"parfois plusieurs combos différentes."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:846
+#, python-format
+msgid ""
+"Dans cette seconde variante, on peut citer les decks Reanimator ou, en Legacy, les "
+"decks %(show_and_tell)s qui incorporent aussi %(sneak_attack)s."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:853
+msgid "Le plan de jeu Reanimator"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:855
+#, python-format
+msgid ""
+"Une fois réanimé, %(griselbrand)s à tendance à transformer le plan de jeu Reanimator "
+"en quelque chose proche d'un Storm Combo mais le plan de jeu originel du deck "
+"correspond bien à la catégorie Combo Traditionnel."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:872
+#: barrins_codex/templates/articles/classifier-un-deck.html:917
+#: barrins_codex/templates/articles/classifier-un-deck.html:961
+#: barrins_codex/templates/articles/classifier-un-deck.html:1026
+msgid "Catégorie de deck Aggro-Combo qui se caractérise par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:876
+msgid "Une absence d'interactivité avec l'adversaire ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:879
+msgid "Une stratégie qui consiste à cibler avec ses sorts directement l'adversaire."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:885
+msgid ""
+"On retrouve dans cette catégorie principalement deux sortes de deck : <em>Burn</em> "
+"et <em>Meule</em> :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:892
+msgid ""
+"Les decks <em>Burn</em> utilisent leurs sorts pour infliger directement des dégâts à "
+"l'adversaire. Ils sont présents dans tous les formats. Ils sont tous à dominante "
+"rouge, mais tous ne sont pas nécessairement monocolores ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:899
+msgid ""
+"Les decks <em>Meule</em> utilisent leurs sorts pour mettre les cartes de la "
+"bibliothèque de l'adversaire dans son cimetière. Ils sont absent des formats éternels"
+" et correspondent pour la plupart au plan de jeu de certains decks limités bleus."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:921
+msgid "Une construction autour d'une mécanique avec des cartes très synergiques entre elles ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:927
+msgid ""
+"Une stratégie qui peut menacer extrêmement rapidement l'adversaire et se répéter par "
+"vagues successives sur le long terme ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:933
+msgid "Une absence de réel Big Turn."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:937
+#, python-format
+msgid ""
+"Les principaux decks Wave Combo sont construits autour d'une mécanique dont ils "
+"abusent des effets. Les deux decks principaux de cette catégorie sont Dredge qui "
+"abuse de la capacité éponyme et des synergies avec le cimetière et %(hollow_one)s "
+"basé quant à lui sur les effets de défausse."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:945
+msgid ""
+"Cette catégorie a finalement connu très peu de représentants et il est compliqué d'en"
+" lister des caractéristiques arrêtées. Toutefois, les deux decks cités ont la "
+"particularité d'être relativement imprévisibles dans leur sortie même pour leur "
+"pilote."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:965
+msgid ""
+"Une condition de victoire basée sur le fait d'attaquer avec des créatures "
+"(généralement une seule) pour tuer en peu de phases d'attaque (parfois une seule) ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:971
+msgid "Un rythme de jeu plus rapide que les decks Aggro classiques."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:975
+#, python-format
+msgid ""
+"Les decks Voltron empruntent certaines caractéristiques aux catégories Combo "
+"Traditionnel et Storm Combo. Un deck emblématique de cette catégorie est "
+"%(kiln_fiend)s :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:983
+#, python-format
+msgid ""
+"Il s'agit d'une combo deux cartes avec %(berserk)s ou %(temur_battle_rage)s, ce qui "
+"donne le côté Combo Traditionnel ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:989
+msgid ""
+"Toutefois, le deck n'a pas besoin de cette seconde carte pour gagner et peut "
+"remporter la victoire simplement par l'accumulation de sorts joué lors d'un même "
+"tour, ce qui donne l'aspect Storm Combo."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:997
+msgid ""
+"On retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une "
+"créature qui grossit jusqu'à devenir létale."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1004
+msgid "L'origine de Voltron"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1006
+#, python-format
+msgid ""
+"Le nom Voltron est issu du Commander pour désigner originellement des decks dont la "
+"stratégie est entièrement basé sur leur général. Mateus Nogueira distingue dans sa "
+"classification en catégorie pour le commander les decks Voltron Control (tels que "
+"%(zur_the_enchanter)s) des decks Voltron Aggro (tels que %(jenara_asura_of_war)s), "
+"focalisés sur le fait de finir rapidement une partie via les blessures de général."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1030
+msgid "La présence d'un grand nombre de créatures ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1033
+msgid ""
+"Une condition de victoire non-intéractive générée par une combo composée le plus "
+"souvent de créatures ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1039
+msgid ""
+"Une condition de victoire secondaire consistant à gagner en attaquant avec ses "
+"créatures (souvent en débordant son adversaire) ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1046
+msgid ""
+"Les decks Combo Créature sont des hybrides entre les decks appartenant aux familles "
+"Combo Traditionnel et Swarm ce qui en fait naturellement des decks Aggro-Combo."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1054
+#, python-format
+msgid "Le cas de %(birthing_pod)s"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1059
+#, python-format
+msgid ""
+"Cette catégorie permet d'aborder plus en détail le cas de %(birthing_pod)s présente "
+"essentiellement dans deux types de jeu :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1066
+msgid ""
+"Les decks ayant une structure de Midrange dont beaucoup de créatures sont jouées "
+"seulement en un exemplaire pour leur synergie avec Pod dans le but de construire "
+"diverses séquences d'actions en abusant des effets d'arrivée et de départ du champ de"
+" bataille. Ces decks-là sont classés dans la catégorie Midrange Non-Bleu."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1075
+#, python-format
+msgid ""
+"Les decks basés sur une multitude de créatures qui incorporent une combo qui est la "
+"principale condition de victoire du deck. Le rôle de %(birthing_pod)s est d'assembler"
+" une combo même s'il est également possible tutoriser des solutions face à des "
+"problèmes spécifiques. Ces decks appartiennent à la catégorie Combo Créature."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1085
+#, python-format
+msgid ""
+"%(birthing_pod)s pourrait être classée dans la catégorie Big Spell car les decks sont"
+" basés essentiellement autour de cette carte mais cette carte est avant tout un "
+"moteur de <em>Card Advantage</em> et non un réel moyen de tuer l'adversaire. De même,"
+" le fait de jouer la carte ne change pas de manière radicale la dynamique de la "
+"partie comme le ferait %(living_end)s ou %(balustrade_spy)s, c'est au mieux une "
+"menace pour l'adversaire."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1105
+msgid "Catégorie et macrotype à part entière qui se caractérise par :"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1109
+msgid "Une condition de victoire qui consiste à gagner en attaquant avec ses créatures ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1114
+msgid "Une condition de victoire non-interactive basée sur une combo ;"
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1119
+msgid "Une volonté de gérer le board que ce soit de manière proactive ou réactive."
+msgstr ""
+
+#: barrins_codex/templates/articles/classifier-un-deck.html:1125
+#, python-format
+msgid ""
+"Les decks Aggro-Control-Combo sont extrêmement rares en dehors du Vintage car peu de "
+"decks sont capables de produire des plans de jeux aussi variés de manière efficace. "
+"Le deck Grow-A-Tog est repris à titre d'exemple dans cette catégorie dans un article "
+"de Stephen Menendian et Paul Mastriano de 2003 : %(how_to_grow_a_tog)s."
+msgstr ""
+
 #: barrins_codex/templates/articles/construire-un-deck.html:5
 msgid "Construire un deck en Duel Commander"
 msgstr "Building a Duel Commander deck"
@@ -2415,924 +3300,6 @@ msgstr "This section explore the strategy of <strong>Magic: the Gathering</stron
 msgid "D'autres articles à venir ..."
 msgstr ""
 
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:4
-msgid "L'Art de classifier les decks"
-msgstr "The Art of Classifying Decks"
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:6
-msgid ""
-"Au sens premier, le metagame est l'étude des différentes stratégies qu'un jeu permet."
-" Avoir une vue globale des stratégies possibles et de leurs efficacités les unes par "
-"rapport aux autres est un point crucial pour progresser et améliorer son style de "
-"jeu. Vouloir regrouper les différents decks selon leurs points communs ou leurs "
-"startégies permet de mieux les étudier. Par conséquent, comment classer les decks ?"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:15
-msgid "Deux méthodes s'opposent :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:19
-msgid ""
-"L'approche par <strong>archétype</strong> qui rassemble des decks similaires en terme"
-" de cartes jouées ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:25
-msgid ""
-"L'approche en <strong>macrotype</strong> qui rassemble des decks dont le plan de jeu "
-"est similaire. Cette approche rapproche un maximum de decks dans un minimum de "
-"macrotypes."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:32
-msgid ""
-"Cet article est de taille conséquente ; pour en faciliter la lecture, son contenu a "
-"été découpé en plusieurs sections :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:40
-msgid "les plus répandus, leurs avantages et leurs limites ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:44
-msgid "et leurs liens avec les macrotypes ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:48
-msgid "et l'évolution d'un metagame avec le temps ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/index.html:52
-msgid "conclue cet article et propose des pistes de réflexion."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:4
-msgid "Les Catégories de decks"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:6
-msgid ""
-"La classification en archétype permet d'affiner la classification en macrotype. La "
-"version la plus connue est celle de Patrick Chapin basée sur la classification en 4 "
-"macrotypes (système <strong>B</strong>)."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:12
-#, python-format
-msgid ""
-"La classification ci-dessous a été réalisée par <strong>Zombie33</strong> pour le "
-"site %(magic_ville)s où cet article a été originellement publié. Elle comporte 21 "
-"catégories et se base sur les travaux de Patrick Chapin. Les archétypes "
-"<em>Ramp</em>, <em>Wave Combo</em>, <em>Voltron</em>, <em>Créature-Combo</em> et <em"
-">Aggro-Contrôle-Combo</em> sont des ajouts de Zombie33."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:72
-msgid ""
-"\n"
-"\tLe tableau ci-dessus donne la liste les 21 catégories et la manière de les classer "
-"dans les\n"
-"\tmacrotypes vu précédemment. Les paragraphes ci-dessous présentent en détail "
-"chacunes des\n"
-"\tcatégories.\n"
-"\t"
-msgstr ""
-"The table above lists the 21 categories and how to classify them into the macrotypes "
-"seen earlier. The following paragraphs describe each of the categories in detail."
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:85
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:172
-msgid "Catégorie de deck Aggro qui se caractérise par :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:89
-msgid "Gagne par l'accumulation de petites créatures ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:92
-msgid ""
-"Gagne généralement le combat en débordant l'adversaire avec les créatures plutôt "
-"qu'en essayant de tuer les créatures adverses ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:95
-msgid ""
-"Gagne en misant sur l'accumulation de créatures sans synergie particulière entre "
-"elles (en partageant un type par exemple)."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:99
-#, python-format
-msgid ""
-"Les principaux représentants de cette catégorie sont les decks <em>Weenie White</em>."
-" Dans les formats éternels, comme le Modern ou le Legacy, ces créatures sont choisies"
-" pour gêner le développement adverse, voire le contrecarrer (ces créatures sont "
-"nommées <em>hatebear</em>). Ceci n'est toutefois pas une caractéristique générale des"
-" decks Swarm : la volonté principale reste d'envahir le champ de bataille (avec "
-"l'aide de %(aether_vial)s en Modern et en Legacy)."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:109
-msgid ""
-"Si l'accumulation de créatures sur le champ de bataille est issue d'une combo ou si "
-"cette accumulation est susceptible de s'emballer à cause d'interactions ou de combos,"
-" le deck rentrera alors dans la catégorie Créature-Combo. Ces decks sont présentés "
-"plus tard et sont en général moins agressifs."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:124
-msgid "Catégorie de deck Aggro se caractérisant par :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:128
-msgid ""
-"Une courbe plus basse qui permet au deck de prendre l'ascendant sur l'adversaire dans"
-" les premiers tours ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:134
-msgid ""
-"La possibilité de clore une partie avec des sorts de dégâts directs (des "
-"<em>blasts</em>) ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:140
-msgid ""
-"Le besoin de se débarraser des bloqueurs adverses à l'aide des blasts se trouve en "
-"directe opposition avec la possiblité de cibler directement l'adversaire"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:147
-#, python-format
-msgid ""
-"Bien qu'on parle de Red Aggro, la couleur rouge n'est absolument pas une nécessité "
-"pour faire partie de cette catégorie. Les decks <em>Mono Green Stompy</em> en sont "
-"d'ailleurs un bon exemple car les boosts, comme %(giant_growth)s, ciblant des "
-"créatures avec capacités d'évasion ou des créatures bloquées remplacent le rôle des "
-"blasts. Les decks de cette catégorie font partie de ces decks plutôt simples à "
-"construire et relativement efficaces dans la plupart des formats."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:157
-msgid ""
-"En fonction du ratio entre les sorts de dégâts directs et les sorts de créatures dans"
-" le deck, le nom du deck change : RDW / Sligh / Burn (voir la catégorie Lava Spike "
-"pour ce dernier). Souvent confondus, les decks RDW se distinguent pourtant "
-"notablement des decks Gobelins par leur absence ou quasi-absence de synergies "
-"\"tribales\"."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:168
-#, fuzzy
-msgid "Aggro Linéaire"
-msgstr "Linear Aggro archetype"
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:176
-msgid ""
-"Les cartes sont exclusivement basées sur un thème commun, les créatures ont "
-"généralement le même type ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:182
-msgid "Le deck utilise des synergies entre les cartes liées à ce thème commun."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:188
-msgid ""
-"Beaucoup de decks Aggro Linéaire sont des decks tribaux, le thème commun étant un "
-"type de créature mais ce n'est toutefois pas une généralité. On retrouve aussi les "
-"decks <em>Affinity</em> et <em>Tempered Steel</em> dans cette catégorie dont le thème"
-" commun est ici « Artefact ». De plus, tous les decks tribaux ne sont pas des Aggro "
-"Linéaire, en effet <em>Faeries</em> est par exemple un deck Tempo et <em>Elfball</em>"
-" un deck Storm Combo."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:198
-#, python-format
-msgid ""
-"Les deck Aggro Linéaire sont extrêmement populaires dans tous les formats et toutes "
-"les extensions récentes de Magic sont construites pour que cette catégorie de deck "
-"soit présente en limité. Le premier archétype à rentrer dans cette catégorie fut le "
-"%(rebel_1999_block_deck)s"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:208
-#, python-format
-msgid ""
-"Il en faut parfois peu pour qu'un deck intègre cette catégorie. C'est par exemple le "
-"cas du deck standard %(rick_stout_uw_human)s qui se distingua des autres listes UW "
-"par l'ajout de %(cavern_of_souls)s et %(champion_of_the_parish)s qui intégrait "
-"parfaitement à ce deck tribal."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:225
-msgid ""
-"Catégorie de deck Aggro (appelée <em>Fish</em> par Patrick Chapin) et se "
-"caractérisant par :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:232
-msgid ""
-"Des accélérateurs de mana en vue de poser le plus vite possible des créatures pour "
-"mettre la pression sur l'adversaire ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:238
-msgid ""
-"Des sorts de gestions qui empêchent l'adversaire de répondre aux menaces posées dans "
-"les premiers tours."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:245
-msgid ""
-"L'appellation Suicide vient du fait que le deck à tendance à jouer des cartes qui "
-"vont l'affecter de manière néfaste. Certaines cartes peuvent nécessiter, par exemple,"
-" une perte de point de vie, un sacrifice de permanent ou encore de faire du <em>Card "
-"Disadvantage</em> (CD), comme les accélérateurs de mana éphémères extrêmement courant"
-" dans ces decks. Un des premiers deck de cette catégorie fut le deck Extended "
-"<strong>Black Suicide</strong> de Brian Schneider (1999)."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:255
-#, python-format
-msgid ""
-"On classe également dans cette catégorie le deck <em>Dragon Stompy</em> dans lequel "
-"on retrouve le besoin de mana dans les premiers tours via %(simian_spirit_guide)s, "
-"%(chrome_mox)s et %(ancient_tomb)s pour mettre en place un léthal rapide et une carte"
-" qui va empêcher le développement adverse. Le deck mise sur cette impulsion qu'il "
-"aura mis sur le début de partie et pour laquelle il a dû faire énormément de CD."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:273
-msgid ""
-"Catégorie de deck Aggro-Contrôle, parfois assimilée aux decks Aggro et parfois "
-"considérée comme un macrotype à part entière. Les decks Tempo basent leur stratégie "
-"sur le fait de toujours vouloir conserver un meilleur tempo que celui de l'adversaire"
-" à l'aide de sorts peu cher. On parle aussi de <em>Disruptive Aggro</em> pour "
-"désigner cette famille de deck."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:282
-msgid ""
-"Les decks Tempo sont connus pour jouer le rôle de l’agresseur contre Contrôle et le "
-"rôle du défenseur contre Aggro."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:288
-msgid ""
-"Les principales faiblesses des decks Tempo sont qu'ils ne produisent pas de <em>Card "
-"Advantage</em> et que leur stratégie s'épuise sur le long terme. De plus, s'ils "
-"perdent leur avantage, il leur est difficile de reprendre l'ascendant sur la partie. "
-"Malgré cela, des decks reconnus comme étant les meilleurs decks de leur format "
-"appartiennent à cette catégorie."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:304
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:351
-msgid "Catégorie de deck Midrange qui se caractérise par :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:308
-msgid "Des créatures généralement un peu plus grosses qu'Aggro classique ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:311
-msgid "De l'accélération de mana et de la disruption ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:314
-msgid "Du vert pour les créatures et du noir pour la défausse et les removals."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:318
-#, python-format
-msgid ""
-"Cette catégorie de deck vient d'un deck nommé par Malka un fan de catch : \"The Rock "
-"and His Millions\" où \"The Rock\" en hommage à Dwayne The Rock Johnson correspondait"
-" à la carte %(phyrexian_plaguelord)s et \"His Millions\" correspondaient aux "
-"écureuils crées par %(deranged_hermit)s. On peut distinguer principalement deux types"
-" de decks Rock :"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:327
-msgid ""
-"Les decks plus orientés Contrôle qui se focalisent plutôt sur un <em>Card "
-"Advantage</em> progressif. Ces decks essentiellement B/G ont tendance à jouer le rôle"
-" du Contrôle même contre d'autres decks Contrôle ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:334
-msgid ""
-"Les decks Rock plus Aggro qui se focalisent davantage sur la solidité de ses "
-"créatures que sur le Card Advantage. Ces decks correspondent essentiellement aux "
-"decks Junk (Abzan W/B/G)."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:345
-#, fuzzy
-msgid "Midrange Pur"
-msgstr "Non-Blue Midrange"
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:355
-msgid "La qualité intrinsèque des cartes plutôt que les synergies entre elles ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:358
-msgid "Des créatures polyvalentes et des <em>removals</em> peu cher ;"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:361
-msgid "La possibilité de s'adapter à n'importe quel environnement."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:365
-msgid ""
-"Les decks Pure Midrange sont parfois appelés <em>Good Stuff</em> car ils ont tendance"
-" à incorporer les meilleurs sorts du format, les removals les moins chers ainsi que "
-"les meilleures créatures pour chaque coût converti de mana. Cette configuration force"
-" bien souvent ces decks à jouer tricolore, voire quadricolore si la base de mana le "
-"permet."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:373
-msgid ""
-"Les decks Pure Midrange sont des decks relativement faciles et rapides à construire "
-"une fois que sont identifiées les meilleurs cartes à disposition dans un format. Ils "
-"font donc très régulièrement partie des premiers decks à apparaître avec notamment "
-"les Aggro Linéaire et les Red Aggro. Ces decks ont aussi tendance à être mauvais "
-"contre les decks <em>unfair</em> et excellents contre les decks <em>fair</em>. C'est "
-"pourquoi dans un format résolu, lorsqu'un deck Midrange est capable d'incorporer au "
-"moins un sort unfair tel que de la destruction massive de terrain, il peut faire "
-"d'excellent résultats."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:386
-#, python-format
-msgid ""
-"<p> <strong>Midrange Non-Bleu</strong> : </p> %(ci_gray_merchant)s <p> Catégorie de "
-"deck Midrange qui se caractérise par : </p> <ul> <li> De la gestion presque "
-"totalement dirigée contre les créatures adverses ; </li> <li> La présence d'un "
-"<em>moteur de pioche</em> (ou de <em>Card Advantage</em>) quelconque dont le deck est"
-" assez dépendant. </li> </ul> <p> Bien que la majorité des decks de cette catégorie "
-"n'utilisent pas de mana bleu, ce n'est pas une condition nécessaire pour faire partie"
-" de cette catégorie. Les decks Non-Bleu sont globalement rares dans les formats "
-"eternels (voire absents du Legacy et du Vintage) car ils ne sont généralement pas "
-"assez polyvalents pour s'y imposer. Les decks Bloc %(mono_black_control)s de 2002 et "
-"%(astral_slide)s de 2003 font partie des permiers decks de cette catégorie. </p> <div"
-" class=\"clear\"></div> <div class=\"tip\"> <h3>Le cas de %(life_from_the_loam)s</h3>"
-" <p> Cette catégorie permet d'aborder le cas de %(life_from_the_loam)s présente dans "
-"des decks appartenant à des catégories diverses. L'un de ces decks, la version Aggro "
-"Loam de l'Extended que l'on retrouve aussi en Modern, vérifie justement les critères "
-"du deck Midrange Non-Bleu, %(life_from_the_loam)s jouant ici le rôle du moteur de CA "
-"dont le deck est assez dépendant. </p> </div>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:431
-#, python-format
-msgid ""
-"<p> <strong>Draw Go</strong> : </p> %(ci_cryptic_command)s <p> Catégorie de deck "
-"Contrôle qui se caractérise par : </p> <ul> <li> Une grande quantité de contresorts "
-"pour interagir au maximum contre les actions adverses ; </li> <li> Un moteur à "
-"<em>Card Advantage</em> pour compenser l'épuisement des contresorts ; </li> <li> La "
-"présence de <em>mass removals</em> pour gérer l'ensemble des cartes qui ont pu se "
-"résoudre. </li> </ul> <p> Le terme Draw Go est une allusion aux tours rapides d'un "
-"joueur de cet archétype « My Turn, Draw, Go ! ». Ces decks se distinguent donc "
-"radicalement des decks Tapout vus précédemment. </p> <p> Les decks Draw Go ont "
-"tendance à faire du <em>un pour un</em> avec leurs contresorts. Ils sont "
-"naturellement désavantagés contre les decks Aggro qui jouent moins de terrains et "
-"donc piocheront plus de menaces que Draw Go ne pourra piocher de réponses. Pour "
-"contrebalancer cela, les decks Draw Go sont obligés de compenser avec du <em>Card "
-"Advantage</em>. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:470
-#, python-format
-msgid ""
-"<p> <strong>Tapout</strong> : </p> %(ci_karn_liberated)s <p> Catégorie de deck "
-"Contrôle qui se caractérise par : </p> <ul> <li> Des <em>mass removal</em> et des "
-"sorts visant à empêcher l'adversaire de jouer dans le but d'acheter du temps ; </li> "
-"<li> Des sorts agressifs pour profiter au maximum du temps acheté. </li> </ul> <p> "
-"Les decks Tapout jouent essentiellement à leur propre tour et ne gardent donc "
-"généralement pas de manas disponibles lorsqu'ils ont fini de jouer. L'absence de "
-"contresort dans un deck Contrôle est généralement un bon moyen de repérer si un deck "
-"est un Tapout. </p> <p> La première vraie apparition de Tapout en tournoi date de "
-"1997 avec le deck standard Big Blue de Erik Lauer. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:503
-#, python-format
-msgid ""
-"<p> <strong>Prison</strong> : </p> %(ci_stasis)s <p> Catégorie de deck Contrôle qui "
-"se caractérise par : </p> <ul> <li> La volonté de garder le champ de bataille sous "
-"contrôle plutôt que de lui opposer des menaces ; </li> <li> Utilise ses sorts "
-"permissifs avant tout pour protéger sa propre stratégie ; </li> <li> Une fin de "
-"partie où l'adversaire est privé d’interactions. </li> </ul> <p> Les decks Prison "
-"(aussi appelé Lock), comme les decks Tapout, ont tendance à utiliser leur mana de "
-"manière proactive. Toutefois, là où un deck Tapout va engager tout son mana pour "
-"poser une créature qui va dissuader son adversaire d'attaquer, un deck Prison "
-"préférera prévenir l'attaque, par exemple avec un %(icy_manipulator)s. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:536
-#, python-format
-msgid ""
-"<p> <strong>Contrôle-Combo Pur</strong> : </p> %(ci_crop_rotation)s <p> Catégorie de "
-"deck Contrôle qui se caractérise par : </p> <ul> <li> Un jeu entre Draw Go et Tapout "
-"avec une victoire issue d'une combo ; </li> <li> Une stratégie lente mais qui peut "
-"éventuellement menacer de gagner très tôt dans la partie ; </li> <li> De nombreux "
-"sorts de gestion et/ou de contresorts. </li> </ul> <p> Contrairement à la majorité "
-"des decks Combo, les decks de cette famille peuvent faire du <em>Card Advantage</em> "
-"plutôt que de simplement creuser ou tutoriser les éléments de leur combo. On retrouve"
-" très souvent dans ces decks un questionnement sur la méthode à utiliser pour "
-"atteindre sa combo ou au contraire de contrôler le board si cela devient nécessaire. "
-"Voici quelques exemples : </p> <ul> <li> %(muddle_the_mixture)s → %(thopter_foundry)s"
-" / %(sword_of_the_meek)s (Combo Kill) ou %(counterspell)s. </li> <li> "
-"%(bring_to_light)s → %(scapeshift)s (Combo Kill) ou %(damnation)s. </li> <li> "
-"%(crop_rotation)s → %(dark_depths)s / %(thespians_stage)s (Combo Kill) ou "
-"%(glacial_chasm)s </li> </ul>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:593
-#, python-format
-msgid ""
-"<p> <strong>Ramp</strong> : </p> %(ci_primeval_titan)s <p> Catégorie de deck Contrôle"
-" qui se caractérise par : </p> <ul> <li> La présence de nombreuses cartes "
-"productrices de mana et/ou de cartes permettant de mettre sur le champ de bataille "
-"plus d'un terrain par tour ; </li> <li> La présence de cartes variées ayant un coût "
-"de mana élevé qui sont censées être jouées en <em>mid game</em>. </li> </ul> <p> Il "
-"ne faut pas confondre les decks Ramp avec les decks de la catégorie Big Spell bien "
-"que ceux-ci peuvent aussi avoir une optique Ramp en début de partie. </p> <p> "
-"Lorsqu'ils sont bien construits et qu'ils contiennent des sorts adaptés aux decks "
-"présents dans l'environnement de tournoi, les decks Ramp peuvent être redoutables. "
-"Ils sont faciles à piloter et ont une grande solidité sur le long terme. S'ils ne "
-"tuent pas dans le début de partie, ils ont toujours un plan B. </p> <p> Toutefois, si"
-" leur accélération de mana est sabotée, les decks Ramp sont terriblement ralentis "
-"dans leur stratégie et restent souvent au point mort. Ils ont globalement les mêmes "
-"problèmes que Midrange contre Contrôle et Tempo : s'ils sont pris de vitesse, ils "
-"doivent subir les sorts de gestion adverses. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:633
-#, python-format
-msgid ""
-"<p> <strong>Big Spell</strong> : </p> <p> Catégorie de deck Combo qui se caractérise "
-"par : </p> %(ci_living_end)s <ul> <li> La présence d'un kill (le <em>big spell</em>) "
-"dont l'efficacité est due essentiellement au fait que tout le deck soit construit "
-"autour et pour maximiser l'effet de cette carte. </li> <li> La résolution de ce "
-"<em>big spell</em> entraîne une victoire immédiate ou change radicalement la "
-"dynamique de la partie. </li> </ul> <p> Un aspect Ramp est généralement présent dans "
-"les decks Big Spell, mais contrairement aux decks Ramp, ces decks sont construits "
-"autour d'une carte en particulier. De plus l'aspect Ramp n'est absolument pas une "
-"caractéristique générale de cette catégorie, Living End est justement un exemple de "
-"deck Big Spell sans aucun aspect ramp. </p> <div class=\"clear\"></div> <div "
-"class=\"tip\"> <h3>Le duo %(scapeshift)s et %(valakut)s</h3> <p> Ce duo de cartes a "
-"donné son nom à de nombreux archétypes et tous ces archétypes ne correspondent pas "
-"aux même catégories. <ul> <li> La version Standard de Valakut est un deck Ramp qui se"
-" contente de jouer Valakut pour rentabiliser son aspect ramp sur le long terme, "
-"quitte à en faire son kill. Ici pas de Scapeshift. </li> <li> Le deck Modern "
-"Scapeshift est un deck Contrôle-Combo Pur avec de nombreux sorts de gestions et "
-"contresorts pour temporiser et qui en fin de partie menace de tuer à tout moment en "
-"jouant Scapeshift. </li> <li> Le deck Modern Valakut, quant à lui, est bien un deck "
-"Big Spell où tout le deck est construit autour d'un plan de jeu simpliste qui se "
-"résume à avoir le plus vite possible suffisamment de terrains en jeu et jouer son Big"
-" Spell : Scapeshift. </li> <li> Enfin la version Omen Scapeshift se distingue "
-"foncièrement des autres par sa quasi-absence de montagne et donc à la nécessité "
-"d'avoir %(prismatic_omen)s sur le champ de bataille avant de lancer scapeshift ce qui"
-" fait du deck un Combo Traditionnel. </li> </ul> </div>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:698
-#, python-format
-msgid ""
-"<p> <strong>Combo Storm</strong> : </p> %(ci_grapeshot)s <p> Catégorie de deck Combo "
-"qui se caractérise par : </p> <ul> <li> L'accumulation des sorts et actions faites "
-"lors d'un même tour ; </li> <li> L'absence de sorts spécifique, voire de séquence, "
-"pour gagner ; </li> <li> Le besoin de quantité d'actions plus que de leur qualité. "
-"</li> </ul> <p> Les decks Storm Combo ont un <em>big turn</em> à l'issue duquel "
-"l'adversaire est défait. Le nom de cette catégorie est tirée de la capacité "
-"<em>Storm</em>. Tous les decks avec une carte Storm en guise de kill appartiennent à "
-"cette catégorie. Ce ne sont pas les seuls, High Tide ou KCI font aussi partie de "
-"cette catégorie. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:729
-#, python-format
-msgid ""
-"<p> <strong>Combo Traditionnel</strong> : </p> %(ci_painter_servant)s <p> Catégorie "
-"de deck Combo qui se caractérise par : </p> <ul> <li> Une condition de victoire basée"
-" directement ou indirectement sur une combo formée de deux ou trois cartes ; </li> "
-"<li> Des cartes permettant d'aller chercher les éléments de la combo. </li> </ul> <p>"
-" Les stratégies des Combo Traditionnel peuvent être très variées. On peut en "
-"distinguer deux variantes : </p> <ul> <li> Les decks qui vont avoir tendance à "
-"chercher dans leur bibliothèque les éléments de la combo ; </li> <li> Les decks qui "
-"vont miser sur la redondance des éléments de la combo quitte à jouer parfois "
-"plusieurs combos différentes. </li> </ul> <p> Dans cette seconde variante, on peut "
-"citer les decks Reanimator ou, en Legacy, les decks %(show_and_tell)s qui incorporent"
-" aussi %(sneak_attack)s. </p> <div class=\"clear\"></div> <div class=\"tip\"> <h3>Le "
-"plan de jeu Reanimator</h3> <p> Une fois réanimé, %(griselbrand)s à tendance à "
-"transformer le plan de jeu Reanimator en quelque chose proche d'un Storm Combo mais "
-"le plan de jeu originel du deck correspond bien à la catégorie Combo Traditionnel. "
-"</p> </div>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:782
-#, python-format
-msgid ""
-"<p> <strong>Lava Spike</strong> : </p> %(ci_lava_spike)s <p> Catégorie de deck Aggro-"
-"Combo qui se caractérise par : </p> <ul> <li> Une absence d'interactivité avec "
-"l'adversaire ; </li> <li> Une stratégie qui consiste à cibler avec ses sorts "
-"directement l'adversaire. </li> </ul> <p> On retrouve dans cette catégorie "
-"principalement deux sortes de deck : <em>Burn</em> et <em>Meule</em> : </p> <ul> <li>"
-" Les decks <em>Burn</em> utilisent leurs sorts pour infliger directement des dégâts à"
-" l'adversaire. Ils sont présents dans tous les formats. Ils sont tous à dominante "
-"rouge, mais tous ne sont pas nécessairement monocolores ; </li> <li> Les decks "
-"<em>Meule</em> utilisent leurs sorts pour mettre les cartes de la bibliothèque de "
-"l'adversaire dans son cimetière. Ils sont absent des formats éternels et "
-"correspondent pour la plupart au plan de jeu de certains decks limités bleus. </li> "
-"</ul>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:821
-#, python-format
-msgid ""
-"<p> <strong>Wave Combo</strong> : </p> %(ci_bloodghast)s <p> Catégorie de deck Aggro-"
-"Combo qui se caractérise par : </p> <ul> <li> Une construction autour d'une mécanique"
-" avec des cartes très synergiques entre elles ; </li> <li> Une stratégie qui peut "
-"menacer extrêmement rapidement l'adversaire et se répéter par vagues successives sur "
-"le long terme ; </li> <li> Une absence de réel Big Turn. </li> </ul> <p> Les "
-"principaux decks Wave Combo sont construits autour d'une mécanique dont ils abusent "
-"des effets. Les deux decks principaux de cette catégorie sont Dredge qui abuse de la "
-"capacité éponyme et des synergies avec le cimetière et %(hollow_one)s basé quant à "
-"lui sur les effets de défausse. </p> <p> Cette catégorie a finalement connu très peu "
-"de représentants et il est compliqué d'en lister des caractéristiques arrêtées. "
-"Toutefois, les deux decks cités ont la particularité d'être relativement "
-"imprévisibles dans leur sortie même pour leur pilote. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:860
-#, python-format
-msgid ""
-"<p> <strong>Voltron</strong> : </p> %(ci_glistener_elf)s <p> Catégorie de deck Aggro-"
-"Combo qui se caractérise par : </p> <ul> <li> Une condition de victoire basée sur le "
-"fait d'attaquer avec des créatures (généralement une seule) pour tuer en peu de "
-"phases d'attaque (parfois une seule) ; </li> <li> Un rythme de jeu plus rapide que "
-"les decks Aggro classiques. </li> </ul> <p> Les decks Voltron empruntent certaines "
-"caractéristiques aux catégories Combo Traditionnel et Storm Combo. Un deck "
-"emblématique de cette catégorie est %(kiln_fiend)s : </p> <ul> <li> Il s'agit d'une "
-"combo deux cartes avec %(berserk)s ou %(temur_battle_rage)s, ce qui donne le côté "
-"Combo Traditionnel ; </li> <li> Toutefois, le deck n'a pas besoin de cette seconde "
-"carte pour gagner et peut remporter la victoire simplement par l'accumulation de "
-"sorts joué lors d'un même tour, ce qui donne l'aspect Storm Combo. </li> </ul> <p> On"
-" retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une "
-"créature qui grossit jusqu'à devenir létale. </p> <div class=\"clear\"></div> <div "
-"class=\"tip\"> <h3>L'origine de Voltron</h3> <p> Le nom Voltron est issu du Commander"
-" pour désigner originellement des decks dont la stratégie est entièrement basé sur "
-"leur général. Mateus Nogueira distingue dans sa classification en catégorie pour le "
-"commander les decks Voltron Control (tels que %(zur_the_enchanter)s) des decks "
-"Voltron Aggro (tels que %(jenara_asura_of_war)s), focalisés sur le fait de finir "
-"rapidement une partie via les blessures de général. </p> </div>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:920
-#, python-format
-msgid ""
-"<p> <strong>Créature Combo</strong> : </p> <p> Catégorie de deck Aggro-Combo qui se "
-"caractérise par : </p> %(ci_vizier_of_remedies)s <ul> <li> La présence d'un grand "
-"nombre de créatures ; </li> <li> Une condition de victoire non-intéractive générée "
-"par une combo composée le plus souvent de créatures ; </li> <li> Une condition de "
-"victoire secondaire consistant à gagner en attaquant avec ses créatures (souvent en "
-"débordant son adversaire) ; </li> </ul> <p> Les decks Combo Créature sont des "
-"hybrides entre les decks appartenant aux familles Combo Traditionnel et Swarm ce qui "
-"en fait naturellement des decks Aggro-Combo. </p> <div class=\"clear\"></div> <div "
-"class=\"tip\"> <h3>Le cas de %(birthing_pod)s</h3> <p> Cette catégorie permet "
-"d'aborder plus en détail le cas de %(birthing_pod)s présente essentiellement dans "
-"deux types de jeu : </p> <ul> <li> Les decks ayant une structure de Midrange dont "
-"beaucoup de créatures sont jouées seulement en un exemplaire pour leur synergie avec "
-"Pod dans le but de construire diverses séquences d'actions en abusant des effets "
-"d'arrivée et de départ du champ de bataille. Ces decks-là sont classés dans la "
-"catégorie Midrange Non-Bleu. </li> <li> Les decks basés sur une multitude de "
-"créatures qui incorporent une combo qui est la principale condition de victoire du "
-"deck. Le rôle de %(birthing_pod)s est d'assembler une combo même s'il est également "
-"possible tutoriser des solutions face à des problèmes spécifiques. Ces decks "
-"appartiennent à la catégorie Combo Créature. </li> </ul> <p> %(birthing_pod)s "
-"pourrait être classée dans la catégorie Big Spell car les decks sont basés "
-"essentiellement autour de cette carte mais cette carte est avant tout un moteur de "
-"<em>Card Advantage</em> et non un réel moyen de tuer l'adversaire. De même, le fait "
-"de jouer la carte ne change pas de manière radicale la dynamique de la partie comme "
-"le ferait %(living_end)s ou %(balustrade_spy)s, c'est au mieux une menace pour "
-"l'adversaire. </p> </div>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-archetypes.html:986
-#, python-format
-msgid ""
-"<p> <strong>Aggro-Contrôle-Combo</strong> </p> <p> Catégorie et macrotype à part "
-"entière qui se caractérise par : </p> %(ci_psychatog)s <ul> <li> Une condition de "
-"victoire qui consiste à gagner en attaquant avec ses créatures ; </li> <li> Une "
-"condition de victoire non-interactive basée sur une combo ; </li> <li> Une volonté de"
-" gérer le board que ce soit de manière proactive ou réactive. </li> </ul> <p> Les "
-"decks Aggro-Control-Combo sont extrêmement rares en dehors du Vintage car peu de "
-"decks sont capables de produire des plans de jeux aussi variés de manière efficace. "
-"Le deck Grow-A-Tog est repris à titre d'exemple dans cette catégorie dans un article "
-"de Stephen Menendian et Paul Mastriano de 2003 : %(how_to_grow_a_tog)s. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-macrotypes.html:4
-#, python-format
-msgid ""
-"<h1>Les classifications en macrotypes</h1> <p> Il existe six modèles de "
-"classification en macrotypes. Certains de ces modèles utilisent les mêmes noms pour "
-"désigner des ensembles légèrement différents. </p> <div> <table> <thead> <tr> "
-"<th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> </tr> </thead> "
-"<tbody> <tr> <td>Aggro</td> <td>Aggro</td> <td>Aggro</td> <td>Aggro</td> "
-"<td>Aggro</td> <td>Aggro</td> </tr> <tr> <td>Contrôle</td> <td>Midrange</td> "
-"<td>Midrange</td> <td>Midrange</td> <td>Aggro-Contrôle</td> <td>Midrange</td> </tr> "
-"<tr> <td>Combo</td> <td>Contrôle</td> <td>Tempo</td> <td>Tempo</td> <td>Contrôle</td>"
-" <td>Tempo</td> </tr> <tr> <td></td> <td>Combo</td> <td>Contrôle</td> "
-"<td>Contrôle</td> <td>Contrôle-Combo</td> <td>Contrôle</td> </tr> <tr> <td></td> "
-"<td></td> <td>Combo</td> <td>Ramp</td> <td>Combo</td> <td>Contrôle-Combo</td> </tr> "
-"<tr> <td></td> <td></td> <td></td> <td>Combo</td> <td>Aggro-Combo</td> <td>Combo</td>"
-" </tr> <tr> <td></td> <td></td> <td></td> <td></td> <td></td> <td>Aggro-Combo</td> "
-"</tr> <tr> <td></td> <td></td> <td></td> <td></td> <td></td> <td>Aggro-Contrôle-"
-"Combo</td> </tr> </tbody> </table> </div> <p> Les classifications de "
-"<strong>A</strong> à <strong>D</strong> sont des itérations successives dont le but "
-"est de mettre en évidence comment les différents macrotypes interagissent les uns "
-"avec les autres. Les diagrammes présentent une généralisation des interactions entre "
-"les macrotypes et il est possibles que certains decks aient des résultats en dehors "
-"de cette symbolisation. Ils présentent cependant d'après Zac Hill des métagames "
-"simplifiés <em>idéaux</em>. </p> <p> Les classifications <strong>E</strong> et "
-"<strong>F</strong> tentent, quant à elles, d'établir une classification totale des "
-"archétypes. </p> <h2 id=\"3_macrotypes\">Système A — La classification en 3 "
-"macrotypes</h2> <p> Il s'agit de la première classification établie et elle reste à "
-"ce jour la plus connue et la plus répandue. On la retrouve sur divers outils traitant"
-" de stratégie dans les JCC et les JCE. </p> <div> %(img_macrotype_a)s </div> <ul> "
-"<li> <strong>Aggro</strong> : Deck agressif dont le principal objectif est d'amener "
-"l'adversaire à 0 points de vie le plus rapidement possible en jouant des créatures ou"
-" des sorts de dégâts directs. </li> <li> <strong>Contrôle</strong> : Deck dont "
-"l'objectif est de ralentir le déroulement de la partie afin d'installer une guerre "
-"d'attrition basée essentiellement sur du Card-Advantage. </li> <li> "
-"<strong>Combo</strong> : Deck basé sur une forte interaction entre deux cartes ou "
-"plus (combinaison) qui permet de gagner la partie instantanément ou qui mène à un "
-"très fort avantage quasi-synonyme de victoire. </li> </ul> <p> Ces trois macrotypes "
-"s'équilibrent suivant le principe de pierre-feuille-ciseaux présenté ci-dessus. On "
-"observe cet équilibre dans les formats standard où Aggro a tendance à occuper une "
-"part importante du metagame de part l'absence de decks combo efficaces. </p> <h2 "
-"id=\"4_macrotypes\">Système B — La classification en 4 macrotypes</h2> <p> Cette "
-"classification détaille davantage le macrotype Contrôle. En effet, ce macrotype ne "
-"reflète pas la diversité des stratégies qui le composent actuellement. </p> <div> "
-"%(img_macrotype_b)s </div> <ul> <li> <strong>Midrange</strong> : Deck dont la "
-"stratégie est de gérer les menaces adverses tout en imposant ses propres menaces soit"
-" en jouant des créatures plus grosses que ses adversaires, soit en mettant rapidement"
-" en place une clock et en la protégeant. </li> </ul> <p> Cette classification est "
-"plébiscitée par Patrick Chapin dans son livre <em>Next Level Building</em>. Selon "
-"cette classification, chaque macrotype contiendrait idéalement un quart du métagame. "
-"</p> <p> <em>Note</em> : Ce diagramme laisse assez justement de côté l'inégalité : "
-"Combo > Aggro qui en soi n'est pas directement relié aux macrotypes mais plutôt au "
-"tour fondamental des decks considérés car souvent ces macrotypes interagissent que "
-"faiblement ensemble. </p> <h2 id=\"5_macrotypes\">Système C — La classification en 5 "
-"macrotypes</h2> <p> Cette classification distingue Tempo et Midrange, deux stratégies"
-" différentes qui se retrouvent dans la section <em>Midrange</em> de la section "
-"précédente. Elle est plébiscitée par Mike Mason dans son article : "
-"%(watching_the_clock)s. </p> <div> %(img_macrotype_c)s </div> <ul> <li> "
-"<strong>Midrange</strong> : Deck ayant un plan de jeu proche d'un Contrôle ou d'un "
-"Ramp en début de partie mais qui va ensuite poser des créatures dont les force et "
-"endurance sont supérieures aux créatures jouées par Aggro. </li> <li> "
-"<strong>Tempo</strong> : Deck dont la stratégie consiste à poser rapidement une ou "
-"plusieurs menaces puis à les protéger suffisamment longtemps, le plus souvent à "
-"l'aide de contresorts, pour gagner. </li> </ul> <p> <em>Note</em> : Un deck Midrange "
-"sera réactif et jouera le rôle d'un deck Contrôle contre Aggro et sera au contraire "
-"proactif jouant le rôle d'un aggro contre Contrôle. </p> <h2 "
-"id=\"6_macrotypes\">Système D — La classification en 6 macrotypes</h2> <p> Les decks "
-"Ramp jusque-là intégrés au macrotype Contrôle sont mis en évidence car la stratégie "
-"développée au sein de ce macrotype ne correspond pas réellement aux systèmes "
-"développés ci-dessus. </p> <div> %(img_macrotype_d)s </div> <ul> <li> "
-"<strong>Ramp</strong> : Deck dont la stratégie principale consiste à produire "
-"pérennement et rapidement plus de manas que son adversaire afin de jouer des sorts "
-"coûteux rapidement. </li> </ul> <p> Les macrotypes Ramp et Combo ont les mêmes "
-"comportement face aux autres macrotypes. Cette observation a été faite par Zac Hill, "
-"un membre du pôle Recherche & Développement de Wizards of the Coast et qui a publié "
-"l'article %(ah_yes_very_standard)s. </p> <p> <em>Note</em> : Dans le cadre des "
-"classifications <strong>A</strong>, <strong>B</strong> et <strong>C</strong>, les "
-"sorts de ramp jouent intrinsèquement le rôle des cartes de combo de part leur faible "
-"impact immédiat sur la partie à leur résolution. Ces classifications ne reflètent "
-"cependant pas ce détail. </p> <h2 id=\"classification_hybride\">Système E — La "
-"classification à hybridation</h2> <p> Cette classification très populaire est basée "
-"sur la classification <strong>A</strong> (Aggro - Contrôle - Combo) à laquelle sont "
-"ajoutés les 3 macrotypes hybrides : Aggro-Contrôle / Contrôle-Combo / Aggro-Combo. "
-"</p> <p> Les définitions des macrotypes Aggro, Contrôle et Combo diffèrent des "
-"définitions précédentes sans s'exclure les uns des autres. Il est possible qu'un deck"
-" vérifie plusieurs définitions, il sera alors classé dans le macrotype hybride "
-"correspondant. </p> <ul> <li> <strong>Aggro</strong> : Deck dont la stratégie "
-"consiste à jouer des créatures et à attaquer avec celles-ci pour gagner. </li> <li> "
-"<strong>Contrôle</strong> : Deck dont la stratégie vise à générer du Card-Advantage "
-"pour être en mesure de contrer les stratégies du deck adverse. </li> <li> "
-"<strong>Combo</strong> : Deck dont la stratégie est d'obtenir la victoire par la "
-"combinaison de deux cartes ou plus. Cet effet combiné mène généralement à une "
-"victoire instantanée ou à un avantage décisif. </li> </ul> <p> La méthode de "
-"construction de cette classification exclu peu de decks. Les macrotypes Tempo et "
-"Midrange se retrouvent de nouveau sous la même appellation Aggro-Contrôle. De même, "
-"Contrôle et Ramp se retrouvent dans le macrotype Contrôle. Ces agglomérations rendent"
-" l'équilibrage de ce système impossible. L'article de Jeff Cuningham apporte plus de "
-"contenu sur cette classification : %(aggro_controle_and_combo)s. </p> <h2 "
-"id=\"classification_totale\">Système F — La classification en 8 macrotypes</h2> <p> "
-"Il s'agit d'une classification totale. La diversité des macrotypes permet de classer "
-"tous les decks. Le macrotype Aggro-Contrôle est séparé en Tempo et en Midrange et "
-"apparait pour la première fois le macrotype Aggro-Contrôle-Combo. </p> <ul> <li> "
-"<strong>Aggro-Contrôle-Combo</strong> : Deck dont la stratégie répond aux définitions"
-" du système <strong>E</strong> d'Aggro, de Contrôle et de Combo  : <ul> <li> Une "
-"condition de victoire qui consiste à gagner en attaquant avec ses créatures ; </li> "
-"<li>Une condition de victoire non-intéractive basée sur une combo ;</li> <li>Une "
-"volonté de gérer le board que ce soit de manière proactive ou réactive.</li> </ul> "
-"</li> </ul> <p> <strong>MUD</strong> et <strong>Grow-A-Tog</strong> sont des decks de"
-" Vintage appartenant à ce macrotype. C'en sont quasiment les seuls représentants. "
-"</p> <p> Cette classification totale apparaît dès 2014 avec l'article de Carsten "
-"Kotter : %(the_guide_to_macro_archetypes)s. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:4
-msgid "La classification en tier et l'évolution d'un metagame"
-msgstr "Tier classification and Evolution of a metagame"
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:5
-msgid ""
-"<h2>La classification en tier</h2> <p> Une manière totalement différente de vouloir "
-"classer les decks est de les échelonner par puissance au sein du format. Voici le "
-"vocabulaire pour cela. </p> <p> « Tier » signifie échelon en anglais, et n'a donc "
-"aucun rapport avec la fraction 1/3. Cette confusion est d'autant plus grande chez les"
-" joueurs français car les decks sont habituellement classés en trois tiers. </p> <ul>"
-" <li> Le tier 1 représente les decks les plus joués et les plus performants en "
-"tournois, ils sont la référence du metagame et souvent les decks les plus joués. On "
-"appelle aussi ces decks les <em>Decks to Beat</em>, ce qui signifie les decks à "
-"battre. Ces decks forment communément le <em>Gauntlet</em> du format. </li> <li> Le "
-"tier 2 représente les <em>outsiders</em> , des decks plus ou moins connus, qui se "
-"révèlent dominants à une occasion particulière ou qui sont capables de gagner "
-"quelques places dans les top 8. On appelle aussi ces decks les <em>Deck to "
-"Watch</em>, ce qui signifie les decks à surveiller. </li> <li> Le tier 3 regroupe les"
-" autres decks, pouvant créer la surprise ponctuellement, mais qui ne réalisent pas "
-"régulièrement de performances. </li> </ul> <p> Il existe également des decks hors "
-"metagame que l'on appelle communément les decks <em>fun</em> ou <em>casual</em> et il"
-" arrive de rajouter un « tier 1.5 » lorsque le metagame est très riche et que l'on "
-"retrouve une différence de niveau au sein des decks tier 2. </p> <p> Donc ça c'est la"
-" théorie, dans la pratique, pour classer les différents archétypes, on regarde "
-"simplement leur représentativité dans les top des tournois. Ceux qui gagneront le "
-"plus de tournois seront appelés les tier 1 et ainsi de suite. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:47
-#, python-format
-msgid ""
-"<h2>Une matrice des matchup pour simuler des tournois</h2> <p> L'objectif de cette "
-"section est de mettre à disposition un outil qui permet de pousser le propos encore "
-"plus loin. Les macrotypes d'un format sont censés s'équilibrer, il en est de même "
-"pour les catégories ou les archétypes. Il n'est plus question d'une simple flèche "
-"mais d'un graphe de probabilité complet où on indiquera sur chaque branche la "
-"probabilité qu'un deck a de gagner contre un autre. </p> <p> Construire un tel graphe"
-" demande soit une très bonne connaissance du format que l'on considère, soit — et "
-"c'est mieux — d'avoir une grosse base de données à disposition. Dans tout les cas, "
-"les probabilités seront forcément des estimations, ce sera d'ailleurs la principale "
-"source d'erreur. Construire ce graphe revient finalement à construire une matrice, "
-"c'est à dire un tableau, où est inscrite la probabilité qu'un archétype ou qu'une "
-"catégorie a de gagner contre une autre, avec une probabilité de 0,5 pour les miroirs."
-" </p> <p> Ci-dessous se trouve une matrice des matchups d'archétypes Modern collectés"
-" sur les GP de Las Vegas, Sao Paulo et Barcelone en 2018 qui ont été postés sur "
-"twitter/reddit : </p> %(img_matrice)s <p> Cette martice sert ni plus ni moins à "
-"simuler des tournois et par la suite à identifier les meilleurs decks du format, le "
-"tier 1. Pour ce faire, voici les données de base : </p> <ul> <li> Chaque deck est "
-"joué suivant des proportions égales ou personnalisées ; </li> <li> Chaque deck en "
-"affronte un au hasard à chaque ronde dans un tournoi à élimination directe ; </li> "
-"<li> La proportion de chaque archétype est modifiée à chaque ronde en raison des "
-"éliminations ; </li> <li> Est donnée la probabilité qu'un deck a d'atteindre la ronde"
-" numéro <em>N</em>. </li> </ul> <p> D'après la matrice ci-dessus, en considérant que "
-"chaque archétype est joué en proportion égale, seuls 6 archétypes ont une probabilité"
-" supérieure à 1/18 (0,055) de gagner un tournoi de dix rondes. Dans l'ordre : UW "
-"Control (0,20), KCI (0,11), Counters Coco (0,10), Humans (0,08), Hollow One (0,06) et"
-" Grixis Shadows (0,06). </p> %(img_graph)s <p> Cette matrice donne en effet des "
-"résultats particulièrement bons concernant UW Control qui semble dominer le format "
-"étudié. Voici la matrice établie en partant de la proportion dans lesquelle ces "
-"différents decks ont été joués lors des trois GP de Vegas, Sao Paulo et Barcelone. "
-"</p> %(img_metagame)s <p> Le résultat obtenu place UW Control de nouveau en tête avec"
-" une probabilité de victoire relativement proche (0,18) malgré une proportion de UW "
-"Control au départ plus faible. </p> %(img_proba_restreintes)s"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:112
-msgid ""
-"<h2>L'évolution d'un metagame serait-elle prédictible ?</h2> <p> En jouant sur la "
-"proportion de chaque archétype au départ, serait-il possible d'anticiper l'évolution "
-"d'un metagame dans le temps ? Même si cela semble être la méthode à adopter, cette "
-"entreprise semble vouée à l'échec sur le moyen voire le long terme. </p> <p> Tout "
-"d'abord, il faut considérer que la proportion de chaque deck lors des tournois ne "
-"dépend que de la faculté que ces decks ont de gagner des tournois et que le capital "
-"sympathie qu'ils peuvent avoir ne rentre pas en ligne de compte. Il s'agit d'un "
-"contexte compétitif à grande échelle qui dépasse la dynamique des tournois locaux. "
-"</p> <p> On obtient, à ce moment-là, un système dynamique discret où l'on assimile le"
-" metagame à un instant <span class=\"code\">T</span> à la proportion dans laquelle "
-"les archétypes seront joués à l'instant <span class=\"code\">T+1</span>. Ce système "
-"revient exactement au même qu'augmenter le nombre de rondes d'un tournoi. </p> <p> Il"
-" y a, cependant, plusieurs problèmes derrière cette méthode : </p> <ol> <li> Nous "
-"avons ici un système dynamique qui a de bonnes chances d'être chaotique, c'est-à-dire"
-" que des écarts sur les valeurs initiales ou sur la matrice de départ peuvent "
-"entraîner des résultats très différents à l'arrivée (les valeurs de la matrice de "
-"départ sont déjà des approximations !) ; </li> <li> En réalité, la matrice de matchup"
-" dépend elle aussi de l'instant <span class=\"code\">T</span> ! En effet, lorsque le "
-"metagame évolue les listes de deck et en particulier les réserves s'adaptent, pouvant"
-" changer grandement les valeurs de la matrice. Ce problème était totalement absent "
-"lorsqu'un unique tournoi était pris en compte ; </li> <li> Cette méthode délaisse "
-"totalement la possibilité qu'un nouveau deck ou même un rogue deck que nous avions "
-"ignoré jusque-là fasse son entrée dans le metagame. </li> </ol> <p> Finalement, "
-"l'apparente domination de UW Control dans le format Modern telle qu'étudiée sur les "
-"GP en 2018 n'est pas forcément synonyme d'une domination future de cet archétype. "
-"Cela dépendra de la faculté des autres archétypes à réagir à cette menace et à s'y "
-"adapter en modifiant notamment leur réserve. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:161
-msgid "Matrice 8×8"
-msgstr "8 by 8 matrix"
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:160
-#, python-format
-msgid ""
-"<h2>Des outils à disposition</h2> <p> Voici de quoi exploiter des matrices de matchup"
-" et créer des graphiques : un fichier pour des matrices de taille inférieure à 8 et "
-"un autre pour des matrices pouvant aller jusqu'à une taille de 20. </p> <ul> <li> "
-"%(matrice_88)s </li> <li> %(matrice_2020)s </li> </ul> <p> Il est possible d'éditer "
-"directement en ligne toutes les cases jaunes, les calculs sont automatiques. Il est "
-"conseillé de télécharger ces fichiers au format excel ou open-office pour les "
-"utiliser. </p> <p> Cette méthode n'est pas compatible sur le long terme avec le "
-"regroupement d'archétypes. Cela crée des matrices de taille conséquente avec autant "
-"de valeurs que de sources d'erreurs possibles. Dans son article de 2017 intitulé "
-"%(updating_matchup)s, Ari Lax propose justement de travailler avec les catégories de "
-"decks pour faire une matrice de matchup. La définition donnée à chacune de ses "
-"catégories par Ari Lax ne correspond pas systématiquement à celle présentée dans cet "
-"article. Voici la matrice qu'il a proposée pour le metagame Modern en 2017 : </p> "
-"%(img_metagame)s <p> Il reste à définir les pourcentages qui correspondent à des "
-"matchups <em>Bon</em> et <em>Excellent</em>. Voici un document qui permet de "
-"personnaliser la matrice ci-dessus : </p> <ul> <li> %(calculateur_proba)s </li> </ul>"
-" <p> L'analyse de cette matrice montre qu'en fonction des valeurs données, on trouve "
-"quatre catégories prédominantes : Creature Combo, Big Mana, Blue Midrange et Toolbox."
-" Il est possible que le manque de précision sur les valeurs de la matrice et les "
-"regroupement de decks dans la même catégorie tel que Affinity, Burn et Lantern "
-"Control dans Aggro Linéaire amène à quelques incohérences au vu des résultats en "
-"2017. </p> <p> Une matrice de matchup est un outil utile mais qui donne des résultats"
-" assez instables et parfois aberrants suivant les regroupements de decks que l'on "
-"fait. Un outil à utiliser donc toujours avec un esprit critique. </p>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/les-tiers.html:162
-msgid "Matrice 20×20"
-msgstr "20 by 20 matrix"
-
-#: barrins_codex/templates/articles/classifier-un-deck/pour-aller-plus-loin.html:6
-#, python-format
-msgid ""
-"<h2>Quel est le lien entre Combo et Big Turn ?</h2> <p> La notion de <em>Big "
-"Turn</em> ne serait-elle pas la notion idéale pour définir Combo ? En effet, ce qui "
-"permet de distinguer les différents macrotypes est leurs différents plans de jeu. Il "
-"faudrait donc associer de manière systématique les decks Combo à la notion de Big "
-"Turn qui peut se résumer ainsi : <ol> <li> Se mettre en place pour réussir son Big "
-"Turn ; </li> <li> Résoudre le Big Turn. </li> </ol> <p> Il est vrai que ce Big Turn "
-"est un point commun des six catégories Combo et Aggro-Combo citées dans cet article. "
-"Le Big Turn correspond alors : </p> <ul> <li> au tour où il y a accumulation des "
-"sorts et des actions pour tuer son adversaire (<em>Storm Combo</em>) ; </li> <li> au "
-"tour où le <em>Big Spell</em> est lancé (<em>Big Spell</em>) ; </li> <li> au tour où "
-"la combo est assemblée (<em>Combo Traditionnel</em>) ; </li> <li> au tour où la "
-"créature devient létale (<em>Voltron</em>) ; </li> <li> au tour où la combo est "
-"assemblée (<em>Creature-Combo</em>). </li> </ul> <p> De plus, il est possible "
-"d'affirmer que si le Big Turn est d'une manière ou d'une autre <em>contrarié</em> par"
-" l'adversaire, alors les chances de gagner pour le deck combo deviennent fortement "
-"compromises. </p> <p> Il existe cependant deux catégories Combo et Aggro-Combo qui "
-"n'ont pas de réel Big Turn : Lava Spike et Wave Combo. </p> <ul> <li> <p><strong>Lava"
-" Spike</strong> :</p> <p> L'absence d'un Big Turn fait que ce deck a tendance à être "
-"classifié dans Aggro. De même, dans d'autres jeux similaires à Magic, notamment "
-"Hearthstone, il existe deux types de decks Aggro : </p> <ol> <li>Ceux basés sur les "
-"créatures ;</li> <li>Ceux basés sur les dégâts directs (des decks <em>face</em>)</li>"
-" </ol> <p> Dans ces jeux, la notion de deck combo est liée à la présence d'un Big "
-"Turn. Autrement dit, à Hearthstone, le débat est tranché mais il est possible que "
-"cette classification dépende des possibilités de construction de decks. </p> <p> Il "
-"est intéressant de noter qu'en Peasant et en Pauper, la présence de "
-"%(thermo_alchemist)s encourage les joueurs à jouer, au troisième ou au quatrième "
-"tour, un maximum de sorts consécutifs pour infliger jusqu'à 16-17 blessures. Ce qui "
-"donne au final des versions de Burn avec Big Turn. </p> </li> <li> <p><strong>Wave "
-"Combo</strong> :</p> <p> Les decks de cette catégorie font de l'absence de Big Turn "
-"l'une de leurs spécificités. Ce sont des decks qui se veulent efficaces sur le long "
-"terme et qui peuvent s'emballer à tout moment. Autant la concession de placer "
-"%(hollow_one)s, qui est un archétype très récent, dans aggro est généralement plutôt "
-"bien acceptée, autant Dredge est unanimement reconnu comme étant un deck Combo "
-"mettant à lui seul en défaut l'hypothèse émise plus haut. </p> </li> </ul>"
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck/pour-aller-plus-loin.html:93
-msgid ""
-"<h2>Quelques liens</h2> <p> Pour approfondir le sujet, voici quelques très bons "
-"articles complémentaires sur le sujet (en anglais) avec entre parenthèse la "
-"classification en macrotype considérée par l'auteur (A-B-C-D-E-F). </p>"
-msgstr ""
-"<h2>Some useful links</h2> <p> To go further into the topic, here are some very good "
-"additional articles on the topic with in bracket the macrotype classification "
-"considered by the writer (A-B-C-D-E-F). </p>"
-
 #: barrins_codex/templates/cartes-thematiques/_layout_wip.html:3
 #, python-format
 msgid ""
@@ -3400,10 +3367,6 @@ msgstr ""
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:13
 msgid "Destruction de terrains"
 msgstr "Land destruction"
-
-#: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:15
-msgid "Midrange Non-Bleu"
-msgstr "Non-Blue Midrange"
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:14
 #, python-format
@@ -4495,269 +4458,3 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
-
-#~ msgid ""
-#~ "<h1>Les Catégories de decks</h1> <p> La "
-#~ "classification en archétype permet d'affiner la "
-#~ "classification en macrotype. La version la "
-#~ "plus connue est celle de Patrick Chapin "
-#~ "basée sur la classification en 4 macrotypes"
-#~ " (système <strong>B</strong>). <p> La classification"
-#~ " ci-dessous a été réalisée par "
-#~ "<strong>Zombie33</strong> pour le site %(magic_ville)s "
-#~ "où cet article a été originellement publié."
-#~ " Elle comporte 21 catégories et se base "
-#~ "sur les travaux de Patrick Chapin. Les "
-#~ "archétypes <em>Ramp</em>, <em>Wave Combo</em>, "
-#~ "<em>Voltron</em>, <em>Créature-Combo</em> et <em>Aggro-"
-#~ "Contrôle-Combo</em> sont des ajouts de "
-#~ "Zombie33. </p>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "%(archetype_1)s %(archetype_2)s %(archetype_3)s %(archetype_4)s"
-#~ " %(archetype_5)s %(archetype_6)s %(archetype_7)s "
-#~ "%(archetype_8)s %(archetype_9)s %(archetype_10)s "
-#~ "%(archetype_11)s %(archetype_12)s %(archetype_13)s "
-#~ "%(archetype_14)s %(archetype_15)s %(archetype_16)s "
-#~ "%(archetype_17)s %(archetype_18)s %(archetype_19)s "
-#~ "%(archetype_20)s %(archetype_21)s"
-#~ msgstr ""
-#~ "%(archetype_1)s %(archetype_2)s %(archetype_3)s %(archetype_4)s"
-#~ " %(archetype_5)s %(archetype_6)s %(archetype_7)s "
-#~ "%(archetype_8)s %(archetype_9)s %(archetype_10)s "
-#~ "%(archetype_11)s %(archetype_12)s %(archetype_13)s "
-#~ "%(archetype_14)s %(archetype_15)s %(archetype_16)s "
-#~ "%(archetype_17)s %(archetype_18)s %(archetype_19)s "
-#~ "%(archetype_20)s %(archetype_21)s"
-
-#~ msgid ""
-#~ "<p> <strong>Swarm</strong> : </p> %(ci_thalia_guardian)s"
-#~ " <p> Catégorie de deck Aggro qui se "
-#~ "caractérise par : </p> <ul> <li> Gagne "
-#~ "par l'accumulation de petites créatures ; "
-#~ "</li> <li> Gagne généralement le combat en "
-#~ "débordant l'adversaire avec les créatures plutôt "
-#~ "qu'en essayant de tuer les créatures adverses"
-#~ " ; </li> <li> Gagne en misant sur "
-#~ "l'accumulation de créatures sans synergie "
-#~ "particulière entre elles (en partageant un "
-#~ "type par exemple). </li> </ul> <p> Les "
-#~ "principaux représentants de cette catégorie sont "
-#~ "les decks <em>Weenie White</em>. Dans les "
-#~ "formats éternels, comme le Modern ou le "
-#~ "Legacy, ces créatures sont choisies pour gêner"
-#~ " le développement adverse, voire le contrecarrer"
-#~ " (ces créatures sont nommées <em>hatebear</em>). "
-#~ "Ceci n'est toutefois pas une caractéristique "
-#~ "générale des decks Swarm : la volonté "
-#~ "principale reste d'envahir le champ de "
-#~ "bataille (avec l'aide de %(aether_vial)s en "
-#~ "Modern et en Legacy). </p> <p> Si "
-#~ "l'accumulation de créatures sur le champ de"
-#~ " bataille est issue d'une combo ou si "
-#~ "cette accumulation est susceptible de s'emballer "
-#~ "à cause d'interactions ou de combos, le "
-#~ "deck rentrera alors dans la catégorie "
-#~ "Créature-Combo. Ces decks sont présentés plus "
-#~ "tard et sont en général moins agressifs. "
-#~ "</p>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<p> <strong>Red Aggro</strong> : </p> "
-#~ "%(ci_goblin_chainwhirler)s <p> Catégorie de deck "
-#~ "Aggro se caractérisant par : </p> <ul> "
-#~ "<li> Une courbe plus basse qui permet au"
-#~ " deck de prendre l'ascendant sur l'adversaire "
-#~ "dans les premiers tours ; </li> <li> La"
-#~ " possibilité de clore une partie avec des"
-#~ " sorts de dégâts directs (des <em>blasts</em>)"
-#~ " ; </li> <li> Le besoin de se "
-#~ "débarraser des bloqueurs adverses à l'aide des"
-#~ " blasts se trouve en directe opposition "
-#~ "avec la possiblité de cibler directement "
-#~ "l'adversaire </li> </ul> <p> Bien qu'on parle"
-#~ " de Red Aggro, la couleur rouge n'est "
-#~ "absolument pas une nécessité pour faire partie"
-#~ " de cette catégorie. Les decks <em>Mono "
-#~ "Green Stompy</em> en sont d'ailleurs un bon"
-#~ " exemple car les boosts, comme %(giant_growth)s,"
-#~ " ciblant des créatures avec capacités d'évasion"
-#~ " ou des créatures bloquées remplacent le "
-#~ "rôle des blasts. Les decks de cette "
-#~ "catégorie font partie de ces decks plutôt "
-#~ "simples à construire et relativement efficaces "
-#~ "dans la plupart des formats. </p> <p> En"
-#~ " fonction du ratio entre les sorts de "
-#~ "dégâts directs et les sorts de créatures "
-#~ "dans le deck, le nom du deck change "
-#~ ": RDW / Sligh / Burn (voir la "
-#~ "catégorie Lava Spike pour ce dernier). Souvent"
-#~ " confondus, les decks RDW se distinguent "
-#~ "pourtant notablement des decks Gobelins par "
-#~ "leur absence ou quasi-absence de synergies "
-#~ "\"tribales\". </p>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<p> <strong>Aggro Linéaire</strong> : </p> "
-#~ "%(ci_cavern_of_souls)s <p> Catégorie de deck Aggro"
-#~ " qui se caractérise par : </p> <ul> "
-#~ "<li> Les cartes sont exclusivement basées sur"
-#~ " un thème commun, les créatures ont "
-#~ "généralement le même type ; </li> <li> "
-#~ "Le deck utilise des synergies entre les "
-#~ "cartes liées à ce thème commun. </li> "
-#~ "</ul> <p> Beaucoup de decks Aggro Linéaire "
-#~ "sont des decks tribaux, le thème commun "
-#~ "étant un type de créature mais ce n'est"
-#~ " toutefois pas une généralité. On retrouve "
-#~ "aussi les decks <em>Affinity</em> et <em>Tempered"
-#~ " Steel</em> dans cette catégorie dont le "
-#~ "thème commun est ici « Artefact ». De"
-#~ " plus, tous les decks tribaux ne sont "
-#~ "pas des Aggro Linéaire, en effet "
-#~ "<em>Faeries</em> est par exemple un deck Tempo"
-#~ " et <em>Elfball</em> un deck Storm Combo. "
-#~ "</p> <p> Les deck Aggro Linéaire sont "
-#~ "extrêmement populaires dans tous les formats "
-#~ "et toutes les extensions récentes de Magic "
-#~ "sont construites pour que cette catégorie de"
-#~ " deck soit présente en limité. Le premier"
-#~ " archétype à rentrer dans cette catégorie "
-#~ "fut le %(rebel_1999_block_deck)s </p> <p> Il "
-#~ "en faut parfois peu pour qu'un deck "
-#~ "intègre cette catégorie. C'est par exemple le"
-#~ " cas du deck standard %(rick_stout_uw_human)s qui"
-#~ " se distingua des autres listes UW par "
-#~ "l'ajout de %(cavern_of_souls)s et "
-#~ "%(champion_of_the_parish)s qui intégrait parfaitement à"
-#~ " ce deck tribal. </p>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<p> <strong>Suicide</strong> </p> %(ci_carnophage)s <p>"
-#~ " Catégorie de deck Aggro (appelée <em>Fish</em>"
-#~ " par Patrick Chapin) et se caractérisant "
-#~ "par : </p> <ul> <li> Des accélérateurs "
-#~ "de mana en vue de poser le plus "
-#~ "vite possible des créatures pour mettre la "
-#~ "pression sur l'adversaire ; </li> <li> Des "
-#~ "sorts de gestions qui empêchent l'adversaire "
-#~ "de répondre aux menaces posées dans les "
-#~ "premiers tours. </li> </ul> <p> L'appellation "
-#~ "Suicide vient du fait que le deck à "
-#~ "tendance à jouer des cartes qui vont "
-#~ "l'affecter de manière néfaste. Certaines cartes "
-#~ "peuvent nécessiter, par exemple, une perte de"
-#~ " point de vie, un sacrifice de permanent"
-#~ " ou encore de faire du <em>Card "
-#~ "Disadvantage</em> (CD), comme les accélérateurs de"
-#~ " mana éphémères extrêmement courant dans ces "
-#~ "decks. Un des premiers deck de cette "
-#~ "catégorie fut le deck Extended <strong>Black "
-#~ "Suicide</strong> de Brian Schneider (1999). </p> "
-#~ "<p> On classe également dans cette catégorie"
-#~ " le deck <em>Dragon Stompy</em> dans lequel "
-#~ "on retrouve le besoin de mana dans les"
-#~ " premiers tours via %(simian_spirit_guide)s, "
-#~ "%(chrome_mox)s et %(ancient_tomb)s pour mettre en"
-#~ " place un léthal rapide et une carte "
-#~ "qui va empêcher le développement adverse. Le"
-#~ " deck mise sur cette impulsion qu'il aura"
-#~ " mis sur le début de partie et pour"
-#~ " laquelle il a dû faire énormément de "
-#~ "CD. </p>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<p> <strong>Tempo</strong> : </p> %(ci_delver_of_secrets)s"
-#~ " <p> Catégorie de deck Aggro-Contrôle, "
-#~ "parfois assimilée aux decks Aggro et parfois"
-#~ " considérée comme un macrotype à part "
-#~ "entière. Les decks Tempo basent leur stratégie"
-#~ " sur le fait de toujours vouloir conserver"
-#~ " un meilleur tempo que celui de "
-#~ "l'adversaire à l'aide de sorts peu cher. "
-#~ "On parle aussi de <em>Disruptive Aggro</em> "
-#~ "pour désigner cette famille de deck. </p> "
-#~ "<p> Les decks Tempo sont connus pour "
-#~ "jouer le rôle de l’agresseur contre Contrôle"
-#~ " et le rôle du défenseur contre Aggro. "
-#~ "</p> <p> Les principales faiblesses des decks"
-#~ " Tempo sont qu'ils ne produisent pas de "
-#~ "<em>Card Advantage</em> et que leur stratégie "
-#~ "s'épuise sur le long terme. De plus, "
-#~ "s'ils perdent leur avantage, il leur est "
-#~ "difficile de reprendre l'ascendant sur la "
-#~ "partie. Malgré cela, des decks reconnus comme"
-#~ " étant les meilleurs decks de leur format"
-#~ " appartiennent à cette catégorie. </p>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<p> <strong>Rock</strong> : </p> %(ci_abrupt_decay)s "
-#~ "<p> Catégorie de deck Midrange qui se "
-#~ "caractérise par : </p> <ul> <li> Des "
-#~ "créatures généralement un peu plus grosses "
-#~ "qu'Aggro classique ; </li> <li> De "
-#~ "l'accélération de mana et de la disruption "
-#~ "; </li> <li> Du vert pour les créatures"
-#~ " et du noir pour la défausse et les"
-#~ " removals. </li> </ul> <p> Cette catégorie "
-#~ "de deck vient d'un deck nommé par Malka"
-#~ " un fan de catch : \"The Rock and "
-#~ "His Millions\" où \"The Rock\" en hommage "
-#~ "à Dwayne The Rock Johnson correspondait à "
-#~ "la carte %(phyrexian_plaguelord)s et \"His "
-#~ "Millions\" correspondaient aux écureuils crées par"
-#~ " %(deranged_hermit)s. On peut distinguer principalement"
-#~ " deux types de decks Rock : </p> <ul>"
-#~ " <li> Les decks plus orientés Contrôle qui"
-#~ " se focalisent plutôt sur un <em>Card "
-#~ "Advantage</em> progressif. Ces decks essentiellement "
-#~ "B/G ont tendance à jouer le rôle du "
-#~ "Contrôle même contre d'autres decks Contrôle ;"
-#~ " </li> <li> Les decks Rock plus Aggro "
-#~ "qui se focalisent davantage sur la solidité"
-#~ " de ses créatures que sur le Card "
-#~ "Advantage. Ces decks correspondent essentiellement "
-#~ "aux decks Junk (Abzan W/B/G). </li> </ul>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<p> <strong>Midrange Pur</strong> : </p> "
-#~ "%(ci_knight_of_the_reliquary)s <p> Catégorie de deck "
-#~ "Midrange qui se caractérise par : </p> "
-#~ "<ul> <li> La qualité intrinsèque des cartes"
-#~ " plutôt que les synergies entre elles ; "
-#~ "</li> <li> Des créatures polyvalentes et des"
-#~ " <em>removals</em> peu cher ; </li> <li> La"
-#~ " possibilité de s'adapter à n'importe quel "
-#~ "environnement. </li> </ul> <p> Les decks Pure"
-#~ " Midrange sont parfois appelé <em>Good Stuff</em>"
-#~ " car ils ont tendance à incorporer les "
-#~ "meilleurs sorts du format, les removals les"
-#~ " moins chers ainsi que les meilleures "
-#~ "créatures pour chaque coût converti de mana."
-#~ " Cette configuration force bien souvent ces "
-#~ "decks à jouer tricolore, voire quadricolore si"
-#~ " la base de mana le permet. </p> <p>"
-#~ " Les decks Pure Midrange sont des decks "
-#~ "relativement faciles et rapides à construire "
-#~ "une fois que sont identifiées les meilleurs"
-#~ " cartes à disposition dans un format. Ils"
-#~ " font donc très régulièrement partie des "
-#~ "premiers decks à apparaître avec notamment les"
-#~ " Aggro Linéaire et les Red Aggro. Ces "
-#~ "decks ont aussi tendance à être mauvais "
-#~ "contre les decks <em>unfair</em> et excellents "
-#~ "contre les decks <em>fair</em>. C'est pourquoi "
-#~ "dans un format résolu, lorsqu'un deck Midrange"
-#~ " est capable d'incorporer au moins un sort"
-#~ " unfair tel que de la destruction massive"
-#~ " de terrain, il peut faire d'excellent "
-#~ "résultats. </p>"
-#~ msgstr ""
-
