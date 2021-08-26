@@ -292,11 +292,11 @@ def display_deck():
         return flask.Markup(
             """
 <iframe
-	src="https://www.moxfield.com/embed/{key}?hideTotal=true"
-	id="{id}"
-	frameBorder="0"
+    src="https://www.moxfield.com/embed/{key}?hideTotal=true"
+    id="{id}"
+    frameBorder="0"
     width="100%"
-	onload="moxfieldOnLoad(event)"
+    onload="moxfieldOnLoad(event)"
 ></iframe>
         """.format(
                 key=key, id=id

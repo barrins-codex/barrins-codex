@@ -19,8 +19,8 @@ def _decklist(key):
 
 def decklist(key):
     d = _decklist(key)
-    l = d.split("\n")
-    print(l)
+    d = d.split("\n")
+    print(d)
 
 
 decklist(key)
