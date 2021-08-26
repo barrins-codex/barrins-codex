@@ -86,16 +86,7 @@ STRUCTURE = Nav(
             lazy_gettext("Articles"),
             index=True,
             children=[
-                Nav(
-                    lazy_gettext("Classifier un deck"),
-                    index=True,
-                    children=[
-                        Nav(lazy_gettext("Les macrotypes")),
-                        Nav(lazy_gettext("Les archétypes")),
-                        Nav(lazy_gettext("Les tiers")),
-                        Nav(lazy_gettext("Pour aller plus loin")),
-                    ],
-                ),
+                Nav(lazy_gettext("Classifier un deck")),
                 Nav(lazy_gettext("Construire un deck")),
             ],
         ),
