@@ -65,3 +65,19 @@ fQcUYi9WGEKEnm5EUFEalw
 	pour la suite de la partie.") }}
 </p>
 {% endblock %}
+
+{% block tips %}
+<p>
+	{% trans trimmed
+		chroniques=external("https://www.youtube.com/channel/UCOhvG6ZoGL4EneKPEM9N8Vw","Les Chroniques du Commander"),
+		theau_mery=external("https://twitter.com/theaumery","Théau Méry")
+	%}
+	La vidéo suivante a été réalisée par {{ chroniques }} avec la participation de
+	{{ theau_mery }} suite à sa participation au Master Zap de juillet 2021.
+	{% endtrans %}
+</p>
+<p style="text-align: center">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/0OYP75gMOEw" title="Decktech Isamaru by Inøve" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</iframe>
+</p>
+{% endblock %}
