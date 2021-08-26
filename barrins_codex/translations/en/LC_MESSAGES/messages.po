@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-26 19:39+0200\n"
+"POT-Creation-Date: 2021-08-26 20:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -3143,7 +3143,7 @@ msgid ""
 msgstr ""
 "From a <em>Storm</em> perspective, Kenrith allows you to use the mana generated to "
 "gain a direct advantage. If Alix chooses Kenrith, it will probably be necessary to "
-"play %(training_grounds) to reduce the cost of the activated ability to draw a card."
+"play %(training_grounds)s to reduce the cost of the activated ability to draw a card."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:103
 #, python-format
@@ -4822,3 +4822,4 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
+
