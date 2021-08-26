@@ -1,7 +1,7 @@
 Changelog
 =========
 
-5.0.1 (unreleased)
+5.0.1 (2021-08-26)
 ------------------
 
 - Ajout d'une vidéo de decktech de Isamaru
