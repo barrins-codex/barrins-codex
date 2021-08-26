@@ -10,25 +10,24 @@
 nuQdpf6WjUegZpOMXTuPdA
 {% endblock %}
 
-{% block archetype_name %}
-<h1>The Gitrog Monster</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed %}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	{{ the_gitrog_monster }} est un deck créé dans le but d'utiliser au maximum les interactions
 	avec les terrains. La facilité d'accès à des sorts de contrôle et l'utilisation d'un squelette
 	comboisant en fait un des rares decks réellement <em>Contrôle-Combo</em> en Duel Commander.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	L'utilisation de terrains se traduit par la facilité à en mettre en jeu depuis la bibliothèque
 	ou le cimetière et à les sacrifier pour tirer profit de la capacité de {{ the_gitrog_monster }}
 	faisant piocher. C'est cette pioche qui permet d'assembler les différentes combos du deck et
 	d'avoir accès aux outils de gestion.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Le deck est basé sur l'interaction entre {{ splendid_reclamation }} et {{ seasons_past }}. Ces
 	deux cartes permettent de faire faire des aller-retours aux terrains entre le champ de bataille
 	et le cimetière, fournissant une quantité importante de cartes en main. En ajoutant un moyen de
@@ -37,6 +36,6 @@ nuQdpf6WjUegZpOMXTuPdA
 	élevée <em>à condition de tuer {{ the_gitrog_monster }} avant de vider la bibliothèque</em>.
 	L'ajout de {{ collective_brutality }} ou de cartes similaires permet de transformer la boucle
 	précedente en moyen de tuer l'adversaire.
+	{% endtrans %}
 </p>
-{% endtrans %}
 {% endblock %}

@@ -9,120 +9,145 @@
 LU4p5EDHOUyGAT10RNxB5Q
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Kess, Dissident Mage</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed
-	stomp=card("Stomp")
-%}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	Jamais top tier, jamais trash tier, Kess fait partie de ces généraux peu fréquents mais qui
 	restent toujours présents peu importe l’évolution du format. Avec une bonne maîtrise du deck,
 	réaliser une bonne performance en tournoi est accessible.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Jouer Contrôle peut être un gros investissement financier au départ qui est possible de
 	rentabiliser. En effet, chaque carte est jouable en dehors de ce jeu et pourra trouver une
 	place ailleurs.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Il est nécessaire de maîtriser ce style de jeu pour garder confiance lorsque la partie semble
 	être hors de contrôle. L’éventail de couleurs de Grixis donne accès à un panel non négligeable
 	de cartes extrêmement puissantes et même doublement puissantes une fois Kess sur la table et,
 	surtout, stabilisée. En effet, les performances de ce deck dépendent de la présence de
 	{{ kess_dissident_mage }} sur le champ de bataille.
+	{% endtrans %}
 </p>
 
-<h2>Construction du deck</h2>
+<h2>{{ _("Construction du deck") }}</h2>
 <p>
+	{% trans trimmed %}
 	Comme n’importe quel deck Contrôle, il est nécessaire de pouvoir jouer ses cartes sans
 	rencontrer de problèmes de mana. Il faut donc pouvoir s’assurer de jouer un terrain par tour en
 	early game avec un objectif de quatre terrains au tour quatre. Il est aussi important que
 	chaque carte jouée ait un impact correct sur l'état de la partie.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Le nombre de terrains ne doit pas descendre en dessous de 38 et ne pas monter au-dessus de 42.
 	En effet, hors de ces bornes, les risques d'absence ou de sur-représentation de terrains dans
 	les premiers tours sont très élevés et cela risque d'endommager le bon déroulé de la majorité
 	des parties.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Conernant les créatures, elles doivent permettre au deck de se développer tout en interagissant
 	avec l'adversaire. Jouer des créatures permet non seulement de temporiser ou de générer du
 	<em>Card Advantage</em> mais aussi de bloquer les créatures adverses et grignoter les points de
 	vie de l’adversaire avant que {{ kess_dissident_mage }} ne vienne finir le travail.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Quoiqu’il en soit, les créatures ne sont pas le cœur du deck et dépasser huit à neuf créatures
 	limite la quantité d'éphémères et de rituels qui sont parfois plus efficaces grâce à leur
 	rejouabilité via {{ kess_dissident_mage }}. C’est pour cette raison qu’il faut également
 	limiter le nombre de planeswalkers.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Ensuite, les planewalkers qui offrent une condition de victoire sont nombreux dans Magic mais
 	peu sont pertinents. Il faut alors se demander quelle est leur valeur ajoutée car les places
 	dans le  deck sont chères. Les arguments en défaveur des arpenteurs sont les mêmes que pour
 	les  créatures : ce sont des rituels qui demandent une certaine quantité de mana, ce qui laisse
 	plus  de possibilité à l'adversaire le tour où ils sont joués.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Enfin, pour maximiser la puissance du deck et pour profiter au maximum de
 	{{ kess_dissident_mage }}, les éphémères et les rituels sont au centre du deck et Grixis
 	apporte la combinaison de couleurs qui fournit le plus de carte dans ces types. Il faut donc
 	trouver un équilibre entre contresorts, moyens de gestion, piocheurs et blasts.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Posséder une ou deux combos dans un deck peut être rassurant pour débloquer certaines
 	situations. Même si elles sont marginales et peu représentées, il en existe deux qui peuvent
 	être viables :
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	■ {{ jace_wielder_of_mysteries }} + {{ tainted_pact }}<br>
 	{{ tainted_pact }} est une carte jouée dans la plupart des versions de
 	{{ kess_dissident_mage }} mais {{ jace_wielder_of_mysteries }} beaucoup moins.
 	Il est lourd à poser et force l'assemblage de trois sources bleues même s’il peut
 	permettre de bien creuser la bibliothèque.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	■ {{ ral_storm_conduit }} + {{ chain_of_smog }}<br>
 	L'impact individuel des deux cartes est très bas et même si {{ chain_of_smog }} peut
 	faire du deux pour un, {{ ral_storm_conduit }} a un coût prohibitif et une capacité de loyauté
 	+1 médiocre.
+	{% endtrans %}
 </p>
 
-<h2>Jouer avec le deck</h2>
+<h2>{{ _("Jouer avec le deck") }}</h2>
 <p>
+	{% trans trimmed %}
 	Il n’existe pas de match avec une issue connue d'avance, il faut se battre pour gagner, c’est
 	ce qui rend le deck intéressant à jouer. Plus que l'impact individuel des cartes ou du
 	général, ce qui compte le plus sont la manière d'appréhender la partie, la réponse aux menaces
 	proposées par l'adversaire et les décisions prises tout au long de la partie.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Comme c'est un deck Contrôle, il se joue de manière réactive. La capacité à répondre à toute
 	éventualité dans les premiers tours dépend des cartes actives, de leur quantité et de leur
 	qualité.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Il ne faut garder ni trop ni trop peu de terrains en main de départ car cela nuit à la quantité
 	et à la qualité des sorts qui peuvent être lancés. Toutefois, l'objetctif est
 	d'avoir quatre terrains sur le champ de bataille au tour quatre, donc les mains de départ à
 	trois ou quatre terrains sont idéales. Seuls des <em>cantrips</em> comme {{ preordain }} et
 	{{ serum_visions }} peuvent faire fléchir cette règle.
+	{% endtrans %}
 </p>
 <p>
 	<strong>Aggro</strong><br>
+	{% trans trimmed %}
 	{{ lightning_bolt }}, {{ fatal_push }}, et une <em>wrath</em> comme {{ toxic_deluge }}
 	sculptent les meilleures mains. Il ne faut surtout pas hésiter à gérer chaque créature de
 	l'adversaire pour lui faire perdre le maximum de pression sur le champ de bataille. Il faut
 	impérativement maintenir un niveau de points de vie suffisamment élevé avant l’arrivée de
 	{{ kess_dissident_mage }} pour garder une marge de manœuvre suffisante qui permettra de tirer
 	le meilleur de Kess.
+	{% endtrans %}
 </p>
 <p>
-	<strong>Contrôle</strong><br>
+	<strong>{{ _("Contrôle") }}</strong><br>
+	{% trans trimmed %}
 	Des <em>cantrips</em> ({{ ponder}} et consorts), des contres ({{ counterspell }} et assimilés)
 	et de la défausse ({{ thoughtseize}} et autres) sont les armes à privilégier. Une main remplie
 	presque totalement de cartes bleues face à Contrôle n’est pas un souci, au contraire. Les
@@ -130,15 +155,18 @@ LU4p5EDHOUyGAT10RNxB5Q
 	à recycler sur {{ collective_brutality }} par exemple. Les blasts peuvent être utiles face aux
 	arpenteurs ou pour grignoter les points de vie de l’adversaire et le forcer à prendre une
 	position plus défensive, ce qui le mettra en difficulté.
+	{% endtrans %}
 </p>
 <p>
 	<strong>Combo</strong><br>
+	{% trans trimmed %}
 	De la discard, de la gestion et des contres sont tout aussi importants. Il faut être capable de
 	répondre à tout moment à l’amorce d’une combo, c’est pourquoi les cartes donnant l’information
 	sur la main adverse sont très importantes. Il est toujours complexe de jouer contre ce type de
 	deck et il sera sûrement nécessaire de laisser passer quelques cartes qui ont un impact correct
 	sur la partie (parfois des créatures, parfois des tutors, parfois des éléments de la combo)
 	pour ne pas être épuisé au moment fatidique.
+	{% endtrans %}
 </p>
 <!--
 <div class="tip">
@@ -150,5 +178,4 @@ LU4p5EDHOUyGAT10RNxB5Q
 	</p>
 </div>
 -->
-{% endtrans %}
 {% endblock %}

@@ -10,68 +10,69 @@
 cny66XvaQkajgzFYTo2Pvg
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Kinnan, Bonder Prodigy</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed
-	meularde=card("Grindstone", "Meularde"),
-	stompy=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", "créatures stompy")
-%}
-<h2>Présentation rapide</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	{{ kinnan_bonder_prodigy }} est un deck basé sur la capacité statique du commandant pour créer
 	des quantités arbitrairement grandes de mana en réserve. Pour cela le deck se repose sur deux
 	combos différentes :
+	{% endtrans %}
 </p>
 <ul>
 	<li>
 		<strong>{{ basalt_monolith }}</strong> :<br>
+		{% trans trimmed %}
 		Seule, cette carte permet de générer mana infini et donc de gagner avec
 		{{ walking_ballista }} par exemple ;
+		{% endtrans %}
 	</li>
 	<li>
 		<p>
 			<strong>
-				Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage
+			{{ _("Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage") }}
 			</strong> :<br>
-			Les créatures disponibles sont : {{ birds_of_paradise }}, {{ bloom_tender }},
-			{{ incubation_druid }}, {{ paradise_druid }}, {{ sylvan_caryatid}}. Les auras sont
+			{{ _("Les créatures disponibles sont :")}}
+			{{ birds_of_paradise }}, {{ bloom_tender }},
+			{{ incubation_druid }}, {{ paradise_druid }}, {{ sylvan_caryatid}}.
+			{{ _("Les auras sont ")}}
 			{{ freed_from_the_real }} et {{ pemmins_aura }}.
 		</p>
 	</li>
 </ul>
+{% endblock %}
 
-<h2>Trucs et astuces</h2>
+{% block tips %}
 <p>
+	{% trans trimmed
+		meularde=card("Grindstone", "Meularde")
+	%}
 	Le deck est assez dépendant des artefacts et une autre combo est ajoutée. Il s'agit de
 	{{ painters_servant }} + {{ grindstone }} qui permet de <em>meuler</em> le deck de l'adversaire
 	(d'après le nom français de la carte : {{ meularde }}).
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Cette forte relation avec les artefacts se traduit également par la présence de
 	{{ urza_lord_high_artificer }} et {{ emry_lurker_of_the_loch}} qui permettent des synergies
 	intéressantes avec {{ winter_orb }} ou {{ aether_spellbomb }} par exemple.
+	{% endtrans %}
 </p>
+{% endblock %}
 
-<h2>Variantes</h2>
+{% block variants %}
 <p>
+	{% trans trimmed %}
 	Certaines versions du deck se passent de telle ou de telle combo sans pour autant dévier
 	dans la structure globale du deck.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		stompy=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures", "créatures stompy")
+	%}
 	Une version avec des {{ stompy }} a été testée pendant une période. Les résultats n'ont pas
 	permis de statuer sur l'efficacité de la version.
+	{% endtrans %}
 </p>
-{% endtrans %}
-
-{% trans trimmed %}
-<div class="warning">
-	<h3>Ce deck contient des cartes bannies</h3>
-	<ul>
-		<li>{{ gifts_ungiven }} a été banni le 26 juillet 2021</li>
-	</ul>
-</div>
-{% endtrans %}
 {% endblock %}

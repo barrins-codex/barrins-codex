@@ -4,7 +4,7 @@ Changelog
 5.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Refactoring "Classifier un deck"
 
 
 5.0.1 (2021-08-26)

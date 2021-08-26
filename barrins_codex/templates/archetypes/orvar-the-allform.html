@@ -10,40 +10,34 @@
 TIDoYtb5LUW0gqkbv6MtRg
 {% endblock %}
 
-{% block archetype_name %}
-<h1>Orvar, the All-Form</h1>
-{% endblock %}
-
-{% block archetype %}
-{% trans trimmed
-	ci_swarmyard='<span class=image style=%(style)s>%(card)s</span>'|format(card=card_image("Swarmyard"),style="'margin:0.3em;float:left;'")|safe,
-	la_liste=external("https://www.moxfield.com/decks/eyWUZnXH8U6sikWwQK-JFw", _("la liste")),
-	fetches=external("https://scryfall.com/search?q=is:fetchland", _("Les fetches")),
-	counterspells=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("des contres")),
-	cantrips=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips", _("de la pioche")),
-	removal=link("/cartes-thematiques/les-spot-removals", "removal"),
-	card_orvar=layout.card_column("Orvar, the All-Form"),
-	card_crystal=layout.card_column("Memory Crystal"),
-	card_whim=layout.card_column("Whim of Volrath"),
-	magic_biquette=external("https://discord.gg/qbRZnmrRFz", "Magic Biquette")
-%}
-<h2>Présentation du général</h2>
+{% block highlights %}
 <p>
+	{% trans trimmed %}
 	{{ orvar_the_all_form }} ne coûte qu'un seul coloré pour un coût total de quatre manas. Cela
 	permet de jouer des terrains utilitaires sans diminuer les chances de lancer Orvar. Par contre,
 	ses force et endurance sont un peu basses. Une 3/3 est sensible à {{ lightning_bolt }} mais il
 	y a des moyens de contourner ce problème. Enfin, les capacités d'Orvar sont :
+	{% endtrans %}
 </p>
-{{ ci_swarmyard }}
+
+<span class=image style='margin:0.3em;float:left;'>card_image("Swarmyard")</span>
+
 <p>
-	<strong>Changelin</strong><br>
+	<strong>{{ _("Changelin") }}</strong><br>
+	{% trans trimmed %}
 	Cette capacité qui fournit tous les types de créature n'est pas anecdotique et fournit les
 	meilleurs moyens de protéger {{ orvar_the_all_form }}.
+	{% endtrans %}
 </p>
 <p>
-	<strong>À chaque fois que vous lancez un sort d'éphémère ou de rituel, s'il cible au moins
-	un autre permanent que vous contrôlez, créez un jeton qui est une copie d'un de ces
-	permanents.</strong><br>
+	<strong>
+		{% trans trimmed %}
+		À chaque fois que vous lancez un sort d'éphémère ou de rituel, s'il cible au moins
+		un autre permanent que vous contrôlez, créez un jeton qui est une copie d'un de ces
+		permanents.
+		{% endtrans %}
+	</strong><br>
+	{% trans trimmed %}
 	Cette capacité est la clé de voute du deck. En effet, l'objectif est d'utiliser au maximum
 	cette capacité. Cette capacité ne permet de produire qu'un seul jeton et les cartes comme
 	{{ ghostly_flicker }} ne sont pas forcément à envisager. De même, cette capacité ne fonctionne
@@ -51,26 +45,40 @@ TIDoYtb5LUW0gqkbv6MtRg
 	possession n'est pas prise en compte. Enfin, il est possible de copier n'importe quel
 	permanent, que ce soit une créature, une terrain ou un planeswalker peu importe si la cible du
 	sort est encore en jeu lorsque la capacité d'Orver se résoud.
+	{% endtrans %}
 </p>
 <p>
-	<strong>Quand un sort ou une capacité qu'un adversaire contrôle vous contraint à vous
-	défausser de cette carte, créez un jeton qui une copie d'un permanent ciblé.</strong><br>
+	<strong>
+		{% trans trimmed %}
+		Quand un sort ou une capacité qu'un adversaire contrôle vous contraint à vous
+		défausser de cette carte, créez un jeton qui une copie d'un permanent ciblé.
+		{% endtrans %}
+	</strong><br>
+	{% trans trimmed %}
 	L'objectif est que le général soit en jeu ou en zone de commandement. Cette capacité peut
 	s'avérer utile en cas de défausse adverse comme avec {{ liliana_of_the_veil }}. En effet, se
 	renvoyer Orvar en main permet de copier un permanent et de le rejouer depuis la zone de
 	commandement.
+	{% endtrans %}
 </p>
 
-<h2>Présentation de la liste</h2>
+<h2>{{ _("Présentation de la liste") }}</h2>
 <div class="tip">
 	<p>
+		{% trans trimmed
+			la_liste=external("https://www.moxfield.com/decks/eyWUZnXH8U6sikWwQK-JFw", _("la liste"))
+		%}
 		La liste du deck présentée est la version du 14 février 2021, elle peut avoir évolué depuis
 		sa mise en ligne suite à des tests notamment. La présentation suit donc la liste présentée
 		même si {{ la_liste }} a évolé depuis.
+		{% endtrans %}
 	</p>
 </div>
 
 <p>
+	{% trans trimmed
+		fetches=external("https://scryfall.com/search?q=is:fetchland", _("Les fetches"))
+	%}
 	Concernant la base de mana, le deck embarque un gros paquet de {{ snow_covered_island }} pour
 	{{ arcums_astrolabe }} et pour bluffer la présence de {{ ascendant_spirit }}. {{ fetches }}
 	permettent de trouver {{ mystic_sanctuary }}, carte centrale du deck par sa capacité à
@@ -79,155 +87,200 @@ TIDoYtb5LUW0gqkbv6MtRg
 	{{ griffin_canyon }}, si copiés suffisamment de fois, permettent à {{ orvar_the_all_form }} de
 	tuer l'adversaire en attaquant. Les derniers terrains utilitaires permettent d'accélérer la
 	production de mana ou de piocher.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		counterspells=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("des contres")),
+		cantrips=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips", _("de la pioche"))
+	%}
 	Le deck se base très fortement sur les decks mono-bleu : {{ counterspells }}, {{ cantrips }} et
 	des classiques comme {{ vedalken_shackles }}. Ces cartes permettent au deck de rester stable et
 	de faire face à la majorité des menaces du format. L'utilisation de quelques planeswalkers
 	permet d'être moins dépendant du général.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		removal=link("/cartes-thematiques/les-spot-removals", "removal")
+	%}
 	{{ thing_in_the_ice }} renvoie toutes les non-horreur et, grâce au Changeling, Orvar restera
 	toujours sur le champ de bataille. La carte est donc idéale mais ne protègera pas le général
 	d'un {{ removal }}. Enfin, {{ spellskite }} permet à la fois de résister face aux decks
 	agressifs et de protéger le général.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Il y a un module de créatures dites <em>untapper</em>, comme {{ palinchron }}, qui
 	permettent d'être dupliquées pour un coût moindre que la mana qu'elles génèrent. Ces créatures
 	sont assez faibles par elles-mêmes mais sont nécessaires aux différentes combos du deck.
 	{{ body_double }} permet de s'assurer d'en récupérer au moins une sur {{ intuition }} ou
 	{{ gifts_ungiven }}.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Le second module important est celui des sorts avec Buyback. Ces sorts sont presque les seuls à
 	créer des copies avec la capacité de {{ orvar_the_all_form }}. Cela permet de garder une
 	structure cohérente et de ne pas créer de trop forte dépendance au général. Il ne faut pas
 	hésiter dans certains cas à les jouer sur un simple terrain en fin de tour pour décupler la
 	mana disponible plus tard. Le meilleur est {{ whim_of_volrath }} pour son faible coût, suivi de
 	{{ mind_games }} qui peut très bien être utilisé pour son effet initial.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Enfin, des tuteurs partout et en pagaille. De {{ spellseeker }} qui est un très bon permanent à
 	copier et à recopier à {{ merchant_scroll }} en passant par {{ dizzy_spell}} et sa
 	Transmutation. L'objectif de ces cartes est de faciliter l'assemblage des combos du deck.
+	{% endtrans %}
 </p>
 
-<h2>Les combos du deck</h2>
+<h2>{{ _("Liste des combos") }}</h2>
 <div class="tip">
 	<p>
-		Toutes les combos du deck suivent la structure suivante et en sont des dérivées :
+		{{ _("Toutes les combos du deck suivent la structure suivante et en sont des dérivées :") }}
 	</p>
-	{{ card_orvar }}
-	{{ card_crystal }}
-	{{ card_whim }}
+	{{ layout.card_column("Orvar, the All-Form") }}
+	{{ layout.card_column("Memory Crystal") }}
+	{{ layout.card_column("Whim of Volrath") }}
 	<ol >
 		<li>
+			{% trans trimmed %}
 			Lancer {{ whim_of_volrath }} sur un terrain qui produit du mana bleu et en payant sont
 			coût de rappel pour 0
+			{% endtrans %}
 		</li>
-		<li>{{ orvar_the_all_form }} crée une copie du terrain</li>
-		<li>Recommencer l'étape 1</li>
+		<li>{{ orvar_the_all_form }} {{ _("crée une copie du terrain") }}</li>
+		<li>{{ _("Recommencer l'étape 1") }}</li>
 	</ol>
 </div>
 <p>
-	La combo présentée ci-dessus est une combo de structe <strong>A</strong> + <strong>B</strong> + <strong>Orvar</strong>. A permet de créer du mana, B permet de copie le permanent qui produit du mana. Cela donne :
+	{% trans trimmed %}
+	La combo présentée ci-dessus est une combo de structe <strong>A</strong> + <strong>B</strong> +
+	<strong>Orvar</strong>. A permet de créer du mana, B permet de copie le permanent qui produit
+	du mana. Cela donne :
+	{% endtrans %}
 </p>
 <ol style="list-style:upper-latin;">
 	<li>
-		Les <em>untappers</em> : {{ palinchron }}, {{ peregrine_drake }}, {{ treachery }},
-		{{ gilded_lotus }} et {{ cloud_of_faeries }} sous conditions ;
+		{{ _("Les <em>untappers</em>, certains sous conditions :") }}
+		{{ palinchron }}, {{ peregrine_drake }}, {{ treachery }},
+		{{ gilded_lotus }} {{ _("et") }} {{ cloud_of_faeries }};
 	</li>
 	<li>
-		Les <em>buybackers</em> : {{ whim_of_volrath }}, {{ mind_games }} et {{ clockspinning }}.
+		{{ _("Les <em>buybackers</em> :") }}
+		{{ whim_of_volrath }}, {{ mind_games }} et {{ clockspinning }}.
 	</li>
 </ol>
 <p>
+	{% trans trimmed %}
 	Après avoir effectué cette combo, la mana à disposition est en quantité très importante, tout
 	comme les créatures qui ont été copiées pour générer du mana dans la majorité des cas. Cette
 	situation devrait suffire à tuer l'adversaire mais il est possible d'aller encore plus loin :
 	il est possible de copier en quantité astronomique n'importe quel permanent, notamment
 	{{ mystic_sanctuary }} pour créer des boucles avec {{ cryptic_command }} et/ou
 	{{ mystic_confluence }} et {{ cantrips }}.
+	{% endtrans %}
 </p>
 <ul>
 	<li>
+		{% trans trimmed %}
 		Étape 1 : Copie de {{ mystic_sanctuary }}, qui remet {{ cryptic_command }} sur le dessus de
 		la bilbiothèque ;
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed %}
 		Étape 2 : Utilisation {{ cantrips }}, et copie {{ mystic_sanctuary }} pour le remettre sur
 		le dessus de la bilbiothèque ;
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed %}
 		Étape 3 : Lancement de {{ cryptic_command }} avec n'importe quel mode et celui qui
 		fait piocher ;
+		{% endtrans %}
 	</li>
 	<li>
-		Retour à l'étape 1.
+		{{ _("Retour à l'étape 1") }}
 	</li>
 </ul>
 <p>
+	{% trans trimmed %}
 	En choisissant le mode qui <em>renvoie un permanent dans la main de son propriétaire</em>,
 	l'adversaire n'a plus de permanent. Cela ne suffit pas encore pour tuer. En remplaçant
 	{{ cryptic_command }} par {{ mystic_confluence }}, il est possible de piocher sa bibliothèque
 	et de trouver {{ mishras_factory }} et {{ griffin_canyon }} pour les copier autant de fois que
 	nécessaire pour renforcer {{ orvar_the_all_form }} et attaquer avec ce dernier pour tuer
 	l'adversaire.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Le deck permet de jouer quelques combos supplémentaires qu'il faut relever mais il faut
 	également noter que ce n'est pas la volonté du deck de les assembler à tout prix dans la forme
 	présentée ci-dessous :
+	{% endtrans %}
 </p>
 <ul>
 	<li>
+		{% trans trimmed %}
 		{{ extraplanar_lens }} et {{ palinchron }} permet de faire mana infini ;
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed %}
 		{{ cryptic_command }} et {{ mystic_sanctuary }} permet de ralentir la partie le temps de
 		partir en combo réellement au prix de la perte du développement du nombre de terrains ;
+		{% endtrans %}
 	</li>
 	<li>
+		{% trans trimmed %}
 		{{ parallax_tide }} et un <em>buybacker</em> permet d'asphyxier l'adversaire avec Orvar en
 		jeu.
+		{% endtrans %}
 	</li>
 </ul>
 <div class="tip">
-	<h3>Les conseils de Soullessoni</h3>
+	<h3>{{ _("Les conseils de Soullessoni") }}</h3>
 	<p>
+		{% trans trimmed %}
 		Le combo ne fonctionne pas avec les cartes légendaires ! Le sort <em>buybacker</em> va
 		déclencher la capacité d'Orvar, le jeton copie va être créé, et il faudra sacrifier un des
 		deux permanents. Si l'original est sacrifié, le <em>buybacker</em> va perdre sa cible et
 		être retiré de la pile pour être mis au cimetière.
+		{% endtrans %}
 	</p>
 	<p>
+		{% trans trimmed %}
 		Les cartes à un mana qui ciblent un permanent, en général ou l'engager ou le dégager, ont
 		été écartées car elles ne permettent généralement ni de cibler les terrains ni de faire
 		piocher une carte. La seule exception dans la liste est {{ thermal_flux }} qui peut servir
 		de ramp à un mana.
+		{% endtrans %}
 	</p>
 	<p>
+		{% trans trimmed %}
 		Une stratégie avec {{ spellseeker }} est d'aller chercher un <em>buybacker</em> pour
 		ensuite le copier et aller chercher {{ merchant_scroll }}, qui trouve {{ intuition }}, qui
 		récupère {{ palinchron }}, {{ peregrine_drake }} ou {{ body_double }}, et hop, combo.
+		{% endtrans %}
 	</p>
 </div>
 <p>
 	<i>
-		Soullessoni reste disponible sur
-		<span class="brand-icon" style="color: #758AD4;">&#xf392</span> {{ magic_biquette }}
-		pour discuter du deck.
+		{{ _("Soullessoni reste disponible pour discuter du deck sur ")}}
+		<span class="brand-icon" style="color: #758AD4;">&#xf392</span>
+		{{ external("https://discord.gg/qbRZnmrRFz", "Magic Biquette") }}
 	</i>
 </p>
-{% endtrans %}
 
-{% trans trimmed %}
 <div class="warning">
-	<h3>Ce deck contient des cartes bannies</h3>
+	<h3>{{ _("Ce deck contient des cartes bannies") }}</h3>
 	<ul>
-		<li>{{ gifts_ungiven }} a été banni le 26 juillet 2021</li>
+		<li>{{ gifts_ungiven }} {{ _("a été banni le 26 juillet 2021") }}</li>
 	</ul>
 </div>
-{% endtrans %}
 {% endblock %}

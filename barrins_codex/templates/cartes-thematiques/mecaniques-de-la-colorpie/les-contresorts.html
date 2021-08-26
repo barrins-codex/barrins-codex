@@ -1,53 +1,67 @@
 {% extends "layout.html" %}
 
 {% block content %}
-{% trans trimmed %}
 <h1>Les contresorts</h1>
 <p>
+	{% trans trimmed %}
 	Les contresorts sont des  éphémères dont l'objectif est de <em>contrecarrer</em> les sorts
 	lancés par l'adversaire. Ce sont des cartes appartiennent principalement à Contrôle et à
 	Tempo. Ces sorts sont appelés ainsi en référence à la carte {{ counterspell }} qui en est
 	la digne représentante.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Les contresorts les plus fréquents en Duel Commander sont
 	{{ force_of_will }}, {{ mana_leak }}, {{ counterspell }}, {{ force_spike }},
 	{{ force_of_negation }}, {{ spell_snare }} et {{ mental_misstep }}.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	D'autres contresorts permettent de contrer un sort à moins que l'adversaire ne paye une
 	certaine somme de mana comme {{ miscalculation }}, {{ daze }}, {{ spell_pierce }} et
 	{{ mystic_confluence }}. L'avantage de {{ force_spike }} par rapport aux autres est sa
 	possibilité d'interagir dès le premier tour sans défaut, contrairement à {{ daze }} par exemple.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	D'autres contresorts ne gèrent pas définitivement le sort ou ne gèrent pas tous les sorts. Ces
 	cartes restent jouées car elles permettent de gagner un avantage soit en <em>tempo</em>, soit
 	en <em>card advantage</em>, parfois les deux à la fois : {{ remand }}, {{ memory_lapse }} et
 	{{ tales_end }} par exemple.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	{{ cryptic_command }} est hors catégorie car ce sort permet d'interagir sur plus d'un angle de
 	jeu et doit donc être joué pour cette versatilité plus que pour l'aspect contresort.
+	{% endtrans %}
 </p>
 <div class="tip">
-	<h3>Jouer peu de contresorts</h3>
+	<h3>{{ _("Jouer peu de contresorts") }}</h3>
 	<p>
+		{% trans trimmed %}
 		Jouer une dizaine de contresorts ne permet pas de contrer « tout ce qui bouge ». Il
 		faut donc avoir des cibles prioritaires car, une fois résolus, ces sorts seront
 		difficilement gérables.
+		{% endtrans %}
 	</p>
 	<p>
+		{% trans trimmed %}
 		De plus, tous les contresorts ne sont pas à envisager dans tous les decks. En effet, un
 		deck Tempo souhaite à tout prix protéger sa menace tandis qu'un deck Contrôle veut
 		développer ses ressources et adapter sa réponse selon l'avancement de la partie, que ce
 		soit en coût de mana ou en rentabilité de la carte.
+		{% endtrans %}
 	</p>
 	<p>
+		{% trans trimmed %}
 		Par conséquent, des contresorts comme {{ daze }} sont des contresorts de Tempo et pas de
 		Contrôle qui cherche des réponses définitives qui ne coûtent pas de ressources. En effet,
 		<em>perdre</em> un terrain met le deck en difficulté pour le reste de la partie.
+		{% endtrans %}
 	</p>
 </div>
-{% endtrans %}
 {% endblock %}

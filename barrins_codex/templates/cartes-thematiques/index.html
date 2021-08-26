@@ -3,7 +3,7 @@
 {% block content %}
 <h1>{{ _("Cartes thématiques") }}</h1>
 <p>
-	{% trans %}
+	{% trans trimmed %}
 	Cette section explore les cartes les plus jouées du format <strong>Duel Commander</strong> par
 	thème.
 	{% endtrans %}
@@ -42,33 +42,31 @@
 {{ bootstrap.card("Rampant Growth", "/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp") }}
 {{ bootstrap.card("Llanowar Elves", "/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks") }}
 {{ bootstrap.card("Elder Gargaroth", "/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures") }}
-<!--
+
 <h2>{{ _("Cartes par fonctionnalité") }}</h2>
-{% trans trimmed %}
 <p>
+{% trans trimmed %}
 	Les cartes dans cette catégorie sont répertoriées par fonctionnalité et proposent donc toutes
 	des méthodes proches pour arriver au même résultat.
+	{% endtrans %}
 </p>
-{% endtrans %}
-<ul>
-	<li>{{ link("/cartes-thematiques/les-piocheurs") }}</li>
-	<li>{{ link("/cartes-thematiques/les-spot-removals") }}</li>
-	<li>{{ link("/cartes-thematiques/les-mass-removals") }}</li>
-	<li><em>Les Tuteurs</em></li>
-	<li><em>Les Cailloux</em></li>
-</ul>
+{{ bootstrap.card("Preordain", "/cartes-thematiques/les-piocheurs") }}
+{{ bootstrap.card("Abrupt Decay", "/cartes-thematiques/les-spot-removals") }}
+{{ bootstrap.card("Supreme Verdict", "/cartes-thematiques/les-mass-removals") }}
+<!--
+Les Tuteurs
+Les Cailloux
 
 <h2>{{ _("Les cycles de terrains") }}</h2>
-<ul>
-	<li><em>Les Fetches</em></li>
-	<li><em>Les Bilands</em></li>
-	<li><em>Les Shocklands</em></li>
-	<li><em>Les Painlands</em></li>
-	<li><em>Les Checklands</em></li>
-	<li><em>Les Fastlands</em></li>
-</ul>
+Les Fetches
+Les Bilands
+Les Shocklands
+Les Painlands
+Les Checklands
+Les Fastlands
 -->
+
 <p>
-	<em>D'autres articles à venir ...</em>
+	<em>{{ _("D'autres articles à venir ...") }}</em>
 </p>
 {% endblock %}

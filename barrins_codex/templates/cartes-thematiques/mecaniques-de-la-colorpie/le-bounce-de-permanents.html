@@ -2,52 +2,72 @@
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
 {% block content %}
-{% trans trimmed
-	cantrip=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips", "cantrip"),
-	contresorts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresorts")),
-	macrotype=link("/articles/lart-de-classifier-les-decks/classification-en-macrotypes", "macrotype")
-%}
-<h1>Le bounce de permanents</h1>
+<h1>{{ _("Le bounce de permanents") }}</h1>
 <p>
+	{% trans trimmed
+		contresorts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts", _("contresorts"))
+	%}
 	Le bounce de permanents est une spécialité de la couleur. C'est le moyen de gestion le plus
 	fréquent en car cela permet une gestion en deux étapes du permanent grace aux
 	{{ contresorts }}.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		macrotype=link("/articles/classifier-un-deck", "macrotype", _anchor="macrotypes")
+	%}
 	Selon le {{ macrotype }} choisi, les cartes utilisées changent. Un deck aggro ou tempo vont
 	chercher des sorts à bas coût comme {{ vapor_snag }} alors que les decks contrôle voire combo
 	vont s'orienter sur des sorts qui gèrent plus d'une carte à la fois comme {{ evacuation }}.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed
+		cantrip=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips", "cantrip")
+	%}
 	Il y a cependant un entre-deux qu'il est fréquent de rencontrer, au moins partiellement, dans
 	tous les decks. Ces sorts sont {{ blink_of_an_eye }} et {{ into_the_roil }} pour leur aspect
 	{{ cantrip }} et {{ cyclonic_rift }} pour sa souplesse.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Les decks aggro ou tempo vont principalement chercher des sorts comme {{ unsubstantiate }},
 	{{ unsummon }} et {{ vapor_snag }} auquels il est fréquent d'aujouter au moin un des trois
 	sorts ci-dessus. Des créatures comme {{ barrin_tolarian_archmage }} qui ont un effet de bounce
 	en arrivant sur le champ de bataille sont aussi recherchées car elles permettent de gagner le
 	contrôle du champ de bataille plus facilement.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Les decks contrôle et parfois les decks combo vont s'orienter vers des sorts plus chers et plus
 	généralistes pour des raisons de qualité des cartes jouées sur le long terme. Ces sorts sont
 	{{ crush_of_tentacles }}, {{ engulf_the_shore }} et {{ evacuation }}.
+	{% endtrans %}
 </p>
 <p>
+	{% trans trimmed %}
 	Les decks combo, lorsque ceux-ci cherchent à produire des grandes quantités de mana, peuvent
 	également jouer {{ upheaval }} dont l'effet symétrique est souvent un défaut pour les decks
 	contrôle.
+	{% endtrans %}
 </p>
 <div class="tip">
-	<h3>Le bounce, cette arme de tempo</h3>
+	<h3>{{ _("Le bounce, cette arme de tempo") }}</h3>
 	<p>
-		Renvoyer un permanent dans la main de son propriétaire est une action qui coûte une carte de la main pour mitiger la présence de l'adversaire sur le champ de bataille. Cette action peut permettre de prendre l'advantage mais ne gère pas définitivement le problème.
+		{% trans trimmed %}
+		Renvoyer un permanent dans la main de son propriétaire est une action qui coûte une carte
+		de la main pour mitiger la présence de l'adversaire sur le champ de bataille. Cette action
+		peut permettre de prendre l'advantage mais ne gère pas définitivement le problème.
+		{% endtrans %}
 	</p>
 	<p>
-		Jouer un bounce permet de casser le rythme de jeu de l'adversaire. C'est à utiliser dans des situations qui vont permettre de prendre le contrôle du champ de bataille soit en développant ses ressources soit en se défendant avec des {{ contresorts }}.
+		{% trans trimmed %}
+		Jouer un bounce permet de casser le rythme de jeu de l'adversaire. C'est à utiliser dans
+		des situations qui vont permettre de prendre le contrôle du champ de bataille soit en
+		développant ses ressources soit en se défendant avec des {{ contresorts }}.
+		{% endtrans %}
 	</p>
 </div>
-{% endtrans %}
 {% endblock %}

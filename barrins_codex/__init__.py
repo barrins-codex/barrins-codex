@@ -190,11 +190,21 @@ def linker():
             pass
         return "Barrin's Codex"
 
+    def page_name():
+        try:
+            if navigation.HELPER.get(path, {}).get("self").path != "":
+                name = navigation.HELPER.get(path, {}).get("self").name
+                return f"{name}"
+        except AttributeError:
+            pass
+        return "Barrin's Codex"
+
     return dict(
         i18n_url=i18n_url,
         link=link,
         translation=translation,
         title=title,
+        page_name=page_name,
         top=top,
         next=next,
         prev=prev,
@@ -274,3 +284,23 @@ def display_card():
         )
 
     return dict(card=card, card_image=card_image, card_art=card_art)
+
+
+@app.context_processor
+def display_deck():
+    def frame_moxfield(key, id="moxfield-frame"):
+        return flask.Markup(
+            """
+<iframe
+    src="https://www.moxfield.com/embed/{key}?hideTotal=true"
+    id="{id}"
+    frameBorder="0"
+    width="100%"
+    onload="moxfieldOnLoad(event)"
+></iframe>
+        """.format(
+                key=key, id=id
+            )
+        )
+
+    return dict(frame_moxfield=frame_moxfield)

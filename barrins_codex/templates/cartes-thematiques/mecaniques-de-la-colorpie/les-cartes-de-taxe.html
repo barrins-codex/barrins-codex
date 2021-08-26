@@ -2,8 +2,6 @@
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
 {% block content %}
-{% trans trimmed %}
-<h1>Les cartes de taxe</h1>
-{% endtrans %}
+<h1>{{ _("Les cartes de taxe") }}</h1>
 {{ layout.wip() }}
 {% endblock %}

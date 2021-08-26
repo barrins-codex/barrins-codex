@@ -2,8 +2,6 @@
 {% import "cartes-thematiques/_layout_wip.html" as layout with context %}
 
 {% block content %}
-{% trans trimmed %}
-<h1>La réanimation de créatures</h1>
-{% endtrans %}
+<h1>{{ _("La réanimation de créatures") }}</h1>
 {{ layout.wip() }}
 {% endblock %}

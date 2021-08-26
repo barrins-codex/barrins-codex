@@ -7,15 +7,13 @@ Section Articles
 {% block content %}
 <h1>Articles</h1>
 <p>
-	{% trans %}
-	Cette section explore la stratégie de <strong>Magic: the Gathering</strong>.
-	{% endtrans %}
+	{{ _("Cette section explore la stratégie de <strong>Magic: the Gathering</strong>.") }}
 </p>
 
 {{ bootstrap.card("Obsessive Search", "/articles/classifier-un-deck") }}
 {{ bootstrap.card("Compulsive Research", "/articles/construire-un-deck") }}
 
 <p>
-	<em>D'autres articles à venir ...</em>
+	<em>{{ _("D'autres articles à venir ...") }}</em>
 </p>
 {% endblock %}
