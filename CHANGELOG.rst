@@ -1,10 +1,17 @@
 Changelog
 =========
 
-5.0.1 (unreleased)
+5.0.2 (unreleased)
 ------------------
 
 - Refactoring "Classifier un deck"
+
+
+5.0.1 (2021-08-26)
+------------------
+
+- Ajout d'une vidéo de decktech de Isamaru
+- Correction d'un problème d'affichage
 
 
 5.0.0 (2021-08-15)
