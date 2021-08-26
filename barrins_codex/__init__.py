@@ -86,6 +86,7 @@ def static_from_root():
 def static_fonts(lang_code=None, font=None):
     return flask.redirect(flask.url_for("static", filename=f"fonts/{font}"))
 
+
 # Default route
 @app.route("/")
 @app.route("/<path:page>")

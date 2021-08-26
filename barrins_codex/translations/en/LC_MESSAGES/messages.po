@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-26 18:42+0200\n"
+"POT-Creation-Date: 2021-08-26 19:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:14
 #: barrins_codex/templates/archetypes/venser-shaper-savant.html:25
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:7
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:8
 msgid "contresorts"
 msgstr "counterspells"
 
@@ -3297,6 +3297,7 @@ msgid "Cette section explore la stratégie de <strong>Magic: the Gathering</stro
 msgstr "This section explore the strategy of <strong>Magic: the Gathering</strong>."
 
 #: barrins_codex/templates/articles/index.html:17
+#: barrins_codex/templates/cartes-thematiques/index.html:70
 msgid "D'autres articles à venir ..."
 msgstr ""
 
@@ -3344,15 +3345,16 @@ msgstr ""
 msgid "Cartes par fonctionnalité"
 msgstr "Cards by functionality"
 
-#: barrins_codex/templates/cartes-thematiques/index.html:47
+#: barrins_codex/templates/cartes-thematiques/index.html:48
+#, fuzzy
 msgid ""
-"<p> Les cartes dans cette catégorie sont répertoriées par fonctionnalité et proposent"
-" donc toutes des méthodes proches pour arriver au même résultat. </p>"
+"Les cartes dans cette catégorie sont répertoriées par fonctionnalité et proposent "
+"donc toutes des méthodes proches pour arriver au même résultat."
 msgstr ""
 "<p>Cards in this category are listed by functionality and therefore all offer similar"
 " methods to achieve the same goal. </p>"
 
-#: barrins_codex/templates/cartes-thematiques/index.html:61
+#: barrins_codex/templates/cartes-thematiques/index.html:60
 msgid "Les cycles de terrains"
 msgstr "The lands cycle"
 
@@ -3998,335 +4000,697 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:4
+#, fuzzy
+msgid "La défausse"
+msgstr "Discard"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:6
+msgid ""
+"Prendre l’information sur la main de l'adversaire permet de donner une lisibilité sur"
+" ce qui va arriver. Il est ainsi possible d'adapter son plan de jeu en fonction de ce"
+" qui reste à venir."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:12
+msgid ""
+"Les cartes de défausse permettent de récupérer de l'information directement dans la "
+"main de l'adversaire et d'intervenir directement dessus. Il faut intervenir en "
+"priorité sur les conditions de victoire, les tutors, et éventuellement les gestions "
+"qui pourraient gérer un commandant le tour de son arrivée en jeu."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:20
 #, python-format
 msgid ""
-"<h1>La défausse</h1> <p> Prendre l’information sur la main de l'adversaire permet de "
-"donner une lisibilité sur ce qui va arriver. Il est ainsi possible d'adapter son plan"
-" de jeu en fonction de ce qui reste à venir. </p> <p> Les cartes de défausse "
-"permettent de récupérer de l'information directement dans la main de l'adversaire et "
-"d'intervenir directement dessus. Il faut intervenir en priorité sur les conditions de"
-" victoire, les tutors, et éventuellement les gestions qui pourraient gérer un "
-"commandant le tour de son arrivée en jeu. </p> <p> Ces cartes sont principalement "
-"%(thoughtseize)s, %(inquisition_of_kozilek)s et %(duress)s. Il est possible d'y "
-"ajouer %(collective_brutality)s, %(hymn_to_tourach)s et/ou %(mind_twist)s selon les "
-"decks attendus. </p> <p> Il est aussi intéressant de jouer en plus des cartes de "
-"défausse, quand cela est possible, des cartes qui permettent d'avoir l'information "
-"mais qui, au lieu d'intervenir dessus, font piocher. Ces cartes sont "
-"%(gitaxian_probe)s et %(peek)s. </p> <div class=\"tip\"> <h3>Le timing de la "
-"défausse</h3> <p> Jouer un sort de défausse dépend de ce qui en est attendu. Est-ce "
-"pour gagner de l'information ? Est-ce dans l'objectif de sécuriser la résolution d'un"
-" sort ? Est-ce pour empêcher l'adversaire de partir en combo ? </p> <p> Selon ce qui "
-"est attendu de ce sort, il est parfois préférable d'attendre que la partie se "
-"développe jusqu'au moment le plus opportun pour le lancer. Il peut alors servir de "
-"paratonnerre si l'adversaire choisit de le contrecarrer. </p> <p> Jouer un sort de "
-"défausse dans les premiers tours doit permettre de garantir un avantage stratégique "
-"déterminant. Si ce sort est uniquement lancé « pour dépenser du mana », cela ne vaut "
-"pas le coût et le garder pour plus tard sera sûrement plus rentable. </p> </div>"
+"Ces cartes sont principalement %(thoughtseize)s, %(inquisition_of_kozilek)s et "
+"%(duress)s. Il est possible d'y ajouer %(collective_brutality)s, %(hymn_to_tourach)s "
+"et/ou %(mind_twist)s selon les decks attendus."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:27
+#, python-format
+msgid ""
+"Il est aussi intéressant de jouer en plus des cartes de défausse, quand cela est "
+"possible, des cartes qui permettent d'avoir l'information mais qui, au lieu "
+"d'intervenir dessus, font piocher. Ces cartes sont %(gitaxian_probe)s et %(peek)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:34
+msgid "Le timing de la défausse"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:36
+msgid ""
+"Jouer un sort de défausse dépend de ce qui en est attendu. Est-ce pour gagner de "
+"l'information ? Est-ce dans l'objectif de sécuriser la résolution d'un sort ? Est-ce "
+"pour empêcher l'adversaire de partir en combo ?"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:43
+msgid ""
+"Selon ce qui est attendu de ce sort, il est parfois préférable d'attendre que la "
+"partie se développe jusqu'au moment le plus opportun pour le lancer. Il peut alors "
+"servir de paratonnerre si l'adversaire choisit de le contrecarrer."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:50
+msgid ""
+"Jouer un sort de défausse dans les premiers tours doit permettre de garantir un "
+"avantage stratégique déterminant. Si ce sort est uniquement lancé « pour dépenser du "
+"mana », cela ne vaut pas le coût et le garder pour plus tard sera sûrement plus "
+"rentable."
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents.html:5
-msgid "<h1>La destruction de permanents</h1>"
-msgstr "<h1>Destruction of Permanents</h1>"
+#, fuzzy
+msgid "La destruction de permanents"
+msgstr "Destruction of permanents"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-gestion-de-creatures.html:5
-msgid "<h1>La gestion de créatures</h1>"
-msgstr "<h1>Dealing with creatures</h1>"
+#, fuzzy
+msgid "La gestion de créatures"
+msgstr "Creature Removals"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-protection.html:5
-msgid "<h1>La protection</h1>"
-msgstr "<h1>Protection</h1>"
+#, fuzzy
+msgid "La protection"
+msgstr "Protection"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-reanimation-de-creatures.html:5
-msgid "<h1>La réanimation de créatures</h1>"
-msgstr "<h1>Reanimation of Creature</h1>"
+#, fuzzy
+msgid "La réanimation de créatures"
+msgstr "Reanimation of Creatures"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:5
+#, fuzzy
+msgid "Le bounce de permanents"
+msgstr "Bounce of permanents"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:7
 #, python-format
 msgid ""
-"<h1>Le bounce de permanents</h1> <p> Le bounce de permanents est une spécialité de la"
-" couleur. C'est le moyen de gestion le plus fréquent en car cela permet une gestion "
-"en deux étapes du permanent grace aux %(contresorts)s. </p> <p> Selon le "
-"%(macrotype)s choisi, les cartes utilisées changent. Un deck aggro ou tempo vont "
-"chercher des sorts à bas coût comme %(vapor_snag)s alors que les decks contrôle voire"
-" combo vont s'orienter sur des sorts qui gèrent plus d'une carte à la fois comme "
-"%(evacuation)s. </p> <p> Il y a cependant un entre-deux qu'il est fréquent de "
-"rencontrer, au moins partiellement, dans tous les decks. Ces sorts sont "
-"%(blink_of_an_eye)s et %(into_the_roil)s pour leur aspect %(cantrip)s et "
-"%(cyclonic_rift)s pour sa souplesse. </p> <p> Les decks aggro ou tempo vont "
-"principalement chercher des sorts comme %(unsubstantiate)s, %(unsummon)s et "
-"%(vapor_snag)s auquels il est fréquent d'aujouter au moin un des trois sorts ci-"
-"dessus. Des créatures comme %(barrin_tolarian_archmage)s qui ont un effet de bounce "
-"en arrivant sur le champ de bataille sont aussi recherchées car elles permettent de "
-"gagner le contrôle du champ de bataille plus facilement. </p> <p> Les decks contrôle "
-"et parfois les decks combo vont s'orienter vers des sorts plus chers et plus "
-"généralistes pour des raisons de qualité des cartes jouées sur le long terme. Ces "
-"sorts sont %(crush_of_tentacles)s, %(engulf_the_shore)s et %(evacuation)s. </p> <p> "
-"Les decks combo, lorsque ceux-ci cherchent à produire des grandes quantités de mana, "
-"peuvent également jouer %(upheaval)s dont l'effet symétrique est souvent un défaut "
-"pour les decks contrôle. </p> <div class=\"tip\"> <h3>Le bounce, cette arme de "
-"tempo</h3> <p> Renvoyer un permanent dans la main de son propriétaire est une action "
-"qui coûte une carte de la main pour mitiger la présence de l'adversaire sur le champ "
-"de bataille. Cette action peut permettre de prendre l'advantage mais ne gère pas "
-"définitivement le problème. </p> <p> Jouer un bounce permet de casser le rythme de "
-"jeu de l'adversaire. C'est à utiliser dans des situations qui vont permettre de "
-"prendre le contrôle du champ de bataille soit en développant ses ressources soit en "
-"se défendant avec des %(contresorts)s. </p> </div>"
+"Le bounce de permanents est une spécialité de la couleur. C'est le moyen de gestion "
+"le plus fréquent en car cela permet une gestion en deux étapes du permanent grace aux"
+" %(contresorts)s."
 msgstr ""
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:5
-msgid "des grosses créatures"
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:16
+#, python-format
+msgid ""
+"Selon le %(macrotype)s choisi, les cartes utilisées changent. Un deck aggro ou tempo "
+"vont chercher des sorts à bas coût comme %(vapor_snag)s alors que les decks contrôle "
+"voire combo vont s'orienter sur des sorts qui gèrent plus d'une carte à la fois comme"
+" %(evacuation)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:25
+#, python-format
+msgid ""
+"Il y a cependant un entre-deux qu'il est fréquent de rencontrer, au moins "
+"partiellement, dans tous les decks. Ces sorts sont %(blink_of_an_eye)s et "
+"%(into_the_roil)s pour leur aspect %(cantrip)s et %(cyclonic_rift)s pour sa "
+"souplesse."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:34
+#, python-format
+msgid ""
+"Les decks aggro ou tempo vont principalement chercher des sorts comme "
+"%(unsubstantiate)s, %(unsummon)s et %(vapor_snag)s auquels il est fréquent d'aujouter"
+" au moin un des trois sorts ci-dessus. Des créatures comme "
+"%(barrin_tolarian_archmage)s qui ont un effet de bounce en arrivant sur le champ de "
+"bataille sont aussi recherchées car elles permettent de gagner le contrôle du champ "
+"de bataille plus facilement."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:43
+#, python-format
+msgid ""
+"Les decks contrôle et parfois les decks combo vont s'orienter vers des sorts plus "
+"chers et plus généralistes pour des raisons de qualité des cartes jouées sur le long "
+"terme. Ces sorts sont %(crush_of_tentacles)s, %(engulf_the_shore)s et %(evacuation)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:50
+#, python-format
+msgid ""
+"Les decks combo, lorsque ceux-ci cherchent à produire des grandes quantités de mana, "
+"peuvent également jouer %(upheaval)s dont l'effet symétrique est souvent un défaut "
+"pour les decks contrôle."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:57
+msgid "Le bounce, cette arme de tempo"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:59
+msgid ""
+"Renvoyer un permanent dans la main de son propriétaire est une action qui coûte une "
+"carte de la main pour mitiger la présence de l'adversaire sur le champ de bataille. "
+"Cette action peut permettre de prendre l'advantage mais ne gère pas définitivement le"
+" problème."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:66
+#, python-format
+msgid ""
+"Jouer un bounce permet de casser le rythme de jeu de l'adversaire. C'est à utiliser "
+"dans des situations qui vont permettre de prendre le contrôle du champ de bataille "
+"soit en développant ses ressources soit en se défendant avec des %(contresorts)s."
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:4
-#, python-format
-msgid ""
-"<h1>Le ramp</h1> <p> Le <em>Ramp</em> est une mécanique qui correspond à obtenir une "
-"source de mana additionnelle et réutilisable en plus du terrain habituel. Cette "
-"mécanique tire son nom de %(rampant_growth)s. Un deck utilisant cette mécanique joue "
-"souvent %(grosses_creatures)s. </p> <p> Les sorts de ramp sont habituellement des "
-"rituels. Parmi les cartes jouées se trouvent %(farseek)s, %(into_the_north)s, "
-"%(natures_lore)s, %(rampant_growth)s et %(three_visits)s à deux manas et "
-"%(cultivate)s, %(kodamas_reach)s et %(search_for_tomorrow)s à trois manas. </p> <p> "
-"En plus de ces sorts, il arrive de voir %(exploration)s et %(explore)s qui modifient "
-"le nombre de terrains qu'il est possible de jouer à chaque tour, aussi appelé "
-"<em>land drop</em>. %(restore)s est également considérée comme une carte de ramp. "
-"</p> <p> Il existe également des cartes qui permettent de mettre des terrains en main"
-" depuis la bibliothèque. Ce ne sont pas des cartes de ramp. Les plus fréquentes sont "
-"%(expedition_map)s, %(land_grant)s, %(safewright_quest)s, %(sylvan_scrying)s, "
-"%(tithe)s et %(traverse_the_ulvenwald)s. Ces cartes sont jouées quand il est "
-"nécessaire de réunir plusieurs terrains ou lorsque le nombre de terrains dans le deck"
-" est relativement bas. </p> <p> Une étude détaillée sur %(mana_dork)s, dont "
-"%(llanowar_elves)s fait partie, est %(disponible)s. Des créatures comme "
-"%(primeval_titan)s et %(oracle_of_mul_daya)s sont cependant à noter comme des sorts "
-"de ramp et non des mana dorks. </p> <p> Certains enchantements permettent également "
-"d'augmenter le nombre de manas disponibles. Les plus joués sont %(utopia_sprawl)s et "
-"%(wild_growth)s. Certains decks utilisent également %(fertile_ground)s et "
-"%(overgrowth)s. Ces enchantement fonctionnent très bien avec %(earthcraft)s par "
-"exemple. </p> <p> Enfin, %(cailloux)s permettent également de ramper. Ils sont "
-"disponibles dans presque toutes les combinaisons de couleurs. Jouer des cailloux "
-"permet d'accentuer des stratégies qui ne puissent pas être développées avec les sorts"
-" de ramp présentés ici. </p> <div class=\"tip\"> <h3>Jouer ramp ne se résume pas à "
-"jouer %(grosses_creatures)s </h3> <p> Les principaux decks utilisant cette mécanique "
-"sont des jeux qui ont besoin de cartes pour accéder à un plan de jeu <em>unfair</em>."
-" Cela permet de jouer %(grosses_creatures)s ou de jouer un plan de jeu Combo avec "
-"%(maelstrom_wanderer)s, %(titania_protector_of_argoth)s ou %(the_gitrog_monster)s. "
-"</p> <p> Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style de"
-" ceux-ci. Par exemple, %(the_gitrog_monster)s cherche en priorité à jouer des sorts "
-"mettant les terrains en jeu dégagés puis à augmenter le nombre de land drop. "
-"L'approche de %(maelstrom_wanderer)s est différente. Ce qui est recherché est "
-"l'augmentation du nombre de terrains en jeu. Cela revient à jouer en priorité les "
-"sorts présentés dans le deuxième paragraphe. </p> <p> Sans objectif à accomplir, ces "
-"cartes sont assez mauvaises dans un deck. En effet, les sorts de ramp se révèlent "
-"être de mauvaises pioches en fin de partie. </p> </div>"
+#, fuzzy
+msgid "Le ramp"
+msgstr "Ramp"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:7
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:68
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:75
+msgid "des grosses créatures"
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:6
+#, python-format
+msgid ""
+"Le <em>Ramp</em> est une mécanique qui correspond à obtenir une source de mana "
+"additionnelle et réutilisable en plus du terrain habituel. Cette mécanique tire son "
+"nom de %(rampant_growth)s. Un deck utilisant cette mécanique joue souvent "
+"%(grosses_creatures)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:15
+#, python-format
+msgid ""
+"Les sorts de ramp sont habituellement des rituels. Parmi les cartes jouées se "
+"trouvent %(farseek)s, %(into_the_north)s, %(natures_lore)s, %(rampant_growth)s et "
+"%(three_visits)s à deux manas et %(cultivate)s, %(kodamas_reach)s et "
+"%(search_for_tomorrow)s à trois manas."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:23
+#, python-format
+msgid ""
+"En plus de ces sorts, il arrive de voir %(exploration)s et %(explore)s qui modifient "
+"le nombre de terrains qu'il est possible de jouer à chaque tour, aussi appelé "
+"<em>land drop</em>. %(restore)s est également considérée comme une carte de ramp."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:30
+#, python-format
+msgid ""
+"Il existe également des cartes qui permettent de mettre des terrains en main depuis "
+"la bibliothèque. Ce ne sont pas des cartes de ramp. Les plus fréquentes sont "
+"%(expedition_map)s, %(land_grant)s, %(safewright_quest)s, %(sylvan_scrying)s, "
+"%(tithe)s et %(traverse_the_ulvenwald)s. Ces cartes sont jouées quand il est "
+"nécessaire de réunir plusieurs terrains ou lorsque le nombre de terrains dans le deck"
+" est relativement bas."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:40
 msgid "les mana dorks"
 msgstr "Mana Dorks"
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:7
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:39
+#, python-format
+msgid ""
+"Une étude détaillée sur %(mana_dork)s, dont %(llanowar_elves)s fait partie, est "
+"%(disponible)s. Des créatures comme %(primeval_titan)s et %(oracle_of_mul_daya)s sont"
+" cependant à noter comme des sorts de ramp et non des mana dorks."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:41
 msgid "disponible"
 msgstr "available"
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-remplacement-de-cartes.html:5
-msgid "<h1>Le remplacement de cartes</h1>"
-msgstr ""
-
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:5
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:49
 #, python-format
 msgid ""
-"<h1>Les cantrips</h1> <p> Un cantrip est un sort qui fait piocher une carte en plus "
-"de son effet principal. Les premiers cantrips, issus d'anciennes extensions, "
-"faisaient piocher lors de l'entretien suivant, aussi appelés <em>slowtrips</em>, "
-"alors que les plus récents, comme %(ponder)s,  permettent de piocher immédiatement. "
-"</p> <p> Ils sont appréciés car leur utilisation ne génère pas de <em>Card "
-"Disadvantage</em>. Les cantrips les moins chers peuvent ainsi être joués davantage "
-"pour leur effet de pioche que pour leur effet principal, épurant le deck pour un "
-"investissement en mana raisonnable. </p> <p> <strong>Aaron Forsythe</strong> présente"
-" en détail dans un article sur le site de Wizards of the Coast, %(article_wizards)s, "
-"ce qu'est un cantrip et d'où vient ce mot qui n'est utilisé sur aucune carte Magic. "
-"</p> <p> Les cantrips les plus joués en Duel Commander sont %(brainstorm)s, "
-"%(ponder)s et %(preordain)s qui sont également joués dans tous les formats où ces "
-"sorts sont légaux. Selon les besoins, il est possible de jouer également %(opt)s, "
-"%(serum_visions)s ou %(sleight_of_hand)s. </p> <p> Les sorts %(gitaxian_probe)s et "
-"%(peek)s sont joués tant pour leur aspect cantrip que pour la possibilité fournie "
-"d'accéder à des informations de qualité sur la partie et sur les prochains tours. "
-"</p> <p> Les cantrips bleus sont joués pour leur facilité d'interagir avec le dessus "
-"de sa bibliothèque sans perdre de carte de sa main, assurant ainsi l'enchainement de "
-"terrains et de sorts impactants en diminuant la dépendance à l'aléatoire. </p> <p> Il"
-" existe aussi d'autre sorts qui sont des cantrips. Leur utilisation dépend du besoin "
-"de jouer ces types de cartes. Il est possible de noter les cantrips suivants sont "
-"jouables dans certains decks selon le plan de jeu adopté : %(arcums_astrolabe)s, "
-"%(cloudkin_seer)s, %(explore)s, %(fblthp_the_lost)s, %(growth_spiral)s, "
+"Certains enchantements permettent également d'augmenter le nombre de manas "
+"disponibles. Les plus joués sont %(utopia_sprawl)s et %(wild_growth)s. Certains decks"
+" utilisent également %(fertile_ground)s et %(overgrowth)s. Ces enchantement "
+"fonctionnent très bien avec %(earthcraft)s par exemple."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:57
+#, python-format
+msgid ""
+"Enfin, %(cailloux)s permettent également de ramper. Ils sont disponibles dans presque"
+" toutes les combinaisons de couleurs. Jouer des cailloux permet d'accentuer des "
+"stratégies qui ne puissent pas être développées avec les sorts de ramp présentés ici."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:67
+#, python-format
+msgid "Jouer ramp ne se résume pas à jouer %(grosses_creatures)s"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:74
+#, python-format
+msgid ""
+"Les principaux decks utilisant cette mécanique sont des jeux qui ont besoin de cartes"
+" pour accéder à un plan de jeu <em>unfair</em>. Cela permet de jouer "
+"%(grosses_creatures)s ou de jouer un plan de jeu Combo avec %(maelstrom_wanderer)s, "
+"%(titania_protector_of_argoth)s ou %(the_gitrog_monster)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:84
+#, python-format
+msgid ""
+"Une fois le besoin de sorts de ramp confirmé, il faut déterminer le style de ceux-ci."
+" Par exemple, %(the_gitrog_monster)s cherche en priorité à jouer des sorts mettant "
+"les terrains en jeu dégagés puis à augmenter le nombre de land drop. L'approche de "
+"%(maelstrom_wanderer)s est différente. Ce qui est recherché est l'augmentation du "
+"nombre de terrains en jeu. Cela revient à jouer en priorité les sorts présentés dans "
+"le deuxième paragraphe."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:94
+msgid ""
+"Sans objectif à accomplir, ces cartes sont assez mauvaises dans un deck. En effet, "
+"les sorts de ramp se révèlent être de mauvaises pioches en fin de partie."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-remplacement-de-cartes.html:5
+#, fuzzy
+msgid "Le remplacement de cartes"
+msgstr "Looting"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:5
+#, fuzzy
+msgid "Les cantrips"
+msgstr "Cantrips"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:7
+#, python-format
+msgid ""
+"Un cantrip est un sort qui fait piocher une carte en plus de son effet principal. Les"
+" premiers cantrips, issus d'anciennes extensions, faisaient piocher lors de "
+"l'entretien suivant, aussi appelés <em>slowtrips</em>, alors que les plus récents, "
+"comme %(ponder)s,  permettent de piocher immédiatement."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:15
+msgid ""
+"Ils sont appréciés car leur utilisation ne génère pas de <em>Card Disadvantage</em>. "
+"Les cantrips les moins chers peuvent ainsi être joués davantage pour leur effet de "
+"pioche que pour leur effet principal, épurant le deck pour un investissement en mana "
+"raisonnable."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:22
+#, python-format
+msgid ""
+"<strong>Aaron Forsythe</strong> présente en détail dans un article sur le site de "
+"Wizards of the Coast, %(article_wizards)s, ce qu'est un cantrip et d'où vient ce mot "
+"qui n'est utilisé sur aucune carte Magic."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:31
+#, python-format
+msgid ""
+"Les cantrips les plus joués en Duel Commander sont %(brainstorm)s, %(ponder)s et "
+"%(preordain)s qui sont également joués dans tous les formats où ces sorts sont "
+"légaux. Selon les besoins, il est possible de jouer également %(opt)s, "
+"%(serum_visions)s ou %(sleight_of_hand)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:39
+#, python-format
+msgid ""
+"Les sorts %(gitaxian_probe)s et %(peek)s sont joués tant pour leur aspect cantrip que"
+" pour la possibilité fournie d'accéder à des informations de qualité sur la partie et"
+" sur les prochains tours."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:46
+msgid ""
+"Les cantrips bleus sont joués pour leur facilité d'interagir avec le dessus de sa "
+"bibliothèque sans perdre de carte de sa main, assurant ainsi l'enchainement de "
+"terrains et de sorts impactants en diminuant la dépendance à l'aléatoire."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:53
+#, python-format
+msgid ""
+"Il existe aussi d'autre sorts qui sont des cantrips. Leur utilisation dépend du "
+"besoin de jouer ces types de cartes. Il est possible de noter les cantrips suivants "
+"sont jouables dans certains decks selon le plan de jeu adopté : %(arcums_astrolabe)s,"
+" %(cloudkin_seer)s, %(explore)s, %(fblthp_the_lost)s, %(growth_spiral)s, "
 "%(leadership_vacuum)s ou encore %(repulse)s. La page %(cantrips)s reprend en détail "
-"quelques-uns des cantrips jouables. </p> <!-- <div class=\"tip\"> <h3></h3> <p></p> "
-"</div> -->"
+"quelques-uns des cantrips jouables."
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe.html:5
-msgid "<h1>Les cartes de taxe</h1>"
-msgstr ""
+#, fuzzy
+msgid "Les cartes de taxe"
+msgstr "Tax Cards"
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:4
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:6
 #, python-format
 msgid ""
-"<h1>Les contresorts</h1> <p> Les contresorts sont des  éphémères dont l'objectif est "
-"de <em>contrecarrer</em> les sorts lancés par l'adversaire. Ce sont des cartes "
-"appartiennent principalement à Contrôle et à Tempo. Ces sorts sont appelés ainsi en "
-"référence à la carte %(counterspell)s qui en est la digne représentante. </p> <p> Les"
-" contresorts les plus fréquents en Duel Commander sont %(force_of_will)s, "
+"Les contresorts sont des  éphémères dont l'objectif est de <em>contrecarrer</em> les "
+"sorts lancés par l'adversaire. Ce sont des cartes appartiennent principalement à "
+"Contrôle et à Tempo. Ces sorts sont appelés ainsi en référence à la carte "
+"%(counterspell)s qui en est la digne représentante."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:14
+#, python-format
+msgid ""
+"Les contresorts les plus fréquents en Duel Commander sont %(force_of_will)s, "
 "%(mana_leak)s, %(counterspell)s, %(force_spike)s, %(force_of_negation)s, "
-"%(spell_snare)s et %(mental_misstep)s. </p> <p> D'autres contresorts permettent de "
-"contrer un sort à moins que l'adversaire ne paye une certaine somme de mana comme "
-"%(miscalculation)s, %(daze)s, %(spell_pierce)s et %(mystic_confluence)s. L'avantage "
-"de %(force_spike)s par rapport aux autres est sa possibilité d'interagir dès le "
-"premier tour sans défaut, contrairement à %(daze)s par exemple. </p> <p> D'autres "
-"contresorts ne gèrent pas définitivement le sort ou ne gèrent pas tous les sorts. Ces"
-" cartes restent jouées car elles permettent de gagner un avantage soit en "
+"%(spell_snare)s et %(mental_misstep)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:21
+#, python-format
+msgid ""
+"D'autres contresorts permettent de contrer un sort à moins que l'adversaire ne paye "
+"une certaine somme de mana comme %(miscalculation)s, %(daze)s, %(spell_pierce)s et "
+"%(mystic_confluence)s. L'avantage de %(force_spike)s par rapport aux autres est sa "
+"possibilité d'interagir dès le premier tour sans défaut, contrairement à %(daze)s par"
+" exemple."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:29
+#, python-format
+msgid ""
+"D'autres contresorts ne gèrent pas définitivement le sort ou ne gèrent pas tous les "
+"sorts. Ces cartes restent jouées car elles permettent de gagner un avantage soit en "
 "<em>tempo</em>, soit en <em>card advantage</em>, parfois les deux à la fois : "
-"%(remand)s, %(memory_lapse)s et %(tales_end)s par exemple. </p> <p> "
+"%(remand)s, %(memory_lapse)s et %(tales_end)s par exemple."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:37
+#, python-format
+msgid ""
 "%(cryptic_command)s est hors catégorie car ce sort permet d'interagir sur plus d'un "
 "angle de jeu et doit donc être joué pour cette versatilité plus que pour l'aspect "
-"contresort. </p> <div class=\"tip\"> <h3>Jouer peu de contresorts</h3> <p> Jouer une "
-"dizaine de contresorts ne permet pas de contrer « tout ce qui bouge ». Il faut donc "
-"avoir des cibles prioritaires car, une fois résolus, ces sorts seront difficilement "
-"gérables. </p> <p> De plus, tous les contresorts ne sont pas à envisager dans tous "
-"les decks. En effet, un deck Tempo souhaite à tout prix protéger sa menace tandis "
-"qu'un deck Contrôle veut développer ses ressources et adapter sa réponse selon "
-"l'avancement de la partie, que ce soit en coût de mana ou en rentabilité de la carte."
-" </p> <p> Par conséquent, des contresorts comme %(daze)s sont des contresorts de "
-"Tempo et pas de Contrôle qui cherche des réponses définitives qui ne coûtent pas de "
-"ressources. En effet, <em>perdre</em> un terrain met le deck en difficulté pour le "
-"reste de la partie. </p> </div>"
+"contresort."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:43
+#, fuzzy
+msgid "Jouer peu de contresorts"
+msgstr "counterspells"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:45
+msgid ""
+"Jouer une dizaine de contresorts ne permet pas de contrer « tout ce qui bouge ». Il "
+"faut donc avoir des cibles prioritaires car, une fois résolus, ces sorts seront "
+"difficilement gérables."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:52
+msgid ""
+"De plus, tous les contresorts ne sont pas à envisager dans tous les decks. En effet, "
+"un deck Tempo souhaite à tout prix protéger sa menace tandis qu'un deck Contrôle veut"
+" développer ses ressources et adapter sa réponse selon l'avancement de la partie, que"
+" ce soit en coût de mana ou en rentabilité de la carte."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:60
+#, python-format
+msgid ""
+"Par conséquent, des contresorts comme %(daze)s sont des contresorts de Tempo et pas "
+"de Contrôle qui cherche des réponses définitives qui ne coûtent pas de ressources. En"
+" effet, <em>perdre</em> un terrain met le deck en difficulté pour le reste de la "
+"partie."
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives.html:5
-msgid "<h1>Les créatures agressives</h1>"
-msgstr ""
+#, fuzzy
+msgid "Les créatures agressives"
+msgstr "Aggressive Creatures"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:4
+#, fuzzy
+msgid "Les dégâts directs"
+msgstr "Blasts"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:6
 #, python-format
 msgid ""
-"<h1>Les dégâts directs</h1> <p> Les blasts sont des éphémères et des rituels "
-"principalement rouge. L'objectif est d'être en mesure d'infliger des dégâts directs à"
-" l'adversaire ou à un des permanents sur le champ de bataille, un planewalker ou une "
-"créature. Selon les decks, la quantité de blasts change. Les indémodables "
-"%(lightning_bolt)s et %(chain_lightning)s sont presque toujours inclus dans les decks"
-" qui peuvent les jouer. </p> <p> Parmi les sorts uniquement rouge, le trio suivant "
-"est joué dans la grande majorité des decks Aggro et Tempo : %(lightning_strike)s, "
-"%(incinerate)s et %(searing_spear)s. À ce trio s'ajoute %(lightning_helix)s qui "
-"inflige également trois blessures. </p> <p> Certains %(shock)s sont joués de manière "
-"assez régulière car leur diversité permet de couvrir plusieurs axes de jeu. Parmi "
-"ceux-ci figurent %(fire_ice)s, %(bonecrusher_giant)s, %(grim_lavamancer)s, "
-"%(burst_lightning)s et %(chandra_torch_of_defiance)s. Leurs applications sont toutes "
-"différentes et c'est principalement ce qui justifie leur inclusion dans un deck. </p>"
-" <p> Enfin, %(fiery_confluence)s est une carte qui permet d'infliger six dégâts à "
-"l'adversaire. C'est principalement pour cette raison que la carte est jouée dans les "
-"decks Aggro et Tempo. </p> <div class=\"tip\"> <h3>Bolt face ou trade ?</h3> <p> Il "
-"arrive toujours un moment où il faut faire un choix quant à la cible d'un blast. "
-"Vaut-il mieux ingliger ces blessures directement à l'adversaire (<em>face</em>) ou "
-"faut-il utiliser le sort sur une créature ou un planeswalker (<em>trade</em>) ? </p> "
-"<p> Il faut prendre en compte le différentiel de dégâts qu'induit un <em>trade</em> "
-"par rapport à lancer le sort <em>face</em>. En effet, si blaster une créature permet "
-"d'infliger deux dégâts à l'adversaire, il vaut mieux lancer %(lightning_bolt)s "
-"directement <em>face</em>. Tout ceci à moins que la créature fasse partie d'une combo"
-" que l'adversaire essaye de mettre en place. </p> <p> Chercher le gain immédiat n'est"
-" pas toujours la solution et il est intéressant d'anticiper le tour à venir voire le "
-"suivant pour prendre une décision pondérée. </p> </div>"
+"Les blasts sont des éphémères et des rituels principalement rouge. L'objectif est "
+"d'être en mesure d'infliger des dégâts directs à l'adversaire ou à un des permanents "
+"sur le champ de bataille, un planewalker ou une créature. Selon les decks, la "
+"quantité de blasts change. Les indémodables %(lightning_bolt)s et %(chain_lightning)s"
+" sont presque toujours inclus dans les decks qui peuvent les jouer."
 msgstr ""
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:5
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:15
+#, python-format
+msgid ""
+"Parmi les sorts uniquement rouge, le trio suivant est joué dans la grande majorité "
+"des decks Aggro et Tempo : %(lightning_strike)s, %(incinerate)s et %(searing_spear)s."
+" À ce trio s'ajoute %(lightning_helix)s qui inflige également trois blessures."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:22
+#, python-format
+msgid ""
+"Certains %(shock)s sont joués de manière assez régulière car leur diversité permet de"
+" couvrir plusieurs axes de jeu. Parmi ceux-ci figurent %(fire_ice)s, "
+"%(bonecrusher_giant)s, %(grim_lavamancer)s, %(burst_lightning)s et "
+"%(chandra_torch_of_defiance)s. Leurs applications sont toutes différentes et c'est "
+"principalement ce qui justifie leur inclusion dans un deck."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:34
+#, python-format
+msgid ""
+"Enfin, %(fiery_confluence)s est une carte qui permet d'infliger six dégâts à "
+"l'adversaire. C'est principalement pour cette raison que la carte est jouée dans les "
+"decks Aggro et Tempo."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:40
+msgid "Bolt face ou trade ?"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:42
+msgid ""
+"Il arrive toujours un moment où il faut faire un choix quant à la cible d'un blast. "
+"Vaut-il mieux ingliger ces blessures directement à l'adversaire (<em>face</em>) ou "
+"faut-il utiliser le sort sur une créature ou un planeswalker (<em>trade</em>) ?"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:49
+#, python-format
+msgid ""
+"Il faut prendre en compte le différentiel de dégâts qu'induit un <em>trade</em> par "
+"rapport à lancer le sort <em>face</em>. En effet, si blaster une créature permet "
+"d'infliger deux dégâts à l'adversaire, il vaut mieux lancer %(lightning_bolt)s "
+"directement <em>face</em>. Tout ceci à moins que la créature fasse partie d'une combo"
+" que l'adversaire essaye de mettre en place."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:58
+msgid ""
+"Chercher le gain immédiat n'est pas toujours la solution et il est intéressant "
+"d'anticiper le tour à venir voire le suivant pour prendre une décision pondérée."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:4
+#, fuzzy
+msgid "Les grosses créatures"
+msgstr "Big Creatures"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:6
+msgid ""
+"Une grosse créature, <em>fatty</em>, est une créature dont la force et l'endurance "
+"dépassent strictement 3. C'est l'opposée d'une créature <em>weenie</em> qui a peu de "
+"force et d'endurance."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:13
+msgid ""
+"Il est possible d'utiliser les grosses créatures pour deux objectifs différents : les"
+" créatures <em>Stompy</em> sont des grosses créatures très peu chères tandis que les "
+"<em>Finisher</em> permettent de clore la partie efficacement."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:20
+#, python-format
+msgid ""
+"%(tarmogoyf)s et %(questing_beast)s sont deux créatures apparentées à la catégorie "
+"Stompy. Des créatures « anti-contrôle » se retrouvent aussi dans cette catégorie "
+"comme %(thrun_the_last_troll)s et %(shifting_ceratops)s jouées dans plusieurs "
+"formats. %(strangleroot_geist)s, grâce à sa capacité <em>Survivance</em>, est l'icône"
+" des créatures Stompy en Modern."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:29
+#, python-format
+msgid ""
+"À mi-chemin entre les créatures Stompy et les créatures Finisher, %(elder_gargaroth)s"
+" bénéficie de mot-clés avantageux et d'une capacité très versatile qui permet à cette"
+" bête d'être jouée pour intervenir dans beaucoup de situations."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:36
+#, python-format
+msgid ""
+"%(primeval_titan)s se rapproche des créatures Finisher car la résolution de ce sort "
+"permet de développer de manière très rapide son mana et d'enchaîner les fatties pour "
+"prendre le contrôle du champ de bataille."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:44
 msgid "mana dorks"
 msgstr "mana dorks"
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:4
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:43
 #, python-format
 msgid ""
-"<h1>Les grosses créatures</h1> <p> Une grosse créature, <em>fatty</em>, est une "
-"créature dont la force et l'endurance dépassent strictement 3. C'est l'opposée d'une "
-"créature <em>weenie</em> qui a peu de force et d'endurance. </p> <p> Il est possible "
-"d'utiliser les grosses créatures pour deux objectifs différents : les créatures "
-"<em>Stompy</em> sont des grosses créatures très peu chères tandis que les "
-"<em>Finisher</em> permettent de clore la partie efficacement. </p> <p> %(tarmogoyf)s "
-"et %(questing_beast)s sont deux créatures apparentées à la catégorie Stompy. Des "
-"créatures « anti-contrôle » se retrouvent aussi dans cette catégorie comme "
-"%(thrun_the_last_troll)s et %(shifting_ceratops)s jouées dans plusieurs formats. "
-"%(strangleroot_geist)s, grâce à sa capacité <em>Survivance</em>, est l'icône des "
-"créatures Stompy en Modern. </p> <p> À mi-chemin entre les créatures Stompy et les "
-"créatures Finisher, %(elder_gargaroth)s bénéficie de mot-clés avantageux et d'une "
-"capacité très versatile qui permet à cette bête d'être jouée pour intervenir dans "
-"beaucoup de situations. </p> <p> %(primeval_titan)s se rapproche des créatures "
-"Finisher car la résolution de ce sort permet de développer de manière très rapide son"
-" mana et d'enchaîner les fatties pour prendre le contrôle du champ de bataille. </p> "
-"<p> Une partie des Finisher est jouée accompagnée de %(mana_dork)s et de cartes comme"
-" %(survival_of_the_fittest)s. L'intérêt est de jouer peu de Finisher et de pouvoir y "
+"Une partie des Finisher est jouée accompagnée de %(mana_dork)s et de cartes comme "
+"%(survival_of_the_fittest)s. L'intérêt est de jouer peu de Finisher et de pouvoir y "
 "avoir accès dès que c'est nécessaire. Ces Finisher sont souvent des créatures comme "
 "%(craterhoof_behemoth)s et %(kamahl_heart_of_krosa)s qui fournissent un effet "
-"%(overrun)s. </p> <p> D'autres Finisher sont des cibles de choix pour les effets de "
-"%(reanimation)s. %(sidisi_brrod_tyrant)s peut permettre de développer un tel plan de "
-"jeu. Les créatures vertes à réanimer sont %(archetype_of_endurance)s, %(terastodon)s "
-"ou encore %(woodfall_primus)s. </p> <div class=\"tip\"> <h3>Comment assurer l'impact "
-"de ses fatties ?</h3> <p> C'est vraiment important que les fatties soient capables "
-"d'arriver sur le champ de bataille pour avoir l'occasion de faire ce pour quoi ces "
-"cartes ont été choisies. Pour ce faire, il faut réussir à résoudre son sort. Parmi "
-"les outils disponibles, il existe des cartes qui rendent des sort "
-"<em>incontrables</em>, c'est-à-dire que %(les_contresorts)s ne peuvent pas faire ce "
-"pour quoi ils sont joués. </p> <p> Parmi les cartes jouables qui proposent cela, il y"
-" a soit les %(cartes_de_taxe)s, comme %(defense_grid)s ou "
-"%(thalia_guardian_of_thraben)s, soit les cartes qui permettent de rendre des sorts "
-"incontrables, comme %(allosaurus_shepherd)s, %(destiny_spinner)s, %(vexing_shusher)s "
-"et %(prowling_serpopard)s qui sont les plus jouées dans ce but. </p> <p> Il faut "
-"ensuite pouvoir profiter de sa créature et pouvoir attaquer avec. Pour cela, des "
-"cartes comme %(lightning_greaves)s ou %(spellskite)s sont envisageables pour éviter "
-"les <em>spot removals</em>. </p> </div>"
+"%(overrun)s."
 msgstr ""
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:6
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:55
 msgid "réanimation"
 msgstr "reanimation"
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:5
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:54
+#, python-format
+msgid ""
+"D'autres Finisher sont des cibles de choix pour les effets de %(reanimation)s. "
+"%(sidisi_brrod_tyrant)s peut permettre de développer un tel plan de jeu. Les "
+"créatures vertes à réanimer sont %(archetype_of_endurance)s, %(terastodon)s ou encore"
+" %(woodfall_primus)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:63
+msgid "Comment assurer l'impact de ses fatties ?"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:65
+#, python-format
+msgid ""
+"C'est vraiment important que les fatties soient capables d'arriver sur le champ de "
+"bataille pour avoir l'occasion de faire ce pour quoi ces cartes ont été choisies. "
+"Pour ce faire, il faut réussir à résoudre son sort. Parmi les outils disponibles, il "
+"existe des cartes qui rendent des sort <em>incontrables</em>, c'est-à-dire que "
+"%(les_contresorts)s ne peuvent pas faire ce pour quoi ils sont joués."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:76
+#, python-format
+msgid ""
+"Parmi les cartes jouables qui proposent cela, il y a soit les %(cartes_de_taxe)s, "
+"comme %(defense_grid)s ou %(thalia_guardian_of_thraben)s, soit les cartes qui "
+"permettent de rendre des sorts incontrables, comme %(allosaurus_shepherd)s, "
+"%(destiny_spinner)s, %(vexing_shusher)s et %(prowling_serpopard)s qui sont les plus "
+"jouées dans ce but."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:86
+#, python-format
+msgid ""
+"Il faut ensuite pouvoir profiter de sa créature et pouvoir attaquer avec. Pour cela, "
+"des cartes comme %(lightning_greaves)s ou %(spellskite)s sont envisageables pour "
+"éviter %(removals)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:4
+#, fuzzy
+msgid "Les mana dorks"
+msgstr "Mana Dorks"
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:6
+#, python-format
+msgid ""
+"Les <em>dorks</em> sont des créatures avec une force et une endurance peu "
+"impressionnantes au point où ces créatures sont considérées comme « incapables "
+"d'attaquer ». Les dorks ont cependant d'autres capacités intéressantes, comme les "
+"<em>mana dorks</em> présentés ici qui, comme %(llanowar_elves)s, s'engagent pour "
+"produire du mana."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:14
+#, python-format
+msgid ""
+"Les mana dorks sont les créatures vertes les plus jouées du format. Parmi elles "
+"%(birds_of_paradise)s, %(elvish_mystic)s, %(fyndhorn_elves)s et %(llanowar_elves)s se"
+" retrouvent dans la grande majorité des decks. %(gilded_goose)s est à jouer lorsque "
+"le besoin d'accès au mana n'est pas permanent et que les jetons produits sont "
+"utilisables autrement."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:23
 msgid "Forêt"
 msgstr "Forest"
 
-#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:4
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:22
 #, python-format
 msgid ""
-"<h1>Les mana dorks</h1> <p> Les <em>dorks</em> sont des créatures avec une force et "
-"une endurance peu impressionnantes au point où ces créatures sont considérées comme «"
-" incapables d'attaquer ». Les dorks ont cependant d'autres capacités intéressantes, "
-"comme les <em>mana dorks</em> présentés ici qui, comme %(llanowar_elves)s, s'engagent"
-" pour produire du mana. </p> <p> Les mana dorks sont les créatures vertes les plus "
-"jouées du format. Parmi elles %(birds_of_paradise)s, %(elvish_mystic)s, "
-"%(fyndhorn_elves)s et %(llanowar_elves)s se retrouvent dans la grande majorité des "
-"decks. %(gilded_goose)s est à jouer lorsque le besoin d'accès au mana n'est pas "
-"permanent et que les jetons produits sont utilisables autrement. </p> <p> En "
-"s'éloignant de l'aspect strictement vert, %(deathrite_shaman)s est un bon ajout "
+"En s'éloignant de l'aspect strictement vert, %(deathrite_shaman)s est un bon ajout "
 "lorsque le deck ne dépend pas des terrains dans son cimetière. %(arbor_elf)s dégage "
 "une %(forest)s, cette créature ne produit pas directement du mana, il faut donc "
 "l'utiliser avant de lancer un sort ou d'activer une capacité. %(boreal_druid)s "
 "produit du mana incolore qui a la caractérisque <em>neigeux</em>, cela peut être "
-"utile pour lancer des %(arcums_astrolabe)s par exemple. </p> <p> Dépendant de "
-"l'identité couleur du deck, des dorks comme %(avacyns_pilgrim)s, "
-"%(elves_of_deep_shadow)s ou %(noble_hierarch)s peuvent être envisagés. </p> <p> "
+"utile pour lancer des %(arcums_astrolabe)s par exemple."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:34
+#, python-format
+msgid ""
+"Dépendant de l'identité couleur du deck, des dorks comme %(avacyns_pilgrim)s, "
+"%(elves_of_deep_shadow)s ou %(noble_hierarch)s peuvent être envisagés."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:40
+#, python-format
+msgid ""
 "D'autres créature aident à produire du mana et peuvent être assimilées aux mana "
 "dorks. C'est le cas de %(lotus_cobra)s en particulier et de %(radha_heir_to_keld)s "
-"voire de %(klothys_god_of_destiny)s dans une moindre mesure. </p> <p> Les "
-"enchantements %(utopia_sprawl)s et %(wild_growth)s sont parfois considérés comme des "
-"<em>dork</em> du fait de leur faible coût et de leur jouabilité dès le premier tour. "
-"Selon ce qui est attendu des mana dorks, ces enchantements sont à considérer. </p> "
-"<div class=\"tip\"> <h3>Être un mana dork et être rentable en fin de partie</h3> <p> "
+"voire de %(klothys_god_of_destiny)s dans une moindre mesure."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:47
+#, python-format
+msgid ""
+"Les enchantements %(utopia_sprawl)s et %(wild_growth)s sont parfois considérés comme "
+"des <em>dork</em> du fait de leur faible coût et de leur jouabilité dès le premier "
+"tour. Selon ce qui est attendu des mana dorks, ces enchantements sont à considérer."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:54
+msgid "Être un mana dork et être rentable en fin de partie"
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:56
+msgid ""
 "Il n'est pas impossible qu'un mana dork soit pioché en fin de partie. Cela peut-être "
-"une pioche désagréable si des outils ne sont pas intégrés au deck. </p> <p> Parmi ces"
-" outils, %(skullclamp)s est la carte <em>par défaut</em>. Elle permet de remplacer le"
-" mana dork en deux autres cartes. Cet équipement est aussi intéressant car, en règle "
-"générale, la zone de commandement est occupée par une créature qui est voué à mourir,"
-" au moins une fois. D'autres équipements sont envisageables. </p> <p> Parmi les "
-"autres cartes se trouvent %(survival_of_the_fittest)s pour remplacer directement le "
-"mana dork par quelque chose de plus imposant. Utilisant cette technique, il y a "
-"également %(birthing_pod)s ou %(fauna_shaman)s. </p> <p> D'autres identités couleur "
-"ont accès à %(goblin_bombardment)s ou à %(tortured_existence)s par exemple. </p> "
-"</div>"
+"une pioche désagréable si des outils ne sont pas intégrés au deck."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:62
+#, python-format
+msgid ""
+"Parmi ces outils, %(skullclamp)s est la carte <em>par défaut</em>. Elle permet de "
+"remplacer le mana dork en deux autres cartes. Cet équipement est aussi intéressant "
+"car, en règle générale, la zone de commandement est occupée par une créature qui est "
+"voué à mourir, au moins une fois. D'autres équipements sont envisageables."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:70
+#, python-format
+msgid ""
+"Parmi les autres cartes se trouvent %(survival_of_the_fittest)s pour remplacer "
+"directement le mana dork par quelque chose de plus imposant. Utilisant cette "
+"technique, il y a également %(birthing_pod)s ou %(fauna_shaman)s."
+msgstr ""
+
+#: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:77
+#, python-format
+msgid ""
+"D'autres identités couleur ont accès à %(goblin_bombardment)s ou à "
+"%(tortured_existence)s par exemple."
 msgstr ""
 
 #: barrins_codex/templates/tools/combo-a-b.html:8
