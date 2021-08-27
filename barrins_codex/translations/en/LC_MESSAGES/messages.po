@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-26 20:24+0200\n"
+"POT-Creation-Date: 2021-08-27 09:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -286,7 +286,7 @@ msgstr ""
 "Portions of the materials used are property of Wizards of the Coast. "
 "©%(wizards_of_the_coast)s LLC. </p>"
 
-#: barrins_codex/templates/layout.html:80
+#: barrins_codex/templates/layout.html:72
 msgid ""
 "Le Codex est en cours de traduction, il se peut qu'une partie du site ne soit pas "
 "traduit dans la langue sélectionnée."
@@ -1081,6 +1081,81 @@ msgstr ""
 "and offers archetypes that have proven themselves in tournaments or offer a unique "
 "style of play. </p>"
 
+#: barrins_codex/templates/archetypes/index.html:22
+#: barrins_codex/templates/archetypes/index.html:38
+#: barrins_codex/templates/archetypes/index.html:182
+#: barrins_codex/templates/archetypes/index.html:198
+msgid "Tempo"
+msgstr "Tempo"
+
+#: barrins_codex/templates/archetypes/index.html:30
+msgid "Prison"
+msgstr "Prison"
+
+#: barrins_codex/templates/archetypes/index.html:46
+msgid "Rock"
+msgstr "Rock"
+
+#: barrins_codex/templates/archetypes/index.html:54
+#: barrins_codex/templates/archetypes/index.html:102
+msgid "Draw Go"
+msgstr "Draw Go"
+
+#: barrins_codex/templates/archetypes/index.html:62
+#: barrins_codex/templates/archetypes/index.html:126
+#: barrins_codex/templates/archetypes/index.html:142
+#: barrins_codex/templates/articles/classifier-un-deck.html:422
+#: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:15
+msgid "Midrange Non-Bleu"
+msgstr "Non-Blue Midrange"
+
+#: barrins_codex/templates/archetypes/index.html:70
+#: barrins_codex/templates/articles/classifier-un-deck.html:197
+msgid "Aggro Linéaire"
+msgstr "Linear Aggro"
+
+#: barrins_codex/templates/archetypes/index.html:78
+msgid "Wave Combo"
+msgstr "Wave Combo"
+
+#: barrins_codex/templates/archetypes/index.html:86
+#: barrins_codex/templates/archetypes/index.html:94
+msgid "Swarm"
+msgstr "Swarm"
+
+#: barrins_codex/templates/archetypes/index.html:110
+#: barrins_codex/templates/articles/classifier-un-deck.html:806
+msgid "Combo Traditionnel"
+msgstr "Traditional Combo"
+
+#: barrins_codex/templates/archetypes/index.html:118
+#: barrins_codex/templates/archetypes/index.html:134
+msgid "Créatures Combo"
+msgstr "Creatures-Combo"
+
+#: barrins_codex/templates/archetypes/index.html:150
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:149
+#: barrins_codex/templates/articles/classifier-un-deck.html:66
+msgid "Contrôle"
+msgstr "Control"
+
+#: barrins_codex/templates/archetypes/index.html:158
+#: barrins_codex/templates/archetypes/index.html:174
+msgid "Contrôle-Combo"
+msgstr "Control-Combo"
+
+#: barrins_codex/templates/archetypes/index.html:166
+msgid "Big Spell"
+msgstr "Big Spell"
+
+#: barrins_codex/templates/archetypes/index.html:190
+msgid "Voltron Aggro"
+msgstr "Aggro Voltron"
+
+#: barrins_codex/templates/archetypes/index.html:206
+msgid "Voltron Combo"
+msgstr "Combo Voltron"
+
 #: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:15
 msgid ""
 "Il s'agit d'un deck consistant en une trentaire de cartes qui créent la colonne "
@@ -1188,6 +1263,9 @@ msgid ""
 "la participation de %(theau_mery)s suite à sa participation au Master Zap de juillet "
 "2021."
 msgstr ""
+"The following video was produced by %(chroniques)s and published on August 25, 2021 "
+"with the participation of %(theau_mery)s following its participation in the Master "
+"Zap of July 2021."
 
 #: barrins_codex/templates/archetypes/kelsien-the-plague.html:15
 msgid ""
@@ -1196,12 +1274,16 @@ msgid ""
 " la stratégie de l'adversaire. En soutien, le deck s'appuie sur une sélection de "
 "sorts polyvalents et un haut de curve orienté midrange."
 msgstr ""
+"The principle of the deck is quite classic in the form: play three creatures on the "
+"first turns to either put pressure or occupy the board, depending on the opponent's "
+"strategy. In support, the deck relies on a selection of versatile spells and a "
+"midrange oriented curve top."
 
 #: barrins_codex/templates/archetypes/kelsien-the-plague.html:23
 msgid ""
 "La particularité du deck et du build réside dans le fait qu’il est pensé pour être "
 "bicéphale :"
-msgstr ""
+msgstr "The particularity of the deck and the build is that it is designed to be two-headed:"
 
 #: barrins_codex/templates/archetypes/kelsien-the-plague.html:28
 msgid ""
@@ -1209,6 +1291,9 @@ msgid ""
 "parce que bien sûr il tue les X/1, mais surtout parce que les phases d'attaque et de "
 "block deviennent des puzzles très complexes pour l'adversaire."
 msgstr ""
+"Against aggro, Kelsien gives a big board dominance thanks to the ping. First of all "
+"because of course it kills the X/1 creatures, but above all because the attack and "
+"block phases become very complex puzzles for the opponent."
 
 #: barrins_codex/templates/archetypes/kelsien-the-plague.html:35
 msgid ""
@@ -1217,6 +1302,10 @@ msgid ""
 "ce qui permet de tenir le long terme beaucoup plus facilement qu'un aggro classique "
 "et compense bien le manque relatif de puissance de feu."
 msgstr ""
+"Against control, one swaps into Marchesa. By forcing the opponent to react on the "
+"first three turns one finds quite easily a window to resolve the queen, which makes "
+"it possible to hold the long term much more easily than a classic aggro and "
+"compensates well for the relative lack of firepower."
 
 #: barrins_codex/templates/archetypes/kelsien-the-plague.html:43
 msgid ""
@@ -1225,6 +1314,10 @@ msgid ""
 "asphyxier au monarque, et il rencontre ses plus grosses difficultés contre les decks "
 "combos sans créature avec lesquels il lui est difficile d'interagir."
 msgstr ""
+"So it's a versatile aggro deck with very smooth match-ups. It's at its best in "
+"creature duels and against decks that it can suffocate using the monarch, and it has "
+"its greatest difficulties against creature-less combo decks that it's hard to "
+"interact with."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:14
 msgid ""
@@ -1318,13 +1411,18 @@ msgstr ""
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:71
 msgid ""
-"Ensuite, les planewalkers qui offrent une condition de victoire sont nombreux dans "
+"Ensuite, les planeswalkers qui offrent une condition de victoire sont nombreux dans "
 "Magic mais peu sont pertinents. Il faut alors se demander quelle est leur valeur "
 "ajoutée car les places dans le  deck sont chères. Les arguments en défaveur des "
 "arpenteurs sont les mêmes que pour les  créatures : ce sont des rituels qui demandent"
 " une certaine quantité de mana, ce qui laisse plus  de possibilité à l'adversaire le "
 "tour où ils sont joués."
 msgstr ""
+"Second, there are many planeswalkers that offer a victory condition in Magic, but few"
+" are relevant. One must then ask oneself what is their added value because the places"
+" in the deck are expensive. The arguments against planeswalkers are the same as for "
+"creatures: they are rituals that require a certain amount of mana, which leaves more "
+"possibility for the opponent on the turn they are played."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:80
 #, python-format
@@ -1335,6 +1433,10 @@ msgid ""
 "types. Il faut donc trouver un équilibre entre contresorts, moyens de gestion, "
 "piocheurs et blasts."
 msgstr ""
+"Lastly, to maximize the deck's power and to use %(kess_dissident_mage)s to its "
+"fullest, instants and sorceries are the keystone of the deck, what Grixis has the "
+"most. There is then a need to find an equilibrium between counterspells, removals, "
+"cantrips and blasts.s"
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:88
 msgid ""
@@ -1342,6 +1444,9 @@ msgid ""
 " situations. Même si elles sont marginales et peu représentées, il en existe deux qui"
 " peuvent être viables :"
 msgstr ""
+"Having one or two combos in a deck can be reassuring to deal with some dire "
+"situations. Even though they are scarce and not represented, here are two that can be"
+" viable:"
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:95
 #, python-format
@@ -1352,6 +1457,10 @@ msgid ""
 "l'assemblage de trois sources bleues même s’il peut permettre de bien creuser la "
 "bibliothèque."
 msgstr ""
+"■ %(jace_wielder_of_mysteries)s + %(tainted_pact)s<br> %(tainted_pact)s is played in "
+"most version of %(kess_dissident_mage)s but %(jace_wielder_of_mysteries)s is way less"
+" played. Oftenly played off-curve and needing three blue manas, he is heavily taxing "
+"on the deck."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:104
 #, python-format
@@ -1360,10 +1469,13 @@ msgid ""
 "est très bas et même si %(chain_of_smog)s peut faire du deux pour un, "
 "%(ral_storm_conduit)s a un coût prohibitif et une capacité de loyauté +1 médiocre."
 msgstr ""
+"■ %(ral_storm_conduit)s + %(chain_of_smog)s<br> The individual impact of both cards "
+"is really low and even if %(chain_of_smog)s can deal two for one, "
+"%(ral_storm_conduit)s has a prohibitive mana cost and a mediocre +1 loyalty ability."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:112
 msgid "Jouer avec le deck"
-msgstr ""
+msgstr "Playing with the deck"
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:114
 msgid ""
@@ -1373,6 +1485,10 @@ msgid ""
 "partie, la réponse aux menaces proposées par l'adversaire et les décisions prises "
 "tout au long de la partie."
 msgstr ""
+"There is no such thing as a known outcome, you have to fight to win, which is what "
+"makes the deck interesting to play. More than the individual impact of the cards or "
+"the commander, what matters most are the way of approaching the game, the response to"
+" threats proposed by the opponent and the decisions made throughout the game."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:122
 msgid ""
@@ -1380,6 +1496,9 @@ msgid ""
 "à toute éventualité dans les premiers tours dépend des cartes actives, de leur "
 "quantité et de leur qualité."
 msgstr ""
+"Since this is a Control deck, it is played reactively. The ability to respond to any "
+"eventuality in the early turns depends on the active cards, their quantity and "
+"quality."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:129
 #, python-format
@@ -1390,6 +1509,11 @@ msgid ""
 "de départ à trois ou quatre terrains sont idéales. Seuls des <em>cantrips</em> comme "
 "%(preordain)s et %(serum_visions)s peuvent faire fléchir cette règle."
 msgstr ""
+"You should not keep too much or too little land in your starting hand as this affects"
+" the quantity and quality of the spells that can be cast. However, the active object "
+"is to have four lands on the battlefield on turn four, so starting hands with three "
+"or four lands are ideal. Only <em>cantrips</em> like %(preordain)s and "
+"%(serum_visions)s can bend this rule."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:139
 #, python-format
@@ -1401,11 +1525,11 @@ msgid ""
 "élevé avant l’arrivée de %(kess_dissident_mage)s pour garder une marge de manœuvre "
 "suffisante qui permettra de tirer le meilleur de Kess."
 msgstr ""
-
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:149
-#: barrins_codex/templates/articles/classifier-un-deck.html:66
-msgid "Contrôle"
-msgstr "Control"
+"%(lightning_bolt)s, %(fatal_push)s, and a <em>wrath</em> like %(toxic_deluge)s sculpt"
+" the best hands. It is important not to hesitate to deal with each creature of the "
+"opponent to make them lose the maximum pressure on the battlefield. It is mandatory "
+"to maintain a sufficiently high level of life points before the arrival of "
+"%(kess_dissident_mage)s to have sufficient leeway to get the best out of Kess."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:150
 #, python-format
@@ -1419,6 +1543,13 @@ msgid ""
 "arpenteurs ou pour grignoter les points de vie de l’adversaire et le forcer à prendre"
 " une position plus défensive, ce qui le mettra en difficulté."
 msgstr ""
+"<em>Cantrips</em> (%(ponder)s and others), counters (%(counterspell)s and the like) "
+"and discard (%(thoughtseize)s and others) are the preferred weapons. A hand almost "
+"completely filled with blue cards against Control is not a problem, on the contrary. "
+"Cantrips played by the opponent are no threat, planeswalkers and tutors are. The "
+"removals are to be recycled on %(collective_brutality)s for example. Blasts can be "
+"useful against planeswalkers or to chew away at an opponent's health and force them "
+"to take a more defensive position, which will put them in difficulty."
 
 #: barrins_codex/templates/archetypes/kess-dissident-mage.html:162
 msgid ""
@@ -1430,6 +1561,12 @@ msgid ""
 "créatures, parfois des tutors, parfois des éléments de la combo) pour ne pas être "
 "épuisé au moment fatidique."
 msgstr ""
+"Discard, removals and counters are just as important. You have to be able to respond "
+"at any time to the start of a combo, which is why cards giving information about the "
+"opposing hand are very important. It is always complex to play against this type of "
+"deck and it will surely be necessary to let resolve a few cards that have a decent "
+"impact on the game (sometimes creatures, sometimes tutors, sometimes elements of the "
+"combo) in order not to be exhausted. at the fateful moment."
 
 #: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:15
 #, python-format
@@ -1438,6 +1575,9 @@ msgid ""
 "pour créer des quantités arbitrairement grandes de mana en réserve. Pour cela le deck"
 " se repose sur deux combos différentes :"
 msgstr ""
+"%(kinnan_bonder_prodigy)s is a deck based on the commander's static ability to create"
+" arbitrarily large amounts of mana. For this, the deck relies on two different "
+"combos:"
 
 #: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:24
 #, python-format
@@ -1445,47 +1585,60 @@ msgid ""
 "Seule, cette carte permet de générer mana infini et donc de gagner avec "
 "%(walking_ballista)s par exemple ;"
 msgstr ""
+"Alone, this card allows you to generate infinite mana and therefore to win with "
+"%(walking_ballista)s for example;"
 
 #: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:32
-msgid "Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage"
-msgstr ""
+#, python-format
+msgid "Une créature qui génère %(U)s et %(G)s et une aura qui la dégage"
+msgstr "A creature that produces %(U)s and %(G)s and an aura that untap it"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:34
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:36
 msgid "Les créatures disponibles sont :"
-msgstr ""
+msgstr "Available creatures are:"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:37
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:39
 msgid "Les auras sont "
-msgstr ""
+msgstr "Auras are "
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:46
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:48
 #, python-format
 msgid ""
 "Le deck est assez dépendant des artefacts et une autre combo est ajoutée. Il s'agit "
 "de %(painters_servant)s + %(grindstone)s qui permet de <em>meuler</em> le deck de "
 "l'adversaire (d'après le nom français de la carte : %(meularde)s)."
 msgstr ""
+"The deck is quite dependent on artifacts and another combo is added. This is "
+"%(painters_servant)s + %(grindstone)s which allows to <em>grind</em> the opponent's "
+"deck (after the French name of the card: %(meularde)s)."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:55
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:57
 #, python-format
 msgid ""
 "Cette forte relation avec les artefacts se traduit également par la présence de "
 "%(urza_lord_high_artificer)s et %(emry_lurker_of_the_loch)s qui permettent des "
 "synergies intéressantes avec %(winter_orb)s ou %(aether_spellbomb)s par exemple."
 msgstr ""
+"This strong relationship with artefacts is also reflected in the presence of "
+"%(urza_lord_high_artificer)s and %(emry_lurker_of_the_loch)s which allow interesting "
+"synergies with %(winter_orb)s or %(aether_spellbomb)s for example."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:65
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:67
 msgid ""
 "Certaines versions du deck se passent de telle ou de telle combo sans pour autant "
 "dévier dans la structure globale du deck."
 msgstr ""
+"Some versions of the deck do without a particular combo without deviating from the "
+"overall structure of the deck."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:71
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:73
 #, python-format
 msgid ""
 "Une version avec des %(stompy)s a été testée pendant une période. Les résultats n'ont"
 " pas permis de statuer sur l'efficacité de la version."
 msgstr ""
+"A version with %(stompy)s was tested for a period. The results did not allow to rule "
+"on the effectiveness of the version."
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:14
 #, python-format
@@ -2357,11 +2510,6 @@ msgid ""
 "\"tribales\"."
 msgstr ""
 
-#: barrins_codex/templates/articles/classifier-un-deck.html:197
-#, fuzzy
-msgid "Aggro Linéaire"
-msgstr "Linear Aggro archetype"
-
 #: barrins_codex/templates/articles/classifier-un-deck.html:207
 msgid ""
 "Les cartes sont exclusivement basées sur un thème commun, les créatures ont "
@@ -2541,11 +2689,6 @@ msgid ""
 "moins un sort unfair tel que de la destruction massive de terrain, il peut faire "
 "d'excellent résultats."
 msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck.html:422
-#: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:15
-msgid "Midrange Non-Bleu"
-msgstr "Non-Blue Midrange"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:432
 msgid "De la gestion presque totalement dirigée contre les créatures adverses ;"
@@ -2812,10 +2955,6 @@ msgid ""
 "défait. Le nom de cette catégorie est tirée de la capacité <em>Storm</em>. Tous les "
 "decks avec une carte Storm en guise de kill appartiennent à cette catégorie. Ce ne "
 "sont pas les seuls, High Tide ou KCI font aussi partie de cette catégorie."
-msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck.html:806
-msgid "Combo Traditionnel"
 msgstr ""
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:816
@@ -4830,4 +4969,7 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
+
+#~ msgid "Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage"
+#~ msgstr ""
 

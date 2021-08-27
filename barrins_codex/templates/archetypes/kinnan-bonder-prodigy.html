@@ -29,7 +29,9 @@ cny66XvaQkajgzFYTo2Pvg
 	<li>
 		<p>
 			<strong>
-			{{ _("Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage") }}
+			{% trans trimmed %}
+			Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage
+			{% endtrans %}
 			</strong> :<br>
 			{{ _("Les créatures disponibles sont :")}}
 			{{ birds_of_paradise }}, {{ bloom_tender }},

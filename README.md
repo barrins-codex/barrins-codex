@@ -83,7 +83,7 @@ import pprint
 import re
 
 def pre():
-    s = "".join(s for s in clipboard.paste().split("\n"))
+    s = "".join(s[1:-1] for s in clipboard.paste().split("\n"))
     s = re.sub(r"%\(([^\)]*)\)s", r"§KEEP\1§", s)
     clipboard.copy(s)
 
