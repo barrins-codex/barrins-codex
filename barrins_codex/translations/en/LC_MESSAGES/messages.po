@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-27 09:45+0200\n"
+"POT-Creation-Date: 2021-08-27 10:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -422,7 +422,6 @@ msgstr ""
 
 #: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:36
 #: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:43
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:281
 #: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:17
 #: barrins_codex/templates/archetypes/venser-shaper-savant.html:46
 msgid "Ce deck contient des cartes bannies"
@@ -430,7 +429,6 @@ msgstr "This deck contains banned cards"
 
 #: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:38
 #: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:45
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:283
 #: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:19
 #: barrins_codex/templates/archetypes/venser-shaper-savant.html:48
 msgid "a été banni le 26 juillet 2021"
@@ -1853,10 +1851,15 @@ msgid ""
 "%(lightning_bolt)s mais il y a des moyens de contourner ce problème. Enfin, les "
 "capacités d'Orvar sont :"
 msgstr ""
+"%(orvar_the_all_form)s costs only one colored mana for a total cost of four manas. "
+"This allows utility lands to be played without decreasing the chances of casting "
+"Orvar. On the other hand, his strength and endurance are a little low. A 3/3 is weak "
+"to %(lightning_bolt)s but there are ways around this problem. Finally, Orvar's "
+"abilities are:"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:26
 msgid "Changelin"
-msgstr ""
+msgstr "Changeling"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:27
 #, python-format
@@ -1864,6 +1867,8 @@ msgid ""
 "Cette capacité qui fournit tous les types de créature n'est pas anecdotique et "
 "fournit les meilleurs moyens de protéger %(orvar_the_all_form)s."
 msgstr ""
+"This ability which provides all creature types is not trivial and provides the best "
+"means of protecting %(orvar_the_all_form)s."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:34
 msgid ""
@@ -1871,6 +1876,8 @@ msgid ""
 " autre permanent que vous contrôlez, créez un jeton qui est une copie d'un de ces "
 "permanents."
 msgstr ""
+"Whenever you cast an instant or sorcery spell, if it targets one or more other "
+"permanents you control, create a token that’s a copy of one of those permanents"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:40
 #, python-format
@@ -1882,14 +1889,23 @@ msgid ""
 "avec %(gilded_drake)s car la possession n'est pas prise en compte. Enfin, il est "
 "possible de copier n'importe quel permanent, que ce soit une créature, une terrain ou"
 " un planeswalker peu importe si la cible du sort est encore en jeu lorsque la "
-"capacité d'Orver se résoud."
+"capacité d'Orvar se résoud."
 msgstr ""
+"This ability is the keystone of the deck. Indeed, the objective is to use this "
+"capacity as much as possible. This ability can only produce one token and cards like "
+"%(ghostly_flicker)s are not necessarily to be considered. Likewise, this ability only"
+" works on controlled permanents, it will not work with %(gilded_drake)s because "
+"possession is ignored. Finally, it's possible to copy any permanent, whether it's a "
+"creature, a land, or a planeswalker, regardless of whether the spell's target is "
+"still in play when Orvar's ability resolves."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:52
 msgid ""
 "Quand un sort ou une capacité qu'un adversaire contrôle vous contraint à vous "
 "défausser de cette carte, créez un jeton qui une copie d'un permanent ciblé."
 msgstr ""
+"When a spell or ability an opponent controls causes you to discard this card, create "
+"a token that’s a copy of target permanent."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:57
 #, python-format
@@ -1899,9 +1915,12 @@ msgid ""
 " effet, se renvoyer Orvar en main permet de copier un permanent et de le rejouer "
 "depuis la zone de commandement."
 msgstr ""
+"The objective is for the commander to be in play or in the command zone. This ability"
+" can be useful in the event of an opponent's discard as with %(liliana_of_the_veil)s."
+" Indeed, returning Orvar in hand allows you to copy a permanent and recast it from "
+"the command zone."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:65
-#, fuzzy
 msgid "Présentation de la liste"
 msgstr "Highlights"
 
@@ -1916,6 +1935,9 @@ msgid ""
 "depuis sa mise en ligne suite à des tests notamment. La présentation suit donc la "
 "liste présentée même si %(la_liste)s a évolé depuis."
 msgstr ""
+"The list of the deck presented is the version of February 14, 2021, it may have "
+"changed since it was put online following tests in particular. The presentation "
+"therefore follows the list presented even if %(la_liste)s has since evolved."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:80
 msgid "Les fetches"
@@ -1934,6 +1956,14 @@ msgid ""
 "attaquant. Les derniers terrains utilitaires permettent d'accélérer la production de "
 "mana ou de piocher."
 msgstr ""
+"Regarding the mana base, the deck includes a large package of %(snow_covered_island)s"
+" for %(arcums_astrolabe)s and to bluff the presence of %(ascendant_spirit)s. "
+"%(fetches)s allow to find %(mystic_sanctuary)s, central card of the deck by its "
+"ability to recover combo tools. Four tribal lands protect the general by regenerating"
+" him or making him 4/4 thanks to his Changeling ability. %(mishras_factory)s and "
+"%(griffin_canyon)s, if copied enough times, allow %(orvar_the_all_form)s to kill the "
+"opponent while attacking. The last utility lands allow you to speed up mana "
+"production or draw."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:94
 msgid "des contres"
@@ -1947,6 +1977,10 @@ msgid ""
 "deck de rester stable et de faire face à la majorité des menaces du format. "
 "L'utilisation de quelques planeswalkers permet d'être moins dépendant du général."
 msgstr ""
+"The deck is very heavily based on typical mono-blue decks: %(counterspells)s, "
+"%(cantrips)s and classics like %(vedalken_shackles)s. These cards allow the deck to "
+"remain stable and deal with most of the format's threats. Using a few planeswalkers "
+"allows you to be less dependent on the general."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:95
 msgid "de la pioche"
@@ -1960,6 +1994,10 @@ msgid ""
 " pas le général d'un %(removal)s. Enfin, %(spellskite)s permet à la fois de résister "
 "face aux decks agressifs et de protéger le général."
 msgstr ""
+"%(thing_in_the_ice)s returns all non-horror and, thanks to the Changeling, Orvar will"
+" always remain on the battlefield. The card is therefore ideal but will not protect "
+"the general from a %(removal)s. Finally, %(spellskite)s both resist aggressive decks "
+"and protect the general."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:114
 #, python-format
@@ -1970,6 +2008,11 @@ msgid ""
 "combos du deck. %(body_double)s permet de s'assurer d'en récupérer au moins une sur "
 "%(intuition)s ou %(gifts_ungiven)s."
 msgstr ""
+"There is a module of so-called <em>untapper</em> creatures, like %(palinchron)s, "
+"which allow them to be duplicated for less than the mana they generate. These "
+"creatures are quite weak on their own but are necessary for various combos in the "
+"deck. %(body_double)s makes sure to retrieve at least one on %(intuition)s or "
+"%(gifts_ungiven)s."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:123
 #, python-format
@@ -1982,6 +2025,13 @@ msgid ""
 "%(whim_of_volrath)s pour son faible coût, suivi de %(mind_games)s qui peut très bien "
 "être utilisé pour son effet initial."
 msgstr ""
+"The second important module is that of spells with Buyback. These spells are almost "
+"the only ones that create copies with the ability of %(orvar_the_all_form)s. This "
+"makes it possible to keep a coherent structure and not to create too much dependence "
+"on the general. You should not hesitate in some cases to play them on a single land "
+"at the end of the turn to increase the available mana tenfold later. The best is "
+"%(whim_of_volrath)s for its low cost, followed by %(mind_games)s which can be used "
+"very well for its initial effect."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:133
 #, python-format
@@ -1991,10 +2041,14 @@ msgid ""
 " et sa Transmutation. L'objectif de ces cartes est de faciliter l'assemblage des "
 "combos du deck."
 msgstr ""
+"Finally, tutors everywhere and in shambles. From %(spellseeker)s which is a very good"
+" permanent to copy and recopy to %(merchant_scroll)s via %(dizzy_spell)s and its "
+"Transmutation. The purpose of these cards is to make it easier to put together combos"
+" in the deck."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:143
 msgid "Toutes les combos du deck suivent la structure suivante et en sont des dérivées :"
-msgstr ""
+msgstr "ll combos in the deck follow the following structure and are derived from it"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:150
 #, python-format
@@ -2002,14 +2056,16 @@ msgid ""
 "Lancer %(whim_of_volrath)s sur un terrain qui produit du mana bleu et en payant sont "
 "coût de rappel pour 0"
 msgstr ""
+"Cast %(whim_of_volrath)s on a land that produces blue mana and paying its recall cost"
+" for 0"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:155
 msgid "crée une copie du terrain"
-msgstr ""
+msgstr "create a copy of the land"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:156
 msgid "Recommencer l'étape 1"
-msgstr ""
+msgstr "Restart step 1"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:160
 msgid ""
@@ -2017,10 +2073,13 @@ msgid ""
 "<strong>B</strong> + <strong>Orvar</strong>. A permet de créer du mana, B permet de "
 "copie le permanent qui produit du mana. Cela donne :"
 msgstr ""
+"The combo shown above is a <strong>A</strong> + <strong>B</strong> + "
+"<strong>Orvar</strong> structure combo. A creates mana, B copies the permanent that "
+"produces mana. This gives :"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:168
 msgid "Les <em>untappers</em>, certains sous conditions :"
-msgstr ""
+msgstr "<em>Untappers</em>, under specific conditions:"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:173
 msgid "Les <em>buybackers</em> :"
@@ -2036,6 +2095,12 @@ msgid ""
 "astronomique n'importe quel permanent, notamment %(mystic_sanctuary)s pour créer des "
 "boucles avec %(cryptic_command)s et/ou %(mystic_confluence)s et %(cantrips)s."
 msgstr ""
+"After performing this combo, the mana available is very large, as are the creatures "
+"that have been copied to generate mana in the majority of cases. This situation "
+"should be enough to kill the opponent but it is possible to go even further: it is "
+"possible to copy in astronomical quantity any permanent, in particular "
+"%(mystic_sanctuary)s to create loops with %(cryptic_command)s and / or "
+"%(mystic_confluence)s and %(cantrips)s."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:189
 #, python-format
@@ -2043,6 +2108,8 @@ msgid ""
 "Étape 1 : Copie de %(mystic_sanctuary)s, qui remet %(cryptic_command)s sur le dessus "
 "de la bilbiothèque ;"
 msgstr ""
+"Step 1: Copy %(mystic_sanctuary)s, which puts %(cryptic_command)s back on top of the "
+"library;"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:195
 #, python-format
@@ -2050,17 +2117,19 @@ msgid ""
 "Étape 2 : Utilisation %(cantrips)s, et copie %(mystic_sanctuary)s pour le remettre "
 "sur le dessus de la bilbiothèque ;"
 msgstr ""
+"Step 2: Use %(cantrips)s, and copy %(mystic_sanctuary)s to put it back on top of the "
+"library;"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:201
 #, python-format
 msgid ""
 "Étape 3 : Lancement de %(cryptic_command)s avec n'importe quel mode et celui qui fait"
 " piocher ;"
-msgstr ""
+msgstr "Step 3: Cast %(cryptic_command)s with any mode and the one that draws;"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:207
 msgid "Retour à l'étape 1"
-msgstr ""
+msgstr "Back to step 1"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:211
 #, python-format
@@ -2072,6 +2141,12 @@ msgid ""
 "pour les copier autant de fois que nécessaire pour renforcer %(orvar_the_all_form)s "
 "et attaquer avec ce dernier pour tuer l'adversaire."
 msgstr ""
+"By choosing the mode that <em>returns a permanent to its owner's hand</em>, the "
+"opponent no longer has a permanent. It is not yet enough to kill. By replacing "
+"%(cryptic_command)s with %(mystic_confluence)s, it is possible to draw ones library "
+"and find %(mishras_factory)s and %(griffin_canyon)s to copy them as many times as "
+"necessary to strengthen %(orvar_the_all_form)s and attack with the latter to kill the"
+" opponent ."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:221
 msgid ""
@@ -2079,11 +2154,14 @@ msgid ""
 "faut également noter que ce n'est pas la volonté du deck de les assembler à tout prix"
 " dans la forme présentée ci-dessous :"
 msgstr ""
+"The deck allows to play a few additional combos that must be taken up but it should "
+"also be noted that it is not the will of the deck to assemble them at all costs in "
+"the form presented below:"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:229
 #, python-format
 msgid "%(extraplanar_lens)s et %(palinchron)s permet de faire mana infini ;"
-msgstr ""
+msgstr "(extraplanar_lens)s and %(palinchron)s allow infinite mana"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:234
 #, python-format
@@ -2092,6 +2170,9 @@ msgid ""
 "partir en combo réellement au prix de la perte du développement du nombre de terrains"
 " ;"
 msgstr ""
+"%(cryptic_command)s and %(mystic_sanctuary)s allows to slow down the game the time to"
+" really go into a combo at the cost of the loss of the development of the number of "
+"lots;"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:240
 #, python-format
@@ -2099,10 +2180,12 @@ msgid ""
 "%(parallax_tide)s et un <em>buybacker</em> permet d'asphyxier l'adversaire avec Orvar"
 " en jeu."
 msgstr ""
+"%(parallax_tide)s and a <em> buybacker </em> suffocates the opponent with Orvar in "
+"play."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:247
 msgid "Les conseils de Soullessoni"
-msgstr ""
+msgstr "Soullessoni's tips and tricks"
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:249
 msgid ""
@@ -2111,6 +2194,11 @@ msgid ""
 "sacrifier un des deux permanents. Si l'original est sacrifié, le <em>buybacker</em> "
 "va perdre sa cible et être retiré de la pile pour être mis au cimetière."
 msgstr ""
+"The combo does not work with legendary cards! The <em>buybacker</em> spell will "
+"trigger Orvar's ability, the copy token will be created, and one of the two "
+"permanents will have to be sacrificed. If the original is sacrificed, the "
+"<em>buybacker</em> will lose its target and be removed from the stack and put into "
+"the graveyard."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:257
 #, python-format
@@ -2120,6 +2208,9 @@ msgid ""
 "de faire piocher une carte. La seule exception dans la liste est %(thermal_flux)s qui"
 " peut servir de ramp à un mana."
 msgstr ""
+"One-mana cards that target a permanent, usually to tap or untap it, have been "
+"discarded because they usually don't target lands or draw a card. The only exception "
+"in the list is %(thermal_flux)s which can be used as a mana ramp."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:265
 #, python-format
@@ -2128,10 +2219,13 @@ msgid ""
 "ensuite le copier et aller chercher %(merchant_scroll)s, qui trouve %(intuition)s, "
 "qui récupère %(palinchron)s, %(peregrine_drake)s ou %(body_double)s, et hop, combo."
 msgstr ""
+"One strategy with %(spellseeker)s is to fetch a <em>buybacker</em> and then copy it "
+"and fetch %(merchant_scroll)s, which finds %(intuition)s, which gets %(palinchron)s, "
+"%(peregrine_drake)s or %(body_double)s, and presto, combo."
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:274
 msgid "Soullessoni reste disponible pour discuter du deck sur "
-msgstr ""
+msgstr "Soullessoni is available to discuss the deck over "
 
 #: barrins_codex/templates/archetypes/the-gitrog-monster.html:15
 #, python-format
@@ -2197,7 +2291,9 @@ msgid ""
 "joueur, ce joueur exile autant de cartes du dessus de sa bibliothèque. Vous pouvez "
 "jouer les terrains parmi ces cartes tant qu'elles restent exilées"
 msgstr ""
-"Whenever a Vehicle you control deals combat damage to a player, that player exiles that many cards from the top of their library. You may play lands from among those cards for as long as they remain exiled"
+"Whenever a Vehicle you control deals combat damage to a player, that player exiles "
+"that many cards from the top of their library. You may play lands from among those "
+"cards for as long as they remain exiled"
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:29
 msgid ""
@@ -2218,16 +2314,16 @@ msgid ""
 "Le faible prérequis pour le Pilotage est très intéressant et permet de jouer des "
 "créatures utilitaires car elles seront rentabilisées par cette capacité."
 msgstr ""
-"The low prerequisite for the Crew abilmity is very interesting and allows you to play utility "
-"creatures because they will be profitable by this ability."
+"The low prerequisite for the Crew abilmity is very interesting and allows you to play"
+" utility creatures because they will be profitable by this ability."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:47
 msgid ""
 "The Omenkeel donne virtuellement la célérité aux créatures ; en jouer une avant la "
 "phase d'attaque permet d'infliger de plus en plus de dégâts à l'adversaire."
 msgstr ""
-"The Omenkeel virtually gives haste to creatures; Playing one before each attack phase "
-"inflicts more and more damage on the opponent."
+"The Omenkeel virtually gives haste to creatures; Playing one before each attack phase"
+" inflicts more and more damage on the opponent."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:53
 #, python-format
@@ -2239,9 +2335,9 @@ msgid ""
 "partie permet d'assurer un flux constant de cartes."
 msgstr ""
 "When the deck faces an aggressive opponent in the early game and the first turn is "
-"played by the opponent, swapping into %(hakka_whispering_raven)s slows it down and builds "
-"a solid line of attackers. Hakka also allows the deck to advance after an attack if "
-"necessary. Alrund at the end of the game ensures a constant flow of cards."
+"played by the opponent, swapping into %(hakka_whispering_raven)s slows it down and "
+"builds a solid line of attackers. Hakka also allows the deck to advance after an "
+"attack if necessary. Alrund at the end of the game ensures a constant flow of cards."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:64
 #, python-format
@@ -2289,6 +2385,11 @@ msgid ""
 "tempo et les synergies. Ces dernières permettent au  deck de gagner ses parties et de"
 " compenser la restriction liée à l'identité couleur."
 msgstr ""
+"Venser is a tempo deck. That is, a deck that seeks to control the pace of the game. "
+"To do this, the general, %(venser_shaper_savant)s, allows to handle the fourth turn, "
+"critical turn in Duel Commander. The deck revolves around 2 axes: tempo and "
+"synergies. These allow the deck to win its games and compensate for the restriction "
+"on color identity."
 
 #: barrins_codex/templates/archetypes/venser-shaper-savant.html:24
 #, python-format
@@ -2299,6 +2400,10 @@ msgid ""
 "%(vedalken_shackles)s et %(old_man_of_the_sea)s contre aggro et "
 "%(search_for_azcanta)s contre contrôle par exemple."
 msgstr ""
+"To fulfill its tempo role, the deck uses %(contresorts)s, %(bounces)s, cards that "
+"generate <em>Card Advantage</em> and %(tuteurs)s. There are also cards to control and"
+" win certain matches: %(vedalken_shackles)s and %(old_man_of_the_sea)s against aggro "
+"and %(search_for_azcanta)s against control for example."
 
 #: barrins_codex/templates/archetypes/venser-shaper-savant.html:27
 msgid "<em>tuteurs</em>"
@@ -2313,6 +2418,11 @@ msgid ""
 "%(bounces)s. Une autre synergie consiste à allier %(narset_parter_of_veils)s ou "
 "%(hullbreacher)s et un effet comme celui de %(time_spiral)s."
 msgstr ""
+"Synergies in the deck are based on permanents, equipments, or creatures like "
+"%(elder_deep_fiend)s, %(gilded_drake)s, and %(thing_in_the_ice)s. One of the best "
+"cards in the deck is %(parallax_tide)s which is often combined with %(bounces)s. "
+"Another synergy consists in combining %(narset_parter_of_veils)s or %(hullbreacher)s "
+"and an effect like that of %(time_spiral)s."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:14
 #, python-format
@@ -2321,6 +2431,9 @@ msgid ""
 "%(winota_joiner_of_forces)s est sur le champ de bataille. En effet, sa capacité se "
 "déclenche pour chaque créature non-humaine qui est déclarée attaquante."
 msgstr ""
+"This is an aggressive deck that transforms into a combo deck when "
+"%(winota_joiner_of_forces)s is on the battlefield. Indeed, its ability triggers for "
+"each non-human creature that is declared an attacker."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:21
 msgid ""
@@ -2329,6 +2442,10 @@ msgid ""
 "renforcer la puissance du deck et l'expérience de jeu. Maitriser ces synergies permet"
 " d'accéder aisément aux tables hautes lors des tournois."
 msgstr ""
+"Being based on the structure of a classic aggro, the deck is easily taken in hand "
+"despite the presence of several discreet synergies that strengthen the power of the "
+"deck and the playing experience. Mastering these synergies allows easy access to the "
+"tables high during tournaments."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:29
 #, python-format
@@ -2338,6 +2455,10 @@ msgid ""
 "rapidement. Il faut garder en tête que le deck joue des %(hatebear)s qui permettent "
 "de ralentir le développement de l'adversaire."
 msgstr ""
+"The pace of the game should be dictated by this deck. It's up to the creatures of the"
+" deck to apply a lot of pressure (a <em>clock</em>) that allows you to be the "
+"aggressor quickly. Keep in mind that the deck plays %(hatebear)s which slow down the "
+"opponent's development."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:39
 #, python-format
@@ -2346,6 +2467,9 @@ msgid ""
 "%(taxe)s en blanc et les meilleures créatures %(aggro)s en rouge tout en gardant "
 "%(lightning_bolt)s pour des %(blasts)s."
 msgstr ""
+"The <em>Boros</em> color scheme gives access to the best %(taxe)s creatures in white "
+"and the best %(aggro)s creatures in red while keeping %(lightning_bolt)s for "
+"%(blasts)s."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:41
 msgid "agressives"
@@ -2379,7 +2503,6 @@ msgid "Calcul"
 msgstr "Calculation"
 
 #: barrins_codex/templates/articles/_contributors.html:6
-#, fuzzy
 msgid ""
 "Jérémy B. alias Zombie33 est joueur de Magic depuis 2002 où il débute avec les fameux"
 " zombies du bloc Carnage. Il est très impliqué dans la promotion du format Peasant, "
@@ -2394,9 +2517,8 @@ msgstr ""
 "articles are often related to this discipline."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:5
-#, fuzzy
 msgid "Classifier un deck en Duel Commander"
-msgstr "Building a Duel Commander deck"
+msgstr "Classifying a Duel Commander deck"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:7
 msgid ""
@@ -2716,9 +2838,8 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:380
-#, fuzzy
 msgid "Midrange Pur"
-msgstr "Non-Blue Midrange"
+msgstr "Pure Midrange"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:390
 msgid "La qualité intrinsèque des cartes plutôt que les synergies entre elles ;"
@@ -3502,7 +3623,6 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/articles/index.html:10
-#, fuzzy
 msgid "Cette section explore la stratégie de <strong>Magic: the Gathering</strong>."
 msgstr "This section explore the strategy of <strong>Magic: the Gathering</strong>."
 
@@ -3523,7 +3643,6 @@ msgstr ""
 "our %(github)s."
 
 #: barrins_codex/templates/cartes-thematiques/index.html:6
-#, fuzzy
 msgid ""
 "Cette section explore les cartes les plus jouées du format <strong>Duel "
 "Commander</strong> par thème."
@@ -3556,13 +3675,12 @@ msgid "Cartes par fonctionnalité"
 msgstr "Cards by functionality"
 
 #: barrins_codex/templates/cartes-thematiques/index.html:48
-#, fuzzy
 msgid ""
 "Les cartes dans cette catégorie sont répertoriées par fonctionnalité et proposent "
 "donc toutes des méthodes proches pour arriver au même résultat."
 msgstr ""
-"<p>Cards in this category are listed by functionality and therefore all offer similar"
-" methods to achieve the same goal. </p>"
+"Cards in this category are listed by functionality and therefore all offer similar "
+"methods to achieve the same goal."
 
 #: barrins_codex/templates/cartes-thematiques/index.html:60
 msgid "Les cycles de terrains"
@@ -4210,7 +4328,6 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:4
-#, fuzzy
 msgid "La défausse"
 msgstr "Discard"
 
@@ -4272,27 +4389,22 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents.html:5
-#, fuzzy
 msgid "La destruction de permanents"
 msgstr "Destruction of permanents"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-gestion-de-creatures.html:5
-#, fuzzy
 msgid "La gestion de créatures"
 msgstr "Creature Removals"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-protection.html:5
-#, fuzzy
 msgid "La protection"
 msgstr "Protection"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-reanimation-de-creatures.html:5
-#, fuzzy
 msgid "La réanimation de créatures"
 msgstr "Reanimation of Creatures"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:5
-#, fuzzy
 msgid "Le bounce de permanents"
 msgstr "Bounce of permanents"
 
@@ -4370,7 +4482,6 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html:4
-#, fuzzy
 msgid "Le ramp"
 msgstr "Ramp"
 
@@ -4482,12 +4593,10 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-remplacement-de-cartes.html:5
-#, fuzzy
 msgid "Le remplacement de cartes"
 msgstr "Looting"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html:5
-#, fuzzy
 msgid "Les cantrips"
 msgstr "Cantrips"
 
@@ -4552,7 +4661,6 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe.html:5
-#, fuzzy
 msgid "Les cartes de taxe"
 msgstr "Tax Cards"
 
@@ -4601,9 +4709,8 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:43
-#, fuzzy
 msgid "Jouer peu de contresorts"
-msgstr "counterspells"
+msgstr "Playing few counterspells"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html:45
 msgid ""
@@ -4630,12 +4737,10 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives.html:5
-#, fuzzy
 msgid "Les créatures agressives"
 msgstr "Aggressive Creatures"
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html:4
-#, fuzzy
 msgid "Les dégâts directs"
 msgstr "Blasts"
 
@@ -4703,7 +4808,6 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html:4
-#, fuzzy
 msgid "Les grosses créatures"
 msgstr "Big Creatures"
 
@@ -4807,7 +4911,6 @@ msgid ""
 msgstr ""
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html:4
-#, fuzzy
 msgid "Les mana dorks"
 msgstr "Mana Dorks"
 
@@ -5032,3 +5135,4 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
+

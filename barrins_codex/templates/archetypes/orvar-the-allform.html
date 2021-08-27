@@ -20,7 +20,7 @@ TIDoYtb5LUW0gqkbv6MtRg
 	{% endtrans %}
 </p>
 
-<span class=image style='margin:0.3em;float:left;'>card_image("Swarmyard")</span>
+<span class=image style='margin:0.3em;float:left;'>{{ card_image("Swarmyard") }}</span>
 
 <p>
 	<strong>{{ _("Changelin") }}</strong><br>
@@ -44,7 +44,7 @@ TIDoYtb5LUW0gqkbv6MtRg
 	que sur les permanents contrôlés, cela ne fonctionnera pas avec {{ gilded_drake }} car la
 	possession n'est pas prise en compte. Enfin, il est possible de copier n'importe quel
 	permanent, que ce soit une créature, une terrain ou un planeswalker peu importe si la cible du
-	sort est encore en jeu lorsque la capacité d'Orver se résoud.
+	sort est encore en jeu lorsque la capacité d'Orvar se résoud.
 	{% endtrans %}
 </p>
 <p>
@@ -276,11 +276,4 @@ TIDoYtb5LUW0gqkbv6MtRg
 		{{ external("https://discord.gg/qbRZnmrRFz", "Magic Biquette") }}
 	</i>
 </p>
-
-<div class="warning">
-	<h3>{{ _("Ce deck contient des cartes bannies") }}</h3>
-	<ul>
-		<li>{{ gifts_ungiven }} {{ _("a été banni le 26 juillet 2021") }}</li>
-	</ul>
-</div>
 {% endblock %}
