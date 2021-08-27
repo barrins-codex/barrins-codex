@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-27 09:28+0200\n"
+"POT-Creation-Date: 2021-08-27 09:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1656,7 +1656,7 @@ msgstr ""
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:21
 msgid "Les autres nains que vous contrôlez gagnent +1/+0"
-msgstr "Other Dwarves you control get +1/+0."
+msgstr "Other Dwarves you control get +1/+0"
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:22
 msgid ""
@@ -1668,7 +1668,7 @@ msgstr ""
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:29
 msgid "À chaque fois qu'un nain que vous contrôlez devient engagé, créez un jeton Trésor"
-msgstr "Whenever a Dwarf you control becomes tapped, create a Treasure token."
+msgstr "Whenever a Dwarf you control becomes tapped, create a Treasure token"
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:34
 #, python-format
@@ -1686,7 +1686,7 @@ msgid ""
 "dragon, mettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque"
 msgstr ""
 "Sacrifice five Treasures: Search your library for an artifact or Dragon card, put "
-"that card onto the battlefield, then shuffle."
+"that card onto the battlefield, then shuffle"
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:47
 msgid ""
@@ -1696,9 +1696,8 @@ msgid ""
 "le deck car l'aggro est assurée par les nains."
 msgstr ""
 "This ability is what all versions of the deck seek to capitalize on. In short, Magda "
-"allows you to attack, generate mana and find the card you need if necessary. This "
-"can mean that you need a combo in the deck because the aggro is provided by the "
-"dwarves."
+"allows you to attack, generate mana and find the card you need if necessary. This can"
+" mean that you need a combo in the deck because the aggro is provided by the dwarves."
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:59
 msgid ""
@@ -1745,8 +1744,8 @@ msgid ""
 "disponible."
 msgstr ""
 "Some versions of the deck use dragons to capitalize on aggression and damage. In an "
-"environment conducive to Control decks, it can be difficult to finish a "
-"game if no auxiliary tools are available."
+"environment conducive to Control decks, it can be difficult to finish a game if no "
+"auxiliary tools are available."
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:92
 msgid ""
@@ -1827,11 +1826,15 @@ msgstr "%(mogg_fanatic)s is a way to kill the opponent if it takes the place of 
 msgid "Créer une quantité arbitrairement grande de jetons de créatures"
 msgstr "Producing an arbitrary big quantity of tokens"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:88
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:87
+msgid "Infliger des dégâts létaux"
+msgstr "Dealing lethal damage"
+
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:95
 msgid "Mot de la fin"
 msgstr "Closing words"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:90
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:97
 msgid ""
 "La liste et les combo présentés ici peuvent ne pas être la version finale du deck. En"
 " effet, la liste a été postée moins d'une semaine après la sortie officielle de "
@@ -2138,6 +2141,10 @@ msgid ""
 "l'utilisation d'un squelette comboisant en fait un des rares decks réellement <em"
 ">Contrôle-Combo</em> en Duel Commander."
 msgstr ""
+"%(the_gitrog_monster)s is a deck created in order to make maximum use of land "
+"interactions. The ease of access to control spells and the use of a combo-ish "
+"skeleton make this one of the few truly <em>Control-Combo</em> decks in Duel "
+"Commander."
 
 #: barrins_codex/templates/archetypes/the-gitrog-monster.html:22
 #, python-format
@@ -2147,6 +2154,10 @@ msgid ""
 "%(the_gitrog_monster)s faisant piocher. C'est cette pioche qui permet d'assembler les"
 " différentes combos du deck et d'avoir accès aux outils de gestion."
 msgstr ""
+"Using lands to take advantage of %(the_gitrog_monster)s ability to draw means putting"
+" them into play from the library or thegraveyard and sacrificing them. It is this "
+"draw that allows to assemble the different combos of the deck and to have access to "
+"the removals."
 
 #: barrins_codex/templates/archetypes/the-gitrog-monster.html:30
 #, python-format
@@ -2159,8 +2170,17 @@ msgid ""
 "est possible de garantir une boucle qui génère une quantité mathématiquement élevée "
 "<em>à condition de tuer %(the_gitrog_monster)s avant de vider la bibliothèque</em>. "
 "L'ajout de %(collective_brutality)s ou de cartes similaires permet de transformer la "
-"boucle précedente en moyen de tuer l'adversaire."
+"boucle précédente en moyen de tuer l'adversaire."
 msgstr ""
+"The deck is based on the interaction between %(splendid_reclamation)s and "
+"%(seasons_past)s. These two cards allow lands to go back and forth between "
+"battlefield and graveyard, providing a significant amount of cards in your hand. By "
+"adding a way to sacrifice lands, a way to generate mana, and a way to get "
+"%(seasons_past)s back from the deck, it is possible to guarantee a loop that "
+"generates a mathematically high amount of mana <em>provided you kill "
+"%(the_gitrog_monster)s before emptying the library</em>. Adding "
+"%(collective_brutality)s or similar cards turns the previous loop into a way to kill "
+"the opponent."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:15
 #, python-format
@@ -2168,6 +2188,8 @@ msgid ""
 "%(the_omenkeel)s est la face verso d'une carte double face modale publiée dans "
 "Kaldheim. Il s'agit d'un véhicule dont les capacités sont :"
 msgstr ""
+"%(the_omenkeel)s is the reverse side of a modal double-face card published in "
+"Kaldheim. It is a vehicle whose capacities are:"
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:23
 msgid ""
@@ -2175,6 +2197,7 @@ msgid ""
 "joueur, ce joueur exile autant de cartes du dessus de sa bibliothèque. Vous pouvez "
 "jouer les terrains parmi ces cartes tant qu'elles restent exilées"
 msgstr ""
+"Whenever a Vehicle you control deals combat damage to a player, that player exiles that many cards from the top of their library. You may play lands from among those cards for as long as they remain exiled"
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:29
 msgid ""
@@ -2182,22 +2205,29 @@ msgid ""
 "permet de jouer un nombre de terrains suffisamment faible pour continuer à jouer des "
 "terrains depuis les cartes exilées."
 msgstr ""
+"Having a 3/3 for two mana is already interesting in mono-blue. This ability allows "
+"you to play a small enough number of lands to continue playing lands from the exiled "
+"cards."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:36
 msgid "Pilotage"
-msgstr ""
+msgstr "Crew"
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:37
 msgid ""
 "Le faible prérequis pour le Pilotage est très intéressant et permet de jouer des "
 "créatures utilitaires car elles seront rentabilisées par cette capacité."
 msgstr ""
+"The low prerequisite for the Crew abilmity is very interesting and allows you to play utility "
+"creatures because they will be profitable by this ability."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:47
 msgid ""
 "The Omenkeel donne virtuellement la célérité aux créatures ; en jouer une avant la "
 "phase d'attaque permet d'infliger de plus en plus de dégâts à l'adversaire."
 msgstr ""
+"The Omenkeel virtually gives haste to creatures; Playing one before each attack phase "
+"inflicts more and more damage on the opponent."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:53
 #, python-format
@@ -2208,6 +2238,10 @@ msgid ""
 "également de faire avancer le deck après une attaque si nécessaire. Alrund en fin de "
 "partie permet d'assurer un flux constant de cartes."
 msgstr ""
+"When the deck faces an aggressive opponent in the early game and the first turn is "
+"played by the opponent, swapping into %(hakka_whispering_raven)s slows it down and builds "
+"a solid line of attackers. Hakka also allows the deck to advance after an attack if "
+"necessary. Alrund at the end of the game ensures a constant flow of cards."
 
 #: barrins_codex/templates/archetypes/the-omenkeel.html:64
 #, python-format
@@ -2215,6 +2249,8 @@ msgid ""
 "Le plan de jeu est partagé par d'autres généraux : %(kira_great_glass_spinner)s, "
 "%(vendilion_clique)s et d'autres decks mono-bleu basés sur les créatures."
 msgstr ""
+"The game plan is shared by other commanders: %(kira_great_glass_spinner)s, "
+"%(vendilion_clique)s and other mono-blue decks based on creatures."
 
 #: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:15
 #, python-format
@@ -4996,17 +5032,3 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
-
-#~ msgid "Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "À chaque fois qu'un nain que vous contrôlez devient engagé,\n"
-#~ "\t\t\tcréez un jeton Trésor"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Sacrifiez cinq trésors :\n"
-#~ "\t\t\tCherchez dans votre bibliothèque une carte d'artefact ou de dragon,\n"
-#~ "\t\t\tmettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque"
-#~ msgstr ""
