@@ -12,6 +12,13 @@
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
+
+<!-- Archetypes -->
+<url>
+  <loc>https://barrins-codex.org/fr/archetypes/index.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://barrins-codex.org/fr/archetypes/adeliz-the-cinder-wind.html</loc>
   <lastmod>2021-08-10T00:00:00+00:00</lastmod>
@@ -133,13 +140,6 @@
   <priority>0.64</priority>
 </url>
 
-<!-- Archetypes -->
-<url>
-  <loc>https://barrins-codex.org/fr/archetypes/index.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
 <!-- Articles -->
 <url>
   <loc>https://barrins-codex.org/fr/articles/index.html</loc>
@@ -148,31 +148,10 @@
 </url>
 <!-- Classifier un deck -->
 <url>
-  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/index.html</loc>
+  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/les-macrotypes.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/les-archetypes.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/les-tiers.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/articles/classifier-un-deck/pour-aller-plus-loin.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<!-- articles "spot" -->
 <url>
   <loc>https://barrins-codex.org/fr/articles/construire-un-deck.html</loc>
   <lastmod>2021-02-07T00:00:00+00:00</lastmod>
@@ -188,37 +167,12 @@
 </url>
 <!-- Mécaniques -->
 <url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html</loc>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/la-destruction-de-permanents.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -228,22 +182,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/la-protection.html</loc>
-  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -253,12 +192,52 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/le-ramp.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/le-remplacement-de-cartes.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-cantrips.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-cartes-de-taxe.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-contresorts.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-creatures-agressives.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-grosses-creatures.html</loc>
+  <lastmod>2021-02-02T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/cartes-thematiques/mecaniques-de-la-colorpie/les-mana-dorks.html</loc>
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
