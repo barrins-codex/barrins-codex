@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-27 09:08+0200\n"
+"POT-Creation-Date: 2021-08-27 09:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1601,6 +1601,11 @@ msgstr "Available creatures are:"
 msgid "Les auras sont "
 msgstr "Auras are "
 
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:40
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:170
+msgid "et"
+msgstr "and"
+
 #: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:48
 #, python-format
 msgid ""
@@ -1646,54 +1651,66 @@ msgid ""
 "%(magda_brazen_outlaw)s est est créature légendaire publiée dans Kaldheim. Elle coûte"
 " deux manas et ses capacités permettent de développer plusieurs stratégies :"
 msgstr ""
+"%(magda_brazen_outlaw)s is legendary creature published in Kaldheim. It costs two "
+"manas and its abilities allow you to develop several strategies:"
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:21
 msgid "Les autres nains que vous contrôlez gagnent +1/+0"
-msgstr ""
+msgstr "Other Dwarves you control get +1/+0."
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:22
 msgid ""
 "Jouer des nains permet de stabiliser un plan de jeu agressif et d'infliger des dégâts"
 " qui pourraient mettre fin à la partie rapidement."
 msgstr ""
+"Playing dwarves stabilizes an aggressive game plan and deals damage that could end "
+"the game quickly."
 
 #: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:29
-msgid ""
-"À chaque fois qu'un nain que vous contrôlez devient engagé,\n"
-"\t\t\tcréez un jeton Trésor"
-msgstr ""
+msgid "À chaque fois qu'un nain que vous contrôlez devient engagé, créez un jeton Trésor"
+msgstr "Whenever a Dwarf you control becomes tapped, create a Treasure token."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:32
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:34
 #, python-format
 msgid ""
 "Cette compétence permet de synergiser avec le plan ci-dessus et même peut-être en "
 "créer un en réhabilitant une stratégie datant de Amonkhet : "
 "%(throne_of_the_god_pharaoh)s."
 msgstr ""
+"This ability allows you to synergize with the above plan and maybe even create one by"
+" rehabilitating a strategy dating from Amonkhet: %(throne_of_the_god_pharaoh)s."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:39
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:41
 msgid ""
-"Sacrifiez cinq trésors :\n"
-"\t\t\tCherchez dans votre bibliothèque une carte d'artefact ou de dragon,\n"
-"\t\t\tmettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque"
+"Sacrifiez cinq trésors : Cherchez dans votre bibliothèque une carte d'artefact ou de "
+"dragon, mettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque"
 msgstr ""
+"Sacrifice five Treasures: Search your library for an artifact or Dragon card, put "
+"that card onto the battlefield, then shuffle."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:43
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:47
 msgid ""
 "Cette capacité est celle sur laquelle toutes les versions du deck cherchent à "
 "capitaliser. Pour résumer, Magda permet d'attaquer, de générer du mana et de trouver "
 "la carte qu'il faut si nécessaire. Cela peut vouloir dire qu'il faut une combo dans "
 "le deck car l'aggro est assurée par les nains."
 msgstr ""
+"This ability is what all versions of the deck seek to capitalize on. In short, Magda "
+"allows you to attack, generate mana and find the card you need if necessary. This "
+"can mean that you need a combo in the deck because the aggro is provided by the "
+"dwarves."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:55
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:59
 msgid ""
 "Pour se passer de la dépendance à une phase d'attaque, le deck joue des véhicules "
 "pour engager les créatures quand cela est nécessaire. Une fois animé, un véhicule "
 "peut se piloter lui-même pour profiter au mieux du Trône."
 msgstr ""
+"To dispense with addiction to an attack phase, the deck plays vehicles to engage "
+"creatures when necessary. Once animated, a vehicle can steer itself to get the most "
+"out of the Throne."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:62
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:66
 #, python-format
 msgid ""
 "La combo du deck passe par la génération de jetons Trésor en utilisant "
@@ -1701,8 +1718,12 @@ msgid ""
 "artefact. L'ajout de %(grinding_station)s permet de meuler l'adversaire ou d'être "
 "engagée à la place des jetons Trésor s'il y a besoin de mana."
 msgstr ""
+"The combo of the deck involves generating Treasure tokens using %(clock_of_omens)s "
+"and an artifact dwarf or magda that has gained the artifact type. Adding "
+"%(grinding_station)s allows you to grind the opponent or be tapped instead of "
+"Treasure tokens if there is a need for mana."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:70
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:74
 #, python-format
 msgid ""
 "Les recruteurs (%(dwarven_recruiter)s et %(imperial_recruiter)s) peuvent trouver des "
@@ -1711,21 +1732,31 @@ msgid ""
 "L'Imperial peut également trouver %(reckless_fireweaver)s pour synergiser avec les "
 "différentes stratégies."
 msgstr ""
+"Recruiters (%(dwarven_recruiter)s and %(imperial_recruiter)s) can find dwarves as "
+"needed: %(torbran_thane_of_red_fell)s for more aggressiveness, an artifact dwarf for "
+"combo or %(dwarvent_bloodboiler)s to tap dwarves. Imperial Recruiter can also find "
+"%(reckless_fireweaver)s to synergize with the different strategies."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:81
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:85
 msgid ""
 "Certaines versions du deck utilisent des dragons pour capitaliser sur l'agressivité "
 "et les dégâts. Dans un environnement propice aux decks du macrotype Contrôle, cela "
 "peut s'avérer difficile de finir une partie si aucun outil auxiliaire n'est "
 "disponible."
 msgstr ""
+"Some versions of the deck use dragons to capitalize on aggression and damage. In an "
+"environment conducive to Control decks, it can be difficult to finish a "
+"game if no auxiliary tools are available."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:88
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:92
 msgid ""
 "Il existe également des versions encore plus focalisées sur l'aspect combo. C'est "
 "principalement le cas des decks Commander pour lesquels la stratégie aggro semble "
 "hors de propos au vu du nombre de points de vie à réduire."
 msgstr ""
+"There are also versions that are even more focused on the combo aspect. This is "
+"mainly the case with Commander decks for which the aggro strategy seems irrelevant "
+"given the number of life points to be reduced."
 
 #: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:15
 #, python-format
@@ -1986,10 +2017,6 @@ msgstr ""
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:168
 msgid "Les <em>untappers</em>, certains sous conditions :"
-msgstr ""
-
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:170
-msgid "et"
 msgstr ""
 
 #: barrins_codex/templates/archetypes/orvar-the-allform.html:173
@@ -4973,3 +5000,13 @@ msgstr "Final results:"
 #~ msgid "Une créature qui génère {{ U }} et {{ G }} et une aura qui la dégage"
 #~ msgstr ""
 
+#~ msgid ""
+#~ "À chaque fois qu'un nain que vous contrôlez devient engagé,\n"
+#~ "\t\t\tcréez un jeton Trésor"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sacrifiez cinq trésors :\n"
+#~ "\t\t\tCherchez dans votre bibliothèque une carte d'artefact ou de dragon,\n"
+#~ "\t\t\tmettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque"
+#~ msgstr ""
