@@ -4,7 +4,7 @@ Changelog
 5.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Section Archétypes complètement traduite
 
 
 5.0.2 (2021-08-26)
