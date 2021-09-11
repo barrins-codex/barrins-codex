@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-27 10:35+0200\n"
+"POT-Creation-Date: 2021-09-11 23:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -495,6 +495,9 @@ msgid ""
 "%(jenara_asura_of_war)s. Cependant, les choix de créatures varient à cause du coût en"
 " mana du commandant et des synergies éventuelles."
 msgstr ""
+"The structure of this deck is common to many tempo decks like "
+"%(jenara_asura_of_war)s. However, creature choices vary due to the commander's mana "
+"cost and possible synergies."
 
 #: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:15
 #, python-format
@@ -2529,26 +2532,36 @@ msgid ""
 "leurs startégies permet de mieux les étudier. Par conséquent, <strong>comment classer"
 " un deck en Duel Commander ?</strong>"
 msgstr ""
+"In the first sense, the <em>metagame</em> is the study of the different strategies "
+"that a game allows. Having a global view of the possible strategies and their "
+"effectiveness in relation to each other is a crucial point to progress and improve "
+"your style of play. Wanting to group the different decks according to their common "
+"points or their strategy allows them to be better studied. Therefore, <strong>how to "
+"classify a deck in Duel Commander?</strong>"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:16
 msgid "Deux méthodes s'opposent :"
-msgstr ""
+msgstr "Two methods are opposed:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:20
 msgid ""
 "L'approche en <strong>macrotype</strong> qui rassemble le maximum de decks dont le "
 "plan de jeu est similaire dans un minimum de groupes ;"
 msgstr ""
+"The <strong>macrotype</strong> approach which brings together the maximum number of "
+"decks with a similar game plan in a minimum of groups;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:26
 msgid ""
 "L'approche par <strong>archétype</strong> qui rassemble des decks similaires en terme"
 " de cartes jouées."
 msgstr ""
+"The <strong>archetype</strong> approach which brings together similar decks in terms "
+"of cards played."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:33
 msgid "La Classification en macrotypes"
-msgstr ""
+msgstr "Classification in macrotypes"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:35
 #, python-format
@@ -2558,6 +2571,10 @@ msgid ""
 "Contrôle > Combo de Patrick Chapin et détaille le comportement des différentes "
 "stratégies qui existaient sous l'appelation <em>Contrôle</em> de P. Chapin."
 msgstr ""
+"The classification is acclaimed by Mike Mason in his article %(watching_the_clock)s. "
+"It is based on the traditional Aggro > Control > Combo classification of Patrick "
+"Chapin and details the behavior of the different strategies that existed under the "
+"name <em>Control</em> by P. Chapin."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:45
 msgid ""
@@ -2565,6 +2582,8 @@ msgid ""
 "Les différents <em>archétypes</em> trouvent tous une place dans les macrotypes "
 "suivants."
 msgstr ""
+"Here is a quick overview of the different macrotypes developed by Mike Mason. The "
+"different <em>archetypes</em> all find a place in the following macrotypes."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:53
 msgid ""
@@ -2572,6 +2591,8 @@ msgid ""
 "vie le plus rapidement possible en jouant des créatures ou des sorts de dégâts "
 "directs."
 msgstr ""
+"Aggressive deck whose main objective is to bring the opponent to zero life points as "
+"quickly as possible by playing creatures or direct damage spells."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:60
 msgid ""
@@ -2579,18 +2600,24 @@ msgid ""
 "les protéger suffisamment longtemps, le plus souvent à l'aide de contresorts, pour "
 "gagner."
 msgstr ""
+"Deck whose strategy is to quickly pose one or more threats and then protect them long"
+" enough, usually with counterspells, to win."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:67
 msgid ""
 "Deck dont l'objectif est de ralentir le déroulement de la partie afin d'installer une"
 " guerre d'attrition basée essentiellement sur du <em>Card Advantage</em>."
 msgstr ""
+"Deck whose objective is to slow down the progress of the game in order to set up a "
+"war of attrition based mainly on <em>Card Advantage</em>."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:74
 msgid ""
 "Deck ayant un plan de jeu proche de Contrôle mais qui va ensuite poser des créatures "
 "dont les forces et endurances sont supérieures aux créatures jouées par Aggro."
 msgstr ""
+"Deck having a game plan close to Control but which will then play creatures whose "
+"strength and toughness are greater than the creatures played by Aggro."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:81
 msgid ""
@@ -2598,41 +2625,51 @@ msgid ""
 "<em>combinaison</em>) qui permet de gagner la partie instantanément ou qui mène à un "
 "très fort avantage quasi- synonyme de victoire."
 msgstr ""
+"Deck based on a strong interaction between two or more cards (a <em>combination</em>)"
+" which makes it possible to win the game instantly or which leads to a very strong "
+"advantage almost synonymous with victory."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:92
 msgid "La Classification en archetypes"
-msgstr ""
+msgstr "Classification in archetypes"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:94
 msgid ""
 "La classification en archétype permet d'affiner la classification en macrotypes en "
 "utilisant la tactique comme un élément de comparaison."
 msgstr ""
+"The classification in archetypes allows to refine the classification into macrotypes "
+"by using tactics as an element of comparison."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:100
 msgid "Voici les principaux archétypes :"
-msgstr ""
+msgstr "Here are the main archetypes:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:112
+#: barrins_codex/templates/articles/classifier-un-deck.html:153
 #: barrins_codex/templates/articles/classifier-un-deck.html:203
 msgid "Catégorie de deck Aggro qui se caractérise par :"
-msgstr ""
+msgstr "Aggro deck category characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:116
 msgid "Gagne par l'accumulation de petites créatures ;"
-msgstr ""
+msgstr "Wins by accumulating small creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:119
 msgid ""
 "Gagne généralement le combat en débordant l'adversaire avec les créatures plutôt "
 "qu'en essayant de tuer les créatures adverses ;"
 msgstr ""
+"Usually wins the fight by outflanking the opponent with the creatures rather than "
+"trying to kill the opposing creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:122
 msgid ""
 "Gagne en misant sur l'accumulation de créatures sans synergie particulière entre "
 "elles (en partageant un type par exemple)."
 msgstr ""
+"Win by betting on the accumulation of creatures without particular synergy between "
+"them (by sharing a type for example)."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:126
 #, python-format
@@ -2644,6 +2681,11 @@ msgid ""
 " decks Swarm : la volonté principale reste d'envahir le champ de bataille (avec "
 "l'aide de %(aether_vial)s en Modern et en Legacy)."
 msgstr ""
+"The main representatives of this category are the <em>Weenie White</em> decks. In "
+"Eternal Formats, such as Modern or Legacy, these creatures are chosen to hinder or "
+"even thwart opposing development (these creatures are called <em>hatebears</em>). "
+"This is not, however, a general characteristic of Swarm decks: the main will remains "
+"to invade the battlefield (with the help of %(aether_vial)s in Modern and Legacy)."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:136
 msgid ""
@@ -2652,28 +2694,32 @@ msgid ""
 " le deck rentrera alors dans la catégorie Créature-Combo. Ces decks sont présentés "
 "plus tard et sont en général moins agressifs."
 msgstr ""
-
-#: barrins_codex/templates/articles/classifier-un-deck.html:153
-msgid "Catégorie de deck Aggro se caractérisant par :"
-msgstr ""
+"If the accumulation of creatures on the battlefield is the result of a combo or if "
+"this accumulation is likely to snowball due to interactions or combos, the deck will "
+"then fall into the Creature-Combo category. These decks are introduced later and are "
+"generally less aggressive."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:157
 msgid ""
 "Une courbe plus basse qui permet au deck de prendre l'ascendant sur l'adversaire dans"
 " les premiers tours ;"
 msgstr ""
+"A lower curve that allows the deck to gain the upper hand over the opponent in the "
+"early rounds;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:163
 msgid ""
 "La possibilité de clore une partie avec des sorts de dégâts directs (des "
 "<em>blasts</em>) ;"
-msgstr ""
+msgstr "The ability to end a game with direct damage spells (<em>blasts</em>);"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:169
 msgid ""
 "Le besoin de se débarraser des bloqueurs adverses à l'aide des blasts se trouve en "
 "directe opposition avec la possiblité de cibler directement l'adversaire"
 msgstr ""
+"The need to get rid of opponent's blockers using blasts is in direct opposition to "
+"the possibility of directly targeting the opponent."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:176
 #, python-format
@@ -2685,6 +2731,12 @@ msgid ""
 "blasts. Les decks de cette catégorie font partie de ces decks plutôt simples à "
 "construire et relativement efficaces dans la plupart des formats."
 msgstr ""
+"Although the archetype is called Red Aggro, the red color is absolutely not a "
+"necessity to fall into this category. The <em>Mono Green Stompy</em> decks are also a"
+" good example because boosts, like %(giant_growth)s, targeting creatures with evasion"
+" abilities or blocked creatures replace the role of blasts. The decks in this "
+"category are among those decks that are fairly easy to build and relatively effective"
+" in most formats."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:186
 msgid ""
@@ -2694,16 +2746,22 @@ msgid ""
 "notablement des decks Gobelins par leur absence ou quasi-absence de synergies "
 "\"tribales\"."
 msgstr ""
+"Depending on the ratio of direct damage spells to creature spells in the deck, the "
+"deck name changes: RDW / Sligh / Burn (see Lava Spike category for the latter). Often"
+" confused, RDW decks are nevertheless notably distinguished from Goblin decks by "
+"their absence or near absence of \"tribal \" synergies."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:207
 msgid ""
 "Les cartes sont exclusivement basées sur un thème commun, les créatures ont "
 "généralement le même type ;"
 msgstr ""
+"The cards are exclusively based on a common theme, the creatures are generally the "
+"same type;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:213
 msgid "Le deck utilise des synergies entre les cartes liées à ce thème commun."
-msgstr ""
+msgstr "The deck uses synergies between cards related to this common theme."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:219
 msgid ""
@@ -2714,6 +2772,11 @@ msgid ""
 "Linéaire, en effet <em>Faeries</em> est par exemple un deck Tempo et <em>Elfball</em>"
 " un deck Storm Combo."
 msgstr ""
+"Many Linear Aggro decks are tribal decks, the common theme being a creature type, but"
+" that is not a generality. We also find the <em>Affinity</em> and <em>Tempered "
+"Steel</em> decks in this category whose common theme here is \"Artefact\". In "
+"addition, not all tribal decks are Linear Aggro, indeed <em>Faeries</em> is for "
+"example a Tempo deck and <em>Elfball</em> a Storm Combo deck."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:229
 #, python-format
@@ -2723,6 +2786,9 @@ msgid ""
 "soit présente en limité. Le premier archétype à rentrer dans cette catégorie fut le "
 "%(rebel_1999_block_deck)s"
 msgstr ""
+"Linear Aggro decks are extremely popular in all formats and all recent Magic "
+"expansions are designed to have this category of deck present in limited. The first "
+"archetype to fall into this category was the %(rebel_1999_block_deck)s"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:239
 #, python-format
@@ -2732,34 +2798,47 @@ msgid ""
 "par l'ajout de %(cavern_of_souls)s et %(champion_of_the_parish)s qui intégrait "
 "parfaitement à ce deck tribal."
 msgstr ""
+"Sometimes it doesn't take much for a deck to fit into this category. This is for "
+"example the case of the standard deck %(rick_stout_uw_human)s which distinguished "
+"itself from other UW lists by the addition of %(cavern_of_souls)s and "
+"%(champion_of_the_parish)s which integrated perfectly into this tribal deck."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:258
 msgid ""
-"Catégorie de deck Aggro (appelée <em>Fish</em> par Patrick Chapin) et se "
-"caractérisant par :"
-msgstr ""
+"Catégorie de deck Aggro (appelée <em>Fish</em> par Patrick Chapin) et qui se "
+"caractérise par :"
+msgstr "Aggro deck category (called <em>Fish</em> by Patrick Chapin) characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:265
 msgid ""
 "Des accélérateurs de mana en vue de poser le plus vite possible des créatures pour "
 "mettre la pression sur l'adversaire ;"
 msgstr ""
+"Mana ramp in order to land creatures as quickly as possible to put pressure on the "
+"opponent;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:271
 msgid ""
 "Des sorts de gestions qui empêchent l'adversaire de répondre aux menaces posées dans "
 "les premiers tours."
 msgstr ""
+"Removal spells that prevent the opponent from responding to threats posed in the "
+"first rounds."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:278
 msgid ""
 "L'appellation Suicide vient du fait que le deck à tendance à jouer des cartes qui "
 "vont l'affecter de manière néfaste. Certaines cartes peuvent nécessiter, par exemple,"
 " une perte de point de vie, un sacrifice de permanent ou encore de faire du <em>Card "
-"Disadvantage</em> (CD), comme les accélérateurs de mana éphémères extrêmement courant"
-" dans ces decks. Un des premiers deck de cette catégorie fut le deck Extended "
+"Disadvantage</em>, comme les accélérateurs de mana éphémères extrêmement courant dans"
+" ces decks. Un des premiers deck de cette catégorie fut le deck Extended "
 "<strong>Black Suicide</strong> de Brian Schneider (1999)."
 msgstr ""
+"The name Suicide comes from the fact that the deck tends to play cards that will "
+"adversely affect it. Some cards may require, for example, a loss of life, a permanent"
+" sacrifice, or even <em>Card Disadvantage</em>, like the ephemeral mana accelerators "
+"extremely common in these decks. One of the first decks in this category was the "
+"Extended <strong> Black Suicide </strong> deck by Brian Schneider (1999)."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:288
 #, python-format
@@ -2770,6 +2849,11 @@ msgid ""
 " qui va empêcher le développement adverse. Le deck mise sur cette impulsion qu'il "
 "aura mis sur le début de partie et pour laquelle il a dû faire énormément de CD."
 msgstr ""
+"We also classify in this category the deck <em>Dragon Stompy</em> in which there is "
+"the need for mana in the first turns via %(simian_spirit_guide)s, %(chrome_mox)s and "
+"%(ancient_tomb)s to set up a quick lethal and a card that will prevent opposing "
+"development. The deck builds on this impulse that it will have put on the beginning "
+"of the game and for which it had to make a lot of CDs."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:306
 msgid ""
@@ -2779,12 +2863,18 @@ msgid ""
 " à l'aide de sorts peu cher. On parle aussi de <em>Disruptive Aggro</em> pour "
 "désigner cette famille de deck."
 msgstr ""
+"Aggro-Control deck category, sometimes equated with Aggro decks and sometimes seen as"
+" a full-fledged macrotype. Tempo decks base their strategy on always wanting to "
+"maintain a better tempo than the opponent's by using inexpensive spells. We also "
+"speak of <em>Disruptive Aggro</em> to designate this family of decks."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:315
 msgid ""
 "Les decks Tempo sont connus pour jouer le rôle de l’agresseur contre Contrôle et le "
 "rôle du défenseur contre Aggro."
 msgstr ""
+"Tempo decks are known to play the role of aggressor against Control and the role of "
+"defender against Aggro."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:321
 msgid ""
@@ -2794,24 +2884,29 @@ msgid ""
 "Malgré cela, des decks reconnus comme étant les meilleurs decks de leur format "
 "appartiennent à cette catégorie."
 msgstr ""
+"The main weaknesses of Tempo decks are that they do not produce <em>Card "
+"Advantage</em> and their strategy wears out in the long run. In addition, if they "
+"lose their advantage, it is difficult for them to regain control over the game. "
+"Despite this, decks recognized as being the best decks in their format fall into this"
+" category."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:339
 #: barrins_codex/templates/articles/classifier-un-deck.html:386
 #: barrins_codex/templates/articles/classifier-un-deck.html:428
 msgid "Catégorie de deck Midrange qui se caractérise par :"
-msgstr ""
+msgstr "Midrange deck category characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:343
 msgid "Des créatures généralement un peu plus grosses qu'Aggro classique ;"
-msgstr ""
+msgstr "Creatures generally a little bigger than classic Aggro;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:346
 msgid "De l'accélération de mana et de la disruption ;"
-msgstr ""
+msgstr "Mana accelerators and disruption;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:349
 msgid "Du vert pour les créatures et du noir pour la défausse et les removals."
-msgstr ""
+msgstr "Green for creatures and black for discard and removals."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:353
 #, python-format
@@ -2822,6 +2917,10 @@ msgid ""
 "écureuils crées par %(deranged_hermit)s. On peut distinguer principalement deux types"
 " de decks Rock :"
 msgstr ""
+"This deck category comes from a deck named by wrestling fan Malka: \"The Rock and His"
+" Millions\" where \"The Rock\" in homage to Dwayne The Rock Johnson matched the "
+"%(phyrexian_plaguelord)s card and \"His Millions\"matched the squirrels created by "
+"%(deranged_hermit)s. There are two types of Rock decks:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:362
 msgid ""
@@ -2829,6 +2928,9 @@ msgid ""
 "Advantage</em> progressif. Ces decks essentiellement B/G ont tendance à jouer le rôle"
 " du Contrôle même contre d'autres decks Contrôle ;"
 msgstr ""
+"More Control oriented decks that focus more on a progressive <em>Card Advantage</em>."
+" These predominantly B/G decks tend to act as Control even against other Control "
+"decks;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:369
 msgid ""
@@ -2836,6 +2938,8 @@ msgid ""
 "créatures que sur le Card Advantage. Ces decks correspondent essentiellement aux "
 "decks Junk (Abzan W/B/G)."
 msgstr ""
+"More Aggro Rock decks that focus more on the strength of its creatures than the Card "
+"Advantage. These decks essentially correspond to the Junk (Abzan W/B/G) decks."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:380
 msgid "Midrange Pur"
@@ -2843,15 +2947,15 @@ msgstr "Pure Midrange"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:390
 msgid "La qualité intrinsèque des cartes plutôt que les synergies entre elles ;"
-msgstr ""
+msgstr "The intrinsic quality of the cards rather than the synergies between them;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:393
 msgid "Des créatures polyvalentes et des <em>removals</em> peu cher ;"
-msgstr ""
+msgstr "Versatile creatures and inexpensive <em>removals</em>;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:396
 msgid "La possibilité de s'adapter à n'importe quel environnement."
-msgstr ""
+msgstr "The ability to adapt to any environment."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:400
 msgid ""
@@ -2861,6 +2965,10 @@ msgid ""
 " bien souvent ces decks à jouer tricolore, voire quadricolore si la base de mana le "
 "permet."
 msgstr ""
+"Pure Midrange decks are sometimes referred to as <em>Good Stuff</em> because they "
+"tend to incorporate the best spells in the format, the cheapest removals, and the "
+"best creatures for each converted mana cost. This configuration often forces these "
+"decks to play tricolor, even quadricolor if the mana base allows it."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:408
 msgid ""
@@ -2873,16 +2981,24 @@ msgid ""
 "moins un sort unfair tel que de la destruction massive de terrain, il peut faire "
 "d'excellent résultats."
 msgstr ""
+"Pure Midrange decks are relatively easy and quick decks to build once the best cards "
+"available in a format are identified. They are therefore very regularly part of the "
+"first decks to appear, notably with Linear Aggro and Red Aggro. These decks also tend"
+" to be bad against <em>unfair</em> decks and excellent against <em>fair</em> decks. "
+"That's why in a resolute format, when a Midrange deck is able to incorporate at least"
+" one unfair spell such as massive land destruction, it can do great results."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:432
 msgid "De la gestion presque totalement dirigée contre les créatures adverses ;"
-msgstr ""
+msgstr "Removals almost totally directed against creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:435
 msgid ""
 "La présence d'un <em>moteur de pioche</em> (ou de <em>Card Advantage</em>) quelconque"
 " dont le deck est assez dépendant."
 msgstr ""
+"The presence of any <em>draw engine</em> (or <em>Card Advantage</em>) on which the "
+"deck is quite dependent."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:442
 #, python-format
@@ -2894,11 +3010,16 @@ msgid ""
 " decks Bloc %(mono_black_control)s de 2002 et %(astral_slide)s de 2003 font partie "
 "des permiers decks de cette catégorie."
 msgstr ""
+"Although the majority of decks in this category do not use blue mana, it is not a "
+"requirement to be in this category. Non-Blue decks are generally rare in eternal "
+"formats (or even absent from Legacy and Vintage) because they are generally not "
+"versatile enough to impose themselves. The Block decks %(mono_black_control)s from "
+"2002 and %(astral_slide)s from 2003 are among the first decks in this category."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:457
 #, python-format
 msgid "Le cas de %(life_from_the_loam)s"
-msgstr ""
+msgstr "%(life_from_the_loam)s's case"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:462
 #, python-format
@@ -2909,6 +3030,11 @@ msgid ""
 "deck Midrange Non-Bleu, %(life_from_the_loam)s jouant ici le rôle du moteur de CA "
 "dont le deck est assez dépendant."
 msgstr ""
+"This category allows us to address the case of %(life_from_the_loam)s present in "
+"decks belonging to various categories. One of these decks, the Aggro Loam version of "
+"the Extended that is also found in Modern, precisely meets the criteria of the "
+"Midrange Non-Blue deck, %(life_from_the_loam)s here playing the role of the CA engine"
+" whose deck is quite dependent."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:481
 #: barrins_codex/templates/articles/classifier-un-deck.html:528
@@ -2916,23 +3042,27 @@ msgstr ""
 #: barrins_codex/templates/articles/classifier-un-deck.html:605
 #: barrins_codex/templates/articles/classifier-un-deck.html:653
 msgid "Catégorie de deck Contrôle qui se caractérise par :"
-msgstr ""
+msgstr "Control deck category characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:485
 msgid ""
 "Une grande quantité de contresorts pour interagir au maximum contre les actions "
 "adverses ;"
 msgstr ""
+"A large amount of counterspells to interact as much as possible against the opposing "
+"actions;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:491
 msgid "Un moteur à <em>Card Advantage</em> pour compenser l'épuisement des contresorts ;"
-msgstr ""
+msgstr "A <em>Card Advantage</em> engine to compensate the use of counterspells;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:496
 msgid ""
 "La présence de <em>mass removals</em> pour gérer l'ensemble des cartes qui ont pu se "
 "résoudre."
 msgstr ""
+"The presence of <em>mass removals</em> to manage all the cards that could have "
+"resolved."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:503
 msgid ""
@@ -2940,6 +3070,9 @@ msgid ""
 " Turn, Draw, Go ! ». Ces decks se distinguent donc radicalement des decks Tapout vus "
 "précédemment."
 msgstr ""
+"The term Draw Go is an allusion to the quick turns of a player of this \"My Turn, "
+"Draw, Go!\" Archetype. These decks are therefore radically different from the Tapout "
+"decks seen previously."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:510
 msgid ""
@@ -2949,16 +3082,22 @@ msgid ""
 "réponses. Pour contrebalancer cela, les decks Draw Go sont obligés de compenser avec "
 "du <em>Card Advantage</em>."
 msgstr ""
+"Draw Go decks tend to trade <em>one-for-one</em> with their counterspells. They are "
+"naturally at a disadvantage against Aggro decks which play less lands and therefore "
+"will draw more threats than Draw Go can draw answers. To compensate for this, Draw Go"
+" decks are forced to compensate with <em>Card Advantage</em>."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:532
 msgid ""
 "Des <em>mass removal</em> et des sorts visant à empêcher l'adversaire de jouer dans "
 "le but d'acheter du temps ;"
 msgstr ""
+"<em>Mass removal</em> and spells aimed at preventing the opponent from playing in "
+"order to buy time;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:538
 msgid "Des sorts agressifs pour profiter au maximum du temps acheté."
-msgstr ""
+msgstr "Aggressive spells to make the most of the time won."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:544
 msgid ""
@@ -2967,26 +3106,31 @@ msgid ""
 "contresort dans un deck Contrôle est généralement un bon moyen de repérer si un deck "
 "est un Tapout."
 msgstr ""
+"Tapout decks essentially play on their own turn, so they usually don't keep any "
+"available mana when they're done playing. The absence of a counterspell in a Control "
+"deck is usually a good way to tell if a deck is a Tapout."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:552
 msgid ""
 "La première vraie apparition de Tapout en tournoi date de 1997 avec le deck standard "
 "Big Blue de Erik Lauer."
 msgstr ""
+"Tapout's first real tournament appearance was in 1997 with Erik Lauer's standard Big "
+"Blue deck."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:571
 msgid ""
 "La volonté de garder le champ de bataille sous contrôle plutôt que de lui opposer des"
 " menaces ;"
-msgstr ""
+msgstr "The desire to keep the battlefield under control rather than playing threats;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:577
 msgid "Utilise ses sorts permissifs avant tout pour protéger sa propre stratégie ;"
-msgstr ""
+msgstr "Uses their permissive spells above all to protect their own strategy;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:582
 msgid "Une fin de partie où l'adversaire est privé d’interactions."
-msgstr ""
+msgstr "An end game where the opponent is deprived of interactions."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:588
 #, python-format
@@ -2996,20 +3140,24 @@ msgid ""
 "mana pour poser une créature qui va dissuader son adversaire d'attaquer, un deck "
 "Prison préférera prévenir l'attaque, par exemple avec un %(icy_manipulator)s."
 msgstr ""
+"Prison decks (also known as Lock), like Tapout decks, tend to use their mana "
+"proactively. However, where a Tapout deck will commit all of its mana to land a "
+"creature that will deter its opponent from attacking, a Prison deck will prefer to "
+"prevent the attack, for example with a %(icy_manipulator)s."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:609
 msgid "Un jeu entre Draw Go et Tapout avec une victoire issue d'une combo ;"
-msgstr ""
+msgstr "A game between Draw Go and Tapout with a victory resulting from a combo;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:612
 msgid ""
 "Une stratégie lente mais qui peut éventuellement menacer de gagner très tôt dans la "
 "partie ;"
-msgstr ""
+msgstr "A slow strategy but one which can eventually threaten to win very early in the game;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:618
 msgid "De nombreux sorts de gestion et/ou de contresorts."
-msgstr ""
+msgstr "Many removals and/or counterspells."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:622
 msgid ""
@@ -3019,24 +3167,34 @@ msgid ""
 " la méthode à utiliser pour atteindre sa combo ou au contraire de contrôler le board "
 "si cela devient nécessaire. Voici quelques exemples :"
 msgstr ""
+"Unlike the majority of Combo decks, decks in this family can use <em>Card "
+"Advantage</em> rather than just digging or tutoring the elements of their combo. "
+"These decks often question on the method to use to reach its combo or on the contrary"
+" to control the board if it becomes necessary. Here are some examples :"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:657
 msgid ""
 "La présence de nombreuses cartes productrices de mana et/ou de cartes permettant de "
 "mettre sur le champ de bataille plus d'un terrain par tour ;"
 msgstr ""
+"The presence of numerous mana-producing cards and/or cards allowing to put on the "
+"battlefield more than one land per turn;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:663
 msgid ""
 "La présence de cartes variées ayant un coût de mana élevé qui sont censées être "
 "jouées en <em>mid game</em>."
 msgstr ""
+"The presence of various cards with a high mana cost that are supposed to be played "
+"<em>mid game</em>."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:670
 msgid ""
 "Il ne faut pas confondre les decks Ramp avec les decks de la catégorie Big Spell bien"
 " que ceux-ci peuvent aussi avoir une optique Ramp en début de partie."
 msgstr ""
+"Ramp decks should not be confused with Big Spell category decks although these two "
+"can have a Ramp-ish early game."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:676
 msgid ""
@@ -3045,6 +3203,10 @@ msgid ""
 "Ils sont faciles à piloter et ont une grande solidité sur le long terme. S'ils ne "
 "tuent pas dans le début de partie, ils ont toujours un plan B."
 msgstr ""
+"When properly constructed and containing spells suited to the decks present in the "
+"tournament environment, Ramp decks can be formidable. They are easy to ride and have "
+"great durability over the long term. If they don't kill early in the game, they still"
+" have a plan B."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:684
 msgid ""
@@ -3053,12 +3215,16 @@ msgid ""
 "les mêmes problèmes que Midrange contre Contrôle et Tempo : s'ils sont pris de "
 "vitesse, ils doivent subir les sorts de gestion adverses."
 msgstr ""
+"However, if their mana acceleration is sabotaged, Ramp decks are terribly slowed down"
+" in strategy and often stalled. They basically have the same issues as Midrange "
+"versus Control and Tempo: if they get caught up in speed, they have to undergo the "
+"opponent's removals."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:701
 #: barrins_codex/templates/articles/classifier-un-deck.html:781
 #: barrins_codex/templates/articles/classifier-un-deck.html:812
 msgid "Catégorie de deck Combo qui se caractérise par :"
-msgstr ""
+msgstr "Combo deck category characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:705
 msgid ""
@@ -3066,12 +3232,16 @@ msgid ""
 "essentiellement au fait que tout le deck soit construit autour et pour maximiser "
 "l'effet de cette carte."
 msgstr ""
+"The presence of a kill (the <em>big spell</em>) whose effectiveness is mainly due to "
+"the fact that the whole deck is built around and maximize the effect of this card."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:712
 msgid ""
 "La résolution de ce <em>big spell</em> entraîne une victoire immédiate ou change "
 "radicalement la dynamique de la partie."
 msgstr ""
+"Resolving this <em>big spell</em> results in immediate victory or dramatically "
+"changes the dynamics of the game."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:719
 msgid ""
@@ -3080,17 +3250,23 @@ msgid ""
 "l'aspect Ramp n'est absolument pas une caractéristique générale de cette catégorie, "
 "Living End est justement un exemple de deck Big Spell sans aucun aspect ramp."
 msgstr ""
+"A Ramp aspect is usually present in Big Spell decks, but unlike Ramp decks, these "
+"decks are built around a particular card. In addition, the Ramp aspect is absolutely "
+"not a general characteristic of this category, Living End is precisely an example of "
+"a Big Spell deck without any ramp aspect."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:729
 #, python-format
 msgid "Le duo %(scapeshift)s et %(valakut)s"
-msgstr ""
+msgstr "%(scapeshift)s et %(valakut)s 's Duo'"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:734
 msgid ""
 "Ce duo de cartes a donné son nom à de nombreux archétypes et tous ces archétypes ne "
 "correspondent pas aux même catégories."
 msgstr ""
+"This card duo has given its name to many archetypes and not all of these archetypes "
+"fall into the same categories."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:740
 msgid ""
@@ -3098,6 +3274,9 @@ msgid ""
 " rentabiliser son aspect ramp sur le long terme, quitte à en faire son kill. Ici pas "
 "de Scapeshift."
 msgstr ""
+"The Standard version of Valakut is a Ramp deck that just plays Valakut to make its "
+"ramp aspect profitable in the long term, even if it means killing using it. No "
+"Scapeshift here."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:747
 msgid ""
@@ -3105,6 +3284,9 @@ msgid ""
 "gestions et contresorts pour temporiser et qui en fin de partie menace de tuer à tout"
 " moment en jouant Scapeshift."
 msgstr ""
+"The Modern Scapeshift deck is a Pure Control-Combo deck with many removals and "
+"counterspells to delay and which, at the end of the game, threatens to kill at any "
+"time while playing Scapeshift."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:754
 msgid ""
@@ -3112,6 +3294,9 @@ msgid ""
 "construit autour d'un plan de jeu simpliste qui se résume à avoir le plus vite "
 "possible suffisamment de terrains en jeu et jouer son Big Spell : Scapeshift."
 msgstr ""
+"The Modern Valakut deck, on the other hand, is a Big Spell deck where the whole deck "
+"is built around a simplistic game plan that boils down to having enough lands in play"
+" as quickly as possible and playing your Big Spell: Scapeshift."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:762
 #, python-format
@@ -3120,18 +3305,22 @@ msgid ""
 "absence de montagne et donc à la nécessité d'avoir %(prismatic_omen)s sur le champ de"
 " bataille avant de lancer scapeshift ce qui fait du deck un Combo Traditionnel."
 msgstr ""
+"Finally, the Omen Scapeshift version is fundamentally different from the others by "
+"its virtual absence of mountains and therefore by the need to have %(prismatic_omen)s"
+" on the battlefield before launching scapeshift which makes the deck a Traditional "
+"Combo."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:785
 msgid "L'accumulation des sorts et actions faites lors d'un même tour ;"
-msgstr ""
+msgstr "The accumulation of spells and actions made during a single turn;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:788
 msgid "L'absence de sorts spécifique, voire de séquence, pour gagner ;"
-msgstr ""
+msgstr "The absence of specific spells, or even sequence, to win;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:791
 msgid "Le besoin de quantité d'actions plus que de leur qualité."
-msgstr ""
+msgstr "The need for quantity of actions more than their quality."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:795
 msgid ""
@@ -3140,34 +3329,42 @@ msgid ""
 "decks avec une carte Storm en guise de kill appartiennent à cette catégorie. Ce ne "
 "sont pas les seuls, High Tide ou KCI font aussi partie de cette catégorie."
 msgstr ""
+"Storm Combo decks have a <em>big turn</em> in which the opponent is defeated. The "
+"name of this category is taken from the <em>Storm</em> ability. All decks with a "
+"Storm card as a kill fall into this category. They are not the only ones, High Tide "
+"or KCI are also part of this category."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:816
 msgid ""
 "Une condition de victoire basée directement ou indirectement sur une combo formée de "
 "deux ou trois cartes ;"
-msgstr ""
+msgstr "A victory condition based directly or indirectly on a combo of two or three cards;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:822
 msgid "Des cartes permettant d'aller chercher les éléments de la combo."
-msgstr ""
+msgstr "Cards allowing you to find the elements of the combo."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:826
 msgid ""
 "Les stratégies des Combo Traditionnel peuvent être très variées. On peut en "
 "distinguer deux variantes :"
 msgstr ""
+"The strategies of Traditional Combo can be very varied. There are two distincts "
+"variants:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:833
 msgid ""
 "Les decks qui vont avoir tendance à chercher dans leur bibliothèque les éléments de "
 "la combo ;"
-msgstr ""
+msgstr "Decks that will tend to search their library for the elements of the combo;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:839
 msgid ""
 "Les decks qui vont miser sur la redondance des éléments de la combo quitte à jouer "
 "parfois plusieurs combos différentes."
 msgstr ""
+"Decks which will bet on the redundancy of the elements of the combo even if it means "
+"playing several different combos."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:846
 #, python-format
@@ -3175,10 +3372,12 @@ msgid ""
 "Dans cette seconde variante, on peut citer les decks Reanimator ou, en Legacy, les "
 "decks %(show_and_tell)s qui incorporent aussi %(sneak_attack)s."
 msgstr ""
+"In this second variant, we can cite the Reanimator decks or, in Legacy, the "
+"%(show_and_tell)s decks which also incorporate %(sneak_attack)s."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:853
 msgid "Le plan de jeu Reanimator"
-msgstr ""
+msgstr "Reanimator's game plan"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:855
 #, python-format
@@ -3187,27 +3386,30 @@ msgid ""
 "en quelque chose proche d'un Storm Combo mais le plan de jeu originel du deck "
 "correspond bien à la catégorie Combo Traditionnel."
 msgstr ""
+"When reanimated, %(griselbrand)s tends to turn the Reanimator game plan into "
+"something close to a Storm Combo, but the deck's original game plan fits well with "
+"the Traditional Combo category."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:872
 #: barrins_codex/templates/articles/classifier-un-deck.html:917
 #: barrins_codex/templates/articles/classifier-un-deck.html:961
 #: barrins_codex/templates/articles/classifier-un-deck.html:1026
 msgid "Catégorie de deck Aggro-Combo qui se caractérise par :"
-msgstr ""
+msgstr "Aggro-Combo deck category characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:876
 msgid "Une absence d'interactivité avec l'adversaire ;"
-msgstr ""
+msgstr "Lack of interactivity with the opponent;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:879
 msgid "Une stratégie qui consiste à cibler avec ses sorts directement l'adversaire."
-msgstr ""
+msgstr "A strategy that consists of targeting your opponent directly with your spells."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:885
 msgid ""
 "On retrouve dans cette catégorie principalement deux sortes de deck : <em>Burn</em> "
 "et <em>Meule</em> :"
-msgstr ""
+msgstr "There are mainly two kinds of decks in this category: <em>Burn</em> and <em>Mill</em>:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:892
 msgid ""
@@ -3215,6 +3417,9 @@ msgid ""
 "l'adversaire. Ils sont présents dans tous les formats. Ils sont tous à dominante "
 "rouge, mais tous ne sont pas nécessairement monocolores ;"
 msgstr ""
+"<em>Burn</em> decks use their spells to directly inflict damage on the opponent. They"
+" are present in all formats. They are all predominantly red, but not all are "
+"necessarily single-colored;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:899
 msgid ""
@@ -3222,20 +3427,25 @@ msgid ""
 "bibliothèque de l'adversaire dans son cimetière. Ils sont absent des formats éternels"
 " et correspondent pour la plupart au plan de jeu de certains decks limités bleus."
 msgstr ""
+"<em>Mill</em> decks use their spells to put cards from the opponent's library into "
+"their graveyard. They are absent from the Eternal Formats and mostly fit the game "
+"plan of some limited blue decks."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:921
 msgid "Une construction autour d'une mécanique avec des cartes très synergiques entre elles ;"
-msgstr ""
+msgstr "A construction around a mechanic with very synergistic cards between them;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:927
 msgid ""
 "Une stratégie qui peut menacer extrêmement rapidement l'adversaire et se répéter par "
 "vagues successives sur le long terme ;"
 msgstr ""
+"A strategy that can threaten the opponent extremely quickly and be repeated in "
+"successive waves over the long term;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:933
 msgid "Une absence de réel Big Turn."
-msgstr ""
+msgstr "A lack of an actual Bug Turn."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:937
 #, python-format
@@ -3245,6 +3455,9 @@ msgid ""
 "abuse de la capacité éponyme et des synergies avec le cimetière et %(hollow_one)s "
 "basé quant à lui sur les effets de défausse."
 msgstr ""
+"The main Wave Combo decks are built around a mechanic whose effects they abuse. The "
+"two main decks in this category are Dredge, which abuses the eponymous ability and "
+"synergies with the graveyard, and %(hollow_one)s, which is based on discard effects."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:945
 msgid ""
@@ -3253,16 +3466,21 @@ msgid ""
 "particularité d'être relativement imprévisibles dans leur sortie même pour leur "
 "pilote."
 msgstr ""
+"This category has finally had very few representatives and it is complicated to list "
+"its fixed characteristics. However, the two decks mentioned have the particularity of"
+" being relatively unpredictable in their output even for their pilot."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:965
 msgid ""
 "Une condition de victoire basée sur le fait d'attaquer avec des créatures "
 "(généralement une seule) pour tuer en peu de phases d'attaque (parfois une seule) ;"
 msgstr ""
+"A victory condition based on attacking with creatures (usually only one) to kill in a"
+" few attack phases (sometimes just one);"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:971
 msgid "Un rythme de jeu plus rapide que les decks Aggro classiques."
-msgstr ""
+msgstr "A faster tempo than classical aggro decks."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:975
 #, python-format
@@ -3271,6 +3489,8 @@ msgid ""
 "Traditionnel et Storm Combo. Un deck emblématique de cette catégorie est "
 "%(kiln_fiend)s :"
 msgstr ""
+"Voltron decks borrow certain characteristics from the Traditional Combo and Storm "
+"Combo categories. An iconic deck in this category is %(kiln_fiend)s:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:983
 #, python-format
@@ -3278,6 +3498,8 @@ msgid ""
 "Il s'agit d'une combo deux cartes avec %(berserk)s ou %(temur_battle_rage)s, ce qui "
 "donne le côté Combo Traditionnel ;"
 msgstr ""
+"This is a two card combo with %(berserk)s or %(temur_battle_rage)s, which gives the "
+"Traditional Combo side;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:989
 msgid ""
@@ -3285,16 +3507,21 @@ msgid ""
 "remporter la victoire simplement par l'accumulation de sorts joué lors d'un même "
 "tour, ce qui donne l'aspect Storm Combo."
 msgstr ""
+"However, the deck does not need this second card to win and can achieve victory "
+"simply by accumulating spells played in the same turn, resulting in the Storm Combo "
+"aspect."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:997
 msgid ""
 "On retrouve aussi dans cette catégorie les decks hexproof qui se basent sur une "
 "créature qui grossit jusqu'à devenir létale."
 msgstr ""
+"Also in this category are hexproof decks that are based on a creature that grows to "
+"the point of becoming lethal."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1004
 msgid "L'origine de Voltron"
-msgstr ""
+msgstr "The originis of Voltron"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1006
 #, python-format
@@ -3305,33 +3532,42 @@ msgid ""
 "%(zur_the_enchanter)s) des decks Voltron Aggro (tels que %(jenara_asura_of_war)s), "
 "focalisés sur le fait de finir rapidement une partie via les blessures de général."
 msgstr ""
+"The name Voltron comes from the Commander to designate originally decks whose "
+"strategy is entirely based on their general. Mateus Nogueira distinguishes in his "
+"category classification for ordering the Voltron Control decks (such as "
+"%(zur_the_enchanter)s) from the Voltron Aggro decks (such as "
+"%(jenara_asura_of_war)s), focused on finishing a game quickly via commander damage."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1030
 msgid "La présence d'un grand nombre de créatures ;"
-msgstr ""
+msgstr "The presence of a large number of creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1033
 msgid ""
 "Une condition de victoire non-intéractive générée par une combo composée le plus "
 "souvent de créatures ;"
-msgstr ""
+msgstr "A non-interactive victory condition generated by a combo mostly made up of creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1039
 msgid ""
 "Une condition de victoire secondaire consistant à gagner en attaquant avec ses "
 "créatures (souvent en débordant son adversaire) ;"
 msgstr ""
+"A secondary victory condition consisting of winning by attacking with your creatures "
+"(often by overrunning your opponent);"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1046
 msgid ""
 "Les decks Combo Créature sont des hybrides entre les decks appartenant aux familles "
 "Combo Traditionnel et Swarm ce qui en fait naturellement des decks Aggro-Combo."
 msgstr ""
+"Combo Creature decks are hybrids between decks belonging to the Traditional Combo and"
+" Swarm families, which naturally makes them Aggro-Combo decks."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1054
 #, python-format
 msgid "Le cas de %(birthing_pod)s"
-msgstr ""
+msgstr "%(birthing_pod)s's case"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1059
 #, python-format
@@ -3339,6 +3575,8 @@ msgid ""
 "Cette catégorie permet d'aborder plus en détail le cas de %(birthing_pod)s présente "
 "essentiellement dans deux types de jeu :"
 msgstr ""
+"This category allows to approach in more detail the case of %(birthing_pod)s present "
+"mainly in two types of game:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1066
 msgid ""
@@ -3347,6 +3585,10 @@ msgid ""
 "diverses séquences d'actions en abusant des effets d'arrivée et de départ du champ de"
 " bataille. Ces decks-là sont classés dans la catégorie Midrange Non-Bleu."
 msgstr ""
+"Decks with a Midrange structure many creatures of which are played only in one copy "
+"for their synergy with Pod in order to construct various sequences of actions by "
+"abusing the effects of entering and leaving the battlefield. These decks are "
+"categorized as Midrange Non-Blue."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1075
 #, python-format
@@ -3356,6 +3598,10 @@ msgid ""
 " une combo même s'il est également possible tutoriser des solutions face à des "
 "problèmes spécifiques. Ces decks appartiennent à la catégorie Combo Créature."
 msgstr ""
+"The decks based on a multitude of creatures which incorporate a combo which is the "
+"main condition of victory of the deck. The role of %(birthing_pod)s is to assemble a "
+"combo box even if it is also possible to tutor solutions to specific problems. These "
+"decks belong to the Combo Creature category."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1085
 #, python-format
@@ -3367,22 +3613,27 @@ msgid ""
 "partie comme le ferait %(living_end)s ou %(balustrade_spy)s, c'est au mieux une "
 "menace pour l'adversaire."
 msgstr ""
+"%(birthing_pod)s could be categorized as Big Spell as the decks are primarily based "
+"around this card but this card is primarily a <em> Card Advantage </em> engine and "
+"not a real means of killing the opponent. Likewise, playing the card does not "
+"radically change the dynamics of the game as %(living_end)s or %(balustrade_spy)s "
+"would, it is at best a threat to the opponent."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1105
 msgid "Catégorie et macrotype à part entière qui se caractérise par :"
-msgstr ""
+msgstr "Category and macrotype in its own right which is characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1109
 msgid "Une condition de victoire qui consiste à gagner en attaquant avec ses créatures ;"
-msgstr ""
+msgstr "A victory condition that consists of winning by attacking with your creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1114
 msgid "Une condition de victoire non-interactive basée sur une combo ;"
-msgstr ""
+msgstr "A non-interactive victory condition based on a combo;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1119
 msgid "Une volonté de gérer le board que ce soit de manière proactive ou réactive."
-msgstr ""
+msgstr "A desire to manage the board whether proactively or reactively."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1125
 #, python-format
@@ -3392,6 +3643,10 @@ msgid ""
 "Le deck Grow-A-Tog est repris à titre d'exemple dans cette catégorie dans un article "
 "de Stephen Menendian et Paul Mastriano de 2003 : %(how_to_grow_a_tog)s."
 msgstr ""
+"Aggro-Control-Combo decks are extremely rare outside of Vintage because few decks "
+"are capable of producing such varied game plans effectively. The Grow-A-Tog deck is "
+"used as an example in this category in a 2003 article by Stephen Menendian and Paul "
+"Mastriano: %(how_to_grow_a_tog)s."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:5
 msgid "Construire un deck en Duel Commander"
@@ -3450,7 +3705,7 @@ msgid ""
 msgstr ""
 "Played with a partner giving access to at least red, Silas Renn would ensure the "
 "redundancy of the artefacts. The main weakness of this command zone is the difficult "
-"access to a fourth or even a fifth colour. If Alix chooses a pair of partners, the "
+"access to a fourth or even a fifth color. If Alix chooses a pair of partners, the "
 "deck size will be slightly smaller and the deck may gain in stability."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:88
@@ -5135,4 +5390,3 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
-
