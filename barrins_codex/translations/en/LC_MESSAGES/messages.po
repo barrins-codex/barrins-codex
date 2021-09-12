@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-11 23:11+0200\n"
+"POT-Creation-Date: 2021-09-12 10:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -3643,59 +3643,134 @@ msgid ""
 "Le deck Grow-A-Tog est repris à titre d'exemple dans cette catégorie dans un article "
 "de Stephen Menendian et Paul Mastriano de 2003 : %(how_to_grow_a_tog)s."
 msgstr ""
-"Aggro-Control-Combo decks are extremely rare outside of Vintage because few decks "
-"are capable of producing such varied game plans effectively. The Grow-A-Tog deck is "
-"used as an example in this category in a 2003 article by Stephen Menendian and Paul "
+"Aggro-Control-Combo decks are extremely rare outside of Vintage because few decks are"
+" capable of producing such varied game plans effectively. The Grow-A-Tog deck is used"
+" as an example in this category in a 2003 article by Stephen Menendian and Paul "
 "Mastriano: %(how_to_grow_a_tog)s."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:5
 msgid "Construire un deck en Duel Commander"
 msgstr "Building a Duel Commander deck"
 
-#: barrins_codex/templates/articles/construire-un-deck.html:7
+#: barrins_codex/templates/articles/construire-un-deck.html:9
+msgid "les macrotypes"
+msgstr "macrotypes"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:8
 #, python-format
 msgid ""
-"<p> Pour une construction de deck efficace, il est important de connaître et de "
+"Pour une construction de deck efficace, il est important de connaître et de "
 "comprendre ce que sont %(les_macrotypes)s et les %(les_archetypes)s car ces concepts "
 "permettent d'analyser l’impact des plans de jeu les uns par rapport aux autres et "
-"d’anticiper dans une certaine mesure les forces et les faiblesses du deck. </p> "
-"<h2>Choisir son plan de jeu</h2> <p> Choisir un plan de jeu revient à définir "
-"l’optique du deck et son angle d’attaque. Avant de commencer à sélectionner des "
-"cartes, il faut se poser quelques questions pour définir un cap. Cette phase de "
-"questionnement permet de dessiner les grandes lignes qui définissent le deck et de "
-"déterminer en quoi il est spécial : </p> <ul> <li> Qu’est-ce que le deck est supposé "
-"faire mieux que les autres decks déjà disponibles ? </li> <li> Quel est la stratégie "
-"principale du deck pour gagner la partie ? </li> <li> Qu’apporte cette version aux "
-"autres decks qui partagent le même plan de jeu ? </li> </ul> <div class=\"author\"> "
-"<p> Alix cherche à construire un deck original basé sur les artefacts. Après s'être "
-"posé les trois questions au-dessus, Alix a défini les grandes lignes du deck souhaité"
-" : </p> <p> Il s'agira d'un deck ayant une forte densité d'artefacts et utilisera "
+"d’anticiper dans une certaine mesure les forces et les faiblesses du deck."
+msgstr ""
+"For an effective deck building, it is important to know and understand what "
+"%(les_macrotypes)s and %(les_archetypes)s are because these concepts allow to analyze"
+" the impact of game plans in relation to each other and to anticipate to some extent "
+"the strengths and weaknesses of the deck."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:10
+msgid "les archétypes"
+msgstr "archetypes"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:19
+msgid "Choisir son plan de jeu"
+msgstr "Choosing ones game plan"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:21
+msgid ""
+"Choisir un plan de jeu revient à définir l’optique du deck et son angle d’attaque. "
+"Avant de commencer à sélectionner des cartes, il faut se poser quelques questions "
+"pour définir un cap. Cette phase de questionnement permet de dessiner les grandes "
+"lignes qui définissent le deck et de déterminer en quoi il est spécial :"
+msgstr ""
+"Choosing a game plan comes down to defining the optics of the deck and its angle of "
+"attack. Before you start selecting cards, you need to ask yourself a few questions to"
+" set a course. This questioning phase allows you to draw the broad lines that define "
+"the deck and determine what makes it special:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:30
+msgid "Qu’est-ce que le deck est supposé faire mieux que les autres decks déjà disponibles ?"
+msgstr "What is the deck supposed to do better than the other decks already available?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:35
+msgid "Quelle est la stratégie principale du deck pour gagner la partie ?"
+msgstr "What is the deck's main strategy for winning the game?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:38
+msgid "Qu’apporte cette version aux autres decks qui partagent le même plan de jeu ?"
+msgstr "What does this version do for other decks that share the same game plan?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:43
+msgid ""
+"Alix cherche à construire un deck original basé sur les artefacts. Après s'être posé "
+"les trois questions au-dessus, Alix a défini les grandes lignes du deck souhaité :"
+msgstr ""
+"Alix is looking to build an original deck based on the artifacts. After asking the "
+"three questions above, Alix defined the main lines of the desired deck:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:49
+#, python-format
+msgid ""
+"Il s'agira d'un deck ayant une forte densité d'artefacts et utilisera "
 "%(paradox_engine)s pour générer du mana. Le deck permettra de gagner la partie grâce "
 "à la forte quantité de sorts lancés dans le même tour (le Big Turn) avec "
 "%(aetherflux_reservoir)s. De plus, Alix ne connaît aucun deck qui a ce plan de jeu et"
-" pense donc que cela pourrait être intéressant à construire. </p> </div>"
+" pense donc que cela pourrait être intéressant à construire."
 msgstr ""
+"This will be a deck with a high density of artifacts and will use %(paradox_engine)s "
+"to generate mana. The deck will win the game thanks to the large amount of spells "
+"cast in the same turn (the Big Turn) with %(aetherflux_reservoir)s. Also, Alix "
+"doesn't know of any decks that have this game plan and therefore thinks it might be "
+"worth building."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:51
+#: barrins_codex/templates/articles/construire-un-deck.html:59
+msgid "Choisir sa zone de commandement"
+msgstr "Optimizing the use of the command zone"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:61
 #, python-format
 msgid ""
-"<h2>Choisir sa zone de commandement</h2> <p> La composition de la zone de "
-"commandement doit avoir un impact sur la construction du deck. En effet, il faut que "
-"la zone de commandement fournisse les couleurs nécessaires à l’expression la plus "
-"entière du plan de jeu. Il faut également qu’elle fournisse un avantage stratégique "
-"si possible : cela ne semble pas cohérent de jouer %(aminatou_the_fateshifter)s si "
-"aucun permanent non-terrain n’est envisagé. </p> <p> Les questions sont donc à se "
-"poser au regard les unes des autres : </p> <ul> <li>Quelles couleurs me permettent le"
-" mieux de faire ce que je souhaite ?</li> <li>Quelle zone de commandement permet de "
-"faire mieux ce que je souhaite ?</li> </ul> <p> Dans le cas d’Alix, elle trouve "
-"essentiel de pouvoir jouer %(urza_lord_high_artificer)s, des <em>tuteurs</em> comme "
-"%(demonic_tutor)s ou %(enlightened_tutor)s et des moteurs de pioche comme "
-"%(jhoira_weatherlight_captain)s ou %(whirlwind_of_thought)s. Il faut donc au moins "
-"jouer trois à quatre couleurs. Parmi les zones de commandement possibles, il y en a "
-"quelques unes notables : <p>"
+"La composition de la zone de commandement doit avoir un impact sur la construction du"
+" deck. En effet, il faut que la zone de commandement fournisse les couleurs "
+"nécessaires à l’expression la plus entière du plan de jeu. Il faut également qu’elle "
+"fournisse un avantage stratégique si possible : cela ne semble pas cohérent de jouer "
+"%(aminatou_the_fateshifter)s si aucun permanent non-terrain n’est envisagé."
 msgstr ""
+"The composition of the command zone must have an impact on the construction of the "
+"deck. Indeed, the command zone must provide the colors necessary for the fullest "
+"expression of the game plan. It must also provide a strategic advantage if possible: "
+"it does not seem coherent to play %(aminatou_the_fateshifter)s if no non-land "
+"permanent is considered.\""
 
-#: barrins_codex/templates/articles/construire-un-deck.html:78
+#: barrins_codex/templates/articles/construire-un-deck.html:70
+msgid "Les questions sont donc à se poser au regard les unes des autres :"
+msgstr "The questions must therefore be asked in relation to each other:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:73
+msgid "Quelles couleurs me permettent le mieux de faire ce que je souhaite ?"
+msgstr "What colors best allow me to do what I want?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:74
+msgid "Quelle zone de commandement permet de faire mieux ce que je souhaite ?"
+msgstr "Which command zone allows me to do what I want better?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:77
+#, python-format
+msgid ""
+"Dans le cas d’Alix, elle trouve essentiel de pouvoir jouer "
+"%(urza_lord_high_artificer)s, des <em>tuteurs</em> comme %(demonic_tutor)s ou "
+"%(enlightened_tutor)s et des moteurs de pioche comme %(jhoira_weatherlight_captain)s "
+"ou %(whirlwind_of_thought)s. Il faut donc au moins jouer trois à quatre couleurs. "
+"Parmi les zones de commandement possibles, il y en a quelques unes notables :"
+msgstr ""
+"In Alix's case, she finds it essential to be able to play "
+"%(urza_lord_high_artificer)s, <em> guardians </em> like %(demonic_tutor)s or "
+"%(enlightened_tutor)s and pickaxe engines like %(jhoira_weatherlight_captain)s or "
+"%(whirlwindwind_of_thenlightened_tutor)s. So you have to play at least three to four "
+"colors. Among the possible command areas, there are a few notable:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:88
 msgid ""
 "Joué avec un partenaire donnant accès au moins au rouge, Silas Renn permettrait de "
 "garantir la rejouabilité des artefacts. Le principal point faible de cette zone de "
@@ -3708,18 +3783,19 @@ msgstr ""
 "access to a fourth or even a fifth color. If Alix chooses a pair of partners, the "
 "deck size will be slightly smaller and the deck may gain in stability."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:88
+#: barrins_codex/templates/articles/construire-un-deck.html:98
 #, python-format
 msgid ""
 "Golos permet de d'avoir accès aux cinq couleurs et est incolore, ce qui garantit un "
 "maximum de souplesse. Si Alix choisit Golos, il sera possible d’ajouter "
-"%(cascading_cataracts)s par exemple pour permettre d’utiliser sa capacité activée."
+"%(cascading_cataracts)s, par exemple, pour permettre d’utiliser sa capacité activée "
+"plus facilement."
 msgstr ""
 "Golos allows you to play all 5 colors while being colorless, which gives you more "
 "options. If Alix chooses Golos, it'll be possible to add %(cascading_cataracts)s to "
 "benefit from the activated ability."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:96
+#: barrins_codex/templates/articles/construire-un-deck.html:107
 #, python-format
 msgid ""
 "Dans une optique <em>Storm</em>, Kenrith permet d’utiliser le mana généré pour gagner"
@@ -3731,151 +3807,422 @@ msgstr ""
 "gain a direct advantage. If Alix chooses Kenrith, it will probably be necessary to "
 "play %(training_grounds)s to reduce the cost of the activated ability to draw a card."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:103
-#, python-format
-msgid ""
-"<div class=\"tip\"> <h3>Choisir son plan de jeu ou choisir sa zone de commandement "
-"d’abord ?</h3> <p> Choisir son plan de jeu et trouver une zone de commandement qui y "
-"correspond ensuite est un processus qui permet la plus grande souplesse et donc la "
-"plus grande efficacité une fois le choix arrêté. </p> <p> Choisir en premier sa zone "
-"de commandement puis le plan de jeu reviendra à faire des choix sous-optimaux pour "
-"que les deux correspondent. </p> <p> L’inadéquation entre la zone de commandement et "
-"le plan de jeu créera des frictions qui se feront sentir dans des parties qui "
-"poussent le deck dans ses retranchements. </p> <p> Ceci est le cas général, certaines"
-" stratégies ne sont viables qu'avec une zone de commandement particulière qui crée à "
-"elle seule un plan de jeu unique. C'est le cas de %(winota_joiner_of_forces)s par "
-"exemple. </p> </div>"
-msgstr ""
+#: barrins_codex/templates/articles/construire-un-deck.html:116
+msgid "Choisir son plan de jeu ou choisir sa zone de commandement d’abord ?"
+msgstr "Choose your game plan or choose your command zone first?"
 
-#: barrins_codex/templates/articles/construire-un-deck.html:127
-#, python-format
+#: barrins_codex/templates/articles/construire-un-deck.html:118
 msgid ""
-"<h2>Définir les cartes clé</h2> <p> Les cartes clé sont les cartes autour desquelles "
-"le plan de jeu va s'articuler. Cela peut être des créatures pour les decks agressifs,"
-" des terrains et de %(ramp)s pour des decks <em>Lands</em>, etc. </p> <p> L'objectif "
-"est de dessiner un socle d'une vingtaine de cartes qui fonctionnent entre elles et "
-"qui posent les fondations du plan de jeu. </p> <div class=\"author\"> <p> Alix a "
-"décidé d'articuler son deck autour des cartes suivantes : </p> <div class=\"column\">"
-" <h4 style=\"text-align: center;\">Créatures</h4> <ul style=\"list-style: none;\"> "
-"<li>%(jhoira_weatherlight_captain)s</li> <li>%(urza_lord_high_artificer)s</li> </ul> "
-"<div class=\"clear\"></div> </div> <div class=\"column\"> <h4 style=\"text-align: "
-"center;\">Artefacts</h4> <ul style=\"list-style: none;\"> "
-"<li>%(aetherflux_reservoir)s</li> <li>%(mystic_forge)s</li> "
-"<li>%(paradox_engine)s</li> </ul> <div class=\"clear\"></div> </div> <div "
-"class=\"column\"> <h4 style=\"text-align: center;\">Planeswalkers</h4> <ul style"
-"=\"list-style: none;\"> <li>%(tezzeret_the_seeker)s</li> </ul> <div "
-"class=\"clear\"></div> </div> <div class=\"column\"> <h4 style=\"text-align: "
-"center;\">Enchantements</h4> <ul style=\"list-style: none;\"> "
-"<li>%(song_of_creation)s</li> <li>%(whirlwind_of_thought)s</li> </ul> <div "
-"class=\"clear\"></div> </div> <div class=\"column\"> <h4 style=\"text-align: "
-"center;\">Ephémères</h4> <ul style=\"list-style: none;\"> "
-"<li>%(enlightened_tutor)s</li> <li>%(intuition)s</li> <li>%(gifts_ungiven)s</li> "
-"<li>%(paradoxical_outcome)s</li> </ul> <div class=\"clear\"></div> </div> <div "
-"class=\"column\"> <h4 style=\"text-align: center;\">Rituels</h4> <ul style=\"list-"
-"style: none;\"> <li>%(demonic_tutor)s</li> <li>%(sevinnes_reclamation)s</li> </ul> "
-"<div class=\"clear\"></div> </div> </div>"
+"Choisir son plan de jeu et trouver une zone de commandement qui y correspond ensuite "
+"est un processus qui permet la plus grande souplesse et donc la plus grande "
+"efficacité une fois le choix arrêté."
 msgstr ""
+"Choosing your game plan and finding a command zone that then corresponds to it is a "
+"process which allows the greatest flexibility and therefore the greatest efficiency "
+"once the choice has been made."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:197
+#: barrins_codex/templates/articles/construire-un-deck.html:125
+msgid ""
+"Choisir en premier sa zone de commandement puis le plan de jeu reviendra souvent à "
+"faire des choix sous-optimaux pour que les deux correspondent. L’inadéquation entre "
+"la zone de commandement et le plan de jeu créera des frictions qui se feront sentir "
+"dans des parties qui poussent le deck dans ses retranchements."
+msgstr ""
+"Choosing your command zone first and then the game plan will often amount to making "
+"sub-optimal choices so that the two correspond. The mismatch between the area of "
+"command and the game plan will create friction that will be felt in games that push "
+"the deck to its limits."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:133
 #, python-format
 msgid ""
-"<h2>Délimiter les contraintes de construction</h2> <p> Certaines cartes demandent une"
-" construction adaptée pour être plus efficaces. Il faut alors se demander si l'impact"
-" de ces cates dans le plan de jeu est suffisant pour les jouer. </p> <p> Par exemple,"
-" il est possible de jouer %(blood_moon)s et %(tainted_pact)s dans le même deck. Il "
-"faut cependant pouvoir construire en tenant compte des différentes contraintes. </p> "
-"<p> Voici une liste de quelques carte demandant une adaptation du choix des cartes : "
-"</p> <ul> <li> %(blood_moon)s impose de jouer autant de sources non-rouges que "
-"possible sous forme de terrains basiques. Inversement, il faut un minimum de sources "
-"rouges sous forme de terrains basiques ; </li> <li> %(tainted_pact)s demande de ne "
-"jouer que des cartes différentes. Cela signifie qu'il faut jouer au plus un terrain "
-"basique de chacune des couleurs du deck et leur version neigeuse ; </li> <li> La zone"
-" de commandement impose un nombre minimum de terrains pour jouer le ou les "
+"Ceci est le cas général, certaines stratégies ne sont viables qu'avec une zone de "
+"commandement particulière qui crée à elle seule un plan de jeu unique. C'est le cas "
+"de %(winota_joiner_of_forces)s ou de %(hogaak_arise_necropolis)s par exemple."
+msgstr ""
+"This is the general case, some strategies are only viable with a particular command "
+"zone which alone creates a unique game plan. This is the case with "
+"%(winota_joiner_of_forces)s or %(hogaak_arise_necropolis)s for example."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:141
+msgid "Définir les cartes clé"
+msgstr "Defining the key cards"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:143
+#, python-format
+msgid ""
+"Les cartes clé sont les cartes autour desquelles le plan de jeu va s'articuler. Cela "
+"peut être des créatures pour les decks agressifs, des terrains et de %(ramp)s pour "
+"des decks <em>Lands</em>, etc."
+msgstr ""
+"The key cards are the cards around which the game plan will revolve. This can be "
+"creatures for aggressive decks, lands, and %(ramp)s for <em>Lands</em> decks, etc."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:152
+msgid ""
+"L'objectif est de dessiner un socle d'une vingtaine de cartes qui fonctionnent entre "
+"elles et qui posent les fondations du plan de jeu."
+msgstr ""
+"The objective is to draw a base of about twenty cards which work together and which "
+"lay the foundations of the game plan."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:159
+msgid "Alix a décidé d'articuler son deck autour des cartes suivantes :"
+msgstr "Alix decided to build her deck around the following cards:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:164
+msgid "Créatures"
+msgstr "Creatures"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:172
+msgid "Artefacts"
+msgstr "Artifacts"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:181
+msgid "Planeswalkers"
+msgstr "Planeswalkers"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:188
+msgid "Enchantements"
+msgstr "Enchantments"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:196
+msgid "Ephémères"
+msgstr "Instants"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:205
+msgid "Rituels"
+msgstr "Sorceries"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:214
+msgid "Délimiter les contraintes de construction"
+msgstr "Delimit building constraints"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:216
+msgid ""
+"Certaines cartes demandent une construction adaptée pour être plus efficaces. Il faut"
+" alors se demander si l'impact de ces cartes dans le plan de jeu est suffisant pour "
+"les jouer."
+msgstr ""
+"Some cards require a suitable construction to be more effective. We must then ask "
+"ourselves if the impact of these cards in the game plan is sufficient to play them."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:222
+#, python-format
+msgid ""
+"Par exemple, il est possible de jouer %(blood_moon)s et %(tainted_pact)s dans le même"
+" deck. Il faut cependant pouvoir construire en tenant compte des différentes "
+"contraintes."
+msgstr ""
+"For example, it is possible to play %(blood_moon)s and %(tainted_pact)s in the same "
+"deck. However, it is necessary to be able to build taking into account the various "
+"constraints."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:228
+msgid "Voici une liste de quelques carte demandant une adaptation du choix des cartes :"
+msgstr "Here is a list of some cards requiring an adaptation of the choice of cards:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:234
+#, python-format
+msgid ""
+"%(blood_moon)s impose de jouer autant de sources non-rouges que possible sous forme "
+"de terrains basiques. Inversement, il faut un minimum de sources rouges sous forme de"
+" terrains basiques ;"
+msgstr ""
+"%(blood_moon)s requires playing as many non-red sources as possible as basic lands. "
+"Conversely, there must be a minimum of red sources in the form of basic grounds;"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:241
+#, python-format
+msgid ""
+"%(tainted_pact)s demande de ne jouer que des cartes différentes. Cela signifie qu'il "
+"faut jouer au plus un terrain basique de chacune des couleurs du deck et leur version"
+" neigeuse ;"
+msgstr ""
+"%(tainted_pact)s asks to play only different cards. This means that you have to play "
+"at most one basic land of each of the colors of the deck and their snow version;"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:248
+#, python-format
+msgid ""
+"La zone de commandement impose un nombre minimum de terrains pour jouer le ou les "
 "commandants. Par exemple, il faut 44 terrains pour jouer de manière régulière "
-"%(archelos_lagoon_mystic)s sans pioche supplémentaire et sans accélération de mana. "
-"</li> </ul>"
+"%(archelos_lagoon_mystic)s sans pioche supplémentaire et sans accélération de mana."
 msgstr ""
+"The command zone imposes a minimum number of lands to play ones commanders. For "
+"example, it takes 44 lands to play %(archelos_lagoon_mystic)s on a regular basis with"
+" no additional pickaxes and no mana boost."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:229
+#: barrins_codex/templates/articles/construire-un-deck.html:256
+msgid "Les trois étape de la construction de deck"
+msgstr "The three stages of deck building"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:258
+msgid "Construire un deck optimal nécessite de passer par trois étapes d'affinage."
+msgstr "Building an optimal deck requires going through three stages of refinement."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:262
+msgid "Définir une stratégie"
+msgstr "Defining a strategy"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:264
 msgid ""
-"<h2>Les trois étape de la construction de deck</h2> <p> Construire un deck optimal "
-"nécessite de passer par trois étapes d'affinage. </p> <h3>Définir une stratégie</h3> "
-"<p> Il convient à ce moment-là de compléter le deck avec le maximum de cartes "
-"synergiques avec le plan de jeu. Une fois le deck complété, une phase de test est "
-"nécessaire pour déterminer si le deck se joue comme cela a été anticipé. </p> <p> Si "
-"ce n'est pas le cas, deux options sont disponibles : arrêter de construire le deck ou"
-" redéfinir le squelette et rebroder autour. Si cela fonctionne, il faut passer à "
-"l'étape suivante. </p> <h3>Définir une tactique</h3> <p> La première phase de test a "
-"permis de déterminer que le deck valait le coup d'être travaillé davantage et c'est "
-"cette phase qui correspond à l'étape la plus longue : quels sont les problèmes que "
-"rencontre le deck actuellement ? Quelles sont les cartes qui n'ont pas fonctionné du "
-"tout lorsqu'elles ont été jouées ? </p> <p> L'identification des cartes dites "
-"inutiles permet de libérer de la place dans le deck pour y ajouter des solutions aux "
-"problèmes rencontrés lors de la première phase de tests. </p> <p> Il faut ensuite "
-"faire des tests intensifs et extensifs comme détaillé dans la section suivante. </p> "
-"<h3>Valider les tactiques par rapport à la stratégie</h3> <p> Il faut garder en tête "
-"qu'une action ne doit pas forcément aller dans le sens de la stratégie mais ne doit "
-"jamais aller à l’opposé. Cette étape permet de confronter les cartes choisies dans "
-"l'étape précédente à leur utilité dans le deck. </p> <p> C'est également dans cette "
-"étape que sont ajoutées des cartes <em>hors plan de jeu</em> mais qui permettent au "
-"deck de conserver une présence et un niveau de menace élevé contre les autres decks. "
-"Il s'agit de cartes plutôt défensives qui sont rentrées à ce stade de la "
-"construction. </p>"
+"Il convient à ce moment-là de compléter le deck avec le maximum de cartes synergiques"
+" avec le plan de jeu. Une fois le deck complété, une phase de test est nécessaire "
+"pour déterminer si le deck se joue comme cela a été anticipé."
 msgstr ""
+"It is advisable at this time to complete the deck with the maximum number of cards "
+"synergistic with the game plan. Once the deck is completed, a test phase is necessary"
+" to determine if the deck plays as expected."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:272
+#: barrins_codex/templates/articles/construire-un-deck.html:271
+msgid ""
+"Si ce n'est pas le cas, deux options sont disponibles : arrêter de construire le deck"
+" ou redéfinir le squelette et rebroder autour. Si cela fonctionne, il faut passer à "
+"l'étape suivante."
+msgstr ""
+"If not, two options are available: stop building the deck or redefine the skeleton "
+"and re-embroider around. If it works, you have to move on to the next step."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:277
+msgid "Définir une tactique"
+msgstr "Defining a tactic"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:279
+msgid ""
+"La première phase de test a permis de déterminer que le deck valait le coup d'être "
+"travaillé davantage et c'est cette phase qui correspond à l'étape la plus longue : "
+"quels sont les problèmes que rencontre le deck actuellement ? Quelles sont les cartes"
+" qui n'ont pas fonctionné du tout lorsqu'elles ont été jouées ?"
+msgstr ""
+"The first phase of testing determined that the deck was worth working on more and it "
+"is this phase that corresponds to the longest step: what are the problems facing the "
+"deck now? What cards did not work at all when played?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:287
+msgid ""
+"L'identification des cartes dites « inutiles » permet de libérer de la place dans le "
+"deck pour y ajouter des solutions aux problèmes rencontrés lors de la première phase "
+"de tests."
+msgstr ""
+"Identifying so-called “useless” cards frees up space in the deck to add solutions to "
+"problems encountered during the first phase of testing."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:293
+msgid ""
+"Il faut ensuite faire des tests intensifs et extensifs comme détaillés dans la "
+"section suivante."
+msgstr ""
+"It is then necessary to do intensive and extensive testing as detailed in the next "
+"section."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:297
+msgid "Valider les tactiques par rapport à la stratégie"
+msgstr "Validating tactics against strategy"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:299
+msgid ""
+"Il faut garder en tête qu'une action ne doit pas forcément aller dans le sens de la "
+"stratégie mais ne doit jamais aller à l’opposé. Cette étape permet de confronter les "
+"cartes choisies dans l'étape précédente à leur utilité dans le deck."
+msgstr ""
+"Keep in mind that an action does not have to go in the direction of the strategy but "
+"must never go in the opposite direction. This step allows you to compare the cards "
+"chosen in the previous step to their usefulness in the deck."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:306
+msgid ""
+"C'est également dans cette étape que sont ajoutées des cartes <em>hors plan de "
+"jeu</em> mais qui permettent au deck de conserver une présence et un niveau de menace"
+" élevé contre les autres decks. Il s'agit de cartes plutôt défensives qui sont "
+"rentrées à ce stade de la construction."
+msgstr ""
+"It is also in this stage that cards <em>out of the game plan</em> are added but which"
+" allow the deck to maintain a presence and a high level of threat against the other "
+"decks. These are rather defensive cards that are tucked in at this stage of "
+"construction."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:314
+msgid "Éviter les biais psychologiques"
+msgstr "Avoiding psychological bias"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:316
 #, python-format
 msgid ""
-"<h2>Eviter les biais psychologiques</h2> <p> Paulo Vitor Damo Da Rosa évoque dans "
-"l'article <em>8 Biases That Are Making You Worse at Magic</em> publié sur "
-"ChannelFireball des comportements psychologiques involontaires qui altèrent la "
-"perception de données à Magic. </p> <p> Pour éviter ces biais, voici quelques "
-"questions à se poser lors des phases de test. En garder une trace écrite de ses "
-"réflexions évite aussi un des biais listé dans l'article. </p> <h3>Tester une "
-"carte</h3> <p> Pour tester une carte, il ne faut pas attendre de la piocher et de la "
-"jouer. En effet, les probabilités de piocher cette carte dans un deck de 98 à 99 "
-"cartes est faible et suit %(loi_hypergeometrique)s. </p> <p> Il vaut mieux considérer"
-" la carte comme étant <em>en zone de commandement</em> et de se poser régulièrement "
-"les questions suivantes : </p> <ul> <li> Si la carte est piochée ce tour-ci, "
-"sera-t-elle jouable ? résoudra-t-elle la situation ? </li> <li> Si la carte piochée "
-"est un tuteur, est-ce que la carte testée serait le meilleur choix ? </li> <li> Est-"
-"ce que la carte, si elle est piochée au prochain tour, apporte une solution à la "
-"situation présente ? </li> </ul> <h3>Tester et analyser les parties</h3> <p> Tester "
-"le deck revient à jouer des parties. Il faut donc analyser ces parties pour "
-"comprendre ce qui a fonctionné et ce qui n'a pas fonctionné. Cela se traduit en deux "
-"étapes : </p> <ol> <li> Garder une trace écrite de chaque partie avec les "
-"informations suivantes : <ul> <li>Qui a commencé ?</li> <li>Qui a mulligané et "
-"combien de fois ?</li> <li>Qui a gagné ?</li> <li>Quel est le taux de victoire du "
-"deck ?</li> </ul> </li> <li> Etudier le rythme de la partie et les choix effectués : "
-"<ul> <li> Quels choix ont fait gagner un avantage dans la partie et pourquoi ? </li> "
-"<li> Quelles cartes ont permis de gagner un avantage et pourquoi ? </li> <li> Quelles"
-" cartes ont été décevantes dans la partie et pourquoi ? </li> <li> Quelles cartes "
-"aurait-il fallu piocher et pourquoi ? </li> <li> Quelles cartes n'aurait-il pas fallu"
-" piocher et pourquoi ? </li> </ul> </li> </ol> <h3>Discuter de ses retours</h3> <p> "
-"Armé de tous ces retours sur chaque partie, il faut comparer son analyse avec son "
-"adversaire dans un premier temps puis avec un groupe extérieur à la partie qui "
-"permettra de juger si les ressentis à chaud étaient corrects. </p> <p> L'avantage est"
-" de consolider les retours faits sur les parties et aussi de confronter sa propre "
-"méthode d'analyse à celle d'autres personnes pour affuter son regard et supprimer au "
-"fur et à mesure les différents biais qui sont ainsi révélés. </p>"
+"Paulo Vitor Damo Da Rosa évoque dans l'article %(bias)s publié sur Channel Fireball "
+"des comportements psychologiques involontaires qui altèrent la perception de données "
+"à Magic."
 msgstr ""
+"Paulo Vitor Damo Da Rosa mentions in the article %(bias)s published on Channel "
+"Fireball involuntary psychological behaviors that alter the perception of data at "
+"Magic."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:274
+#: barrins_codex/templates/articles/construire-un-deck.html:324
+msgid ""
+"Pour éviter ces biais, voici quelques questions à se poser lors des phases de test. "
+"Garder une trace écrite de ses réflexions évite aussi un des biais listé dans "
+"l'article."
+msgstr ""
+"To avoid these biases, here are some questions to ask yourself during the test "
+"phases. Keeping a written record of your thoughts also avoids one of the biases "
+"listed in the article."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:329
+msgid "Tester une carte"
+msgstr "Testing a card"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:332
 msgid "la loi hypergéométrique (<em>à venir</em>)"
 msgstr "the hypergeometric distribution (<em>to come soon</em>)"
 
-#: barrins_codex/templates/articles/construire-un-deck.html:358
+#: barrins_codex/templates/articles/construire-un-deck.html:331
 #, python-format
 msgid ""
-"<div class=\"tip\"> <h3>Définir des critères universels d'acceptation</h3> <p> Lors "
-"de la construction du deck, il faut se fixer des limites qu'il ne faut pas dépasser "
-"en terme de coût de mana pour un effet donné. </p> <p> Par exemple, il est admis "
-"qu'un %(spot_removal)s coûte 2 manas. En cas de surcoût, les avantages fournis "
-"doivent être justifiés et conséquents au risque d'avoir un deck peu efficace. </p> "
-"<p> De même, dans des decks agressifs, il est admis qu'une créature doit pouvoir "
-"infliger autant de dégâts que son coût en mana, parfois plus mais rarement moins. "
-"</p> </div>"
+"Pour tester une carte, il ne faut pas attendre de la piocher et de la jouer. En "
+"effet, les probabilités de piocher cette carte dans un deck de 98 à 99 cartes est "
+"faible et suit %(loi_hypergeometrique)s."
 msgstr ""
+"To test a card, you don't have to wait to draw and play it. Indeed, the probability "
+"of drawing this card in a deck of 98 to 99 cards is low and follows "
+"%(loi_hypergeometrique)s."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:340
+msgid ""
+"Il vaut mieux considérer la carte comme étant <em>en zone de commandement</em> et de "
+"se poser régulièrement les questions suivantes :"
+msgstr ""
+"It is better to think of the map as being <em>in the command zone</em> and to ask "
+"yourself the following questions regularly:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:347
+msgid ""
+"Si la carte est piochée ce tour-ci, sera-t-elle jouable ? résoudra-t-elle la "
+"situation ?"
+msgstr "If the card is drawn this turn, will it be playable? will it solve the situation?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:352
+msgid ""
+"Si la carte piochée est un tuteur, est-ce que la carte testée serait le meilleur "
+"choix ?"
+msgstr "If the card drawn is a guardian, would the tested card be the best choice?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:357
+msgid ""
+"Est-ce que la carte, si elle est piochée au prochain tour, apporte une solution à la "
+"situation présente ?"
+msgstr "Does the card, if drawn on the next turn, provide a solution to the present situation?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:363
+msgid "Tester et analyser les parties"
+msgstr "Testing and analyzing games"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:365
+msgid ""
+"Tester le deck revient à jouer des parties. Il faut donc analyser ces parties pour "
+"comprendre ce qui a fonctionné et ce qui n'a pas fonctionné. Cela se traduit en deux "
+"étapes :"
+msgstr ""
+"Testing the deck is like playing games. So you have to analyze these parts to "
+"understand what worked and what didn't. This translates into two steps:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:372
+msgid "Garder une trace écrite de chaque partie avec les informations suivantes :"
+msgstr "Keeping a written record of each part with the following information:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:374
+msgid "Qui a commencé ?"
+msgstr "Who started?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:375
+msgid "Qui a mulligané et combien de fois ?"
+msgstr "Who mulliganed and how many times?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:376
+msgid "Qui a gagné ?"
+msgstr "Who won?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:377
+msgid "Quel est le taux de victoire du deck ?"
+msgstr "What is the winrate of the deck?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:381
+msgid "Etudier le rythme de la partie et les choix effectués :"
+msgstr "Studying game's tempo and choices made:"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:384
+msgid "Quels choix ont fait gagner un avantage dans la partie et pourquoi ?"
+msgstr "What choices have resulted in an advantage in the game and why?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:387
+msgid "Quelles cartes ont permis de gagner un avantage et pourquoi ?"
+msgstr "Which cards gave you an advantage and why?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:390
+msgid "Quelles cartes ont été décevantes dans la partie et pourquoi ?"
+msgstr "Which cards were disappointing in the game and why?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:393
+msgid "Quelles cartes aurait-il fallu piocher et pourquoi ?"
+msgstr "Which cards should you have drawn and why?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:396
+msgid "Quelles cartes n'aurait-il pas fallu piocher et pourquoi ?"
+msgstr "Which cards should not have been drawn and why?"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:401
+msgid "Discuter de ses retours"
+msgstr "Discussing about ones analysis"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:403
+msgid ""
+"Armé de tous ces retours sur chaque partie, il faut comparer son analyse avec son "
+"adversaire dans un premier temps puis avec un groupe extérieur à la partie qui "
+"permettra de juger si les ressentis à chaud étaient corrects."
+msgstr ""
+"Armed with all this feedback on each game, you have to compare your analysis with "
+"your opponent first and then with a group outside the game which will allow you to "
+"judge whether the hot feelings were correct."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:411
+msgid ""
+"L'avantage est de consolider les retours faits sur les parties et aussi de confronter"
+" sa propre méthode d'analyse à celle d'autres personnes pour affûter son regard et "
+"supprimer au fur et à mesure les différents biais qui sont ainsi révélés."
+msgstr ""
+"The advantage is to consolidate the feedback given on the parties and also to compare"
+" your own method of analysis with that of other people to sharpen your gaze and "
+"gradually remove the various biases that are thus revealed."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:419
+msgid "Définir des critères universels d'acceptation"
+msgstr "Defining universal acceptance criteria"
+
+#: barrins_codex/templates/articles/construire-un-deck.html:421
+msgid ""
+"Lors de la construction du deck, il faut se fixer des limites qu'il ne faut pas "
+"dépasser en terme de coût de mana pour un effet donné."
+msgstr ""
+"When building the deck, you have to set limits that should not be exceeded in terms "
+"of mana cost for a given effect."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:427
+#, python-format
+msgid ""
+"Par exemple, il est admis qu'un %(spot_removal)s coûte 2 manas. En cas de surcoût, "
+"les avantages fournis doivent être justifiés et conséquents, au risque d'avoir un "
+"deck peu efficace."
+msgstr ""
+"For example, it is accepted that a %(spot_removal)s costs 2 mana. In the event of "
+"additional costs, the advantages provided must be justified and substantial, at the "
+"risk of having an ineffective deck."
+
+#: barrins_codex/templates/articles/construire-un-deck.html:436
+msgid ""
+"De même, dans des decks agressifs, il est admis qu'une créature doit pouvoir infliger"
+" autant de dégâts que son coût en mana, parfois plus mais rarement moins."
+msgstr ""
+"Likewise, in aggressive decks, it is accepted that a creature must be able to deal as"
+" much damage as its mana cost, sometimes more but rarely less."
 
 #: barrins_codex/templates/articles/index.html:10
 msgid "Cette section explore la stratégie de <strong>Magic: the Gathering</strong>."
