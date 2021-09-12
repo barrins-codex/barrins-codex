@@ -1,7 +1,7 @@
 Changelog
 =========
 
-5.0.3 (unreleased)
+5.0.3 (2021-09-12)
 ------------------
 
 - Section Archétypes complètement traduite
