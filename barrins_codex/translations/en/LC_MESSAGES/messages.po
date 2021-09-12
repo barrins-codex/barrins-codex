@@ -4231,7 +4231,7 @@ msgstr "This section explore the strategy of <strong>Magic: the Gathering</stron
 #: barrins_codex/templates/articles/index.html:17
 #: barrins_codex/templates/cartes-thematiques/index.html:70
 msgid "D'autres articles à venir ..."
-msgstr ""
+msgstr "Other articles to come..."
 
 #: barrins_codex/templates/cartes-thematiques/_layout_wip.html:3
 #, python-format

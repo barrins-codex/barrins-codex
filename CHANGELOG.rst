@@ -7,6 +7,7 @@ Changelog
 - Section Archétypes complètement traduite
 - Article "Classifier un deck" traduit
 - Article "Construire un deck" traduit
+- Section Articles complètement traduite
 
 
 5.0.2 (2021-08-26)
