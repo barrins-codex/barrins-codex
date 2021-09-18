@@ -1,19 +1,21 @@
 {% extends "cartes-thematiques/_layout_card_display.html" %}
 
 {% block content %}
-{% trans trimmed
-	les_blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs")
-%}
-<h1>Les spot removals</h1>
+
+<h1>{{ _("Les spot removals") }}</h1>
 <div class="tip">
+	{% trans trimmed %}
 	Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des permanents du champ
 	de bataille. Il en existe plusieurs catégories : les <em>spot removals</em> qui permettent de
-	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs. {{ les_blasts }}
-	font l'objet d'une étude détaillée à part.
+	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs.
+	{% endtrans %}
+	{% trans trimmed
+		les_blasts=link("/cartes-thematiques/mecaniques-de-la-colorpie/les-degats-directs")
+	%}
+	{{ les_blasts }} font l'objet d'une étude détaillée à part.
+	{% endtrans %}
 </div>
-{% endtrans %}
 
-{# BLANC #}
 {% call layout.card_column("Council's Judgment", _("Exil de permanent")) %}
 {% trans trimmed %}
 Carte qui ne cible pas le permanent qui va être exilé. Cela en fait une gestion de choix contre les

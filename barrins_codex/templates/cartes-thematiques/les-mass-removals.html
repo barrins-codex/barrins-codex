@@ -1,14 +1,14 @@
 {% extends "cartes-thematiques/_layout_card_display.html" %}
 
 {% block content %}
-{% trans trimmed %}
-<h1>Les mass removals</h1>
+<h1>{{ _("Les mass removals") }}</h1>
 <div class="tip">
+	{% trans trimmed %}
 	Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des permanents du champ
 	de bataille. Il en existe plusieurs catégories : les <em>spot removals</em> qui permettent de
 	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs.
+	{% endtrans %}
 </div>
-{% endtrans %}
 
 {% call layout.card_column("Armageddon", _("Destruction de terrains")) %}
 {% trans trimmed
@@ -177,7 +177,7 @@ large éventail de posibilités dont les impacts ne sont pas négligeables.
 {% trans trimmed
 	pernicious_deed=card("Pernicious Deed")
 %}
-Bien que plus lent à préparer, ce terrain est plus joué que {{ pernicious_deed }}. La principale
+Bien que plus lent à préparer, ce terrain a été plus joué que {{ pernicious_deed }}. La principale
 raison étant l'identité couleur qui permet de sélectionner ce terrain pour pouvoir bénéficier de
 cet effet si c'est nécessaire.
 {% endtrans %}

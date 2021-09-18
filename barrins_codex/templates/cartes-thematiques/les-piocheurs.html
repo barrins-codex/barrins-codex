@@ -1,16 +1,23 @@
 {% extends "cartes-thematiques/_layout_card_display.html" %}
 
 {% block content %}
-{% trans trimmed %}
-<h1>Les piocheurs</h1>
+<h1>{{ _("Les piocheurs") }}</h1>
 <div class="tip">
+	{% trans trimmed %}
 	Les piocheurs sont des cartes qui se remplacent voire qui crée du <em>Card Advantage</em>. En
-	effet, dès quil est possible de piocher plus d'une carte immédiatement ou sur plusieurs tours,
+	effet, dès qu'il est possible de piocher plus d'une carte immédiatement ou sur plusieurs tours,
 	ces cartes deviennent redoutables pour garder une taille de main raisonnable et donc pouvoir
 	utiliser le maximum de sorts possible.
+	{% endtrans %}
 </div>
-{% endtrans %}
 
+{% call layout.card_column("Wall of Omens") %}
+{% trans trimmed %}
+Cette créature, comme {{ wall_of_blossoms }}, permet d'absorber une grande partie des dégâts de
+l'adversaire. Le fait qu'elle se remplace en fait une carte de choix dans les decks ne cherchant pas
+à être en position d'agresseur.
+{% endtrans %}
+{% endcall %}
 
 {% call layout.card_column("Blink of an Eye", _("Bounce de permanent")) %}
 {% trans trimmed
@@ -62,13 +69,6 @@ Elle est souvent jouée avec {{ blink_of_an_eye }}.
 %}
 Planeswalker le plus joué, il offre des possibilités intéressantes entre du {{ bounce }}, de la
 pioche et une condition de victoire.
-{% endtrans %}
-{% endcall %}
-
-{% call layout.card_column("Narset, Parter of Veils") %}
-{% trans trimmed %}
-Planeswalker très utile contre Contrôle essentiellement car elle permet d'annuler tout
-<em>Card Advantage</em> que l'adversaire essaye de mettre en place.
 {% endtrans %}
 {% endcall %}
 
@@ -128,7 +128,7 @@ tout en ayant la possibilité de se remplacer aisément.
 {% trans trimmed %}
 Carte dont l'objectif est double : à la fois préparer les cartes qui sont piochées mais aussi
 piocher plus d'une carte si nécessaire. Il ne faut pas hésiter à piocher plus de cartes lorsque la
-qualité diminue pour renouveller le stock de cartes manipulées.
+qualité diminue pour renouveler le stock de cartes manipulées.
 {% endtrans %}
 {% endcall %}
 

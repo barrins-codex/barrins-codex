@@ -4,7 +4,9 @@ Changelog
 5.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Article "Les Spot Removal" traduit
+- Article "Les Mass Removal" traduit
+- Article "Les Priocheurs" traduit
 
 
 5.0.3 (2021-09-12)

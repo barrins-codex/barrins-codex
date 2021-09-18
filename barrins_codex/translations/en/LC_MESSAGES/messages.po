@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-12 10:22+0200\n"
+"POT-Creation-Date: 2021-09-18 10:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -376,7 +376,7 @@ msgid ""
 "majorité des decks tempo, ce deck dispose d'une quantité correcte de contresorts pour"
 " protéger ses menaces et ralentir le développement de l'adversaire."
 msgstr ""
-"Playing %(adeliz_the_cinder_wind)s on turn 5 is a safeguard that allows to have some "
+"Playing %(adeliz_the_cinder_wind)s on turn 5 is a safeguard to have some "
 "%(contresort)s as a back-up. Indeed, like the majority of tempo decks, the decent "
 "amount of counterspells is ideal to either protect the threats or to disrupt the "
 "opponent's game."
@@ -761,7 +761,7 @@ msgid ""
 "bibliothèque. Les choix induits selon la carte vue sur le Regard a en plus un impact "
 "sur la partie :"
 msgstr ""
-"To a lesser extent, lands that allow you to filter the underside of the library for "
+"To a lesser extent, lands that filters the bottom of the library for "
 "Grenzo, such as %(path_of_ancestry)s will slow down the development of the deck in "
 "terms of aggressiveness and their usefulness will not be significant until late in "
 "the game. In addition to this significant slowdown, these cards will reduce both the "
@@ -2252,8 +2252,8 @@ msgid ""
 " différentes combos du deck et d'avoir accès aux outils de gestion."
 msgstr ""
 "Using lands to take advantage of %(the_gitrog_monster)s ability to draw means putting"
-" them into play from the library or thegraveyard and sacrificing them. It is this "
-"draw that allows to assemble the different combos of the deck and to have access to "
+" them into play from the library or the graveyard and sacrificing them. It is this "
+"draw that assembles the different combos of the deck and to have access to "
 "the removals."
 
 #: barrins_codex/templates/archetypes/the-gitrog-monster.html:30
@@ -2459,8 +2459,7 @@ msgid ""
 "de ralentir le développement de l'adversaire."
 msgstr ""
 "The pace of the game should be dictated by this deck. It's up to the creatures of the"
-" deck to apply a lot of pressure (a <em>clock</em>) that allows you to be the "
-"aggressor quickly. Keep in mind that the deck plays %(hatebear)s which slow down the "
+" deck to apply a lot of pressure (a <em>clock</em>) quickly. Keep in mind that the deck plays %(hatebear)s which slow down the "
 "opponent's development."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:39
@@ -4289,12 +4288,21 @@ msgid "Les cycles de terrains"
 msgstr "The lands cycle"
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:4
+#, fuzzy
+msgid "Les mass removals"
+msgstr "Mass Removals"
+
+#: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:6
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:7
 msgid ""
-"<h1>Les mass removals</h1> <div class=\"tip\"> Les removals sont des sorts qui "
-"permettent de retirer (<em>remove</em>) des permanents du champ de bataille. Il en "
-"existe plusieurs catégories : les <em>spot removals</em> qui permettent de gérer une "
-"seule carte et les <em>mass removals</em> qui en gèrent plusieurs. </div>"
+"Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des "
+"permanents du champ de bataille. Il en existe plusieurs catégories : les <em>spot "
+"removals</em> qui permettent de gérer une seule carte et les <em>mass removals</em> "
+"qui en gèrent plusieurs."
 msgstr ""
+"Removals are spells that removes permanents from the battlefield. There "
+"are several categories: <em>spot removals</em> which allow you to handle a single "
+"card and <em>mass removals</em> which manage several."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:13
 msgid "Destruction de terrains"
@@ -4438,7 +4446,7 @@ msgstr ""
 "%(daretti_scrap_savant)s and in %(voltron)s decks like %(maelstrom_wanderer)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:100
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:122
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:124
 msgid "Dégâts et Destruction"
 msgstr "Damage and Destruction"
 
@@ -4451,9 +4459,9 @@ msgstr ""
 "small creatures that <em>chump blocks</em> and annoying artifacts."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:107
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:129
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:137
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:146
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:131
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:139
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:148
 msgid "Dégâts à une créature"
 msgstr "Damage to a creature"
 
@@ -4538,83 +4546,114 @@ msgid ""
 "loyauté couvrent un large éventail de posibilités dont les impacts ne sont pas "
 "négligeables."
 msgstr ""
+"This planeswalker allows you to manage the state of the game at will. Its loyalty "
+"abilities cover a wide range of possibilities, the impacts of which are not "
+"negligible."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:177
 #, python-format
 msgid ""
-"Bien que plus lent à préparer, ce terrain est plus joué que %(pernicious_deed)s. La "
-"principale raison étant l'identité couleur qui permet de sélectionner ce terrain pour"
-" pouvoir bénéficier de cet effet si c'est nécessaire."
+"Bien que plus lent à préparer, ce terrain a été plus joué que %(pernicious_deed)s. La"
+" principale raison étant l'identité couleur qui permet de sélectionner ce terrain "
+"pour pouvoir bénéficier de cet effet si c'est nécessaire."
 msgstr ""
+"Although slower to prepare, this land has seen more play than %(pernicious_deed)s. "
+"The main reason is the color identity that allows this terrain to be chosen more often to benefit from this effect if necessary."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:4
+msgid "Les piocheurs"
+msgstr "Cantrips"
+
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:6
 msgid ""
-"<h1>Les piocheurs</h1> <div class=\"tip\"> Les piocheurs sont des cartes qui se "
-"remplacent voire qui crée du <em>Card Advantage</em>. En effet, dès quil est possible"
-" de piocher plus d'une carte immédiatement ou sur plusieurs tours, ces cartes "
-"deviennent redoutables pour garder une taille de main raisonnable et donc pouvoir "
-"utiliser le maximum de sorts possible. </div>"
+"Les piocheurs sont des cartes qui se remplacent voire qui crée du <em>Card "
+"Advantage</em>. En effet, dès qu'il est possible de piocher plus d'une carte "
+"immédiatement ou sur plusieurs tours, ces cartes deviennent redoutables pour garder "
+"une taille de main raisonnable et donc pouvoir utiliser le maximum de sorts possible."
 msgstr ""
+"Cantrips are cards that replace themselves or even create <em>Card Advantage</em>. "
+"Indeed, as soon as it is possible to draw more than one card immediately or over "
+"several turns, these cards become formidable in order to keep a reasonable hand size "
+"and therefore be able to use as many spells as possible."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:15
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:49
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:53
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:60
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:69
+#, python-format
+msgid ""
+"Cette créature, comme %(wall_of_blossoms)s, permet d'absorber une grande partie des "
+"dégâts de l'adversaire. Le fait qu'elle se remplace en fait une carte de choix dans "
+"les decks ne cherchant pas à être en position d'agresseur."
+msgstr ""
+"This creature, like %(wall_of_blossoms)s, absorbs a large portion of the opponent's "
+"damage. The fact that it replaces itself makes it a card of choice in decks that do "
+"not seek to be the <em>beater</em>."
+
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:22
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:56
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:55
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:62
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:71
 msgid "Bounce de permanent"
 msgstr "Permanent Bounce Removal"
 
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:16
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:23
 #, python-format
 msgid ""
 "Avant tout un %(bounce)s, cette carte permet pour une somme correcte de se remplacer."
 " Elle est souvent jouée avec %(into_the_roil)s."
 msgstr ""
+"First and foremost a %(bounce)s, this card replace itself for a decent cost. It is "
+"often played with %(into_the_roil)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:26
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:33
 #, python-format
 msgid ""
 "Carte qui est très puissante dans les formats Éternels. Son utilisation avec un "
 "%(fetch)s permet de « recycler » des cartes peu utiles et permet souvent de débloquer"
 " la situation."
 msgstr ""
+"Card which is very powerful in Eternal formats. Its use with a %(fetch)s makes it "
+"possible to \"recycle\" cards of little use and often makes it possible to unlock the"
+" situation."
 
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:35
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:42
 msgid ""
 "Carte qui permet de gagner de l'information sur la main de l'adversaire, elle est "
 "privilégiée dans les decks Contrôle et les decks Combo qui ont besoin de davantage "
 "d'information que les autres decks de manière générale."
 msgstr ""
+"Card that gives information on the opponent's hand, it is preferred in "
+"Control decks and Combo decks which need more information than other decks in "
+"general."
 
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:43
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:50
 msgid ""
 "Carte qui permet de filtrer le deck. Elle est jouée principalement dans les decks qui"
 " cherchent à accéder à une carte précise ou à un de ses doublons fonctionnels."
 msgstr ""
+"Card that filters the deck. It is played mainly in decks that seek to access a "
+"specific card or one of its functional duplicates."
 
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:50
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:57
 #, python-format
 msgid ""
 "Avant tout un %(bounce)s, cette carte permet pour une somme correcte de se remplacer."
 " Elle est souvent jouée avec %(blink_of_an_eye)s."
 msgstr ""
+"First and foremost a %(bounce)s, this card replace itself for a decent cost. It is "
+"often played with %(blink_of_an_eye)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:60
+#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:67
 #, python-format
 msgid ""
 "Planeswalker le plus joué, il offre des possibilités intéressantes entre du "
 "%(bounce)s, de la pioche et une condition de victoire."
 msgstr ""
-
-#: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:69
-msgid ""
-"Planeswalker très utile contre Contrôle essentiellement car elle permet d'annuler "
-"tout <em>Card Advantage</em> que l'adversaire essaye de mettre en place."
-msgstr ""
+"The most played planeswalker, it offers interesting possibilities between %(bounce)s,"
+" draw and a win condition."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:76
 msgid "Un éphémère à bas coût qui permet de filtrer le deck, il est très apprécié."
-msgstr ""
+msgstr "A low-cost instant that filters the deck, it is very popular."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:82
 #, python-format
@@ -4622,18 +4661,24 @@ msgid ""
 "Lorsque l'accès à l'information est un besoin, jouer cette carte en plus de "
 "%(gitaxian_probe)s peut se révéler utile car elle aussi se remplace."
 msgstr ""
+"When access to information is a need, playing this card in addition to "
+"%(gitaxian_probe)s can be useful because it too can be replaced."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:91
 msgid ""
 "Carte jouée car elle permet de préparer les prochains tours. Il est nécessaire de "
 "choisir de mélanger la bibliothèque si jamais une seule des trois cartes est utile."
 msgstr ""
+"Card played because it allows to prepare the next turns. It is necessary to choose to"
+" shuffle the library if ever only one of the three cards is useful."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:98
 msgid ""
 "Carte jouée car elle permet de préparer le tour en cours. La carte est à jouer dans "
 "l'optique d'un Big Turn ou de la recherche d'une interaction particulière."
 msgstr ""
+"Card played because it allows you to prepare for the current turn. The card is to be "
+"played with a view to a Big Turn or the search for a particular interaction."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:105
 #, python-format
@@ -4641,6 +4686,8 @@ msgid ""
 "Autre cantrip joué dans les decks Combo, cette carte est à prioriser pendant le Big "
 "Turn, contrairement à %(sleight_of_hand)s."
 msgstr ""
+"Another cantrip played in Combo decks, this card is to be prioritized during the Big "
+"Turn, unlike %(sleight_of_hand)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:114
 msgid ""
@@ -4648,20 +4695,28 @@ msgid ""
 "préparer un Big Turn. En effet, le filtrage n'a pas d'effet immédiat mais est quand "
 "même conséquent."
 msgstr ""
+"Cantrip played in Modern for lack of the others, this card remains interesting to "
+"prepare a Big Turn. Indeed, the filtering has no immediate effect but is still "
+"substantial."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:121
 msgid ""
 "Carte qui est de plus en plus jouée car elle permet d'interagir avec le cimetière de "
 "l'adversaire tout en ayant la possibilité de se remplacer aisément."
 msgstr ""
+"Card that is played more and more because it allows you to interact with the "
+"opponent's graveyard while having the possibility of easily replacing oneself."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:128
 msgid ""
 "Carte dont l'objectif est double : à la fois préparer les cartes qui sont piochées "
 "mais aussi piocher plus d'une carte si nécessaire. Il ne faut pas hésiter à piocher "
-"plus de cartes lorsque la qualité diminue pour renouveller le stock de cartes "
+"plus de cartes lorsque la qualité diminue pour renouveler le stock de cartes "
 "manipulées."
 msgstr ""
+"Card whose objective is twofold: both to prepare the cards that are drawn but also to"
+" draw more than one card if necessary. Do not hesitate to draw more cards when the "
+"quality decreases to renew the stock of cards handled."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:136
 msgid ""
@@ -4669,10 +4724,12 @@ msgid ""
 "bloque. C'est une carte très appréciée dans l'ensemble des decks qui peuvent la "
 "jouer."
 msgstr ""
+"Creature which replaces itself, it allows to kill almost all the creatures that it "
+"blocks. It is a very popular card in all decks that can play it."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:144
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:171
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:139
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:141
 msgid "dégats directs"
 msgstr "direct damage"
 
@@ -4682,12 +4739,16 @@ msgid ""
 "Carte très versatile qui permet, pour un coût décent, de ralentir l'accès au mana de "
 "l'adversaire en plus de fournir la possibilité d'infliger des %(blasts)s."
 msgstr ""
+"Very versatile card that slows down, for a decent cost, the access to the "
+"opponent's mana in addition to providing the possibility of inflicting %(blasts)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:152
 msgid ""
 "Planeswalker très oppressant, il est toujours utile car son -3 permet de le remplacer"
 " dans presque toutes les situations."
 msgstr ""
+"A very oppressive Planeswalker, it is always useful as its -3 can replace it in "
+"almost any situation."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:159
 #, python-format
@@ -4696,6 +4757,9 @@ msgid ""
 "permet, si nécessaire, de %(bounce)s un permanent si nécessaire. Tout comme "
 "%(jace_the_mind_sculptor)s, son ultimatum est une condition de victoire."
 msgstr ""
+"Planeswalker with a high cost, it generates <em>Card Advantage</em> quickly and "
+"allows, if necessary, to %(bounce)s a permanent if necessary. Like "
+"%(jace_the_mind_sculptor)s, its ultimatum is a condition of victory."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:170
 #, python-format
@@ -4703,28 +4767,24 @@ msgid ""
 "Équipement recherché par les decks souhaitant esquiver les %(blasts)s et obtenir la "
 "possibilité de piocher des cartes sur le long terme."
 msgstr ""
+"Equipment sought by decks wishing to dodge %(blasts)s and gaining the ability to draw"
+" cards in the long run."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:4
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:5
+msgid "Les spot removals"
+msgstr "Spot Removals"
+
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:12
 #, python-format
-msgid ""
-"<h1>Les spot removals</h1> <div class=\"tip\"> Les removals sont des sorts qui "
-"permettent de retirer (<em>remove</em>) des permanents du champ de bataille. Il en "
-"existe plusieurs catégories : les <em>spot removals</em> qui permettent de gérer une "
-"seule carte et les <em>mass removals</em> qui en gèrent plusieurs. %(les_blasts)s "
-"font l'objet d'une étude détaillée à part. </div>"
-msgstr ""
-"<h1>Spot removals</h1> <div class=\"tip\"> Removals are spells that allow the removal"
-" of permanents from the battlefield. There are several categories: <em>spot "
-"removals</em> which allow you to handle a single card and <em>mass removals</em> "
-"which manage several. %(les_blasts)s are the subject of a detailed study in "
-"part</div>"
+msgid "%(les_blasts)s font l'objet d'une étude détaillée à part."
+msgstr "%(les_blasts)s are the subject of a detailed study."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:17
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:40
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:19
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:42
 msgid "Exil de permanent"
 msgstr "Exil of permanents"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:18
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:20
 msgid ""
 "Carte qui ne cible pas le permanent qui va être exilé. Cela en fait une gestion de "
 "choix contre les permanents inciblables, à cause de l'<em>Hexproof</em> ou du "
@@ -4734,14 +4794,14 @@ msgstr ""
 "management of choice against non-targetable permanents, because of <em>Hexproof</em> "
 "or <em>Shroud</em> for example."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:24
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:32
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:47
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:94
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:26
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:34
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:49
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:96
 msgid "Exil de créature"
 msgstr "Exil of creature"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:25
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:27
 msgid ""
 "Un des rares exils de créatures en enchantement. Cette carte nécessite de jouer des "
 "terrains basiques neigeux, ce qui n'est pas une condition compliquée à remplir."
@@ -4749,7 +4809,7 @@ msgstr ""
 "One of the rare exiles of enchanting creatures this card requires playing basic snow "
 "lands, which is not a complicated condition to meet."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:33
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:35
 msgid ""
 "Joué lorsque cela ne va pas à l'encontre du plan de jeu. Sa gestion passant par le "
 "fait d'être <em>monarch</em>, elle crée, dans le même temps, du <em>Card "
@@ -4759,140 +4819,172 @@ msgstr ""
 "giving <em>The Monarch</em>, it creates, at the same time, <em>Card Advantage</em> "
 "during a few turns."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:41
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:43
 msgid ""
 "Créature disponible depuis l'extension <em>Zendikar Rising</em> qui est de plus en "
 "plus représentée. Exiler un permanent ayant un <em>CCM</em> de quatre peut se révéler"
 " dangereux."
 msgstr ""
+"Creature available from the <em>Zendikar Rising</em> expansion which is "
+"increasingly represented. Exiling a permanent with a <em>CMC</em> of four can be "
+"dangerous."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:48
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:50
 msgid "Meilleur removal de la couleur et aussi carte la plus jouée en blanc dans le format."
-msgstr ""
+msgstr "Best white spot removal and also the most played white card in the format."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:54
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:56
 msgid ""
 "Ce sort renvoie le permanent dans la bibliothèque de son propriétaire. Cela peut "
 "s'avouer être une arme redoutable lorsque l'adversaire souhaite chercher dans sa "
 "bibliothèque."
 msgstr ""
+"This spell returns the permanent to its owner's library. This can prove to be a "
+"formidable weapon when the opponent wishes to search in their library."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:61
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:63
 #, python-format
 msgid ""
 "Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de "
 "piocher une carte. Elle est souvent jouée avec %(into_the_roil)s."
 msgstr ""
+"Fairly generic removal that can sometimes be expensive to cast if the objective "
+"is to draw a card. It is often played with %(into_the_roil)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:70
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:72
 #, python-format
 msgid ""
 "Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de "
 "piocher une carte. Elle est souvent jouée avec %(blink_of_an_eye)s."
 msgstr ""
+"Fairly generic removal that can sometimes be expensive to cast if the objective "
+"is to draw a card. It is often played with %(blink_of_an_eye)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:78
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:80
 msgid "Bounce de créature"
-msgstr ""
+msgstr "Bounce of creature"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:79
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:81
 msgid ""
 "Gestion utilisée principalement en complément des blasts dans les decks Tempo et "
 "Aggro. La carte s'intègre très bien dans ces plans de jeu."
 msgstr ""
+"Removal mainly used in addition to blasts in Tempo and Aggro decks. This card fits "
+"very well into these game plans."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:85
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:101
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:87
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:103
 msgid "Réduction de l'endurance"
-msgstr ""
+msgstr "Toughness Decrease"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:86
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:88
 #, python-format
 msgid ""
 "Carte versatile qui fournit plusieurs utilisations. Elle est souvent jouée dans les "
 "decks qui utilisent leur cimetière, avec %(life_from_the_loam)s par exemple."
 msgstr ""
+"Versatile card that provides multiple uses. It is often played in decks that use "
+"their graveyard, with %(life_from_the_loam)s for example."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:95
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:97
 msgid ""
 "Carte relativement facile à intégrer dans un deck. L'effet de surprise est un plus "
 "non négligeable qui permet de se sortir de certaines situations."
 msgstr ""
+"Card that integrates relatively easyly to into a deck. The surprise effect is a significant "
+"plus."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:102
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:104
 msgid ""
 "Carte qui représente à elle seule cette famille de sorts. Réduire l'endurance d'un "
 "créature permet de passer outre le fait qu'elle soit <em>Indestrucible</em> par "
 "exemple."
 msgstr ""
+"Card that alone represents this family of spells. Decreasing a creature's toughness "
+"overrides the fact that it is <em>Indestructible</em> for example."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:108
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:195
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:110
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:197
 msgid "Destruction de créature"
-msgstr ""
+msgstr "Creature destruction"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:109
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:111
 msgid ""
 "L'anti-créature le plus joué du format. Cette carte a un coût très bas et permet de "
 "détruire une grande majorité des créatures, dont des généraux."
 msgstr ""
+"The most played anti-creature of the format. This card has a very low cost and can "
+"destroy a large majority of creatures, including generals."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:115
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:155
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:177
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:186
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:204
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:117
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:157
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:179
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:188
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:206
 msgid "Destruction de permanent"
-msgstr ""
+msgstr "Permanent destruction"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:116
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:118
 msgid ""
 "Carte qui permet de gérer aussi bien une créature qu'un planeswalker. Elle est "
 "fréquente dans les decks qui ont besoin de gérer ces deux menaces à la fois."
 msgstr ""
+"Card that removes both a creature and a planeswalker. It's common in "
+"decks that need to deal with both of these threats at the same time."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:123
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:125
 msgid ""
 "Carte avec un coût de mana décent et des options intéressantes. Cela en fait une "
 "carte de choix pour les decks ayant besoin de gérer les artefacts en plus des "
 "créatures."
 msgstr ""
+"Card with a decent mana cost and some cool options. This makes it a card of choice "
+"for decks that need to deal with artifacts in addition to creatures."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:130
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:132
 msgid ""
 "Ce planeswalker est très impactant car elle résume à elle seule beaucoup d'outils qui"
 " permettent aussi bien de gérer une créature que de filtrer son deck en infligeant "
 "des dégâts directs à l'adversaire."
 msgstr ""
+"This planeswalker is very impactful because it alone sums up many tools that removes a creature as well as filters the deck while inflicting direct damage on "
+"the opponent."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:138
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:140
 #, python-format
 msgid ""
 "Carte jouée en plus des %(blasts)s car elle ne cible que les créatures. Le montant "
 "des dégâts infligés en fait un choix très intéressant."
 msgstr ""
+"Card played in addition to %(blasts)s because it only targets creatures. The amount "
+"of damage dealt makes it a very interesting choice."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:147
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:149
 #, python-format
 msgid ""
 "Souvent utilisé pour infliger des dégâts à plusieurs créatures, il est également "
 "possible de n'en cibler qu'une seule. %(spellskite)s ne peut pas réduire le nombre de"
 " cibles de ce sort."
 msgstr ""
+"Often used to deal damage to multiple creatures, it is also possible to target only "
+"one. %(spellskite)s cannot reduce the number of targets of this spell."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:156
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:158
 #, python-format
 msgid ""
 "Une des rares gestion en vert avec %(song_of_the_dryads)s qui est joué le plus "
 "souvent dans les mêmes decks. Selon les armes à disposition, des cartes comme "
 "%(prey_upon)s peuvent aussi être envisageables."
 msgstr ""
+"One of the few green removals with %(song_of_the_dryads)s which is played most "
+"often in the same decks. Depending on the weapons available, cards like "
+"%(prey_upon)s may also be possible."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:166
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:168
 msgid "Neutralisation de permanent"
-msgstr ""
+msgstr "Permanent neutralization"
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:167
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:169
 #, python-format
 msgid ""
 "Une des rares cartes de neutralisation de permanent avec %(darksteel_mutation)s. "
@@ -4900,34 +4992,43 @@ msgid ""
 "de cartes qui permettent de détruire un terrain, %(ghost_quarter)s est une de ces "
 "rares cartes."
 msgstr ""
+"One of the few permanent neutralization cards with %(darksteel_mutation)s. This "
+"method to handle an opposing general can be optimal because there are few cards that "
+"destroy a terrain, %(ghost_quarter)s is one of those rare cards."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:178
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:180
 #, python-format
 msgid ""
 "Anti-permanent très générique qui permet de gérer aussi bien des créatures que, par "
 "exemple, des planeswalkers problématiques. Se joue généralement avec "
 "%(assassins_trophy)s."
 msgstr ""
+"Very generic anti-permanent that deals with both creatures and, for "
+"example, problematic planeswalkers. Usually played with %(assassins_trophy)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:187
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:189
 #, python-format
 msgid ""
 "Sort de gestion de permanent qui remplace le permanent détruit par un terrain de base"
 " dégagé. Il est souvent joué avec %(abrupt_decay)s."
 msgstr ""
+"Permanent removal spell that replaces the destroyed permanent with an untapped basic "
+"land. It is often played with %(abrupt_decay)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:196
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:198
 #, python-format
 msgid ""
 "Anti-créature sans défaut. Se joue généralement avec %(dreadbore)s et "
 "%(angraths_rampage)s."
-msgstr ""
+msgstr "Flawless anti-creature. Usually played with %(dreadbore)s and %(angraths_rampage)s."
 
-#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:205
+#: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:207
 msgid ""
 "Rituel de gestion de permanent par définition. Cette carte est peu jouée à cause de "
 "son coût de mana qui peut parfois être prohibitif pour un rituel."
 msgstr ""
+"Permanent removal sorcery by definition. This card is rarely played because of its "
+"mana cost which can sometimes be prohibitive for a ritual."
 
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/la-defausse.html:4
 msgid "La défausse"
