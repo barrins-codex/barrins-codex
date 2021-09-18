@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-18 10:49+0200\n"
+"POT-Creation-Date: 2021-09-18 11:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -200,16 +200,16 @@ msgid "Les Grosses Créatures"
 msgstr "Big Creatures"
 
 #: barrins_codex/navigation.py:118
-msgid "Les Piocheurs"
-msgstr "Cantrips"
-
-#: barrins_codex/navigation.py:119
 msgid "Les Spot Removals"
 msgstr "Spot Removals"
 
-#: barrins_codex/navigation.py:120
+#: barrins_codex/navigation.py:119
 msgid "Les Mass Removals"
 msgstr "Mass Removals"
+
+#: barrins_codex/navigation.py:120
+msgid "Les Piocheurs"
+msgstr "Cantrips"
 
 #: barrins_codex/navigation.py:124
 msgid "Tools"
@@ -761,12 +761,12 @@ msgid ""
 "bibliothèque. Les choix induits selon la carte vue sur le Regard a en plus un impact "
 "sur la partie :"
 msgstr ""
-"To a lesser extent, lands that filters the bottom of the library for "
-"Grenzo, such as %(path_of_ancestry)s will slow down the development of the deck in "
-"terms of aggressiveness and their usefulness will not be significant until late in "
-"the game. In addition to this significant slowdown, these cards will reduce both the "
-"quality of cards in hand and the quality of cards below the library. The choices "
-"induced according to the card scried has in addition an impact on the game :"
+"To a lesser extent, lands that filters the bottom of the library for Grenzo, such as "
+"%(path_of_ancestry)s will slow down the development of the deck in terms of "
+"aggressiveness and their usefulness will not be significant until late in the game. "
+"In addition to this significant slowdown, these cards will reduce both the quality of"
+" cards in hand and the quality of cards below the library. The choices induced "
+"according to the card scried has in addition an impact on the game :"
 
 #: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:151
 msgid "Si une créature est laissée au-dessus, il n'y a pas de plus value ;"
@@ -2253,8 +2253,8 @@ msgid ""
 msgstr ""
 "Using lands to take advantage of %(the_gitrog_monster)s ability to draw means putting"
 " them into play from the library or the graveyard and sacrificing them. It is this "
-"draw that assembles the different combos of the deck and to have access to "
-"the removals."
+"draw that assembles the different combos of the deck and to have access to the "
+"removals."
 
 #: barrins_codex/templates/archetypes/the-gitrog-monster.html:30
 #, python-format
@@ -2459,8 +2459,8 @@ msgid ""
 "de ralentir le développement de l'adversaire."
 msgstr ""
 "The pace of the game should be dictated by this deck. It's up to the creatures of the"
-" deck to apply a lot of pressure (a <em>clock</em>) quickly. Keep in mind that the deck plays %(hatebear)s which slow down the "
-"opponent's development."
+" deck to apply a lot of pressure (a <em>clock</em>) quickly. Keep in mind that the "
+"deck plays %(hatebear)s which slow down the opponent's development."
 
 #: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:39
 #, python-format
@@ -4300,9 +4300,9 @@ msgid ""
 "removals</em> qui permettent de gérer une seule carte et les <em>mass removals</em> "
 "qui en gèrent plusieurs."
 msgstr ""
-"Removals are spells that removes permanents from the battlefield. There "
-"are several categories: <em>spot removals</em> which allow you to handle a single "
-"card and <em>mass removals</em> which manage several."
+"Removals are spells that removes permanents from the battlefield. There are several "
+"categories: <em>spot removals</em> which allow you to handle a single card and "
+"<em>mass removals</em> which manage several."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:13
 msgid "Destruction de terrains"
@@ -4558,7 +4558,8 @@ msgid ""
 "pour pouvoir bénéficier de cet effet si c'est nécessaire."
 msgstr ""
 "Although slower to prepare, this land has seen more play than %(pernicious_deed)s. "
-"The main reason is the color identity that allows this terrain to be chosen more often to benefit from this effect if necessary."
+"The main reason is the color identity that allows this terrain to be chosen more "
+"often to benefit from this effect if necessary."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:4
 msgid "Les piocheurs"
@@ -4621,9 +4622,8 @@ msgid ""
 "privilégiée dans les decks Contrôle et les decks Combo qui ont besoin de davantage "
 "d'information que les autres decks de manière générale."
 msgstr ""
-"Card that gives information on the opponent's hand, it is preferred in "
-"Control decks and Combo decks which need more information than other decks in "
-"general."
+"Card that gives information on the opponent's hand, it is preferred in Control decks "
+"and Combo decks which need more information than other decks in general."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:50
 msgid ""
@@ -4739,8 +4739,8 @@ msgid ""
 "Carte très versatile qui permet, pour un coût décent, de ralentir l'accès au mana de "
 "l'adversaire en plus de fournir la possibilité d'infliger des %(blasts)s."
 msgstr ""
-"Very versatile card that slows down, for a decent cost, the access to the "
-"opponent's mana in addition to providing the possibility of inflicting %(blasts)s."
+"Very versatile card that slows down, for a decent cost, the access to the opponent's "
+"mana in addition to providing the possibility of inflicting %(blasts)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:152
 msgid ""
@@ -4825,9 +4825,8 @@ msgid ""
 "plus représentée. Exiler un permanent ayant un <em>CCM</em> de quatre peut se révéler"
 " dangereux."
 msgstr ""
-"Creature available from the <em>Zendikar Rising</em> expansion which is "
-"increasingly represented. Exiling a permanent with a <em>CMC</em> of four can be "
-"dangerous."
+"Creature available from the <em>Zendikar Rising</em> expansion which is increasingly "
+"represented. Exiling a permanent with a <em>CMC</em> of four can be dangerous."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:50
 msgid "Meilleur removal de la couleur et aussi carte la plus jouée en blanc dans le format."
@@ -4848,8 +4847,8 @@ msgid ""
 "Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de "
 "piocher une carte. Elle est souvent jouée avec %(into_the_roil)s."
 msgstr ""
-"Fairly generic removal that can sometimes be expensive to cast if the objective "
-"is to draw a card. It is often played with %(into_the_roil)s."
+"Fairly generic removal that can sometimes be expensive to cast if the objective is to"
+" draw a card. It is often played with %(into_the_roil)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:72
 #, python-format
@@ -4857,8 +4856,8 @@ msgid ""
 "Gestion assez générique qui peut être parfois chère à lancer si l'objectif est de "
 "piocher une carte. Elle est souvent jouée avec %(blink_of_an_eye)s."
 msgstr ""
-"Fairly generic removal that can sometimes be expensive to cast if the objective "
-"is to draw a card. It is often played with %(blink_of_an_eye)s."
+"Fairly generic removal that can sometimes be expensive to cast if the objective is to"
+" draw a card. It is often played with %(blink_of_an_eye)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:80
 msgid "Bounce de créature"
@@ -4891,8 +4890,8 @@ msgid ""
 "Carte relativement facile à intégrer dans un deck. L'effet de surprise est un plus "
 "non négligeable qui permet de se sortir de certaines situations."
 msgstr ""
-"Card that integrates relatively easyly to into a deck. The surprise effect is a significant "
-"plus."
+"Card that integrates relatively easyly to into a deck. The surprise effect is a "
+"significant plus."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:104
 msgid ""
@@ -4929,8 +4928,8 @@ msgid ""
 "Carte qui permet de gérer aussi bien une créature qu'un planeswalker. Elle est "
 "fréquente dans les decks qui ont besoin de gérer ces deux menaces à la fois."
 msgstr ""
-"Card that removes both a creature and a planeswalker. It's common in "
-"decks that need to deal with both of these threats at the same time."
+"Card that removes both a creature and a planeswalker. It's common in decks that need "
+"to deal with both of these threats at the same time."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:125
 msgid ""
@@ -4947,8 +4946,9 @@ msgid ""
 " permettent aussi bien de gérer une créature que de filtrer son deck en infligeant "
 "des dégâts directs à l'adversaire."
 msgstr ""
-"This planeswalker is very impactful because it alone sums up many tools that removes a creature as well as filters the deck while inflicting direct damage on "
-"the opponent."
+"This planeswalker is very impactful because it alone sums up many tools that removes "
+"a creature as well as filters the deck while inflicting direct damage on the "
+"opponent."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:140
 #, python-format
@@ -4976,9 +4976,9 @@ msgid ""
 "souvent dans les mêmes decks. Selon les armes à disposition, des cartes comme "
 "%(prey_upon)s peuvent aussi être envisageables."
 msgstr ""
-"One of the few green removals with %(song_of_the_dryads)s which is played most "
-"often in the same decks. Depending on the weapons available, cards like "
-"%(prey_upon)s may also be possible."
+"One of the few green removals with %(song_of_the_dryads)s which is played most often "
+"in the same decks. Depending on the weapons available, cards like %(prey_upon)s may "
+"also be possible."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:168
 msgid "Neutralisation de permanent"
@@ -5003,8 +5003,8 @@ msgid ""
 "exemple, des planeswalkers problématiques. Se joue généralement avec "
 "%(assassins_trophy)s."
 msgstr ""
-"Very generic anti-permanent that deals with both creatures and, for "
-"example, problematic planeswalkers. Usually played with %(assassins_trophy)s."
+"Very generic anti-permanent that deals with both creatures and, for example, "
+"problematic planeswalkers. Usually played with %(assassins_trophy)s."
 
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:189
 #, python-format
@@ -5838,3 +5838,4 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
+
