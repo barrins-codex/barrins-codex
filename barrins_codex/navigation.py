@@ -115,9 +115,9 @@ STRUCTURE = Nav(
                         Nav(lazy_gettext("Les Grosses Créatures")),
                     ],
                 ),
-                Nav(lazy_gettext("Les Piocheurs")),
                 Nav(lazy_gettext("Les Spot Removals")),
                 Nav(lazy_gettext("Les Mass Removals")),
+                Nav(lazy_gettext("Les Piocheurs")),
             ],
         ),
         Nav(

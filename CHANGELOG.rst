@@ -7,6 +7,7 @@ Changelog
 - Article "Les Spot Removal" traduit
 - Article "Les Mass Removal" traduit
 - Article "Les Priocheurs" traduit
+- Modification de la navigation
 
 
 5.0.3 (2021-09-12)
