@@ -11,6 +11,7 @@ Changelog
 - Ajout d'une review de Niv-Mizzet
 - Modification de la navigation
 - Modification de l'affichage des decks sur mobile !temporaire
+- Préparation de l'évolution de l'affichage sur mobile
 
 
 5.0.3 (2021-09-12)

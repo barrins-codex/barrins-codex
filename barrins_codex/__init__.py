@@ -3,6 +3,7 @@ import urllib.parse
 import re
 import unidecode
 import os
+import requests
 
 import flask
 import flask_babel
@@ -303,4 +304,112 @@ def display_deck():
             )
         )
 
-    return dict(frame_moxfield=frame_moxfield)
+    def _exportId(key: str):
+        url = "https://api.moxfield.com/v2/decks/all/"
+        r = requests.get(url + key)
+        return r.json().get("exportId")
+
+    def _decklist(key: str):
+        url = "https://api.moxfield.com/v1/decks/all/"
+        url = url + f"{key}/export?arenaOnly=false&exportId="
+        r = requests.get(url + _exportId(key))
+        return r.text
+
+    def _name(name):
+        name = unidecode.unidecode(name).lower()
+        name = re.sub(r"[^a-zA-Z]", "", name)
+        return name
+
+    def _get(ligne):
+        qte = re.sub(r"[a-zA-Z]", "", ligne.split(r" ")[0])
+        info = library[_name(ligne)]
+        return {
+            "count": qte,
+            "name": re.split("/", info["name"])[0],
+            "id": info["id"],
+            "types": info["types"],
+        }
+
+    def _formalize(list, command):
+        czon = []
+        crea = {"type": "Creatures", "count": 0, "cards": []}
+        plan = {"type": "Planeswalkers", "count": 0, "cards": []}
+        arti = {"type": "Artifacts", "count": 0, "cards": []}
+        ench = {"type": "Enchantments", "count": 0, "cards": []}
+        inst = {"type": "Instants", "count": 0, "cards": []}
+        sorc = {"type": "Sorceries", "count": 0, "cards": []}
+        land = {"type": "Lands", "count": 0, "cards": []}
+
+        lignes = list.split("\r\n")
+        for ligne in lignes:
+            if re.search(command, ligne):
+                czon.append(_get(ligne))
+                continue
+
+            name = _name(re.split("/", ligne)[0])
+            if name in library:
+                ajout = _get(ligne)
+
+                if "Land" in ajout["types"]:
+                    land["count"] = land["count"] + int(ajout["count"])
+
+                    if len(ajout["types"]) == 1:
+                        land["cards"].append(ajout)
+                    elif "Creature" in ajout["types"]:
+                        if "/" not in ligne:
+                            crea["count"] = crea["count"] + int(ajout["count"])
+                            land["cards"].append(ajout)
+                            continue  #: Will never add "Dryad Arbor" to Creatures
+                    elif "Enchantment" in ajout["types"]:
+                        if "/" not in ligne:
+                            ench["count"] = ench["count"] + int(ajout["count"])
+                            land["cards"].append(ajout)
+                            continue  #: Will never add Urza's Saga to Enchantments
+                    elif "Artifact" in ajout["types"]:
+                        if "/" not in ligne:
+                            arti["count"] = arti["count"] + int(ajout["count"])
+                            land["cards"].append(ajout)
+                            continue  #: Will never add Seat of the Synod to Artifacts
+
+                if "Creature" in ajout["types"]:
+                    crea["count"] = crea["count"] + int(ajout["count"])
+                    crea["cards"].append(ajout)
+
+                elif "Planeswalker" in ajout["types"]:
+                    plan["count"] = plan["count"] + int(ajout["count"])
+                    plan["cards"].append(ajout)
+
+                elif "Artifact" in ajout["types"]:
+                    arti["count"] = arti["count"] + int(ajout["count"])
+                    arti["cards"].append(ajout)
+
+                elif "Enchantment" in ajout["types"]:
+                    ench["count"] = ench["count"] + int(ajout["count"])
+                    ench["cards"].append(ajout)
+
+                elif "Instant" in ajout["types"]:
+                    inst["count"] = inst["count"] + int(ajout["count"])
+                    inst["cards"].append(ajout)
+
+                elif "Sorcery" in ajout["types"]:
+                    sorc["count"] = sorc["count"] + int(ajout["count"])
+                    sorc["cards"].append(ajout)
+
+        table = {
+            "library": {
+                "cards": [crea, plan, arti, ench, inst, sorc, land],
+                "count": (100 - len(czon)),
+            },
+            "command": {"cards": czon, "count": len(czon)},
+        }
+
+        return json.dumps(table, indent=4, sort_keys=True)
+
+    def decklist(key: str, command: str):
+        print(f"Command: {command}")
+        print(f"Moxfield: {key}")
+        d = _decklist(key)
+        d = _formalize(d, command)
+        return d
+
+    return dict(frame_moxfield=frame_moxfield, decklist=decklist)
