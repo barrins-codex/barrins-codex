@@ -1,7 +1,7 @@
 Changelog
 =========
 
-5.0.4 (unreleased)
+5.1.0 (2021-09-29)
 ------------------
 
 - Article "Les Spot Removal" traduit
