@@ -4,7 +4,7 @@ Changelog
 5.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction dans les annonces de banlist
 
 
 5.1.0 (2021-09-29)
