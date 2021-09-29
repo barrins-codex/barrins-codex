@@ -8,6 +8,7 @@ Changelog
 - Article "Les Mass Removal" traduit
 - Article "Les Priocheurs" traduit
 - Ajout d'une section pour les decks bannis
+- Ajout d'une review de Niv-Mizzet
 - Modification de la navigation
 - Modification de l'affichage des decks sur mobile !temporaire
 
