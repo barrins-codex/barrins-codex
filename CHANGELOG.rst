@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction dans les annonces de banlist
+- Correction des balises meta pour EN
 
 
 5.1.0 (2021-09-29)
