@@ -1,14 +1,8 @@
 {% extends "archetypes/_layout.html" %}
-{% import "archetypes/_layout_wip.html" as layout with context %}
-{% import "archetypes/kinnan-bonder-prodigy.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}
+{% block moxfield -%}
 cny66XvaQkajgzFYTo2Pvg
-{% endblock %}
+{%- endblock %}
 
 {% block highlights %}
 <p>

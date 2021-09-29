@@ -1,14 +1,9 @@
 {% extends "archetypes/_layout.html" %}
 {% import "archetypes/_layout_wip.html" as layout with context %}
-{% import "archetypes/isamaru-hound-of-konda.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}
+{% block moxfield -%}
 fQcUYi9WGEKEnm5EUFEalw
-{% endblock %}
+{%- endblock %}
 
 {% block highlights %}
 <p>

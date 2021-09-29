@@ -1,14 +1,9 @@
 {% extends "archetypes/_layout.html" %}
 {% import "archetypes/_layout_card_column.html" as layout with context %}
-{% import "archetypes/minsc-beloved-ranger.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}
+{% block moxfield -%}
 yClHQD8jwEyD8kxJDt6QSQ
-{% endblock %}
+{%- endblock %}
 
 {% block highlights %}
 <p>

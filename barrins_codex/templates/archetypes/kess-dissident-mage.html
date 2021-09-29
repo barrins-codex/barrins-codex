@@ -1,13 +1,8 @@
 {% extends "archetypes/_layout.html" %}
-{% import "archetypes/kess-dissident-mage.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}
+{% block moxfield -%}
 LU4p5EDHOUyGAT10RNxB5Q
-{% endblock %}
+{%- endblock %}
 
 {% block highlights %}
 <p>

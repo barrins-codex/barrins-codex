@@ -1,12 +1,8 @@
 {% extends "archetypes/_layout.html" %}
-{% import "archetypes/_layout_wip.html" as layout with context %}
-{% import "archetypes/adeliz-the-cinder-wind.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}ghTXBoESP0SlSSCr_QT-hg{% endblock %}
+{% block moxfield -%}
+ghTXBoESP0SlSSCr_QT-hg
+{%- endblock %}
 
 {% block highlights %}
 <p>

@@ -84,7 +84,8 @@
 {{ super() }}
 <script>
 {%+ if self.moxfield() | trim %}
-	var isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+	/*
+    var isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
 
 	if (isMobile) {
 		// Displaying custom decklist rendering
@@ -111,11 +112,12 @@
 		// Not displaying moxfield frame
 		document.getElementById("moxfield-frame").style.display = "none";
 	} else {
+    */
 		// Displaying moxfield embed
 		function moxfieldOnMessage(e){const t=e.data;if("object"==typeof t&&"moxfield"===t.type){const e=document.getElementById(t.id);;e&&(e.style.height=t.data+"px")}}function moxfieldOnLoad(e){e.target&&e.target.contentWindow&&e.target.contentWindow.postMessage({type:"moxfield",data:e.target.id},"*")}window.addEventListener("message",moxfieldOnMessage);
 		// Not displaying custom decklist
 		document.getElementById("decklist").style.display = "none";
-	}
+	//}
 {% else %}
 	// Displaying custom decklist rendering
 	window.onload = function () {

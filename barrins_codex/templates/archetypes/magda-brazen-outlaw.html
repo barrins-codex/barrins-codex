@@ -1,13 +1,8 @@
 {% extends "archetypes/_layout.html" %}
-{% import "archetypes/magda-brazen-outlaw.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}
+{% block moxfield -%}
 5nv4kpIsbEqpM02pXEYkzg
-{% endblock %}
+{%- endblock %}
 
 {% block highlights %}
 <p>

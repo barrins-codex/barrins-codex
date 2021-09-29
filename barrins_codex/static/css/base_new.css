@@ -483,11 +483,11 @@ header div.tip {
 	div.review,
 	div.detailed,
 	div.decklist {
-		clear: both;
-		display: block;
-		max-width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
+		clear: both !important;
+		display: block !important;
+		max-width: 80% !important;
+		margin-left: 10% !important;
+		margin-right: 10% !important;
 	}
 }
 
@@ -500,9 +500,9 @@ header div.tip {
 		width: 55vw;
 	}
 	article > .detailed {
-		margin-left: 8vw;
-		margin-right: 8vw;
-		margin-bottom: 5vh;
+		margin-left: 8vw !important;
+		margin-right: 8vw !important;
+		margin-bottom: 5vh !important;
 	}
 	div.decklist {
 		margin-right: 4vw;

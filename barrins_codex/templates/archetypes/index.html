@@ -5,15 +5,15 @@ Section Archétypes
 {% endblock %}
 
 {% block content %}
-{% trans trimmed
-	deckbuilding=_("deckbuilding (<em>à venir</em>)")
-%}
-<h1>Archétypes</h1>
+<h1>{{ _("Archétypes") }}</h1>
 <p>
+    {% trans trimmed
+        deckbuilding=_("deckbuilding (<em>à venir</em>)")
+    %}
 	Cette section complète l'introduction au {{ deckbuilding }} et propose des
 	archétypes de tournois qui ont fait leurs preuves ou qui proposent un style de jeu unique.
+    {% endtrans %}
 </p>
-{% endtrans %}
 
 {{
 	bootstrap.card(
@@ -199,14 +199,16 @@ Section Archétypes
 	)
 }}
 
-{{
-	bootstrap.card(
-		"Winota, Joiner of Forces",
-		"/archetypes/winota-joiner-of-forces",
-		_("Voltron Combo")
-	)
-}}
-
 <div class="clear"></div>
 
+<p>
+    {% trans trimmed
+        ban=link("/archetypes/decks-bannis")
+    %}
+    Le format évolue tous les deux mois et, parfois, des généraux sont retirés de la liste
+    des cartes légales dans le format. Certains de ces généraux définissaient à eux-même un deck
+    dont la structure est difficilement transposable. Ceux-ci sont disponibles dans cette
+    sous-section : {{ ban }}.
+    {% endtrans %}
+</p>
 {% endblock %}

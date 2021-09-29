@@ -7,8 +7,9 @@ Changelog
 - Article "Les Spot Removal" traduit
 - Article "Les Mass Removal" traduit
 - Article "Les Priocheurs" traduit
-- Modification de la navigation
 - Ajout d'une section pour les decks bannis
+- Modification de la navigation
+- Modification de l'affichage des decks sur mobile !temporaire
 
 
 5.0.3 (2021-09-12)
