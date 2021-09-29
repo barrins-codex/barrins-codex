@@ -8,6 +8,7 @@ Changelog
 - Article "Les Mass Removal" traduit
 - Article "Les Priocheurs" traduit
 - Modification de la navigation
+- Ajout d'une section pour les decks bannis
 
 
 5.0.3 (2021-09-12)

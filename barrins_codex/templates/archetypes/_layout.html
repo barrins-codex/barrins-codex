@@ -5,6 +5,9 @@
 {% block scripts %}
 <script src="{{ url_for('static', filename='js/decklist.js') }}"></script>
 {% endblock %}
+{% block meta %}
+{# <meta property="decklist" content="{{ decklist(self.moxfield(), title())| tojson }}" /> #}
+{% endblock %}
 
 {% block article %}
 <article id="analysis">
@@ -33,6 +36,13 @@
 	<div id="variants" class="detailed">
 		<h2>{{ _("Variantes") }}</h2>
 		{% block variants %}{% endblock %}
+	</div>
+	{% endif %}
+
+	{%+ if self.bans()|trim %}
+	<div id="bans" class="detailed warning">
+		<h3 id="ban">{{ _("Motivation du retrait") }}</h3>
+		{% block bans %}{% endblock %}
 	</div>
 	{% endif %}
 

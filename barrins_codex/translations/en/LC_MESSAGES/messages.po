@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-18 11:13+0200\n"
+"POT-Creation-Date: 2021-09-29 21:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Home"
 msgstr "Home"
 
-#: barrins_codex/navigation.py:56
+#: barrins_codex/navigation.py:56 barrins_codex/templates/archetypes/index.html:8
 msgid "Archétypes"
 msgstr "Archetypes"
 
@@ -115,115 +115,124 @@ msgstr "Titania, Protector of Argoth"
 msgid "Venser, Shaper Savant"
 msgstr "Venser, Shaper Savant"
 
-#: barrins_codex/navigation.py:82
+#: barrins_codex/navigation.py:83
+#: barrins_codex/templates/archetypes/decks-bannis/index.html:4
+msgid "Decks bannis"
+msgstr "Banned decks"
+
+#: barrins_codex/navigation.py:86
+msgid "Asmoranomardicadaistinaculdacar"
+msgstr "Asmoranomardicadaistinaculdacar"
+
+#: barrins_codex/navigation.py:87
 msgid "Winota, Joiner of Forces"
 msgstr "Winota, Joiner of Forces"
 
-#: barrins_codex/navigation.py:86
+#: barrins_codex/navigation.py:93
 msgid "Articles"
 msgstr "Articles"
 
-#: barrins_codex/navigation.py:89
+#: barrins_codex/navigation.py:96
 msgid "Classifier un deck"
 msgstr "Classifying decks"
 
-#: barrins_codex/navigation.py:90
+#: barrins_codex/navigation.py:97
 msgid "Construire un deck"
 msgstr "Building decks"
 
-#: barrins_codex/navigation.py:94 barrins_codex/templates/cartes-thematiques/index.html:4
+#: barrins_codex/navigation.py:101 barrins_codex/templates/cartes-thematiques/index.html:4
 msgid "Cartes thématiques"
 msgstr "Theme Cards"
 
-#: barrins_codex/navigation.py:98
+#: barrins_codex/navigation.py:105
 msgid "Mécaniques de la colorpie"
 msgstr "Mechanics of the colorpie"
 
-#: barrins_codex/navigation.py:101
+#: barrins_codex/navigation.py:108
 msgid "La Destruction de permanents"
 msgstr "Destruction of permanents"
 
-#: barrins_codex/navigation.py:102
+#: barrins_codex/navigation.py:109
 msgid "Les Cartes de taxe"
 msgstr "Tax Cards"
 
-#: barrins_codex/navigation.py:103
+#: barrins_codex/navigation.py:110
 msgid "La Protection"
 msgstr "Protection"
 
-#: barrins_codex/navigation.py:104
+#: barrins_codex/navigation.py:111
 msgid "Les Contresorts"
 msgstr "Counterspells"
 
-#: barrins_codex/navigation.py:105
+#: barrins_codex/navigation.py:112
 msgid "Le Bounce de permanents"
 msgstr "Bounce of permanents"
 
-#: barrins_codex/navigation.py:106
+#: barrins_codex/navigation.py:113
 msgid "Les Cantrips"
 msgstr "Cantrips"
 
-#: barrins_codex/navigation.py:107
+#: barrins_codex/navigation.py:114
 msgid "La Défausse"
 msgstr "Discard"
 
-#: barrins_codex/navigation.py:108
+#: barrins_codex/navigation.py:115
 msgid "La Gestion de créatures"
 msgstr "Creature Removals"
 
-#: barrins_codex/navigation.py:109
+#: barrins_codex/navigation.py:116
 msgid "La Réanimation de créatures"
 msgstr "Reanimation of Creatures"
 
-#: barrins_codex/navigation.py:110
+#: barrins_codex/navigation.py:117
 msgid "Les Dégâts directs"
 msgstr "Blasts"
 
-#: barrins_codex/navigation.py:111
+#: barrins_codex/navigation.py:118
 msgid "Les Créatures agressives"
 msgstr "Aggressive Creatures"
 
-#: barrins_codex/navigation.py:112
+#: barrins_codex/navigation.py:119
 msgid "Le Remplacement de cartes"
 msgstr "Looting"
 
-#: barrins_codex/navigation.py:113
+#: barrins_codex/navigation.py:120
 msgid "Le Ramp"
 msgstr "Ramp"
 
-#: barrins_codex/navigation.py:114
+#: barrins_codex/navigation.py:121
 msgid "Les Mana dorks"
 msgstr "Mana Dorks"
 
-#: barrins_codex/navigation.py:115
+#: barrins_codex/navigation.py:122
 msgid "Les Grosses Créatures"
 msgstr "Big Creatures"
 
-#: barrins_codex/navigation.py:118
+#: barrins_codex/navigation.py:125
 msgid "Les Spot Removals"
 msgstr "Spot Removals"
 
-#: barrins_codex/navigation.py:119
+#: barrins_codex/navigation.py:126
 msgid "Les Mass Removals"
 msgstr "Mass Removals"
 
-#: barrins_codex/navigation.py:120
+#: barrins_codex/navigation.py:127
 msgid "Les Piocheurs"
 msgstr "Cantrips"
 
-#: barrins_codex/navigation.py:124
+#: barrins_codex/navigation.py:131
 msgid "Tools"
 msgstr "Tool"
 
-#: barrins_codex/navigation.py:127
+#: barrins_codex/navigation.py:134
 msgid "Combo A + B"
 msgstr "A + B Combo"
 
-#: barrins_codex/navigation.py:128
+#: barrins_codex/navigation.py:135
 msgid "Ik-O-Maths"
 msgstr "Ik-O-Maths"
 
-#: barrins_codex/navigation.py:129 barrins_codex/templates/tools/tirage-au-sort.html:9
+#: barrins_codex/navigation.py:136 barrins_codex/templates/tools/tirage-au-sort.html:9
 msgid "Tirage au sort"
 msgstr "Drawing lots"
 
@@ -294,17 +303,21 @@ msgstr ""
 "The Codex is being translated, part of the site may not be translated into the "
 "selected language."
 
-#: barrins_codex/templates/archetypes/_layout.html:20
+#: barrins_codex/templates/archetypes/_layout.html:23
 msgid "Présentation rapide"
 msgstr "Highlights"
 
-#: barrins_codex/templates/archetypes/_layout.html:27
+#: barrins_codex/templates/archetypes/_layout.html:30
 msgid "Trucs et astuces"
 msgstr "Tips and Tricks"
 
-#: barrins_codex/templates/archetypes/_layout.html:34
+#: barrins_codex/templates/archetypes/_layout.html:37
 msgid "Variantes"
 msgstr "Variants"
+
+#: barrins_codex/templates/archetypes/_layout.html:44
+msgid "Motivation du retrait"
+msgstr "Reasons of the ban"
 
 #: barrins_codex/templates/archetypes/_layout_card_column.html:8
 #: barrins_codex/templates/cartes-thematiques/_layout_card_column.html:8
@@ -312,7 +325,7 @@ msgstr "Variants"
 msgid "%(cat)s"
 msgstr "%(cat)s"
 
-#: barrins_codex/templates/archetypes/_layout_wip.html:3
+#: barrins_codex/templates/archetypes/_layout_wip.html:4
 #, python-format
 msgid ""
 "Nous sommes en train de préparer une analyse de cet archétype. Si vous voulez aider, "
@@ -323,7 +336,7 @@ msgstr ""
 "help, we would be delighted if you could suggest some of the analysis. Please contact"
 " us on our %(github)s."
 
-#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:13
+#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:9
 #, python-format
 msgid ""
 "De part sa capacité déclenchée, %(adeliz_the_cinder_wind)s pousse à se rapprocher de "
@@ -338,12 +351,12 @@ msgstr ""
 " taken, the line of play becomes to protect the threats on board. However, once the "
 "game is not in its favor, it really is difficult to crawl back into the lead."
 
-#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:23
-#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:41
+#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:19
+#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:37
 msgid "contresort"
 msgstr "counterspell"
 
-#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:22
+#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:18
 #, python-format
 msgid ""
 "Le deck est également appelé <em>Adeliz Ten Bolts</em> en référence aux cartes ayant "
@@ -355,7 +368,7 @@ msgstr ""
 "similar to %(lightning_bolt)s. These cards dictate the tempo of the game dealing "
 "%(degats)s and pumping all wizards in the battlefield."
 
-#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:32
+#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:28
 #, python-format
 msgid ""
 "Il ne faut pas toujours voir %(adeliz_the_cinder_wind)s comme une créature de tour "
@@ -368,7 +381,7 @@ msgstr ""
 "other spell is played on the turn it comes in. The deck mostly kills within two to "
 "three attack phases with it."
 
-#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:40
+#: barrins_codex/templates/archetypes/adeliz-the-cinder-wind.html:36
 #, python-format
 msgid ""
 "Jouer %(adeliz_the_cinder_wind)s tour cinq permet aussi de garantir un %(contresort)s"
@@ -381,13 +394,13 @@ msgstr ""
 "amount of counterspells is ideal to either protect the threats or to disrupt the "
 "opponent's game."
 
-#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:14
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:25
+#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:11
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:19
 #: barrins_codex/templates/cartes-thematiques/mecaniques-de-la-colorpie/le-bounce-de-permanents.html:8
 msgid "contresorts"
 msgstr "counterspells"
 
-#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:13
+#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:10
 #, python-format
 msgid ""
 "Principalement prison, %(aminatou_the_fateshifter)s allie les %(contresorts)s à la "
@@ -399,7 +412,7 @@ msgstr ""
 "removals as permanents with <em>enters the battlefield</em> effects . This maximizes "
 "the use of the planeswalker's -1 loyalty ability."
 
-#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:22
+#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:19
 #, python-format
 msgid ""
 "La qualité des cartes et la facilité à réutiliser certains effets font de ce deck un "
@@ -410,7 +423,7 @@ msgstr ""
 "asphyxiating deck for the opponent who will have difficulty escaping the prison that "
 "%(aminatou_the_fateshifter)s can set up."
 
-#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:29
+#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:26
 #, python-format
 msgid ""
 "Certaines versions du deck utilisent la combo %(rest_in_peace)s et "
@@ -420,21 +433,21 @@ msgstr ""
 "Some versions of the deck uses the %(rest_in_peace)s and %(helm_of_obedience)s combo "
 "to have a way"
 
-#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:36
-#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:43
-#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:17
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:46
+#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:33
+#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:37
+#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:12
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:40
 msgid "Ce deck contient des cartes bannies"
 msgstr "This deck contains banned cards"
 
-#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:38
-#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:45
-#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:19
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:48
+#: barrins_codex/templates/archetypes/aminatou-the-fateshifter.html:35
+#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:39
+#: barrins_codex/templates/archetypes/rowan-and-will-kenrith.html:14
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:42
 msgid "a été banni le 26 juillet 2021"
 msgstr "has been banned on July, 26th 2021"
 
-#: barrins_codex/templates/archetypes/arcades-the-strategist.html:13
+#: barrins_codex/templates/archetypes/arcades-the-strategist.html:10
 #, python-format
 msgid ""
 "%(arcades_the_strategist)s est un deck basé sur des créatures et des interactions. La"
@@ -445,7 +458,7 @@ msgstr ""
 "strategy offered by the commander follows the greats pressure brought by the walls "
 "and their exceptional toughness."
 
-#: barrins_codex/templates/archetypes/arcades-the-strategist.html:20
+#: barrins_codex/templates/archetypes/arcades-the-strategist.html:17
 msgid ""
 "Les couleurs de Bant permettent de fournir au jeu des outils efficaces d'interaction "
 "avec l'adversaire tant proactifs que réactifs. Le fait que la majorité des créatures "
@@ -455,7 +468,7 @@ msgstr ""
 "reactive. Most creatures being walls is great for dealing with the most aggressive "
 "decks."
 
-#: barrins_codex/templates/archetypes/arcades-the-strategist.html:27
+#: barrins_codex/templates/archetypes/arcades-the-strategist.html:24
 #, python-format
 msgid ""
 "Le flux de cartes est assuré par le commandant, ce qui permet de réduire le besoin de"
@@ -467,7 +480,7 @@ msgstr ""
 "other sources of <i>Card Advantage</i>. Some cards are played to act a substitutes if"
 " necessary: mostly %(assault_formation)s or %(high_alert)s."
 
-#: barrins_codex/templates/archetypes/arcades-the-strategist.html:37
+#: barrins_codex/templates/archetypes/arcades-the-strategist.html:34
 msgid ""
 "Comprendre rapidement s'il est possible de prendre le contrôle de la partie en terme "
 "de pression tant sur le champ de bataille que sur la qualité des cartes jouées est "
@@ -476,7 +489,7 @@ msgstr ""
 "Understanding rapidly if it is possible to take control of the game is a necessity to"
 " play this type of tempo deck."
 
-#: barrins_codex/templates/archetypes/arcades-the-strategist.html:44
+#: barrins_codex/templates/archetypes/arcades-the-strategist.html:41
 msgid ""
 "Les murs permettent de ralentir fortement aggro mais ne permettent pas de mettre les "
 "decks contrôle en danger. Il est important de garder ses contresorts pour garantir la"
@@ -488,7 +501,7 @@ msgstr ""
 "protect it. Playing a counterspell target other spells is not necessary to maintain "
 "control of the game."
 
-#: barrins_codex/templates/archetypes/arcades-the-strategist.html:55
+#: barrins_codex/templates/archetypes/arcades-the-strategist.html:52
 #, python-format
 msgid ""
 "La structure de ce deck est commune à beaucoup de deck tempo comme "
@@ -499,7 +512,7 @@ msgstr ""
 "%(jenara_asura_of_war)s. However, creature choices vary due to the commander's mana "
 "cost and possible synergies."
 
-#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:15
+#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:9
 #, python-format
 msgid ""
 "%(golos_tireless_pilgrim)s est un deck basé sur les terrains et leur facilité à "
@@ -519,7 +532,7 @@ msgstr ""
 "%(glacial_chasm)s offers a solution against aggro decks and "
 "%(valakut_the_molten_pinnacle)s sets up a way to kill the opponent."
 
-#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:26
+#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:20
 #, python-format
 msgid ""
 "En plus des terrains, le deck est basé autour de la forte quantité de cartes de "
@@ -534,7 +547,7 @@ msgstr ""
 "%(ugin_the_spirit_dragon)s or %(emrakul_the_promised_end)s permit to take advantage "
 "of the amount of mana."
 
-#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:35
+#: barrins_codex/templates/archetypes/golos-tireless-pilgrim.html:29
 #, python-format
 msgid ""
 "Enfin, %(solemnity)s permet de ne pas mettre de marqueurs sur %(glacial_chasm)s ou "
@@ -546,12 +559,12 @@ msgstr ""
 "%(dark_depths)s which can be found with %(golos_tireless_pilgrim)s. "
 "%(infernal_darkness)s is also played to reinforce this game plan direction."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:16
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:60
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:11
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:55
 msgid "l'archétype Agro Linéaire"
 msgstr "Linear Aggro archetype"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:15
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:10
 #, python-format
 msgid ""
 "%(grenzo_dungeon_warden)s est un deck de %(archetype_linear_aggro)s de part sa sortie"
@@ -569,7 +582,7 @@ msgstr ""
 "game</em> and as a card draw engine after the first four turns or so (the "
 "<em>midgame</em>)."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:27
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:22
 #, python-format
 msgid ""
 "%(ci_chieftain)s Les créatures des premiers tours sont souvent moins puissantes que "
@@ -589,7 +602,7 @@ msgstr ""
 "relies heavily on the versatility of goblins as well as the strong tribal support "
 "that the goblin creature type provides."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:41
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:36
 #, python-format
 msgid ""
 "Ce deck se différencie très fortement de la plupart des autres decks Aggro du format "
@@ -611,20 +624,20 @@ msgstr ""
 "balance of its card choices : to optimize %(grenzo_dungeon_warden)s's ability, focus "
 "is on the amount of cards that fulfill the conditions of its activated ability and "
 "playing less than forty creatures creates too much variance. Experience shows that "
-"you need to play between forty-seven and fifty creatures to get the most out of its "
-"ability. It also affects the amount of lands to be played. So, unlike a \"standard\" "
-"aggro deck, it takes full advantage of every lands played, even after turn four. It "
-"only takes one turn on the battlefield for Grenzo to turn the available mana into a "
-"goblin army without using cards from your hand. Therefore, with about forty lands and"
-" fifty creatures, there is very little room left for other cards which are then hand-"
+"forty-seven to fifty creatures should be played to get the most out of its ability. "
+"It also affects the amount of lands to be played. So, unlike a \"standard\" aggro "
+"deck, it takes full advantage of every lands played, even after turn four. It only "
+"takes one turn on the battlefield for Grenzo to turn the available mana into a goblin"
+" army without using cards from your hand. Therefore, with about forty lands and fifty"
+" creatures, there is very little room left for other cards which are then hand-"
 "picked. The low density of staples is felt and must be taken into account when the "
 "deck is played."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:57
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:52
 msgid "Un deck Aggro ?"
 msgstr "An aggro deck?"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:59
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:54
 #, python-format
 msgid ""
 "Bien que le plan de jeu principal corresponde à %(archetype_linear_aggro)s, une fois "
@@ -641,7 +654,7 @@ msgstr ""
 "deck belongs to and according to how this phase of development has gone. The most "
 "frequent changes of game plan are the following:"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:71
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:66
 #, python-format
 msgid ""
 "Contre aggro, il est très fréquent d'être en retard sur le board. Il faut prioriser "
@@ -656,7 +669,7 @@ msgstr ""
 "%(judith_the_scourge_diva)s and %(pashalik_mons)s are very effective in killing your "
 "opponent's creatures and taking back the lead."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:80
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:75
 msgid ""
 "Contre contrôle, il faut anticiper la guerre de <em>Card Advantage</em> des deux "
 "manières possibles. Soit les cartes en main seront suffisantes et il faut alors "
@@ -677,7 +690,7 @@ msgstr ""
 "prevent a potential threat. The damage that can be delivered by the creatures in play"
 " is very hard to estimate, it is a good psychological asset."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:92
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:87
 #, python-format
 msgid ""
 "Contre combo, les sorties les plus aggressives peuvent suffire à prendre de vitesse "
@@ -693,11 +706,11 @@ msgstr ""
 "inflicted. Against the less interactive versions, access to the %(goblin_recruiter)s "
 "combo or one of the targeted utility goblins can be crucial."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:102
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:97
 msgid "Des cartes spécifiques pour changer de plan de jeu ?"
 msgstr "Specific cards to change the game plan?"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:104
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:99
 #, python-format
 msgid ""
 "Les sorts de réanimation globale comme %(living_death)s ou des moteurs de <em>Card "
@@ -710,7 +723,7 @@ msgstr ""
 "<em>late game</em>. Indeed, these cards are very good when the deck starts to run out"
 " of steam or when the opponent needs to be exhausted."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:112
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:107
 #, python-format
 msgid ""
 "%(ci_frenzy)s Cependant, jouer des cartes spécifiques et de coût relativement élevé "
@@ -725,7 +738,7 @@ msgstr ""
 "playable as they take the potential place of a low mana value card playable in the "
 "early turns."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:124
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:119
 msgid ""
 "Justifier l'inclusion d'une carte dans le deck parce qu'elle répare les dégats "
 "qu'elle fait au deck n'est pas un argument tangible. En effet, elle force dès le "
@@ -735,10 +748,10 @@ msgid ""
 msgstr ""
 "Justifying the inclusion of a card in the deck because it repairs the damage it does "
 "to the deck is not a tangible argument. It forces the use of resources around it in a"
-" specific way from the start of the game, and it may simply cause you to lose before "
-"you can bring the effect for which that card was added."
+" specific way from the start of the game, and it may simply cause to lose before it "
+"can bring the effect for which that card was added."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:132
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:127
 #, python-format
 msgid ""
 "Par exemple, pour préparer %(living_death)s, il est important de dépenser ses "
@@ -750,7 +763,7 @@ msgstr ""
 "accordingly, to use them in a less conservative way. So if the spell is not resolved,"
 " the situation will be worse than if the creatures had been used in the usual way."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:140
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:135
 #, python-format
 msgid ""
 "Dans une moindre mesure, les terrains qui permettent de filtrer le dessous de la "
@@ -768,11 +781,11 @@ msgstr ""
 " cards in hand and the quality of cards below the library. The choices induced "
 "according to the card scried has in addition an impact on the game :"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:151
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:146
 msgid "Si une créature est laissée au-dessus, il n'y a pas de plus value ;"
 msgstr "If a creature is left on top, there is no added value;"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:156
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:151
 msgid ""
 "Si une créature est envoyée en dessous de la bibliothèque, cela force l'activation de"
 " Grenzo pour la récupérer et donc rend la sortie plus sensible aux gestions de "
@@ -782,11 +795,11 @@ msgstr ""
 "retrieve it and thus makes the output more susceptible to opponent's answer. "
 "Moreover, the draw is likely to lose in quality;"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:163
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:158
 msgid "Si un terrain est laissé au-dessus de la bibliothèque, il n'y a pas de plus value ;"
 msgstr "If a land is kept on top of the libraryn, there is no added value;"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:168
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:163
 msgid ""
 "Si un terrain est envoyé en dessous de la bibliothèque, l'utilisation à court terme "
 "de la capacité de Grenzo n'a pas de sens et va dans le sens opposé à l'utilisation "
@@ -795,11 +808,11 @@ msgstr ""
 "If a land is sent below the library, the short-term use of Grenzo's ability does not "
 "make sense and goes against the use of such a tool."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:175
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:170
 msgid "Choix des terrains et de la production de manas colorés"
 msgstr "Choice of lands and production of colored manas"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:177
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:172
 msgid ""
 "La production de manas colorés est soumise à un nombre important de contraintes. "
 "Celles-ci ont été priorisées et optimisées dans l'ordre suivant :"
@@ -807,7 +820,7 @@ msgstr ""
 "The production of colored manas is subject to a significant number of constraints. "
 "These have been prioritized and optimized in the following order:"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:184
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:179
 #, python-format
 msgid ""
 "<strong>Les couleurs doivent sortir dans le même ordre que les créatures</strong><br>"
@@ -824,7 +837,7 @@ msgstr ""
 "%(R)s-oriented, the production of %(B)s is very asymmetrical to allow the deck to "
 "play %(R)s%(R)s cards from turn two."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:194
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:189
 msgid ""
 "<strong>Les terrains doivent produire du mana dès qu'ils sont posés</strong><br> "
 "C'est encore une des principales contraintes d'un deck Aggro pour optimiser sa sortie"
@@ -834,7 +847,7 @@ msgstr ""
 "This is another one of the main constraints of an aggro deck to optimize its creature"
 " curve or direct damage spells."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:201
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:196
 #, python-format
 msgid ""
 "<strong>Jouer de l'utilitaire dans les terrains</strong><br> Les terrains utilitaires"
@@ -852,7 +865,7 @@ msgstr ""
 " as seen above, adding them doesn't necessarily help the deck come out better. This "
 "leaves the %(R)s land that comes into play untapped."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:211
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:206
 #, python-format
 msgid ""
 "<strong>Ne pas perdre la partie en utilisant ses terrains</strong><br> En effet, les "
@@ -874,11 +887,11 @@ msgstr ""
 "opponent's attacks. This leaves <em>painlands</em> like %(sulfurous_springs)s which "
 "offer an alternative way to add mana, as opposed to %(mana_confluence)s."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:225
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:220
 msgid "L'équilibrage des couleurs"
 msgstr "Color Balancing"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:226
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:221
 msgid ""
 "Les gobelins sortent peut-être vite, mais coutent très cher en mana coloré. La "
 "méthode d'optimisation de la manabase pour ce deck est la suivante :"
@@ -886,7 +899,7 @@ msgstr ""
 "Goblins may come out fast, but they cost a lot of colored mana. The manabase "
 "optimisation method for this deck is as follows:"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:232
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:227
 #, python-format
 msgid ""
 "La séquence des besoins en manas colorés est %(R)s puis %(R)s%(R)s ou %(R)s%(B)s puis"
@@ -895,7 +908,7 @@ msgstr ""
 "The sequence of colored mana requirements is %(R)s then %(R)s%(R)s or %(R)s%(B)s then"
 " %(R)s%(R)s%(B)s."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:238
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:233
 #, python-format
 msgid ""
 "Les besoins en %(B)s étant assez faibles, il faut limiter au maximum le nombre de "
@@ -904,7 +917,7 @@ msgstr ""
 "As the %(B)s requirement is quite low, the number of black-only sources should be "
 "kept to a minimum."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:244
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:239
 #, python-format
 msgid ""
 "La présence de %(blood_moon)s dans le format rend difficile l'utilisation de terrains"
@@ -913,7 +926,7 @@ msgstr ""
 "The presence of %(blood_moon)s in the format makes it difficult to use non-basic "
 "%(B)s lands."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:250
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:245
 #, python-format
 msgid ""
 "Parmis les cartes non-terrains, certaines sont écartées d'office : les cartes coûtant"
@@ -923,7 +936,7 @@ msgstr ""
 "Among the non-land cards, some are automatically excluded: cards costing %(B)s as "
 "%(knucklebone_witch)s or having a double %(B)s%(B)s symbol in their cost."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:257
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:252
 msgid ""
 "Cette réflexion permet d'aligner les besoins en mana coloré, les créatures et les "
 "cartes utilitaires qui viennent compléter le deck."
@@ -931,11 +944,11 @@ msgstr ""
 "This thought process aligns the colored mana requirements, creatures and utility "
 "cards that complete the deck."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:263
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:258
 msgid "Optimiser l'utilisation de la zone de commandement"
 msgstr "Optimizing the use of the command zone"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:265
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:260
 #, python-format
 msgid ""
 "%(ci_worldgorger)s Comme dit plus haut, la polyvalence de %(grenzo_dungeon_warden)s "
@@ -955,7 +968,7 @@ msgstr ""
 "transition to the <em>midgame</em> more menacingly while allowing its ability to be "
 "used more easily."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:279
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:274
 msgid ""
 "Le deck souffre naturellement d'un manque de <em>Card Advantage</em>. Cependant, "
 "cette absence est compensée par une forte densité de créatures à trois manas qui sont"
@@ -976,15 +989,15 @@ msgstr ""
 "creatures. It is important here to identify the two ways of imposing pressure on the "
 "opponent so that one can switch between them if necessary:"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:292
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:287
 msgid "Jouer avec les cartes de sa main pour utiliser l'effet des <em>lords</em>"
 msgstr "Play with the cards in your hand to use the <em>lords</em> effect;"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:295
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:290
 msgid "Jouer et utiliser la capacité de"
 msgstr "Play and use the ability of"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:299
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:294
 msgid ""
 "En effet, une fois en <em>midgame</em> ou en <em>lategame</em>, il faut du temps pour"
 " accumuler de nouveau des menaces et les gobelins ne sont pas très menaçants seuls. "
@@ -998,22 +1011,22 @@ msgid ""
 msgstr ""
 "Indeed, once in <em>midgame</em> or <em>late game</em>, it takes time to build up "
 "threats again and goblins are not very threatening on their own. In addition, if your"
-" hand is not promizing, Grenzo allows you to tempo and refuel your hand. It will be "
-"wiser to use the individual threats from your hand to force the opponent to answer "
-"them and to end the game on the continous use of the Grenzo ability. Finally, to "
-"protect a <em>combo</em> hand as much as possible, Grenzo allows you to force the "
-"opponent to answer because once on the battlefield at the end of the game it is the "
-"promise of constant pressure."
+" hand is not promizing, Grenzo allows to tempo and refuel your hand. It will be wiser"
+" to use the individual threats from your hand to force the opponent to answer them "
+"and to end the game on the continous use of the Grenzo ability. Finally, to protect a"
+" <em>combo</em> hand as much as possible, Grenzo allows to force the opponent to "
+"answer because once on the battlefield at the end of the game it is the promise of "
+"constant pressure."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:311
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:306
 msgid "Pour résumer, Grenzo protège la main et la main protège Grenzo."
 msgstr "In short, Grenzo protects your hand and your hand protects Grenzo."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:314
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:309
 msgid "Goblin recruiter, le retour du roi"
 msgstr "Goblin recruiter, the return of the king"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:316
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:311
 #, python-format
 msgid ""
 "L'arrivée de %(conspicuous_snoop)s dans le format a fait passer le "
@@ -1033,11 +1046,11 @@ msgstr ""
 "consideration the deck's poor ability to protect the combo, it may be wise to use its"
 " other cards in a slightly extreme way to divert the opponent's attention."
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:327
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:322
 msgid "La pile la plus efficace"
 msgstr "he most efficient stack"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:343
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:338
 #, python-format
 msgid ""
 "Les Raiders symbolisent l'ensemble des créatures à un mana du decks qui seront mis à "
@@ -1048,11 +1061,11 @@ msgstr ""
 "spot in the stack. There is a full guide to stack construction here: "
 "%(guide_recruiter)s"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:353
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:348
 msgid "Conclusion"
 msgstr "Conclusion"
 
-#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:355
+#: barrins_codex/templates/archetypes/grenzo-dungeon-warden.html:350
 #, python-format
 msgid ""
 "%(grenzo_dungeon_warden)s est un jeu rapide et à multiples facettes ce qui le rend "
@@ -1067,20 +1080,18 @@ msgstr ""
 " due to its lack of room to maneuver which heavily punishes missplays and an "
 "explosiveness that can come a turn too late."
 
-#: barrins_codex/templates/archetypes/index.html:9
+#: barrins_codex/templates/archetypes/index.html:11
 msgid "deckbuilding (<em>à venir</em>)"
 msgstr "deckbuilding (<em>to come soon</em>)"
 
-#: barrins_codex/templates/archetypes/index.html:8
+#: barrins_codex/templates/archetypes/index.html:10
 #, python-format
 msgid ""
-"<h1>Archétypes</h1> <p> Cette section complète l'introduction au %(deckbuilding)s et "
-"propose des archétypes de tournois qui ont fait leurs preuves ou qui proposent un "
-"style de jeu unique. </p>"
+"Cette section complète l'introduction au %(deckbuilding)s et propose des archétypes "
+"de tournois qui ont fait leurs preuves ou qui proposent un style de jeu unique."
 msgstr ""
-"<h1>Archetypes</h1> <p> This section completes the introduction to %(deckbuilding)s "
-"and offers archetypes that have proven themselves in tournaments or offer a unique "
-"style of play. </p>"
+"This section completes the introduction to %(deckbuilding)s and offers archetypes "
+"that have proven themselves in tournaments or offer a unique style of play."
 
 #: barrins_codex/templates/archetypes/index.html:22
 #: barrins_codex/templates/archetypes/index.html:38
@@ -1135,7 +1146,7 @@ msgid "Créatures Combo"
 msgstr "Creatures-Combo"
 
 #: barrins_codex/templates/archetypes/index.html:150
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:149
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:144
 #: barrins_codex/templates/articles/classifier-un-deck.html:66
 msgid "Contrôle"
 msgstr "Control"
@@ -1153,11 +1164,20 @@ msgstr "Big Spell"
 msgid "Voltron Aggro"
 msgstr "Aggro Voltron"
 
-#: barrins_codex/templates/archetypes/index.html:206
-msgid "Voltron Combo"
-msgstr "Combo Voltron"
+#: barrins_codex/templates/archetypes/index.html:205
+#, python-format
+msgid ""
+"Le format évolue tous les deux mois et, parfois, des généraux sont retirés de la "
+"liste des cartes légales dans le format. Certains de ces généraux définissaient à "
+"eux-même un deck dont la structure est difficilement transposable. Ceux-ci sont "
+"disponibles dans cette sous-section : %(ban)s."
+msgstr ""
+"The format changes every two months, and sometimes commanders are removed from the "
+"list of legal cards in the format. Some of these commanders themselves defined a deck"
+" whose structure is difficult to transpose. These are available in this subsection: "
+"%(ban)s."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:15
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:10
 msgid ""
 "Il s'agit d'un deck consistant en une trentaire de cartes qui créent la colonne "
 "vertébrale. Le reste des cartes permet de s'assurer une adaptation aux decks attendus"
@@ -1168,12 +1188,12 @@ msgstr ""
 "cards can be adapted to the decks expected during a tournament or to personal "
 "preferences. This makes it an ever-changing deck."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:23
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:34
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:18
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:29
 msgid "créatures hatebear"
 msgstr "hatebear creatures"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:22
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:17
 #, python-format
 msgid ""
 "En Duel Commander, c'est ce qui se rapproche le plus du deck Legacy <em>Death and "
@@ -1188,7 +1208,7 @@ msgstr ""
 "opponent's development while leaving the possibility of inflicting damage and to "
 "close the game by limiting the opponent's interaction."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:33
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:28
 #, python-format
 msgid ""
 "Les %(cartes_taxe)s peuvent ainsi permettre au deck de parfois prendre une posture de"
@@ -1202,7 +1222,7 @@ msgstr ""
 "threats. It is also possible for the deck to be very aggressive with the most mana "
 "efficient cards until the opponent bends under pressure."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:43
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:38
 #, python-format
 msgid ""
 "Dans l'ensemble, le plan de jeu est fait pour avoir l'avantage contre les decks "
@@ -1215,40 +1235,40 @@ msgstr ""
 "%(flawless_maneuver)s. This often makes it less linear than other aggro in the format"
 " and extremely fun to ride."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:51
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:46
 msgid "Points positifs"
 msgstr "Positive Points"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:52
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:47
 msgid "Flexibilité dans la construction du deck et dans le style de jeu ;"
 msgstr "Flexibility in deck construction and play style;"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:53
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:48
 msgid "Une variété de commandants puissants bien que technique à apprivoiser; "
 msgstr "A variety of powerful commanders yet technical to master;"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:54
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:49
 msgid "Une grande variété de synergies qui surprennent."
 msgstr "A wide variety of synergies that surprise."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:57
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:52
 msgid "Points négatifs"
 msgstr "A wide variety of synergies that surprise."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:59
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:54
 msgid "créatures stompy"
 msgstr "stompy creatures"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:58
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:53
 #, python-format
 msgid "Difficultés à combattre les champs de bataille remplis de %(stompy)s ;"
 msgstr "Difficulty fighting battlefields filled with %(stompy)s;"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:63
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:58
 msgid "Parfois insuffisant contre combo malgré quelques bonnes armes ;"
 msgstr "Sometimes insufficient against combo despite some good weapons;"
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:64
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:59
 msgid ""
 "Les prises de décisions ne sont pas toujours évidentes et ont des conséquences fortes"
 "\n"
@@ -1257,7 +1277,7 @@ msgstr ""
 "The decisions taken are not always obvious and have strong consequences for the rest "
 "of the game."
 
-#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:71
+#: barrins_codex/templates/archetypes/isamaru-hound-of-konda.html:66
 #, python-format
 msgid ""
 "La vidéo suivante a été réalisée par %(chroniques)s et publiée le 25 août 2021 avec "
@@ -1268,7 +1288,7 @@ msgstr ""
 "with the participation of %(theau_mery)s following its participation in the Master "
 "Zap of July 2021."
 
-#: barrins_codex/templates/archetypes/kelsien-the-plague.html:15
+#: barrins_codex/templates/archetypes/kelsien-the-plague.html:9
 msgid ""
 "Le principe du deck est assez classique dans la forme : jouer trois bêtes sur les "
 "premiers tours pour soit mettre de la pression, soit occuper le board, en fonction de"
@@ -1280,13 +1300,13 @@ msgstr ""
 "strategy. In support, the deck relies on a selection of versatile spells and a "
 "midrange oriented curve top."
 
-#: barrins_codex/templates/archetypes/kelsien-the-plague.html:23
+#: barrins_codex/templates/archetypes/kelsien-the-plague.html:17
 msgid ""
 "La particularité du deck et du build réside dans le fait qu’il est pensé pour être "
 "bicéphale :"
 msgstr "The particularity of the deck and the build is that it is designed to be two-headed:"
 
-#: barrins_codex/templates/archetypes/kelsien-the-plague.html:28
+#: barrins_codex/templates/archetypes/kelsien-the-plague.html:22
 msgid ""
 "Contre aggro, Kelsien donne une grosse dominance de board grâce au ping. D'abord "
 "parce que bien sûr il tue les X/1, mais surtout parce que les phases d'attaque et de "
@@ -1296,7 +1316,7 @@ msgstr ""
 "because of course it kills the X/1 creatures, but above all because the attack and "
 "block phases become very complex puzzles for the opponent."
 
-#: barrins_codex/templates/archetypes/kelsien-the-plague.html:35
+#: barrins_codex/templates/archetypes/kelsien-the-plague.html:29
 msgid ""
 "Contre contrôle, on swap dans Marchesa. En forçant l'adversaire à réagir sur les "
 "trois premiers tours on trouve assez facilement une fenêtre pour résoudre la reine, "
@@ -1308,7 +1328,7 @@ msgstr ""
 "it possible to hold the long term much more easily than a classic aggro and "
 "compensates well for the relative lack of firepower."
 
-#: barrins_codex/templates/archetypes/kelsien-the-plague.html:43
+#: barrins_codex/templates/archetypes/kelsien-the-plague.html:37
 msgid ""
 "C’est donc un deck aggro polyvalent avec des match-ups très lissés. Il est à son "
 "meilleur dans les duels de créatures et contre les decks trop mous qu’il peut "
@@ -1320,7 +1340,7 @@ msgstr ""
 "its greatest difficulties against creature-less combo decks that it's hard to "
 "interact with."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:14
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:9
 msgid ""
 "Jamais top tier, jamais trash tier, Kess fait partie de ces généraux peu fréquents "
 "mais qui restent toujours présents peu importe l’évolution du format. Avec une bonne "
@@ -1330,7 +1350,7 @@ msgstr ""
 "sufficient play but has always been there no matter how the format has evolved. With "
 "a good training, it is possible to make decent results in tournaments."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:21
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:16
 msgid ""
 "Jouer Contrôle peut être un gros investissement financier au départ qui est possible "
 "de rentabiliser. En effet, chaque carte est jouable en dehors de ce jeu et pourra "
@@ -1339,7 +1359,7 @@ msgstr ""
 "Control deck are more expensive at first sight but each card can be easily played in "
 "other decks. Indeed, almost each card is playable outside this deck."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:28
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:23
 #, python-format
 msgid ""
 "Il est nécessaire de maîtriser ce style de jeu pour garder confiance lorsque la "
@@ -1355,11 +1375,11 @@ msgstr ""
 "well, the deck needs to keep %(kess_dissident_mage)s on the board for as long as "
 "possible."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:37
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:32
 msgid "Construction du deck"
 msgstr "Building decks"
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:39
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:34
 msgid ""
 "Comme n’importe quel deck Contrôle, il est nécessaire de pouvoir jouer ses cartes "
 "sans rencontrer de problèmes de mana. Il faut donc pouvoir s’assurer de jouer un "
@@ -1372,7 +1392,7 @@ msgstr ""
 "with the objective of having four lands on turn four. It is also important that each "
 "card played had a really decent impact on the game."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:47
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:42
 msgid ""
 "Le nombre de terrains ne doit pas descendre en dessous de 38 et ne pas monter au-"
 "dessus de 42. En effet, hors de ces bornes, les risques d'absence ou de sur-"
@@ -1383,7 +1403,7 @@ msgstr ""
 "criterion. Outside of these boundaries, there is a high risk oof having too many "
 "lands in early games or too little lands to play Kess consistently."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:55
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:50
 #, python-format
 msgid ""
 "Conernant les créatures, elles doivent permettre au deck de se développer tout en "
@@ -1397,7 +1417,7 @@ msgstr ""
 "Advantage</em>, block the opponent's creatures and start to grind the opponent's life"
 " points before %(kess_dissident_mage)s finishes the job."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:63
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:58
 #, python-format
 msgid ""
 "Quoiqu’il en soit, les créatures ne sont pas le cœur du deck et dépasser huit à neuf "
@@ -1410,7 +1430,7 @@ msgstr ""
 "efficient thanks to their replayability with %(kess_dissident_mage)s. For this exact "
 "same reason, the number of planeswalkers must stay really low."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:71
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:66
 msgid ""
 "Ensuite, les planeswalkers qui offrent une condition de victoire sont nombreux dans "
 "Magic mais peu sont pertinents. Il faut alors se demander quelle est leur valeur "
@@ -1425,7 +1445,7 @@ msgstr ""
 "creatures: they are rituals that require a certain amount of mana, which leaves more "
 "possibility for the opponent on the turn they are played."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:80
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:75
 #, python-format
 msgid ""
 "Enfin, pour maximiser la puissance du deck et pour profiter au maximum de "
@@ -1439,7 +1459,7 @@ msgstr ""
 "most. There is then a need to find an equilibrium between counterspells, removals, "
 "cantrips and blasts.s"
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:88
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:83
 msgid ""
 "Posséder une ou deux combos dans un deck peut être rassurant pour débloquer certaines"
 " situations. Même si elles sont marginales et peu représentées, il en existe deux qui"
@@ -1449,7 +1469,7 @@ msgstr ""
 "situations. Even though they are scarce and not represented, here are two that can be"
 " viable:"
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:95
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:90
 #, python-format
 msgid ""
 "■ %(jace_wielder_of_mysteries)s + %(tainted_pact)s<br> %(tainted_pact)s est une carte"
@@ -1463,7 +1483,7 @@ msgstr ""
 " played. Oftenly played off-curve and needing three blue manas, he is heavily taxing "
 "on the deck."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:104
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:99
 #, python-format
 msgid ""
 "■ %(ral_storm_conduit)s + %(chain_of_smog)s<br> L'impact individuel des deux cartes "
@@ -1474,11 +1494,11 @@ msgstr ""
 "is really low and even if %(chain_of_smog)s can deal two for one, "
 "%(ral_storm_conduit)s has a prohibitive mana cost and a mediocre +1 loyalty ability."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:112
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:107
 msgid "Jouer avec le deck"
 msgstr "Playing with the deck"
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:114
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:109
 msgid ""
 "Il n’existe pas de match avec une issue connue d'avance, il faut se battre pour "
 "gagner, c’est ce qui rend le deck intéressant à jouer. Plus que l'impact individuel "
@@ -1486,12 +1506,12 @@ msgid ""
 "partie, la réponse aux menaces proposées par l'adversaire et les décisions prises "
 "tout au long de la partie."
 msgstr ""
-"There is no such thing as a known outcome, you have to fight to win, which is what "
+"There is no such thing as a known outcome, one has to fight to win, which is what "
 "makes the deck interesting to play. More than the individual impact of the cards or "
 "the commander, what matters most are the way of approaching the game, the response to"
 " threats proposed by the opponent and the decisions made throughout the game."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:122
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:117
 msgid ""
 "Comme c'est un deck Contrôle, il se joue de manière réactive. La capacité à répondre "
 "à toute éventualité dans les premiers tours dépend des cartes actives, de leur "
@@ -1501,7 +1521,7 @@ msgstr ""
 "eventuality in the early turns depends on the active cards, their quantity and "
 "quality."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:129
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:124
 #, python-format
 msgid ""
 "Il ne faut garder ni trop ni trop peu de terrains en main de départ car cela nuit à "
@@ -1516,7 +1536,7 @@ msgstr ""
 "or four lands are ideal. Only <em>cantrips</em> like %(preordain)s and "
 "%(serum_visions)s can bend this rule."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:139
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:134
 #, python-format
 msgid ""
 "%(lightning_bolt)s, %(fatal_push)s, et une <em>wrath</em> comme %(toxic_deluge)s "
@@ -1532,7 +1552,7 @@ msgstr ""
 "to maintain a sufficiently high level of life points before the arrival of "
 "%(kess_dissident_mage)s to have sufficient leeway to get the best out of Kess."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:150
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:145
 #, python-format
 msgid ""
 "Des <em>cantrips</em> (%(ponder)s et consorts), des contres (%(counterspell)s et "
@@ -1552,7 +1572,7 @@ msgstr ""
 "useful against planeswalkers or to chew away at an opponent's health and force them "
 "to take a more defensive position, which will put them in difficulty."
 
-#: barrins_codex/templates/archetypes/kess-dissident-mage.html:162
+#: barrins_codex/templates/archetypes/kess-dissident-mage.html:157
 msgid ""
 "De la discard, de la gestion et des contres sont tout aussi importants. Il faut être "
 "capable de répondre à tout moment à l’amorce d’une combo, c’est pourquoi les cartes "
@@ -1569,7 +1589,7 @@ msgstr ""
 "impact on the game (sometimes creatures, sometimes tutors, sometimes elements of the "
 "combo) in order not to be exhausted. at the fateful moment."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:15
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:9
 #, python-format
 msgid ""
 "%(kinnan_bonder_prodigy)s est un deck basé sur la capacité statique du commandant "
@@ -1580,34 +1600,34 @@ msgstr ""
 " arbitrarily large amounts of mana. For this, the deck relies on two different "
 "combos:"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:24
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:18
 #, python-format
 msgid ""
 "Seule, cette carte permet de générer mana infini et donc de gagner avec "
 "%(walking_ballista)s par exemple ;"
 msgstr ""
-"Alone, this card allows you to generate infinite mana and therefore to win with "
+"Alone, this card allows to generate infinite mana and therefore to win with "
 "%(walking_ballista)s for example;"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:32
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:26
 #, python-format
 msgid "Une créature qui génère %(U)s et %(G)s et une aura qui la dégage"
 msgstr "A creature that produces %(U)s and %(G)s and an aura that untap it"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:36
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:30
 msgid "Les créatures disponibles sont :"
 msgstr "Available creatures are:"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:39
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:33
 msgid "Les auras sont "
 msgstr "Auras are "
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:40
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:170
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:34
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:165
 msgid "et"
 msgstr "and"
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:48
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:42
 #, python-format
 msgid ""
 "Le deck est assez dépendant des artefacts et une autre combo est ajoutée. Il s'agit "
@@ -1618,7 +1638,7 @@ msgstr ""
 "%(painters_servant)s + %(grindstone)s which allows to <em>grind</em> the opponent's "
 "deck (after the French name of the card: %(meularde)s)."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:57
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:51
 #, python-format
 msgid ""
 "Cette forte relation avec les artefacts se traduit également par la présence de "
@@ -1629,7 +1649,7 @@ msgstr ""
 "%(urza_lord_high_artificer)s and %(emry_lurker_of_the_loch)s which allow interesting "
 "synergies with %(winter_orb)s or %(aether_spellbomb)s for example."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:67
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:61
 msgid ""
 "Certaines versions du deck se passent de telle ou de telle combo sans pour autant "
 "dévier dans la structure globale du deck."
@@ -1637,7 +1657,7 @@ msgstr ""
 "Some versions of the deck do without a particular combo without deviating from the "
 "overall structure of the deck."
 
-#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:73
+#: barrins_codex/templates/archetypes/kinnan-bonder-prodigy.html:67
 #, python-format
 msgid ""
 "Une version avec des %(stompy)s a été testée pendant une période. Les résultats n'ont"
@@ -1646,20 +1666,20 @@ msgstr ""
 "A version with %(stompy)s was tested for a period. The results did not allow to rule "
 "on the effectiveness of the version."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:14
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:9
 #, python-format
 msgid ""
 "%(magda_brazen_outlaw)s est est créature légendaire publiée dans Kaldheim. Elle coûte"
 " deux manas et ses capacités permettent de développer plusieurs stratégies :"
 msgstr ""
 "%(magda_brazen_outlaw)s is legendary creature published in Kaldheim. It costs two "
-"manas and its abilities allow you to develop several strategies:"
+"manas and its abilities allow to develop several strategies:"
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:21
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:16
 msgid "Les autres nains que vous contrôlez gagnent +1/+0"
 msgstr "Other Dwarves you control get +1/+0"
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:22
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:17
 msgid ""
 "Jouer des nains permet de stabiliser un plan de jeu agressif et d'infliger des dégâts"
 " qui pourraient mettre fin à la partie rapidement."
@@ -1667,21 +1687,21 @@ msgstr ""
 "Playing dwarves stabilizes an aggressive game plan and deals damage that could end "
 "the game quickly."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:29
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:24
 msgid "À chaque fois qu'un nain que vous contrôlez devient engagé, créez un jeton Trésor"
 msgstr "Whenever a Dwarf you control becomes tapped, create a Treasure token"
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:34
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:29
 #, python-format
 msgid ""
 "Cette compétence permet de synergiser avec le plan ci-dessus et même peut-être en "
 "créer un en réhabilitant une stratégie datant de Amonkhet : "
 "%(throne_of_the_god_pharaoh)s."
 msgstr ""
-"This ability allows you to synergize with the above plan and maybe even create one by"
-" rehabilitating a strategy dating from Amonkhet: %(throne_of_the_god_pharaoh)s."
+"This ability allows to synergize with the above plan and maybe even create one by "
+"rehabilitating a strategy dating from Amonkhet: %(throne_of_the_god_pharaoh)s."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:41
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:36
 msgid ""
 "Sacrifiez cinq trésors : Cherchez dans votre bibliothèque une carte d'artefact ou de "
 "dragon, mettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque"
@@ -1689,7 +1709,7 @@ msgstr ""
 "Sacrifice five Treasures: Search your library for an artifact or Dragon card, put "
 "that card onto the battlefield, then shuffle"
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:47
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:42
 msgid ""
 "Cette capacité est celle sur laquelle toutes les versions du deck cherchent à "
 "capitaliser. Pour résumer, Magda permet d'attaquer, de générer du mana et de trouver "
@@ -1697,10 +1717,11 @@ msgid ""
 "le deck car l'aggro est assurée par les nains."
 msgstr ""
 "This ability is what all versions of the deck seek to capitalize on. In short, Magda "
-"allows you to attack, generate mana and find the card you need if necessary. This can"
-" mean that you need a combo in the deck because the aggro is provided by the dwarves."
+"allows to attack, generate mana and find the card needed if necessary. This can mean "
+"that there is a need for a combo in the deck because the aggro is provided by the "
+"dwarves."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:59
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:54
 msgid ""
 "Pour se passer de la dépendance à une phase d'attaque, le deck joue des véhicules "
 "pour engager les créatures quand cela est nécessaire. Une fois animé, un véhicule "
@@ -1710,7 +1731,7 @@ msgstr ""
 "creatures when necessary. Once animated, a vehicle can steer itself to get the most "
 "out of the Throne."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:66
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:61
 #, python-format
 msgid ""
 "La combo du deck passe par la génération de jetons Trésor en utilisant "
@@ -1720,10 +1741,10 @@ msgid ""
 msgstr ""
 "The combo of the deck involves generating Treasure tokens using %(clock_of_omens)s "
 "and an artifact dwarf or magda that has gained the artifact type. Adding "
-"%(grinding_station)s allows you to grind the opponent or be tapped instead of "
-"Treasure tokens if there is a need for mana."
+"%(grinding_station)s allows to grind the opponent or be tapped instead of Treasure "
+"tokens if there is a need for mana."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:74
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:69
 #, python-format
 msgid ""
 "Les recruteurs (%(dwarven_recruiter)s et %(imperial_recruiter)s) peuvent trouver des "
@@ -1737,7 +1758,7 @@ msgstr ""
 "combo or %(dwarvent_bloodboiler)s to tap dwarves. Imperial Recruiter can also find "
 "%(reckless_fireweaver)s to synergize with the different strategies."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:85
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:80
 msgid ""
 "Certaines versions du deck utilisent des dragons pour capitaliser sur l'agressivité "
 "et les dégâts. Dans un environnement propice aux decks du macrotype Contrôle, cela "
@@ -1748,7 +1769,7 @@ msgstr ""
 "environment conducive to Control decks, it can be difficult to finish a game if no "
 "auxiliary tools are available."
 
-#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:92
+#: barrins_codex/templates/archetypes/magda-brazen-outlaw.html:87
 msgid ""
 "Il existe également des versions encore plus focalisées sur l'aspect combo. C'est "
 "principalement le cas des decks Commander pour lesquels la stratégie aggro semble "
@@ -1758,7 +1779,7 @@ msgstr ""
 "mainly the case with Commander decks for which the aggro strategy seems irrelevant "
 "given the number of life points to be reduced."
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:15
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:10
 #, python-format
 msgid ""
 "%(minsc_beloved_ranger)s est un deck basé sur les créatures et sur les combos que ces"
@@ -1773,12 +1794,12 @@ msgstr ""
 "been decided. The moment some combo piece is drawn, it is decent to consider playing "
 "towards it."
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:24
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:140
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:19
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:135
 msgid "Liste des combos"
 msgstr "List of the main combos"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:26
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:21
 #, python-format
 msgid ""
 "La capacité de %(minsc_beloved_ranger)s lui permet de prendre le rôle du moteur de "
@@ -1787,7 +1808,7 @@ msgstr ""
 "%(minsc_beloved_ranger)s's ability is the key to sacrificing creatures as it can "
 "change their base power and toughness to 0, which is quite lethal most of the time."
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:33
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:28
 msgid ""
 "L'idée ici est de présenter les combo principales, les variations sont à découvrir en"
 " jouant pour ne pas perdre l'intérêt de découvrir des combos soi-même."
@@ -1795,11 +1816,11 @@ msgstr ""
 "The purpose of this section is to present the major combos, leaving variants to the "
 "reader to find."
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:39
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:34
 msgid "Produire une quantité arbitrairement grande de mana"
 msgstr "Producing an arbitrary big quantity of mana"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:46
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:41
 #, python-format
 msgid ""
 "Il suffit alors d'utiliser la capacité de %(minsc_beloved_ranger)s sur Boo pour "
@@ -1808,34 +1829,34 @@ msgstr ""
 "%(minsc_beloved_ranger)s 's ability can then pump Boo to deal sufficient damage to "
 "the opponent."
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:53
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:48
 msgid "Gagner une quantité arbitrairement grande de points de vie"
 msgstr "Gaining an arbitrary big quantity of life points"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:60
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:55
 msgid "Mettre toutes ses créatures en jeu"
 msgstr "Putting every creature from the deck onto the battlefield<"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:71
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:66
 #, python-format
 msgid ""
 "%(mogg_fanatic)s est un moyen de tuer son adversaire en le mettant dans la boucle à "
 "la place du géant."
 msgstr "%(mogg_fanatic)s is a way to kill the opponent if it takes the place of the Giant."
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:78
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:73
 msgid "Créer une quantité arbitrairement grande de jetons de créatures"
 msgstr "Producing an arbitrary big quantity of tokens"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:87
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:82
 msgid "Infliger des dégâts létaux"
 msgstr "Dealing lethal damage"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:95
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:90
 msgid "Mot de la fin"
 msgstr "Closing words"
 
-#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:97
+#: barrins_codex/templates/archetypes/minsc-beloved-ranger.html:92
 msgid ""
 "La liste et les combo présentés ici peuvent ne pas être la version finale du deck. En"
 " effet, la liste a été postée moins d'une semaine après la sortie officielle de "
@@ -1845,7 +1866,57 @@ msgstr ""
 " entry has been made less than a week after <strong>Adventures in the Forgotten "
 "Realms</strong> has been released."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:15
+#: barrins_codex/templates/archetypes/niv-mizzet-reborn.html:10
+msgid ""
+"Il s'agit d'un deck <em>midrange non-bleu</em> qui a l'avantage de pouvoir maintenir "
+"une quantité suffisante de cartes en main grâce à la résolution du commandant. En "
+"effet, son effet d'arrivée en jeu en jeu permet de remplir sa main d'une carte de "
+"chaque <em>guilde</em> présente parmi les dix révélées."
+msgstr ""
+"This is a <em>non-blue midrange</em> deck that has the advantage of being able to "
+"maintain a sufficient number of cards in hand thanks to the commander's resolve. "
+"Indeed, its in-game effect allows to fill your hand with a card from each "
+"<em>guild</em> present among the ten revealed."
+
+#: barrins_codex/templates/archetypes/niv-mizzet-reborn.html:19
+msgid ""
+"La contrainte du commandant demande de la rigueur pour équilibrer les quantités : "
+"avoir trop de cartes d'une paire de couleur et pas assez d'une autre entraînera "
+"inévitablement une pioche moins importante."
+msgstr ""
+"The constraint of the commander requires rigor to balance the quantities: having too "
+"many cards of one color pair and not enough of another will inevitably result in a "
+"smaller draw."
+
+#: barrins_codex/templates/archetypes/niv-mizzet-reborn.html:29
+#, python-format
+msgid ""
+"Les créatures du deck permettent de générer de la présence sur le champ de bataille "
+"et de mettre l'adversaire en difficulté. Lorsque l'équilibre penche en faveur de ce "
+"deck, l'adversaire a beaucoup de mal à modifier l'issue de la partie. C'est à ce "
+"moment-là que le deck tend à s'exprimer pleinement. Jouer %(niv_mizzet_reborn)s "
+"permet de prendre un avantage considérable et de, quasiment, verrouiller la partie en"
+" sa faveur."
+msgstr ""
+"Creatures in the deck are used to generate presence on the battlefield and put the "
+"opponent in difficulty. When the balance tilts in favor of this deck, it is very "
+"difficult for the opponent to change the outcome of the game. This is when the deck "
+"tends to fully express itself. Playing %(niv_mizzet_reborn)s allows to gain a "
+"considerable advantage and almost lock the game in one's favor."
+
+#: barrins_codex/templates/archetypes/niv-mizzet-reborn.html:39
+msgid ""
+"Le deck utilisant au maximum toutes les combinaisons de couleur, les choix de "
+"terrains sont déterminants pour l'issue de la partie. Les choix, qu'ils soient bons "
+"ou mauvais, influent sur l'issue de la partie. La répartition des guildes tant en "
+"coût de coloré et en coût de mana peut être une solution à cet éventuel problème."
+msgstr ""
+"Since the deck uses all the color combinations to the maximum, the choice of lands is"
+" decisive for the outcome of the game. Choices, whether good or bad, affect the "
+"outcome of the game. The distribution of guilds both in cost of color and in cost of "
+"mana can be a solution to this possible problem."
+
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:10
 #, python-format
 msgid ""
 "%(orvar_the_all_form)s ne coûte qu'un seul coloré pour un coût total de quatre manas."
@@ -1860,11 +1931,11 @@ msgstr ""
 "to %(lightning_bolt)s but there are ways around this problem. Finally, Orvar's "
 "abilities are:"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:26
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:21
 msgid "Changelin"
 msgstr "Changeling"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:27
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:22
 #, python-format
 msgid ""
 "Cette capacité qui fournit tous les types de créature n'est pas anecdotique et "
@@ -1873,7 +1944,7 @@ msgstr ""
 "This ability which provides all creature types is not trivial and provides the best "
 "means of protecting %(orvar_the_all_form)s."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:34
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:29
 msgid ""
 "À chaque fois que vous lancez un sort d'éphémère ou de rituel, s'il cible au moins un"
 " autre permanent que vous contrôlez, créez un jeton qui est une copie d'un de ces "
@@ -1882,7 +1953,7 @@ msgstr ""
 "Whenever you cast an instant or sorcery spell, if it targets one or more other "
 "permanents you control, create a token that’s a copy of one of those permanents"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:40
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:35
 #, python-format
 msgid ""
 "Cette capacité est la clé de voute du deck. En effet, l'objectif est d'utiliser au "
@@ -1902,7 +1973,7 @@ msgstr ""
 "creature, a land, or a planeswalker, regardless of whether the spell's target is "
 "still in play when Orvar's ability resolves."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:52
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:47
 msgid ""
 "Quand un sort ou une capacité qu'un adversaire contrôle vous contraint à vous "
 "défausser de cette carte, créez un jeton qui une copie d'un permanent ciblé."
@@ -1910,7 +1981,7 @@ msgstr ""
 "When a spell or ability an opponent controls causes you to discard this card, create "
 "a token that’s a copy of target permanent."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:57
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:52
 #, python-format
 msgid ""
 "L'objectif est que le général soit en jeu ou en zone de commandement. Cette capacité "
@@ -1920,18 +1991,18 @@ msgid ""
 msgstr ""
 "The objective is for the commander to be in play or in the command zone. This ability"
 " can be useful in the event of an opponent's discard as with %(liliana_of_the_veil)s."
-" Indeed, returning Orvar in hand allows you to copy a permanent and recast it from "
-"the command zone."
+" Indeed, returning Orvar in hand allows to copy a permanent and recast it from the "
+"command zone."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:65
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:60
 msgid "Présentation de la liste"
 msgstr "Highlights"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:69
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:64
 msgid "la liste"
 msgstr "the decklist"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:68
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:63
 #, python-format
 msgid ""
 "La liste du deck présentée est la version du 14 février 2021, elle peut avoir évolué "
@@ -1942,11 +2013,11 @@ msgstr ""
 "changed since it was put online following tests in particular. The presentation "
 "therefore follows the list presented even if %(la_liste)s has since evolved."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:80
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:75
 msgid "Les fetches"
 msgstr "Fetches"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:79
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:74
 #, python-format
 msgid ""
 "Concernant la base de mana, le deck embarque un gros paquet de "
@@ -1965,14 +2036,14 @@ msgstr ""
 "ability to recover combo tools. Four tribal lands protect the general by regenerating"
 " him or making him 4/4 thanks to his Changeling ability. %(mishras_factory)s and "
 "%(griffin_canyon)s, if copied enough times, allow %(orvar_the_all_form)s to kill the "
-"opponent while attacking. The last utility lands allow you to speed up mana "
-"production or draw."
+"opponent while attacking. The last utility lands allow to speed up mana production or"
+" draw."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:94
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:89
 msgid "des contres"
 msgstr "counterspells"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:93
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:88
 #, python-format
 msgid ""
 "Le deck se base très fortement sur les decks mono-bleu : %(counterspells)s, "
@@ -1983,13 +2054,13 @@ msgstr ""
 "The deck is very heavily based on typical mono-blue decks: %(counterspells)s, "
 "%(cantrips)s and classics like %(vedalken_shackles)s. These cards allow the deck to "
 "remain stable and deal with most of the format's threats. Using a few planeswalkers "
-"allows you to be less dependent on the general."
+"allows to be less dependent on the general."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:95
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:90
 msgid "de la pioche"
 msgstr "some card draw"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:104
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:99
 #, python-format
 msgid ""
 "%(thing_in_the_ice)s renvoie toutes les non-horreur et, grâce au Changeling, Orvar "
@@ -2002,7 +2073,7 @@ msgstr ""
 "the general from a %(removal)s. Finally, %(spellskite)s both resist aggressive decks "
 "and protect the general."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:114
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:109
 #, python-format
 msgid ""
 "Il y a un module de créatures dites <em>untapper</em>, comme %(palinchron)s, qui "
@@ -2017,7 +2088,7 @@ msgstr ""
 "deck. %(body_double)s makes sure to retrieve at least one on %(intuition)s or "
 "%(gifts_ungiven)s."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:123
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:118
 #, python-format
 msgid ""
 "Le second module important est celui des sorts avec Buyback. Ces sorts sont presque "
@@ -2031,12 +2102,12 @@ msgstr ""
 "The second important module is that of spells with Buyback. These spells are almost "
 "the only ones that create copies with the ability of %(orvar_the_all_form)s. This "
 "makes it possible to keep a coherent structure and not to create too much dependence "
-"on the general. You should not hesitate in some cases to play them on a single land "
+"on the general. One should not hesitate in some cases to play them on a single land "
 "at the end of the turn to increase the available mana tenfold later. The best is "
 "%(whim_of_volrath)s for its low cost, followed by %(mind_games)s which can be used "
 "very well for its initial effect."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:133
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:128
 #, python-format
 msgid ""
 "Enfin, des tuteurs partout et en pagaille. De %(spellseeker)s qui est un très bon "
@@ -2049,11 +2120,11 @@ msgstr ""
 "Transmutation. The purpose of these cards is to make it easier to put together combos"
 " in the deck."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:143
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:138
 msgid "Toutes les combos du deck suivent la structure suivante et en sont des dérivées :"
 msgstr "ll combos in the deck follow the following structure and are derived from it"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:150
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:145
 #, python-format
 msgid ""
 "Lancer %(whim_of_volrath)s sur un terrain qui produit du mana bleu et en payant sont "
@@ -2062,15 +2133,15 @@ msgstr ""
 "Cast %(whim_of_volrath)s on a land that produces blue mana and paying its recall cost"
 " for 0"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:155
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:150
 msgid "crée une copie du terrain"
 msgstr "create a copy of the land"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:156
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:151
 msgid "Recommencer l'étape 1"
 msgstr "Restart step 1"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:160
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:155
 msgid ""
 "La combo présentée ci-dessus est une combo de structe <strong>A</strong> + "
 "<strong>B</strong> + <strong>Orvar</strong>. A permet de créer du mana, B permet de "
@@ -2080,15 +2151,15 @@ msgstr ""
 "<strong>Orvar</strong> structure combo. A creates mana, B copies the permanent that "
 "produces mana. This gives :"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:168
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:163
 msgid "Les <em>untappers</em>, certains sous conditions :"
 msgstr "<em>Untappers</em>, under specific conditions:"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:173
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:168
 msgid "Les <em>buybackers</em> :"
 msgstr "<em>Buybackers</em>:"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:178
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:173
 #, python-format
 msgid ""
 "Après avoir effectué cette combo, la mana à disposition est en quantité très "
@@ -2105,7 +2176,7 @@ msgstr ""
 "%(mystic_sanctuary)s to create loops with %(cryptic_command)s and / or "
 "%(mystic_confluence)s and %(cantrips)s."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:189
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:184
 #, python-format
 msgid ""
 "Étape 1 : Copie de %(mystic_sanctuary)s, qui remet %(cryptic_command)s sur le dessus "
@@ -2114,7 +2185,7 @@ msgstr ""
 "Step 1: Copy %(mystic_sanctuary)s, which puts %(cryptic_command)s back on top of the "
 "library;"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:195
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:190
 #, python-format
 msgid ""
 "Étape 2 : Utilisation %(cantrips)s, et copie %(mystic_sanctuary)s pour le remettre "
@@ -2123,18 +2194,18 @@ msgstr ""
 "Step 2: Use %(cantrips)s, and copy %(mystic_sanctuary)s to put it back on top of the "
 "library;"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:201
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:196
 #, python-format
 msgid ""
 "Étape 3 : Lancement de %(cryptic_command)s avec n'importe quel mode et celui qui fait"
 " piocher ;"
 msgstr "Step 3: Cast %(cryptic_command)s with any mode and the one that draws;"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:207
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:202
 msgid "Retour à l'étape 1"
 msgstr "Back to step 1"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:211
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:206
 #, python-format
 msgid ""
 "En choisissant le mode qui <em>renvoie un permanent dans la main de son "
@@ -2151,7 +2222,7 @@ msgstr ""
 "necessary to strengthen %(orvar_the_all_form)s and attack with the latter to kill the"
 " opponent ."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:221
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:216
 msgid ""
 "Le deck permet de jouer quelques combos supplémentaires qu'il faut relever mais il "
 "faut également noter que ce n'est pas la volonté du deck de les assembler à tout prix"
@@ -2161,12 +2232,12 @@ msgstr ""
 "also be noted that it is not the will of the deck to assemble them at all costs in "
 "the form presented below:"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:229
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:224
 #, python-format
 msgid "%(extraplanar_lens)s et %(palinchron)s permet de faire mana infini ;"
 msgstr "(extraplanar_lens)s and %(palinchron)s allow infinite mana"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:234
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:229
 #, python-format
 msgid ""
 "%(cryptic_command)s et %(mystic_sanctuary)s permet de ralentir la partie le temps de "
@@ -2177,7 +2248,7 @@ msgstr ""
 " really go into a combo at the cost of the loss of the development of the number of "
 "lots;"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:240
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:235
 #, python-format
 msgid ""
 "%(parallax_tide)s et un <em>buybacker</em> permet d'asphyxier l'adversaire avec Orvar"
@@ -2186,11 +2257,11 @@ msgstr ""
 "%(parallax_tide)s and a <em> buybacker </em> suffocates the opponent with Orvar in "
 "play."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:247
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:242
 msgid "Les conseils de Soullessoni"
 msgstr "Soullessoni's tips and tricks"
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:249
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:244
 msgid ""
 "Le combo ne fonctionne pas avec les cartes légendaires ! Le sort <em>buybacker</em> "
 "va déclencher la capacité d'Orvar, le jeton copie va être créé, et il faudra "
@@ -2203,7 +2274,7 @@ msgstr ""
 "<em>buybacker</em> will lose its target and be removed from the stack and put into "
 "the graveyard."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:257
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:252
 #, python-format
 msgid ""
 "Les cartes à un mana qui ciblent un permanent, en général ou l'engager ou le dégager,"
@@ -2215,7 +2286,7 @@ msgstr ""
 "discarded because they usually don't target lands or draw a card. The only exception "
 "in the list is %(thermal_flux)s which can be used as a mana ramp."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:265
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:260
 #, python-format
 msgid ""
 "Une stratégie avec %(spellseeker)s est d'aller chercher un <em>buybacker</em> pour "
@@ -2226,11 +2297,11 @@ msgstr ""
 "and fetch %(merchant_scroll)s, which finds %(intuition)s, which gets %(palinchron)s, "
 "%(peregrine_drake)s or %(body_double)s, and presto, combo."
 
-#: barrins_codex/templates/archetypes/orvar-the-allform.html:274
+#: barrins_codex/templates/archetypes/orvar-the-allform.html:269
 msgid "Soullessoni reste disponible pour discuter du deck sur "
 msgstr "Soullessoni is available to discuss the deck over "
 
-#: barrins_codex/templates/archetypes/the-gitrog-monster.html:15
+#: barrins_codex/templates/archetypes/the-gitrog-monster.html:10
 #, python-format
 msgid ""
 "%(the_gitrog_monster)s est un deck créé dans le but d'utiliser au maximum les "
@@ -2243,7 +2314,7 @@ msgstr ""
 "skeleton make this one of the few truly <em>Control-Combo</em> decks in Duel "
 "Commander."
 
-#: barrins_codex/templates/archetypes/the-gitrog-monster.html:22
+#: barrins_codex/templates/archetypes/the-gitrog-monster.html:17
 #, python-format
 msgid ""
 "L'utilisation de terrains se traduit par la facilité à en mettre en jeu depuis la "
@@ -2256,7 +2327,7 @@ msgstr ""
 "draw that assembles the different combos of the deck and to have access to the "
 "removals."
 
-#: barrins_codex/templates/archetypes/the-gitrog-monster.html:30
+#: barrins_codex/templates/archetypes/the-gitrog-monster.html:25
 #, python-format
 msgid ""
 "Le deck est basé sur l'interaction entre %(splendid_reclamation)s et "
@@ -2271,15 +2342,14 @@ msgid ""
 msgstr ""
 "The deck is based on the interaction between %(splendid_reclamation)s and "
 "%(seasons_past)s. These two cards allow lands to go back and forth between "
-"battlefield and graveyard, providing a significant amount of cards in your hand. By "
-"adding a way to sacrifice lands, a way to generate mana, and a way to get "
-"%(seasons_past)s back from the deck, it is possible to guarantee a loop that "
-"generates a mathematically high amount of mana <em>provided you kill "
-"%(the_gitrog_monster)s before emptying the library</em>. Adding "
-"%(collective_brutality)s or similar cards turns the previous loop into a way to kill "
-"the opponent."
+"battlefield and graveyard, providing a significant amount of cards in hand. By adding"
+" a way to sacrifice lands, a way to generate mana, and a way to get %(seasons_past)s "
+"back from the deck, it is possible to guarantee a loop that generates a "
+"mathematically high amount of mana <em>provided killing %(the_gitrog_monster)s before"
+" emptying the library</em>. Adding %(collective_brutality)s or similar cards turns "
+"the previous loop into a way to kill the opponent."
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:15
+#: barrins_codex/templates/archetypes/the-omenkeel.html:10
 #, python-format
 msgid ""
 "%(the_omenkeel)s est la face verso d'une carte double face modale publiée dans "
@@ -2288,7 +2358,7 @@ msgstr ""
 "%(the_omenkeel)s is the reverse side of a modal double-face card published in "
 "Kaldheim. It is a vehicle whose capacities are:"
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:23
+#: barrins_codex/templates/archetypes/the-omenkeel.html:18
 msgid ""
 "À chaque fois qu'un véhicule que vous contrôlez inflige des blessures de combat à un "
 "joueur, ce joueur exile autant de cartes du dessus de sa bibliothèque. Vous pouvez "
@@ -2298,29 +2368,28 @@ msgstr ""
 "that many cards from the top of their library. You may play lands from among those "
 "cards for as long as they remain exiled"
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:29
+#: barrins_codex/templates/archetypes/the-omenkeel.html:24
 msgid ""
 "Avoir une 3/3 pour deux manas est déjà intéressant en mono-bleu. Cette capacité "
 "permet de jouer un nombre de terrains suffisamment faible pour continuer à jouer des "
 "terrains depuis les cartes exilées."
 msgstr ""
-"Having a 3/3 for two mana is already interesting in mono-blue. This ability allows "
-"you to play a small enough number of lands to continue playing lands from the exiled "
-"cards."
+"Having a 3/3 for two mana is already interesting in mono-blue. This ability allows to"
+" play a small enough number of lands to continue playing lands from the exiled cards."
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:36
+#: barrins_codex/templates/archetypes/the-omenkeel.html:31
 msgid "Pilotage"
 msgstr "Crew"
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:37
+#: barrins_codex/templates/archetypes/the-omenkeel.html:32
 msgid ""
 "Le faible prérequis pour le Pilotage est très intéressant et permet de jouer des "
 "créatures utilitaires car elles seront rentabilisées par cette capacité."
 msgstr ""
-"The low prerequisite for the Crew abilmity is very interesting and allows you to play"
-" utility creatures because they will be profitable by this ability."
+"The low prerequisite for the Crew ability is very interesting and allows to play "
+"utility creatures because they will be profitable by this ability."
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:47
+#: barrins_codex/templates/archetypes/the-omenkeel.html:42
 msgid ""
 "The Omenkeel donne virtuellement la célérité aux créatures ; en jouer une avant la "
 "phase d'attaque permet d'infliger de plus en plus de dégâts à l'adversaire."
@@ -2328,7 +2397,7 @@ msgstr ""
 "The Omenkeel virtually gives haste to creatures; Playing one before each attack phase"
 " inflicts more and more damage on the opponent."
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:53
+#: barrins_codex/templates/archetypes/the-omenkeel.html:48
 #, python-format
 msgid ""
 "Lorsque le deck affronte un adversaire agressif dès le début de partie et que le "
@@ -2342,7 +2411,7 @@ msgstr ""
 "builds a solid line of attackers. Hakka also allows the deck to advance after an "
 "attack if necessary. Alrund at the end of the game ensures a constant flow of cards."
 
-#: barrins_codex/templates/archetypes/the-omenkeel.html:64
+#: barrins_codex/templates/archetypes/the-omenkeel.html:59
 #, python-format
 msgid ""
 "Le plan de jeu est partagé par d'autres généraux : %(kira_great_glass_spinner)s, "
@@ -2351,7 +2420,7 @@ msgstr ""
 "The game plan is shared by other commanders: %(kira_great_glass_spinner)s, "
 "%(vendilion_clique)s and other mono-blue decks based on creatures."
 
-#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:15
+#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:10
 #, python-format
 msgid ""
 "La générale, %(titania_protector_of_argoth)s, est une créature dont le coût en mana "
@@ -2364,7 +2433,7 @@ msgstr ""
 "Moreover, its low toughness makes it susceptible to cards like %(lightning_bolt)s "
 "played in a vast majority of decks that are able to."
 
-#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:23
+#: barrins_codex/templates/archetypes/titania-protector-of-argoth.html:18
 #, python-format
 msgid ""
 "Après cet état des lieux à charge contre %(titania_protector_of_argoth)s, il faut "
@@ -2379,7 +2448,7 @@ msgstr ""
 "additional land. Additionally, its ability to create creature tokens is the most "
 "exploited strength in this deck."
 
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:15
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:9
 #, python-format
 msgid ""
 "Venser est un deck tempo. C'est à dire un deck qui cherche à contrôler le rythme de "
@@ -2394,7 +2463,7 @@ msgstr ""
 "synergies. These allow the deck to win its games and compensate for the restriction "
 "on color identity."
 
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:24
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:18
 #, python-format
 msgid ""
 "Pour remplir son rôle de tempo, le deck utilise des %(contresorts)s, des %(bounces)s,"
@@ -2408,11 +2477,11 @@ msgstr ""
 " win certain matches: %(vedalken_shackles)s and %(old_man_of_the_sea)s against aggro "
 "and %(search_for_azcanta)s against control for example."
 
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:27
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:21
 msgid "<em>tuteurs</em>"
 msgstr "<em>tutors</em>"
 
-#: barrins_codex/templates/archetypes/venser-shaper-savant.html:36
+#: barrins_codex/templates/archetypes/venser-shaper-savant.html:30
 #, python-format
 msgid ""
 "Les synergies du deck se basent sur des permanents, des équipements ou des créatures "
@@ -2427,82 +2496,125 @@ msgstr ""
 "Another synergy consists in combining %(narset_parter_of_veils)s or %(hullbreacher)s "
 "and an effect like that of %(time_spiral)s."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:14
+#: barrins_codex/templates/archetypes/decks-bannis/asmoranomardicadaistinaculdacar.html:9
 #, python-format
 msgid ""
-"Il s'agit d'un deck agressif qui se transforme en deck combo lorsque "
-"%(winota_joiner_of_forces)s est sur le champ de bataille. En effet, sa capacité se "
-"déclenche pour chaque créature non-humaine qui est déclarée attaquante."
+"Les decks %(asmoranomardicadaistinaculdacar)s sont un type de combo agressif très "
+"particulier. Dans le sens où ils combinent un plan agressif d'un côté, en jouant une "
+"3/3 pour 1 mana -généralement au tour 1 ou 2- et de l'autre côté une masse critique "
+"de synergies basées sur la défausse et l'utilisation du cimetière. Tout cela permet "
+"aux decks construits autour de ce commandant d'avoir une récursion importante à "
+"disposition à tout moment."
 msgstr ""
-"This is an aggressive deck that transforms into a combo deck when "
-"%(winota_joiner_of_forces)s is on the battlefield. Indeed, its ability triggers for "
-"each non-human creature that is declared an attacker."
+"%(asmoranomardicadaistinaculdacar)s decks are a very particular aggressive-combo "
+"type. In a sense that they combine an aggressive plan on one side, through curving a "
+"3/3 for {1} -generally on turn 1-2- and on the other side a critical mass of "
+"synergies based on discarding and graveyard use. All that does allow decks built "
+"around that commander to have an important recursion at disposal any time."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:21
+#: barrins_codex/templates/archetypes/decks-bannis/asmoranomardicadaistinaculdacar.html:19
 msgid ""
-"Étant basée sur la structure d'un aggro classique, le deck se prend en main "
-"rapidement malgré la présence de plusieurs synergies discrètes qui permettent de "
-"renforcer la puissance du deck et l'expérience de jeu. Maitriser ces synergies permet"
-" d'accéder aisément aux tables hautes lors des tournois."
+"Bien qu'il soit indéniable que ces decks souffrent de quelques mauvais matchs, ils "
+"ont toujours un avantage écrasant par rapport aux autres decks agressifs, "
+"principalement l'accessibilité récurrente aux effets de gestion. Cette gestion du "
+"champ de bataille devient accessible via un artefact complémentaire, un type "
+"permanent que les decks les plus agressifs ne peuvent pas gérer assez vite ou assez "
+"souvent, sauf si cela se fait au prix de concessions dans la construction du deck."
 msgstr ""
-"Being based on the structure of a classic aggro, the deck is easily taken in hand "
-"despite the presence of several discreet synergies that strengthen the power of the "
-"deck and the playing experience. Mastering these synergies allows easy access to the "
-"tables high during tournaments."
+"Although it is undeniable that these decks suffer from a couple of bad match-ups, it "
+"still has a crushing advantage against other aggressive decks, mostly from recurring "
+"accessibility to removal effects. This board management becomes accessible through a "
+"complimentary artifact, a permanent type that most aggressive decks can’t handle that"
+" fast or that often, unless when done at the cost of deck building concessions."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:29
-#, python-format
+#: barrins_codex/templates/archetypes/decks-bannis/asmoranomardicadaistinaculdacar.html:30
 msgid ""
-"Le rythme de la partie doit être dicté par ce deck. C'est aux créatures du deck "
-"d'installer une grosse pression (une <em>clock</em>) qui permet d'être l'agresseur "
-"rapidement. Il faut garder en tête que le deck joue des %(hatebear)s qui permettent "
-"de ralentir le développement de l'adversaire."
+"Cette double spécificité pose un problème fondamental, dans le sens qu'elle tend à "
+"asphyxier la diversité des archétypes agressifs qui étaient, jusqu'à présent, plutôt "
+"équilibrés. Pour ces raisons, nous avons choisi d'interdire "
+"Asmoranomardicadaistinaculdacar en tant que commandant."
 msgstr ""
-"The pace of the game should be dictated by this deck. It's up to the creatures of the"
-" deck to apply a lot of pressure (a <em>clock</em>) quickly. Keep in mind that the "
-"deck plays %(hatebear)s which slow down the opponent's development."
+"This double specificity poses a fundamental problem, in a problem that it tends to "
+"asphyxiate diversity in aggressive archetypes; which was, until now, rather balanced."
+" For those reasons, we chose to ban Asmoranomardicadaistinaculdacar as a commander."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:39
-#, python-format
+#: barrins_codex/templates/archetypes/decks-bannis/index.html:6
 msgid ""
-"La combinaison de couleur <em>Boros</em> donne accès aux meilleures créatures de "
-"%(taxe)s en blanc et les meilleures créatures %(aggro)s en rouge tout en gardant "
-"%(lightning_bolt)s pour des %(blasts)s."
+"Cette section regroupe des listes de decks tels qu'ils étaient au moment de leur "
+"retrait de la liste des cartes légales du format."
 msgstr ""
-"The <em>Boros</em> color scheme gives access to the best %(taxe)s creatures in white "
-"and the best %(aggro)s creatures in red while keeping %(lightning_bolt)s for "
-"%(blasts)s."
+"This section groups together lists of decks as they were when they were removed from "
+"the format's legal card list."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:41
-msgid "agressives"
-msgstr "aggressives"
+#: barrins_codex/templates/archetypes/decks-bannis/index.html:16
+#: barrins_codex/templates/archetypes/decks-bannis/index.html:24
+msgid "27 septembre 2021"
+msgstr "September 27, 2021"
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:42
-msgid "dégâts directs"
-msgstr "direct damages"
+#: barrins_codex/templates/archetypes/decks-bannis/winota-joiner-of-forces.html:9
+msgid ""
+"Bien que la construction d'un deck doublement tribal puisse être très compliquée, "
+"avoir comme condition tribale le type de créature le plus imprimé de l'histoire du "
+"jeu et l'autre étant « n'importe quoi qui appartient au reste », ces conditions "
+"tribales ne sont pas la plus grande des contraintes de contruction. Avoir une "
+"créature puissante avec une force et une endurance de 4/4 pour 4 manas est aussi une "
+"condition évaluée. Avoir un impact le tour où elle arrive en jeu (comme une sorte de "
+"« célérité améliorée ») nécessite aussi la vigilance de tout le monde, sans oublier "
+"que les objets trouvés dans la bibliothèques deviennent indestructibles (un mot-clé "
+"auparavant rare mais qui devient de plus en plus fréquent depuis une dizaine "
+"d'années, comme <em>Défense talismanique</em> ou <em>Linceul</em>, d'autres mot-clés "
+"peu interactifs). Enfin, elle n'a pas besoin de faire partie elle-même du combat pour"
+" avoir un impact."
+msgstr ""
+"Even though doubly tribal deck building can be hell of a nightmare, having one of the"
+" tribal conditions being the most printed creature type ever and the other one being "
+"“anything that belongs to the rest”, the tribal conditions are not really such a "
+"building constraint. Being a solid, perfectly square 4/4 for {4} body is also a "
+"checked condition. Acting on the turn it enters the battlefield (just in a form of "
+"“improved haste”) also requires vigilance from everyone, not so as to mention that "
+"the objects found in libraries become indestructible (a once super rare keyword that "
+"now became very common over the last 10 years, much like “hexproof” or “shroud”, "
+"other anti-interactive keywords are). Lastly, it doesn't even need to be part of the "
+"combat step itself."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:50
-msgid "Les Win-O-Maths"
-msgstr "Win-O-Maths"
+#: barrins_codex/templates/archetypes/decks-bannis/winota-joiner-of-forces.html:24
+#, fuzzy, python-format
+msgid ""
+"Ces caractéristiques présentent donc un même problème que ceux d'%(asmo_annonce)s : "
+"%(winota_joiner_of_forces)s est un deck aggro-combo qui bénéficie d'une très grande "
+"supériorité par rapport à d'autres decks aggro tout en étant au moins assez bien "
+"positionné contre les autres archétypes. Aussi, la diversité du format est diminuée "
+"par ce fait et, suivant cette logique, le retrait d'Asmoranomardicadaistinaculdacar "
+"fait que Winota risque de devenir le prochain deck problématique."
+msgstr ""
+"Those characteristics thus present a similar problem to that of "
+"Asmoranomardicadaistinaculdacar %(asmo_annonce)s: Winota, Joiner of Forces is an "
+"aggressive-combo deck that benefits from an overwhelmingly positive match-up against "
+"other aggressive decks, while being at least good against other archetypes. Again, "
+"diversity is diminished by this fact, and, following that logic, the simultaneous ban"
+" of Asmoranomardicadaistinaculdacar bears the risk of Winota, Joiner of Forces "
+"becoming the next problematic deck."
 
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:54
-#: barrins_codex/templates/tools/ikomaths.html:22
-msgid "Probabilité de réussites successives"
-msgstr "Probability of successive successes"
-
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:56
-msgid "nombre d'humains :"
-msgstr "Number of humans:"
-
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:60
-msgid "nombre de réussites max :"
-msgstr "maximum number of successes:"
-
-#: barrins_codex/templates/archetypes/winota-joiner-of-forces.html:63
-#: barrins_codex/templates/tools/combo-a-b.html:49
-#: barrins_codex/templates/tools/ikomaths.html:35
-msgid "Calcul"
-msgstr "Calculation"
+#: barrins_codex/templates/archetypes/decks-bannis/winota-joiner-of-forces.html:42
+msgid ""
+"De tels commandants (ou cartes) oppressifs qui nécessitent une réponse immédiate, et "
+"le fait que les decks qui jouent ces cartes ont également quelques réponses de "
+"dernière chance aux réponses des adversaires ne sont pas vraiment ce qui crée de "
+"grandes expériences de jeu. Encore une fois, ici, être battu par des cartes révélées "
+"au hasard en haut des bibliothèques ne crée pas de sentiments très chaleureux de la "
+"part des personnes perdant face à ce genre de decks, surtout lorsque le prix payé "
+"pour le faire n'est pas vraiment une contrainte. Pour ces raisons, et après une "
+"performance continue et croissante des decks Winota, Joiner of Forces, nous avons "
+"choisi d'interdire cette carte en tant que commandant à partir de maintenant."
+msgstr ""
+"Such oppressive commanders (or cards) that require immediate response, and the fact "
+"that the decks that play those cards also have a couple last-chance responses to "
+"opponents’ responses aren’t really what creates great game experiences. Again, here, "
+"being beaten by randomly revealed cards off the top of libraries doesn’t create very "
+"warm feelings from people losing to those kinds of decks, especially when the price "
+"paid to do so isn’t that much of a constraint. For those reasons, and after a "
+"continuous, growing performance of Winota, Joiner of Forces decks, we chose to ban "
+"that card as a commander from now on."
 
 #: barrins_codex/templates/articles/_contributors.html:6
 msgid ""
@@ -2534,9 +2646,9 @@ msgstr ""
 "In the first sense, the <em>metagame</em> is the study of the different strategies "
 "that a game allows. Having a global view of the possible strategies and their "
 "effectiveness in relation to each other is a crucial point to progress and improve "
-"your style of play. Wanting to group the different decks according to their common "
-"points or their strategy allows them to be better studied. Therefore, <strong>how to "
-"classify a deck in Duel Commander?</strong>"
+"play style. Wanting to group the different decks according to their common points or "
+"their strategy allows them to be better studied. Therefore, <strong>how to classify a"
+" deck in Duel Commander?</strong>"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:16
 msgid "Deux méthodes s'opposent :"
@@ -3295,7 +3407,7 @@ msgid ""
 msgstr ""
 "The Modern Valakut deck, on the other hand, is a Big Spell deck where the whole deck "
 "is built around a simplistic game plan that boils down to having enough lands in play"
-" as quickly as possible and playing your Big Spell: Scapeshift."
+" as quickly as possible and playing the Big Spell: Scapeshift."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:762
 #, python-format
@@ -3341,7 +3453,7 @@ msgstr "A victory condition based directly or indirectly on a combo of two or th
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:822
 msgid "Des cartes permettant d'aller chercher les éléments de la combo."
-msgstr "Cards allowing you to find the elements of the combo."
+msgstr "Cards allowing to find the elements of the combo."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:826
 msgid ""
@@ -3402,7 +3514,7 @@ msgstr "Lack of interactivity with the opponent;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:879
 msgid "Une stratégie qui consiste à cibler avec ses sorts directement l'adversaire."
-msgstr "A strategy that consists of targeting your opponent directly with your spells."
+msgstr "A strategy that consists of targeting the opponent directly with spells."
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:885
 msgid ""
@@ -3552,8 +3664,8 @@ msgid ""
 "Une condition de victoire secondaire consistant à gagner en attaquant avec ses "
 "créatures (souvent en débordant son adversaire) ;"
 msgstr ""
-"A secondary victory condition consisting of winning by attacking with your creatures "
-"(often by overrunning your opponent);"
+"A secondary victory condition consisting of winning by attacking with creatures "
+"(often by overrunning the opponent);"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1046
 msgid ""
@@ -3624,7 +3736,7 @@ msgstr "Category and macrotype in its own right which is characterized by:"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1109
 msgid "Une condition de victoire qui consiste à gagner en attaquant avec ses créatures ;"
-msgstr "A victory condition that consists of winning by attacking with your creatures;"
+msgstr "A victory condition that consists of winning by attacking with creatures;"
 
 #: barrins_codex/templates/articles/classifier-un-deck.html:1114
 msgid "Une condition de victoire non-interactive basée sur une combo ;"
@@ -3684,9 +3796,9 @@ msgid ""
 "lignes qui définissent le deck et de déterminer en quoi il est spécial :"
 msgstr ""
 "Choosing a game plan comes down to defining the optics of the deck and its angle of "
-"attack. Before you start selecting cards, you need to ask yourself a few questions to"
-" set a course. This questioning phase allows you to draw the broad lines that define "
-"the deck and determine what makes it special:"
+"attack. Before selecting cards, a few questions need to be asked to set a course. "
+"This questioning phase allows to draw the broad lines that define the deck and "
+"determine what makes it special:"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:30
 msgid "Qu’est-ce que le deck est supposé faire mieux que les autres decks déjà disponibles ?"
@@ -3766,8 +3878,8 @@ msgstr ""
 "In Alix's case, she finds it essential to be able to play "
 "%(urza_lord_high_artificer)s, <em>guardians</em> like %(demonic_tutor)s or "
 "%(enlightened_tutor)s and pickaxe engines like %(jhoira_weatherlight_captain)s or "
-"%(whirlwind_of_thought)s. So you have to play at least three to four colors. Among "
-"the possible command areas, there are a few notable:"
+"%(whirlwind_of_thought)s. So there is a need to play at least three to four colors. "
+"Among the possible command areas, there are a few notable:"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:88
 msgid ""
@@ -3790,9 +3902,9 @@ msgid ""
 "%(cascading_cataracts)s, par exemple, pour permettre d’utiliser sa capacité activée "
 "plus facilement."
 msgstr ""
-"Golos allows you to play all 5 colors while being colorless, which gives you more "
-"options. If Alix chooses Golos, it'll be possible to add %(cascading_cataracts)s to "
-"benefit from the activated ability."
+"Golos allows to play all 5 colors while being colorless, which gives more options. If"
+" Alix chooses Golos, it'll be possible to add %(cascading_cataracts)s to benefit from"
+" the activated ability."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:107
 #, python-format
@@ -3802,13 +3914,13 @@ msgid ""
 "%(training_grounds)s pour réduire le coût de la capacité activée qui permet de "
 "piocher une carte."
 msgstr ""
-"From a <em>Storm</em> perspective, Kenrith allows you to use the mana generated to "
-"gain a direct advantage. If Alix chooses Kenrith, it will probably be necessary to "
-"play %(training_grounds)s to reduce the cost of the activated ability to draw a card."
+"From a <em>Storm</em> perspective, Kenrith allows to use the mana generated to gain a"
+" direct advantage. If Alix chooses Kenrith, it will probably be necessary to play "
+"%(training_grounds)s to reduce the cost of the activated ability to draw a card."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:116
 msgid "Choisir son plan de jeu ou choisir sa zone de commandement d’abord ?"
-msgstr "Choose your game plan or choose your command zone first?"
+msgstr "Choosing the game plan or choose the command zone first?"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:118
 msgid ""
@@ -3816,7 +3928,7 @@ msgid ""
 "est un processus qui permet la plus grande souplesse et donc la plus grande "
 "efficacité une fois le choix arrêté."
 msgstr ""
-"Choosing your game plan and finding a command zone that then corresponds to it is a "
+"Choosing the game plan and finding a command zone that then corresponds to it is a "
 "process which allows the greatest flexibility and therefore the greatest efficiency "
 "once the choice has been made."
 
@@ -3827,7 +3939,7 @@ msgid ""
 "la zone de commandement et le plan de jeu créera des frictions qui se feront sentir "
 "dans des parties qui poussent le deck dans ses retranchements."
 msgstr ""
-"Choosing your command zone first and then the game plan will often amount to making "
+"Choosing the command zone first and then the game plan will often amount to making "
 "sub-optimal choices so that the two correspond. The mismatch between the area of "
 "command and the game plan will create friction that will be felt in games that push "
 "the deck to its limits."
@@ -3938,8 +4050,8 @@ msgid ""
 "faut jouer au plus un terrain basique de chacune des couleurs du deck et leur version"
 " neigeuse ;"
 msgstr ""
-"%(tainted_pact)s asks to play only different cards. This means that you have to play "
-"at most one basic land of each of the colors of the deck and their snow version;"
+"%(tainted_pact)s asks to play only different cards. This needs to play at most one "
+"basic land of each of the colors of the deck and their snow version;"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:248
 #, python-format
@@ -3981,7 +4093,7 @@ msgid ""
 "l'étape suivante."
 msgstr ""
 "If not, two options are available: stop building the deck or redefine the skeleton "
-"and re-embroider around. If it works, you have to move on to the next step."
+"and re-embroider around. Move on to the next step if it works."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:277
 msgid "Définir une tactique"
@@ -4026,8 +4138,8 @@ msgid ""
 "cartes choisies dans l'étape précédente à leur utilité dans le deck."
 msgstr ""
 "Keep in mind that an action does not have to go in the direction of the strategy but "
-"must never go in the opposite direction. This step allows you to compare the cards "
-"chosen in the previous step to their usefulness in the deck."
+"must never go in the opposite direction. This step allows to compare the cards chosen"
+" in the previous step to their usefulness in the deck."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:306
 msgid ""
@@ -4062,9 +4174,9 @@ msgid ""
 "Garder une trace écrite de ses réflexions évite aussi un des biais listé dans "
 "l'article."
 msgstr ""
-"To avoid these biases, here are some questions to ask yourself during the test "
-"phases. Keeping a written record of your thoughts also avoids one of the biases "
-"listed in the article."
+"To avoid these biases, here are some questions to ask oneself during the test phases."
+" Keeping a written record of the thoughts also avoids one of the biases listed in the"
+" article."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:329
 msgid "Tester une carte"
@@ -4081,7 +4193,7 @@ msgid ""
 "effet, les probabilités de piocher cette carte dans un deck de 98 à 99 cartes est "
 "faible et suit %(loi_hypergeometrique)s."
 msgstr ""
-"To test a card, you don't have to wait to draw and play it. Indeed, the probability "
+"There is no need to wait to draw and play a card to test it. Indeed, the probability "
 "of drawing this card in a deck of 98 to 99 cards is low and follows "
 "%(loi_hypergeometrique)s."
 
@@ -4090,8 +4202,8 @@ msgid ""
 "Il vaut mieux considérer la carte comme étant <em>en zone de commandement</em> et de "
 "se poser régulièrement les questions suivantes :"
 msgstr ""
-"It is better to think of the map as being <em>in the command zone</em> and to ask "
-"yourself the following questions regularly:"
+"It is better to think of the card as being <em>in the command zone</em> and asking "
+"oneself the following questions regularly:"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:347
 msgid ""
@@ -4121,8 +4233,8 @@ msgid ""
 "comprendre ce qui a fonctionné et ce qui n'a pas fonctionné. Cela se traduit en deux "
 "étapes :"
 msgstr ""
-"Testing the deck is like playing games. So you have to analyze these parts to "
-"understand what worked and what didn't. This translates into two steps:"
+"Testing the deck is actually playing games. So these games need to be analyzed to "
+"pick what worked and what didn't. This translates into two steps:"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:372
 msgid "Garder une trace écrite de chaque partie avec les informations suivantes :"
@@ -4154,7 +4266,7 @@ msgstr "What choices have resulted in an advantage in the game and why?"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:387
 msgid "Quelles cartes ont permis de gagner un avantage et pourquoi ?"
-msgstr "Which cards gave you an advantage and why?"
+msgstr "Which cards gave an edge and why?"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:390
 msgid "Quelles cartes ont été décevantes dans la partie et pourquoi ?"
@@ -4162,7 +4274,7 @@ msgstr "Which cards were disappointing in the game and why?"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:393
 msgid "Quelles cartes aurait-il fallu piocher et pourquoi ?"
-msgstr "Which cards should you have drawn and why?"
+msgstr "Which cards should have been drawn and why?"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:396
 msgid "Quelles cartes n'aurait-il pas fallu piocher et pourquoi ?"
@@ -4178,9 +4290,9 @@ msgid ""
 "adversaire dans un premier temps puis avec un groupe extérieur à la partie qui "
 "permettra de juger si les ressentis à chaud étaient corrects."
 msgstr ""
-"Armed with all this feedback on each game, you have to compare your analysis with "
-"your opponent first and then with a group outside the game which will allow you to "
-"judge whether the hot feelings were correct."
+"Armed with all this feedback on each game, comparing the analysis with the opponent "
+"first and then with a group outside of the game which will allow to judge whether the"
+" hot feelings were correct."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:411
 msgid ""
@@ -4188,9 +4300,9 @@ msgid ""
 " sa propre méthode d'analyse à celle d'autres personnes pour affûter son regard et "
 "supprimer au fur et à mesure les différents biais qui sont ainsi révélés."
 msgstr ""
-"The advantage is to consolidate the feedback given on the parties and also to compare"
-" your own method of analysis with that of other people to sharpen your gaze and "
-"gradually remove the various biases that are thus revealed."
+"The advantage is to consolidate the feedback given on the games and also to compare "
+"the methods of analysis to sharpen the gaze and gradually remove the various biases "
+"that are thus revealed."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:419
 msgid "Définir des critères universels d'acceptation"
@@ -4201,8 +4313,8 @@ msgid ""
 "Lors de la construction du deck, il faut se fixer des limites qu'il ne faut pas "
 "dépasser en terme de coût de mana pour un effet donné."
 msgstr ""
-"When building the deck, you have to set limits that should not be exceeded in terms "
-"of mana cost for a given effect."
+"When building the deck, some effects will have a predefined mana cost that should not"
+" be exceed for said effect."
 
 #: barrins_codex/templates/articles/construire-un-deck.html:427
 #, python-format
@@ -4301,8 +4413,8 @@ msgid ""
 "qui en gèrent plusieurs."
 msgstr ""
 "Removals are spells that removes permanents from the battlefield. There are several "
-"categories: <em>spot removals</em> which allow you to handle a single card and "
-"<em>mass removals</em> which manage several."
+"categories: <em>spot removals</em> which handle a single card and <em>mass "
+"removals</em> which manage several."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:13
 msgid "Destruction de terrains"
@@ -4331,7 +4443,7 @@ msgid ""
 "plus de ressources."
 msgstr ""
 "As indicated by its name, this card can balance some types of ressources. Used with "
-"%(rocks)s, it quickly forces your opponent to lose more ressources."
+"%(rocks)s, it quickly forces the opponent to lose more ressources."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:32
 #, python-format
@@ -4455,8 +4567,8 @@ msgid ""
 "Cette carte est un véritable couteau suisse. En effet, elle permet de s'attaquer aux "
 "petites créatures qui <em>chump block</em> et aux artefacts génants."
 msgstr ""
-"This card is a real jack-of-all-trades. This is because it allows you to deal with "
-"small creatures that <em>chump blocks</em> and annoying artifacts."
+"This card is a real jack-of-all-trades. This is because it allows to deal with small "
+"creatures that <em>chump blocks</em> and annoying artifacts."
 
 #: barrins_codex/templates/cartes-thematiques/les-mass-removals.html:107
 #: barrins_codex/templates/cartes-thematiques/les-spot-removals.html:131
@@ -4546,7 +4658,7 @@ msgid ""
 "loyauté couvrent un large éventail de posibilités dont les impacts ne sont pas "
 "négligeables."
 msgstr ""
-"This planeswalker allows you to manage the state of the game at will. Its loyalty "
+"This planeswalker allows to manage the state of the game at will. Its loyalty "
 "abilities cover a wide range of possibilities, the impacts of which are not "
 "negligible."
 
@@ -4677,7 +4789,7 @@ msgid ""
 "Carte jouée car elle permet de préparer le tour en cours. La carte est à jouer dans "
 "l'optique d'un Big Turn ou de la recherche d'une interaction particulière."
 msgstr ""
-"Card played because it allows you to prepare for the current turn. The card is to be "
+"Card played because it allows to prepare for the current turn. The card is to be "
 "played with a view to a Big Turn or the search for a particular interaction."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:105
@@ -4704,8 +4816,8 @@ msgid ""
 "Carte qui est de plus en plus jouée car elle permet d'interagir avec le cimetière de "
 "l'adversaire tout en ayant la possibilité de se remplacer aisément."
 msgstr ""
-"Card that is played more and more because it allows you to interact with the "
-"opponent's graveyard while having the possibility of easily replacing oneself."
+"Card that is played more and more because it allows to interact with the opponent's "
+"graveyard while having the possibility of easily replacing oneself."
 
 #: barrins_codex/templates/cartes-thematiques/les-piocheurs.html:128
 msgid ""
@@ -5766,6 +5878,11 @@ msgstr "Expected turn:"
 msgid "nombre de cartes piochées :"
 msgstr "Number of cards drawn:"
 
+#: barrins_codex/templates/tools/combo-a-b.html:49
+#: barrins_codex/templates/tools/ikomaths.html:35
+msgid "Calcul"
+msgstr "Calculation"
+
 #: barrins_codex/templates/tools/ikomaths.html:9
 msgid "Les Ik-O-Maths"
 msgstr "Ik-O-Maths"
@@ -5782,6 +5899,10 @@ msgstr ""
 "%(winota_joiner_of_forces)s, %(kinnan_bonder_prodigy)s or %(gyruda_doom_of_depths)s. "
 "Those abilities follow the same mathematical rationale for calculating successes "
 "(<em>or failures</em>)."
+
+#: barrins_codex/templates/tools/ikomaths.html:22
+msgid "Probabilité de réussites successives"
+msgstr "Probability of successive successes"
 
 #: barrins_codex/templates/tools/ikomaths.html:24
 msgid "nombre de réussites maximum :"
@@ -5838,4 +5959,93 @@ msgstr "Draw lots"
 #: barrins_codex/templates/tools/tirage-au-sort.html:28
 msgid "Résultats finaux :"
 msgstr "Final results:"
+
+#~ msgid "(<em>plus d'infos sur la page d'Asmoranomardicadaistinaculdacar</em>)"
+#~ msgstr "(<em>more information on Asmoranomardicadaistinaculdacar's page</em>)"
+
+#~ msgid ""
+#~ "Il s'agit d'un deck <em>midrange non-bleu</em>"
+#~ " qui a l'avantage de pouvoir maintenir une"
+#~ " quantité suffisante de cartes en main "
+#~ "grâce à la résolution du commandant. En "
+#~ "effet, son effet d'arrivée en jeu en jeu"
+#~ " permet de remplir sa main d'une carte "
+#~ "de chaque <em>guilde</em> présente parmi les "
+#~ "dix révélées. Cherchant à jouer les meilleures"
+#~ " cartes possibles,"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il s'agit d'un deck agressif qui se "
+#~ "transforme en deck combo lorsque "
+#~ "%(winota_joiner_of_forces)s est sur le champ de "
+#~ "bataille. En effet, sa capacité se déclenche"
+#~ " pour chaque créature non-humaine qui est"
+#~ " déclarée attaquante."
+#~ msgstr ""
+#~ "This is an aggressive deck that transforms "
+#~ "into a combo deck when %(winota_joiner_of_forces)s"
+#~ " is on the battlefield. Indeed, its ability"
+#~ " triggers for each non-human creature that"
+#~ " is declared an attacker."
+
+#~ msgid ""
+#~ "Étant basée sur la structure d'un aggro "
+#~ "classique, le deck se prend en main "
+#~ "rapidement malgré la présence de plusieurs "
+#~ "synergies discrètes qui permettent de renforcer "
+#~ "la puissance du deck et l'expérience de "
+#~ "jeu. Maitriser ces synergies permet d'accéder "
+#~ "aisément aux tables hautes lors des tournois."
+#~ msgstr ""
+#~ "Being based on the structure of a "
+#~ "classic aggro, the deck is easily taken "
+#~ "in hand despite the presence of several "
+#~ "discreet synergies that strengthen the power "
+#~ "of the deck and the playing experience. "
+#~ "Mastering these synergies allows easy access "
+#~ "to the tables high during tournaments."
+
+#~ msgid ""
+#~ "Le rythme de la partie doit être dicté"
+#~ " par ce deck. C'est aux créatures du "
+#~ "deck d'installer une grosse pression (une "
+#~ "<em>clock</em>) qui permet d'être l'agresseur "
+#~ "rapidement. Il faut garder en tête que "
+#~ "le deck joue des %(hatebear)s qui permettent"
+#~ " de ralentir le développement de l'adversaire."
+#~ msgstr ""
+#~ "The pace of the game should be dictated"
+#~ " by this deck. It's up to the "
+#~ "creatures of the deck to apply a lot "
+#~ "of pressure (a <em>clock</em>) quickly. Keep "
+#~ "in mind that the deck plays %(hatebear)s "
+#~ "which slow down the opponent's development."
+
+#~ msgid ""
+#~ "La combinaison de couleur <em>Boros</em> donne "
+#~ "accès aux meilleures créatures de %(taxe)s en"
+#~ " blanc et les meilleures créatures %(aggro)s "
+#~ "en rouge tout en gardant %(lightning_bolt)s "
+#~ "pour des %(blasts)s."
+#~ msgstr ""
+#~ "The <em>Boros</em> color scheme gives access "
+#~ "to the best %(taxe)s creatures in white "
+#~ "and the best %(aggro)s creatures in red "
+#~ "while keeping %(lightning_bolt)s for %(blasts)s."
+
+#~ msgid "agressives"
+#~ msgstr "aggressives"
+
+#~ msgid "dégâts directs"
+#~ msgstr "direct damages"
+
+#~ msgid "Les Win-O-Maths"
+#~ msgstr "Win-O-Maths"
+
+#~ msgid "nombre d'humains :"
+#~ msgstr "Number of humans:"
+
+#~ msgid "nombre de réussites max :"
+#~ msgstr "maximum number of successes:"
 

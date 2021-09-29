@@ -79,7 +79,14 @@ STRUCTURE = Nav(
                 Nav(lazy_gettext("The Omenkeel")),
                 Nav(lazy_gettext("Titania, Protector of Argoth")),
                 Nav(lazy_gettext("Venser, Shaper Savant")),
-                Nav(lazy_gettext("Winota, Joiner of Forces")),
+                Nav(
+                    lazy_gettext("Decks bannis"),
+                    index=True,
+                    children=[
+                        Nav(lazy_gettext("Asmoranomardicadaistinaculdacar")),
+                        Nav(lazy_gettext("Winota, Joiner of Forces")),
+                    ],
+                ),
             ],
         ),
         Nav(

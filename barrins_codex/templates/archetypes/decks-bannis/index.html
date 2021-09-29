@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>{{ _("Decks bannis") }}</h1>
+<p>
+	{% trans trimmed %}
+    Cette section regroupe des listes de decks tels qu'ils étaient au moment de leur retrait
+    de la liste des cartes légales du format.
+    {% endtrans %}
+</p>
+
+{{
+	bootstrap.card(
+		"Asmoranomardicadaistinaculdacar",
+		"/archetypes/decks-bannis/asmoranomardicadaistinaculdacar",
+		_("27 septembre 2021")
+	)
+}}
+
+{{
+	bootstrap.card(
+		"Winota, Joiner of Forces",
+		"/archetypes/decks-bannis/winota-joiner-of-forces",
+		_("27 septembre 2021")
+	)
+}}
+
+<div class="clear"></div>
+
+{% endblock %}

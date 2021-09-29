@@ -1,14 +1,58 @@
 {% extends "archetypes/_layout.html" %}
-{% import "archetypes/winota-joiner-of-forces.json" as deck_json %}
 
-{% block meta %}
-<meta property="decklist" content='{{ deck_json | tojson }}' />
-{% endblock %}
-
-{% block moxfield %}
+{% block moxfield -%}
 ApQ-U-RjQU6qZiLGn5Q9Xw
+{%- endblock %}
+
+{% block bans %}
+<p>
+    {% trans trimmed %}
+    Bien que la construction d'un deck doublement tribal puisse être très compliquée, avoir comme
+    condition tribale le type de créature le plus imprimé de l'histoire du jeu et l'autre étant
+    « n'importe quoi qui appartient au reste », ces conditions tribales ne sont pas la plus grande
+    des contraintes de contruction. Avoir une créature puissante avec une force et une endurance de
+    4/4 pour 4 manas est aussi une condition évaluée. Avoir un impact le tour où elle arrive en jeu
+    (comme une sorte de « célérité améliorée ») nécessite aussi la vigilance de tout le monde, sans
+    oublier que les objets trouvés dans la bibliothèques deviennent indestructibles (un mot-clé
+    auparavant rare mais qui devient de plus en plus fréquent depuis une dizaine d'années, comme
+    <em>Défense talismanique</em> ou <em>Linceul</em>, d'autres mot-clés peu interactifs). Enfin,
+    elle n'a pas besoin de faire partie elle-même du combat pour avoir un impact.
+    {% endtrans %}
+</p>
+
+<p>
+    {% trans trimmed
+        asmo_annonce=link(
+            "/archetypes/decks-bannis/asmoranomardicadaistinaculdacar",
+            card("Asmoranomardicadaistinaculdacar"),
+            _anchor="ban"
+        )
+    %}
+    Ces caractéristiques présentent donc un même problème que ceux
+    d'{{ asmo_annonce }} : {{ winota_joiner_of_forces }} est
+    un deck aggro-combo qui bénéficie d'une très grande supériorité par rapport à d'autres decks
+    aggro tout en étant au moins assez bien positionné contre les autres archétypes. Aussi, la
+    diversité du format est diminuée par ce fait et, suivant cette logique, le retrait
+    d'Asmoranomardicadaistinaculdacar fait que Winota risque de devenir le prochain deck
+    problématique.
+    {% endtrans %}
+</p>
+
+<p>
+    {% trans trimmed %}
+    De tels commandants (ou cartes) oppressifs qui nécessitent une réponse immédiate, et le fait
+    que les decks qui jouent ces cartes ont également quelques réponses de dernière chance aux
+    réponses des adversaires ne sont pas vraiment ce qui crée de grandes expériences de jeu. Encore
+    une fois, ici, être battu par des cartes révélées au hasard en haut des bibliothèques ne crée
+    pas de sentiments très chaleureux de la part des personnes perdant face à ce genre de decks,
+    surtout lorsque le prix payé pour le faire n'est pas vraiment une contrainte. Pour ces raisons,
+    et après une performance continue et croissante des decks Winota, Joiner of Forces, nous avons
+    choisi d'interdire cette carte en tant que commandant à partir de maintenant.
+    {% endtrans %}
+</p>
 {% endblock %}
 
+{# Contenu retiré suite au ban de Winota
 {% block highlights %}
 <p>
 	{% trans trimmed %}
@@ -188,3 +232,4 @@ input {
 }
 </style>
 {% endblock %}
+#}
