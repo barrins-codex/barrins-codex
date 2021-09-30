@@ -1,7 +1,7 @@
 Changelog
 =========
 
-5.1.1 (unreleased)
+5.1.1 (2021-09-30)
 ------------------
 
 - Correction dans les annonces de banlist
