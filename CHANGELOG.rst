@@ -6,6 +6,7 @@ Changelog
 
 - Correction dans les annonces de banlist
 - Correction des balises meta pour EN
+- Modification de l'affichage des decks sur mobile !définitif
 
 
 5.1.0 (2021-09-29)
@@ -13,7 +14,7 @@ Changelog
 
 - Article "Les Spot Removal" traduit
 - Article "Les Mass Removal" traduit
-- Article "Les Priocheurs" traduit
+- Article "Les Piocheurs" traduit
 - Ajout d'une section pour les decks bannis
 - Ajout d'une review de Niv-Mizzet
 - Modification de la navigation

@@ -304,25 +304,14 @@ def display_deck():
             )
         )
 
-    def _exportId(key: str):
-        url = "https://api.moxfield.com/v2/decks/all/"
-        r = requests.get(url + key)
-        return r.json().get("exportId")
-
-    def _decklist(key: str):
-        url = "https://api.moxfield.com/v1/decks/all/"
-        url = url + f"{key}/export?arenaOnly=false&exportId="
-        r = requests.get(url + _exportId(key))
-        return r.text
-
-    def _name(name):
+    def _name(name: str) -> str:
         name = unidecode.unidecode(name).lower()
         name = re.sub(r"[^a-zA-Z]", "", name)
         return name
 
-    def _get(ligne):
-        qte = re.sub(r"[a-zA-Z]", "", ligne.split(r" ")[0])
-        info = library[_name(ligne)]
+    def _get(name: str) -> json:
+        qte = re.sub(r"[a-zA-Z]", "", name.split(r" ")[0])
+        info = library[name]
         return {
             "count": qte,
             "name": re.split("/", info["name"])[0],
@@ -330,7 +319,9 @@ def display_deck():
             "types": info["types"],
         }
 
-    def _formalize(list, command):
+    def deck_from_moxfield(key: str) -> json:
+        url = "https://api.moxfield.com/v2/decks/all/"
+
         czon = []
         crea = {"type": "Creatures", "count": 0, "cards": []}
         plan = {"type": "Planeswalkers", "count": 0, "cards": []}
@@ -340,76 +331,74 @@ def display_deck():
         sorc = {"type": "Sorceries", "count": 0, "cards": []}
         land = {"type": "Lands", "count": 0, "cards": []}
 
-        lignes = list.split("\r\n")
-        for ligne in lignes:
-            if re.search(command, ligne):
-                czon.append(_get(ligne))
-                continue
+        deck_json = requests.get(url + key).json()
 
-            name = _name(re.split("/", ligne)[0])
-            if name in library:
-                ajout = _get(ligne)
+        for k, v in deck_json["mainboard"].items():
+            name = _name(re.split("/", k)[0])
+            card = _get(name)
+            card["count"] = v["quantity"]
 
-                if "Land" in ajout["types"]:
-                    land["count"] = land["count"] + int(ajout["count"])
+            if "Land" in card["types"]:
+                land["count"] = land["count"] + int(card["count"])
 
-                    if len(ajout["types"]) == 1:
-                        land["cards"].append(ajout)
-                    elif "Creature" in ajout["types"]:
-                        if "/" not in ligne:
-                            crea["count"] = crea["count"] + int(ajout["count"])
-                            land["cards"].append(ajout)
-                            continue  #: Will never add "Dryad Arbor" to Creatures
-                    elif "Enchantment" in ajout["types"]:
-                        if "/" not in ligne:
-                            ench["count"] = ench["count"] + int(ajout["count"])
-                            land["cards"].append(ajout)
-                            continue  #: Will never add Urza's Saga to Enchantments
-                    elif "Artifact" in ajout["types"]:
-                        if "/" not in ligne:
-                            arti["count"] = arti["count"] + int(ajout["count"])
-                            land["cards"].append(ajout)
-                            continue  #: Will never add Seat of the Synod to Artifacts
+                if len(card["types"]) == 1:
+                    land["cards"].append(card)
+                elif "Creature" in card["types"]:
+                    if "/" not in name:
+                        crea["count"] = crea["count"] + int(card["count"])
+                        land["cards"].append(card)
+                        continue  #: Will never add "Dryad Arbor" to Creatures
+                elif "Enchantment" in card["types"]:
+                    if "/" not in name:
+                        ench["count"] = ench["count"] + int(card["count"])
+                        land["cards"].append(card)
+                        continue  #: Will never add Urza's Saga to Enchantments
+                elif "Artifact" in card["types"]:
+                    if "/" not in name:
+                        arti["count"] = arti["count"] + int(card["count"])
+                        land["cards"].append(card)
+                        continue  #: Will never add Seat of the Synod to Artifacts
 
-                if "Creature" in ajout["types"]:
-                    crea["count"] = crea["count"] + int(ajout["count"])
-                    crea["cards"].append(ajout)
+            if "Creature" in card["types"]:
+                crea["count"] = crea["count"] + int(card["count"])
+                crea["cards"].append(card)
 
-                elif "Planeswalker" in ajout["types"]:
-                    plan["count"] = plan["count"] + int(ajout["count"])
-                    plan["cards"].append(ajout)
+            elif "Planeswalker" in card["types"]:
+                plan["count"] = plan["count"] + int(card["count"])
+                plan["cards"].append(card)
 
-                elif "Artifact" in ajout["types"]:
-                    arti["count"] = arti["count"] + int(ajout["count"])
-                    arti["cards"].append(ajout)
+            elif "Artifact" in card["types"]:
+                arti["count"] = arti["count"] + int(card["count"])
+                arti["cards"].append(card)
 
-                elif "Enchantment" in ajout["types"]:
-                    ench["count"] = ench["count"] + int(ajout["count"])
-                    ench["cards"].append(ajout)
+            elif "Enchantment" in card["types"]:
+                ench["count"] = ench["count"] + int(card["count"])
+                ench["cards"].append(card)
 
-                elif "Instant" in ajout["types"]:
-                    inst["count"] = inst["count"] + int(ajout["count"])
-                    inst["cards"].append(ajout)
+            elif "Instant" in card["types"]:
+                inst["count"] = inst["count"] + int(card["count"])
+                inst["cards"].append(card)
 
-                elif "Sorcery" in ajout["types"]:
-                    sorc["count"] = sorc["count"] + int(ajout["count"])
-                    sorc["cards"].append(ajout)
+            elif "Sorcery" in card["types"]:
+                sorc["count"] = sorc["count"] + int(card["count"])
+                sorc["cards"].append(card)
 
-        table = {
-            "library": {
-                "cards": [crea, plan, arti, ench, inst, sorc, land],
-                "count": (100 - len(czon)),
+        for k, v in deck_json["commanders"].items():
+            name = _name(re.split("/", k)[0])
+            card = _get(name)
+            card["count"] = v["quantity"]
+            czon.append(card)
+
+        return json.dumps(
+            {
+                "library": {
+                    "cards": [crea, plan, arti, ench, inst, sorc, land],
+                    "count": (100 - len(czon)),
+                },
+                "command": {"cards": czon, "count": len(czon)},
             },
-            "command": {"cards": czon, "count": len(czon)},
-        }
+            separators=(",", ":"),
+            sort_keys=True,
+        )
 
-        return json.dumps(table, indent=4, sort_keys=True)
-
-    def decklist(key: str, command: str):
-        print(f"Command: {command}")
-        print(f"Moxfield: {key}")
-        d = _decklist(key)
-        d = _formalize(d, command)
-        return d
-
-    return dict(frame_moxfield=frame_moxfield, decklist=decklist)
+    return dict(frame_moxfield=frame_moxfield, decklist=deck_from_moxfield)
