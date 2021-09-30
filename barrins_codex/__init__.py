@@ -289,21 +289,6 @@ def display_card():
 
 @app.context_processor
 def display_deck():
-    def frame_moxfield(key, id="moxfield-frame"):
-        return flask.Markup(
-            """
-<iframe
-    src="https://www.moxfield.com/embed/{key}?hideTotal=true"
-    id="{id}"
-    frameBorder="0"
-    width="100%"
-    onload="moxfieldOnLoad(event)"
-></iframe>
-        """.format(
-                key=key, id=id
-            )
-        )
-
     def _name(name: str) -> str:
         name = unidecode.unidecode(name).lower()
         name = re.sub(r"[^a-zA-Z]", "", name)
@@ -401,4 +386,4 @@ def display_deck():
             sort_keys=True,
         )
 
-    return dict(frame_moxfield=frame_moxfield, decklist=deck_from_moxfield)
+    return dict(decklist=deck_from_moxfield)
