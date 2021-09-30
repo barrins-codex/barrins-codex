@@ -376,6 +376,8 @@ def display_deck():
 
         return json.dumps(
             {
+                "name": deck_json["name"],
+                "date": deck_json["createdAtUtc"][:10],
                 "library": {
                     "cards": [crea, plan, arti, ench, inst, sorc, land],
                     "count": (100 - len(czon)),

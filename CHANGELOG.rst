@@ -4,7 +4,7 @@ Changelog
 5.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction de l'affichage des decklists sur mobile
 
 
 5.1.1 (2021-09-30)
