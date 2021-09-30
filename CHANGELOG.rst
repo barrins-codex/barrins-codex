@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction de l'affichage des decklists sur mobile
+- Mise à jour du sitemap
 
 
 5.1.1 (2021-09-30)

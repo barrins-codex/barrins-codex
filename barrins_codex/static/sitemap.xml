@@ -134,10 +134,22 @@
   <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+<!-- Decks bannis -->
 <url>
-  <loc>https://barrins-codex.org/fr/archetypes/winota-joiner-of-forces.html</loc>
-  <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  <loc>https://barrins-codex.org/fr/archetypes/decks-bannis/index.html</loc>
+  <lastmod>2021-09-27T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/archetypes/decks-bannis/asmoranomardicadaistinaculdacar.html</loc>
+  <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://barrins-codex.org/fr/archetypes/decks-bannis/winota-joiner-of-forces.html</loc>
+  <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+  <priority>0.50</priority>
 </url>
 
 <!-- Articles -->
