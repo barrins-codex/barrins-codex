@@ -40,7 +40,6 @@ def _delete(file):
         print(r"{file} not found")
 
 
-DIR_NAME = "barrins_codex"
 SKIP_TYPES = {
     "from_the_vault",
     "masterpiece",
@@ -120,14 +119,10 @@ def build():
                                 }
 
     try:
-        # Generating a file on dev
-        if not os.path.isdir(DIR_NAME):
-            os.mkdir(DIR_NAME)
         fname = "library.json.gz"
-        fpath = os.path.join(DIR_NAME, fname)
+        fpath = os.path.join(fname)
         json.dump(list(library.values()), gzip.open(fpath, "wt"))
     except IOError:
-        # No generation on prod
         pass
 
     # Deleting downloaded files

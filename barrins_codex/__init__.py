@@ -17,9 +17,9 @@ import gzip
 import json
 
 
-if os.path.isfile("barrins_codex/library.json.gz"):
+if os.path.isfile("library.json.gz"):
     # File exists
-    cartes = json.load(gzip.open("barrins_codex/library.json.gz"))
+    cartes = json.load(gzip.open("library.json.gz"))
 else:
     # Build file
     from . import build_library
