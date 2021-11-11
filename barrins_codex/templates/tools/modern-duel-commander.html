@@ -1,0 +1,106 @@
+{% extends "tools/_layout.html" %}
+{% import "cartes-thematiques/_layout_card_column.html" as layout with context %}
+
+{% block title %}
+Modern Duel Commander
+{% endblock %}
+
+{% block content %}
+<h1>{{ _("Modern Duel Commander") }}</h1>
+<div class="double-column">
+    <form class="inline-form" id="drawing-lots-info" autocomplete="off"
+        onsubmit="check();return false;">
+        <fieldset id="submit_lots">
+            <label for="sumbit">{{ _("Indiquer un nom par ligne") }}</label>
+            <div style="width:80%;padding:1em;">
+                <textarea name="decklist" id="decklist"
+                    style="width:100%;margin:0;padding:0;" rows="15"
+                ></textarea>
+            </div>
+            <button type="submit" id="btn-submit" class="btn-calcul">{{ _("Valider")}}</button>
+        </fieldset>
+    </form>
+</div>
+<div class="double-column">
+    <form class="inline-form" id="drawing-lots-results" autocomplete="off"
+        onsubmit="drawLot();return false;">
+        <fieldset id="draw_lots">
+            <label for="">{{ _("Légalité du deck") }}</label>
+            <table id="decklist_table" style="margin: 1.5em"></table>
+        </fieldset>
+    </form>
+</div>
+{% endblock %}
+
+{% block script %}
+{{ super() }}
+<!-- Legality checker -->
+<script>
+document.getElementById("draw_lots").style.display = "none"
+function check() {
+    document.getElementById("draw_lots").style.display = "block"
+    var table = document.getElementById("decklist_table")
+    let decklist = document.getElementById("decklist")
+    decklist = decklist.value.split("\n")
+    decklist.forEach((elt,idx) => {
+        let tr = document.createElement("tr")
+        let td_legality = document.createElement("td")
+        let td_name = document.createElement("td")
+        tr.id = "tr_" + idx
+        td_legality.id = "leg_" + clean(elt).replaceAll("+","")
+        td_name.innerHTML = elt.replaceAll(/[0-9]+ /ig,"")
+        tr.appendChild(td_legality)
+        tr.appendChild(td_name)
+        table.appendChild(tr)
+
+        setTimeout(async function(){await control(elt)}, 200 * idx)
+    })
+}
+
+async function control (card) {
+    let td = document.getElementById("leg_" + clean(card).replaceAll("+",""))
+    let legal = await legality(card)
+    if (legal != "not_legal") {
+        td.className = "ok"
+    } else {
+        td.className = "ko"
+    }
+}
+
+async function legality (card) {
+    card = clean(card)
+    let response = await fetch('https://api.scryfall.com/cards/named?fuzzy='+card)
+    let myJson = await response.json()
+    return myJson['legalities']["modern"]
+}
+
+function clean (str) {
+    str = str.toLowerCase()
+    str = str.replaceAll(/[0-9]+ /ig,"")
+    str = str.replaceAll(" ","+")
+    str = str.replaceAll("'","+")
+    str = str.replaceAll(",","+")
+    return str
+}
+</script>
+{% endblock %}
+
+{% block style %}
+{{ super() }}
+<style>
+td.ok::before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f14a";
+    padding: 0 0.5em;
+    color: #306d44;
+}
+td.ko::after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f057";
+    padding: 0 0.5em;
+    color: #ec5354;
+}
+</style>
+{% endblock %}
