@@ -1,10 +1,10 @@
 Changelog
 =========
 
-5.1.3 (unreleased)
+5.1.3 (2021-11-11)
 ------------------
 
-- Nothing changed yet.
+- Small fixes
 
 
 5.1.2 (2021-09-30)
