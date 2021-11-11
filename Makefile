@@ -18,4 +18,5 @@ test:
 	pytest
 
 update:
+	pip install --upgrade pip
 	pip install --upgrade --upgrade-strategy eager -e ".[dev]"
