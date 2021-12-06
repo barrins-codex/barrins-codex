@@ -40,9 +40,13 @@ document.getElementById("draw_lots").style.display = "none"
 function check() {
     document.getElementById("draw_lots").style.display = "block"
     var table = document.getElementById("decklist_table")
+    while (table.hasChildNodes()) {
+        table.removeChild(table.lastChild);
+    }
     let decklist = document.getElementById("decklist")
     decklist = decklist.value.split("\n")
     decklist.forEach((elt,idx) => {
+        if (elt == "") return
         let tr = document.createElement("tr")
         let td_legality = document.createElement("td")
         let td_name = document.createElement("td")
