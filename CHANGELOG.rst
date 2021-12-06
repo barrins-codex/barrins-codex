@@ -4,7 +4,7 @@ Changelog
 5.1.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Modification d'apparence de la page MDC
 
 
 5.1.4 (2021-12-06)
