@@ -1,7 +1,7 @@
 Changelog
 =========
 
-5.1.4 (unreleased)
+5.1.4 (2021-12-06)
 ------------------
 
 - Tools devient Outils
