@@ -133,6 +133,7 @@ STRUCTURE = Nav(
             children=[
                 Nav(lazy_gettext("Combo A + B")),
                 Nav(lazy_gettext("Ik-O-Maths")),
+                Nav(lazy_gettext("Modern Duel Commander")),
                 Nav(lazy_gettext("Tirage au sort")),
             ],
         ),

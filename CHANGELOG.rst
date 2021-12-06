@@ -7,6 +7,7 @@ Changelog
 - Tools devient Outils
 - Correction d'une erreur de dépendances
 - Amélioration du validateur Modern Duel Commander
+- Ajout du Modern Duel Commander à la page Outils
 
 
 5.1.3 (2021-11-11)
