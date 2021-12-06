@@ -128,7 +128,7 @@ STRUCTURE = Nav(
             ],
         ),
         Nav(
-            lazy_gettext("Tools"),
+            lazy_gettext("Outils"),
             index=True,
             children=[
                 Nav(lazy_gettext("Combo A + B")),

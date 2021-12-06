@@ -4,6 +4,7 @@ Changelog
 5.1.4 (unreleased)
 ------------------
 
+- Tools devient Outils
 - Correction d'une erreur de dépendances
 - Amélioration du validateur Modern Duel Commander
 

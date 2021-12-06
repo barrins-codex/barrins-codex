@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Barrin's Codex\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-29 21:13+0200\n"
+"POT-Creation-Date: 2021-12-06 21:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #. TRANSLATORS: please abide by MTG translation choices for game terms when possible.
 #: barrins_codex/navigation.py:52
@@ -221,8 +221,8 @@ msgid "Les Piocheurs"
 msgstr "Cantrips"
 
 #: barrins_codex/navigation.py:131
-msgid "Tools"
-msgstr "Tool"
+msgid "Outils"
+msgstr "Tools"
 
 #: barrins_codex/navigation.py:134
 msgid "Combo A + B"
@@ -232,7 +232,12 @@ msgstr "A + B Combo"
 msgid "Ik-O-Maths"
 msgstr "Ik-O-Maths"
 
-#: barrins_codex/navigation.py:136 barrins_codex/templates/tools/tirage-au-sort.html:9
+#: barrins_codex/navigation.py:136
+#: barrins_codex/templates/tools/modern-duel-commander.html:9
+msgid "Modern Duel Commander"
+msgstr ""
+
+#: barrins_codex/navigation.py:137 barrins_codex/templates/tools/tirage-au-sort.html:9
 msgid "Tirage au sort"
 msgstr "Drawing lots"
 
@@ -295,7 +300,7 @@ msgstr ""
 "Portions of the materials used are property of Wizards of the Coast. "
 "©%(wizards_of_the_coast)s LLC. </p>"
 
-#: barrins_codex/templates/layout.html:72
+#: barrins_codex/templates/layout.html:78
 msgid ""
 "Le Codex est en cours de traduction, il se peut qu'une partie du site ne soit pas "
 "traduit dans la langue sélectionnée."
@@ -2569,8 +2574,8 @@ msgstr ""
 "Even though doubly tribal deck building can be hell of a nightmare, having one of the"
 " tribal conditions being the most printed creature type ever and the other one being "
 "“anything that belongs to the rest”, the tribal conditions are not really such a "
-"building constraint. Being a solid, perfectly square 4/4 for four mana body is also a "
-"checked condition. Acting on the turn it enters the battlefield (just in a form of "
+"building constraint. Being a solid, perfectly square 4/4 for four mana body is also a"
+" checked condition. Acting on the turn it enters the battlefield (just in a form of "
 "“improved haste”) also requires vigilance from everyone, not so as to mention that "
 "the objects found in libraries become indestructible (a once super rare keyword that "
 "now became very common over the last 10 years, much like “hexproof” or “shroud”, "
@@ -4285,8 +4290,10 @@ msgid "Discuter de ses retours"
 msgstr "Discussing about ones analysis"
 
 #: barrins_codex/templates/articles/construire-un-deck.html:403
+#, fuzzy
 msgid ""
-"Armé de tous ces retours sur chaque partie, il faut comparer son analyse avec son "
+"Armé"
+" de tous ces retours sur chaque partie, il faut comparer son analyse avec son "
 "adversaire dans un premier temps puis avec un groupe extérieur à la partie qui "
 "permettra de juger si les ressentis à chaud étaient corrects."
 msgstr ""
@@ -4294,7 +4301,7 @@ msgstr ""
 "first and then with a group outside of the game which will allow to judge whether the"
 " hot feelings were correct."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:411
+#: barrins_codex/templates/articles/construire-un-deck.html:410
 msgid ""
 "L'avantage est de consolider les retours faits sur les parties et aussi de confronter"
 " sa propre méthode d'analyse à celle d'autres personnes pour affûter son regard et "
@@ -4304,11 +4311,11 @@ msgstr ""
 "the methods of analysis to sharpen the gaze and gradually remove the various biases "
 "that are thus revealed."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:419
+#: barrins_codex/templates/articles/construire-un-deck.html:418
 msgid "Définir des critères universels d'acceptation"
 msgstr "Defining universal acceptance criteria"
 
-#: barrins_codex/templates/articles/construire-un-deck.html:421
+#: barrins_codex/templates/articles/construire-un-deck.html:420
 msgid ""
 "Lors de la construction du deck, il faut se fixer des limites qu'il ne faut pas "
 "dépasser en terme de coût de mana pour un effet donné."
@@ -4316,7 +4323,7 @@ msgstr ""
 "When building the deck, some effects will have a predefined mana cost that should not"
 " be exceed for said effect."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:427
+#: barrins_codex/templates/articles/construire-un-deck.html:426
 #, python-format
 msgid ""
 "Par exemple, il est admis qu'un %(spot_removal)s coûte 2 manas. En cas de surcoût, "
@@ -4327,7 +4334,7 @@ msgstr ""
 "additional costs, the advantages provided must be justified and substantial, at the "
 "risk of having an ineffective deck."
 
-#: barrins_codex/templates/articles/construire-un-deck.html:436
+#: barrins_codex/templates/articles/construire-un-deck.html:435
 msgid ""
 "De même, dans des decks agressifs, il est admis qu'une créature doit pouvoir infliger"
 " autant de dégâts que son coût en mana, parfois plus mais rarement moins."
@@ -5944,13 +5951,63 @@ msgstr ""
 "This section provides tools for organizing <strong>Magic: the Gathering</strong> "
 "online tournaments."
 
+#: barrins_codex/templates/tools/modern-duel-commander.html:11
+msgid "Qu'est-ce que le Modern Duel Commander ?"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:13
+#, python-format
+msgid ""
+"Il s'agit d'un format propulsé par %(theau_mery)s défini au départ par les "
+"contraintes suivantes :"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:22
+msgid "20 points de vie au début de la partie"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:23
+#, fuzzy
+msgid "100 cartes dont la zone de commandement"
+msgstr "Optimizing the use of the command zone"
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:24
+msgid "Pas de sideboard"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:25
+msgid "Changement de général autorisé comme en Duel Commander"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:26
+msgid "Pas de banlist"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:29
+msgid "en date du :"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:32
+msgid "Rejoins la communauté :"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:41
+msgid "Outil de validation de deck"
+msgstr ""
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:46
 #: barrins_codex/templates/tools/tirage-au-sort.html:14
 msgid "Indiquer un nom par ligne"
 msgstr "Type a name per line"
 
+#: barrins_codex/templates/tools/modern-duel-commander.html:52
 #: barrins_codex/templates/tools/tirage-au-sort.html:18
 msgid "Valider"
 msgstr "Validate"
+
+#: barrins_codex/templates/tools/modern-duel-commander.html:60
+msgid "Légalité du deck"
+msgstr ""
 
 #: barrins_codex/templates/tools/tirage-au-sort.html:27
 msgid "Tirer au sort"
@@ -6048,3 +6105,4 @@ msgstr "Final results:"
 
 #~ msgid "nombre de réussites max :"
 #~ msgstr "maximum number of successes:"
+
