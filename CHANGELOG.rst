@@ -4,7 +4,7 @@ Changelog
 5.1.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction d'une erreur de dépendances
 
 
 5.1.3 (2021-11-11)
