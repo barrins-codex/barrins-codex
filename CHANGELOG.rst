@@ -1,7 +1,7 @@
 Changelog
 =========
 
-5.1.5 (unreleased)
+5.2.1 (2021-12-06)
 ------------------
 
 - Modification d'apparence de la page MDC
