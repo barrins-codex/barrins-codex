@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Tools devient Outils
+- Ajout de la section Outils au header
 - Correction d'une erreur de dépendances
 - Amélioration du validateur Modern Duel Commander
 - Ajout du Modern Duel Commander à la page Outils
