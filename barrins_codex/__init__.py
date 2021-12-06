@@ -304,6 +304,9 @@ def display_deck():
             "types": info["types"],
         }
 
+    def _key(card):
+        return card["name"]
+
     def deck_from_moxfield(key: str) -> json:
         url = "https://api.moxfield.com/v2/decks/all/"
 
@@ -358,6 +361,15 @@ def display_deck():
             card = _get(name)
             card["count"] = v["quantity"]
             czon.append(card)
+
+        czon.sort(key=_key)
+        crea["cards"].sort(key=_key)
+        plan["cards"].sort(key=_key)
+        arti["cards"].sort(key=_key)
+        ench["cards"].sort(key=_key)
+        inst["cards"].sort(key=_key)
+        sorc["cards"].sort(key=_key)
+        land["cards"].sort(key=_key)
 
         return json.dumps(
             {

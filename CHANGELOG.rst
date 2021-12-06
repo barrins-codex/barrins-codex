@@ -6,6 +6,7 @@ Changelog
 
 - Modification d'apparence de la page MDC
 - Correction de la génération de la decklist
+- Tri alphabétique des cartes dans la decklist
 
 
 5.1.4 (2021-12-06)
