@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Modification d'apparence de la page MDC
+- Correction de la génération de la decklist
 
 
 5.1.4 (2021-12-06)

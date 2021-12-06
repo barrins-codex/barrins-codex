@@ -328,21 +328,6 @@ def display_deck():
 
                 if len(card["types"]) == 1:
                     land["cards"].append(card)
-                elif "Creature" in card["types"]:
-                    if "/" not in name:
-                        crea["count"] = crea["count"] + int(card["count"])
-                        land["cards"].append(card)
-                        continue  #: Will never add "Dryad Arbor" to Creatures
-                elif "Enchantment" in card["types"]:
-                    if "/" not in name:
-                        ench["count"] = ench["count"] + int(card["count"])
-                        land["cards"].append(card)
-                        continue  #: Will never add Urza's Saga to Enchantments
-                elif "Artifact" in card["types"]:
-                    if "/" not in name:
-                        arti["count"] = arti["count"] + int(card["count"])
-                        land["cards"].append(card)
-                        continue  #: Will never add Seat of the Synod to Artifacts
 
             if "Creature" in card["types"]:
                 crea["count"] = crea["count"] + int(card["count"])
