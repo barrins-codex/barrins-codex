@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Joué auparavant avec Gaea's Cradle et des pièces de combo désormais
+    désuètes, la version proposée ici propose une approche nouvelle du deck :
+    une adaptation de Selesnya Agro.
+{% endblock %}
+{% block second_paragraph %}
+    Cette version agressive aux couleurs principales vert et blanc utilise les
+    meilleures créatures rouges pour maximiser la pression et les phases
+    d'attaque.
+{% endblock %}
+{% block third_paragraph %}
+    La qualité globale des créatures allant en s'améliorant, cette version a de
+    beaux jours devant elle.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/E_icMrDkZkK2evN5M6t2lA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/10-kari-zev-vs-marath", "La plus belle affronte dans ce match la vache récemment libérée de sa geôle. Qui de la vache ou du singe saura remporter la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="8 février 2022") }}
+    </div>
+</div>
+{% endblock %}

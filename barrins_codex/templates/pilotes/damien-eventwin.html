@@ -1,0 +1,33 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Damien.png" %}
+{% set name="Damien « eventwin »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+Joueur depuis la sortie de Dragon's Maze en 2013, il se lance directement dans le compétitif dans tous les formats. Il ne découvre le DC qu'en 2016 sur Marseille avec la participation de Fevin, membre décisionnaire du comité en charge de ce format. Il participe à plusieurs tournois finissant régulièrement parmi les meilleurs.
+{% endblock %}
+{% block second_paragraph %}
+Sa persévérance lui vaudra une qualification au premier Mythic Chanpionship  (ProTour Cleveland). Avec l'arrivée de MTGArena il consacre la plupart de son temps au Duel Commander qui est le format où il s'amuse le plus.
+{% endblock %}
+{% block third_paragraph %}
+Il a rejoint en septembre 2019 l'équipe de consultants qui accompagnent le comité des règles du Duel Commander.
+{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/hinata-dawncrowned") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/15-dennick-vs-hinata") }}
+    </div>
+</div>
+{% endblock %}

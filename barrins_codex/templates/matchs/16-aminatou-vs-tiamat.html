@@ -1,0 +1,37 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Dans cette configuration, Aminatou joue une version plus agressive
+    qu'habituellement et a troqué ses sorts d'interaction pour des créatures.
+    Dans un affrontement face à un deck contrôle et combo, cela dessert
+    grandement le deck. Au final, comme toujours dans un match d'agro contre
+    combo, c'est au pilote qui mettra fin à la partie que la victoire ira.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Domino" %}
+{% set joueur2 = "threem" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/X1wS_H-ay0Q" %}
+{% set date = "29 mars 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/aminatou-the-fateshifter") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/tiamat") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.threem() }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% set page = request.path[:-5] %}
+{% set match = match_name(page) %}
+{% set image = "img/"+page[1:]+".jpg" %}
+
+{% macro separateur() -%}
+<div class="col-6 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+</div>
+{%- endmacro %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename=image)}}"
+        alt="Bannière" class="opacity-75"
+        style="width:100%;" >
+</div>
+{% endblock %}
+
+{% block article %}
+<article class="col-8 mx-auto mt-4">
+    <div class="d-flex flex-column align-item-center justify-content-around">
+        <!-- Analyse -->
+        <div class="col-12 pe-2">
+            <p>{% block ogdesc %}{% block analyse %}🚧 Analyse en cours de rédaction 🚧{% endblock %}{% endblock %}</p>
+        </div>
+        {{ separateur() }}
+        <!-- Vidéo -->
+        <div class="py-2">
+            <div class="ratio ratio-16x9 col-12 mt-2">
+              <iframe title="Decktech publiée par les Chroniques du Commander" src="{{ youtube }}?rel=0" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="col-12 text-center">
+                <p><i>
+                    Match joué le {{ date }} par {{ joueur1 }} et {{ joueur2 }}
+                </i></p>
+            </div>
+        </div>
+        {{ separateur() }}
+        <!-- Liens -->
+        {% block legende %}{% endblock %}
+    </div>
+</article>
+{% endblock %}

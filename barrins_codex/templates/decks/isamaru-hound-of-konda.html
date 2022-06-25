@@ -1,0 +1,61 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck consistant en une trentaine de cartes qui créent sa
+    colonne vertébrale. Le reste des cartes permet de s'assurer une adaptation
+    aux decks attendus lors d'un tournoi ou des préférences personnelles. Cela
+    en fait un deck en perpétuelle évolution.
+{% endblock %}
+{% block second_paragraph %}
+    En Duel Commander, c'est ce qui se rapproche le plus du deck Legacy Death
+    and Taxes. Les règles de construction du format empêchent cependant le deck
+    d'assumer totalement ce rôle. La présence de cartes de taxe permet au deck
+    de ralentir le développement de l'adversaire tout en laissant la
+    possibilité d'infliger des dégâts à l'adversaire et de clore la partie en
+    limitant l'interaction adverse.
+{% endblock %}
+{% block third_paragraph %}
+    Les cartes de taxe peuvent ainsi permettre au deck de parfois prendre une
+    posture de deck tempo plus défensive et en essayant de grignoter
+    l'adversaire en contournant les menaces proposées. Il est également
+    possible pour le deck d'être très agressif avec les cartes les plus
+    efficientes en mana jusqu'à faire plier l'adversaire sous la pression.
+</p><p>
+    Dans l'ensemble, le plan de jeu est fait pour avoir l'avantage contre les
+    decks contrôle avec des moyens pour contourner ses cartes de gestion avec
+    des cartes comme Mantra de respect et Manœuvre irréprochable. Cela le rend
+    souvent moins linéaire que d'autres decks agressifs du format et
+    extrêmement plaisant à piloter.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/UvNG17Vfo0yait-pXq7PJA
+{% endblock %}
+
+
+### DECKTECH ###
+{% block decktech %}
+{{ deck.decktech(
+    "https://www.youtube.com/embed/0OYP75gMOEw?rel=0",
+    "Deckteck faite par Théau « Inøve » et publiée le 25 août 2021"
+) }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/3-isamaru-vs-gitrog", "La force de hatebears est sa facilité à gêner les decks contrôle et combo à mettre en place leurs plans de jeu. Est-ce le cas lorsque le chien s'attaque à la grenouille ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="9 décembre 2021") }}
+    </div>
+</div>
+{% endblock %}

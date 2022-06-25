@@ -1,0 +1,44 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Le deck est souvent appelé Adeliz Ten Bolts en référence aux cartes ayant
+    un effet similaire à Lightning Bolt. L'utilisation de ces cartes permet de
+    dicter le rythme de la partie en infligeant des et en renforçant les
+    créatures Sorcier sur le champ de bataille.
+{% endblock %}
+{% block second_paragraph %}
+    Il ne faut pas toujours voir Adeliz comme une créature de tour trois mais
+    plutôt comme une créature de tour cinq car elle devient beaucoup plus
+    impactante lorsqu'au moins un autre sort est joué le tour où elle arrive.
+    Dans la majorité des parties, le deck tue en deux à trois phases d'attaque.
+{% endblock %}
+{% block third_paragraph %}
+    Jouer Adeliz tour cinq permet aussi de garantir un contresort au cas où
+    l'adversaire souhaite interagir avec la générale. En effet, comme la
+    majorité des decks tempo, ce deck dispose d'une quantité correcte de
+    contresorts pour protéger ses menaces et ralentir le développement de
+    l'adversaire.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/UYXypl8bmEeFy1XhqSW_0A
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/1-adeliz-vs-kinnan", "Première vidéo de la série, ce match met en avant une version classique du deck contre un deck à mi-chemin entre stompy et combo. Deux aspects qui peuvent mettre en difficulté ce deck.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.trotte(played_on="25 novembre 2021") }}
+    </div>
+</div>
+{% endblock %}

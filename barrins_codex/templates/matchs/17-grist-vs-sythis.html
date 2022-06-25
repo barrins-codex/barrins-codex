@@ -1,0 +1,40 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Ce match se résume à une guerre de ressources que se livrent les deux
+    decks. En effet, le développement hâtif de l'un entraînera une réaction
+    forte de l'autre qui cherchera à déstabiliser au maximum les actions de
+    l'adversaire. Si Sythis cherche à se développer en se basant uniquement sur
+    le général, Grist aura peu de mal à l'arrêter en début de partie. De même,
+    le développement de Grist doit passer au travers des interactions de
+    Sythis. Au final, il s'agit un matchup équilibré où tous les choix auront
+    des conséquences fortes.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Imperia86" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/ZYZZEI4BxEU" %}
+{% set date = "5 avril 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/sythis-harvests-hand") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/grist-the-hunger-tide") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.imperia86() }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
+    <div class="centered"><h1 class="fs-1">Liste des matchs</h1></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+        {{ match.card3("/matchs/1-adeliz-vs-kinnan") }}
+        {{ match.card3("/matchs/2-kari-zev-vs-saskia") }}
+        {{ match.card3("/matchs/3-isamaru-vs-gitrog") }}
+        {{ match.card3("/matchs/4-liviomalcolm-vs-niv-5c") }}
+        {{ match.card3("/matchs/5-jori-en-vs-sygg") }}
+        {{ match.card3("/matchs/6-aminatou-vs-klothys") }}
+        {{ match.card3("/matchs/7-livioprava-vs-ojutai") }}
+        {{ match.card3("/matchs/8-esika-vs-niv-5c") }}
+        {{ match.card3("/matchs/9-miaratevesh-vs-prossh") }}
+        {{ match.card3("/matchs/10-kari-zev-vs-marath") }}
+        {{ match.card3("/matchs/11-doran-vs-marchesa") }}
+        {{ match.card3("/matchs/12-light-paws-vs-ishaitevesh") }}
+        {{ match.card3("/matchs/13-bjornawernog-vs-grist") }}
+        {{ match.card3("/matchs/14-minsc-vs-shorikai") }}
+        {{ match.card3("/matchs/15-dennick-vs-hinata") }}
+        {{ match.card3("/matchs/16-aminatou-vs-tiamat") }}
+        {{ match.card3("/matchs/17-grist-vs-sythis") }}
+        {{ match.card3("/matchs/18-kari-zev-vs-killian-budget") }}
+        {{ match.card3("/matchs/19-elmarsophina-vs-shorikai") }}
+        {{ match.card3("/matchs/20-juri-vs-sai") }}
+        {{ match.card3("/matchs/21-aminatou-vs-beamtown") }}
+        {{ match.card3("/matchs/22-raffine-vs-tivit") }}
+        {{ match.card3("/matchs/23-karlov-vs-reality-chip") }}
+        {{ match.card3("/matchs/24-grist-vs-minscboo") }}
+        {{ match.card3("/matchs/25-elminster-vs-wilson") }}
+        {{ match.card3("/matchs/26-hogaak-vs-minscboo") }}
+</div>
+{% endblock %}

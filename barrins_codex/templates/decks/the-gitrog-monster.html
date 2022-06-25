@@ -1,0 +1,51 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    The Gitrog Monster est un deck créé dans le but d'utiliser au maximum les
+    interactions avec les terrains. La facilité d'accès à des sorts de contrôle
+    et l'utilisation d'un squelette comboisant en fait un des rares decks
+    réellement Contrôle-Combo en Duel Commander.
+{% endblock %}
+{% block second_paragraph %}
+    L'utilisation de terrains se traduit par la facilité à en mettre en jeu
+    depuis la bibliothèque ou le cimetière et à les sacrifier pour tirer profit
+    de la capacité de The Gitrog Monster faisant piocher. C'est cette pioche
+    qui permet d'assembler les différentes combos du deck et d'avoir accès aux
+    outils de gestion.
+{% endblock %}
+{% block third_paragraph %}
+    Le deck est basé sur l'interaction entre
+    {{ card_link("Splendid Reclamation")}} et {{ card_link("Seasons Past") }}.
+    Ces deux cartes permettent de faire faire des aller-retours aux terrains
+    entre le champ de bataille et le cimetière, fournissant une quantité
+    importante de cartes en main. En ajoutant un moyen de sacrifier ses
+    terrains, un moyen de générer du mana et un moyen de récupérer Seasons Past
+    dans son deck, il est possible de garantir une boucle qui génère une
+    quantité mathématiquement élevée à condition de tuer The Gitrog Monster
+    avant de vider la bibliothèque. L'ajout de
+    {{ card_link("Collective Brutality") }} ou de cartes similaires permet de
+    transformer la boucle précédente en moyen de tuer l'adversaire.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/EkCzWrAuUES3RjETTJuLQw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/3-isamaru-vs-gitrog", "La force de hatebears est sa facilité à gêner les decks contrôle et combo à mettre en place leurs plans de jeu. Est-ce le cas lorsque le chien s'attaque à la grenouille ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.koraysh(played_on="9 décembre 2021") }}
+    </div>
+</div>
+{% endblock %}

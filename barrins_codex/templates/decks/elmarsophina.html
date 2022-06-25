@@ -1,0 +1,64 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/elmar-sophina.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Elmar, Ulvenwald Informant", "Sophina, Spearsage Deserter") }}
+{% endblock %}
+
+### FRIENDS FOREVER ###
+{% block friendsforever %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Un changement de nom suite à la republication des cartes exclusives</h2>
+    </div>
+</div>
+{{ deck.sld_rename('Stranger Things', 'Max, the Daredevil', 'Elmar, Ulvenwald Informant') }}
+{{ deck.sld_rename('Stranger Things', 'Chief Jim Hopper', 'Sophina, Spearsage Deserter') }}
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Deck se basant sur une succession de créatures agressives jouées dès le
+    premier tour et qui propose une pression croissante tout au long du
+    développement de la partie.
+{% endblock %}
+{% block second_paragraph %}
+    Elmar permet d'accroître la pression significativement tandis que Sophina
+    permet de jouer plus en retenue. Les deux, à leur manière, permettent
+    d'améliorer l'accès aux cartes, ce qui est un des principaux défauts des
+    decks agressifs.
+{% endblock %}
+{% block third_paragraph %}
+{{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/VE8zzN-UY0G_hFoIfU_lVA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/19-elmarsophina-vs-shorikai", "Ce match cherche à montrer les limites supposées de Shorikai. Elmar-Sophina est favori dans cet affrontement. Quel sera le score ? ") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="26 avril 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Florian.png" %}
+{% set name="Florian « Trotte »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}{% endblock %}
+{% block second_paragraph %}{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/adeliz-the-cinder-wind") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/kari-zev-skyship-raider") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/1-adeliz-vs-kinnan") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/2-kari-zev-vs-saskia") }}
+    </div>
+</div>
+{% endblock %}

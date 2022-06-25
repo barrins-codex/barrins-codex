@@ -38,9 +38,3 @@ def test(client, page):
                 url, timeout=10, headers={"User-Agent": "python"}
             ).raise_for_status()
         VISITED.add(url)
-
-
-@pytest.mark.parametrize("page", [p["self"].url for p in navigation.HELPER.values()])
-def test_en(client, page):
-    response = client.get("/en" + page, follow_redirects=True)
-    assert response.status_code == 200

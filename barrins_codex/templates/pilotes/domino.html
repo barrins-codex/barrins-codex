@@ -1,0 +1,116 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Domino.png" %}
+{% set name="Domino" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Joueur·euse de Magic et passioné·e par le Duel Commander, Domino joue principalement
+    contrôle. Ses sorts préférés sont {{ card_link("Think Twice") }} et
+    {{ card_link("Glimpse of Freedom") }}. Ayant un affect pour les éphémères, iel
+    n'accepte que des rituels à dose homéopathique.
+{% endblock %}
+{% block second_paragraph %}
+    Iel co-anime au sein de l'équipe des Chroniques du Commander et est à l'origine de
+    cette adaptation de la série proposée à l'origine par Star City Game.
+{% endblock %}
+{% block third_paragraph %}
+    Vous pouvez retrouver Domino dans la plupart des tournois de Duel Commander de taille
+    conséquente grâce à son bandana et un deck azorius ou esper contrôle.
+{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/isamaru-hound-of-konda") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/liviomalcolm", "img/split-crop/livio-malcolm.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/jori-en-ruin-diver") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/klothys-god-of-destiny") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/miaratevesh", "img/split-crop/miara-tevesh.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/queen-marchesa") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/shorikai-genesis-engine") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/aminatou-the-fateshifter") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/killian-ink-duelist") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/shorikai-genesis-engine") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/tivit-seller-of-secrets") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/karlov-of-the-ghost-council") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/wilson-refined-grizzly") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/3-isamaru-vs-gitrog") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/4-liviomalcolm-vs-niv-5c") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/5-jori-en-vs-sygg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/6-aminatou-vs-klothys") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/9-miaratevesh-vs-prossh") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/11-doran-vs-marchesa") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/12-light-paws-vs-ishaitevesh") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/14-minsc-vs-shorikai") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/16-aminatou-vs-tiamat") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/18-kari-zev-vs-killian-budget") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/19-elmarsophina-vs-shorikai") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/22-raffine-vs-tivit") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/23-karlov-vs-reality-chip") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/25-elminster-vs-wilson") }}
+    </div>
+</div>
+{% endblock %}

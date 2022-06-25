@@ -1,0 +1,70 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck alliant créatures et sorts de dégâts directs. Cette
+    combinaison permet de mettre rapidement la pression sur l'adversaire et
+    donner un rythme rapide et soutenu aux parties.
+{% endblock %}
+{% block second_paragraph %}
+    Selon la répartition de créatures et de sorts de dégâts directs, deux
+    versions principales de ce deck s'opposent. La version Red Deck Wins (RDW)
+    joue davantage de créatures et supporte des parties qui durent plus
+    facilement que la version Burn qui maximise les sorts de dégâts directs.
+{% endblock %}
+{% block third_paragraph %}
+    La version appelée midrange sur cette page se base sur le concept que
+    l'adversaire ne pourra pas gérer toutes les menaces dans leur diversité.
+    Cela se traduit par davantage de cartes ayant des effets impactants qui ne
+    sont ni des créatures ni des sorts de dégâts directs.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/kreID_jzfk-VPG69U03p7w">
+    Version midrange
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/GJhtUIrZS02pohlaakdG0A">
+    Version RDW
+</a>
+<a class="btn btn-outline-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/A2mmKLNqxEa_44CWY0heXQ">
+    Version RDW budget
+</a>
+{% endblock %}
+
+
+### DECKTECH ###
+{% block decktech %}
+{{ deck.decktech(
+    "https://www.youtube.com/embed/Mh996zIjtWY?rel=0",
+    "Deckteck faite par Louis « Imperia86 » et publiée le 15 décembre 2021"
+) }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/2-kari-zev-vs-saskia", "Lors de ce match, la version un peu plus lourde de Kari Zev s'attaque à la guerrière aguerrie qu'est Saskia. Laquelle des deux commandera le mieux son armée ?") }}
+{{ match.card2("/matchs/10-kari-zev-vs-marath", "La plus belle affronte dans ce match la vache récemment libérée de sa geôle. Qui de la vache ou du singe saura remporter la victoire ?") }}
+{{ match.card2("/matchs/18-kari-zev-vs-killian-budget", "Ce match propose deux decks dont les versions ont été bridées à 100 EUR au jour du match. Lequel des deux triomphera ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.trotte(played_on="2 décembre 2021") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="8 février 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="12 avril 2022") }}
+    </div>
+</div>
+{% endblock %}

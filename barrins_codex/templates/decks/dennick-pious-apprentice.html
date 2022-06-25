@@ -1,0 +1,46 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS CARTE RV ###
+{% block commander %}
+{{ deck.carousel_rv(deck_name(request.path[:-5])) }}
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck dont l'objectif est de contrôler la partie pour tirer
+    son épingle du jeu et remporter a victoire. Les capacités de Dennick
+    permettent de tenir le début de partie face aux decks agressifs et de
+    réduire la rejouabilité de cartes dont certains decks peuvent dépendre.
+{% endblock %}
+{% block second_paragraph %}
+    Jouer Dennick depuis le cimetière pour son coût de Disturb permet
+    d'atténuer la coût croissant lié à la taxe de commandant.
+{% endblock %}
+{% block third_paragraph %}
+    Les sorts d'interaction dans ce deck permettent de ralentir l'adversaire
+    dans son développement et les créatures permettent de pousser l'adversaire
+    dans ses retranchements.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/D8Y0KFXi_UO1OMbfqANg7A
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/15-dennick-vs-hinata", "Ce match oppose deux decks dont l'objectif est de contrôler la partie. La majorité des cartes sont même identiques. Un des deux decks se veut plus agressif que l'autre et tente de déborder l'adversaire avant que celui-ci puisse prendre l'avantage.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="22 mars 2022") }}
+    </div>
+</div>
+{% endblock %}

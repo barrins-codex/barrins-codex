@@ -1,0 +1,33 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Bastien.png" %}
+{% set name="Bastien « threem »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}{% endblock %}
+{% block second_paragraph %}{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/tiamat", "img/split-crop/tiamat.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/aminatou-the-fateshifter") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/16-aminatou-vs-tiamat") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/21-aminatou-vs-beamtown") }}
+    </div>
+</div>
+{% endblock %}

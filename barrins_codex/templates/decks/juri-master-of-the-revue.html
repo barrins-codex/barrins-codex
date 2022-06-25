@@ -1,0 +1,86 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck agressif qui cherche à tirer parti au maximum des
+    synergies liées aux sacrifices. Le deck est composé, d'un côté, de petites
+    créatures récursives qui permettent d'utiliser les synergies présentes et,
+    de l'autre côté, de quoi profiter de ces dernières.
+{% endblock %}
+{% block second_paragraph %}
+    Durant les premiers tours, le deck cherche à agresser l'adversaire.
+    Cependant, une fois que l'adversaire a réussi à mitiger la pression, le
+    plan de jeu évolue et cherche à gagner la partie en utilisant des dégâts à
+    distance comme ceux de {{ card_link("Mayhem Devil") }},
+    {{ card_link("Blood Artist") }} ou encore
+    {{ card_link("The Meathook Massacre") }}.
+{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/O0W4MpaqPEmCTBVGt5hVPA
+{% endblock %}
+
+
+### COMBOS ###
+{% block combos %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Les combos et synergies fortes du deck</h2>
+    </div>
+</div>
+<div class="col-8 me-auto ms-auto row d-flex flex-wrap justify-content-around">
+    <div class="col-6">
+        <h3>Underworld Breach</h3>
+        <p>
+            Cette combo basée sur {{ card_link("Underworld Breach") }} permet de jouer en boucle
+            des créatures et miser sur les effets de sacrifice pour tuer l'adversaire.
+        </p>
+        <p>
+            Il est nécessaire d'ajouter {{ card_link("Stitcher's Supplier") }} et
+            {{ card_link("Culling The Weak") }}. Cela permet de créer deux manas noirs à chaque
+            itération et, ensuite, de tuer en réanimant une créature qui infligera des dégâts à
+            l'adversaire à chaque mort du Stitcher's Supplier.
+        </p>
+    </div>
+    <div class="col-6">
+        <h3>Greater Gardadon</h3>
+        <p>
+            Cette synergie forte basée sur {{ card_link("Greater Gargadon") }} permet de
+            capitaliser sur les effets de sacrifices. En effet, une fois en suspension, Greater
+            Gargadon permet de sacrifier une très grande quantité de permanents.
+        </p>
+        <p>
+            Après avoir sacrifié suffisamment de permanents, sacrifier Juri permet d'infliger
+            suffisamment de dégâts à l'adversaire.
+        </p>
+        <p>
+            {{ card_link("Harmonic Prodigy") }} est une carte importante dans cette synergie car
+            elle permet d'augmenter la quantité de marqueurs générés à chaque sacrifice. Cela
+            fonctionne aussi pour les dégâts infligés par Juri.
+        </p>
+    </div>
+</div>
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/20-juri-vs-sai", "Ce match oppose Sai et Juri. Deux plans de jeu opposés, des outils pour interagir, des combos pour mettre fin à la partie. Qui en sortira vainqueur ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="3 mai 2022") }}
+    </div>
+</div>
+{% endblock %}

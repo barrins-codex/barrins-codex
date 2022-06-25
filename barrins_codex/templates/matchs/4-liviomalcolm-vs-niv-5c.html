@@ -1,0 +1,38 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La version créatures de Niv-Mizzet permet au deck d'utiliser ses ressources
+    plus agressivement. Cependant, la posture d'agresseur réactif de Livio-
+    Malcolm lui permet d'encaisser la pression assez sereinement. De plus, le
+    deck est en mesure d'empêcher la résolution de Niv-Mizzet lui refusant tout
+    moyen de récupérer des ressources qui seraient nécessaires pour remporter
+    la partie. Au final, le matchup est très en faveur de Livio-Malcolm.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Domino" %}
+{% set joueur2 = "Koraysh" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/RV3KCeWn6_8" %}
+{% set date = "16 décembre 2021" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/liviomalcolm", "img/split-crop/livio-malcolm.jpg") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/nivmizzet-reborn") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.koraysh() }}
+    </div>
+</div>
+{% endblock %}

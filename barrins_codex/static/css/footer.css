@@ -1,0 +1,47 @@
+/****************
+ * PIED DE PAGE *
+ **************** */
+footer {
+	background: var(--color-white);
+	margin-top: auto;
+	font-size: 0.9em;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	clear: both;
+}
+footer > nav > a {
+	text-decoration: none !important;
+}
+footer > nav > .prev::before {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f053";
+	padding: 0 0.5em;
+}
+footer > nav > .next::after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f054";
+	padding: 0 0.5em;
+}
+footer a {
+    text-decoration: none !important;
+	display: inline-flex;
+	padding: 1em;
+}
+footer img {
+	display: inline-flex;
+	max-width: 5em;
+	margin: 0 1em;
+	vertical-align: middle;
+}
+footer p {
+	font-style: italic;
+	font-size: 0.8em;
+	margin-bottom: 0;
+}
+footer p a {
+	padding: 0;
+}

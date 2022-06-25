@@ -1,0 +1,99 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Martin.png" %}
+{% set name="Martin « Spigushe »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Joueur depuis 2012, Martin s'est intéressé au contexte compétitif assez tardivement. Très investi dans le format Duel Commander, Martin est consultant pour le comité des règles du format.
+{% endblock %}
+{% block second_paragraph %}
+    Sa passion pour les phases d'attaque lui a valu de travailler de manière extensive sur des decks désormais bannis (Arahbo, Roar of the World et Winota, Joiner of Forces par exemple).
+{% endblock %}
+{% block third_paragraph %}
+    Martin est arbitre, rédacteur du {{ link('', "Barrin's Codex", _class="text-reset") }} et organisateur de tournois avec l'association locale qu'il préside.
+{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/kinnan-bonder-prodigy") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/saskia-the-unyielding") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/sygg-river-cutthroat") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/aminatou-the-fateshifter") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/marath-will-of-the-wild") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/grist-the-hunger-tide") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/minsc-beloved-ranger") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/dennick-pious-apprentice") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/sythis-harvests-hand") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/elmarsophina", "img/split-crop/elmar-sophina.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/sai-master-thopterist") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/raffine-scheming-seer") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-2 mb-2 d-flex justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/1-adeliz-vs-kinnan") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/2-kari-zev-vs-saskia") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/5-jori-en-vs-sygg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/6-aminatou-vs-klothys") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/10-kari-zev-vs-marath") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/13-bjornawernog-vs-grist") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/14-minsc-vs-shorikai") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/15-dennick-vs-hinata") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/17-grist-vs-sythis") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/19-elmarsophina-vs-shorikai") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/20-juri-vs-sai") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/22-raffine-vs-tivit") }}
+    </div>
+</div>
+{% endblock %}

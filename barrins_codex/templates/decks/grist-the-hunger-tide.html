@@ -1,0 +1,67 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Grist est un deck synergique basé sur les créatures. Ses capacités
+    permettant de gérer aisément des créatures et des planeswalkers, le reste
+    du deck se spécialise dans l'aspect boîte à outils.
+{% endblock %}
+{% block second_paragraph %}
+    Le deck possède des lignes de jeu oppressives et puissantes et se base
+    fortement sur Hogaak, Arisen Necropolis pour infliger des dégâts à
+    l'adversaire.
+{% endblock %}
+{% block third_paragraph %}
+    Les trois listes ont été mises au point par le même groupe de personnes et
+    montrent l'évolution du deck
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/ApYkVyV1x0q3KS7VKVf2Rg">
+    Decklist au 1er mars
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/IdHp2B9AqkiGjvRROf1Tbw">
+    Decklist au 5 avril
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/1JEt_l_ghEOpv-I92IpF-g">
+    Decklist au 7 juin
+</a>
+{% endblock %}
+
+
+### DECKTECH ###
+{% block decktech %}
+{{ deck.decktech(
+    "https://www.youtube.com/embed/JI7qx8qNmp8?rel=0",
+    "Deckteck faite par Jules « Askeladden » et publiée le 19 avril 2022"
+) }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/13-bjornawernog-vs-grist", "Ce match met en avant une partie de la demie-finale du ZAP mensuel ayant eu lieu le weekend précédent. Les deux decks ont des arbres de décision très complexes, lequel des deux pilotes remportera la victoire ?") }}
+{{ match.card2("/matchs/17-grist-vs-sythis", "Proposé par les créateurs des deux listes jouées, ce match est exigeant des deux côtés de la table et les plays agressifs de Grist peuvent mettre Sythis en danger à tout moment.") }}
+{{ match.card2("/matchs/24-grist-vs-minscboo", "Deck émergeant, Minsc&Boo est présenté comme le prédrateur du format. Grist arrivera a gagner le match ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="1er mars 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="5 avril 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="7 juin 2022") }}
+    </div>
+</div>
+{% endblock %}

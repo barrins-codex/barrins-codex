@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    L'arrivée de Queen Marchesa et de la mécanique du Monarch ont grandement
+    impacté le Duel Commander. Plusieurs stratégies être testées pour suivre au
+    mieux les possibilités offertes.
+{% endblock %}
+{% block second_paragraph %}
+    Les versions orientées sur le contrôle du champ de bataille ont été jouées
+    les premières et ont eu un succès tout à fait honnête en leur temps.
+{% endblock %}
+{% block third_paragraph %}
+    La version présentée ici est une version avec plus de créatures et se
+    rapproche de la dynamique appelée Pikula, du nom d'un joueur professionnel
+    habitué des decks blanc-noir agressifs.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/fdSRPpOMIkCZX-aTAqXYiw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/11-doran-vs-marchesa", "Duel d'attrition, les deux decks misent sur leur capacité à maitriser le milieu de partie. Lequel des deux aura le dernier mot ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="15 février 2022") }}
+    </div>
+</div>
+{% endblock %}

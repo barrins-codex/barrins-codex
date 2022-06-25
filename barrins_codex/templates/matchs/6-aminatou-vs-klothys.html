@@ -1,0 +1,37 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La stratégie principale de cette version de Klothys est de casser les
+    terrains de l'adversaires pour garantir l'inévitabilité de sa capacité
+    déclenchée. Contre ce type de plan de jeu, Aminatou doit protéger ses
+    ressources et empêcher Klothys de prendre le dessus. Au final, le matchup
+    est en faveur de Klothys de part la diversité de ses menaces.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/RmOc1bQHlZc" %}
+{% set date = "11 janvier 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/aminatou-the-fateshifter") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/klothys-god-of-destiny") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+</div>
+{% endblock %}

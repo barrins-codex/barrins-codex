@@ -1,0 +1,51 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck contrôle qui a la possibilité de temporiser assez
+    facilement les decks agressifs. En effet, sa capacité activée permet
+    d'améliorer le flux de cartes piochées et de créer des bloqueurs.
+{% endblock %}
+{% block second_paragraph %}
+    Structurellement faible face aux decks très agressifs comme Kari Zev,
+    quelques cartes de gain de points de vie ont été ajoutées pour faciliter la
+    rencontre.
+{% endblock %}
+{% block third_paragraph %}
+    {{ deck.ban("Shorikai, Genesis Engine", full="Le général a été banni le 30 mai 2022.", annonce="https://www.mtgdc.info/announcements/2022/may-2022-rules-bannedrestricted-update#h.88yeainfg0e1") }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/gUhdYrcF0EK52_6Wl0hT8A
+{% endblock %}
+
+
+### DECKTECH ###
+{% block decktech %}
+{{ deck.decktech(
+    "https://www.youtube.com/embed/fGuXSRK3KK8?rel=0",
+    "Deckteck faite par Martial « Mars » et publiée le 18 mars 2022"
+) }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/14-minsc-vs-shorikai", "Affronter combo en tant que deck contrôle est toujours relativement aisé. La dynamique hybride de Minsc permettra-t-elle de contrer les stratégies de Shorikai ?") }}
+{{ match.card2("/matchs/19-elmarsophina-vs-shorikai", "Ce match cherche à montrer les limites supposées de Shorikai. Elmar-Sophina est favori dans cet affrontement. Quel sera le score ? ") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="15 mars 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="26 mars 2022") }}
+    </div>
+</div>
+{% endblock %}

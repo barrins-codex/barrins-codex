@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck dont l'objectif est de contrôler la partie pour tirer
+    son épingle du jeu et remporter a victoire.
+{% endblock %}
+{% block second_paragraph %}
+    La capacité de Hinata à influer sur le coût en mana des interactions des
+    deux côtés de la table est intéressant et permettra de forcer la balance
+    dans certaines situations.
+{% endblock %}
+{% block third_paragraph %}
+    Les sorts d'interaction dans ce deck permettent de ralentir l'adversaire
+    dans son développement et de tuer les créatures adverses selon les besoins
+    de la partie.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/0e-QeOWO7EOMhpkoV_T8Aw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/15-dennick-vs-hinata", "Ce match oppose deux decks dont l'objectif est de contrôler la partie. La majorité des cartes sont même identiques. Un des deux decks se veut plus agressif que l'autre et tente de déborder l'adversaire avant que celui-ci puisse prendre l'avantage.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.eventwin(played_on="22 mars 2022") }}
+    </div>
+</div>
+{% endblock %}

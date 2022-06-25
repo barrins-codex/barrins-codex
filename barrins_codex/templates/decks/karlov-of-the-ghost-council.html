@@ -1,0 +1,45 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Deck agressif, Karlov a les moyens de s'opposer facilement aux decks basés
+    sur les créatures. En effet, les effets de gains de points de vie et les
+    interactions blanches et noires permettent de stopper presque toutes les
+    stratégies agressives.
+{% endblock %}
+{% block second_paragraph %}
+    Le faible coût du général et la polyvalence des interactions des couleurs
+    d'Orzhov permettent de prendre le rôle de l'agresseur contre les decks
+    contrôle et combo. La capacité de Karlov permet même de ralentir fortement
+    ces deux types de decks si la dépendance à une ou des créatures est assez
+    importante.
+{% endblock %}
+{% block third_paragraph %}
+    Le deck utilise {{ card_link("Lurrus of the Dream-Den") }} en compagnon,
+    cela permet d'utiliser des artefacts qui font piocher en lien avec la boîte
+    à outil qu'est {{ card_link("Urza\'s Saga") }}. Des cartes comme
+    {{ card_link("Fountain of Renewal") }} prennent alors tout leur sens dans
+    le deck.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/hEC9NryCbUe2EnQXsJAjfw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/23-karlov-vs-reality-chip", "La puce et le fantôme cherchent à contrôler la réalité. Lequel des deux aura le dernier mot ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="31 mai 2022") }}
+    </div>
+</div>
+{% endblock %}

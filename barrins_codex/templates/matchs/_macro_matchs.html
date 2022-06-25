@@ -1,0 +1,41 @@
+{% macro card(page) -%}
+{% set lien = "img/"+page[1:]+".jpg" %}
+<div class="col-12 my-4 text-center">
+    <img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto" alt="Photo">
+    <div class="mt-1">
+        <a href="{{ url(page) }}" class="btn btn-outline-secondary">⏯️ Voir ce match</a>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro card2(page, caption="") -%}
+{% set lien = "img/"+page[1:]+".jpg" %}
+<div class="col-12 my-4">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <a href="{{ url(page) }}" class=""><img src="{{ url_for('static', filename=lien) }}" class="img-fluid rounded-start" alt="Miniature Youtube du replay du match"></a>
+        </div>
+        <div class="col-md-8 ps-2">
+            <div class="card-body">
+                <h5 class="card-title">
+                    {{ link(page, _class="text-reset text-decoration-none") }}
+                </h5>
+                {% if caption != "" %}<p class="card-text">{{ caption}}</p>{% endif %}
+                <a href="{{ url(page) }}" class="btn btn-outline-secondary col-4">⏯️ Voir ce match</a>
+            </div>
+        </div>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro card3(page) -%}
+{% set lien = "img/"+page[1:]+".jpg" %}
+<div class="col-sm-4">
+    <div class="col-12 my-4 text-center">
+        <a href="{{ url(page) }}"><img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto" alt="Photo"></a>
+        <div class="mt-1">
+            <a href="{{ url(page) }}" class="btn btn-outline-secondary">⏯️ {{ match_name(page) }}</a>
+        </div>
+    </div>
+</div>
+{%- endmacro %}
