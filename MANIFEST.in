@@ -4,15 +4,10 @@ graft barrins_codex
 prune utils
 
 exclude Makefile
-exclude babel.cfg
 exclude .markdownlint.json
-exclude messages.pot
-exclude HOWTO_RELEASE.md
-exclude decklist.txt
 
 global-exclude */__pycache__/*
 global-exclude *.egg-info/*
-global-exclude *.po
 global-exclude *.DS_Store
-global-exclude *.json.gz
+global-exclude *.json
 global-exclude tests/*
