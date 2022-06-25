@@ -59,10 +59,10 @@ SKIP_TYPES = [
 
 def build():
     # Download SetList.json.gz
-    # _download("https://mtgjson.com/api/v5/SetList.json.gz")
+    _download("https://mtgjson.com/api/v5/SetList.json.gz")
     sets = json.load(gzip.open("SetList.json.gz"))
     # Download AllPrintings.json.gz
-    # _download("https://mtgjson.com/api/v5/AllPrintings.json.gz")
+    _download("https://mtgjson.com/api/v5/AllPrintings.json.gz")
     prints = json.load(gzip.open("AllPrintings.json.gz"))
 
     library = {}
@@ -92,8 +92,8 @@ def build():
                         library[_name(card, face_b)]["faces"] = faces
 
     # Deleting downloaded files
-    # _delete("AllPrintings.json.gz")
-    # _delete("SetList.json.gz")
+    _delete("AllPrintings.json.gz")
+    _delete("SetList.json.gz")
 
     try:
         with open("library.json", "w", encoding="utf-8") as file:
@@ -103,3 +103,7 @@ def build():
 
     # Returning constructed library
     return library
+
+
+if __name__ == "__main__":
+    build()
