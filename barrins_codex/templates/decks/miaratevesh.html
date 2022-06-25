@@ -1,0 +1,48 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/miara-tevesh.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Miara, Thorn of the Glade", "Tevesh Szat, Doom of Fools") }}
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck se basant sur les spécialités des cartes noires pour
+    remporter la victoire. La présence de sorts de défausse et d'autres pouvant
+    détruire des créatures au détail ou en masse est la signature des decks
+    noirs.
+{% endblock %}
+{% block second_paragraph %}
+    Dans ce deck, Miara fait office de créature à sacrifier avec la capacité
+    activée de Tevesh pour piocher davantage de cartes.
+{% endblock %}
+{% block third_paragraph %}
+{{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/43XN61r_GUakMR32r_-n2w
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/9-miaratevesh-vs-prossh", "Ce match oppose Miara-Tevesh qui va tenter de gérer la main et le champ de bataille de Prossh. Serait-ce suffisant pour remporter la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="1er février 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+body {
+    background-color: #e3e7e9 !important;
+}
+
+/* Footer to bottom of page if not enough content */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+article {
+   flex: 1;
+}
+
+/* Couleur des sections */
+.bg-header {
+    background-color: #99A5C5 !important;
+}

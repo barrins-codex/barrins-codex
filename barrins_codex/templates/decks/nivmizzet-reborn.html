@@ -1,0 +1,61 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck midrange non-bleu qui a l'avantage de pouvoir maintenir
+    une quantité suffisante de cartes en main grâce à la résolution du
+    commandant. En effet, son effet d'arrivée en jeu en jeu permet de remplir
+    sa main d'une carte de chaque guilde présente parmi les dix révélées.
+{% endblock %}
+{% block second_paragraph %}
+    La contrainte du commandant demande de la rigueur pour équilibrer les
+    quantités : avoir trop de cartes d'une paire de couleur et pas assez d'une
+    autre entraînera inévitablement une pioche moins importante.
+{% endblock %}
+{% block third_paragraph %}
+    Les créatures du deck permettent de générer de la présence sur le champ de
+    bataille et de mettre l'adversaire en difficulté. Lorsque l'équilibre
+    penche en faveur de ce deck, l'adversaire a beaucoup de mal à modifier
+    l'issue de la partie. C'est à ce moment-là que le deck tend à s'exprimer
+    pleinement. Jouer Niv-Mizzet Reborn permet de prendre un avantage
+    considérable et de, quasiment, verrouiller la partie en sa faveur.
+</p><p>
+    Le deck utilisant au maximum toutes les combinaisons de couleur, les choix
+    de terrains sont déterminants pour l'issue de la partie. Les choix, qu'ils
+    soient bons ou mauvais, influent sur l'issue de la partie. La répartition
+    des guildes tant en coût de coloré et en coût de mana peut être une
+    solution à cet éventuel problème.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/Ud3YJOafeEexPs56NFK_nQ">
+    Decklist by Koraysh
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/StuSEekPgUm9U1T_yOKPrA">
+    Decklist by Imperia86
+</a>
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/4-liviomalcolm-vs-niv-5c", "Duel de ressources, ce match reprend deux decks fréquemment rencontrés en tournoi. Lequel des deux remportera la victoire ?") }}
+{{ match.card2("/matchs/8-esika-vs-niv-5c", "Dans ce match, le verso de Esika est mis à rude épreuve par Niv-Mizzet Reborn. En effet, si Niv-Mizzet arrive en jeu, les ressources dépensées à ralentir le deck seront rendues nulles.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.koraysh(played_on="16 décembre 2021") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="25 janvier 2022") }}
+    </div>
+</div>
+{% endblock %}

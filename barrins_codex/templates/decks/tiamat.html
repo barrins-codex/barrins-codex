@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Tiamat est un deck contrôle et combo qui nécessite de jouer
+    {{ card_link("Dream Halls") }} pour bénéficier de la réduction du coût de
+    lancement des dragons et donc de tuer l'adversaire par une phase d'attaque
+    le tour où Tiamat se résout.
+{% endblock %}
+{% block second_paragraph %}
+    La structure du deck se base sur des cartes permettant le maximum
+    d'interaction posssible pour faire durer la partie asssez longtemps pour
+    mettre en place la combo lorsque la situation s'y prête le mieux.
+{% endblock %}
+{% block third_paragraph %}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/jEaoCOs-SUq74RK8xm81Fw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/16-aminatou-vs-tiamat", "Ce match oppose Aminatou à Tiamat. D'ordinaire assez compliqué pour les jeux combos, Aminatou saura-t-elle venir à bout de Tiamat ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.threem(played_on="29 mars 2022") }}
+    </div>
+</div>
+{% endblock %}

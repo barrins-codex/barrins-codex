@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck agressif qui n'utilise pas d'elfes pour accélérer le
+    mana disponible. Rempli de plein de petites créatures pas très couteuses en
+    mana, ce deck est un zoo.
+{% endblock %}
+{% block second_paragraph %}
+    L'objectif est de mettre la pression à l'adversaire en attaquant le plus
+    vite possible les points de vie. Saskia a alors comme rôle de conclure la
+    partie en augmentant sensiblement le danger que représentent les créatures
+    qui peuvent attaquer.
+{% endblock %}
+{% block third_paragraph %}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/25qC36vOw0OLxDwBOBLEiA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/2-kari-zev-vs-saskia", "Ce match met en lumière les mécanismes d'un deck agressif relativement linéaire qu'est Saskia contre un deck ayant accès à une forte quantité de sorts de dégâts directs.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="2 décembre 2021") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La configuration de ce matchup est très en faveur de Shorikai. En effet,
+    Minsc repose sur ses créatures pour créer des combos et Shorikai est
+    spécialisé dans la gestion des sorts et des créatures. Cela en fait un
+    matchup très déséquilibré en faveur de Shorikai même si Minsc peut arriver
+    à surprendre de temps en temps avec des départs en combo impromptus.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/vcH3yBTGjY0" %}
+{% set date = "15 mars 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/minsc-beloved-ranger") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/shorikai-genesis-engine") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+</div>
+{% endblock %}

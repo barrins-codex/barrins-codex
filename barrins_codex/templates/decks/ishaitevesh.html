@@ -1,0 +1,46 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/ishai-tevesh.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Ishai, Ojutai Dragonspeaker", "Tevesh Szat, Doom of Fools") }}
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck contrôle dont le but est d'empêcher au maximum le
+    développement de l'adversaire pour utiliser ensuite Tevesh pour créer des
+    jetons de créature et pour piocher suffisamment de cartes pour continuer à
+    avoir des sorts d'interaction.
+{% endblock %}
+{% block second_paragraph %}
+    L'ensemble du deck est focalisé sur l'interaction avec l'adversaire et très
+    peu de cartes sont destinées à le ou la tuer.
+{% endblock %}
+{% block third_paragraph %}
+    {{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}https://www.moxfield.com/decks/yF0WNoSg1UyHgYkQ9YOV3g{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/12-light-paws-vs-ishaitevesh", "Ce match oppose un deck contrôle, Ishai-Tevesh, à un deck agro-combo très polyvalent. Est-ce que l'approche attentiste de Ishai-Tevesh permet de remporter le match ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="22 février 2022") }}
+    </div>
+</div>
+{% endblock %}

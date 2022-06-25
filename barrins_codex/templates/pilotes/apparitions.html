@@ -1,0 +1,27 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Guest.png" %}
+{% set name="les invité·e·s" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}{% endblock %}
+{% block second_paragraph %}{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/prossh-skyraider-of-kher") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/9-miaratevesh-vs-prossh") }}
+    </div>
+</div>
+{% endblock %}

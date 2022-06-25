@@ -1,0 +1,41 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck à mi-chemin entre le combo et l'agressivité. La
+    capacité de Light-Paws permet de le renforcer successivement avec des auras
+    qui permettent d'augmenter sa force et son endurance et avec des auras qui
+    lui ajoutent des effets comme la protection, le piétinement, le vol, etc.
+{% endblock %}
+{% block second_paragraph %}
+    Le développement du deck est aidé par des cartes-clé comme
+    {{ card_link("Serra's Sanctum") }} ou
+    {{ card_link("Nykthos, Shrine to Nyx") }} pour davantage de mana et comme
+    {{ card_link("Sram, Senior Edificer") }} pour garantir un flux continu de
+    cartes à jouer.
+{% endblock %}
+{% block third_paragraph %}
+    {{ deck.ban("Serra\'s Sanctum", "La perte en explosivité ne rend pas le deck injouable mais peut le fragiliser dans certaines situations.") }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/DbB4keOzZEq5w59-W6lGSA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/12-light-paws-vs-ishaitevesh", "Ce match oppose un deck contrôle, Ishai-Tevesh, à un deck agro-combo très polyvalent. Est-ce que l'approche attentiste de Ishai-Tevesh permet de remporter le match ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.midas(played_on="22 février 2022") }}
+    </div>
+</div>
+{% endblock %}

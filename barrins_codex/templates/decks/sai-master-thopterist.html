@@ -1,0 +1,40 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Des decks basés sur ce général existent depuis la sortie de ce dernier en
+    2018. Les versions se sont alternées et ont cherché à continuellement
+    s'adapter aux decks alentours.
+{% endblock %}
+{% block second_paragraph %}
+    La version présentée ici est davantage orientée vers le contrôle de la
+    partie et l'utilisation des Thopter pour interagir avec l'adversaire en
+    modulant la pression du champ de bataille.
+{% endblock %}
+{% block third_paragraph %}
+    La présence de la combo {{ card_link("Painter's Servant") }} et
+    {{ card_link("Grindstone") }} permet au deck d'avoir un moyen de mettre
+    rapidement fin à la partie.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/XzLoGFTLvEGOE6XnVMIhIQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/20-juri-vs-sai", "Ce match oppose Sai et Juri. Deux plans de jeu opposés, des outils pour interagir, des combos pour mettre fin à la partie. Qui en sortira vainqueur ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="3 mai 2022") }}
+    </div>
+</div>
+{% endblock %}

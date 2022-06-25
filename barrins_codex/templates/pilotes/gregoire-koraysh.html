@@ -1,0 +1,39 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Grégoire.png" %}
+{% set name="Grégoire « Koraysh »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+Joueur depuis la sortie de Battle for Zendikar en 2015, il débute par le format Standard puis découvre un vif intérêt pour le format Duel Commander et ne joue quasiment que dans ce format depuis.
+{% endblock %}
+{% block second_paragraph %}
+Grégoire aime commenter les matchs et participe ainsi à plusieurs projets en ce sens.
+{% endblock %}
+{% block third_paragraph %}
+Son deck de cœur en Duel Commander est The Gitrog Monster avec lequel il multiplie les résultats à divers évènements. Même s'il est capable de jouer des decks différents et qu'il aime la nouveauté, Grégoire revient toujours à sa grenouille préférée.
+{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/the-gitrog-monster") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/nivmizzet-reborn") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/3-isamaru-vs-gitrog") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/4-liviomalcolm-vs-niv-5c") }}
+    </div>
+</div>
+{% endblock %}

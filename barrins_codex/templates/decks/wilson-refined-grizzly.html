@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck qui cherche à déborder l'adversaire en se focalisant sur
+    la multitude de mots-clé de l'ourson.
+{% endblock %}
+{% block second_paragraph %}
+    En plus d'être incontrable, l'ours est difficilement gérable par
+    l'adversaire. Cela en fait un choix privilégié pour les stratégies qui
+    cherchent à rendre une créature la plus imposante possible.
+{% endblock %}
+{% block third_paragraph %}
+    L'approche faite avec les auras de créature permet de stabiliser la quantité
+    de dégâts infligés de tour en tour en limitant la perte de cartes en cas de
+    gestion de l'adversaire.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/c2yRjoTCUEKk4Jfe9bepnQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/25-elminster-vs-wilson", "Un match avec des généraux récents. Elminster va-t-il arriver à mettre l'ourson en cage ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="14 juin 2022") }}
+    </div>
+</div>
+{% endblock %}

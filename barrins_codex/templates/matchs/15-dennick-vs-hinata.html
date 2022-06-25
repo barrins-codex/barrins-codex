@@ -1,0 +1,40 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La configuration de ce match met en exergue deux variations de contrôle. La
+    version de Dennick est plus orientée sur les créatures et un milieu de
+    partie où l'ascendant doit se prendre avec une présence renforcée sur le
+    champ de bataille. La version de Hinata jouit aussi des meilleures
+    créatures de milieu de partie que sont Brimaz, King of Oreskos, Adeline,
+    Resplendent Cathar et Svyelun of Sea and Sky mais se base sur une fin de
+    partie de meilleure qualité que Dennick. Au final, le matchup tend en
+    faveur de Hinata qui a accès aux meilleures interactions des deux decks.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "eventwin" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/5jRVOYGukoA" %}
+{% set date = "22 mars 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/dennick-pious-apprentice") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/hinata-dawncrowned") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.eventwin() }}
+    </div>
+</div>
+{% endblock %}

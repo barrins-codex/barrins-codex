@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck dont l'objectif est de contrôler la partie pour tirer
+    son épingle du jeu et remporter a victoire.
+{% endblock %}
+{% block second_paragraph %}
+    La capacité de Jori En à piocher des cartes est utilisée au maximum pour
+    toujours avoir la possibilité d'interagir avec l'adversaire.
+{% endblock %}
+{% block third_paragraph %}
+    Les sorts d'interaction dans ce deck permettent de ralentir l'adversaire
+    dans son développement et d'infliger des dégâts directs aux créatures ou à
+    l'adversaire selon les besoins de la partie.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/BuHSH5gO5Uav4YO2soGwDQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/5-jori-en-vs-sygg", "Ce match oppose deux généraux peu chers qui capitalisent tous les deux sur des moyens différents pour se garantir un flux de cartes assez soutenu. Lequel des deux remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="4 janvier 2022") }}
+    </div>
+</div>
+{% endblock %}

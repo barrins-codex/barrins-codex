@@ -1,0 +1,38 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Les decks avec très peu de créatures sont intéressants à affronter pour
+    l'attentiste Ishai-Tevesh. En effet, il semble y avoir moins de cartes à
+    gérer chez l'adversaire que de cartes qui permettent de gérer dans Ishai-
+    Tevesh. Cependant, la mécanique de Light-Paws lui permet d'esquiver la
+    grande majorité des interactions une fois que la machine est lancée si elle
+    arrive à se lancer. Au final, le matchup est très favorable à Ishai-Tevesh.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Midas" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/Cjo6ZDB65lA" %}
+{% set date = "22 février 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.midas() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/lightpaws-emperors-voice") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+</div>
+{% endblock %}

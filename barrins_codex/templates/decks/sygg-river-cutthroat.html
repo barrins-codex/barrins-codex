@@ -1,0 +1,37 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck dont l'objectif est de contrôler la partie pour tirer
+    son épingle du jeu et remporter a victoire.
+{% endblock %}
+{% block second_paragraph %}
+    Les sorts d'interaction permettent de ralentir l'adversaire en utilisant
+    des contresorts, des sorts qui détruisent des créatures et d'autres qui
+    défaussent la main de l'adversaire. Les créatures présentes dans le deck
+    permettent de déclencher la capacité de pioche de Sygg.
+{% endblock %}
+{% block third_paragraph %}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/YsHB3pD4eUqMpCwnzIG5Yw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/5-jori-en-vs-sygg", "Ce match oppose deux généraux peu chers qui capitalisent tous les deux sur des moyens différents pour se garantir un flux de cartes assez soutenu. Lequel des deux remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="4 janvier 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,53 +1,23 @@
 {% extends "layout.html" %}
 
 {% block banner %}
-	<img class="banner" src="{{ url_for('static', filename='img/banner.jpg') }}" width="100%">
+<img src="{{ url_for('static', filename='img/banner.jpg') }}" width="100%">
+{% endblock %}
+
+{% block ogdesc %}
+Les ressources présentées ici sont issues d'une série de livestream organisée par la chaine Les Chroniques du Commander. L'objectif est que des joueuses et des joueurs habitué·e·s du format puissent présenter des decks qui peuvent être rencontrés en tournoi et proposent une analyse du deck et d'un matchup en particulier.
 {% endblock %}
 
 {% block content %}
 <p>
-	{# TRANSLATORS: please abide by MTG translation choices for game terms when possible. #}
-	{% trans trimmed
-		wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
-	%}
-	Ce site est un recueil de ressources stratégiques sur <strong>Magic: the Gathering</strong>
-	et plus particulièrement sur le <strong>Duel Commander</strong>. Il s'adresse aux joueurs
-	déjà familiers avec les règles du jeu.
-	MtG est un jeu publié par {{ wizards_of_the_coast }}.
-	{% endtrans %}
+    {{ self.ogdesc() }}
 </p>
-<p>
-	{% trans trimmed
-		articles=link("/articles"),
-		archetypes=link("/archetypes")
-	%}
-	L'objectif de ce site est de créer du contenu sur des concepts avancés de
-	<strong>Magic: the Gathering</strong>. Les thèmes couverts correspondent aux items en haut
-	de cette page : {{ archetypes }}, {{ articles }} et encore d'autres thèmes.
-	{% endtrans %}
-</p>
-<p>
-	{% trans trimmed
-		page_github=external("https://github.com/Spigushe/barrins-codex/issues", _("page Github"))
-	%}
-	Si vous désirez contribuer à ce guide, signaler une erreur ou un problème, merci de le faire
-	sur la {{ page_github }} du projet.
-	{% endtrans %}
-</p>
-{% endblock %}
 
-{% block footer %}
-{% trans trimmed
-	wizards_of_the_coast=external("https://magic.wizards.com/en", "Wizards of the Coast")
-%}
 <p>
-	<strong>Barrin's Codex</strong> est un contenu de fan non officiel
-	<br>autorisé dans le cadre de la Politique des contenus de fans.
-	<br>Ni approuvé, ni promu par {{ wizards_of_the_coast }}.
+    Vous pouvez retrouver les Chroniques du Commander sur les différentes plateformes :<br>
+    <i class="fa-brands fa-twitter fa-xl"></i>
+    <i class="fa-brands fa-discord fa-xl"></i>
+    <i class="fa-brands fa-twitch fa-xl"></i>
 </p>
-<p>
-	Certaines parties des matériaux utilisés sont la propriété de Wizards of the Coast.
-	<br>© {{ wizards_of_the_coast }} LLC.
-</p>
-{% endtrans %}
+
 {% endblock %}

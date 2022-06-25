@@ -1,0 +1,172 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Minsc, Beloved Ranger est un deck basé sur les créatures et sur les combos
+    que ces créatures créent entre elles. Le deck peut tout aussi bien prendre
+    le rôle de l'agresseur que le rôle du combo selon les situations.
+{% endblock %}
+{% block second_paragraph %}
+    L'idéal étant de privilégier l'agression à la mise en place de combos tant
+    que les cartes ne sont pas réunies. Il ne faut pas hésiter à initier des
+    combos lorsque la situation s'y prête.
+{% endblock %}
+{% block third_paragraph %}
+    La capacité de Minsc, Beloved Ranger lui permet de prendre le rôle du
+    moteur de sacrifice dans certaines boucles en transformant ses créatures en
+    0/0 de base, ce qui les tue assez souvent.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/uf2peZ9dt0WmdBbNsawPKw
+{% endblock %}
+
+
+### COMBOS ###
+{% block combos %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Les combos et synergies fortes du deck</h2>
+    </div>
+</div>
+<div class="col-8 me-auto ms-auto">
+    <p class="col-12 mt-2">
+        L'idée ici est de présenter les combo principales, les variations sont
+        à découvrir en jouant pour ne pas perdre l'intérêt de découvrir des
+        combos soi-même.
+    </p>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Produire une quantité arbitrairement grande de mana</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La combo s'articule autour de {{ card_link("Devoted Druid") }}
+                qui peut se dégager laissant ainsi l'opportunité de se ré-
+                engager. Les cartes qui permettent cette combo sont
+                {{ card_link("Vizier of Remedies") }} et
+                {{ card_link("Swift Reconfiguration") }}. Il suffit alors
+                d'utiliser la capacité de Minsc, Beloved Ranger sur Boo pour
+                infliger suffisamment de dégâts.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 ms-auto me-auto">
+        <div style="clear:both;"></div>
+        <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+    </div>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Gagner une quantité arbitrairement grande de points de vie</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La combo s'articule autour de {{ card_link("Kitchen Finks") }}
+                qui peut revenir en jeu à sa mort, sous conditions. La carte
+                qui permet cette combo en plus de Minsc est
+                {{ card_link("Vizier of Remedies") }}. Utilisée avec
+                {{ card_link("Goblin Bombardment") }}, c'est aussi une boucle
+                létale.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 ms-auto me-auto">
+        <div style="clear:both;"></div>
+        <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+    </div>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Infliger des dégâts létaux</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La combo s'articule autour de
+                {{ card_link("Goblin Bombardment") }} qui permet de sacrifier
+                ses créatures pour infliger un dégâts à n'importe quelle cible.
+                Avec l'aide de {{ card_link("Saffi Eriksdotter") }} qui permet
+                de faire revenir une créature en jeu lors de son sacrifice et
+                de {{ card_link("Renegade Rallier") }} qui récupère un
+                permanent ayant une valeur de mana de 2 ou moins, cela fait une
+                boucle. Saffi cible Rallier qui est ensuite sacrifié sur
+                Bombardment qui revient en jeu qui ramène Saffi et ça
+                recommence.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 ms-auto me-auto">
+        <div style="clear:both;"></div>
+        <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+    </div>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>
+                Créer une quantité arbitrairement grande de jetons de créatures
+            </h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La combo s'articule autour de {{ card_link("Birthing Pod")}}
+                qui permet de mettre en jeu depuis sa bibliothèque des
+                créatures. En partant de Minsc, il faut trouver
+                {{ card_link("Felidar Guardian") }} qui permet de réutiliser
+                Pod. Il faut ensuite sacrifier le Felidar pour trouver
+                {{ card_link("Karmic Guide") }} qui réanime le Felidar qui
+                débloque la Pod. Enfin, en sacrifiant de nouveau le Felidar,
+                {{ card_link("Kiki-Jiki, Mirror Breaker") }} permet de créer un
+                jeton qui est une copie de Karmic Guide qui réanime Felidar qui
+                cible Kiki-Jiki. D'ici, Kiki-Jiki copie Felidar qui rend
+                Kiki-Jiki réutilisable.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 ms-auto me-auto">
+        <div style="clear:both;"></div>
+        <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+    </div>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Mettre toutes les créatures de son deck en jeu</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La combo s'articule autour de
+                {{ card_link("Pattern of Rebirth") }} et de Minsc. Cette boucle
+                commence par la mort d'une créature enchantée par Pattern, ce
+                qui permet de récupérer {{ card_link("Boonweaver Giant") }} qui
+                récupère Pattern. Boonweaver est tué par Minsc et Pattern
+                trouve {{ card_link("Karmic Guide") }} qui réanime Boonweaver
+                qui se ré-enchante avec Pattern. Ensuite, le Giant est de
+                nouveau tué pour trouver {{ card_link("Felidar Guardian") }}
+                qui cible Karmic qui répète l'opération. La fois suivante c'est
+                {{ card_link("Reveillark") }} qui est trouvée, Felidar et
+                Karmic tués puis Reveillark qui récupère les deux Karmic cible
+                Giant, Felidar cible Karmic, Karmic cible Reveillark. Ainsi,
+                Pattern permet de mettre toutes les autres créatures du deck en
+                jeu.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/14-minsc-vs-shorikai", "Affronter contrôle en tant que deck combo est toujours un peu compliqué. La dynamique hybride de Minsc permettra-t-elle de contrer les stratégies de Shorikai ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="15 mars 2022") }}
+    </div>
+</div>
+{% endblock %}

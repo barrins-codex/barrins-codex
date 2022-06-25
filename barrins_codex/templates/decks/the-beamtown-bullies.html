@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    La mécanique proposée par The Beamtown Bullies est nouvelle et permet de
+    mettre fin à la partie rapidement. Il suffit alors de mettre en jeu, sous
+    le contrôle de l'adversaire, une créature qui le ou la fait perdre en
+    arrivant en jeu. {{ card_link("Leveler") }} est une de ces créatures.
+{% endblock %}
+{% block second_paragraph %}
+    L'habillage du deck peut être principalement contrôle ou alors plus orienté
+    vers l'agression dans laquelle le général permet de mettre fin à la partie
+    si l'agression est empêchée.
+{% endblock %}
+{% block third_paragraph %}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/kfWKLqmeEkKRaRqb4zd9RQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/21-aminatou-vs-beamtown", "Ce nouveau venu est mis à l'épreuve face à Aminatou, un deck des contrôles les plus connus et reconnus. Qui des brutes ou de la petite fille remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="10 mai 2022") }}
+    </div>
+</div>
+{% endblock %}

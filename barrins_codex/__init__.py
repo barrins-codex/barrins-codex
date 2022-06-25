@@ -1,64 +1,34 @@
-import copy
 import urllib.parse
 import re
 import unidecode
-import os
 import requests
+import os
+import json
 
 import flask
-import flask_babel
 import jinja2.exceptions
 
 from . import config
 from . import navigation
-
-# Base de données des cartes
-import gzip
-import json
-
-
-if os.path.isfile("library.json.gz"):
-    # File exists
-    cartes = json.load(gzip.open("library.json.gz"))
-else:
-    # Build file
-    from . import build_library
-
-    cartes = build_library.build()
-library = {}
+from . import card_list
 
 
 app = flask.Flask(__name__, template_folder="templates", static_folder="static")
 app.jinja_env.policies["ext.i18n.trimmed"] = True
-babel = flask_babel.Babel(app)
 config.configure_app(app)
+
+if os.path.isfile("library.json"):
+    # File exists
+    with open("library.json", "r", encoding="utf-8") as file:
+        CARDS = json.load(file)
+else:
+    # Build file
+    CARDS = card_list.build()
 
 
 def main():
+    # print(navigation.HELPER)
     app.run()
-
-
-# Adding symbols to context_processor
-BASE_CONTEXT = {
-    "W": flask.Markup("🔆"),
-    "U": flask.Markup("💧"),
-    "B": flask.Markup("💀"),
-    "R": flask.Markup("🔥"),
-    "G": flask.Markup("🌳"),
-}
-
-
-# Retrieving locale and timezone information
-@babel.localeselector
-def get_locale():
-    return flask.g.get("lang_code", app.config["BABEL_DEFAULT_LOCALE"])
-
-
-@babel.timezoneselector
-def get_timezone():
-    user = flask.g.get("user", None)
-    if user is not None:
-        return user.timezone
 
 
 # Defining Errors
@@ -74,51 +44,56 @@ def favicon():
     return flask.redirect(flask.url_for("static", filename="img/favicon.ico"))
 
 
-# Serve robots and sitemap static files
+# Serve robots static file
 @app.route("/robots.txt")
-@app.route("/sitemap.xml")
 def static_from_root():
     return flask.send_from_directory(app.static_folder, flask.request.path[1:])
 
 
+# Serve sitemap template
+# code used from https://gist.github.com/Julian-Nash/aa3041b47183176ca9ff81c8382b655a
+@app.route("/sitemap.xml")
+def sitemap():
+    from flask import make_response, request, render_template
+    from urllib.parse import urlparse
+
+    host_components = urlparse(request.host_url)
+    host_base = host_components.scheme + "://" + host_components.netloc
+
+    urls = [host_base + p["self"].url for p in navigation.HELPER.values()]
+
+    xml_sitemap = render_template("sitemap.xml", urls=urls, host_base=host_base)
+    response = make_response(xml_sitemap)
+    response.headers["Content-Type"] = "application/xml"
+
+    return response
+
+
 # Serve webfonts
 @app.route("/webfonts/<path:font>")
-@app.route("/<lang_code>/webfonts/<path:font>")
-def static_fonts(lang_code=None, font=None):
+def static_fonts(font=None):
     return flask.redirect(flask.url_for("static", filename=f"fonts/{font}"))
 
 
 # Default route
 @app.route("/")
 @app.route("/<path:page>")
-@app.route("/<lang_code>/<path:page>")
-def index(lang_code=None, page=None):
+def index(page=None):
     redirect = False
     if not page:
         page = "index.html"
         redirect = True
-    if not lang_code or lang_code not in app.config["SUPPORTED_LANGUAGES"].keys():
-        if lang_code:
-            page = lang_code + "/" + page
-        lang_code = (
-            flask.request.accept_languages.best_match(
-                app.config["SUPPORTED_LANGUAGES"].keys()
-            )
-            or "fr"
-        )
-        page = "/" + lang_code + "/" + page
-        redirect = True
+    page = "/" + page
     if redirect:
         return flask.redirect(page, 301)
 
-    flask.g.lang_code = lang_code
-    context = copy.copy(BASE_CONTEXT)
-    context["lang"] = lang_code
-    return flask.render_template(page, **context)
+    # context = copy.copy(BASE_CONTEXT)
+    # return flask.render_template(page, **context)
+    return flask.render_template(page)
 
 
-def _i18n_url(page, _anchor=None, locale=None, **params):
-    url = "/" + (locale or get_locale()) + page.url
+def _build_url(page, _anchor=None, **params):
+    url = page.url
     if params:
         url += "?" + urllib.parse.urlencode(params)
     if _anchor:
@@ -126,23 +101,22 @@ def _i18n_url(page, _anchor=None, locale=None, **params):
     return url
 
 
-def _link(page, name=None, _anchor=None, _class=None, locale=None, **params):
+def _link(page, name=None, _anchor=None, _class=None, **params):
     if not page or not page.url:
         return ""
     name = name or page.name
-    url = _i18n_url(page, _anchor, locale, **params)
+    url = _build_url(page, _anchor, **params)
     if _class:
-        _class = f"class={_class} "
+        # _class = f"class='{_class} text-reset'"
+        _class = f"class='{_class}'"
     else:
-        _class = ""
-    return flask.Markup(f'<a {_class}href="{url}">{name}</a>')
+        _class = "class='text-reset'"
+    return flask.Markup(f'<a {_class} href="{url}">{name}</a>')
 
 
 @app.context_processor
 def linker():
     path = flask.request.path
-    if path[1:3] in app.config["SUPPORTED_LANGUAGES"].keys():
-        path = path[3:]
     if path[-11:] == "/index.html":
         path = path[:-11]
     if path[-5:] == ".html":
@@ -150,8 +124,8 @@ def linker():
     if path[-1:] == "/":
         path = path[:-1]
 
-    def i18n_url(page, _anchor=None, **params):
-        return _i18n_url(
+    def _url(page, _anchor=None, **params):
+        return _build_url(
             navigation.HELPER.get(page, {}).get("self"), _anchor=_anchor, **params
         )
 
@@ -163,23 +137,29 @@ def linker():
             **params,
         )
 
-    def translation(locale, name):
-        return _link(
-            navigation.HELPER.get(path, {}).get("self"), name=name, locale=locale
-        )
+    def name(page, name=None):
+        return name or navigation.HELPER.get(page, {}).get("self").name
 
     def top():
-        return _link(navigation.HELPER.get(path, {}).get("top"))
+        return _link(navigation.HELPER.get(path, {}).get("top"), _class="text-reset")
 
     def next():
-        return _link(navigation.HELPER.get(path, {}).get("next"), _class="next")
+        return _link(
+            navigation.HELPER.get(path, {}).get("next"), _class="next text-reset"
+        )
 
     def prev():
-        return _link(navigation.HELPER.get(path, {}).get("prev"), _class="prev")
+        return _link(
+            navigation.HELPER.get(path, {}).get("prev"), _class="prev text-reset"
+        )
 
-    def external(url, name):
+    def external(url, name, _class=None):
+        if _class:
+            _class = f"class='{_class}'"
+        else:
+            _class = "class='text-reset'"
         return flask.Markup(
-            f'<a target="_blank" rel="noreferrer" href="{url}">{name}</a>'
+            f'<a {_class} target="_blank" rel="noreferrer" href="{url}">{name}</a>'
         )
 
     def title():
@@ -201,10 +181,10 @@ def linker():
         return "Barrin's Codex"
 
     return dict(
-        i18n_url=i18n_url,
+        url=_url,
         link=link,
-        translation=translation,
         title=title,
+        name=name,
         page_name=page_name,
         top=top,
         next=next,
@@ -213,176 +193,85 @@ def linker():
     )
 
 
-# reecriture en variables
-def _var_name(name):
-    name = unidecode.unidecode(name).lower()
-    name = re.sub(r"'", "", name)
-    name = re.sub(r",", "", name)
-    name = re.sub(r"[^a-zA-Z0-9]", "_", name)
-    return name
-
-
-def _name(name):
-    name = unidecode.unidecode(name).lower()
-    name = re.sub(r"[^a-zA-Z0-9]", "", name)
-    return name
-
-
-def scryfall_id(name):
-    name = _name(name)
-    return library[name]["id"]
-
-
 @app.context_processor
 def display_card():
-    def card(name, display_name=None):
-        return flask.Markup(
-            """<span class="card" scryfallId="{scryfallId}" data-tippy-content="
-<div class='card-container'>
-    <img
-        data-src='https://api.scryfall.com/cards/{scryfallId}?format=image'
-        class='card-image'
-    />
-</div>">{name}</span>""".format(
-                # replace spaces with non-breakable spaces in card names
-                name=(display_name or name).replace(" ", " "),
-                scryfallId=scryfall_id(name),
+    def get_card(name, firstprint=True):
+        fuzzy = re.sub(r"[^\w\s]", "", name)
+        fuzzy = re.sub(r"\s+", "-", fuzzy)
+        url = f"https://api.scryfall.com/cards/search?q={fuzzy}"
+        if firstprint:
+            url = url + "+is%3Afirstprint"
+        r = requests.get(url)
+        return r.json()
+
+    def _name(name):
+        name = name
+        name = unidecode.unidecode(name).lower()
+        name = re.sub(r"[^a-zA-Z0-9]", "", name)
+        return name
+
+    def card_name_from_page(name):
+        page_name = navigation.HELPER.get(name, {}).get("self").name
+        if "❌" in page_name:
+            page_name = page_name[2:]
+        return page_name
+
+    def img_crop(name, front=True):
+        card = CARDS[_name(name)]
+        if "faces" in card:
+            if not front:
+                card = get_card(name)["data"][0]
+                return card["card_faces"][1]["image_uris"]["art_crops"]
+            return (
+                "https://api.scryfall.com/cards/"
+                + f"{CARDS[card['faces'][0]]['id']}"
+                + "?format=image&version=art_crop"
             )
+        return (
+            "https://api.scryfall.com/cards/"
+            + f"{card['id']}?format=image&version=art_crop"
         )
 
-    for carte in cartes:
-        # Enabling card names checks
-        library[list(carte)[0]] = carte[list(carte)[0]]
-        # Adding card to context
-        BASE_CONTEXT[_var_name(library[list(carte)[0]]["name"])] = card(
-            library[list(carte)[0]]["name"]
-        )
+    def img_card(name, firstprint=True, front=True):
+        card = CARDS[_name(name)]
+        if "faces" in card:
+            if not front:
+                card = get_card(name, firstprint)["data"][0]
+                return card["card_faces"][1]["image_uris"]["png"]
+            card = get_card(name, firstprint)["data"][0]
+            return card["card_faces"][0]["image_uris"]["png"]
+        if firstprint:
+            card = get_card(name, firstprint)["data"][0]
+            return card["image_uris"]["png"]
+        return f"https://api.scryfall.com/cards/{card['id']}?format=image"
 
-    def card_image(name, version="png"):
-        img = """
-<img
-    src="https://api.scryfall.com/cards/{scryfallId}?format=image&version={version}"
-    alt="{name}" scryfallId="{scryfallId}"
-/>
-        """
-
+    def card_link(name):
         return flask.Markup(
-            img.format(
-                name=name.replace(" ", " "),
-                scryfallId=scryfall_id(name),
-                version=version,
-            )
+            '<a target="_blank" class="text-reset text-decoration-underline" '
+            + 'rel="noreferrer" href="'
+            + get_card(name)["data"][0]["scryfall_uri"]
+            + '">'
+            + name
+            + "</a>"
         )
 
-    def card_art(name):
-        return flask.Markup(
-            """<img
-    src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=art_crop"
-    alt="{name}"
-/>""".format(
-                name=name.replace(" ", " "), scryfallId=scryfall_id(name)
-            )
-        )
-
-    return dict(card=card, card_image=card_image, card_art=card_art)
+    return dict(
+        deck_name=card_name_from_page,
+        img_crop=img_crop,
+        img_card=img_card,
+        card_link=card_link,
+    )
 
 
 @app.context_processor
-def display_deck():
-    def _name(name: str) -> str:
-        name = unidecode.unidecode(name).lower()
-        name = re.sub(r"[^a-zA-Z]", "", name)
-        return name
+def display_match():
+    def match_name(page):
+        try:
+            if navigation.HELPER.get(page, {}).get("self").path != "":
+                name = navigation.HELPER.get(page, {}).get("self").name
+                return name.split(" ", 1)[1]
+        except AttributeError:
+            pass
+        return "Barrin's Codex"
 
-    def _get(name: str) -> json:
-        qte = re.sub(r"[a-zA-Z]", "", name.split(r" ")[0])
-        info = library[name]
-        return {
-            "count": qte,
-            "name": re.split("/", info["name"])[0],
-            "id": info["id"],
-            "types": info["types"],
-        }
-
-    def _key(card):
-        return card["name"]
-
-    def deck_from_moxfield(key: str) -> json:
-        url = "https://api.moxfield.com/v2/decks/all/"
-
-        czon = []
-        crea = {"type": "Creatures", "count": 0, "cards": []}
-        plan = {"type": "Planeswalkers", "count": 0, "cards": []}
-        arti = {"type": "Artifacts", "count": 0, "cards": []}
-        ench = {"type": "Enchantments", "count": 0, "cards": []}
-        inst = {"type": "Instants", "count": 0, "cards": []}
-        sorc = {"type": "Sorceries", "count": 0, "cards": []}
-        land = {"type": "Lands", "count": 0, "cards": []}
-
-        deck_json = requests.get(url + key).json()
-
-        for k, v in deck_json["mainboard"].items():
-            name = _name(re.split("/", k)[0])
-            card = _get(name)
-            card["count"] = v["quantity"]
-
-            if "Land" in card["types"]:
-                land["count"] = land["count"] + int(card["count"])
-
-                if len(card["types"]) == 1:
-                    land["cards"].append(card)
-
-            if "Creature" in card["types"]:
-                crea["count"] = crea["count"] + int(card["count"])
-                crea["cards"].append(card)
-
-            elif "Planeswalker" in card["types"]:
-                plan["count"] = plan["count"] + int(card["count"])
-                plan["cards"].append(card)
-
-            elif "Artifact" in card["types"]:
-                arti["count"] = arti["count"] + int(card["count"])
-                arti["cards"].append(card)
-
-            elif "Enchantment" in card["types"]:
-                ench["count"] = ench["count"] + int(card["count"])
-                ench["cards"].append(card)
-
-            elif "Instant" in card["types"]:
-                inst["count"] = inst["count"] + int(card["count"])
-                inst["cards"].append(card)
-
-            elif "Sorcery" in card["types"]:
-                sorc["count"] = sorc["count"] + int(card["count"])
-                sorc["cards"].append(card)
-
-        for k, v in deck_json["commanders"].items():
-            name = _name(re.split("/", k)[0])
-            card = _get(name)
-            card["count"] = v["quantity"]
-            czon.append(card)
-
-        czon.sort(key=_key)
-        crea["cards"].sort(key=_key)
-        plan["cards"].sort(key=_key)
-        arti["cards"].sort(key=_key)
-        ench["cards"].sort(key=_key)
-        inst["cards"].sort(key=_key)
-        sorc["cards"].sort(key=_key)
-        land["cards"].sort(key=_key)
-
-        return json.dumps(
-            {
-                "name": deck_json["name"],
-                "date": deck_json["createdAtUtc"][:10],
-                "library": {
-                    "cards": [crea, plan, arti, ench, inst, sorc, land],
-                    "count": (100 - len(czon)),
-                },
-                "command": {"cards": czon, "count": len(czon)},
-            },
-            separators=(",", ":"),
-            sort_keys=True,
-        )
-
-    return dict(decklist=deck_from_moxfield)
+    return dict(match_name=match_name)

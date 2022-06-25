@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck agressif se basant sur une forte récursivité et la
+    possibilité de le jouer très tôt dans la partie.
+{% endblock %}
+{% block second_paragraph %}
+    Les caractéristiques de Hogaak en font un outil de pression très
+    fonctionnel et efficace à tel point que le deck a brillé dans une période
+    où d'autres decks agressifs brillaient comme
+    {{ card_link("Winota, Joiner of Forces") }} ou
+    {{ card_link("Asmoranomardicadaistinaculdacar")}}
+{% endblock %}
+{% block third_paragraph %}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/HVrYw0Sf6UycPYqxY6_u_w
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/26-hogaak-vs-minscboo", "En pleine recherche de deck qui est capable de battre Minsc&Boo, Hogaak semble tirer son épingle du jeu.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.threem(played_on="21 juin 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/livio-malcolm.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Livio, Oathsworn Sentinel", "Malcolm, Keen-Eyed Navigator") }}
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck mêlant créatures et sorts d'interaction dans l'objectif
+    de dicter le rythme de la partie. Il s'agit d'un deck tempo, un style de
+    jeu qui récompense fortement les prises de décision.
+{% endblock %}
+{% block second_paragraph %}
+    Le style de jeu est particulier car il dépend à la fois du rythme que
+    peuvent imposer les partenaires Livio et Malcolm, les créatures ayant ou
+    non le flash et les sorts d'interaction.
+{% endblock %}
+{% block third_paragraph %}
+    {{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/9oRJkiwhX0OTmiQlg5q7nw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/4-liviomalcolm-vs-niv-5c", "Duel de ressources, ce match reprend deux decks fréquemment rencontrés en tournoi. Lequel des deux remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="16 décembre 2021") }}
+    </div>
+</div>
+{% endblock %}

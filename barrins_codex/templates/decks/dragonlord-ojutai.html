@@ -1,0 +1,37 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck contrôle qui a la possibilité de mettre fin rapidement
+    à des parties grâce à sa force.
+{% endblock %}
+{% block second_paragraph %}
+    La possibilité de récupérer des cartes en main fait de ce dragon un outil
+    de choix pour jouer cet archétype.
+{% endblock %}
+{% block third_paragraph %}
+    L'interaction du deck se base sur des contresorts et des moyens de retirer
+    les créatures du champ de bataille.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/Zr08ZmV5f0CQ1taykf2BvQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/7-livioprava-vs-ojutai", "Louis et Félix, dans ce match, jouent un match de haut-voltige entre Weenie White et UW Control, deux stratégies qui se retrouvent fréquemment en tournoi. Est-ce que la paire de partenaire est meilleure que Isamaru ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="18 janvier 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% macro card(page, nom, played_on="") -%}
+{% set fichier = 'img/profile/'+nom+".png" %}
+<div class="col-12 text-center my-4">
+    <div class="text-center mb-1">
+        <h5 class="card-title">{{ link(page, _class="text-reset text-decoration-none") }}</h5>
+        {% if played_on != "" %}<p class="card-text fs-6 fst-italic">a joué ce deck le {{ played_on }}</p>{% endif %}
+    </div>
+    <div>
+        <a href="{{ url(page) }}"><img src="{{ url_for('static', filename=fichier) }}" class="card-img-top mx-auto rounded" alt="Photo"></a>
+    </div>
+    <div class="mt-1">
+        <a href="{{ url(page) }}" class="btn btn-outline-secondary">🧍 Page de {{ nom }}</a>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro apparition(nom, played_on="") -%}
+{% set page = "/pilotes/apparitions" %}
+{% set fichier = "img/profile/Guest.png" %}
+<div class="col-12 text-center my-4">
+    <div class="text-center mb-1">
+        <h5 class="card-title">
+            {{ link(page, nom, _class="text-reset text-decoration-none") }}
+        </h5>
+        {% if played_on != "" %}<p class="card-text fs-6 fst-italic">a joué ce deck le {{ played_on }}</p>{% endif %}
+    </div>
+    <div>
+        <a href="{{ url(page) }}"><img src="{{ url_for('static', filename=fichier) }}" class="card-img-top mx-auto rounded" alt="Photo"></a>
+    </div>
+    <div class="mt-1">
+        <a href="{{ url(page) }}" class="btn btn-outline-secondary">🧍 Page invité·e</a>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro aliquanto(played_on="") -%}
+    {{ card("/pilotes/anael-aliquanto", "Anaël", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro domino(played_on="") -%}
+    {{ card("/pilotes/domino", "Domino", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro eventwin(played_on="") -%}
+    {{ card("/pilotes/damien-eventwin", "Damien", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro imperia86(played_on="") -%}
+    {{ card("/pilotes/louis-imperia86", "Louis", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro koraysh(played_on="") -%}
+    {{ card("/pilotes/gregoire-koraysh", "Grégoire", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro midas(played_on="") -%}
+    {{ card("/pilotes/felix-midas", "Félix", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro spigushe(played_on="") -%}
+    {{ card("/pilotes/martin-spigushe", "Martin", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro threem(played_on="") -%}
+    {{ card("/pilotes/bastien-threem", "Bastien", played_on=played_on)}}
+{%- endmacro %}
+
+{% macro trotte(played_on="") -%}
+    {{ card("/pilotes/florian-trotte", "Florian", played_on=played_on)}}
+{%- endmacro %}

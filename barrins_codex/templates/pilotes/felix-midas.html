@@ -1,0 +1,39 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Félix.png" %}
+{% set name="Félix « Midas »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}{% endblock %}
+{% block second_paragraph %}{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/livioprava", "img/split-crop/livio-prava.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/esika-god-of-the-tree") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/lightpaws-emperors-voice") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/7-livioprava-vs-ojutai") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/8-esika-vs-niv-5c") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/12-light-paws-vs-ishaitevesh") }}
+    </div>
+</div>
+{% endblock %}

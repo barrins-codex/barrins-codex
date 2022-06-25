@@ -1,0 +1,39 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Anaël.png" %}
+{% set name="Anaël « Aliquanto »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}{% endblock %}
+{% block second_paragraph %}{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/the-reality-chip") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/minscboo-timeless-heroes") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/elminster") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/23-karlov-vs-reality-chip") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/24-grist-vs-minscboo") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/25-elminster-vs-wilson") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La structure des decks hatebear est particulière et permet de lutter contre
+    les decks contrôle et les decks combo en taxant l'adversaire sur la
+    majorité des actions de jeu qui sont requises pour gagner la partie. Malgré
+    la présence de ces taxes, Gitrog a les outils pour contourner les
+    situations les plus compliquées et remporter la victoire. Cependant, c'est
+    tout de même en faveur d'Isamaru grâce au swap Thalia, Guardian of Thraben.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Domino" %}
+{% set joueur2 = "Koraysh" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/9swKv7CquYM" %}
+{% set date = "9 décembre 2021" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/isamaru-hound-of-konda") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/the-gitrog-monster") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.koraysh() }}
+    </div>
+</div>
+{% endblock %}

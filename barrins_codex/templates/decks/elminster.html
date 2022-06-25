@@ -1,0 +1,40 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck contrôle dans la lignée de
+    {{ link("/decks/shorikai-genesis-engine") }} et de
+    {{ link("/decks/dragonlord-ojutai") }}.
+{% endblock %}
+{% block second_paragraph %}
+    La combinaison de couleur azorius fournit un squelette assez complet de
+    cartes pour jouer contrôle et quel que soit le commandant, le deck reste
+    sensiblement le même au fil des versions.
+{% endblock %}
+{% block third_paragraph %}
+    Les capacités de Elminster permettent d'agrémenter le deck d'actions qui
+    vont dans le sens du deck comme faire piocher plus de cartes ou créer des
+    jetons de créature pour réduire la pression des attaques de l'adversaire.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/EJZGZuVHfEG8wcn0v6nv6A
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/25-elminster-vs-wilson", "Un match avec des généraux récents. Elminster va-t-il arriver à mettre l'ourson en cage ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.aliquanto(played_on="14 juin 2022") }}
+    </div>
+</div>
+{% endblock %}
