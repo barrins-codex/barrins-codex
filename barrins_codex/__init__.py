@@ -10,21 +10,15 @@ import jinja2.exceptions
 
 from . import config
 from . import navigation
-from . import card_list
 
 
 app = flask.Flask(__name__, template_folder="templates", static_folder="static")
 app.jinja_env.policies["ext.i18n.trimmed"] = True
 config.configure_app(app)
 
-# BUILD LIBRARY
-if "DEBUG" in os.environ:
-    if not os.path.isfile("library.json"):
-        card_list.build()
+if os.path.isfile("library.json"):
     with open("library.json", "r", encoding="utf-8") as file:
         CARDS = json.load(file)
-else:
-    CARDS = card_list.build()
 
 
 def main():
@@ -158,7 +152,7 @@ def linker():
         if _class:
             _class = f"class='{_class}'"
         else:
-            _class = "class='text-reset'"
+            _class = "class='text-reset text-decoration-underline'"
         return flask.Markup(
             f'<a {_class} target="_blank" rel="noreferrer" href="{url}">{name}</a>'
         )
