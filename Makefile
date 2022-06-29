@@ -10,6 +10,7 @@ po-compile:
 po: po-update po-compile
 
 release:
+	python barrins_codex/card_list.py
 	fullrelease
 
 test:
