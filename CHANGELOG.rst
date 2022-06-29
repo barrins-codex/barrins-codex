@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.3 (unreleased)
+0.0.3 (2022-06-29)
 ------------------
 
 - Nothing changed yet.
