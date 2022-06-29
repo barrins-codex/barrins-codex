@@ -17,12 +17,13 @@ app = flask.Flask(__name__, template_folder="templates", static_folder="static")
 app.jinja_env.policies["ext.i18n.trimmed"] = True
 config.configure_app(app)
 
-if os.path.isfile("library.json"):
-    # File exists
+# BUILD LIBRARY
+if "DEBUG" in os.environ:
+    if not os.path.isfile("library.json"):
+        card_list.build()
     with open("library.json", "r", encoding="utf-8") as file:
         CARDS = json.load(file)
 else:
-    # Build file
     CARDS = card_list.build()
 
 
