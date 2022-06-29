@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block ogdesc %}
-Les ressources présentées ici sont issues d'une série de livestream organisée par la chaine Les Chroniques du Commander. L'objectif est que des joueuses et des joueurs habitué·e·s du format puissent présenter des decks qui peuvent être rencontrés en tournoi et proposent une analyse du deck et d'un matchup en particulier.
+    Les ressources présentées ici sont issues d'une série de livestream
+    organisée par la chaine Les Chroniques du Commander. L'objectif est que des
+    joueuses et des joueurs habitué·e·s du format puissent présenter des decks
+    qui peuvent être rencontrés en tournoi et proposent une analyse du deck et
+    d'un matchup en particulier.
 {% endblock %}
 
 {% block content %}
@@ -15,9 +19,26 @@ Les ressources présentées ici sont issues d'une série de livestream organisé
 
 <p>
     Vous pouvez retrouver les Chroniques du Commander sur les différentes plateformes :<br>
-    <i class="fa-brands fa-twitter fa-xl"></i>
-    <i class="fa-brands fa-discord fa-xl"></i>
-    <i class="fa-brands fa-twitch fa-xl"></i>
 </p>
+<div class="d-flex flex-wrap justify-content-around">
+    <div class="col-2 px-2 py-2">
+        <a href="https://www.twitch.tv/leschroniquesducommander">
+            <img src="{{ url_for('static', filename='img/icons/twitch.png') }}"
+                alt="Twitch"  width="100%" />
+        </a>
+    </div>
+    <div class="col-2 px-2 py-2">
+        <a href="https://discord.gg/SDhaRjvn2T">
+            <img src="{{ url_for('static', filename='img/icons/discord.png') }}"
+                alt="Discord" width="100%" />
+        </a>
+    </div>
+    <div class="col-2 px-2 py-2">
+        <a href="https://twitter.com/ChroniqDuComm/">
+            <img src="{{ url_for('static', filename='img/icons/twitter.png') }}"
+                alt="Twitter" width="100%" />
+            </a>
+    </div>
+</div>
 
 {% endblock %}
