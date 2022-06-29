@@ -10,6 +10,7 @@ import jinja2.exceptions
 
 from . import config
 from . import navigation
+from . import card_list
 
 
 app = flask.Flask(__name__, template_folder="templates", static_folder="static")
@@ -19,7 +20,8 @@ config.configure_app(app)
 if os.path.isfile("library.json"):
     with open("library.json", "r", encoding="utf-8") as file:
         CARDS = json.load(file)
-
+else:
+    CARDS = card_list.build()
 
 def main():
     # print(navigation.HELPER)
