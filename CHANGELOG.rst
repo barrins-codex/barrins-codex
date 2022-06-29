@@ -1,10 +1,10 @@
 Changelog
 =========
 
-0.0.5 (unreleased)
+0.0.5 (2022-06-29)
 ------------------
 
-- Nothing changed yet.
+- Essai de solution concernant la liste des cartes
 
 
 0.0.4 (2022-06-29)
