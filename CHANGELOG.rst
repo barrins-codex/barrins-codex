@@ -4,7 +4,7 @@ Changelog
 6.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Match 28 oublié dans la liste des matchs
 
 
 6.0.2 (2022-08-09)
