@@ -38,3 +38,9 @@ def test(client, page):
                 url, timeout=10, headers={"User-Agent": "python"}
             ).raise_for_status()
         VISITED.add(url)
+
+
+def test_sitemap(client):
+    response = client.get("/sitemap.xml", follow_redirects=True)
+    assert response.status_code == 200
+    assert response.content_type == "application/xml"
