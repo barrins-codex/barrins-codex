@@ -13,4 +13,5 @@ wheels/
 .env
 venv/
 *.json.gz
+*.json
 decklist.txt
