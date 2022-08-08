@@ -1,7 +1,6 @@
 include LICENSE README.md CHANGELOG.rst
 
 graft barrins_codex
-prune utils
 
 exclude Makefile
 exclude .markdownlint.json
