@@ -1,0 +1,41 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS CARTE RV ###
+{% block commander %}
+{{ deck.carousel_rv(deck_name(request.path[:-5])) }}
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck contrôle dont l'objectif est de résoudre la face verso
+    de Esika pour bénéficier de la mise en jeu de cartes chères et impactantes.
+{% endblock %}
+{% block second_paragraph %}
+    Une fois mise en place, Esika permet d'ajouter tous les tours une carte
+    oppressante pour l'adversaire. La pression augmente graduellement et
+    devient de plus en plus compliquée à absorber.
+{% endblock %}
+{% block third_paragraph %}{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/Cm2n8lN6FUai3XYJkQxQpw
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/8-esika-vs-niv-5c", "Dans ce match, le verso de Esika est mis à rude épreuve par Niv-Mizzet Reborn. En effet, si Niv-Mizzet arrive en jeu, les ressources dépensées à ralentir le deck seront rendues nulles.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.midas(played_on="25 janvier 2022") }}
+    </div>
+</div>
+{% endblock %}

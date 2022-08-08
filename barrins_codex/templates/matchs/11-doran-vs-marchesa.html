@@ -1,0 +1,39 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Les deux decks ont une stratégie proche : jouer quelques créatures et
+    réduire au maximum ses possibilités d'interactions. La présence du vert
+    pour Doran permet de jouer des accélérateurs à mana et donc d'avoir des
+    actions impactantes plus rapidement. La présence du rouge pour Marchesa
+    permet d'ajouter des sorts de dégâts directs qui réduiront les menaces de
+    l'adversaire. Au final, il s'agit d'un matchup en faveur de Doran s'il
+    commence la partie et qui est équilibré sinon.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Domino" %}
+{% set joueur2 = "Imperia86" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/g7R68nusmPs" %}
+{% set date = "15 février 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/queen-marchesa") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/doran-the-siege-tower") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.imperia86() }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck agressif qui cherche à utiliser au plus vite les
+    capacités de Minsc&Boo pour infliger le maximum de dégâts possible.
+{% endblock %}
+{% block second_paragraph %}
+    La portée des dégâts de Minsc&Boo est phénoménale tant le jeton peut être
+    recréé à chaque tour. De plus, l'angle d'attaque {{ card_link("Fling") }}
+    avec bonus est très intéressant pour mettre fin à des parties rapidement.
+{% endblock %}
+{% block third_paragraph %}
+    La recherche d'accélération fait que Minsc&Boo peut être joué dès le premier
+    tour de jeu selon les cartes en main. Cet aspect « suicidaire » peut rendre
+    le deck fragile face à des stratégies contrôle.
+</p>
+<p>
+    {{ deck.ban("Minsc & Boo, Timeless Heroes", full="Le général a été banni le 25 juillet 2022.", annonce="https://www.mtgdc.info/announcements/2022/july-2022-rules-bannedrestricted-update#h.lhcckibcudr3") }}
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/BjslyWjD8kiG3DVmTZVmtA">
+    Decklist by Aliquanto
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/PoVm-sd_4kmvKLSFWE-n0A">
+    Decklist by Domino
+</a>
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/24-grist-vs-minscboo", "Deck émergeant, Minsc&Boo est présenté comme le prédrateur du format. Grist arrivera a gagner le match ?") }}
+{{ match.card2("/matchs/26-hogaak-vs-minscboo", "En pleine recherche de deck qui est capable de battre Minsc&Boo, Hogaak semble tirer son épingle du jeu.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.aliquanto(played_on="7 juin 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="21 juin 2022") }}
+    </div>
+</div>
+{% endblock %}

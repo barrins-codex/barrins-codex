@@ -1,0 +1,37 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La structure des decks hatebear est particulière et permet de lutter contre
+    les decks contrôle et les decks combo en taxant l'adversaire sur la
+    majorité des actions de jeu qui sont requises pour gagner la partie. La
+    posture d'Ojutai dans ce matchup le met en difficulté. Au final, c'est en
+    faveur de Livio-Prava grâce au swap Thalia, Guardian of Thraben.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Midas" %}
+{% set joueur2 = "Imperia86" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/rLXT5i6H5KI" %}
+{% set date = "18 janvier 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.midas() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/livioprava", "img/split-crop/livio-prava.jpg") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/dragonlord-ojutai") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.imperia86() }}
+    </div>
+</div>
+{% endblock %}

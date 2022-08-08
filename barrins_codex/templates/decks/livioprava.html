@@ -1,0 +1,44 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/livio-prava.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Livio, Oathsworn Sentinel", "Prava of the Steel Legion") }}
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck très proche de {{ link("isamaru-hound-of-konda") }}.
+    L'intérêt de cette version était d'utiliser une paire de partenaires pour
+    créer un différentiel de ressources avec l'adversaire.
+{% endblock %}
+{% block second_paragraph %}{% endblock %}
+{% block third_paragraph %}
+{{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/eM0OwCWVjUWiz6AzhHXyXA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/7-livioprava-vs-ojutai", "Louis et Félix, dans ce match, joue un match de haut-voltige entre Weenie White et UW Control, deux stratégies qui se retrouvent fréquemment en tournoi. Est-ce que la paire de partenaire est meilleure que Isamaru ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.midas(played_on="18 janvier 2022") }}
+    </div>
+</div>
+{% endblock %}

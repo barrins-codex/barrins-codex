@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
+    <div class="centered"><h1 class="fs-1">Liste des pilotes</h1></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/anael-aliquanto", "Anaël") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/bastien-threem", "Bastien") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/damien-eventwin", "Damien") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/domino", "Domino") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/felix-midas", "Félix") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/florian-trotte", "Florian") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/gregoire-koraysh", "Grégoire") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/louis-imperia86", "Louis") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/martin-spigushe", "Martin") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.card("/pilotes/apparitions", "Guest") }}
+    </div>
+</div>
+{% endblock %}

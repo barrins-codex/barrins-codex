@@ -1,0 +1,66 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Principalement prison, Aminatou, the Fateshifter allie les contresorts à la
+    gestion de permanents par des permanents faisant leur effet en entrant sur
+    le champ de bataille. Cela permet d'utiliser au maximum la capacité de
+    loyauté -1 du planeswalker.
+{% endblock %}
+{% block second_paragraph %}
+    La qualité des cartes et la facilité à réutiliser certains effets rendent
+    ce deck asphyxiant pour l'adversaire qui aura du mal à échapper à la prison
+    que peut mettre en place Aminatou, the Fateshifter.
+{% endblock %}
+{% block third_paragraph %}
+    Certaines versions du deck utilisent la combo
+    {{ card_link("Rest in Peace") }} et {{ card_link("Helm of Obedience") }}
+    pour avoir une possibilité de se sortir de situations qui mettent
+    la partie en péril.
+</p><p>
+    La version « blink » capitalise sur les effets d'arrivée en jeu de
+    créatures ; cette mécanique de départ-arrivée s'appelle « blink » du nom
+    anglais de la carte qui a défini la stratégie :
+    {{ card_link("Momentary Blink") }}.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/lq4K3B5ONk6iPvtsM_XZMA">
+    Deck contrôle par Spigushe
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/_4h58Y9250668NoEKHPn7Q">
+    Deck contrôle par threem
+</a>
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/omiSLZPFVUSmxnCEj7_7Eg">
+    Version blink
+</a>
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/6-aminatou-vs-klothys", "Match fréquent en tournoi, Aminatou est mis face à une version inhabituelle de Klothys. Est-ce toujours à l'avantage de la petite fille ?") }}
+{{ match.card2("/matchs/16-aminatou-vs-tiamat", "Aminatou blink est un deck qui est de plus en plus fréquent en tournoi. Cette fois-ci, le deck est mis face à Tiamat, un deck contrôle et combo qui peut gagner à tout moment.") }}
+{{ match.card2("/matchs/21-aminatou-vs-beamtown", "Aminatou version contrôle face à un challenger arrivé avec Streets of New Capenna. Qui des brutes ou de la petite fille remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="11 janvier 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="29 mars 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.threem(played_on="10 mai 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,105 @@
+{% macro card(page, lien="", categories="") -%}
+<div class="col-12 text-center my-4">
+    <div class="text-center mb-1">
+        <h5 class="card-title">{{ link(page, _class="text-reset text-decoration-none") }}</h5>
+        {% if categories != "" %}<p class="card-text">{{ categories }}</p>{% endif %}
+    </div>
+    <a href="{{ url(page) }}">
+    {% if lien != "" %}
+    <img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto rounded" alt="Photo">
+    {% else %}
+    <img src="{{ img_crop(deck_name(page)) }}" class="card-img-top mx-auto rounded" alt="Photo">
+    {% endif %}
+    </a>
+    <div class="mt-1">
+        <a href="{{ url(page) }}" class="btn btn-outline-secondary">📝 Fiche de ce deck</a>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro partner() -%}
+</p><p><u><i>Attention :</i></u> La modification des règles du format mise en place le 14 février 2022 rend la mécanique des friends forever moins oppressante. Cependant, cette paire capitalise sur l'effet boite à outils des deux généraux pour s'adapter à l'adversaire.
+{%- endmacro %}
+
+{% macro ban(carte, commentaire, full="", annonce="") -%}
+</p><p><u><i>Attention :</i></u>
+    {% if full == "" %}
+        Suite au ban de {{ card_link(carte) }}, ce deck peut se retrouver
+        impacté. {{ commentaire }}
+    {% else %}
+        {{ full }}
+    {% endif %}
+    {% if annonce != "" %}
+        <br />Vous pouvez retrouver l'annonce ici :
+        {{ external(annonce, "Annonce officielle") }}
+    {% endif %}
+{%- endmacro %}
+
+{% macro carousel_partner(partner1, partner2) -%}
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ img_card(partner1, False) }}" class="d-block w-100" alt="{{ partner1 }}">
+        </div>
+            <div class="carousel-item">
+            <img src="{{ img_card(partner2, False) }}" class="d-block w-100" alt="{{ partner2 }}">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{%- endmacro %}
+
+{% macro carousel_rv(carte) -%}
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ img_card(carte, front=True) }}" class="d-block w-100" alt="{{ carte }} - face recto">
+        </div>
+            <div class="carousel-item">
+            <img src="{{ img_card(carte, front=False) }}" class="d-block w-100" alt="{{ carte }} - face verso">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{%- endmacro %}
+
+{% macro sld_rename(crossover, old, new) -%}
+<article class="col-8 mx-auto mt-2 mb-4 d-flex">
+    <p class="col-4"><strong>{{ old }}</strong> est une carte publiée originellement dans la collection Secret Lair Drop Series lors d'un crossover avec l'univers {{ crossover }}. Lors de sa sortie en boosters, son nom change en <strong>{{ new }}</strong></p>
+    <img src="{{ img_card(new) }}" alt="{{ old }}" class="col-4 p-2" max-width="100%" />
+    <img src="{{ img_card(new, False) }}" alt="{{ new }}" class="col-4 p-2" max-width="100%" />
+    <div style="clear:both;"></div>
+</article>
+{%- endmacro %}
+
+{% macro decktech(youtube, legende) -%}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Analyse approfondie du deck</h2>
+    </div>
+</div>
+<div class="col-8 ms-auto me-auto">
+    <div class="ratio ratio-16x9 col-12 mt-2">
+      <iframe title="Decktech publiée par les Chroniques du Commander" src="{{ youtube }}" allowfullscreen></iframe>
+    </div>
+    <div class="col-12 text-center">
+        <p><i>{{ legende }}</i></p>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{%- endmacro %}

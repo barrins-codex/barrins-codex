@@ -1,0 +1,37 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Les deux decks utilisent des outils différents pour être tantôt proactif
+    tantôt réactif et alterner entre ces deux rôles. Les outils apportés par la
+    couleur de support influe grandement sur l'orientation du matchup.
+    Globalement, les sorts de dégâts directs sont plus polyvalents que les
+    sorts de destruction et donc l'avantage est à Jori En dans ce matchup.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/lTO-qgB-E5k" %}
+{% set date = "4 janvier 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/sygg-river-cutthroat") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/jori-en-ruin-diver") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+</div>
+{% endblock %}

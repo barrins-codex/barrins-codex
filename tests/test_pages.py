@@ -40,7 +40,7 @@ def test(client, page):
         VISITED.add(url)
 
 
-@pytest.mark.parametrize("page", [p["self"].url for p in navigation.HELPER.values()])
-def test_en(client, page):
-    response = client.get("/en" + page, follow_redirects=True)
+def test_sitemap(client):
+    response = client.get("/sitemap.xml", follow_redirects=True)
     assert response.status_code == 200
+    assert response.content_type == "application/xml"

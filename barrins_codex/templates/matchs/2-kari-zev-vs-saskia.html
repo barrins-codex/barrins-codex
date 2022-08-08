@@ -1,0 +1,36 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La version présentée de Kari Zev a plus de facilité à endosser la posture
+    du deck contrôle. Cependant, le zoo proposé par Saskia permet de maintenir
+    un flot de créatures attaquantes assez soutenu qui met en difficulté
+    continuellement Kari Zev.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Trotte" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/C8qRYQMghi8" %}
+{% set date = "2 décembre 2021" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/saskia-the-unyielding") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/kari-zev-skyship-raider") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.trotte() }}
+    </div>
+</div>
+{% endblock %}

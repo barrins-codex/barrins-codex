@@ -1,0 +1,44 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Deck tempo, Raffine propose à la fois de la pression et de l'interaction.
+    La combination de couleur Esper/Obscura permet d'avoir accès à de très
+    bonnes créatures, de très bons contresorts et de très bonnes cartes de
+    gestion ciblée.
+{% endblock %}
+{% block second_paragraph %}
+    Il ne faut pas forcément considérer Raffine comme étant le meilleur sort
+    tour 3 du deck. En effet, la capacité de Raffine permet de bénéficier d'une
+    première phase d'installation avec une ou deux créatures. En effet, il est
+    alors possible de filtrer ses pioches et d'augmenter la pression sur le
+    champ de bataille.
+{% endblock %}
+{% block third_paragraph %}
+    Il peut être intéressant de se servir de la capacité de connive pour
+    adapter l'endurance de ses créatures. Une créature à 5 d'endurance ne meurt
+    plus sur {{ card_link("Flame Slash") }}, à partir de 6 la créature ne meurt
+    plus sur {{ card_link("Dismember") }}.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/oiKSgy8Z7EC4D-DlIBfbeA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/22-raffine-vs-tivit", "Lutte au cœur de Capenna pour la domination de la mafia. Quel sphinx de Raffine ou de Tivit sera sacré meilleur·e yakuza ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="17 mai 2022") }}
+    </div>
+</div>
+{% endblock %}

@@ -1,10 +1,17 @@
 Changelog
 =========
 
-5.2.2 (unreleased)
+6.0.1 (unreleased)
 ------------------
 
 - Nothing changed yet.
+
+
+6.0.0 (2022-08-08)
+------------------
+
+- Changing website content
+- Removing i10n support
 
 
 5.2.1 (2021-12-06)

@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Doran est un deck présent dans le format depuis ses débuts. Victime des
+    effets de mode, le deck est plus ou moins présent en tournoi. Le deck allie
+    différentes stratégies qui s'entrecoupent.
+{% endblock %}
+{% block second_paragraph %}
+    L'accélération de mana permet de jouer plus rapidement Doran et de
+    capitaliser sur les effets de casse-terrain comme Armaggedon.
+{% endblock %}
+{% block third_paragraph %}
+    Les créatures plus chères et les planeswalkers permettent de garantir que
+    le deck aura du répondant passé les premiers tours de la partie.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/tRKgYY9N00yrzr6LkRkqWA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/11-doran-vs-marchesa", "Duel d'attrition, les deux decks misent sur leur capacité à maitriser le milieu de partie. Lequel des deux aura le dernier mot ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="15 février 2022") }}
+    </div>
+</div>
+{% endblock %}

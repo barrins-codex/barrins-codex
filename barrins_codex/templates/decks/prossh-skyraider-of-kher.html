@@ -1,0 +1,40 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck combo basé sur la capacité du commandant à générer des
+    jetons de créatures et les différents moyens de les mettre à profit ensuite.
+{% endblock %}
+{% block second_paragraph %}
+    Lors de la partie, le jeu commence par accélérer fortement son mana avant
+    de jouer son commandant. Après un ou deux lancements, des cartes renforçant
+    les attaques sont jouées et le deck propose de gagner la partie lors de
+    chaque phase d'attaque.
+{% endblock %}
+{% block third_paragraph %}
+    Les moyens de rentabiliser les jetons de créature sont divers et utilisent
+    différentes mécaniques. Il faut soit attaquer avec, soit les sacrifier pour
+    présenter des situations complexes à l'adversaire.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/l-LDvDEv_ECGv6CB_ucMrA
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/9-miaratevesh-vs-prossh", "Ce match oppose Miara-Tevesh qui va tenter de gérer la main et le champ de bataille de Prossh. Serait-ce suffisant pour remporter la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.apparition(nom="Damienade_", played_on="15 mars 2022") }}
+    </div>
+</div>
+{% endblock %}

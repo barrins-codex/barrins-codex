@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck combo basé sur la capacité statique du commandant pour
+    créer des quantités arbitrairement grandes de mana en réserve.
+{% endblock %}
+{% block second_paragraph %}
+    La version présentée avec cette liste troque une partie des éléments de
+    combo et des moyens de les récupérer au profit de grosses créatures qui
+    bénéficient de l'accélération en mana naturelle fournit par la structure
+    globale du deck.
+{% endblock %}
+{% block third_paragraph %}
+    La structure globale du deck, quelle que soit la version, le rend parfois
+    instable car il est nécessaire de jouer certaines cartes avant d'autres.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/gvBNw022u0qJgGmVU0nF2w
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/1-adeliz-vs-kinnan", "Première vidéo de la série, ce match met en avant une version de Kinnan insistant davantage sur les créatures par rapport aux versions qui peuvent être rencontrées en tournoi.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="25 novembre 2021") }}
+    </div>
+</div>
+{% endblock %}

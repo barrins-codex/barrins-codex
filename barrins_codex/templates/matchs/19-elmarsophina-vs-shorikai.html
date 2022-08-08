@@ -1,0 +1,38 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Shorikai est un deck qui a besoin de temps pour s'installer et développer
+    son plan de jeu. C'est là que le bât blesse. En effet, Elmar-Sophina va
+    chercher à tout prix à imposer un rythme de jeu rapide voire très rapide
+    pour que Shorikai ne puisse pas s'installer. A l'instar de decks comme Kari
+    Zev qui sont des prédateurs de Shorikai, Elmar-Sophina semble avantagé dans
+    cet affrontement.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/0XT8pRjqLs8" %}
+{% set date = "26 avril 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/elmarsophina", "img/split-crop/elmar-sophina.jpg") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/shorikai-genesis-engine") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.domino() }}
+    </div>
+</div>
+{% endblock %}

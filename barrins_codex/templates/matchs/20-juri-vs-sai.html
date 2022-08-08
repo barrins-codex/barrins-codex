@@ -1,0 +1,40 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Les deux decks ont accès à une ou plusieurs combo, des moyens de les mettre
+    en place et de les protéger. À part cela, le plan de jeu de Juri est
+    principalement agressif là où celui de Sai est plutôt contrôle. Les
+    artefacts qu'utilise Sai permettent de ralentir la partie et de l'impacter
+    dans un style proche de celui de Sythis même si ce n'est pas son objectif
+    principal. Juri, de son côté, se focalise sur l'agression et utilise le
+    plan combo comme roue de secours.Au final, le matchup semble en faveur de
+    Juri car Sai encaisse assez mal l'agression soutenue.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Imperia86" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/tUJV2h-kUXo" %}
+{% set date = "3 mai 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.spigushe() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/sai-master-thopterist") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/juri-master-of-the-revue") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.imperia86() }}
+    </div>
+</div>
+{% endblock %}

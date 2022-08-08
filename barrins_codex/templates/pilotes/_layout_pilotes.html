@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" style="width:100%;" class="opacity-75">
+    <div class="centered"><h1 class="fs-1 text-capitalize">{{ name }}</h1></div>
+</div>
+{% endblock %}
+
+{% block article %}
+<article class="col-8 mx-auto mt-4">
+    <div class="d-flex text-direction-row align-item-center">
+        <div class="col-8">
+            <p>{% block ogdesc %}{% block first_paragraph %}{% endblock %}{% endblock %}</p>
+            <p>{% block second_paragraph %}{% endblock %}</p>
+            <p>{% block third_paragraph %}{% endblock %}</p>
+        </div>
+        <div class="col-4">
+            <img src="{{ url_for('static', filename=fichier) }}" alt="Photo de {{ name }}" width="100%" />
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</article>
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks joués par {{ name }}</h2>
+    </div>
+</div>
+<article class="col-8 mx-auto mt-2">
+    {% block decks %}{% endblock %}
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</article>
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Matchs joués par {{ name }}</h2>
+    </div>
+</div>
+<article class="col-8 mx-auto mt-2 mb-4">
+    {% block matchs %}{% endblock %}
+    <div style="clear:both;"></div>
+</article>
+{% endblock %}
