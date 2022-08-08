@@ -4,7 +4,7 @@ Changelog
 6.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction du fichier ReadMe
 
 
 6.0.1 (2022-08-09)

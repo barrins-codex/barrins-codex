@@ -1,5 +1,5 @@
 # Barrin's Codex
-[![PyPI version](https://badge.fury.io/py/vod-barrins-codex.svg)](https://badge.fury.io/py/vod-barrins-codex)
+[![PyPI version](https://badge.fury.io/py/barrins-codex.svg)](https://badge.fury.io/py/barrins-codex)
 [![Validation](https://github.com/Spigushe/barrins-codex/actions/workflows/static.yml/badge.svg)](https://github.com/Spigushe/barrins-codex/actions/workflows/static.yml)
 [![Python version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
@@ -17,18 +17,8 @@ Contributions are welcome.
 - [Pull Requests](https://github.com/Spigushe/barrins-codex/pulls) will be merged if they respect the general style.
 - [Issues](https://github.com/Spigushe/barrins-codex/issues) will be dealt with as quickly as possible.
 
-This site uses [Flask](https://flask.palletsprojects.com) and [Babel](http://babel.pocoo.org)
-to generate pages dynamically and handle internationalisation.
-
-## Instructions to contributors
-Here are various general guidelines this website is enforcing:
-- Do not talk about yourself
-- Do not talk to the reader
-- Do not engage the reader in the talk
-- Use spaces between the call and the variable for better clarity `{{ some_variable }}`
-- Use mana symbols, they are emojis in the context (currently `{{ W }}`, `{{ U }}`, `{{ B }}`, `{{ R }}`, `{{ G }}`)
-- Use card names variables, they are in the context (example `{{ jace_the_mind_sculptor }}` for `Jace, the Mind Sculptor`)
-- If a card name doesn't compile, you are free to declare the name, it is mandatory for Adventure card and some other
+This site uses [Flask](https://flask.palletsprojects.com) to generate pages
+dynamically .
 
 ## Installation
 To install a working developpment version of the site, use `pip`:
@@ -38,10 +28,6 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -e ".[dev]"
 ```
-
-The first time the project is started, the page will take some time to compile a list of
-cards and their `scryfallId` to gain access to the card image. This script is also used
-to build a JSON version of a decklist.
 
 ## Run the Codex
 You can run the development version of the site using the `codex` entrypoint:
@@ -60,50 +46,6 @@ You can set the `DEBUG` environment variable to activate the debug mode:
 
 ```bash
 DEBUG=1 codex
-```
-
-## Useful tools
-
-There are some utils provided in the codex:
-
-### Decklist Converter
-Using an alphabetically sorted decklist, just put `SB:` before every card in Command Zone.
-```bash
-cd ./barrins_codex
-python ./build_deck.py PATH_TO_FILE
-```
-
-### Google Translate
-
-Use python and Google Translate to help with translation:
-
-```python
-import clipboard
-import pprint
-import re
-
-def pre():
-    s = "".join(s[1:-1] for s in clipboard.paste().split("\n"))
-    s = re.sub(r"%\(([^\)]*)\)s", r"§KEEP\1§", s)
-    clipboard.copy(s)
-
-def post():
-    s = clipboard.paste()
-    s = pprint.pformat(re.sub(r"§KEEP([^§]*)§", r"%(\1)s", s), width=88)
-    s = re.sub(
-            r"(^')|('$)",
-            '"',
-            re.sub(r"^\s*", "", s[1:-1], flags=re.MULTILINE),
-            flags=re.MULTILINE
-        ).replace("\\n", "")
-    clipboard.copy(s)
-
-# usage:
-#  > copy paragraph to translate from the PO file
-# pre()
-# > copy translation
-# post()
-# > copy result to the PO file
 ```
 
 ## Versioning
