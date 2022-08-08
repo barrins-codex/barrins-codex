@@ -1,11 +1,14 @@
-import urllib.parse
 import re
 import unidecode
 import requests
 import os
 import json
 
+import urllib.parse
+from urllib.parse import urlparse
+
 import flask
+from flask import make_response, request, render_template
 import jinja2.exceptions
 
 from . import config
@@ -22,6 +25,7 @@ if os.path.isfile("library.json"):
         CARDS = json.load(file)
 else:
     CARDS = card_list.build()
+
 
 def main():
     # print(navigation.HELPER)
@@ -51,9 +55,6 @@ def static_from_root():
 # code used from https://gist.github.com/Julian-Nash/aa3041b47183176ca9ff81c8382b655a
 @app.route("/sitemap.xml")
 def sitemap():
-    from flask import make_response, request, render_template
-    from urllib.parse import urlparse
-
     host_components = urlparse(request.host_url)
     host_base = host_components.scheme + "://" + host_components.netloc
 
