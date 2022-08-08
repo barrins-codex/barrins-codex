@@ -1,0 +1,40 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck qui cherche à avoir un maximum de mana disponible le
+    plus vite possible pour jouer de grosses créatures. Cela se fait en partie
+    grâce aux deux capacités Cascade de Maelstrom Wanderer.
+{% endblock %}
+{% block second_paragraph %}
+    Le deck a connu beaucoup d'évolution et a du s'adapter aux évolutions du
+    format qui ont rendues illégales des cartes structurantes comme
+    {{ card_link("Time Warp") }}.
+{% endblock %}
+{% block third_paragraph %}
+    Bien que le deck soit construit pour s'attaquer principalement aux decks
+    agressifs, le deck a les moyens de mettre rapidement les decks contrôles en
+    difficulté.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/nniY3Y_QUkqXk3LnTsWHxQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/27-jori-en-vs-maelstrom-wanderer", "Wanderer aura-t-il le temps de s'installer ou Jori aura les moyens d'arrêter le développement du monstre du Maelstrom ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="28 juin 2022") }}
+    </div>
+</div>
+{% endblock %}
