@@ -4,7 +4,7 @@ Changelog
 6.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Match 27 : Jori En vs Maelstrom Wanderer
 
 
 6.0.0 (2022-08-08)
