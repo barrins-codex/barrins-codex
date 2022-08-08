@@ -4,13 +4,6 @@
 {% set match = match_name(page) %}
 {% set image = "img/"+page[1:]+".jpg" %}
 
-{% macro separateur() -%}
-<div class="col-6 ms-auto me-auto">
-    <div style="clear:both;"></div>
-    <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
-</div>
-{%- endmacro %}
-
 {% block banner %}
 <div class="banner_container col-12">
     <img src="{{ url_for('static', filename=image)}}"

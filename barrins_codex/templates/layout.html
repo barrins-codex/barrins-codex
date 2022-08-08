@@ -2,6 +2,13 @@
 {% import "decks/_macro_decks.html"     as deck   with context %}
 {% import "matchs/_macro_matchs.html"   as match  with context %}
 
+{% macro separateur() -%}
+<div class="col-6 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+</div>
+{%- endmacro %}
+
 <!DOCTYPE html>
 <html lang="fr">
 
