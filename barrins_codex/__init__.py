@@ -3,6 +3,8 @@ import unidecode
 import requests
 import os
 import json
+import pkg_resources
+import copy
 
 import urllib.parse
 from urllib.parse import urlparse
@@ -16,6 +18,7 @@ from . import navigation
 from . import card_list
 
 
+version = pkg_resources.Environment()["barrins-codex"][0].version
 app = flask.Flask(__name__, template_folder="templates", static_folder="static")
 app.jinja_env.policies["ext.i18n.trimmed"] = True
 config.configure_app(app)
@@ -25,6 +28,10 @@ if os.path.isfile("library.json"):
         CARDS = json.load(file)
 else:
     CARDS = card_list.build()
+
+BASE_CONTEXT = {
+    "version": version,
+}
 
 
 def main():
@@ -85,9 +92,8 @@ def index(page=None):
     if redirect:
         return flask.redirect(page, 301)
 
-    # context = copy.copy(BASE_CONTEXT)
-    # return flask.render_template(page, **context)
-    return flask.render_template(page)
+    context = copy.copy(BASE_CONTEXT)
+    return flask.render_template(page, **context)
 
 
 def _build_url(page, _anchor=None, **params):

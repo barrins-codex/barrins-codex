@@ -4,6 +4,7 @@ Changelog
 6.0.1 (unreleased)
 ------------------
 
+- Ajout de la version du site en bas de page
 - Match 27 : Jori En vs Maelstrom Wanderer
 
 
