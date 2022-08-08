@@ -7,6 +7,7 @@ Changelog
 - Ajout de la version du site en bas de page
 - Modification de la mise en page pour les généraux bannis
 - Match 27 : Jori En vs Maelstrom Wanderer
+- Match 28 : Azusa vs Elmar-Hargilde
 
 
 6.0.0 (2022-08-08)

@@ -1,0 +1,32 @@
+{% extends "matchs/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Aliquanto" %}
+{% set joueur2 = "Threem" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/thlsiUM9zO8" %}
+{% set date = "5 juillet 2022" %}
+
+### LEGENDE ###
+{% block legende %}
+<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
+    <div class="col-3 align-self-center">
+        {{ pilote.aliquanto() }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/azusa-lost-but-seeking") }}
+    </div>
+    <div class="col-3 px-1 align-self-center">
+        {{ deck.card("/decks/elmarhargilde", "img/split-crop/elmar-hargilde.jpg") }}
+    </div>
+    <div class="col-3 align-self-center">
+        {{ pilote.threem() }}
+    </div>
+</div>
+{% endblock %}

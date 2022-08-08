@@ -1,0 +1,65 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/elmar-hargilde.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Elmar, Ulvenwald Informant", "Hargilde, Kindly Runechanter") }}
+{% endblock %}
+
+
+### FRIENDS FOREVER ###
+{% block friendsforever %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Un changement de nom suite à la republication des cartes exclusives</h2>
+    </div>
+</div>
+{{ deck.sld_rename('Stranger Things', 'Max, the Daredevil', 'Elmar, Ulvenwald Informant') }}
+{{ deck.sld_rename('Stranger Things', 'Dustin, Gadget Genius', 'Hargilde, Kindly Runechanter') }}
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck visant le milieu voire la fin de partie avec une
+    accumulation d'actions agressives qui mettront l'adversaire en difficulté.
+{% endblock %}
+{% block second_paragraph %}
+    Le deck utilise les meilleures cartes des quatre couleurs. Ceci s'appelle
+    jouer « good stuff » (du bon matériel). C'est une des stratégies les plus
+    habituelles pour les decks midrange.
+{% endblock %}
+{% block third_paragraph %}
+    Hargilde a été choisie uniquement pour l'accès aux couleurs et ne sera
+    jamais jouée dans une partie.
+    {{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/u412S9V13kK3njmEOM7aOQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/28-azusa-vs-elmarhargilde", "Dans ce deck, les deux stratégies visent le long terme, lequel des deux arrivera le plus rapidement à tendre vers la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.threem(played_on="5 juillet 2022") }}
+    </div>
+</div>
+{% endblock %}

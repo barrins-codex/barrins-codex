@@ -1,0 +1,41 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Deck basé sur l'accès rapide à une grande quantité de mana, Azusa se base
+    sur des grosses créatures et sur les terrains utilitaires pour prendre
+    l'avantage et pour mettre fin à la partie.
+{% endblock %}
+{% block second_paragraph %}
+    Le deck, comme tous ceux se basant sur les terrains pour développer leur
+    stratégie, a perdu des cartes importantes devenues illégales comme
+    {{ card_link("Cavern of Souls") }}, {{ card_link("Wasteland") }} et
+    {{ card_link("Field of the Dead") }}.
+{% endblock %}
+{% block third_paragraph %}
+    Ces pertes successsives ont mis le deck en difficulté mais les sorties
+    de créatures de plus en plus puissantes permet au deck de revenir sur le
+    devant de la scène.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/Q88jpbOigEizlDs8ResVqQ
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/28-azusa-vs-elmarhargilde", "Dans ce deck, les deux stratégies visent le long terme, lequel des deux arrivera le plus rapidement à tendre vers la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.aliquanto(played_on="5 juillet 2022") }}
+    </div>
+</div>
+{% endblock %}
