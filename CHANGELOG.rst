@@ -4,6 +4,7 @@ Changelog
 6.0.2 (unreleased)
 ------------------
 
+- Correction pour tests
 - Correction du fichier ReadMe
 
 
