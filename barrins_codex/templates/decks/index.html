@@ -100,9 +100,6 @@
         {{ deck.card("/decks/minsc-beloved-ranger", "", combo) }}
     </div>
     <div class="col-sm-4">
-        {{ deck.card("/decks/minscboo-timeless-heroes", "", agro) }}
-    </div>
-    <div class="col-sm-4">
         {{ deck.card("/decks/nivmizzet-reborn", "", midrange) }}
     </div>
     <div class="col-sm-4">
@@ -119,9 +116,6 @@
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/saskia-the-unyielding", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/shorikai-genesis-engine", "", controle) }}
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/sygg-river-cutthroat", "", controle) }}
@@ -146,6 +140,24 @@
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/wilson-refined-grizzly", "", agro) }}
+    </div>
+</div></article>
+
+{{ separateur() }}
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks joués dont les généraux sont devenus illégaux</h2>
+    </div>
+</div>
+
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/minscboo-timeless-heroes", "", agro) }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/shorikai-genesis-engine", "", controle) }}
     </div>
 </div>
 {% endblock %}
