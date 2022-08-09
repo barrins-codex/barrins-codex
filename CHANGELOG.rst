@@ -1,7 +1,7 @@
 Changelog
 =========
 
-6.29.0 (unreleased)
+6.29.0 (2022-08-09)
 -------------------
 
 - Rollback versioning
