@@ -1,8 +1,8 @@
 Changelog
 =========
 
-6.28.0 (unreleased)
-------------------
+6.28.0.09.08.2022 (2022-08-09)
+------------------------------
 
 - Match 28 oublié dans la liste des matchs
 - Reprise du versioning (MINOR = 28 car il s'agit du 28e match)
