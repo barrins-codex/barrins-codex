@@ -4,7 +4,7 @@ Changelog
 6.29.0 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Rollback versioning
 
 
 6.28.0.09.08.2022 (2022-08-09)
