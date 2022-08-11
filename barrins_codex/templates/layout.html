@@ -20,7 +20,7 @@
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/header.css') }}" as="style">
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/body.css') }}" as="style">
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/footer.css') }}" as="style">
-	<link rel="stylesheet preload" href="{{ url_for('static', filename='css/fonts.css') }}" as="style">
+    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/fonts.css') }}" as="style">
     {% endblock %}
     <!-- OG handling -->
     <meta property="og:title" content="{{ title() }}" />
@@ -64,29 +64,29 @@
     {% block banner %}{% endblock %}
 
     {% block article %}
-	<article class="col-8 ms-auto me-auto my-4">
-		{% block content %}{% endblock %}
-	</article>
-	{% endblock %}
+    <article class="col-8 ms-auto me-auto my-4">
+        {% block content %}{% endblock %}
+    </article>
+    {% endblock %}
 
-	<footer class="d-block bg-light mt-6 w-100">
-		{% block footer %}
-		<nav role="navigation" class="text-reset" style="background-color: #e3e7e9 !important;">
-			{{ prev() }}
-			{{ top() }}
-			{{ next() }}
-		</nav>
+    <footer class="d-block bg-light mt-6 w-100">
+        {% block footer %}
+        <nav role="navigation" class="text-reset" style="background-color: #e3e7e9 !important;">
+            {{ prev() }}
+            {{ top() }}
+            {{ next() }}
+        </nav>
         {% endblock %}
         <div class="d-flex flex-row justify-content-around align-items-center py-3" style="background-color: #99A5C5 !important;width:100%">
-            	<strong>Barrin's Codex</strong> est un contenu de fan non officiel
-            	<br>autorisé dans le cadre de la Politique des contenus de fans.
-            	<br>Ni approuvé, ni promu par
             <p class="col-4">
+                <strong>Barrin's Codex</strong> est un contenu de fan non officiel
+                <br>autorisé dans le cadre de la Politique des contenus de fans.
+                <br>Ni approuvé, ni promu par
                 {{ external("https://magic.wizards.com/en", "Wizards of the Coast", _class="text-reset") }}.
             </p>
-            	Certaines parties des matériaux utilisés sont la propriété de Wizards of the Coast.
-            	<br>© {{ external("https://magic.wizards.com/en", "Wizards of the Coast", _class="text-reset") }} LLC.
             <p class="col-4">
+                Certaines parties des matériaux utilisés sont la propriété de Wizards of the Coast.
+                <br>© {{ external("https://magic.wizards.com/en", "Wizards of the Coast", _class="text-reset") }} LLC.
                 <br>Code source du site :
                 <a href="https://github.com/Spigushe/barrins-codex" class="text-reset" target="_blank" rel="noreferrer">GitHub</a>
                 <br>Version actuelle :
@@ -96,7 +96,7 @@
         <div class="ms-auto me-auto py-2 d-block" style="background-color: #e3e7e9 !important;"><p>
             Si vous souhaitez nous faire part d'un retour, n'hésitez pas à utiliser le formulaire suivant : {{ external("https://forms.gle/Up6fSZauNpXJHZGM8", "Formulaire de contact") }}
         </p></div>
-	</footer>
+    </footer>
 </body>
 <!-- Bootstrap JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

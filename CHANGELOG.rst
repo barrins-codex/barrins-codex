@@ -6,6 +6,7 @@ Changelog
 
 - Fix Menu responsive
 - Ajout lien vers repo Github
+- Tous les tab sont 4 espaces
 
 
 6.29.2 (2022-08-11)
