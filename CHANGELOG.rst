@@ -4,7 +4,7 @@ Changelog
 6.29.4 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Fixing OG image and description
 
 
 6.29.3 (2022-08-11)

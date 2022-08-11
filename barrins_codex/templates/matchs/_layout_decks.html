@@ -3,6 +3,7 @@
 {% set page = request.path[:-5] %}
 {% set match = match_name(page) %}
 {% set image = "img/"+page[1:]+".jpg" %}
+{% set og_image = url_for('static', filename=image)|trim|striptags %}
 
 {% block banner %}
 <div class="banner_container col-12">

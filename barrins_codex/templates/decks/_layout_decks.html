@@ -2,6 +2,7 @@
 
 {% set page = request.path[:-5] %}
 {% set carte = deck_name(page) %}
+{% set og_image = self.banner_img()|trim|striptags %}
 
 {% block banner %}
 <div class="banner_container col-12">
