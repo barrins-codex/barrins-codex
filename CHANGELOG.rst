@@ -1,7 +1,7 @@
 Changelog
 =========
 
-6.29.3 (unreleased)
+6.29.3 (2022-08-11)
 -------------------
 
 - Fix Menu responsive
