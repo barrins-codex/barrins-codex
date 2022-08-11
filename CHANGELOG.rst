@@ -1,7 +1,7 @@
 Changelog
 =========
 
-6.29.1 (unreleased)
+6.29.1 (2022-08-11)
 -------------------
 
 - Deck Tech de Raffine
