@@ -1,5 +1,11 @@
 {% extends "layout.html" %}
 
+{% block ogdesc %}
+Liste des matché joués lors des soirées sur Twitch.
+Une analyse des parties et des liens vers les decks joués sont disponibles
+sur chaque page de deck.
+{% endblock %}
+
 {% block banner %}
 <div class="banner_container col-12">
     <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
