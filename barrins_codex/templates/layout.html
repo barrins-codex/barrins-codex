@@ -78,15 +78,17 @@
 		</nav>
         {% endblock %}
         <div class="d-flex flex-row justify-content-around align-items-center py-3" style="background-color: #99A5C5 !important;width:100%">
-            <p class="">
             	<strong>Barrin's Codex</strong> est un contenu de fan non officiel
             	<br>autorisé dans le cadre de la Politique des contenus de fans.
             	<br>Ni approuvé, ni promu par
+            <p class="col-4">
                 {{ external("https://magic.wizards.com/en", "Wizards of the Coast", _class="text-reset") }}.
             </p>
-            <p class="mb-1">
             	Certaines parties des matériaux utilisés sont la propriété de Wizards of the Coast.
             	<br>© {{ external("https://magic.wizards.com/en", "Wizards of the Coast", _class="text-reset") }} LLC.
+            <p class="col-4">
+                <br>Code source du site :
+                <a href="https://github.com/Spigushe/barrins-codex" class="text-reset" target="_blank" rel="noreferrer">GitHub</a>
                 <br>Version actuelle :
                 <a href="https://pypi.org/project/barrins-codex/{{ version }}" class="text-reset" target="_blank" rel="noreferrer">{{ version }}</a>
             </p>

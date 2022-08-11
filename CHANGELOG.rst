@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - Fix Menu responsive
+- Ajout lien vers repo Github
 
 
 6.29.2 (2022-08-11)
