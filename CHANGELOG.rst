@@ -4,7 +4,7 @@ Changelog
 6.29.1 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Deck Tech de Raffine
 
 
 6.29.0 (2022-08-09)
