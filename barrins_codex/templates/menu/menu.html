@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-light w-100 sticky-top header">
+<nav class="navbar navbar-nav navbar-expand-md bg-light w-100 sticky-top header">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,11 +9,17 @@
                 <li class="nav-item dropdown">
                     {% include "menu/pilotes.html" %}
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown d-none d-md-block">
                     {% include "menu/decks.html" %}
                 </li>
-                <li class="nav-item dropdown">
+                <li class="d-block d-md-none">
+                    {{ link("/decks", name="📝 Decks",  _class="nav-link") }}
+                </li>
+                <li class="nav-item dropdown d-none d-md-block">
                     {% include "menu/matchs.html" %}
+                </li>
+                <li class="d-block d-md-none">
+                    {{ link("/matchs", name="⏯️ Matchs",  _class="nav-link") }}
                 </li>
             </ul>
         </div>
