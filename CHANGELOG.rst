@@ -4,7 +4,7 @@ Changelog
 6.29.2 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Fix « Deck Tech »
 
 
 6.29.1 (2022-08-11)
