@@ -11,14 +11,15 @@ Liste des decks joués lors des soirées sur Twitch.
 Une analyse et les parties jouées sont disponibles sur chaque page de deck.
 {% endblock %}
 
-{% block banner %}
-<div class="banner_container col-12">
-    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
-    <div class="centered"><h1 class="fs-1">Liste des decks</h1></div>
-</div>
-{% endblock %}
-
 {% block content %}
+<div class="d-none">
+    {% block banner %}
+    <div class="banner_container col-12">
+        <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
+        <div class="centered"><h1 class="fs-1">Liste des decks</h1></div>
+    </div>
+    {% endblock %}
+</div>
 <div class="row py-3 d-flex flex-wrap justify-content-around">
     <div class="col-sm-4">
         {{ deck.card("/decks/adeliz-the-cinder-wind", "", tempo) }}

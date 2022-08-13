@@ -6,14 +6,16 @@ Une analyse des parties et des liens vers les decks joués sont disponibles
 sur chaque page de deck.
 {% endblock %}
 
-{% block banner %}
-<div class="banner_container col-12">
-    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
-    <div class="centered"><h1 class="fs-1">Liste des matchs</h1></div>
-</div>
-{% endblock %}
 
 {% block content %}
+<div class="d-none">
+    {% block banner %}
+    <div class="banner_container col-12">
+        <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
+        <div class="centered"><h1 class="fs-1">Liste des matchs</h1></div>
+    </div>
+    {% endblock %}
+</div>
 <div class="row py-3 d-flex flex-wrap justify-content-around">
         {{ match.card3("/matchs/1-adeliz-vs-kinnan") }}
         {{ match.card3("/matchs/2-kari-zev-vs-saskia") }}

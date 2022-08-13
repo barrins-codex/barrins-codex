@@ -6,6 +6,7 @@ Changelog
 
 - Small fix: typo
 - Small fix: calculated names
+- Small fix: move block around
 
 
 6.29.4 (2022-08-11)
