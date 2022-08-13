@@ -1,7 +1,7 @@
 Changelog
 =========
 
-6.29.5 (unreleased)
+6.29.5 (2022-08-13)
 -------------------
 
 - Small fix: typo
