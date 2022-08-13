@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - Small fix: typo
+- Small fix: calculated names
 
 
 6.29.4 (2022-08-11)
