@@ -4,7 +4,7 @@ Changelog
 6.29.5 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Small fix: typo
 
 
 6.29.4 (2022-08-11)
