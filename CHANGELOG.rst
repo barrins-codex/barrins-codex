@@ -7,6 +7,7 @@ Changelog
 - Small fix: typo
 - Small fix: calculated names
 - Small fix: move block around
+- Small fix: b&r date in index
 
 
 6.29.4 (2022-08-11)
