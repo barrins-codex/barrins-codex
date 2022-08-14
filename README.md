@@ -57,7 +57,7 @@ integers, and do not contain leading zeroes. X is the major version, Y is the
 minor version, and Z is the patch version. Each element MUST increase
 numerically. For instance: `1.9.0` -> `1.10.0` -> `1.11.0`.
 
-Given a version number MAJOR.MINOR.PATCH.DD.MM.YYYY, I increment the:
+Given a version number MAJOR.MINOR.PATCH, I increment the:
 1. MAJOR version when I make a backend evolution or a design evolution,
 1. MINOR version when I add content (most likely a match), and
 1. PATCH version when I make bug and typo fixes.
