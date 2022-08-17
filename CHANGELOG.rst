@@ -1,7 +1,7 @@
 Changelog
 =========
 
-6.29.6 (unreleased)
+6.29.6 (2022-08-17)
 -------------------
 
 - Small fix: change name for more consistency
