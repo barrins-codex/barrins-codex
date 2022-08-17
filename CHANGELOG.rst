@@ -4,7 +4,7 @@ Changelog
 6.29.6 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Small fix: change name for more consistency
 
 
 6.29.5 (2022-08-13)
