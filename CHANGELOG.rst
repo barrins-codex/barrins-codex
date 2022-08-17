@@ -1,8 +1,8 @@
 Changelog
 =========
 
-6.29.7 (unreleased)
--------------------
+7.1.0 (2022-08-17)
+------------------
 
 - Refonte de l'apparence: Ajout de tag dans la navigation
 - Ajout des pages dans le contexte de base
