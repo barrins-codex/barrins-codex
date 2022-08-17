@@ -1,50 +1,49 @@
 {% extends "layout.html" %}
 
-{% block ogdesc %}
-Liste des pilotes derrières les parties des soirées sur Twitch.
-Les decks et les parties jouées sont disponibles sur chaque profil.
+{% macro liste(dict) %}
+    {% for item in dict %}
+        <div class="col-sm-4">
+            {{ pilote.card(item, player_name(item)) }}
+        </div>
+    {% endfor %}
+{% endmacro %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
+    <div class="centered"><h1 class="fs-1">Liste des pilotes</h1></div>
+</div>
 {% endblock %}
 
-
-{% block content %}
-<div class="d-none">
-    {% block banner %}
-    <div class="banner_container col-12">
-        <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
-        <div class="centered"><h1 class="fs-1">Liste des pilotes</h1></div>
-    </div>
+{% block article %}
+<article class="col-8 ms-auto me-auto my-4">
+    {% block ogdesc %}
+    Liste des pilotes derrières les parties des soirées sur
+    {{ external("https://www.twitch.tv/leschroniquesducommander", "<i class='fa-brands fa-twitch'></i> Twitch", _class="text-reset")}}.
+    Les decks et les parties jouées sont disponibles sur chaque profil.
     {% endblock %}
+</article>
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Les pilotes avec au moins 10 participations</h2>
+    </div>
 </div>
+<article class="col-8 ms-auto me-auto my-4">
 <div class="row py-3 d-flex flex-wrap justify-content-around">
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/anael-aliquanto", "Anaël") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/bastien-threem", "Bastien") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/damien-eventwin", "Damien") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/domino", "Domino") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/felix-midas", "Félix") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/florian-trotte", "Florian") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/gregoire-koraysh", "Grégoire") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/louis-imperia86", "Louis") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/martin-spigushe", "Martin") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.card("/pilotes/apparitions", "Guest") }}
+    {{ liste(pilotes_habitue) }}
+</div>
+</article>
+{{ separateur() }}
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Les pilotes avec moins de 10 participations</h2>
     </div>
 </div>
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    {{ liste(pilotes_invite) }}
+</div>
+</article>
 {% endblock %}
