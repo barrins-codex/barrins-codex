@@ -1,161 +1,93 @@
 {% extends "layout.html" %}
 
-{% set agro = "Deck principalement agro" %}
-{% set tempo = "Deck principalement tempo" %}
-{% set controle = "Deck principalement contrôle" %}
-{% set combo = "Deck principalement combo" %}
-{% set midrange = "Deck principalement midrange" %}
+{% macro liste(dict, commentaire="", crop=needs_crop) %}
+    {% for item in dict %}
+        {% if item in crop %}
+            {% set img = deck_name(item)|lower %}
+            {% set img =  "img/split-crop/" + img + ".jpg" %}
+        {% else %}
+            {% set img = "" %}
+        {% endif %}
+        <div class="col-sm-4">
+            {{ deck.card(item, img, commentaire) }}
+        </div>
+    {% endfor %}
+{% endmacro %}
 
-{% block ogdesc %}
-Liste des decks joués lors des soirées sur
-{{ external("https://www.twitch.tv/leschroniquesducommander", "<i class='fa-brands fa-twitch'></i> Twitch", _class="text-reset")}}.
-Une analyse et les parties jouées sont disponibles sur chaque page de deck.
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
+    <div class="centered"><h1 class="fs-1">Liste des decks</h1></div>
+</div>
 {% endblock %}
 
-{% block content %}
-<div class="d-none">
-    {% block banner %}
-    <div class="banner_container col-12">
-        <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
-        <div class="centered"><h1 class="fs-1">Liste des decks</h1></div>
-    </div>
+{% block article %}
+<article class="col-8 ms-auto me-auto my-4">
+    {% block ogdesc %}
+    Liste des decks joués lors des soirées sur
+    {{ external("https://www.twitch.tv/leschroniquesducommander", "<i class='fa-brands fa-twitch'></i> Twitch", _class="text-reset")}}.
+    Une analyse et les parties jouées sont disponibles sur chaque page de deck.
     {% endblock %}
-</div>
-<div class="row py-3 d-flex flex-wrap justify-content-around">
-    <div class="col-sm-4">
-        {{ deck.card("/decks/adeliz-the-cinder-wind", "", tempo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/aminatou-the-fateshifter", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/azusa-lost-but-seeking", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/bjornawernog", "img/split-crop/bjorna-wernog.jpg", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/dennick-pious-apprentice", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/doran-the-siege-tower", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/dragonlord-ojutai", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/elmarhargilde", "img/split-crop/elmar-hargilde.jpg", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/elmarsophina", "img/split-crop/elmar-sophina.jpg", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/elminster", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/esika-god-of-the-tree", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/grist-the-hunger-tide", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/hinata-dawncrowned", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/hogaak-arisen-necropolis", "", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/isamaru-hound-of-konda", "", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/jori-en-ruin-diver", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/juri-master-of-the-revue", "", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/kari-zev-skyship-raider", "", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/karlov-of-the-ghost-council", "", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/killian-ink-duelist", "", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/kinnan-bonder-prodigy", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/klothys-god-of-destiny", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/lightpaws-emperors-voice", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/liviomalcolm", "img/split-crop/livio-malcolm.jpg", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/livioprava", "img/split-crop/livio-prava.jpg", agro) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/maelstrom-wanderer", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/marath-will-of-the-wild", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/miaratevesh", "img/split-crop/miara-tevesh.jpg", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/minsc-beloved-ranger", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/nivmizzet-reborn", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/prossh-skyraider-of-kher", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/queen-marchesa", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/raffine-scheming-seer", "", tempo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/sai-master-thopterist", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/saskia-the-unyielding", "", midrange) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/sygg-river-cutthroat", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/sythis-harvests-hand", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/the-beamtown-bullies", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/the-gitrog-monster", "", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/the-reality-chip", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/tiamat", "img/split-crop/tiamat.jpg", combo) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/tivit-seller-of-secrets", "", controle) }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/wilson-refined-grizzly", "", agro) }}
-    </div>
-</div></article>
+</article>
 
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks dont le macrotype est 🗡️ <em>Agro</em></h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    {{ liste(decks_agro) }}
+</div>
+</article>
+{{ separateur() }}
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks dont le macrotype est ⌚ <em>Tempo</em></h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    {{ liste(decks_tempo) }}
+</div>
+</article>
+{{ separateur() }}
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks dont le macrotype est ⛓️ <em>Contrôle</em></h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    {{ liste(decks_controle) }}
+</div>
+</article>
+{{ separateur() }}
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks dont le macrotype est ✨ <em>Combo</em></h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    {{ liste(decks_combo) }}
+</div>
+</article>
+{{ separateur() }}
+
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Decks dont le macrotype est 🦏 <em>Midrange</em></h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto my-4">
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    {{ liste(decks_midrange) }}
+</div>
+</article>
 {{ separateur() }}
 
 <div class="col-12 bg-header py-4 mt-1 mb-2">
@@ -163,14 +95,9 @@ Une analyse et les parties jouées sont disponibles sur chaque page de deck.
         <h2>Decks joués dont les généraux sont devenus illégaux</h2>
     </div>
 </div>
-
 <article class="col-8 ms-auto me-auto my-4">
 <div class="row py-3 d-flex flex-wrap justify-content-around">
-    <div class="col-sm-4">
-        {{ deck.card("/decks/minscboo-timeless-heroes", "", "Banni le 25 juillet 2022") }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/shorikai-genesis-engine", "", "Banni le 30 mai 2022") }}
-    </div>
+    {{ liste(decks_ban) }}
 </div>
+</article>
 {% endblock %}

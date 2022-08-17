@@ -10,6 +10,7 @@ Changelog
 - Backend: Simplification des calls au helper
 - Ajout des logos via Font Awesome Brand
 - Ajout des img_crop dans le contexte de base
+- Refonte de l'apparence: Decks index par type
 
 
 6.29.6 (2022-08-17)
