@@ -313,3 +313,32 @@ def display_match():
         return "Barrin's Codex"
 
     return dict(match_name=match_name)
+
+@app.context_processor
+def players():
+    def player_name(page):
+        try:
+            if HELPER.get(page, {}).get("self").path != "":
+                name = HELPER.get(page, {}).get("self").name
+                if name == "Apparitions":
+                    return "Guest"
+                return name.split(" ", 1)[0]
+        except AttributeError:
+            pass
+        return "Barrin's Codex"
+
+    def player_nickname(page):
+        try:
+            if HELPER.get(page, {}).get("self").path != "":
+                name = HELPER.get(page, {}).get("self").name
+                name = name.split(" ", 1)
+                if len(name) == 1:
+                    if name[0] == "Apparitions":
+                        return "Pilote mystérieux·euse"
+                    return name[0]
+                return name[1][2:-2]
+        except AttributeError:
+            pass
+        return "Barrin's Codex"
+
+    return dict(player_name=player_name, player_nickname=player_nickname)

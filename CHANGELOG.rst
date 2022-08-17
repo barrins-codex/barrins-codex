@@ -15,6 +15,7 @@ Changelog
 - Refonte de l'apparence: Match index par dizaine
 - Refonte de l'apparence: Contexte passé au template 404
 - Refonte de l'apparence: Lien réseaux sociaux en pied
+- Backend: Ajout d'une fonction pour les infos des pilotes
 
 
 6.29.6 (2022-08-17)
