@@ -7,6 +7,7 @@ Changelog
 - Refonte de l'apparence: Ajout de tag dans la navigation
 - Ajout des pages dans le contexte de base
 - Refonte de l'apparence: Réfection du menu
+- Backend: Simplification des calls au helper
 
 
 6.29.6 (2022-08-17)

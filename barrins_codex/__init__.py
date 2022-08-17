@@ -14,7 +14,7 @@ from flask import make_response, request, render_template
 import jinja2.exceptions
 
 from . import config
-from . import navigation
+from .navigation import HELPER
 from . import card_list
 
 
@@ -38,65 +38,42 @@ else:
 BASE_CONTEXT = {
     "version": version,
     "pilotes_habitue": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "habitue"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "habitue"
     ],
     "pilotes_invite": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "invite"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "invite"
     ],
     "decks_agro": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "agro"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "agro"
     ],
     "decks_tempo": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "tempo"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "tempo"
     ],
     "decks_controle": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "controle"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "controle"
     ],
     "decks_combo": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "combo"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "combo"
     ],
     "decks_midrange": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "midrange"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "midrange"
     ],
-    "decks_ban": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "ban"
-    ],
+    "decks_ban": [page for page in HELPER if HELPER.get(page, {}).get("cat") == "ban"],
+    "needs_crop": [page for page in HELPER if HELPER.get(page, {}).get("crop")],
     "matchs_0110": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "01-10"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "01-10"
     ],
     "matchs_1120": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "11-20"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "11-20"
     ],
     "matchs_2130": [
-        page
-        for page in navigation.HELPER
-        if navigation.HELPER.get(page, {}).get("cat") == "21-30"
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "21-30"
     ],
 }
 
 
 def main():
-    # print(navigation.HELPER)
+    # print(HELPER)
     # print(BASE_CONTEXT)
     app.run()
 
@@ -127,7 +104,7 @@ def sitemap():
     host_components = urlparse(request.host_url)
     host_base = host_components.scheme + "://" + host_components.netloc
 
-    urls = [host_base + p["self"].url for p in navigation.HELPER.values()]
+    urls = [host_base + p["self"].url for p in HELPER.values()]
 
     xml_sitemap = render_template("sitemap.xml", urls=urls, host_base=host_base)
     response = make_response(xml_sitemap)
@@ -191,33 +168,27 @@ def linker():
         path = path[:-1]
 
     def _url(page, _anchor=None, **params):
-        return _build_url(
-            navigation.HELPER.get(page, {}).get("self"), _anchor=_anchor, **params
-        )
+        return _build_url(HELPER.get(page, {}).get("self"), _anchor=_anchor, **params)
 
     def link(page, name=None, _anchor=None, **params):
         return _link(
-            navigation.HELPER.get(page, {}).get("self"),
+            HELPER.get(page, {}).get("self"),
             name=name,
             _anchor=_anchor,
             **params,
         )
 
     def name(page, name=None):
-        return name or navigation.HELPER.get(page, {}).get("self").name
+        return name or HELPER.get(page, {}).get("self").name
 
     def top():
-        return _link(navigation.HELPER.get(path, {}).get("top"), _class="text-reset")
+        return _link(HELPER.get(path, {}).get("top"), _class="text-reset")
 
     def next():
-        return _link(
-            navigation.HELPER.get(path, {}).get("next"), _class="next text-reset"
-        )
+        return _link(HELPER.get(path, {}).get("next"), _class="next text-reset")
 
     def prev():
-        return _link(
-            navigation.HELPER.get(path, {}).get("prev"), _class="prev text-reset"
-        )
+        return _link(HELPER.get(path, {}).get("prev"), _class="prev text-reset")
 
     def external(url, name, _class=None):
         if _class:
@@ -230,8 +201,8 @@ def linker():
 
     def title():
         try:
-            if navigation.HELPER.get(path, {}).get("self").path != "":
-                name = navigation.HELPER.get(path, {}).get("self").name
+            if HELPER.get(path, {}).get("self").path != "":
+                name = HELPER.get(path, {}).get("self").name
                 return f"Barrin's Codex - {name}"
         except AttributeError:
             pass
@@ -239,8 +210,8 @@ def linker():
 
     def page_name():
         try:
-            if navigation.HELPER.get(path, {}).get("self").path != "":
-                name = navigation.HELPER.get(path, {}).get("self").name
+            if HELPER.get(path, {}).get("self").path != "":
+                name = HELPER.get(path, {}).get("self").name
                 return f"{name}"
         except AttributeError:
             pass
@@ -277,7 +248,7 @@ def display_card():
         return name
 
     def card_name_from_page(name):
-        page_name = navigation.HELPER.get(name, {}).get("self").name
+        page_name = HELPER.get(name, {}).get("self").name
         if "❌" in page_name:
             page_name = page_name[2:]
         return page_name
@@ -333,8 +304,8 @@ def display_card():
 def display_match():
     def match_name(page):
         try:
-            if navigation.HELPER.get(page, {}).get("self").path != "":
-                name = navigation.HELPER.get(page, {}).get("self").name
+            if HELPER.get(page, {}).get("self").path != "":
+                name = HELPER.get(page, {}).get("self").name
                 return name.split(" ", 1)[1]
         except AttributeError:
             pass
