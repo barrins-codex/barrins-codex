@@ -4,7 +4,7 @@ Changelog
 6.29.7 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Refonte de l'apparence: Ajout de tag dans la navigation
 
 
 6.29.6 (2022-08-17)

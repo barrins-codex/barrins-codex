@@ -3,14 +3,15 @@ import re
 import unidecode
 
 
-Page = collections.namedtuple("Page", ["name", "path", "url"])
+Page = collections.namedtuple("Page", ["name", "path", "url", "cat"])
 
 
 class Nav:
-    def __init__(self, name, index=False, children=None):
+    def __init__(self, name, index=False, children=None, cat=None):
         self.name = name
         self.index = index
         self.children = children or []
+        self.cat = cat or ""
 
     def page(self, path):
         res = unidecode.unidecode(str(self.name))
@@ -26,12 +27,15 @@ class Nav:
             url = res + "/index.html"
         else:
             url = None
-        return Page(self.name, res, url)
+        return Page(self.name, res, url, self.cat)
 
     def walk(self, path=None, top=None, ante=None, post=None):
         page = self.page(path or "")
         if not self.children or self.index:
-            yield (page.path, {"self": page, "top": top, "prev": ante, "next": post})
+            yield (
+                page.path,
+                {"self": page, "top": top, "prev": ante, "next": post, "cat": self.cat},
+            )
         if self.index:
             top = page
         for i, child in enumerate(self.children):
@@ -47,7 +51,6 @@ class Nav:
 
 
 STRUCTURE = Nav(
-    # TRANSLATORS: please abide by MTG translation choices for game terms when possible.
     "Home",
     index=True,
     children=[
