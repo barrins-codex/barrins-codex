@@ -314,6 +314,7 @@ def display_match():
 
     return dict(match_name=match_name)
 
+
 @app.context_processor
 def players():
     def player_name(page):
