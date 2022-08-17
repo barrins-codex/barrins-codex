@@ -35,7 +35,20 @@
         </div>
         {{ separateur() }}
         <!-- Liens -->
-        {% block legende %}{% endblock %}
+        <div class="row py-3 d-flex flex-wrap justify-content-around">
+            <div class="col-10 col-md-3 align-self-center">
+                {% block pilote1 %}{% endblock %}
+            </div>
+            <div class="col-10 col-md-3 align-self-center">
+                {% block deck1 %}{% endblock %}
+            </div>
+            <div class="col-10 col-md-3 align-self-center">
+                {% block deck2 %}{% endblock %}
+            </div>
+            <div class="col-10 col-md-3 align-self-center">
+                {% block pilote2 %}{% endblock %}
+            </div>
+        </div>
     </div>
 </article>
 {% endblock %}

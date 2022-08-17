@@ -21,19 +21,7 @@
 {% set date = "15 février 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.domino() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/queen-marchesa") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/doran-the-siege-tower") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.imperia86() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.domino() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/queen-marchesa") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/doran-the-siege-tower") }}{% endblock %}
+{% block pilote2 %}{{ pilote.imperia86() }}{% endblock %}

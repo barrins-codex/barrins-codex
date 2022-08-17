@@ -19,19 +19,7 @@
 {% set date = "18 janvier 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.midas() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/livioprava", "img/split-crop/livio-prava.jpg") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/dragonlord-ojutai") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.imperia86() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.midas() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/livioprava", "img/split-crop/livio-prava.jpg") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/dragonlord-ojutai") }}{% endblock %}
+{% block pilote2 %}{{ pilote.imperia86() }}{% endblock %}

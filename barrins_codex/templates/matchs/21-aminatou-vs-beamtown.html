@@ -14,19 +14,7 @@
 {% set date = "10 mai 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.threem() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/aminatou-the-fateshifter") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/the-beamtown-bullies") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.imperia86() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.threem() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/aminatou-the-fateshifter") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/the-beamtown-bullies") }}{% endblock %}
+{% block pilote2 %}{{ pilote.imperia86() }}{% endblock %}

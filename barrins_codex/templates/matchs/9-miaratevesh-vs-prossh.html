@@ -19,19 +19,7 @@
 {% set date = "1er février 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.domino() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/miaratevesh", "img/split-crop/miara-tevesh.jpg") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/prossh-skyraider-of-kher") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.apparition("damienade_") }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.domino() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/miaratevesh", "img/split-crop/miara-tevesh.jpg") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/prossh-skyraider-of-kher") }}{% endblock %}
+{% block pilote2 %}{{ pilote.apparition("damienade_") }}{% endblock %}

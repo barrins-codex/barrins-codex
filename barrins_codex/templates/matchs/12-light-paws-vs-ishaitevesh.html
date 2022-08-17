@@ -20,19 +20,7 @@
 {% set date = "22 février 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.midas() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/lightpaws-emperors-voice") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.domino() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.midas() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/lightpaws-emperors-voice") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}

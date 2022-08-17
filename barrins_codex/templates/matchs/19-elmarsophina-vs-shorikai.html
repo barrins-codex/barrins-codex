@@ -20,19 +20,7 @@
 {% set date = "26 avril 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.spigushe() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/elmarsophina", "img/split-crop/elmar-sophina.jpg") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/shorikai-genesis-engine") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.domino() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/elmarsophina", "img/split-crop/elmar-sophina.jpg") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/shorikai-genesis-engine") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}

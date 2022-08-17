@@ -19,19 +19,7 @@
 {% set date = "25 novembre 2021" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.spigushe() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/kinnan-bonder-prodigy") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/adeliz-the-cinder-wind") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.trotte() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/kinnan-bonder-prodigy") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/adeliz-the-cinder-wind") }}{% endblock %}
+{% block pilote2 %}{{ pilote.trotte() }}{% endblock %}

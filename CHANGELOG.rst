@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - Small fix: change name for more consistency
+- Fix responsive issue in matchs pages
 
 
 6.29.5 (2022-08-13)

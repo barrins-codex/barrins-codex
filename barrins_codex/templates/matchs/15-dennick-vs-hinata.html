@@ -22,19 +22,7 @@
 {% set date = "22 mars 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.spigushe() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/dennick-pious-apprentice") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/hinata-dawncrowned") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.eventwin() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/dennick-pious-apprentice") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/hinata-dawncrowned") }}{% endblock %}
+{% block pilote2 %}{{ pilote.eventwin() }}{% endblock %}

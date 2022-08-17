@@ -19,19 +19,7 @@
 {% set date = "29 mars 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.domino() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/aminatou-the-fateshifter") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/tiamat") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.threem() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.domino() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/aminatou-the-fateshifter") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/tiamat") }}{% endblock %}
+{% block pilote2 %}{{ pilote.threem() }}{% endblock %}

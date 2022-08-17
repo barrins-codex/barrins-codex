@@ -14,19 +14,7 @@
 {% set date = "14 juin 2022" %}
 
 ### LEGENDE ###
-{% block legende %}
-<div class="d-flex flex-wrap justify-content-around py-2 mt-2">
-    <div class="col-3 align-self-center">
-        {{ pilote.aliquanto() }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/elminster") }}
-    </div>
-    <div class="col-3 px-1 align-self-center">
-        {{ deck.card("/decks/wilson-refined-grizzly") }}
-    </div>
-    <div class="col-3 align-self-center">
-        {{ pilote.domino() }}
-    </div>
-</div>
-{% endblock %}
+{% block pilote1 %}{{ pilote.aliquanto() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/elminster") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/wilson-refined-grizzly") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}
