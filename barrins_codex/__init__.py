@@ -37,11 +37,67 @@ else:
 
 BASE_CONTEXT = {
     "version": version,
+    "pilotes_habitue": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "habitue"
+    ],
+    "pilotes_invite": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "invite"
+    ],
+    "decks_agro": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "agro"
+    ],
+    "decks_tempo": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "tempo"
+    ],
+    "decks_controle": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "controle"
+    ],
+    "decks_combo": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "combo"
+    ],
+    "decks_midrange": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "midrange"
+    ],
+    "decks_ban": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "ban"
+    ],
+    "matchs_0110": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "01-10"
+    ],
+    "matchs_1120": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "11-20"
+    ],
+    "matchs_2130": [
+        page
+        for page in navigation.HELPER
+        if navigation.HELPER.get(page, {}).get("cat") == "21-30"
+    ],
 }
 
 
 def main():
     # print(navigation.HELPER)
+    # print(BASE_CONTEXT)
     app.run()
 
 

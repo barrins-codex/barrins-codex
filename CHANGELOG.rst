@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - Refonte de l'apparence: Ajout de tag dans la navigation
+- Ajout des pages dans le contexte de base
 
 
 6.29.6 (2022-08-17)
