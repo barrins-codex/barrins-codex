@@ -1,7 +1,8 @@
 {% extends "layout.html" %}
 
 {% block ogdesc %}
-Liste des matché joués lors des soirées sur Twitch.
+Liste des matché joués lors des soirées sur
+{{ external("https://www.twitch.tv/leschroniquesducommander", "<i class='fa-brands fa-twitch'></i> Twitch", _class="text-reset")}}.
 Une analyse des parties et des liens vers les decks joués sont disponibles
 sur chaque page de deck.
 {% endblock %}

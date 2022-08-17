@@ -8,6 +8,7 @@ Changelog
 - Ajout des pages dans le contexte de base
 - Refonte de l'apparence: Réfection du menu
 - Backend: Simplification des calls au helper
+- Ajout des logos via Font Awesome Brand
 
 
 6.29.6 (2022-08-17)
