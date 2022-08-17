@@ -1,3 +1,9 @@
+{% macro liste(cat, class="") %}
+    {% for page in cat %}
+        <li class="{{ class }}">{{ link(page, _class="dropdown-item") }}</li>
+    {% endfor %}
+{% endmacro %}
+
 <nav class="navbar navbar-nav navbar-expand-md bg-light w-100 sticky-top header">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,21 +12,12 @@
         <h1 class="navbar-brand ms-0"><a href="{{ url('') }}" class="text-body fs-2">Barrin's Codex</a></h1>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    {% include "menu/pilotes.html" %}
-                </li>
-                <li class="nav-item dropdown d-none d-md-block">
-                    {% include "menu/decks.html" %}
-                </li>
-                <li class="d-block d-md-none">
-                    {{ link("/decks", name="📝 Decks",  _class="nav-link") }}
-                </li>
-                <li class="nav-item dropdown d-none d-md-block">
-                    {% include "menu/matchs.html" %}
-                </li>
-                <li class="d-block d-md-none">
-                    {{ link("/matchs", name="⏯️ Matchs",  _class="nav-link") }}
-                </li>
+                <!-- #Pilotes -->
+                {% include "menu/pilotes.html" %}
+                <!-- #Decks -->
+                {% include "menu/decks.html" %}
+                <!-- #Matchs -->
+                {% include "menu/matchs.html" %}
             </ul>
         </div>
     </div>
