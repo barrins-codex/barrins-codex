@@ -3,15 +3,16 @@ import re
 import unidecode
 
 
-Page = collections.namedtuple("Page", ["name", "path", "url", "cat"])
+Page = collections.namedtuple("Page", ["name", "path", "url", "cat", "crop"])
 
 
 class Nav:
-    def __init__(self, name, index=False, children=None, cat=None):
+    def __init__(self, name, index=False, children=None, cat=None, crop=False):
         self.name = name
         self.index = index
         self.children = children or []
         self.cat = cat or ""
+        self.crop = crop
 
     def page(self, path):
         res = unidecode.unidecode(str(self.name))
@@ -27,14 +28,21 @@ class Nav:
             url = res + "/index.html"
         else:
             url = None
-        return Page(self.name, res, url, self.cat)
+        return Page(self.name, res, url, self.cat, self.crop)
 
     def walk(self, path=None, top=None, ante=None, post=None):
         page = self.page(path or "")
         if not self.children or self.index:
             yield (
                 page.path,
-                {"self": page, "top": top, "prev": ante, "next": post, "cat": self.cat},
+                {
+                    "self": page,
+                    "top": top,
+                    "prev": ante,
+                    "next": post,
+                    "cat": self.cat,
+                    "crop": self.crop,
+                },
             )
         if self.index:
             top = page
@@ -77,19 +85,19 @@ STRUCTURE = Nav(
                 Nav("Adeliz, the Cinder Wind", cat="tempo"),
                 Nav("Aminatou, the Fateshifter", cat="controle"),
                 Nav("Azusa, Lost but Seeking", cat="controle"),
-                Nav("Bjorna-Wernog", cat="controle"),
+                Nav("Bjorna-Wernog", cat="controle", crop=True),
                 Nav("Dennick, Pious Apprentice", cat="midrange"),
                 Nav("Doran, the Siege Tower", cat="midrange"),
                 Nav("Dragonlord Ojutai", cat="controle"),
-                Nav("Elmar-Hargilde", cat="midrange"),
-                Nav("Elmar-Sophina", cat="agro"),
+                Nav("Elmar-Hargilde", cat="midrange", crop=True),
+                Nav("Elmar-Sophina", cat="agro", crop=True),
                 Nav("Elminster", cat="controle"),
                 Nav("Esika, God of the Tree", cat="controle"),
                 Nav("Grist, the Hunger Tide", cat="midrange"),
                 Nav("Hinata, Dawn-Crowned", cat="controle"),
                 Nav("Hogaak, Arisen Necropolis", cat="agro"),
                 Nav("Isamaru, Hound of Konda", cat="agro"),
-                Nav("Ishai-Tevesh", cat="controle"),
+                Nav("Ishai-Tevesh", cat="controle", crop=True),
                 Nav("Jori En, Ruin Diver", cat="controle"),
                 Nav("Juri, Master of the Revue", cat="agro"),
                 Nav("Kari Zev, Skyship Raider", cat="agro"),
@@ -98,11 +106,11 @@ STRUCTURE = Nav(
                 Nav("Kinnan, Bonder Prodigy", cat="combo"),
                 Nav("Klothys, God of Destiny", cat="controle"),
                 Nav("Light-Paws, Emperor's Voice", cat="combo"),
-                Nav("Livio-Malcolm", cat="midrange"),
-                Nav("Livio-Prava", cat="agro"),
+                Nav("Livio-Malcolm", cat="midrange", crop=True),
+                Nav("Livio-Prava", cat="agro", crop=True),
                 Nav("Maelstrom Wanderer", cat="combo"),
                 Nav("Marath, Will of the Wild", cat="midrange"),
-                Nav("Miara-Tevesh", cat="controle"),
+                Nav("Miara-Tevesh", cat="controle", crop=True),
                 Nav("Minsc, Beloved Ranger", cat="combo"),
                 Nav("❌ Minsc&Boo, Timeless Heroes", cat="ban"),
                 Nav("Niv-Mizzet Reborn", cat="midrange"),
