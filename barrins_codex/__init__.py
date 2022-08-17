@@ -82,7 +82,8 @@ def main():
 @app.errorhandler(jinja2.exceptions.TemplateNotFound)
 @app.errorhandler(404)
 def page_not_found(error):
-    return flask.render_template("404.html"), 404
+    context = copy.copy(BASE_CONTEXT)
+    return flask.render_template("404.html", **context), 404
 
 
 # Static file redirection

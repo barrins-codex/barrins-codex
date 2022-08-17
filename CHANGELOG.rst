@@ -13,6 +13,7 @@ Changelog
 - Refonte de l'apparence: Decks index par type
 - Ajout des définitions des macrotypes dans l'index
 - Refonte de l'apparence: Match index par dizaine
+- Refonte de l'apparence: Contexte passé au template 404
 
 
 6.29.6 (2022-08-17)
