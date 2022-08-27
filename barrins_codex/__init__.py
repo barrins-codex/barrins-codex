@@ -1,9 +1,8 @@
 import copy
-import urllib.parse
 import json
 import os
 import re
-from urllib.parse import urlparse
+from urllib.parse import urlencode, urlparse
 
 import flask
 import jinja2.exceptions
@@ -136,7 +135,7 @@ def index(page=None):
 def _build_url(page, _anchor=None, **params):
     url = page.url
     if params:
-        url += "?" + urllib.parse.urlencode(params)
+        url += "?" + urlencode(params)
     if _anchor:
         url += "#" + _anchor
     return url
