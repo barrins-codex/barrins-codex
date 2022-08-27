@@ -4,7 +4,7 @@ Changelog
 7.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Adding isort to project
 
 
 7.1.0 (2022-08-17)
