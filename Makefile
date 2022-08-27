@@ -1,8 +1,12 @@
 .PHONY: release test update codex
 
-test:
+compliance:
+	isort barrins_codex/
 	black barrins_codex/
 	flake8 barrins_codex/
+
+test:
+	make compliance
 	pytest
 
 update:
@@ -10,8 +14,7 @@ update:
 	pip install --upgrade --upgrade-strategy eager -e ".[dev]"
 
 codex:
-	black barrins_codex/
-	flake8 barrins_codex/
+	make compliance
 	DEBUG=True codex
 
 release:
