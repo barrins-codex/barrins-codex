@@ -1,7 +1,7 @@
 import collections
 import re
-import unidecode
 
+import unidecode
 
 Page = collections.namedtuple("Page", ["name", "path", "url", "cat", "crop"])
 

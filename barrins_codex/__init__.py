@@ -1,22 +1,19 @@
-import re
-import unidecode
-import requests
-import os
-import json
-import pkg_resources
 import copy
-
 import urllib.parse
+import json
+import os
+import re
 from urllib.parse import urlparse
 
 import flask
-from flask import make_response, request, render_template
 import jinja2.exceptions
+import pkg_resources
+import requests
+import unidecode
+from flask import make_response, render_template, request
 
-from . import config
+from . import card_list, config
 from .navigation import HELPER
-from . import card_list
-
 
 version = pkg_resources.Environment()["barrins-codex"][0].version
 if version[-5:] == ".dev0":  # To pass tests on commits during development
