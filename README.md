@@ -46,10 +46,24 @@ $ codex
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-You can set the `DEBUG` environment variable to activate the debug mode:
-
+The Makefile has a command to start codex in debug :
 ```bash
-DEBUG=1 codex
+$ make codex
+make compliance
+isort barrins_codex/
+Fixing /Users/spigushe/Desktop/barrins-codex/barrins_codex/__init__.py
+black barrins_codex/
+All done! ✨ 🍰 ✨
+4 files left unchanged.
+flake8 barrins_codex/
+DEBUG=True codex
+ * Serving Flask app 'barrins_codex'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
 ```
 
 ## Versioning
