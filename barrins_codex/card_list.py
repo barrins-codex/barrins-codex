@@ -1,9 +1,10 @@
 import gzip
 import json
 import os
-import unidecode
 import re
+
 import requests
+import unidecode
 
 
 def _name(card, name=None):
