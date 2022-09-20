@@ -1,0 +1,24 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    La capacité de Erinis à accélérer sa sortie pose de nombreux problèmes à
+    Raff. Le développement d'Erinis se fait en alliant les phases d'attaque aux
+    terrains rendus récursifs tandis que pour Raff l'installation est lente et
+    coûteuse. Au final, le matchup est en faveur de Erinis.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/thlsiUM9zO8" %}
+{% set date = "20 septembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/raff-weatherlight-stalwart") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/erinis-gloom-stalker", "img/split-crop/erinis, gloom stalker.jpg") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}

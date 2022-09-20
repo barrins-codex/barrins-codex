@@ -1,0 +1,42 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Alliée au blanc, Erenis donne accès à une stratégie agressive à base de
+    créatures. C'est un deck capable de passer d'agresseuse à agressée en peu de
+    tours. Elle permet d'utiliser au mieux des terrains
+    {{ external("https://scryfall.com/search?q=is%3Afetchland&unique=cards&as=grid&order=name","fetchables")}}
+    et des terrains utilitaires en support du développement du champ de
+    bataille.
+{% endblock %}
+{% block second_paragraph %}
+    L'attrition du deck est garantie par le gain de ressources : la pioche, les
+    jetons voire la pertubation du développement de l'adversaire. La
+    polyvalence des créatures permet également d'allier agression et réaction.
+{% endblock %}
+{% block third_paragraph %}
+    Le tout est supporté par des cartes de qualité ou d'opportunité pour
+    mitiger la variance, se laissant la possibilité de toujours trouver une
+    réponse à une situation.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/LK4QPVyQqEWKsAbCe8N2jg{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/29-erinis-vs-raff", "Des généraux peu attendus et des plans de jeu oubliés, comment se passe le match ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="20 septembre 2022") }}
+    </div>
+</div>
+{% endblock %}

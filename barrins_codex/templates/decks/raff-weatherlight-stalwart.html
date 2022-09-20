@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Prétendant héritier de {{ link("/decks/liviomalcolm") }},
+    {{ card_link("Raff, Weatherlight Stalwart") }} permet de maintenir un flux
+    de cartes important grâce à l'utilisation des cartes de réaction.
+{% endblock %}
+{% block second_paragraph %}
+    Les coûts faibles des créatures et du général rendent possible une
+    installation rapide du deck : deux créatures dont le général, du mana pour
+    jouer des interactions et des cartes en main.
+{% endblock %}
+{% block third_paragraph %}
+    Comme dit dans {{ link("/matchs/29-erinis-vs-raff", "le live")}},
+    l'équilibre du deck semble à revoir tant dans le coût des cartes que dans
+    leur proportion.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/5ga1HkaW4kqMRy02QhxH8Q{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/29-erinis-vs-raff", "Des généraux peu attendus et des plans de jeu oubliés, comment se passe le match ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="20 septembre 2022") }}
+    </div>
+</div>
+{% endblock %}

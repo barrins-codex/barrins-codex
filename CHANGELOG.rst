@@ -6,6 +6,7 @@ Changelog
 
 - Adding isort to project
 - Changement de la miniature pour le deck Wilson + Background
+- Match 29 : Erinis vs Raff
 
 
 7.1.0 (2022-08-17)
