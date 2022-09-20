@@ -127,7 +127,7 @@ STRUCTURE = Nav(
                 Nav("The Reality Chip", cat="controle"),
                 Nav("Tiamat", cat="combo"),
                 Nav("Tivit, Seller of Secrets", cat="controle"),
-                Nav("Wilson, Refined Grizzly", cat="agro"),
+                Nav("Wilson, Refined Grizzly", cat="agro", crop=True),
             ],
         ),
         Nav(
