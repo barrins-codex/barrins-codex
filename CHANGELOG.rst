@@ -4,7 +4,7 @@ Changelog
 7.2.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Mise à jour de la définition de Midrange
 
 
 7.2.0 (2022-09-24)
