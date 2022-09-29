@@ -20,3 +20,42 @@ article {
 .card-name {
     color: #C05746 !important;
 }
+
+li ul {
+    padding-top: : 2vh;
+    padding-bottom: 2vh;
+}
+
+.clear {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    clear: both;
+}
+
+.tip {
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    margin: 1.5em;
+    clear: both;
+}
+.tip h3::before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f0eb";
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+.tip {
+    background: #F7E3D1;
+    border: 1px solid #DC8C46;
+}
+.tip h3 {
+    color: #583410 !important;
+}
+.tip h3 a {
+    color: #583410 !important;
+}
+.tip h3::before {
+    color: #583410;
+}

@@ -15,6 +15,7 @@ Changelog
 - Correction grammaire analyse 22. Raffine vs Tivit
 - Nouvelle catégorie : articles
 - Fix définition Midrange
+- Article sur la roue des archétypes
 
 
 7.2.0 (2022-09-24)

@@ -1,0 +1,1032 @@
+{% extends "articles/_layout_articles.html" %}
+
+{% block titre %}
+Classifier un deck en Duel Commander
+{% endblock %}
+
+{% block article %}
+<article class="col-8 ms-auto me-auto my-4">
+    <p>
+        {% block ogdesc %}
+        Au sens premier, le metagame est l'étude des différentes stratégies
+        qu'un jeu permet. Avoir une vue globale des stratégies possibles et de
+        leurs efficacités les unes par rapport aux autres est un point crucial
+        pour progresser et améliorer son niveau de jeu. Vouloir regrouper les
+        différents decks selon leurs points communs ou leurs startégies permet
+        de mieux les identifier par la suite. Par conséquent, comment classer
+        un deck en Duel Commander ?
+        {% endblock %}
+    </p>
+    <p>
+        Deux méthodes s'opposent :
+    </p>
+    <ul>
+        <li>
+            L'approche en <strong>macrotype</strong> qui rassemble le maximum
+            de decks dont le plan de jeu est similaire dans un minimum de
+            groupes ;
+        </li>
+        <li>
+            L'approche par <strong>archétype</strong> qui rassemble des decks
+            similaires en terme de cartes jouées.
+        </li>
+    </ul>
+</article>
+
+{{ separateur() }}
+<div class="col-12 bg-header py-4 mt-1 mb-1" id="macrotypes">
+    <div class="col-8 ms-auto me-auto">
+        <h2>La Classification en macrotypes</h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto mb-2">
+    <p>
+        La classification est plébiscitée par Mike Mason dans son article
+        {{ external("https://articles.starcitygames.com/premium/watching-the-clock/", "Watching the Clock. ") }}
+        Elle se base sur la traditionnelle classification Agro > Contrôle >
+        Combo de Patrick Chapin et détaille le comportement des différentes
+        stratégies qui existaient sous l'appelation <em>Contrôle</em> de P.
+        Chapin.
+    </p>
+    <p>
+        Voici une présentation rapide des différents macrotypes développés par
+        Mike Mason. Les différents <em>archétypes</em> trouvent tous une place
+        dans les macrotypes suivants.
+    </p>
+    <ul>
+        <li>
+            <strong>Agro</strong> :
+            Deck dont le principal objectif est d'amener l'adversaire à zéro
+            point de vie le plus rapidement possible en jouant des créatures ou
+            des sorts de dégâts directs ;
+        </li>
+        <li>
+            <strong>Tempo</strong> :
+            Deck dont la stratégie consiste à poser rapidement une ou plusieurs
+            menaces puis à les protéger suffisamment longtemps, le plus souvent
+            à l'aide de contresorts, pour gagner ;
+        </li>
+        <li>
+            <strong>Contrôle</strong> :
+            Decks dont l'objectif est de ralentir le déroulement de la partie
+            afin d'installer une guerre d'attrition basée essentiellement sur
+            du <em>Card Advantage</em> ;
+        </li>
+        <li>
+            <strong>Combo</strong> :
+            Deck basé sur une forte interaction entre au moins deux cartes (une
+            <em>combinaison</em>) qui permet de gagner la partie instantanément
+            ou qui mène à un très fort avantage quasi-synonyme de victoire ;
+        </li>
+        <li>
+            <strong>Midrange</strong> :
+            Deck qui mélange plusieurs stratégies, qui se sert de sorts
+            polyvalents pour naviguer dans la partie et alterner entre la
+            posture d'agresseur et d'agressé avec la possibilité de clore la
+            partie avec une combo ou une synergie forte.
+        </li>
+    </ul>
+</article>
+
+{{ separateur() }}
+<div class="col-12 bg-header py-4 mt-1 mb-1" id="macrotypes">
+    <div class="col-8 ms-auto me-auto">
+        <h2>La Classification en archétypes</h2>
+    </div>
+</div>
+<article class="col-8 ms-auto me-auto mb-2">
+    <p>
+        La classification en archétype permet d'affiner la classification en
+        macrotypes en utilisant la tactique comme un élément de comparaison.
+    </p>
+    <p>
+        Voici les principaux archétypes :
+    </p>
+    <ol>
+        <li id="archetype_swarm">
+            <p>
+                <strong>Swarm</strong> :
+            </p>
+            {{ card_image("Thalia, Guardian of Thraben") }}
+            <p>
+                Catégorie de deck Agro qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Gagne par l'accumulation de petites créatures ;
+                </li>
+                <li>
+                    Gagne généralement le combat en débordant l'adversaire avec
+                    les créatures plutôt qu'en essayant de tuer les créatures
+                    adverses ;
+                </li>
+                <li>
+                    Gagne en misant sur l'accumulation de créatures sans
+                    synergie structurelle particulière entre elles.
+                </li>
+            </ul>
+            <p>
+                Les principaux représentants de cette catégorie sont les decks
+                <em>Weenie White</em>. Dans les formats éternels, comme le
+                Modern ou le Legacy, ces créatures sont choisies pour gêner le
+                développement adverse, voire le contrecarrer (ces créatures
+                sont nommées <em>hatebear</em>). Ceci n'est toutefois pas une
+                caractéristique générale des decks Swarm : la volonté
+                principale reste d'envahir le champ de bataille (avec l'aide de
+                {{ card_hover("Aether Vial") }} en Modern et en Legacy).
+            </p>
+            <p>
+                Si l'accumulation de créatures sur le champ de bataille est
+                issue d'une combo ou si cette accumulation est susceptible de
+                s'emballer à cause d'interactions ou de combos, le deck
+                rentrera alors dans la catégorie Créature-Combo. Ces decks sont
+                présentés plus tard et sont en général moins agressifs.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_red_agro">
+
+            <p>
+                <strong>Red Agro</strong> :
+            </p>
+            {{ card_image("Goblin Chainwhirler") }}
+            <p>
+                Catégorie de deck Agro qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une courbe plus basse qui permet au deck de prendre
+                    l'ascendant sur l'adversaire dans les premiers tours ;
+                </li>
+                <li>
+                    La possibilité de clore une partie avec des sorts de dégâts
+                    directs (des <em>blasts</em>) ;
+                </li>
+                <li>
+                    Le besoin de se débarraser des bloqueurs adverses à l'aide
+                    des blasts se trouve en directe opposition avec la
+                    possiblité de cibler directement l'adversaire
+                </li>
+            </ul>
+            <p>
+                Bien que l'archétype s'appelle Red Agro, la couleur rouge
+                n'est absolument pas une nécessité pour faire partie de cette
+                catégorie. Les decks <em>Mono Green Stompy</em> en sont
+                d'ailleurs un bon exemple car les boosts, comme
+                {{ card_hover("Giant Growth") }}, ciblant des créatures avec
+                capacités d'évasion ou des créatures bloquées remplacent le
+                rôle des blasts. Les decks de cette catégorie font partie de
+                ces decks plutôt simples à construire et relativement efficaces
+                dans la plupart des formats.
+            </p>
+            <p>
+                En fonction du ratio entre les sorts de dégâts directs et les
+                sorts de créatures dans le deck, le nom du deck change : RDW /
+                Sligh / Burn (voir la catégorie Lava Spike pour ce dernier).
+                Souvent confondus, les decks RDW se distinguent pourtant
+                notablement des decks Gobelins par leur absence ou
+                quasi-absence de synergies « tribales ».
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_linear_agro">
+            <p>
+                <strong>Agro Linéaire</strong> :
+            </p>
+            {{ card_image("Cavern of Souls") }}
+            <p>
+                Catégorie de deck Agro qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Les cartes sont exclusivement basées sur un thème commun,
+                    les créatures ont généralement le même type ;
+                </li>
+                <li>
+                    Le deck utilise des synergies entre les cartes liées à ce
+                    thème commun.
+                </li>
+            </ul>
+            <p>
+                Beaucoup de decks Agro Linéaire sont des decks tribaux, le
+                thème commun étant un type de créature mais ce n'est toutefois
+                pas une généralité. On retrouve aussi les decks
+                <em>Affinity</em> et <em>Tempered Steel</em> dans cette
+                catégorie dont le thème commun est ici « Artefact ». De plus,
+                tous les decks tribaux ne sont pas des Agro Linéaire, en effet
+                <em>Faeries</em> est par exemple un deck Tempo et
+                <em>Elfball</em> un deck Storm Combo.
+            </p>
+            <p>
+                Les deck Agro Linéaire sont extrêmement populaires dans tous
+                les formats et la majorité des extensions récentes de Magic sont
+                construites pour que cette catégorie de deck soit présente en
+                limité. Le premier archétype à rentrer dans cette catégorie fut
+                le
+                {{ external("https://www.mtgtop8.com/event?e=9167&d=252441&f=BL", "deck bloc Rebel de 1999") }}
+            </p>
+            <p>
+                Il en faut parfois peu pour qu'un deck intègre cette catégorie.
+                C'est par exemple le cas du deck standard
+                {{ external("https://www.mtgtop8.com/event?e=2732&d=217663&f=ST","UW Human de Rick Stout") }}
+                qui se distingua des autres listes UW par l'ajout de
+                {{ card_hover("Cavern of Souls") }} et
+                {{ card_hover("Champion of the Parish") }} qui s'intégrait
+                parfaitement à ce deck tribal.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_suicide">
+            <p>
+                <strong>Suicide</strong>
+            </p>
+            {{ card_image("Carnophage") }}
+            <p>
+                Catégorie de deck Agro (appelée <em>Fish</em> par Patrick
+                Chapin) et qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Des accélérateurs de mana en vue de poser le plus vite
+                    possible des créatures pour mettre la pression sur
+                    l'adversaire ;
+                </li>
+                <li>
+                    Des sorts de gestions qui empêchent l'adversaire de
+                    répondre aux menaces posées dans les premiers tours.
+                </li>
+            </ul>
+            <p>
+                L'appellation Suicide vient du fait que le deck à tendance à
+                jouer des cartes qui vont l'affecter de manière néfaste.
+                Certaines cartes peuvent nécessiter, par exemple, une perte de
+                point de vie, un sacrifice de permanent ou encore de faire du
+                <em>Card Disadvantage</em>, comme les accélérateurs de
+                mana éphémères extrêmement courant dans ces decks. Un des
+                premiers deck de cette catégorie fut le deck Extended
+                <strong>Black Suicide</strong> de Brian Schneider (1999).
+            </p>
+            <p>
+                On classe également dans cette catégorie le deck
+                <em>Dragon Stompy</em> dans lequel on retrouve le besoin de
+                mana dans les premiers tours via
+                {{ card_hover("Simian Spirit Guide") }},
+                {{ card_hover("Chrome Mox") }} et
+                {{ card_hover("Ancient Tomb") }} pour mettre en place un léthal
+                rapide et une carte qui va empêcher le développement adverse.
+                Le deck mise sur cette impulsion qu'il aura mis sur le début de
+                partie et pour laquelle il a dû dépenser énormément de cartes.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_tempo">
+            <p>
+                <strong>Tempo</strong> :
+            </p>
+            {{ card_image("Delver of Secrets") }}
+            <p>
+                Catégorie de deck Agro-Contrôle, parfois assimilée aux decks
+                Agro et parfois considérée comme un macrotype à part entière.
+                Les decks Tempo basent leur stratégie sur le fait de toujours
+                vouloir conserver un meilleur tempo que celui de l'adversaire à
+                l'aide de sorts peu cher. On parle aussi de
+                <em>Disruptive Agro</em> pour désigner cette famille de deck.
+            </p>
+            <p>
+                Les decks Tempo sont connus pour jouer le rôle de l’agresseur
+                contre Contrôle et le rôle du défenseur contre Agro.
+            </p>
+            <p>
+                Les principales faiblesses des decks Tempo sont qu'ils ne
+                produisent pas de <em>Card Advantage</em> et que leur stratégie
+                s'épuise sur le long terme. De plus, s'ils perdent leur
+                avantage, il leur est difficile de reprendre l'ascendant sur la
+                partie. Malgré cela, des decks reconnus comme étant les
+                meilleurs decks de leur format appartiennent à cette catégorie.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_rock">
+            <p>
+                <strong>Rock</strong> :
+            </p>
+            {{ card_image("Abrupt Decay") }}
+            <p>
+                Catégorie de deck Midrange qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Des créatures généralement un peu plus grosses qu'Agro
+                    classique
+                </li>
+                <li>
+                    De l'accélération de mana et de la disruption ;
+                </li>
+                <li>
+                    Du vert pour les créatures et du noir pour la défausse et
+                    les sorts de gestion.
+                </li>
+            </ul>
+            <p>
+                Cette catégorie de deck vient d'un deck nommé par Malka, un fan
+                de catch : "The Rock and His Millions" où "The Rock", en hommage
+                à Dwayne The Rock Johnson, correspondait à la carte
+                {{ card_hover("Phyrexian Plaguelord") }} et "His Millions"
+                correspondaient aux écureuils crées par
+                {{ card_hover("Deranged Hermit") }}. On peut distinguer
+                principalement deux types de decks Rock :
+            </p>
+            <ul>
+                <li>
+                    Les decks plus orientés contrôle qui se focalisent
+                    sur un <em>Card Advantage</em> progressif. Ces decks
+                    essentiellement B/G ont tendance à jouer le rôle du
+                    Contrôle même contre d'autres decks Contrôle ;
+                </li>
+                <li>
+                    Les decks Rock plus agro qui se focalisent davantage sur
+                    la solidité de leurs créatures que sur le Card Advantage.
+                    Ces decks correspondent essentiellement aux decks Junk
+                    (Abzan W/B/G).
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_pure_midrange">
+            <p>
+                <strong>Midrange Pur</strong> :
+            </p>
+            {{ card_image("Knight of the Reliquary") }}
+            <p>
+                Catégorie de deck Midrange qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    La qualité intrinsèque des cartes plutôt que les synergies
+                    entre elles ;
+                </li>
+                <li>
+                    Des créatures polyvalentes et des <em>removals</em> (sorts
+                    de gestion) peu cher ;
+                </li>
+                <li>
+                    La possibilité de s'adapter à n'importe quel environnement.
+                </li>
+            </ul>
+            <p>
+                Les decks Midrange Pur sont parfois appelés <em>Good Stuff</em>
+                car ils ont tendance à incorporer les meilleurs sorts du
+                format, les sorts de gestion les moins chers ainsi que les
+                meilleures créatures pour chaque coût converti de mana. Cette
+                configuration force bien souvent ces decks à jouer tricolore,
+                voire quadricolore si la base de mana le permet.
+            </p>
+            <p>
+                Les decks Midrange Pur sont des decks relativement faciles et
+                rapides à construire une fois que sont identifiées les
+                meilleures cartes à disposition dans un format. Ils font donc
+                très régulièrement partie des premiers decks à apparaître avec,
+                notamment, les Agro Linéaire et les Red Agro. Ces decks ont
+                aussi tendance à être mauvais contre les decks <em>unfair</em>
+                et excellents contre les decks <em>fair</em>. C'est pourquoi
+                dans un format résolu, lorsqu'un deck Midrange est capable
+                d'incorporer au moins un sort unfair tel que de la destruction
+                massive de terrain, il peut faire d'excellent résultats.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_nonblue_midrange">
+            <p>
+                <strong>Midrange Non-Bleu</strong> :
+            </p>
+            {{ card_image("Gray Merchant of Asphodel") }}
+            <p>
+                Catégorie de deck Midrange qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    De la gestion presque totalement dirigée contre les
+                    créatures adverses ;
+                </li>
+                <li>
+                    La présence d'un <em>moteur de pioche</em>
+                    (ou de <em>Card Advantage</em>) quelconque dont le deck est
+                    assez dépendant.
+                </li>
+            </ul>
+            <p>
+                Bien que la majorité des decks de cette catégorie n'utilisent
+                pas de mana bleu, ce n'est pas une condition nécessaire pour
+                faire partie de cette catégorie. Les decks Non-Bleu sont
+                globalement rares dans les formats eternels (voire absents du
+                Legacy et du Vintage) car ils ne sont généralement pas assez
+                polyvalents pour s'y imposer. Les decks Bloc
+                {{ external("https://www.mtgtop8.com/event?e=9201&d=252718&f=BL","Mono Black Control") }}
+                de 2002 et
+                {{ external("https://www.mtgtop8.com/event?e=9207&d=252771&f=BL","Astral Slide") }}
+                de 2003 font partie des permiers decks de cette catégorie.
+            </p>
+            <div class="clear"></div>
+            <div class="tip">
+                <h3>
+                    Le cas de Life from the Loam
+                </h3>
+                <p>
+                    Cette catégorie permet d'aborder le cas de
+                    {{ card_hover("Life from the Loam") }} présente dans des
+                    decks appartenant à des catégories diverses. L'un de ces
+                    decks, la version Agro Loam de l'Extended que l'on retrouve
+                    aussi en Modern, vérifie justement les critères du deck
+                    Midrange Non-Bleu, {{ card_hover("Life from the Loam") }}
+                    jouant ici le rôle du moteur de CA dont le deck est assez
+                    dépendant.
+                </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_draw_go">
+            <p>
+                <strong>Draw Go</strong> :
+            </p>
+            {{ card_image("Cryptic Command") }}
+            <p>
+                Catégorie de deck Contrôle qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une grande quantité de contresorts pour interagir au
+                    maximum contre les actions adverses ;
+                </li>
+                <li>
+                    Un moteur à <em>Card Advantage</em> pour compenser
+                    l'épuisement des contresorts ;
+                </li>
+                <li>
+                    La présence de gestion de masse pour gérer l'ensemble
+                    des cartes qui ont pu se résoudre.
+                </li>
+            </ul>
+            <p>
+                Le terme Draw Go est une allusion aux tours rapides d'un joueur
+                de cet archétype « My Turn, Draw, Go ! ». Ces decks se
+                distinguent donc radicalement des decks Tapout vus précédemment.
+            </p>
+            <p>
+                Les decks Draw Go ont tendance à faire du <em>un pour un</em>
+                avec leurs contresorts. Ils sont naturellement désavantagés
+                contre les decks Agro qui jouent moins de terrains et donc
+                piocheront plus de menaces que Draw Go ne pourra piocher de
+                réponses. Pour contrebalancer cela, les decks Draw Go sont
+                obligés de compenser avec du <em>Card Advantage</em>.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_tapout">
+            <p>
+                <strong>Tapout</strong> :
+            </p>
+            {{ card_image("Karn Liberated") }}
+            <p>
+                Catégorie de deck Contrôle qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Des gestions de masse et des sorts visant à empêcher
+                    l'adversaire de jouer dans le but d'acheter du temps ;
+                </li>
+                <li>
+                    Des sorts agressifs pour profiter au maximum du temps
+                    acheté.
+                </li>
+            </ul>
+            <p>
+                Les decks Tapout jouent essentiellement à leur propre tour et
+                ne gardent donc généralement pas de manas disponibles
+                lorsqu'ils ont fini de jouer. L'absence de contresort dans un
+                deck Contrôle est généralement un bon moyen de repérer si un
+                deck est un Tapout.
+            </p>
+            <p>
+                La première vraie apparition de Tapout en tournoi date de 1997
+                avec le deck standard Big Blue de Erik Lauer.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_prison">
+            <p>
+                <strong>Prison</strong> :
+            </p>
+            {{ card_image("Stasis") }}
+            <p>
+                Catégorie de deck Contrôle qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    La volonté de garder le champ de bataille sous contrôle
+                    plutôt que de lui opposer des menaces ;
+                </li>
+                <li>
+                    Utilise ses sorts permissifs pour, avant tout, protéger sa
+                    propre stratégie ;
+                </li>
+                <li>
+                    Une fin de partie où l'adversaire est privé d’interactions.
+                </li>
+            </ul>
+            <p>
+                Les decks Prison (aussi appelé Lock), comme les decks Tapout,
+                ont tendance à utiliser leur mana de manière proactive.
+                Toutefois, là où un deck Tapout va engager tout son mana pour
+                poser une créature qui va dissuader son adversaire d'attaquer,
+                un deck Prison préférera prévenir l'attaque, par exemple avec
+                un {{ card_hover("Icy Manipulator") }}.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_pure_control_combo">
+            <p>
+                <strong>Contrôle-Combo Pur</strong> :
+            </p>
+            {{ card_image("Crop Rotation") }}
+            <p>
+                Catégorie de deck Contrôle qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Un jeu entre Draw Go et Tapout avec une victoire issue
+                    d'une combo ;
+                </li>
+                <li>
+                    Une stratégie lente mais qui peut éventuellement menacer de
+                    gagner très tôt dans la partie ;
+                </li>
+                <li>
+                    De nombreux sorts de gestion et/ou de contresorts.
+                </li>
+            </ul>
+            <p>
+                Contrairement à la majorité des decks Combo, les decks de cette
+                famille peuvent faire du <em>Card Advantage</em> plutôt que de
+                simplement creuser ou tutoriser les éléments de leur combo. On
+                retrouve très souvent dans ces decks un questionnement sur la
+                méthode à utiliser pour atteindre sa combo ou au contraire de
+                contrôler le board si cela devient nécessaire. Voici quelques
+                exemples :
+            </p>
+            <ul>
+                <li>
+                    {{ card_hover("Muddle the Mixture") }} →
+                    {{ card_hover("Thopter Foundry") }} /
+                    {{ card_hover("Sword of the Meek") }} (Combo Kill) ou
+                    {{ card_hover("Sword of the Meek") }}.
+                </li>
+                <li>
+                    {{ card_hover("Bring to Light") }} →
+                    {{ card_hover("Scapeshift") }} (Combo Kill)
+                    ou {{ card_hover("Damnation") }}.
+                </li>
+                <li>
+                    {{ card_hover("Crop Rotation") }} →
+                    {{ card_hover("Dark Depths") }} /
+                    {{ card_hover("Thespian's Stage") }} (Combo Kill) ou
+                    {{ card_hover("Glacial Chasm") }}
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_ramp">
+            <p>
+                <strong>Ramp</strong> :
+            </p>
+            {{ card_image("Primeval Titan") }}
+            <p>
+                Catégorie de deck Contrôle qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    La présence de nombreuses cartes productrices de mana et/ou
+                    de cartes permettant de mettre sur le champ de bataille
+                    plus d'un terrain par tour ;
+                </li>
+                <li>
+                    La présence de cartes variées ayant un coût de mana élevé
+                    qui sont censées être jouées en <em>mid game</em>.
+                </li>
+            </ul>
+            <p>
+                Il ne faut pas confondre les decks Ramp avec les decks de la
+                catégorie Big Spell bien que ceux-ci peuvent aussi avoir une
+                optique Ramp en début de partie.
+            </p>
+            <p>
+                Lorsqu'ils sont bien construits et qu'ils contiennent des sorts
+                adaptés aux decks présents dans l'environnement de tournoi, les
+                decks Ramp peuvent être redoutables. Ils sont faciles à piloter
+                et ont une grande solidité sur le long terme. S'ils ne tuent
+                pas dans le début de partie, ils ont toujours un plan B.
+            </p>
+            <p>
+                Toutefois, si leur accélération de mana est sabotée, les decks
+                Ramp sont terriblement ralentis dans leur stratégie et restent
+                souvent au point mort. Ils ont globalement les mêmes problèmes
+                que Midrange contre Contrôle et Tempo : s'ils sont pris de
+                vitesse, ils doivent subir les sorts de gestion adverses.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_big_spell">
+            <p>
+                <strong>Big Spell</strong> :
+            </p>
+            {{ card_image("Living End") }}
+            <p>
+                Catégorie de deck Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    La présence d'un kill (le <em>big spell</em>) dont
+                    l'efficacité est due essentiellement au fait que tout le
+                    deck soit construit autour et pour maximiser l'effet de
+                    cette carte.
+                </li>
+                <li>
+                    La résolution de ce <em>big spell</em> entraîne une
+                    victoire immédiate ou change radicalement la dynamique de
+                    la partie.
+                </li>
+            </ul>
+            <p>
+                Un aspect Ramp est généralement présent dans les decks Big
+                Spell, mais contrairement aux decks Ramp, ces decks sont
+                construits autour d'une carte en particulier. De plus l'aspect
+                Ramp n'est absolument pas une caractéristique générale de cette
+                catégorie, Living End est justement un exemple de deck Big
+                Spell sans aucun aspect ramp.
+            </p>
+            <div class="clear"></div>
+            <div class="tip">
+                <h3>
+                    Le duo Scapeshift et Valakut
+                </h3>
+                <p>
+                    Ce duo de cartes a donné son nom à de nombreux archétypes
+                    et tous ces archétypes ne correspondent pas aux même
+                    catégories.
+                <ul>
+                    <li>
+                        La version Standard de
+                        {{ card_hover("Valakut, the Molten Pinnacle") }}
+                        est un deck Ramp qui se contente de jouer Valakut pour
+                        rentabiliser son aspect ramp sur le long terme, quitte
+                        à en faire son kill. Ici pas de
+                        {{ card_hover("Scapeshift") }}.
+                    </li>
+                    <li>
+                        Le deck Modern {{ card_hover("Scapeshift") }} est un
+                        deck Contrôle-Combo Pur avec de nombreux sorts de
+                        gestions et contresorts pour temporiser et qui en fin
+                        de partie menace de tuer à tout moment en jouant
+                        Scapeshift.
+                    </li>
+                    <li>
+                        Le deck Modern Valakut, quant à lui, est bien un deck
+                        Big Spell où tout le deck est construit autour d'un
+                        plan de jeu simpliste qui se résume à avoir le plus
+                        vite possible suffisamment de terrains en jeu et jouer
+                        son Big Spell : Scapeshift.
+                    </li>
+                    <li>
+                        Enfin la version Omen Scapeshift se distingue
+                        foncièrement des autres par sa quasi-absence de
+                        montagne et donc à la nécessité d'avoir
+                        {{ card_hover("Prismatic Omen") }} sur le champ de
+                        bataille avant de lancer scapeshift ce qui fait du deck
+                        un Combo Traditionnel.
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_storm_combo">
+            <p>
+                <strong>Combo Storm</strong> :
+            </p>
+            {{ card_image("Grapeshot") }}
+            <p>
+                Catégorie de deck Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    L'accumulation des sorts et actions faites lors d'un même
+                    tour ;
+                </li>
+                <li>
+                    L'absence de sorts spécifique, voire de séquence, pour
+                    gagner ;
+                </li>
+                <li>
+                    Le besoin de quantité d'actions plus que de leur qualité.
+                </li>
+            </ul>
+            <p>
+                Les decks Storm Combo ont un <em>big turn</em> à l'issue duquel
+                l'adversaire est défait. Le nom de cette catégorie est tirée de
+                la capacité <em>Storm</em>. Tous les decks avec une carte Storm
+                en guise de kill appartiennent à cette catégorie. Ce ne sont
+                pas les seuls, High Tide ou KCI font aussi partie de cette
+                catégorie.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_traditional_combo">
+            <p>
+                <strong>Combo Traditionnel</strong> :
+            </p>
+            {{ card_image("Painter's Servant") }}
+            <p>
+                Catégorie de deck Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une condition de victoire basée directement ou
+                    indirectement sur une combo formée de deux ou trois cartes ;
+                </li>
+                <li>
+                    Des cartes permettant d'aller chercher les éléments de la
+                    combo.
+                </li>
+            </ul>
+            <p>
+                Les stratégies des Combo Traditionnel peuvent être très
+                variées. On peut en distinguer deux variantes :
+            </p>
+            <ul>
+                <li>
+                    Les decks qui vont avoir tendance à chercher dans leur
+                    bibliothèque les éléments de la combo ;
+                </li>
+                <li>
+                    Les decks qui vont miser sur la redondance des éléments de
+                    la combo quitte à jouer parfois plusieurs combos
+                    différentes.
+                </li>
+            </ul>
+            <p>
+                Dans cette seconde variante, on peut citer les decks Reanimator
+                ou, en Legacy, les decks {{ card_hover("Show and Tell") }} qui
+                incorporent aussi {{ card_hover("Sneak Attack") }}.
+            </p>
+            <div class="clear"></div>
+            <div class="tip">
+                <h3>Le plan de jeu Reanimator</h3>
+                <p>
+                    Une fois réanimé, {{ card_hover("Griselbrand") }} à
+                    tendance à transformer le plan de jeu Reanimator en quelque
+                    chose proche d'un Storm Combo mais le plan de jeu originel
+                    du deck correspond bien à la catégorie Combo Traditionnel.
+                </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_lava_spike">
+            <p>
+                <strong>Lava Spike</strong> :
+            </p>
+            {{ card_image("Lava Spike") }}
+            <p>
+                Catégorie de deck Agro-Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une absence d'interactivité avec l'adversaire ;
+                </li>
+                <li>
+                    Une stratégie qui consiste à cibler avec ses sorts
+                    directement l'adversaire.
+                </li>
+            </ul>
+            <p>
+                On retrouve dans cette catégorie principalement deux sortes de
+                deck : <em>Burn</em> et <em>Meule</em> :
+            </p>
+            <ul>
+                <li>
+                    Les decks <em>Burn</em> utilisent leurs sorts pour infliger
+                    directement des dégâts à l'adversaire. Ils sont présents
+                    dans tous les formats. Ils sont tous à dominante rouge,
+                    mais tous ne sont pas nécessairement monocolores ;
+                </li>
+                <li>
+                    Les decks <em>Meule</em> utilisent leurs sorts pour mettre
+                    les cartes de la bibliothèque de l'adversaire dans son
+                    cimetière. Ils sont absent des formats éternels et
+                    correspondent pour la plupart au plan de jeu de certains
+                    decks limités bleus.
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_wave_combo">
+            <p>
+                <strong>Wave Combo</strong> :
+            </p>
+            {{ card_image("Bloodghast") }}
+            <p>
+                Catégorie de deck Agro-Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une construction autour d'une mécanique avec des cartes
+                    très  synergiques entre elles ;
+                </li>
+                <li>
+                    Une stratégie qui peut menacer extrêmement rapidement
+                    l'adversaire et se répéter par vagues successives sur le
+                    long terme ;
+                </li>
+                <li>
+                    Une absence de réel Big Turn.
+                </li>
+            </ul>
+            <p>
+                Les principaux decks Wave Combo sont construits autour d'une
+                mécanique dont ils abusent des effets. Les deux decks
+                principaux de cette catégorie sont Dredge qui abuse de la
+                capacité éponyme et des synergies avec le cimetière et
+                {{ card_hover("Hollow One") }} basé quant à lui sur les effets
+                de défausse.
+            </p>
+            <p>
+                Cette catégorie a finalement connu très peu de représentants et
+                il est compliqué d'en lister des caractéristiques arrêtées.
+                Toutefois, les deux decks cités ont la particularité d'être
+                relativement imprévisibles dans leur sortie même pour leur
+                pilote.
+            </p>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_voltron">
+            <p>
+                <strong>Voltron</strong> :
+            </p>
+            {{ card_image("Glistener Elf") }}
+            <p>
+                Catégorie de deck Agro-Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une condition de victoire basée sur le fait d'attaquer avec
+                    des créatures (généralement une seule) pour tuer en peu de
+                    phases d'attaque (parfois une seule) ;
+                </li>
+                <li>
+                    Un rythme de jeu plus rapide que les decks Agro classiques.
+                </li>
+            </ul>
+            <p>
+                Les decks Voltron empruntent certaines caractéristiques aux
+                catégories Combo Traditionnel et Storm Combo. Un deck
+                emblématique de cette catégorie est
+                {{ card_hover("Kiln Fiend") }} :
+            </p>
+            <ul>
+                <li>
+                    Il s'agit d'une combo deux cartes avec
+                    {{ card_hover("Berserk") }} ou
+                    {{ card_hover("Temur Battle Rage") }},
+                    ce qui donne le côté Combo Traditionnel ;
+                </li>
+                <li>
+                    Toutefois, le deck n'a pas besoin de cette seconde carte
+                    pour gagner et peut remporter la victoire simplement par
+                    l'accumulation de sorts joué lors d'un même tour, ce qui
+                    donne l'aspect Storm Combo.
+                </li>
+            </ul>
+            <p>
+                On retrouve aussi dans cette catégorie les decks hexproof qui
+                se basent sur une créature qui grossit jusqu'à devenir létale.
+            </p>
+            <div class="clear"></div>
+            <div class="tip">
+                <h3>L'origine de Voltron</h3>
+                <p>
+                    Le nom Voltron est issu du Commander pour désigner
+                    originellement des decks dont la stratégie est entièrement
+                    basé sur leur général. Mateus Nogueira distingue dans sa
+                    classification en catégorie pour le commander les decks
+                    Voltron Control (tels que
+                    {{ card_hover("Zur, the Enchanter") }})
+                    des decks Voltron Agro (tels que
+                    {{ card_hover("Jenara, Asura of War") }}),
+                    focalisés sur le fait de finir rapidement une partie via
+                    les blessures de général.
+                </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_creature_combo">
+            <p>
+                <strong>Créature Combo</strong> :
+            </p>
+            {{ card_image("Vizier of Remedies") }}
+            <p>
+                Catégorie de deck Agro-Combo qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    La présence d'un grand nombre de créatures ;
+                </li>
+                <li>
+                    Une condition de victoire non-intéractive générée par une
+                    combo composée le plus souvent de créatures ;
+                </li>
+                <li>
+                    Une condition de victoire secondaire consistant à gagner en
+                    attaquant avec ses créatures (souvent en débordant son
+                    adversaire) ;
+                </li>
+            </ul>
+            <p>
+                Les decks Combo Créature sont des hybrides entre les decks
+                appartenant aux familles Combo Traditionnel et Swarm ce qui en
+                fait naturellement des decks Agro-Combo.
+            </p>
+            <div class="clear"></div>
+            <div class="tip">
+                <h3>
+                    Le cas de Birthing Pod
+                </h3>
+                <p>
+                    Cette catégorie permet d'aborder plus en détail le cas de
+                    {{ card_hover("Birthing Pod")  }} présente essentiellement
+                    dans deux types de jeu :
+                </p>
+                <ul>
+                    <li>
+                        Les decks ayant une structure de Midrange dont beaucoup
+                        de créatures sont jouées seulement en un exemplaire
+                        pour leur synergie avec Pod dans le but de construire
+                        diverses séquences d'actions en abusant des effets
+                        d'arrivée et de départ du champ de bataille. Ces decks-
+                        là sont classés dans la catégorie Midrange Non-Bleu.
+                    </li>
+                    <li>
+                        Les decks basés sur une multitude de créatures qui
+                        incorporent une combo qui est la principale condition
+                        de victoire du deck. Le rôle de
+                        {{ card_hover("Birthing Pod") }} est d'assembler une
+                        combo même s'il est également possible tutoriser des
+                        solutions face à des problèmes spécifiques. Ces decks
+                        appartiennent à la catégorie Combo Créature.
+                    </li>
+                </ul>
+                <p>
+                    {{ card_hover("Birthing Pod") }} pourrait être classée dans
+                    la catégorie Big Spell car les decks sont basés
+                    essentiellement autour de cette carte mais cette carte est
+                    avant tout un moteur de <em>Card Advantage</em> et non un
+                    réel moyen de tuer l'adversaire. De même, le fait de jouer
+                    la carte ne change pas de manière radicale la dynamique de
+                    la partie comme le ferait {{ card_hover("Living End") }} ou
+                    {{ card_hover("Balustrade Spy") }}, c'est au mieux une
+                    menace pour l'adversaire.
+                </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+        <li id="archetype_acc">
+            <p>
+                <strong>Agro-Contrôle-Combo</strong>
+            </p>
+            {{ card_image("Psychatog") }}
+            <p>
+                Catégorie et macrotype à part entière qui se caractérise par :
+            </p>
+            <ul>
+                <li>
+                    Une condition de victoire qui consiste à gagner en
+                    attaquant avec ses créatures ;
+                </li>
+                <li>
+                    Une condition de victoire non-interactive basée sur une
+                    combo ;
+                </li>
+                <li>
+                    Une volonté de gérer le board que ce soit de manière
+                    proactive ou réactive.
+                </li>
+            </ul>
+            <p>
+                Les decks Agro-Control-Combo sont extrêmement rares en dehors
+                du Vintage car peu de decks sont capables de produire des plans
+                de jeux aussi variés de manière efficace. Le deck Grow-A-Tog
+                est repris à titre d'exemple dans cette catégorie dans un
+                article de Stephen Menendian et Paul Mastriano de 2003 :
+                {{ external("https://articles.starcitygames.com/premium/so-many-insane-plays-how-to-groatog-and-almost-clip-a-lotus/","How to Grow-A-Tog and Clip a Lotus") }}.
+            </p>
+            <div class="clear"></div>
+        </li>
+    </ol>
+</article>
+{% endblock %}

@@ -171,6 +171,7 @@ STRUCTURE = Nav(
             "📚 Articles",
             index=False,
             children=[
+                Nav("Classifier un deck", cat="article"),
             ],
         ),
     ],
