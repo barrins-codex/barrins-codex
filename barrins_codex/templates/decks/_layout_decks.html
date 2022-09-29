@@ -24,7 +24,7 @@
             <p>{% block third_paragraph %}{% endblock %}</p>
         </div>
         <div class="col-4 d-flex flex-column">
-            {% block commander %}<img src="{{ img_card(carte, firstprint=False) }}" alt="{{ carte }}" width="100%" />{% endblock %}
+            {% block commander %}<img src="{{ img_card(carte) }}" alt="{{ carte }}" width="100%" />{% endblock %}
             {% block liste %}<a class="btn btn-secondary mt-4" role="button" target="_blank"
                 href="{% block lien %}{% endblock %}">Decklist</a>{% endblock %}
         </div>

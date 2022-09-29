@@ -10,6 +10,7 @@ Changelog
 - Image "firstprint" de chaque carte systématique
 - Amélioration de la génération des liens Scryfall
 - Ajout du lazy loading
+- Fix images Tiamat
 
 
 7.2.0 (2022-09-24)
