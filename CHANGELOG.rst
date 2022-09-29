@@ -1,7 +1,7 @@
 Changelog
 =========
 
-7.2.1 (unreleased)
+8.0.0 (2022-09-29)
 ------------------
 
 - Mise à jour de la définition de Midrange

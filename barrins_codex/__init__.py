@@ -282,7 +282,7 @@ def display_card():
             + 'rel="noreferrer" href="'
             + link_card(name)
             + '">'
-            + re.sub(r"\s+", u"\xA0", name)
+            + re.sub(r"\s+", "\xA0", name)
             + "</a>"
         )
 
@@ -293,7 +293,7 @@ def display_card():
             + 'rel="noreferrer" href="'
             + link_card(name)
             + '">'
-            + re.sub(r"\s+", u"\xA0", name)
+            + re.sub(r"\s+", "\xA0", name)
             + "</a>"
         )
 
