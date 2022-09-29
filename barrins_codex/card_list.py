@@ -75,7 +75,7 @@ def build():
                     library[_name(card)] = _get(card, set)
                 if _name(card) in library:
                     # If newer version exists
-                    if set["releaseDate"] > library[_name(card)]["date"]:
+                    if set["releaseDate"] < library[_name(card)]["date"]:
                         library[_name(card)] = _get(card, set)
 
                 # Cards may have another face : name_face_a / name_face_b

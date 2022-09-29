@@ -7,6 +7,7 @@ Changelog
 - Mise à jour de la définition de Midrange
 - Ajout analyse 21. Aminatou vs Beamtown Bullies
 - Ajout analyse 22. Raffine vs Tivit
+- Image "firstprint" de chaque carte systématique
 
 
 7.2.0 (2022-09-24)
