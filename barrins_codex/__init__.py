@@ -229,15 +229,6 @@ def linker():
 
 @app.context_processor
 def display_card():
-    def get_card(name, firstprint=True):
-        fuzzy = re.sub(r"[^\w\s]", "", name)
-        fuzzy = re.sub(r"\s+", "-", fuzzy)
-        url = f"https://api.scryfall.com/cards/search?q={fuzzy}"
-        if firstprint:
-            url = url + "+is%3Afirstprint"
-        r = requests.get(url)
-        return r.json()
-
     def _name(name):
         name = name
         name = unidecode.unidecode(name).lower()
@@ -252,38 +243,41 @@ def display_card():
 
     def img_crop(name, front=True):
         card = CARDS[_name(name)]
+        query = "format=image&version=art_crop"
         if "faces" in card:
             if not front:
-                card = get_card(name)["data"][0]
-                return card["card_faces"][1]["image_uris"]["art_crops"]
-            return (
-                "https://api.scryfall.com/cards/"
-                + f"{CARDS[card['faces'][0]]['id']}"
-                + "?format=image&version=art_crop"
-            )
-        return (
-            "https://api.scryfall.com/cards/"
-            + f"{card['id']}?format=image&version=art_crop"
+                query = query + "&face=back"
+        return "https://api.scryfall.com/cards/" + f"{card['id']}?{query}"
+
+    def img_card(name, front=True):
+        card = CARDS[_name(name)]
+        query = "format=image&version=png"
+        if "faces" in card:
+            if not front:
+                query = query + "&face=back"
+        return f"https://api.scryfall.com/cards/{card['id']}?{query}"
+
+    def card_image(name, front=True):
+        return flask.Markup(
+            '<img src="'
+            + img_card(name, front)
+            + '" alt="'
+            + name
+            + '" class="col-md-3 float-md-end mx-md-1" />'
         )
 
-    def img_card(name, firstprint=True, front=True):
-        card = CARDS[_name(name)]
-        if "faces" in card:
-            if not front:
-                card = get_card(name, firstprint)["data"][0]
-                return card["card_faces"][1]["image_uris"]["png"]
-            card = get_card(name, firstprint)["data"][0]
-            return card["card_faces"][0]["image_uris"]["png"]
-        if firstprint:
-            card = get_card(name, firstprint)["data"][0]
-            return card["image_uris"]["png"]
-        return f"https://api.scryfall.com/cards/{card['id']}?format=image"
+    def link_card(name):
+        fuzzy = re.sub(r"[^\w\s]", "", name).lower()
+        fuzzy = re.sub(r"\s+", "-", fuzzy)
+        url = f"https://api.scryfall.com/cards/named?exact={fuzzy}"
+        r = requests.get(url)
+        return r.json()["scryfall_uri"]
 
     def card_link(name):
         return flask.Markup(
             '<a target="_blank" class="text-reset text-decoration-underline" '
             + 'rel="noreferrer" href="'
-            + get_card(name)["data"][0]["scryfall_uri"]
+            + link_card(name)
             + '">'
             + name
             + "</a>"
@@ -293,6 +287,7 @@ def display_card():
         deck_name=card_name_from_page,
         img_crop=img_crop,
         img_card=img_card,
+        card_image=card_image,
         card_link=card_link,
     )
 
