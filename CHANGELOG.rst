@@ -12,6 +12,7 @@ Changelog
 - Ajout du lazy loading
 - Fix images Tiamat
 - Colorisation des noms de cartes et ajout d'espace insécable
+- Correction grammaire analyse 22. Raffine vs Tivit
 
 
 7.2.0 (2022-09-24)
