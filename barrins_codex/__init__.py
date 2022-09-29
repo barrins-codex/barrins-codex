@@ -274,8 +274,9 @@ def display_card():
         return r.json()["scryfall_uri"]
 
     def card_link(name):
+        name = re.sub(r"\s+", u"\xA0", name)
         return flask.Markup(
-            '<a target="_blank" class="text-reset text-decoration-underline" '
+            '<a target="_blank" class="card-name text-decoration-underline" '
             + 'rel="noreferrer" href="'
             + link_card(name)
             + '">'

@@ -11,6 +11,7 @@ Changelog
 - Amélioration de la génération des liens Scryfall
 - Ajout du lazy loading
 - Fix images Tiamat
+- Colorisation des noms de cartes et ajout d'espace insécable
 
 
 7.2.0 (2022-09-24)

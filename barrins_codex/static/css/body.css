@@ -16,3 +16,7 @@ article {
 .bg-header {
     background-color: #99A5C5 !important;
 }
+
+.card-name {
+    color: #C05746 !important;
+}
