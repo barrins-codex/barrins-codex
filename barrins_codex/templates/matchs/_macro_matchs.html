@@ -1,7 +1,7 @@
 {% macro card(page) -%}
 {% set lien = "img/"+page[1:]+".jpg" %}
 <div class="col-12 my-4 text-center">
-    <img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto" alt="Photo">
+    <img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto" alt="{{ page }}" loading="lazy">
     <div class="mt-1">
         <a href="{{ url(page) }}" class="btn btn-outline-secondary">⏯️ Voir ce match</a>
     </div>
@@ -13,7 +13,7 @@
 <div class="col-12 my-4">
     <div class="row g-0">
         <div class="col-md-4">
-            <a href="{{ url(page) }}" class=""><img src="{{ url_for('static', filename=lien) }}" class="img-fluid rounded-start" alt="Miniature Youtube du replay du match"></a>
+            <a href="{{ url(page) }}" class=""><img src="{{ url_for('static', filename=lien) }}" class="img-fluid rounded-start" alt="Miniature Youtube du replay du match" loading="lazy"></a>
         </div>
         <div class="col-md-8 ps-2">
             <div class="card-body">
@@ -32,7 +32,7 @@
 {% set lien = "img/"+page[1:]+".jpg" %}
 <div class="col-sm-4">
     <div class="col-12 my-4 text-center">
-        <a href="{{ url(page) }}"><img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto" alt="Photo"></a>
+        <a href="{{ url(page) }}"><img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto" alt="{{ page }}" loading="lazy"></a>
         <div class="mt-1">
             <a href="{{ url(page) }}" class="btn btn-outline-secondary">⏯️ {{ match_name(page) }}</a>
         </div>

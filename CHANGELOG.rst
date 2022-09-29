@@ -9,6 +9,7 @@ Changelog
 - Ajout analyse 22. Raffine vs Tivit
 - Image "firstprint" de chaque carte systématique
 - Amélioration de la génération des liens Scryfall
+- Ajout du lazy loading
 
 
 7.2.0 (2022-09-24)

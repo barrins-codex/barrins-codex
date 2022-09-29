@@ -6,9 +6,9 @@
     </div>
     <a href="{{ url(page) }}">
     {% if lien != "" %}
-    <img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto rounded" alt="Photo">
+    <img src="{{ url_for('static', filename=lien) }}" class="card-img-top mx-auto rounded" alt="{{ page }}" loading="lazy">
     {% else %}
-    <img src="{{ img_crop(deck_name(page)) }}" class="card-img-top mx-auto rounded" alt="Photo">
+    <img src="{{ img_crop(deck_name(page)) }}" class="card-img-top mx-auto rounded" alt="{{ page }}" loading="lazy">
     {% endif %}
     </a>
     <div class="mt-1">
@@ -39,10 +39,10 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ img_card(partner1, False) }}" class="d-block w-100" alt="{{ partner1 }}">
+            <img src="{{ img_card(partner1, False) }}" class="d-block w-100" alt="{{ partner1 }}" loading="lazy">
         </div>
             <div class="carousel-item">
-            <img src="{{ img_card(partner2, False) }}" class="d-block w-100" alt="{{ partner2 }}">
+            <img src="{{ img_card(partner2, False) }}" class="d-block w-100" alt="{{ partner2 }}" loading="lazy">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -60,10 +60,10 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ img_card(carte, front=True) }}" class="d-block w-100" alt="{{ carte }} - face recto">
+            <img src="{{ img_card(carte, front=True) }}" class="d-block w-100" alt="{{ carte }} - face recto" loading="lazy">
         </div>
             <div class="carousel-item">
-            <img src="{{ img_card(carte, front=False) }}" class="d-block w-100" alt="{{ carte }} - face verso">
+            <img src="{{ img_card(carte, front=False) }}" class="d-block w-100" alt="{{ carte }} - face verso" loading="lazy">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -80,8 +80,8 @@
 {% macro sld_rename(crossover, old, new) -%}
 <article class="col-8 mx-auto mt-2 mb-4 d-flex">
     <p class="col-4"><strong>{{ old }}</strong> est une carte publiée originellement dans la collection Secret Lair Drop Series lors d'un crossover avec l'univers {{ crossover }}. Lors de sa sortie en boosters, son nom change en <strong>{{ new }}</strong></p>
-    <img src="{{ img_card(new) }}" alt="{{ old }}" class="col-4 p-2" max-width="100%" />
-    <img src="{{ img_card(new, False) }}" alt="{{ new }}" class="col-4 p-2" max-width="100%" />
+    <img src="{{ img_card(new) }}" alt="{{ old }}" class="col-4 p-2" max-width="100%" loading="lazy" />
+    <img src="{{ img_card(new, False) }}" alt="{{ new }}" class="col-4 p-2" max-width="100%" loading="lazy" />
     <div style="clear:both;"></div>
 </article>
 {%- endmacro %}

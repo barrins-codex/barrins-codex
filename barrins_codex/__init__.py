@@ -263,7 +263,7 @@ def display_card():
             + img_card(name, front)
             + '" alt="'
             + name
-            + '" class="col-md-3 float-md-end mx-md-1" />'
+            + '" class="col-md-3 float-md-end mx-md-1" loading="lazy" />'
         )
 
     def link_card(name):
