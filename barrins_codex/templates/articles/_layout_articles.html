@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" style="width:100%;" class="opacity-75">
+    <div class="centered"><h1 class="fs-1">{% block titre %}{% endblock %}</h1></div>
+</div>
+{% endblock %}

@@ -65,6 +65,9 @@ BASE_CONTEXT = {
     "matchs_2130": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "21-30"
     ],
+    "articles": [
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "article"
+    ],
 }
 
 
