@@ -16,6 +16,7 @@ Changelog
 - Nouvelle catégorie : articles
 - Fix définition Midrange
 - Article sur la roue des archétypes
+- Lien vers la roue dans match 22
 
 
 7.2.0 (2022-09-24)
