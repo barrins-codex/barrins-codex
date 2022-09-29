@@ -277,13 +277,23 @@ def display_card():
         return r.json()["scryfall_uri"]
 
     def card_link(name):
-        name = re.sub(r"\s+", u"\xA0", name)
         return flask.Markup(
             '<a target="_blank" class="card-name text-decoration-underline" '
             + 'rel="noreferrer" href="'
             + link_card(name)
             + '">'
-            + name
+            + re.sub(r"\s+", u"\xA0", name)
+            + "</a>"
+        )
+
+    def card_hover(name):
+        # Il faudra ajouter la possibilité de gérer le hover + créer le DOM
+        return flask.Markup(
+            '<a target="_blank" class="card-name text-decoration-none" '
+            + 'rel="noreferrer" href="'
+            + link_card(name)
+            + '">'
+            + re.sub(r"\s+", u"\xA0", name)
             + "</a>"
         )
 
@@ -293,6 +303,7 @@ def display_card():
         img_card=img_card,
         card_image=card_image,
         card_link=card_link,
+        card_hover=card_hover,
     )
 
 
