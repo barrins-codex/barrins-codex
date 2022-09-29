@@ -14,6 +14,7 @@ Changelog
 - Colorisation des noms de cartes et ajout d'espace insécable
 - Correction grammaire analyse 22. Raffine vs Tivit
 - Nouvelle catégorie : articles
+- Fix définition Midrange
 
 
 7.2.0 (2022-09-24)
