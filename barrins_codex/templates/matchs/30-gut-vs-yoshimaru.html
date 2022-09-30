@@ -1,0 +1,27 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Lors d'un affrontement de decks agressifs, la clé de la victoire est la
+    stabilité du développement de la menace. Cela passe principalement par la
+    qualité de construction du deck tant dans le choix des créatures que dans
+    le choix des sorts d'intéraction souvent plus importants pour le
+    déroulement de la partie. Le matchup entre ces deux decks est équilibré et
+    la victoire dépendra de la personne à assumer le plus rapidement et le plus
+    efficacement le rôle de l'agresseur.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Domino" %}
+{% set joueur2 = "Imperia86" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/md8aKrH_DyU" %}
+{% set date = "27 septembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.domino() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/yoshimaru-ever-faithful", "img/split-crop/yoshimaru, ever faithful.jpg") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/gut-true-soul-zealot", "img/split-crop/gut, true soul zealot.jpg") }}{% endblock %}
+{% block pilote2 %}{{ pilote.imperia86() }}{% endblock %}

@@ -4,8 +4,8 @@ Changelog
 8.1.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
 
+- Match 30 : Gut vs Yoshimaru
 
 8.0.0 (2022-09-29)
 ------------------

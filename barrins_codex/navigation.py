@@ -95,6 +95,7 @@ STRUCTURE = Nav(
                 Nav("Erinis, Gloom Stalker", cat="midrange", crop=True),
                 Nav("Esika, God of the Tree", cat="controle"),
                 Nav("Grist, the Hunger Tide", cat="midrange"),
+                Nav("Gut, True Soul Zealot", cat="agro", crop=True),
                 Nav("Hinata, Dawn-Crowned", cat="controle"),
                 Nav("Hogaak, Arisen Necropolis", cat="agro"),
                 Nav("Isamaru, Hound of Konda", cat="agro"),
@@ -130,6 +131,7 @@ STRUCTURE = Nav(
                 Nav("Tiamat", cat="combo"),
                 Nav("Tivit, Seller of Secrets", cat="controle"),
                 Nav("Wilson, Refined Grizzly", cat="agro", crop=True),
+                Nav("Yoshimaru, Ever faithful", cat="agro", crop=True),
             ],
         ),
         Nav(
@@ -165,6 +167,7 @@ STRUCTURE = Nav(
                 Nav("27. Jori En vs Maelstrom Wanderer", cat="21-30"),
                 Nav("28. Azusa vs Elmar-Hargilde", cat="21-30"),
                 Nav("29. Erinis vs Raff", cat="21-30"),
+                Nav("30. Gut vs Yoshimaru", cat="21-30"),
             ],
         ),
         Nav(

@@ -1,0 +1,36 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck agressif dont l'objectif est de déborder l'adversaire
+    avec la capacité de Gut.
+{% endblock %}
+{% block second_paragraph %}
+    Le plan de jeu est supporté par les meilleures cartes d'interaction des
+    couleurs ainsi que les meilleures créatures de milieu voire fin de partie.
+{% endblock %}
+{% block third_paragraph %}
+    L'ajout du blanc permet de bénéficier des créatures génératrices de jetons
+    pour réduire le coût lié à l'utilisation de Gut.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/U3x1_ijEh0yccbyIcExhyA{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/30-gut-vs-yoshimaru", "Un duel d'agro boros, l'un cherhce à agresser le plus rapidement possible, l'autre de développer un plan de jeu. Lequel remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="27 septembre 2022") }}
+    </div>
+</div>
+{% endblock %}

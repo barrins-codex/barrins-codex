@@ -1,0 +1,37 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck agressif dont l'objectif est de remplir le champ de
+    bataille de créatures légendaires pour maximiser les dégâts de Yoshimaru.
+{% endblock %}
+{% block second_paragraph %}
+    Sa valeur de mana très faible permet au deck, comme
+    {{ link("/decks/isamaru-hound-of-konda") }}, de prendre le rôle de
+    l'agresseur très rapidement et de manière assez définitive.
+{% endblock %}
+{% block third_paragraph %}
+    L'ajout du rouge permet de maximiser le nombre de légendaires à un coût
+    relativement faible et dont le potentiel destructeur est très élevé.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/jw13tkex7EyR6ytgNn4sjg{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/30-gut-vs-yoshimaru", "Un duel d'agro boros, l'un cherhce à agresser le plus rapidement possible, l'autre de développer un plan de jeu. Lequel remportera la victoire ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="27 septembre 2022") }}
+    </div>
+</div>
+{% endblock %}
