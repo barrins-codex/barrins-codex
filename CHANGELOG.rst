@@ -4,8 +4,9 @@ Changelog
 8.1.0 (unreleased)
 ------------------
 
-
 - Match 30 : Gut vs Yoshimaru
+- Correction du lien sur la page de Livio-Prava
+
 
 8.0.0 (2022-09-29)
 ------------------
