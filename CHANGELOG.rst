@@ -4,7 +4,7 @@ Changelog
 8.3.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction de la miniature de Tiamat
 
 
 8.2.2 (2022-10-08)
