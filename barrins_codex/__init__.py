@@ -93,7 +93,7 @@ for card in CARDS:
     BASE_CONTEXT["img_" + card] = flask.Markup(
         """
 <img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
-    alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1"
+    alt="{name}" class="w-100 col-md-3 float-md-end mx-md-1"
     loading="lazy" />""".format(
             # replace spaces with non-breakable spaces in card names
             name=CARDS[card]["name"].replace(" ", " "),
@@ -288,7 +288,7 @@ def display_card():
         return flask.Markup(
             """
 <img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
-    alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1"
+    alt="{name}" class="w-100 col-md-3 float-md-end mx-md-1"
     loading="lazy" />""".format(
                 # replace spaces with non-breakable spaces in card names
                 name=CARDS[_name(name)]["name"].replace(" ", " "),

@@ -78,10 +78,10 @@
 {%- endmacro %}
 
 {% macro sld_rename(crossover, old, new) -%}
-<article class="col-8 mx-auto mt-2 mb-4 d-flex">
-    <p class="col-4"><strong>{{ old }}</strong> est une carte publiée originellement dans la collection Secret Lair Drop Series lors d'un crossover avec l'univers {{ crossover }}. Lors de sa sortie en boosters, son nom change en <strong>{{ new }}</strong></p>
-    <img src="{{ img_card(new) }}" alt="{{ old }}" class="col-4 p-2" max-width="100%" loading="lazy" />
-    <img src="{{ img_card(new, False) }}" alt="{{ new }}" class="col-4 p-2" max-width="100%" loading="lazy" />
+<article class="col-8 mx-auto mt-2 mb-4 d-md-flex">
+    <p class="col-md-4"><strong>{{ old }}</strong> est une carte publiée originellement dans la collection Secret Lair Drop Series lors d'un crossover avec l'univers {{ crossover }}. Lors de sa sortie en boosters, son nom change en <strong>{{ new }}</strong></p>
+    <img src="{{ img_card(new) }}" alt="{{ old }}" class="w-100 col-md-4 p-2" max-width="100%" loading="lazy" />
+    <img src="{{ img_card(new, False) }}" alt="{{ new }}" class="w-100 col-md-4 p-2" max-width="100%" loading="lazy" />
     <div style="clear:both;"></div>
 </article>
 {%- endmacro %}
