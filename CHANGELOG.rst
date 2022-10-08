@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction de la miniature de Tiamat
+- Ajout des matches 31 à 40
 
 
 8.2.2 (2022-10-08)
