@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.3.0 (unreleased)
+8.2.1 (2022-10-08)
 ------------------
 
 - Correction du responsive de l'affichage des cartes
