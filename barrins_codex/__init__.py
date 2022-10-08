@@ -286,9 +286,18 @@ def display_card():
             )
         )
 
+    def img_card(name, front=True):
+        card = CARDS[_name(name)]
+        query = "format=image&version=border_crop"
+        if "faces" in card:
+            if not front:
+                query = query + "&face=back"
+        return f"https://api.scryfall.com/cards/{card['id']}?{query}"
+
     return dict(
         deck_name=card_name_from_page,
         img_crop=img_crop,
+        img_card=img_card,
         card_link=card_link,
         card_hover=card_link,
     )
