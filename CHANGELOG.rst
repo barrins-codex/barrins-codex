@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.3.0 (unreleased)
+8.2.2 (2022-10-08)
 ------------------
 
 - Correction da l'analyse du match 31
