@@ -4,7 +4,7 @@ Changelog
 8.3.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction da l'analyse du match 31
 
 
 8.2.1 (2022-10-08)
