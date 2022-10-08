@@ -20,6 +20,11 @@ article {
 .card-name {
     color: #C05746 !important;
 }
+.card-image {
+	padding: 0;
+	outline: 0;
+	max-width: 250px;
+}
 
 li ul {
     padding-top: : 2vh;

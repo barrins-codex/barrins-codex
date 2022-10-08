@@ -71,6 +71,31 @@ BASE_CONTEXT = {
 }
 
 
+for card in CARDS:
+    # Ajout des cartes en hover dans le contexte de base
+    BASE_CONTEXT[card] = flask.Markup(
+        """<span class="card-name" scryfallId="{scryfallId}" data-tippy-content="
+<div class='card-container'>
+<img
+    data-src='https://api.scryfall.com/cards/{scryfallId}?format=image&version=border_crop'
+    class='card-image'
+/>
+</div>">{name}</span>""".format(
+            # replace spaces with non-breakable spaces in card names
+            name=CARDS[card]["name"].replace(" ", " "),
+            scryfallId=CARDS[card]["id"],
+        )
+    )
+    # Ajout des cartes img dans le contexte de base
+    BASE_CONTEXT["img_" + card] = flask.Markup(
+        """<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=border_crop" alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1" loading="lazy" />""".format(
+            # replace spaces with non-breakable spaces in card names
+            name=CARDS[card]["name"].replace(" ", " "),
+            scryfallId=CARDS[card]["id"],
+        )
+    )
+
+
 def main():
     # print(HELPER)
     # print(BASE_CONTEXT)
@@ -252,58 +277,20 @@ def display_card():
                 query = query + "&face=back"
         return "https://api.scryfall.com/cards/" + f"{card['id']}?{query}"
 
-    def img_card(name, front=True):
-        card = CARDS[_name(name)]
-        query = "format=image&version=png"
-        if "faces" in card:
-            if not front:
-                query = query + "&face=back"
-        return f"https://api.scryfall.com/cards/{card['id']}?{query}"
-
-    def card_image(name, front=True):
-        return flask.Markup(
-            '<img src="'
-            + img_card(name, front)
-            + '" alt="'
-            + name
-            + '" class="col-md-3 float-md-end mx-md-1" loading="lazy" />'
-        )
-
-    def link_card(name):
-        fuzzy = re.sub(r"[^\w\s]", "", name).lower()
-        fuzzy = re.sub(r"\s+", "-", fuzzy)
-        url = f"https://api.scryfall.com/cards/named?exact={fuzzy}"
-        r = requests.get(url)
-        return r.json()["scryfall_uri"]
-
     def card_link(name):
         return flask.Markup(
-            '<a target="_blank" class="card-name text-decoration-underline" '
-            + 'rel="noreferrer" href="'
-            + link_card(name)
-            + '">'
-            + re.sub(r"\s+", "\xA0", name)
-            + "</a>"
-        )
-
-    def card_hover(name):
-        # Il faudra ajouter la possibilité de gérer le hover + créer le DOM
-        return flask.Markup(
-            '<a target="_blank" class="card-name text-decoration-none" '
-            + 'rel="noreferrer" href="'
-            + link_card(name)
-            + '">'
-            + re.sub(r"\s+", "\xA0", name)
-            + "</a>"
+            """<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=border_crop" alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1" loading="lazy" />""".format(
+                # replace spaces with non-breakable spaces in card names
+                name=CARDS[_name(name)]["name"].replace(" ", " "),
+                scryfallId=CARDS[_name(name)]["id"],
+            )
         )
 
     return dict(
         deck_name=card_name_from_page,
         img_crop=img_crop,
-        img_card=img_card,
-        card_image=card_image,
         card_link=card_link,
-        card_hover=card_hover,
+        card_hover=card_link,
     )
 
 
