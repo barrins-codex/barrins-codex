@@ -7,7 +7,6 @@ from urllib.parse import urlencode, urlparse
 import flask
 import jinja2.exceptions
 import pkg_resources
-import requests
 import unidecode
 from flask import make_response, render_template, request
 
@@ -80,20 +79,25 @@ for card in CARDS:
         """<span class="card-name" scryfallId="{scryfallId}" data-tippy-content="
 <div class='card-container'>
 <img
-    data-src='https://api.scryfall.com/cards/{scryfallId}?format=image&version=border_crop'
+    data-src='https://api.scryfall.com/cards/{scryfallId}?{query}'
     class='card-image'
 />
 </div>">{name}</span>""".format(
             # replace spaces with non-breakable spaces in card names
             name=CARDS[card]["name"].replace(" ", " "),
+            query="format=image&version=border_crop",
             scryfallId=CARDS[card]["id"],
         )
     )
     # Ajout des cartes img dans le contexte de base
     BASE_CONTEXT["img_" + card] = flask.Markup(
-        """<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=border_crop" alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1" loading="lazy" />""".format(
+        """
+<img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
+    alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1"
+    loading="lazy" />""".format(
             # replace spaces with non-breakable spaces in card names
             name=CARDS[card]["name"].replace(" ", " "),
+            query="format=image&version=border_crop",
             scryfallId=CARDS[card]["id"],
         )
     )
@@ -282,9 +286,13 @@ def display_card():
 
     def card_link(name):
         return flask.Markup(
-            """<img src="https://api.scryfall.com/cards/{scryfallId}?format=image&version=border_crop" alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1" loading="lazy" />""".format(
+            """
+<img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
+    alt="{name}" class="col-sm-12 col-md-3 float-md-end mx-md-1"
+    loading="lazy" />""".format(
                 # replace spaces with non-breakable spaces in card names
                 name=CARDS[_name(name)]["name"].replace(" ", " "),
+                query="format=image&version=border_crop",
                 scryfallId=CARDS[_name(name)]["id"],
             )
         )
