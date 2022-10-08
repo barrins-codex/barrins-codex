@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.2.0 (unreleased)
+8.2.0 (2022-10-08)
 ------------------
 
 - Refonte de l'affichage des cartes

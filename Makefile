@@ -18,7 +18,6 @@ codex:
 	DEBUG=True codex
 
 release:
-	make test
 	python barrins_codex/card_list.py
 	fullrelease
 	make update
