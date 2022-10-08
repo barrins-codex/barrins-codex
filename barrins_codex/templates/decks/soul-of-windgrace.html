@@ -1,0 +1,37 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck basé sur les terrains, sur le développement du mana et un plan de jeu quasi inarrêtable par des interactions de l'adversaire.  La force des jeux Land est aussi leur faiblesse : leur immobilisme peut les mener à leur perte face à des decks Contrôle ou Tempo.
+{% endblock %}
+{% block second_paragraph %}
+    Le plan de jeu {{ valakutthemoltenpinnacle }} est le moyen principal de gagner la partie. C'est une stratégie lente qui est accélérée par les différentes capacités de Soul of Windgrace.
+{% endblock %}
+{% block third_paragraph %}
+    Un grand merci à bitzelberg qui a accepté de nous donner sa liste pour la jouer dans cette série.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+<a class="btn btn-secondary mt-4" role="button" target="_blank"
+    href="https://www.moxfield.com/decks/0zxZ1ax2e0a3phLIfobZjA">
+    Decklist par bitzelberg
+</a>
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/31-raffine-vs-soul-of-windgrace", "Raffine affronte un gérénal de Dominaria United. Quel est l'impact des sorties sur la stabilité d'un deck ?") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="4 octobre 2022") }}
+    </div>
+</div>
+{% endblock %}

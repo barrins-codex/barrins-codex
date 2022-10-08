@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Refonte de l'affichage des cartes
+- Match 31 : Raffine vs Soul of Windgrace
 
 
 8.1.0 (2022-09-30)

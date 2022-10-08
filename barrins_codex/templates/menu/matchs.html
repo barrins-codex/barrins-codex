@@ -4,6 +4,13 @@
         <li>{{ link("/matchs", name="Liste des matchs",  _class="dropdown-item") }}</li>
         <li><hr class="dropdown-divider"></li>
         <!--# Small screens
+            # Matchs 31 à 40
+            #-->
+        <div class="d-block d-md-none">
+        <li><a class="dropdown-item disabled">31 à 40</a></li>
+        {{ liste(matchs_3140,"px-2") }}
+        </div>
+        <!--# Small screens
             # Matchs 21 à 30
             #-->
         <div class="d-block d-md-none">
@@ -45,6 +52,12 @@
             <a href="#" class="dropdown-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">21 à 30</a>
             <ul class="submenu dropdown-menu">
                 {{ liste(matchs_2130) }}
+            </ul>
+        </li>
+        <li class="d-none d-md-block">
+            <a href="#" class="dropdown-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">31 à 40</a>
+            <ul class="submenu dropdown-menu">
+                {{ liste(matchs_3140) }}
             </ul>
         </li>
     </ul>

@@ -1,0 +1,26 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Tempo a beaucoup de qualités : des créatures de bonne qualité, des moyens
+    corrects pour les protéger et pour ralentir le développement de
+    l'adversaire. Malgré tant de qualités, tempo a un défaut majeur : les jeux
+    qui se développent sans intéragir. Ainsi, comme Soul of Windgrace cherche à
+    développer sa production de mana, le match up semble tendre en faveur de
+    Soul of Wingrace.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/hlh-CYsdCUY" %}
+{% set date = "4 octobre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/soul-of-windgrace") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/raffine-scheming-seer") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}
