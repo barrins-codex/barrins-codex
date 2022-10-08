@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction du responsive de l'affichage des cartes
+- Correction de l'affichage des cartes renommées après SLD
 
 
 8.2.0 (2022-10-08)

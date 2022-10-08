@@ -7,6 +7,7 @@ from urllib.parse import urlencode, urlparse
 import flask
 import jinja2.exceptions
 import pkg_resources
+import requests
 import unidecode
 from flask import make_response, render_template, request
 
@@ -298,6 +299,13 @@ def display_card():
         )
 
     def img_card(name, front=True):
+        if _name(name) not in CARDS.keys():
+            fuzzy = re.sub(r"[^\w\s]", "", name)
+            fuzzy = re.sub(r"\s+", "-", fuzzy)
+            url = f"https://api.scryfall.com/cards/search?q={fuzzy}"
+            r = requests.get(url)
+            card = r.json()["data"][0]
+            return card["image_uris"]["border_crop"]
         card = CARDS[_name(name)]
         query = "format=image&version=border_crop"
         if "faces" in card:
