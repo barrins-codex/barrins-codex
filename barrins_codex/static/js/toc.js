@@ -27,7 +27,7 @@ function showhideTOC() {
     let h2 = start_h2, h3 = start_h3, h4 = start_h4;
     for (var i = 0; i < toBeTOCced.length; i++) {
         var tmp = document.createElement('a');
-        tmp.innerHTML = toBeTOCced[i].innerHTML.trim();
+        tmp.innerHTML = toBeTOCced[i].textContent.trim();
         tmp.className = 'page text-reset';
         z.appendChild(tmp);
         if (toBeTOCced[i].nodeName == 'H2') {
