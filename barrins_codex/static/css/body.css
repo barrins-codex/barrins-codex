@@ -86,3 +86,32 @@ article div.warning {
 .warning .h3 a {
     color: #911419 !important;
 }
+
+/****************
+ *TABLE MATIERES*
+ **************** */
+ .toc-down::after {
+     font-family: "FontAwesome";
+     font-weight: bold;
+     font-size: smaller;
+     margin-left: 0.5em;
+     content: "\f063";
+ }
+
+ .toc-up::after {
+     font-family: "FontAwesome";
+     font-weight: bold;
+     font-size: smaller;
+     margin-left: 0.5em;
+     content: "\f062";
+ }
+
+ .indent {
+     padding-left: 2em;
+ }
+ .extraindent {
+     padding-left: 3.5em;
+ }
+ .extraextraindent {
+     padding-left: 4.5em;
+ }
