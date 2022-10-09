@@ -6,3 +6,32 @@
     <div class="centered"><h1 class="fs-1">{% block titre %}{% endblock %}</h1></div>
 </div>
 {% endblock %}
+
+{% block extra %}
+<style>
+    h2[id]:hover::after,
+    h3[id]:hover::after {
+        font-family: "FontAwesome";
+        font-weight: bold;
+        font-size: smaller;
+        content: "\f0c1";
+        margin-left: 0.5em;
+        color: grey;
+    }
+</style>
+
+<script type="text/javascript">
+    function link(element) {
+        let href = window.location.href.split("#")[0]
+        let anchor = element.id
+        return href + "#" + anchor;
+    }
+    document.querySelectorAll("h2[id],h3[id],h4[id],h5[id]").forEach(function(element){
+        element.addEventListener('click', function(e){
+            let url = link(element);
+            navigator.clipboard.writeText(url);
+            e.stopPropagation();
+        });
+    });
+</script>
+{% endblock %}
