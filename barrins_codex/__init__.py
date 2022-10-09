@@ -85,7 +85,7 @@ for card in CARDS:
 />
 </div>">{name}</span>""".format(
             # replace spaces with non-breakable spaces in card names
-            name=CARDS[card]["name"].replace(" ", " "),
+            name=CARDS[card]["name"].replace(" ", "&#xA0;"),
             query="format=image&version=border_crop",
             scryfallId=CARDS[card]["id"],
         )

@@ -12,6 +12,7 @@ Changelog
 - Accessibility - Liens sur logos trop petits
 - Accessibility - First Painful Content géré en lazy loading
 - SEO - Links are not crawlable
+- Correction des espaces insécables pour les noms de cartes
 
 
 8.2.2 (2022-10-08)
