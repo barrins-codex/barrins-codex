@@ -13,6 +13,7 @@ Changelog
 - Accessibility - First Painful Content géré en lazy loading
 - SEO - Links are not crawlable
 - Correction des espaces insécables pour les noms de cartes
+- Ajout d'un système de sous-pages pour les archétypes
 
 
 8.2.2 (2022-10-08)
