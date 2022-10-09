@@ -9,6 +9,7 @@ Changelog
 - Ajout logo Github dans le footer
 - Accessibility - Alt text de la bannière
 - Accessibility - ID identiques dans le menu
+- Accessibility - Liens sur logos trop petits
 
 
 8.2.2 (2022-10-08)
