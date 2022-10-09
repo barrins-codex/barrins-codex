@@ -49,11 +49,11 @@ li ul {
     border: 1px solid #DC8C46;
     clear: both;
 }
-.tip h3,
-.tip h3 a {
+.tip .h3,
+.tip .h3 a {
     color: #583410 !important;
 }
-.tip h3::before {
+.tip .h3::before {
     font-family: "FontAwesome";
     font-weight: 900;
     content: "\f0eb";
@@ -74,7 +74,7 @@ article div.warning {
     color: #222831;
     clear: both;
 }
-.warning h3::before {
+.warning .h3::before {
     font-family: "FontAwesome";
     font-weight: 900;
     content: "\f071";
@@ -82,7 +82,7 @@ article div.warning {
     margin-right: 0.5em;
     color: #911419;
 }
-.warning h3,
-.warning h3 a {
+.warning .h3,
+.warning .h3 a {
     color: #911419 !important;
 }
