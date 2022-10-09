@@ -14,6 +14,7 @@ Changelog
 - SEO - Links are not crawlable
 - Correction des espaces insécables pour les noms de cartes
 - Ajout d'un système de sous-pages pour les archétypes
+- Ajout d'un système de sous-pages pour les matchs
 
 
 8.2.2 (2022-10-08)
