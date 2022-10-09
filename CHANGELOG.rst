@@ -8,6 +8,7 @@ Changelog
 - Ajout des matches 31 à 40
 - Ajout logo Github dans le footer
 - Accessibility - Alt text de la bannière
+- Accessibility - ID identiques dans le menu
 
 
 8.2.2 (2022-10-08)
