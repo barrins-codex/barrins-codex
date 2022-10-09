@@ -21,9 +21,9 @@ article {
     color: #C05746 !important;
 }
 .card-image {
-	padding: 0;
-	outline: 0;
-	max-width: 250px;
+    padding: 0;
+    outline: 0;
+    max-width: 250px;
 }
 
 li ul {
@@ -38,11 +38,20 @@ li ul {
     clear: both;
 }
 
+/****************
+ *      TIP     *
+ **************** */
 .tip {
     padding: 0.5em 2em;
     border-radius: 1em;
     margin: 1.5em;
+    background: #F7E3D1;
+    border: 1px solid #DC8C46;
     clear: both;
+}
+.tip h3,
+.tip h3 a {
+    color: #583410 !important;
 }
 .tip h3::before {
     font-family: "FontAwesome";
@@ -50,17 +59,4 @@ li ul {
     content: "\f0eb";
     font-size: 1.5em;
     margin-right: 0.5em;
-}
-.tip {
-    background: #F7E3D1;
-    border: 1px solid #DC8C46;
-}
-.tip h3 {
-    color: #583410 !important;
-}
-.tip h3 a {
-    color: #583410 !important;
-}
-.tip h3::before {
-    color: #583410;
 }
