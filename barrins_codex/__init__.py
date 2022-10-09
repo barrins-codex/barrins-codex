@@ -285,19 +285,6 @@ def display_card():
                 query = query + "&face=back"
         return "https://api.scryfall.com/cards/" + f"{card['id']}?{query}"
 
-    def card_link(name):
-        return flask.Markup(
-            """
-<img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
-    alt="{name}" class="col-md-3 float-md-end mx-md-1" max-width="100%"
-    loading="lazy" />""".format(
-                # replace spaces with non-breakable spaces in card names
-                name=CARDS[_name(name)]["name"].replace(" ", " "),
-                query="format=image&version=border_crop",
-                scryfallId=CARDS[_name(name)]["id"],
-            )
-        )
-
     def img_card(name, front=True):
         if _name(name) not in CARDS.keys():
             fuzzy = re.sub(r"[^\w\s]", "", name)
@@ -312,6 +299,19 @@ def display_card():
             if not front:
                 query = query + "&face=back"
         return f"https://api.scryfall.com/cards/{card['id']}?{query}"
+
+    def card_link(name, phrase=None):
+        return flask.Markup(
+            """
+<img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
+    alt="{name}" class="col-md-3 float-md-end mx-md-1" max-width="100%"
+    loading="lazy" />""".format(
+                # replace spaces with non-breakable spaces in card names
+                name=phrase or CARDS[_name(name)]["name"].replace(" ", " "),
+                query="format=image&version=border_crop",
+                scryfallId=CARDS[_name(name)]["id"],
+            )
+        )
 
     def card_hover(name, phrase=None):
         return flask.Markup(
