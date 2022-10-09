@@ -10,6 +10,7 @@ Changelog
 - Accessibility - Alt text de la bannière
 - Accessibility - ID identiques dans le menu
 - Accessibility - Liens sur logos trop petits
+- Accessibility - First Painful Content géré en lazy loading
 
 
 8.2.2 (2022-10-08)
