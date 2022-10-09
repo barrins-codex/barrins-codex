@@ -39,6 +39,8 @@ function showhideTOC() {
             tmp.className += ' indent';
         }
         if (toBeTOCced[i].nodeName == 'H4') {
+            tmp.innerHTML = String.fromCharCode(h2-1) + "." + String.fromCharCode(h3-1) + "." + String.fromCharCode(h4) + " - " + tmp.innerHTML;
+            h4++;
             tmp.className += ' extraindent';
         }
         if (toBeTOCced[i].nodeName == 'H5') {
