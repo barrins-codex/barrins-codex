@@ -21,9 +21,6 @@
 <head>
     <!-- Data Crawling -->
     <meta name="robots" content="all">
-    <!-- General Purpose tags -->
-    <meta charset="UTF-8">
-    <meta name="keywords" content="Magic: the Gathering, MtG, Duel Commander, Commander, Duel, EDH">
     <!-- Preload -->
     {% block preload %}
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/header.css') }}" as="style">
@@ -32,21 +29,24 @@
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/fonts.css') }}" as="style">
     {% endblock %}
     <!-- OG handling -->
-    <meta property="og:title" content="{{ title() }}">
+    <meta property="og:title" content="{{ title() }}" />
     <meta name="description" content="Ressources stratégiques pour le Duel Commander">
     <meta property="og:description"
-        content="{{ self.ogdesc()|default('')|trim|striptags }}">
-    <meta property="og:image" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')|trim|striptags) }}">
-    <meta property="og:image:url" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')|trim|striptags) }}">
+        content="{{ self.ogdesc()|default('')|trim|striptags }}" />
+    <meta property="og:image" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')|trim|striptags) }}" />
+    <meta property="og:image:url" content="{{ og_image|default(url_for('static', filename='img/codex.jpg')|trim|striptags) }}" />
     {% if og_image_dimensions %}
-    <meta property="og:image:width" content="{{ og_image_dimensions[0] }}">
-    <meta property="og:image:height" content="{{ og_image_dimensions[1] }}">
+    <meta property="og:image:width" content="{{ og_image_dimensions[0] }}" />
+    <meta property="og:image:height" content="{{ og_image_dimensions[1] }}" />
     {% endif %}
+    <!-- General Purpose tags -->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Magic: the Gathering, MtG, Duel Commander, Commander, Duel, EDH">
     <!-- Icon -->
     <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
     <link rel="icon" href="{{ url_for('static', filename='img/icons/codex.svg') }}">
     <!-- Style Sheets -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Title -->
     <title>{{ title() }}</title>
     <!-- Boostrap CSS -->
