@@ -36,7 +36,7 @@ Classifier un deck en Duel Commander
 {{ separateur() }}
 <div class="col-12 bg-header py-4 mt-1 mb-1" id="macrotypes">
     <div class="col-8 ms-auto me-auto">
-        <h2>La Classification en macrotypes</h2>
+        <h2 id="h2macrotypes">La Classification en macrotypes</h2>
     </div>
 </div>
 <article class="col-8 ms-auto me-auto mb-2">
@@ -91,7 +91,7 @@ Classifier un deck en Duel Commander
 {{ separateur() }}
 <div class="col-12 bg-header py-4 mt-1 mb-1" id="macrotypes">
     <div class="col-8 ms-auto me-auto">
-        <h2>La Classification en archétypes</h2>
+        <h2 id="h2archetypes">La Classification en archétypes</h2>
     </div>
 </div>
 <article class="col-8 ms-auto me-auto mb-2">
@@ -103,10 +103,10 @@ Classifier un deck en Duel Commander
         Voici les principaux archétypes :
     </p>
     <ol>
-        <li id="archetype_swarm">
-            <p>
-                <strong>Swarm</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_swarm" class="fs-6">
+                <strong>Swarm</strong>
+            </h3>
             {{ img_thaliaguardianofthraben }}
             <p>
                 Catégorie de deck Agro qui se caractérise par :
@@ -144,11 +144,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_red_agro">
-
-            <p>
-                <strong>Red Agro</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_red_agro" class="fs-6">
+                <strong>Red Agro</strong>
+            </h3>
             {{ img_goblinchainwhirler }}
             <p>
                 Catégorie de deck Agro qui se caractérise par :
@@ -189,10 +188,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_linear_agro">
-            <p>
-                <strong>Agro Linéaire</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_linear_agro" class="fs-6">
+                <strong>Agro Linéaire</strong>
+            </h3>
             {{ img_cavernofsouls }}
             <p>
                 Catégorie de deck Agro qui se caractérise par :
@@ -235,10 +234,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_suicide">
-            <p>
+        <li>
+            <h3 id="archetype_suicide" class="fs-6">
                 <strong>Suicide</strong>
-            </p>
+            </h3>
             {{ img_carnophage }}
             <p>
                 Catégorie de deck Agro (appelée <em>Fish</em> par Patrick
@@ -277,10 +276,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_tempo">
-            <p>
-                <strong>Tempo</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_tempo" class="fs-6">
+                <strong>Tempo</strong>
+            </h3>
             {{ img_delverofsecrets }}
             <p>
                 Catégorie de deck Agro-Contrôle, parfois assimilée aux decks
@@ -304,10 +303,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_rock">
-            <p>
-                <strong>Rock</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_rock" class="fs-6">
+                <strong>Rock</strong>
+            </h3>
             {{ img_abruptdecay }}
             <p>
                 Catégorie de deck Midrange qui se caractérise par :
@@ -349,10 +348,10 @@ Classifier un deck en Duel Commander
             </ul>
             <div class="clear"></div>
         </li>
-        <li id="archetype_pure_midrange">
-            <p>
-                <strong>Midrange Pur</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_pure_midrange" class="fs-6">
+                <strong>Midrange Pur</strong>
+            </h3>
             {{ img_knightofthereliquary }}
             <p>
                 Catégorie de deck Midrange qui se caractérise par :
@@ -392,10 +391,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_nonblue_midrange">
-            <p>
-                <strong>Midrange Non-Bleu</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_nonblue_midrange" class="fs-6">
+                <strong>Midrange Non-Bleu</strong>
+            </h3>
             {{ img_graymerchantofasphodel }}
             <p>
                 Catégorie de deck Midrange qui se caractérise par :
@@ -440,10 +439,10 @@ Classifier un deck en Duel Commander
             </div>
             <div class="clear"></div>
         </li>
-        <li id="archetype_draw_go">
-            <p>
-                <strong>Draw Go</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_draw_go" class="fs-6">
+                <strong>Draw Go</strong>
+            </h3>
             {{ img_crypticcommand }}
             <p>
                 Catégorie de deck Contrôle qui se caractérise par :
@@ -477,10 +476,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_tapout">
-            <p>
-                <strong>Tapout</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_tapout" class="fs-6">
+                <strong>Tapout</strong>
+            </h3>
             {{ img_karnliberated }}
             <p>
                 Catégorie de deck Contrôle qui se caractérise par :
@@ -508,10 +507,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_prison">
-            <p>
-                <strong>Prison</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_prison" class="fs-6">
+                <strong>Prison</strong>
+            </h3>
             {{ img_stasis }}
             <p>
                 Catégorie de deck Contrôle qui se caractérise par :
@@ -539,10 +538,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_pure_control_combo">
-            <p>
-                <strong>Contrôle-Combo Pur</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_pure_control_combo" class="fs-6">
+                <strong>Contrôle-Combo Pur</strong>
+            </h3>
             {{ img_croprotation }}
             <p>
                 Catégorie de deck Contrôle qui se caractérise par :
@@ -585,10 +584,10 @@ Classifier un deck en Duel Commander
             </ul>
             <div class="clear"></div>
         </li>
-        <li id="archetype_ramp">
-            <p>
-                <strong>Ramp</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_ramp" class="fs-6">
+                <strong>Ramp</strong>
+            </h3>
             {{ img_primevaltitan }}
             <p>
                 Catégorie de deck Contrôle qui se caractérise par :
@@ -625,10 +624,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_big_spell">
-            <p>
-                <strong>Big Spell</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_big_spell" class="fs-6">
+                <strong>Big Spell</strong>
+            </h3>
             {{ img_livingend }}
             <p>
                 Catégorie de deck Combo qui se caractérise par :
@@ -695,10 +694,10 @@ Classifier un deck en Duel Commander
             </div>
             <div class="clear"></div>
         </li>
-        <li id="archetype_storm_combo">
-            <p>
-                <strong>Combo Storm</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_storm_combo" class="fs-6">
+                <strong>Combo Storm</strong>
+            </h3>
             {{ img_grapeshot }}
             <p>
                 Catégorie de deck Combo qui se caractérise par :
@@ -726,10 +725,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_traditional_combo">
-            <p>
-                <strong>Combo Traditionnel</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_traditional_combo" class="fs-6">
+                <strong>Combo Traditionnel</strong>
+            </h3>
             {{ img_paintersservant }}
             <p>
                 Catégorie de deck Combo qui se caractérise par :
@@ -776,10 +775,10 @@ Classifier un deck en Duel Commander
             </div>
             <div class="clear"></div>
         </li>
-        <li id="archetype_lava_spike">
-            <p>
-                <strong>Lava Spike</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_lava_spike" class="fs-6">
+                <strong>Lava Spike</strong>
+            </h3>
             {{ img_lavaspike }}
             <p>
                 Catégorie de deck Agro-Combo qui se caractérise par :
@@ -814,10 +813,10 @@ Classifier un deck en Duel Commander
             </ul>
             <div class="clear"></div>
         </li>
-        <li id="archetype_wave_combo">
-            <p>
-                <strong>Wave Combo</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_wave_combo" class="fs-6">
+                <strong>Wave Combo</strong>
+            </h3>
             {{ img_bloodghast }}
             <p>
                 Catégorie de deck Agro-Combo qui se caractérise par :
@@ -852,10 +851,10 @@ Classifier un deck en Duel Commander
             </p>
             <div class="clear"></div>
         </li>
-        <li id="archetype_voltron">
-            <p>
-                <strong>Voltron</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_voltron" class="fs-6">
+                <strong>Voltron</strong>
+            </h3>
             {{ img_glistenerelf }}
             <p>
                 Catégorie de deck Agro-Combo qui se caractérise par :
@@ -908,10 +907,10 @@ Classifier un deck en Duel Commander
             </div>
             <div class="clear"></div>
         </li>
-        <li id="archetype_creature_combo">
-            <p>
-                <strong>Créature Combo</strong> :
-            </p>
+        <li>
+            <h3 id="archetype_creature_combo" class="fs-6">
+                <strong>Créature Combo</strong>
+            </h3>
             {{ img_vizierofremedies }}
             <p>
                 Catégorie de deck Agro-Combo qui se caractérise par :
@@ -977,10 +976,10 @@ Classifier un deck en Duel Commander
             </div>
             <div class="clear"></div>
         </li>
-        <li id="archetype_acc">
-            <p>
+        <li>
+            <h3 id="archetype_acc" class="fs-6">
                 <strong>Agro-Contrôle-Combo</strong>
-            </p>
+            </h3>
             {{ img_psychatog }}
             <p>
                 Catégorie et macrotype à part entière qui se caractérise par :
