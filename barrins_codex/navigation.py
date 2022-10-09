@@ -177,6 +177,7 @@ STRUCTURE = Nav(
             index=False,
             children=[
                 Nav("Classifier un deck", cat="article"),
+                Nav("Construire un deck", cat="article"),
             ],
         ),
     ],
