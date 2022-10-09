@@ -11,6 +11,7 @@ Changelog
 - Accessibility - ID identiques dans le menu
 - Accessibility - Liens sur logos trop petits
 - Accessibility - First Painful Content géré en lazy loading
+- SEO - Links are not crawlable
 
 
 8.2.2 (2022-10-08)
