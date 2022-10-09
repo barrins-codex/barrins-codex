@@ -60,3 +60,29 @@ li ul {
     font-size: 1.5em;
     margin-right: 0.5em;
 }
+
+
+/****************
+ *   WARNING    *
+ **************** */
+article div.warning {
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    margin: 1.5em;
+    background: #E48586;
+    border: 1px solid #911419;
+    color: #222831;
+    clear: both;
+}
+.warning h3::before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f071";
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color: #911419;
+}
+.warning h3,
+.warning h3 a {
+    color: #911419 !important;
+}

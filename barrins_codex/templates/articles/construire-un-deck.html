@@ -3,3 +3,35 @@
 {% block titre %}
 Construire un deck en Duel Commander
 {% endblock %}
+
+{% block article %}
+<article class="col-8 ms-auto me-auto my-4">
+    <p class="text-center fst-italic">
+        Cet article se base en partie sur le contenu produit par Crimelune et
+        partagé de manière publique sur
+        {{ external("https://discord.com/channels/625811727610675215/839167202162769920/839600482371764324", "<i class='fa-brands fa-discord'></i> Discord") }}.
+    </p>
+    <p>
+        {% block ogdesc %}
+        Cet article a été rédigé à destination de toute personne souhaitant
+        construire un deck en Duel Commander. Il s'agit d'un exercice complexe
+        car tout le monde n'a pas les mêmes connaissances pratique ou
+        théoriques. Les termes utilisés par des personnes expérimentées ou
+        appartenant à un cercle de personne spécifique ont été paraphrasés pour
+        rendre le contenu lisible par la plus grande majorité.
+        {% endblock %}
+    </p>
+    <div class="warning">
+        <h3>
+            Un sujet en constante évolution
+        </h3>
+        <p>
+            Les informations rédigées ici peuvent devenir incomplètes ou
+            partiellement fausse. Dans ce cas, n'hésitez pas à nous l'indiquer
+            en utilisant le formulaire présent en bas de chacune des pages de
+            ce codex.
+        </p>
+    </div>
+    <div class="clear"></div>
+</article>
+{% endblock %}
