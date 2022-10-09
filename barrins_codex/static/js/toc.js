@@ -23,7 +23,8 @@ function showhideTOC() {
     var toBeTOCced = document.querySelectorAll('h2[id],h3[id],h4[id],h5[id]');
     if (toBeTOCced.length < 2) return false;
 
-    let h2 = 49, h3 = 65, h4 = 97;
+    let start_h2 = 49, start_h3 = 65, start_h4 = 97;
+    let h2 = start_h2, h3 = start_h3, h4 = start_h4;
     for (var i = 0; i < toBeTOCced.length; i++) {
         var tmp = document.createElement('a');
         tmp.innerHTML = toBeTOCced[i].innerHTML.trim();
@@ -31,11 +32,11 @@ function showhideTOC() {
         z.appendChild(tmp);
         if (toBeTOCced[i].nodeName == 'H2') {
             tmp.innerHTML = String.fromCharCode(h2) + " - " + tmp.innerHTML;
-            h2 ++;
+            h2 ++; h3 = start_h3; h4 = start_h4;
         }
         if (toBeTOCced[i].nodeName == 'H3') {
             tmp.innerHTML = String.fromCharCode(h2-1) + "." + String.fromCharCode(h3) + " - " + tmp.innerHTML;
-            h3++;
+            h3++; h4 = start_h4;
             tmp.className += ' indent';
         }
         if (toBeTOCced[i].nodeName == 'H4') {
