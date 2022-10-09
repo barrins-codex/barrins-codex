@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.2.3 (unreleased)
+8.2.3 (2022-10-09)
 ------------------
 
 - Correction de la miniature de Tiamat
