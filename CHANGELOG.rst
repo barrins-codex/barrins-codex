@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.3.0 (unreleased)
+8.2.3 (unreleased)
 ------------------
 
 - Correction de la miniature de Tiamat
