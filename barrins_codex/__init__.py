@@ -313,12 +313,28 @@ def display_card():
                 query = query + "&face=back"
         return f"https://api.scryfall.com/cards/{card['id']}?{query}"
 
+    def card_hover(name, phrase=None):
+        return flask.Markup(
+            """<span class="card-name" scryfallId="{scryfallId}" data-tippy-content="
+<div class='card-container'>
+<img
+    data-src='https://api.scryfall.com/cards/{scryfallId}?{query}'
+    class='card-image'
+/>
+</div>">{name}</span>""".format(
+                # replace spaces with non-breakable spaces in card names
+                name=phrase or CARDS[_name(name)]["name"].replace(" ", " "),
+                query="format=image&version=border_crop",
+                scryfallId=CARDS[_name(name)]["id"],
+            )
+        )
+
     return dict(
         deck_name=card_name_from_page,
         img_crop=img_crop,
         img_card=img_card,
         card_link=card_link,
-        card_hover=card_link,
+        card_hover=card_hover,
     )
 
 
