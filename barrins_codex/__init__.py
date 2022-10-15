@@ -250,12 +250,22 @@ def linker():
             pass
         return "Barrin's Codex"
 
+    def season():
+        season = "2"
+        try:
+            if HELPER.get(path, {}).get("self").path != "":
+                season = HELPER.get(path, {}).get("self").season
+        except AttributeError:
+            pass
+        return f"season_{season}"
+
     return dict(
         url=_url,
         link=link,
         title=title,
         name=name,
         page_name=page_name,
+        season=season,
         top=top,
         next=next,
         prev=prev,
