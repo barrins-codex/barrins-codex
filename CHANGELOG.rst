@@ -4,7 +4,7 @@ Changelog
 8.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction de l'affichage des cartes bannies
 
 
 8.2.3 (2022-10-09)
