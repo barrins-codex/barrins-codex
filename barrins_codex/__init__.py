@@ -242,13 +242,13 @@ def linker():
         return "Barrin's Codex"
 
     def page_name():
+        name = "Barrin's Codex"
         try:
             if HELPER.get(path, {}).get("self").path != "":
                 name = HELPER.get(path, {}).get("self").name
-                return f"{name}"
         except AttributeError:
             pass
-        return "Barrin's Codex"
+        return f"{name}"
 
     def season():
         season = "2"
