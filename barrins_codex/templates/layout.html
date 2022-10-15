@@ -21,6 +21,11 @@
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/body.css') }}" as="style">
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/footer.css') }}" as="style">
     <link rel="stylesheet preload" href="{{ url_for('static', filename='css/fonts.css') }}" as="style">
+    {% if season() == "season_1" -%}
+    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/body_season_1.css') }}" as="style">
+    {% elif season() == "season_2" %}
+    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/body_season_2.css') }}" as="style">
+    {% endif %}
     {% endblock %}
     <!-- OG handling -->
     <meta property="og:title" content="{{ title() }}" />
@@ -73,7 +78,7 @@
             {{ next() }}
         </nav>
         {% endblock %}
-        <div class="d-flex flex-row justify-content-around align-items-center py-3" style="background-color: #99A5C5 !important;width:100%">
+        <div class="d-flex flex-row justify-content-around align-items-center py-3" style="background-color: var(--main-bg-header) !important;width:100%">
             <p class="col-4">
                 <strong>Barrin's Codex</strong> est un contenu de fan non officiel
                 <br>autorisé dans le cadre de la Politique des contenus de fans.
