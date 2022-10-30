@@ -32,7 +32,11 @@ else:
     CARDS = card_list.build()
 
 BASE_CONTEXT = {
-    "W": "⚪", "U": "🔵", "B": "⚫", "R": "🔴", "G": "🟢",
+    "W": "⚪",
+    "U": "🔵",
+    "B": "⚫",
+    "R": "🔴",
+    "G": "🟢",
     "version": version,
     "pilotes_habitue": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "habitue"

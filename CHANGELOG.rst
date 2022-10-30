@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.2.4 (unreleased)
+8.3.0 (2022-10-30)
 ------------------
 
 - Correction de l'affichage des cartes bannies
