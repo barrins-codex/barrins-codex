@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Correction de l'affichage des cartes bannies
+- MODULE - Réduction du nombre d'instructions
 
 
 8.2.3 (2022-10-09)
