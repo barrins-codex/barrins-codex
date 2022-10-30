@@ -7,6 +7,7 @@ Changelog
 - Correction de l'affichage des cartes bannies
 - MODULE - Réduction du nombre d'instructions
 - PILOTE - Ajout d'Alexandre « OneSauk »
+- CONTEXTE - Ajout des symboles de mana
 
 
 8.2.3 (2022-10-09)
