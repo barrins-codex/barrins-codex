@@ -8,6 +8,7 @@ Changelog
 - MODULE - Réduction du nombre d'instructions
 - PILOTE - Ajout d'Alexandre « OneSauk »
 - CONTEXTE - Ajout des symboles de mana
+- MATCH 32 - Ajout de la page du match
 
 
 8.2.3 (2022-10-09)

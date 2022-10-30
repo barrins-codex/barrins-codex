@@ -1,0 +1,29 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+    Les deux decks ont la capacité de battre l'autre sur différents aspects. Le
+    plan de jeu horizontal de Grenzo lui permet de déborder Shanna et des
+    cartes comme {{ bloodmoon }} lui permettent de rajouter des axes de
+    pression supplémentaires. La qualité des créatures de Shanna lui permet
+    d'assurer un début de partie de qualité. Le swap sur {{ lagrellathemagpie }}
+    permet d'améliorer ses chances face à un deck qui cherche à le déborder. Au
+    final, le matchup se résume grandement à la possibilité de Grenzo de
+    développer son combo et donc de mettre fin à la partie en ignorant les
+    menaces de son adversaire.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "OneSauk" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/0B40qpVoRmo" %}
+{% set date = "25 octobre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.onesauk() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/grenzo-dungeon-warden") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/shanna-purifying-blade") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}
