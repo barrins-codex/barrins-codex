@@ -11,6 +11,7 @@ Changelog
 - MATCH 32 - Ajout de la page du match
 - MATCH 32 - Ajout des decks
 - MATCH 32 - MAJ des fiches pilotes
+- GRENZO - Ajout du primer de Ejell de février 2021
 
 
 8.2.3 (2022-10-09)
