@@ -66,6 +66,7 @@ STRUCTURE = Nav(
             "🧍 Pilotes",
             index=True,
             children=[
+                Nav("Alexandre « OneSauk »", cat="invite"),
                 Nav("Anaël « Aliquanto »", cat="invite"),
                 Nav("Bastien « threem »", cat="invite"),
                 Nav("Damien « eventwin »", cat="invite"),
