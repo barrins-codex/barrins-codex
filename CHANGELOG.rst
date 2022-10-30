@@ -9,6 +9,7 @@ Changelog
 - PILOTE - Ajout d'Alexandre « OneSauk »
 - CONTEXTE - Ajout des symboles de mana
 - MATCH 32 - Ajout de la page du match
+- MATCH 32 - Ajout des decks
 
 
 8.2.3 (2022-10-09)
