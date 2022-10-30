@@ -11,11 +11,17 @@
 ### DECKS ###
 {% block decks %}
 <div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/grenzo-dungeon-warden") }}
+    </div>
 </div>
 {% endblock %}
 
 ### MATCHS ###
 {% block matchs %}
 <div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/32-grenzo-vs-shanna") }}
+    </div>
 </div>
 {% endblock %}
