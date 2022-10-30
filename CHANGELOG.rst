@@ -4,7 +4,7 @@ Changelog
 8.3.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- GRENZO - Ajout d'un séparateur manquant
 
 
 8.3.0 (2022-10-30)
