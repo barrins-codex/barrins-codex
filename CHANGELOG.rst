@@ -1,7 +1,27 @@
 Changelog
 =========
 
-8.2.3 (unreleased)
+8.3.1 (unreleased)
+------------------
+
+- GRENZO - Ajout d'un séparateur manquant
+- INDEX - Nettoyage du code en trop de la page
+
+
+8.3.0 (2022-10-30)
+------------------
+
+- Correction de l'affichage des cartes bannies
+- MODULE - Réduction du nombre d'instructions
+- PILOTE - Ajout d'Alexandre « OneSauk »
+- CONTEXTE - Ajout des symboles de mana
+- MATCH 32 - Ajout de la page du match
+- MATCH 32 - Ajout des decks
+- MATCH 32 - MAJ des fiches pilotes
+- GRENZO - Ajout du primer de Ejell de février 2021
+
+
+8.2.3 (2022-10-09)
 ------------------
 
 - Correction de la miniature de Tiamat
@@ -13,6 +33,8 @@ Changelog
 - Accessibility - First Painful Content géré en lazy loading
 - SEO - Links are not crawlable
 - Correction des espaces insécables pour les noms de cartes
+- Ajout d'un système de sous-pages pour les archétypes
+- Ajout d'un système de sous-pages pour les matchs
 
 
 8.2.2 (2022-10-08)

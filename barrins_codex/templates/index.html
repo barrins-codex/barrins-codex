@@ -5,21 +5,21 @@
     alt="Bannière - Barrin, Tolarian Archmage">
 {% endblock %}
 
-{% block ogdesc %}
-    Les ressources présentées ici sont issues d'une série de livestream
-    organisée par la chaine Les Chroniques du Commander. L'objectif est que des
-    joueuses et des joueurs habitué·e·s du format puissent présenter des decks
-    qui peuvent être rencontrés en tournoi et proposent une analyse du deck et
-    d'un matchup en particulier.
-{% endblock %}
 
 {% block content %}
 <p>
-    {{ self.ogdesc() }}
+    {% block ogdesc %}
+        Les ressources présentées ici sont issues d'une série de livestream
+        organisée par la chaine Les Chroniques du Commander. L'objectif est que
+        des joueuses et des joueurs habitué·e·s du format puissent présenter
+        des decks qui peuvent être rencontrés en tournoi et proposent une
+        analyse du deck et d'un matchup en particulier.
+    {% endblock %}
 </p>
 
 <p>
-    Vous pouvez retrouver les Chroniques du Commander sur les différentes plateformes :<br>
+    Vous pouvez retrouver les Chroniques du Commander sur les différentes
+    plateformes :
 </p>
 <div class="d-flex flex-wrap justify-content-around">
     <div class="col-2 px-2 py-2">

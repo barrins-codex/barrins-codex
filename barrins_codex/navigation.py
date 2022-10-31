@@ -66,6 +66,7 @@ STRUCTURE = Nav(
             "🧍 Pilotes",
             index=True,
             children=[
+                Nav("Alexandre « OneSauk »", cat="invite"),
                 Nav("Anaël « Aliquanto »", cat="invite"),
                 Nav("Bastien « threem »", cat="invite"),
                 Nav("Damien « eventwin »", cat="invite"),
@@ -94,6 +95,7 @@ STRUCTURE = Nav(
                 Nav("Elminster", cat="controle"),
                 Nav("Erinis, Gloom Stalker", cat="midrange", crop=True),
                 Nav("Esika, God of the Tree", cat="controle"),
+                Nav("Grenzo, Dungeon Warden", cat="combo"),
                 Nav("Grist, the Hunger Tide", cat="midrange"),
                 Nav("Gut, True Soul Zealot", cat="agro", crop=True),
                 Nav("Hinata, Dawn-Crowned", cat="controle"),
@@ -122,6 +124,7 @@ STRUCTURE = Nav(
                 Nav("Raffine, Scheming Seer", cat="tempo"),
                 Nav("Sai, Master Thopterist", cat="controle"),
                 Nav("Saskia the Unyielding", cat="agro"),
+                Nav("Shanna, Purifying Blade", cat="agro"),
                 Nav("❌ Shorikai, Genesis Engine", cat="ban"),
                 Nav("Soul of Windgrace", cat="controle"),
                 Nav("Sygg, River Cutthroat", cat="controle"),
@@ -170,6 +173,7 @@ STRUCTURE = Nav(
                 Nav("29. Erinis vs Raff", cat="21-30"),
                 Nav("30. Gut vs Yoshimaru", cat="21-30"),
                 Nav("31. Raffine vs Soul of Windgrace", cat="31-40"),
+                Nav("32. Grenzo vs Shanna", cat="31-40"),
             ],
         ),
         Nav(

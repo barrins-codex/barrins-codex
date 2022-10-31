@@ -32,6 +32,11 @@ else:
     CARDS = card_list.build()
 
 BASE_CONTEXT = {
+    "W": "⚪",
+    "U": "🔵",
+    "B": "⚫",
+    "R": "🔴",
+    "G": "🟢",
     "version": version,
     "pilotes_habitue": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "habitue"
@@ -242,13 +247,13 @@ def linker():
         return "Barrin's Codex"
 
     def page_name():
+        name = "Barrin's Codex"
         try:
             if HELPER.get(path, {}).get("self").path != "":
                 name = HELPER.get(path, {}).get("self").name
-                return f"{name}"
         except AttributeError:
             pass
-        return "Barrin's Codex"
+        return f"{name}"
 
     return dict(
         url=_url,

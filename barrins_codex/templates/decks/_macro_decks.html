@@ -24,7 +24,7 @@
 {% macro ban(carte, commentaire, full="", annonce="") -%}
 </p><p><u><i>Attention :</i></u>
     {% if full == "" %}
-        Suite au ban de {{ card_link(carte) }}, ce deck peut se retrouver
+        Suite au ban de {{ card_hover(carte) }}, ce deck peut se retrouver
         impacté. {{ commentaire }}
     {% else %}
         {{ full }}

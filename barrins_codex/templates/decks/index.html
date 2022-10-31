@@ -14,6 +14,8 @@
     {% endfor %}
 {% endmacro %}
 
+{% set archetype = request.args.get('l') or "" %}
+
 {% block banner %}
 <div class="banner_container col-12">
     <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" class="opacity-75" width="100%">
@@ -30,6 +32,7 @@
     {% endblock %}
 </article>
 
+{% if (archetype == "") or (archetype == "agro") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Decks dont le macrotype est 🗡️ <em>Agro</em></h2>
@@ -46,8 +49,12 @@
     {{ liste(decks_agro) }}
 </div>
 </article>
+{% endif %}
+{% if archetype == "" %}
 {{ separateur() }}
+{% endif %}
 
+{% if (archetype == "") or (archetype == "tempo") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Decks dont le macrotype est ⌚ <em>Tempo</em></h2>
@@ -64,8 +71,12 @@
     {{ liste(decks_tempo) }}
 </div>
 </article>
+{% endif %}
+{% if archetype == "" %}
 {{ separateur() }}
+{% endif %}
 
+{% if (archetype == "") or (archetype == "controle") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Decks dont le macrotype est ⛓️ <em>Contrôle</em></h2>
@@ -81,8 +92,12 @@
     {{ liste(decks_controle) }}
 </div>
 </article>
+{% endif %}
+{% if archetype == "" %}
 {{ separateur() }}
+{% endif %}
 
+{% if (archetype == "") or (archetype == "combo") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Decks dont le macrotype est ✨ <em>Combo</em></h2>
@@ -99,8 +114,12 @@
     {{ liste(decks_combo) }}
 </div>
 </article>
+{% endif %}
+{% if archetype == "" %}
 {{ separateur() }}
+{% endif %}
 
+{% if (archetype == "") or (archetype == "midrange") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Decks dont le macrotype est 🦏 <em>Midrange</em></h2>
@@ -118,8 +137,12 @@
     {{ liste(decks_midrange) }}
 </div>
 </article>
+{% endif %}
+{% if archetype == "" %}
 {{ separateur() }}
+{% endif %}
 
+{% if archetype == "" %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Decks joués dont les généraux sont devenus illégaux</h2>
@@ -130,4 +153,5 @@
     {{ liste(decks_ban) }}
 </div>
 </article>
+{% endif %}
 {% endblock %}

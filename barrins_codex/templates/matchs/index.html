@@ -13,6 +13,7 @@
 </div>
 {% endblock %}
 
+{% set list = request.args.get('l') or "" %}
 
 {% block article %}
 <article class="col-8 ms-auto me-auto my-4">
@@ -23,8 +24,9 @@
     sur chaque page de deck.
     {% endblock %}
 </article>
-
 {{ separateur() }}
+
+{% if (list == "") or (list == "01a10") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Matchs 1 à 10</h2>
@@ -35,8 +37,12 @@
     {{ liste(matchs_0110) }}
 </div>
 </article>
-
+{% endif %}
+{% if list == "" %}
 {{ separateur() }}
+{% endif %}
+
+{% if (list == "") or (list == "11a20") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Matchs 11 à 20</h2>
@@ -47,8 +53,12 @@
     {{ liste(matchs_1120) }}
 </div>
 </article>
-
+{% endif %}
+{% if list == "" %}
 {{ separateur() }}
+{% endif %}
+
+{% if (list == "") or (list == "21a30") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Matchs 21 à 30</h2>
@@ -59,8 +69,12 @@
     {{ liste(matchs_2130) }}
 </div>
 </article>
-
+{% endif %}
+{% if list == "" %}
 {{ separateur() }}
+{% endif %}
+
+{% if (list == "") or (list == "31a40") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
         <h2>Matchs 31 à 40</h2>
@@ -71,4 +85,5 @@
     {{ liste(matchs_3140) }}
 </div>
 </article>
+{% endif %}
 {% endblock %}

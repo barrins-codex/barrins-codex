@@ -1,0 +1,39 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Deck principalement agressif, Shanna cherche à développer ses menaces sur
+    le champ de bataille pour profiter au mieux de sa capacité déclenchée de
+    fin de tour.
+{% endblock %}
+{% block second_paragraph %}
+    Plusieurs versions de ce deck existent et la version présentée ici est
+    celle qui s'appuie davantage sur des créatures là où d'autres versions
+    cherchent à jouer plus de sorts d'interaction pour gagner la partie.
+{% endblock %}
+{% block third_paragraph %}
+    L'arrivée des créatures <em>take the initiative</em> donne un avantage
+    certain aux decks capables de prendre l'agro et de protéger ce nouveau
+    <em>monarch</em>.
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/rHtLpCsrWUCI9Ab2r2km2A{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/32-grenzo-vs-shanna", "Ce match confronte deux decks principalement agro qui s'appuyent sur des stratégies différentes pour mettre fin à la partie.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.domino(played_on="25 octobre 2022") }}
+    </div>
+</div>
+{% endblock %}

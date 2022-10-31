@@ -1,0 +1,80 @@
+{% extends "decks/_layout_decks.html" %}
+
+{% set agro_lineaire = link("/articles/classifier-un-deck", "Agro Linéaire", _anchor="archetype_linear_agro") %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    {{ grenzodungeonwarden }} est un deck de l'archétype {{ agro_lineaire }} de
+    part sa sortie curvée terminée par la pose d'un lord tribal. Le deck est
+    tourné intégralement vers l'optimisation de l'occupation du champ de
+    bataille à l'issue des premiers tours, qui est sa principale condition de
+    victoire. {{ grenzodungeonwarden }}, quant à lui, fait office à la fois de
+    curve filler en début de partie (<em>l'early game</em>) ainsi que de moteur
+    à <em>Card Advantage</em> après les quatre premiers tours environ
+    (<em>le midgame</em>).
+{% endblock %}
+{% block second_paragraph %}
+    Les créatures des premiers tours sont souvent moins puissantes que les
+    cartes habituelles (<em>les staples</em>) d'Aggro. Les {{ goblinking }} et
+    autres <em>lords</em> joués tours trois et quatre transforment totalement
+    la puissance et l'impact de ces créatures. Un goblin avec de faibles force
+    et endurance (un faible <em>body</em>) mais un effet d'arrivée en jeu se
+    verra ainsi transformé en une menace réelle dès ces tours clé atteints. Le
+    deck s'appuie ainsi au maximum sur la versatilité des gobelins ainsi que le
+    fort support tribal que fournit le type de créature gobelin.
+{% endblock %}
+{% block third_paragraph %}
+    Ce deck se différencie très fortement de la plupart des autres decks Aggro
+    du format en ce qui concerne l'équilibrage de ses catégories de cartes :
+    pour optimiser la capacité de {{ grenzodungeonwarden }}, le focus est mis
+    sur quantité de cartes qui remplissent les conditions de sa capacité
+    activée et jouer moins de quarante créatures crée une trop grande variance.
+    L'expérience montre qu'il faut jouer entre quarante-sept et cinquante
+    créatures pour que sa capacité soit utilisée au maximum. Cette capacité
+    influe également sur la quantité de terrains à avoir. Ainsi, contrairement
+    à un deck Aggro « standard », le deck profite pleinement de chaque terrain
+    joué, même une fois passé  le tour quatre. Il suffit d'un tour sur le champ
+    de bataille pour que Grenzo transforme le mana disponible en armée de
+    gobelin sans utiliser les cartes de la main. Ainsi, avec une quarantaine de
+    terrains et une cinquantaine de créatures, il reste une place infime pour
+    d'autres carte qui sont alors triées sur le volet. La faible densité de
+    staples se ressent et doit être prise en compte lorsque le deck est joué.
+</p>
+<p>
+    {{ grenzodungeonwarden }} est un jeu rapide et à multiples facettes ce qui
+    le rend très plaisant à jouer et à maitriser. Cependant, bien que le deck
+    soit renforcé régulièrement grâce à la popularité de la tribu gobelin, il
+    reste un peu en dessous de ce qui se fait de mieux en aggro de part son
+    manque de marge de manœuvre qui punit fortement les missplays et une
+    explosivité qui peut arriver un tour trop tard.
+</p>
+<p>
+    <em>Texte rédigé par Romain « Ejell » le 24 février 2021</em><br>
+{% endblock %}
+
+
+### LISTES ###
+{% block lien %}
+https://www.moxfield.com/decks/pdvqyx4Nek-2FZqbPSBmmg{% endblock %}
+
+
+### EXPLICATIONS DU DECK ###
+{% block combos %}
+{% include "decks/grenzo-dungeon-warden-article.html" %}
+{{ separateur() }}
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/32-grenzo-vs-shanna", "Ce match confronte deux decks principalement agro qui s'appuyent sur des stratégies différentes pour mettre fin à la partie.") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.onesauk(played_on="25 octobre 2022") }}
+    </div>
+</div>
+{% endblock %}
