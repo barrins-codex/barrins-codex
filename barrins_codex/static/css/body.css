@@ -26,6 +26,10 @@ article {
     max-width: 250px;
 }
 
+.list-group > * {
+    background-color: #e3e7e9 !important;
+}
+
 li ul {
     padding-top: : 2vh;
     padding-bottom: 2vh;
