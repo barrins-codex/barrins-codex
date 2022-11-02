@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.3.1 (unreleased)
+8.3.1 (2022-11-02)
 ------------------
 
 - GRENZO - Ajout d'un séparateur manquant
