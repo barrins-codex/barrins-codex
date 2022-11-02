@@ -6,6 +6,7 @@ Changelog
 
 - GRENZO - Ajout d'un séparateur manquant
 - INDEX - Nettoyage du code en trop de la page
+- JURI - Ajout de la decktech
 
 
 8.3.0 (2022-10-30)
