@@ -2,6 +2,7 @@ import copy
 import json
 import os
 import re
+from itertools import islice
 from urllib.parse import urlencode, urlparse
 
 import flask
@@ -64,6 +65,15 @@ BASE_CONTEXT = {
     "articles": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "article"
     ],
+    "last_matchs": list(
+        islice(
+            reversed(
+                [page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"]
+            ),
+            0,
+            10,
+        )
+    ),
     "all_matchs": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"
     ],
