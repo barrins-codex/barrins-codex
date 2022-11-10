@@ -30,14 +30,8 @@
 
 ### LISTES ###
 {% block liste %}
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/Ud3YJOafeEexPs56NFK_nQ">
-    Decklist by Koraysh
-</a>
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/StuSEekPgUm9U1T_yOKPrA">
-    Decklist by Imperia86
-</a>
+{{ decklist("https://www.moxfield.com/decks/Ud3YJOafeEexPs56NFK_nQ", "Decklist by Koraysh") }}
+{{ decklist("https://www.moxfield.com/decks/StuSEekPgUm9U1T_yOKPrA", "Decklist by Imperia86") }}
 {% endblock %}
 
 
