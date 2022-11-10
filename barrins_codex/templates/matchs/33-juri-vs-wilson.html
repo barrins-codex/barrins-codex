@@ -1,0 +1,21 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "OneSauk" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/0B40qpVoRmo" %}
+{% set date = "8 novembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.onesauk() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/grenzo-dungeon-warden") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/shanna-purifying-blade") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}
