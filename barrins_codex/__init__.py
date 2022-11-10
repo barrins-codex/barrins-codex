@@ -9,7 +9,7 @@ import jinja2.exceptions
 import pkg_resources
 import requests
 import unidecode
-from flask import make_response, render_template, request, Response
+from flask import Response, make_response, render_template, request
 
 from . import card_list, config, moxfield_decklist
 from .navigation import HELPER
@@ -169,7 +169,9 @@ def download_list(moxfield_key=None):
     return Response(
         response["list"],
         mimetype="text/plain",
-        headers={"Content-Disposition": f"attachment;filename=\"{response['name']}.txt\""},
+        headers={
+            "Content-Disposition": f"attachment;filename=\"{response['name']}.txt\""
+        },
     )
 
 
@@ -402,6 +404,7 @@ def players():
 
     return dict(player_name=player_name, player_nickname=player_nickname)
 
+
 @app.context_processor
 def decklist_processor():
     def decklist(url, name=None, outline=False):
@@ -416,7 +419,7 @@ def decklist_processor():
                 name=name or "Decklist",
                 url=url,
                 key=url[31:],
-                btn="btn-outline" if outline else "btn"
+                btn="btn-outline" if outline else "btn",
             )
         )
 
