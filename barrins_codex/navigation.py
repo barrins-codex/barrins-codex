@@ -76,6 +76,7 @@ STRUCTURE = Nav(
                 Nav("Grégoire « Koraysh »", cat="invite"),
                 Nav("Louis « Imperia86 »", cat="habitue"),
                 Nav("Martin « Spigushe »", cat="habitue"),
+                Nav("Nicolas « NicolasP »", cat="invite"),
                 Nav("Apparitions", cat="invite"),
             ],
         ),
