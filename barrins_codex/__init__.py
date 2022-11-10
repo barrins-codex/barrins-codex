@@ -9,9 +9,9 @@ import jinja2.exceptions
 import pkg_resources
 import requests
 import unidecode
-from flask import make_response, render_template, request
+from flask import make_response, render_template, request, Response
 
-from . import card_list, config
+from . import card_list, config, moxfield_decklist
 from .navigation import HELPER
 
 version = pkg_resources.Environment()["barrins-codex"][0].version
@@ -155,6 +155,22 @@ def sitemap():
 @app.route("/webfonts/<path:font>")
 def static_fonts(font=None):
     return flask.redirect(flask.url_for("static", filename=f"fonts/{font}"))
+
+
+# Serve decklist routes
+@app.route("/decklist/")
+@app.route("/decklist/<moxfield_key>")
+def download_list(moxfield_key=None):
+    if not moxfield_key:
+        return False
+
+    response = moxfield_decklist.export(moxfield_key)
+
+    return Response(
+        response["list"],
+        mimetype="text/plain",
+        headers={"Content-Disposition": f"attachment;filename=\"{response['name']}.txt\""},
+    )
 
 
 # Default route

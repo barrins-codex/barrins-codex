@@ -4,7 +4,7 @@ Changelog
 8.3.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout de la génération txt des decklists
 
 
 8.3.1 (2022-11-02)
