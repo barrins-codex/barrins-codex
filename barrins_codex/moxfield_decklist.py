@@ -60,8 +60,9 @@ def export(url):
         if k == "0":
             command_zone += "\n".join(v["cards"])
         else:
-            text_return += "\n".join(v["cards"])
-            text_return += "\n"
+            if len(v["cards"])>0:
+                text_return += "\n".join(v["cards"])
+                text_return += "\n"
 
     return {
         "name": deck_name(list["name"], list["createdAtUtc"][:10]),
