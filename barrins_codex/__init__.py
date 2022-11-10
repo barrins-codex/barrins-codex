@@ -401,3 +401,22 @@ def players():
         return "Barrin's Codex"
 
     return dict(player_name=player_name, player_nickname=player_nickname)
+
+@app.context_processor
+def decklist_processor():
+    def decklist(url, name=None):
+        return flask.Markup(
+            """
+<div class="col-12 d-flex flew-row mt-4 me-1">
+    <a class="btn btn-secondary decklist col-10" role="button" target="_blank"
+        href="{url}">{name}</a>
+    <a class="btn btn-warning col-2 ms-1" role="button"
+        href="{key}"><i class="fa-solid fa-file-lines"></i></a>
+</div>""".format(
+                name=name or "Decklist",
+                url=url,
+                key=url[31:]
+            )
+        )
+
+    return dict(decklist=decklist)

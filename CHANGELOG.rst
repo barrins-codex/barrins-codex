@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Ajout de la génération txt des decklists
+- Ajout de la génération des boutons vers les listes
 
 
 8.3.1 (2022-11-02)
