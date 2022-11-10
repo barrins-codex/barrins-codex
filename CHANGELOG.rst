@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Retrait des lignes vides dans la génération
+- Ajout de la mention "Sideboard" pour intégration Cockatrice
 
 
 9.0.1 (2022-11-10)
