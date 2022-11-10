@@ -61,20 +61,11 @@ BASE_CONTEXT = {
     ],
     "decks_ban": [page for page in HELPER if HELPER.get(page, {}).get("cat") == "ban"],
     "needs_crop": [page for page in HELPER if HELPER.get(page, {}).get("crop")],
-    "matchs_0110": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "01-10"
-    ],
-    "matchs_1120": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "11-20"
-    ],
-    "matchs_2130": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "21-30"
-    ],
-    "matchs_3140": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "31-40"
-    ],
     "articles": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "article"
+    ],
+    "all_matchs": [
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"
     ],
 }
 
