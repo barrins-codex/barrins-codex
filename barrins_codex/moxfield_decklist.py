@@ -66,5 +66,5 @@ def export(url):
 
     return {
         "name": deck_name(list["name"], list["createdAtUtc"][:10]),
-        "list": text_return + "\n\n" + command_zone,
+        "list": text_return + "\nSideboard\n" + command_zone,
     }
