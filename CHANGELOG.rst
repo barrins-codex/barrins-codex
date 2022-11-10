@@ -1,7 +1,7 @@
 Changelog
 =========
 
-8.3.2 (unreleased)
+9.0.0 (2022-11-10)
 ------------------
 
 - Ajout de la génération txt des decklists
