@@ -19,7 +19,8 @@
 
 ### LISTES ###
 {% block liste %}
-{{ decklist("https://www.moxfield.com/decks/O0W4MpaqPEmCTBVGt5hVPA") }}
+{{ decklist("https://www.moxfield.com/decks/O0W4MpaqPEmCTBVGt5hVPA", "Decklist by Imperia86") }}
+{{ decklist("https://www.moxfield.com/decks/3lsM8UCfbU2teF0af-ARIg", "Decklist by NicolasP") }}
 {% endblock %}
 
 
@@ -84,6 +85,7 @@
 ### MATCHS ###
 {% block matchs %}
 {{ match.card2("/matchs/20-juri-vs-sai", "Ce match oppose Sai et Juri. Deux plans de jeu opposés, des outils pour interagir, des combos pour mettre fin à la partie. Qui en sortira vainqueur ?") }}
+{{ match.card2("/matchs/33-juri-vs-wilson", "Sur le retour du plus grand tournoi Duel Commander du monde, 308 personnes, les deux pilotes reviennent sur leur weekend et sur leurs decks.") }}
 {% endblock %}
 
 
@@ -92,6 +94,9 @@
 <div class="row py-3 d-flex flex-wrap justify-content-around">
     <div class="col-sm-4">
         {{ pilote.imperia86(played_on="3 mai 2022") }}
+    </div>
+    <div class="col-sm-4">
+        {{ pilote.nicolasp(played_on="8 novembre 2022") }}
     </div>
 </div>
 {% endblock %}
