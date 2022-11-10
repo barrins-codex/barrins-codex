@@ -404,18 +404,19 @@ def players():
 
 @app.context_processor
 def decklist_processor():
-    def decklist(url, name=None):
+    def decklist(url, name=None, outline=False):
         return flask.Markup(
             """
 <div class="col-12 d-flex flew-row mt-4 me-1">
-    <a class="btn btn-secondary decklist col-10" role="button" target="_blank"
+    <a class="btn {btn}-secondary decklist col-10" role="button" target="_blank"
         href="{url}">{name}</a>
-    <a class="btn btn-warning col-2 ms-1" role="button"
+    <a class="btn {btn}-warning col-2 ms-1" role="button"
         href="{key}"><i class="fa-solid fa-file-lines"></i></a>
 </div>""".format(
                 name=name or "Decklist",
                 url=url,
-                key=url[31:]
+                key=url[31:],
+                btn="btn-outline" if outline else "btn"
             )
         )
 
