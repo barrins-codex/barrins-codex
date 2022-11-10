@@ -19,18 +19,9 @@
 
 ### LISTES ###
 {% block liste %}
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/ApYkVyV1x0q3KS7VKVf2Rg">
-    Decklist au 1er mars
-</a>
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/IdHp2B9AqkiGjvRROf1Tbw">
-    Decklist au 5 avril
-</a>
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/1JEt_l_ghEOpv-I92IpF-g">
-    Decklist au 7 juin
-</a>
+{{ decklist("https://www.moxfield.com/decks/ApYkVyV1x0q3KS7VKVf2Rg", "Decklist au 1er mars")}}
+{{ decklist("https://www.moxfield.com/decks/IdHp2B9AqkiGjvRROf1Tbw", "Decklist au 5 avril")}}
+{{ decklist("https://www.moxfield.com/decks/1JEt_l_ghEOpv-I92IpF-g", "Decklist au 7 juin")}}
 {% endblock %}
 
 

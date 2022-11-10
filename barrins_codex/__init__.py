@@ -9,9 +9,9 @@ import jinja2.exceptions
 import pkg_resources
 import requests
 import unidecode
-from flask import make_response, render_template, request
+from flask import Response, make_response, render_template, request
 
-from . import card_list, config
+from . import card_list, config, moxfield_decklist
 from .navigation import HELPER
 
 version = pkg_resources.Environment()["barrins-codex"][0].version
@@ -155,6 +155,24 @@ def sitemap():
 @app.route("/webfonts/<path:font>")
 def static_fonts(font=None):
     return flask.redirect(flask.url_for("static", filename=f"fonts/{font}"))
+
+
+# Serve decklist routes
+@app.route("/decklist/")
+@app.route("/decklist/<moxfield_key>")
+def download_list(moxfield_key=None):
+    if not moxfield_key:
+        return False
+
+    response = moxfield_decklist.export(moxfield_key)
+
+    return Response(
+        response["list"],
+        mimetype="text/plain",
+        headers={
+            "Content-Disposition": f"attachment;filename=\"{response['name']}.txt\""
+        },
+    )
 
 
 # Default route
@@ -385,3 +403,24 @@ def players():
         return "Barrin's Codex"
 
     return dict(player_name=player_name, player_nickname=player_nickname)
+
+
+@app.context_processor
+def decklist_processor():
+    def decklist(url, name=None, outline=False):
+        return flask.Markup(
+            """
+<div class="col-12 d-flex flew-row mt-4 me-1">
+    <a class="btn {btn}-secondary decklist col-10" role="button" target="_blank"
+        href="{url}">{name}</a>
+    <a class="btn {btn}-warning col-2 ms-1" role="button"
+        href="{key}"><i class="fa-solid fa-file-lines"></i></a>
+</div>""".format(
+                name=name or "Decklist",
+                url=url,
+                key=url[31:],
+                btn="btn-outline" if outline else "btn",
+            )
+        )
+
+    return dict(decklist=decklist)

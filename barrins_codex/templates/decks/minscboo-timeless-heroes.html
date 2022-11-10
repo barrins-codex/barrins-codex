@@ -22,14 +22,8 @@
 
 ### LISTES ###
 {% block liste %}
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/BjslyWjD8kiG3DVmTZVmtA">
-    Decklist by Aliquanto
-</a>
-<a class="btn btn-secondary mt-4" role="button" target="_blank"
-    href="https://www.moxfield.com/decks/PoVm-sd_4kmvKLSFWE-n0A">
-    Decklist by Domino
-</a>
+{{ decklist("https://www.moxfield.com/decks/BjslyWjD8kiG3DVmTZVmtA", "Decklist by Aliquanto") }}
+{{ decklist("https://www.moxfield.com/decks/PoVm-sd_4kmvKLSFWE-n0A", "Decklist by Domino") }}
 {% endblock %}
 
 
