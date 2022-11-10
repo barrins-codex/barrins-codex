@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.0.1 (unreleased)
+9.0.1 (2022-11-10)
 ------------------
 
 - Correction du lien de génération
