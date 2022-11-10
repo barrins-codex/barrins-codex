@@ -4,7 +4,7 @@ Changelog
 9.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Retrait des lignes vides dans la génération
 
 
 9.0.1 (2022-11-10)
