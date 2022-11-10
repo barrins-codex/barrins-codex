@@ -4,7 +4,7 @@ Changelog
 9.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction du lien de génération
 
 
 9.0.0 (2022-11-10)

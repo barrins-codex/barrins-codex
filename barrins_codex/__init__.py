@@ -418,7 +418,7 @@ def decklist_processor():
 </div>""".format(
                 name=name or "Decklist",
                 url=url,
-                key=url[31:],
+                key="/decklist/" + url[31:],
                 btn="btn-outline" if outline else "btn",
             )
         )
