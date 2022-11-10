@@ -49,7 +49,6 @@
     <script src="https://kit.fontawesome.com/4ae9bdd55b.js" crossorigin="anonymous"></script>
     <!-- Dropdown Menu -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/dropdown_menu.css') }}" as="style">
-    <script src="{{ url_for('static', filename='js/dropdown_menu.js') }}"></script>
 </head>
 
 <body>
@@ -134,4 +133,15 @@ $('.dropdown').hover(function() {
     $(this).find('.dropdown-menu').removeClass('show');
 });
 </script>
+<style>
+    a.dropdown-submenu::after {
+        font-family: "FontAwesome";
+        font-weight: bold;
+        font-size: smaller;
+        content: "\f101";
+        margin-left: 0.5em;
+        color: grey;
+    }
+</style>
+{% block extra %}{% endblock %}
 </html>
