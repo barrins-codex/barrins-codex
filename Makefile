@@ -12,6 +12,7 @@ test:
 update:
 	pip install --upgrade pip
 	pip install --upgrade --upgrade-strategy eager -e ".[dev]"
+	python barrins_codex/card_list.py
 
 codex:
 	make compliance
