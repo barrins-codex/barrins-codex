@@ -413,9 +413,11 @@ def decklist_processor():
             """
 <div class="col-12 d-flex flew-row mt-4 me-1">
     <a class="btn {btn}-secondary decklist col-10" role="button" target="_blank"
-        href="{url}" alt="Voir la decklist sur Moxfield">{name}</a>
-    <a class="btn {btn}-warning col-2 ms-1" role="button" href="{key}"
-        alt="Télécharger la decklist"><i class="fa-solid fa-download"></i></a>
+        href="{url}"><span title="Voir la decklist sur Moxfield">{name}</span>
+    </a>
+    <a class="btn {btn}-warning col-2 ms-1" role="button" href="{key}">
+        <span title="Télécharger la decklist"><i class="fa-solid fa-download"></i></span>
+    </a>
 </div>""".format(
                 name=name or "Decklist",
                 url=url,
