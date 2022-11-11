@@ -60,7 +60,7 @@ def export(url):
         if k == "0":
             command_zone += "\n".join(v["cards"])
         else:
-            if len(v["cards"])>0:
+            if len(v["cards"]) > 0:
                 text_return += "\n".join(v["cards"])
                 text_return += "\n"
 

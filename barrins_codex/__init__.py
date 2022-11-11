@@ -416,7 +416,9 @@ def decklist_processor():
         href="{url}"><span title="Voir la decklist sur Moxfield">{name}</span>
     </a>
     <a class="btn {btn}-warning col-2 ms-1" role="button" href="{key}">
-        <span title="Télécharger la decklist"><i class="fa-solid fa-download"></i></span>
+        <span title="Télécharger la decklist">
+            <i class="fa-solid fa-download"></i>
+        </span>
     </a>
 </div>""".format(
                 name=name or "Decklist",
