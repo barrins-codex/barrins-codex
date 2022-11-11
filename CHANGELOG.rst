@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.0.2 (unreleased)
+9.1.0 (2022-11-11)
 ------------------
 
 - Retrait des lignes vides dans la génération
