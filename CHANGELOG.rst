@@ -6,6 +6,12 @@ Changelog
 
 - Retrait des lignes vides dans la génération
 - Ajout de la mention "Sideboard" pour intégration Cockatrice
+- Ajout d'un nouveau pilote : Nicolas « NicolasP »
+- Création de la page du match #33
+- Modification de l'affichage des decks dans les pages des pilotes
+- Ajout de l'affichage des derniers matchs sur la page d'accueil
+- Menu déroulant déclenché au passage de la souris
+- Ajout d'un symbole pour expliciter le menu déroulant imbriqué
 
 
 9.0.1 (2022-11-10)
