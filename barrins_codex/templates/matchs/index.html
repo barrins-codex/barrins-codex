@@ -26,64 +26,14 @@
 </article>
 {{ separateur() }}
 
-{% if (list == "") or (list == "01a10") %}
 <div class="col-12 bg-header py-4 mt-1 mb-2">
     <div class="col-8 ms-auto me-auto">
-        <h2>Matchs 1 à 10</h2>
+        <h2>Liste des matches</h2>
     </div>
 </div>
 <article class="col-8 ms-auto me-auto my-4">
 <div class="row py-3 d-flex flex-wrap justify-content-around">
-    {{ liste(matchs_0110) }}
+    {{ liste(all_matchs) }}
 </div>
 </article>
-{% endif %}
-{% if list == "" %}
-{{ separateur() }}
-{% endif %}
-
-{% if (list == "") or (list == "11a20") %}
-<div class="col-12 bg-header py-4 mt-1 mb-2">
-    <div class="col-8 ms-auto me-auto">
-        <h2>Matchs 11 à 20</h2>
-    </div>
-</div>
-<article class="col-8 ms-auto me-auto my-4">
-<div class="row py-3 d-flex flex-wrap justify-content-around">
-    {{ liste(matchs_1120) }}
-</div>
-</article>
-{% endif %}
-{% if list == "" %}
-{{ separateur() }}
-{% endif %}
-
-{% if (list == "") or (list == "21a30") %}
-<div class="col-12 bg-header py-4 mt-1 mb-2">
-    <div class="col-8 ms-auto me-auto">
-        <h2>Matchs 21 à 30</h2>
-    </div>
-</div>
-<article class="col-8 ms-auto me-auto my-4">
-<div class="row py-3 d-flex flex-wrap justify-content-around">
-    {{ liste(matchs_2130) }}
-</div>
-</article>
-{% endif %}
-{% if list == "" %}
-{{ separateur() }}
-{% endif %}
-
-{% if (list == "") or (list == "31a40") %}
-<div class="col-12 bg-header py-4 mt-1 mb-2">
-    <div class="col-8 ms-auto me-auto">
-        <h2>Matchs 31 à 40</h2>
-    </div>
-</div>
-<article class="col-8 ms-auto me-auto my-4">
-<div class="row py-3 d-flex flex-wrap justify-content-around">
-    {{ liste(matchs_3140) }}
-</div>
-</article>
-{% endif %}
 {% endblock %}

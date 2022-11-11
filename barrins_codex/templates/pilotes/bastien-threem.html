@@ -12,13 +12,13 @@
 {% block decks %}
 <div class="row py-3 d-flex flex-wrap justify-content-around">
     <div class="col-sm-4">
-        {{ deck.card("/decks/tiamat") }}
-    </div>
-    <div class="col-sm-4">
         {{ deck.card("/decks/aminatou-the-fateshifter") }}
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/elmarhargilde", "img/split-crop/elmar-hargilde.jpg") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/tiamat") }}
     </div>
 </div>
 {% endblock %}

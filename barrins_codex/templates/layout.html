@@ -49,7 +49,6 @@
     <script src="https://kit.fontawesome.com/4ae9bdd55b.js" crossorigin="anonymous"></script>
     <!-- Dropdown Menu -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/dropdown_menu.css') }}" as="style">
-    <script src="{{ url_for('static', filename='js/dropdown_menu.js') }}"></script>
 </head>
 
 <body>
@@ -122,5 +121,27 @@ tippy('span.card-name', {
         img.src = img.dataset.src;
     }
 });
+
+<!-- Getting around dropdown triggering on click -->
+<!-- https://markdotto.com/2012/02/27/bootstrap-explained-dropdowns/ -->
+<!-- https://stackoverflow.com/a/19561886 -->
+$('.dropdown').hover(function() {
+    $(this).addClass('show');
+    $(this).find('.dropdown-menu').addClass('show');
+}, function() {
+    $(this).removeClass('show');
+    $(this).find('.dropdown-menu').removeClass('show');
+});
 </script>
+<style>
+    a.dropdown-submenu::after {
+        font-family: "FontAwesome";
+        font-weight: bold;
+        font-size: smaller;
+        content: "\f101";
+        margin-left: 0.5em;
+        color: grey;
+    }
+</style>
+{% block extra %}{% endblock %}
 </html>

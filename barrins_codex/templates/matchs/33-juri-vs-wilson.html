@@ -1,0 +1,32 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+Duel d'agro, les deux decks proposent des méthodes différentes pour gagner la
+partie. Wilson est un deck
+{{ link("/articles/classifier-un-deck", "voltron", _anchor="archetype_voltron") }}
+qui se base sur ses capacités pour résister aux decks agressifs. En effet, la
+vigilance lui permet d'être à la fois agressif et défensif et le piétinement
+lui permet d'infliger des dégâts malgré les bloqueurs de l'adversaire. Juri, de
+son côté, va chercher à assembler des créatures en gardant la possibilité de
+développer des lignes de jeu synergiques, ce qui peut surprendre Wilson malgré
+ses intéractions. Le match va être très intense dans l'utilisation des
+ressources de chaque joueurs, laissant la possibilité à Juri de préparer sa
+stratégie synergique. Au final, le match est équilibré et pourrait donner
+l'avantage à Wilson.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "NicolasP" %}
+{% set joueur2 = "Domino" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/a9y0_pQPGmw" %}
+{% set date = "8 novembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.nicolasp() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/juri-master-of-the-revue") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/wilson-refined-grizzly") }}{% endblock %}
+{% block pilote2 %}{{ pilote.domino() }}{% endblock %}

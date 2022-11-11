@@ -1,0 +1,40 @@
+{% extends "pilotes/_layout_pilotes.html" %}
+
+{% set fichier="img/profile/Nicolas.png" %}
+{% set name="Nicolas « NicolasP »" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+Joueur depuis la sortie de Thrones of Eldraine en 2019. En novembre 2021,
+Nicolas a découvert les sphères compétitives de Magic, et par la même occasion,
+le Duel Commander.
+{% endblock %}
+{% block second_paragraph %}
+Vous pourrez le retrouver lors des différents tournois franco-belges de Duel
+Commander et de Modern ou autour d'un verre dans les bars de la ville hôte une
+fois l'événement fini.
+{% endblock %}
+{% block third_paragraph %}
+Nicolas participe à la création de decks à tendance agro comme
+{{ link("/decks/juri-master-of-the-revue") }},
+{{ link("/decks/raffine-scheming-seer") }} ou
+{{ link("/decks/gut-true-soul-zealot") }}.
+{% endblock %}
+
+### DECKS ###
+{% block decks %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ deck.card("/decks/juri-master-of-the-revue") }}
+    </div>
+</div>
+{% endblock %}
+
+### MATCHS ###
+{% block matchs %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ match.card("/matchs/33-juri-vs-wilson") }}
+    </div>
+</div>
+{% endblock %}

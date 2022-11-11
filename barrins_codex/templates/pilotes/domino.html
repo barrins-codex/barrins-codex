@@ -25,16 +25,31 @@
 {% block decks %}
 <div class="row py-3 d-flex flex-wrap justify-content-around">
     <div class="col-sm-4">
+        {{ deck.card("/decks/aminatou-the-fateshifter") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/erinis-gloom-stalker", "img/split-crop/erinis, gloom stalker.jpg") }}
+    </div>
+    <div class="col-sm-4">
         {{ deck.card("/decks/isamaru-hound-of-konda") }}
     </div>
     <div class="col-sm-4">
-        {{ deck.card("/decks/liviomalcolm", "img/split-crop/livio-malcolm.jpg") }}
+        {{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg") }}
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/jori-en-ruin-diver") }}
     </div>
     <div class="col-sm-4">
+        {{ deck.card("/decks/karlov-of-the-ghost-council") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/killian-ink-duelist") }}
+    </div>
+    <div class="col-sm-4">
         {{ deck.card("/decks/klothys-god-of-destiny") }}
+    </div>
+    <div class="col-sm-4">
+        {{ deck.card("/decks/liviomalcolm", "img/split-crop/livio-malcolm.jpg") }}
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/miaratevesh", "img/split-crop/miara-tevesh.jpg") }}
@@ -43,16 +58,10 @@
         {{ deck.card("/decks/queen-marchesa") }}
     </div>
     <div class="col-sm-4">
-        {{ deck.card("/decks/ishaitevesh", "img/split-crop/ishai-tevesh.jpg") }}
+        {{ deck.card("/decks/raffine-scheming-seer") }}
     </div>
     <div class="col-sm-4">
-        {{ deck.card("/decks/shorikai-genesis-engine") }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/aminatou-the-fateshifter") }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/killian-ink-duelist") }}
+        {{ deck.card("/decks/shanna-purifying-blade") }}
     </div>
     <div class="col-sm-4">
         {{ deck.card("/decks/shorikai-genesis-engine") }}
@@ -61,25 +70,10 @@
         {{ deck.card("/decks/tivit-seller-of-secrets") }}
     </div>
     <div class="col-sm-4">
-        {{ deck.card("/decks/karlov-of-the-ghost-council") }}
-    </div>
-    <div class="col-sm-4">
         {{ deck.card("/decks/wilson-refined-grizzly", "img/split-crop/wilson, refined grizzly.jpg") }}
     </div>
     <div class="col-sm-4">
-        {{ deck.card("/decks/jori-en-ruin-diver") }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/erinis-gloom-stalker", "img/split-crop/erinis, gloom stalker.jpg") }}
-    </div>
-    <div class="col-sm-4">
         {{ deck.card("/decks/yoshimaru-ever-faithful", "img/split-crop/yoshimaru, ever faithful.jpg") }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/raffine-scheming-seer") }}
-    </div>
-    <div class="col-sm-4">
-        {{ deck.card("/decks/shanna-purifying-blade") }}
     </div>
 </div>
 {% endblock %}
@@ -143,6 +137,9 @@
     </div>
     <div class="col-sm-4">
         {{ match.card("/matchs/32-grenzo-vs-shanna") }}
+    </div>
+    <div class="col-sm-4">
+        {{ match.card("/matchs/33-juri-vs-wilson") }}
     </div>
 </div>
 {% endblock %}

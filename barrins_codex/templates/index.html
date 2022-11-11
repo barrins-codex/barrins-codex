@@ -6,43 +6,29 @@
 {% endblock %}
 
 
-{% block content %}
-<p>
-    {% block ogdesc %}
+{% block article %}
+<article class="col-8 ms-auto me-auto my-4">
+    <p>
+        {% block ogdesc %}
         Les ressources présentées ici sont issues d'une série de livestream
         organisée par la chaine Les Chroniques du Commander. L'objectif est que
         des joueuses et des joueurs habitué·e·s du format puissent présenter
         des decks qui peuvent être rencontrés en tournoi et proposent une
         analyse du deck et d'un matchup en particulier.
-    {% endblock %}
-</p>
+        {% endblock %}
+    </p>
+</article>
 
-<p>
-    Vous pouvez retrouver les Chroniques du Commander sur les différentes
-    plateformes :
-</p>
-<div class="d-flex flex-wrap justify-content-around">
-    <div class="col-2 px-2 py-2">
-        <a target="_blank"
-            href="https://www.twitch.tv/leschroniquesducommander">
-            <img src="{{ url_for('static', filename='img/icons/twitch.png') }}"
-                alt="Twitch"  width="80%" loading="lazy" />
-        </a>
-    </div>
-    <div class="col-2 px-2 py-2">
-        <a target="_blank"
-            href="https://discord.gg/SDhaRjvn2T">
-            <img src="{{ url_for('static', filename='img/icons/discord.png') }}"
-                alt="Discord" width="80%" loading="lazy" />
-        </a>
-    </div>
-    <div class="col-2 px-2 py-2">
-        <a target="_blank"
-            href="https://twitter.com/ChroniqDuComm/">
-            <img src="{{ url_for('static', filename='img/icons/twitter.png') }}"
-                alt="Twitter" width="80%" loading="lazy" />
-            </a>
+{{ separateur() }}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Voir les 10 derniers replays</h2>
     </div>
 </div>
-
+<article class="col-8 mx-auto row py-3 d-flex flex-wrap justify-content-around">
+    {% for item in last_matchs %}
+        {{ match.card3(item) }}
+    {% endfor %}
+    <div style="clear:both;"></div>
+</article>
 {% endblock %}

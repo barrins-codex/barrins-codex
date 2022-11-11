@@ -2,6 +2,7 @@ import copy
 import json
 import os
 import re
+from itertools import islice
 from urllib.parse import urlencode, urlparse
 
 import flask
@@ -61,20 +62,20 @@ BASE_CONTEXT = {
     ],
     "decks_ban": [page for page in HELPER if HELPER.get(page, {}).get("cat") == "ban"],
     "needs_crop": [page for page in HELPER if HELPER.get(page, {}).get("crop")],
-    "matchs_0110": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "01-10"
-    ],
-    "matchs_1120": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "11-20"
-    ],
-    "matchs_2130": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "21-30"
-    ],
-    "matchs_3140": [
-        page for page in HELPER if HELPER.get(page, {}).get("cat") == "31-40"
-    ],
     "articles": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "article"
+    ],
+    "last_matchs": list(
+        islice(
+            reversed(
+                [page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"]
+            ),
+            0,
+            10,
+        )
+    ),
+    "all_matchs": [
+        page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"
     ],
 }
 
@@ -412,9 +413,13 @@ def decklist_processor():
             """
 <div class="col-12 d-flex flew-row mt-4 me-1">
     <a class="btn {btn}-secondary decklist col-10" role="button" target="_blank"
-        href="{url}">{name}</a>
-    <a class="btn {btn}-warning col-2 ms-1" role="button"
-        href="{key}"><i class="fa-solid fa-file-lines"></i></a>
+        href="{url}"><span title="Voir la decklist sur Moxfield">{name}</span>
+    </a>
+    <a class="btn {btn}-warning col-2 ms-1" role="button" href="{key}">
+        <span title="Télécharger la decklist">
+            <i class="fa-solid fa-download"></i>
+        </span>
+    </a>
 </div>""".format(
                 name=name or "Decklist",
                 url=url,
