@@ -4,7 +4,7 @@ Changelog
 9.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Ajout de la liste des généraux légaux
 
 
 9.1.0 (2022-11-11)
