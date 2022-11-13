@@ -110,6 +110,9 @@ def build():
     _delete("AllPrintings.json.gz")
     _delete("SetList.json.gz")
 
+    # Sort table
+    library = dict(sorted(library.items()))
+
     try:
         with open("library.json", "w", encoding="utf-8") as file:
             json.dump(library, file, ensure_ascii=False, indent=4)
