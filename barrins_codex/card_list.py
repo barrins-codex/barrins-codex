@@ -88,7 +88,7 @@ def build():
                 if _name(card) not in library:
                     library[_name(card)] = _get(card, set)
                 if _name(card) in library:
-                    # If newer version exists
+                    # If older version exists
                     if set["releaseDate"] < library[_name(card)]["date"]:
                         library[_name(card)] = _get(card, set)
 
