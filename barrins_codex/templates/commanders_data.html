@@ -1,0 +1,98 @@
+{% extends "layout.html" %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}"
+        alt="Bannière" class="opacity-75"
+        style="width:100%;height:276px;object-fit:cover;object-position:50% 15%;" >
+    <div class="centered">
+        <h1 class="fs-1 text-capitalize">Liste des généraux légaux</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block ogdesc %}Liste des généraux légaux{% endblock %}
+
+
+{% macro display_ruling(card) %}
+{% if card["rulings"]|length == 0 %}
+    <i class="fa-solid fa-circle-xmark text-danger"></i>
+{% else %}
+    {% for ruling in card['rulings'] %}
+        <span tabindex="0" aria-expanded="true"
+            data-tippy-content="<p>{{ ruling['text'] }}</p>">
+            {{ num[loop.index-1] }}
+        </span>
+    {% endfor %}
+{% endif %}
+{% endmacro %}
+
+{% macro display_lines(text="") %}
+{% set lines = text.split("\n") if text else "" %}
+{% for line in lines %}
+    <p>{{ line }}</p>
+{% endfor %}
+{% endmacro %}
+
+
+{% block article %}
+<article class="col-8 mx-auto table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead>
+            <tr>
+                <th scope="col" class="col-2">Art</th>
+                <th scope="col">Name</th>
+                <th scope="col">Mana Cost</th>
+                <th scope="col">Card Text</th>
+                <th scope="col">Rulings</th>
+                <th scope="col">First release</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for card in cards %}
+                {% if cards[card]["is_commander"] and cards[card]["name"][:2] != "A-" %}
+                    <tr>
+                        <td class="col-2">
+                            <span id="{{ cards[card]['key'] }}crop"
+                                class="click-switch" style="display:block;">
+                                {{ card_crop(card, className="col-12") }}
+                            </span>
+                            <span id="{{ cards[card]['key'] }}full"
+                                class="click-switch" style="display:none;">
+                                {{ card_full(card, className="col-12") }}
+                        </td>
+                        <td>{{ cards[card]["name"] }}</td>
+                        <td>{{ cards[card]["mana_cost"] }}</td>
+                        <td>{{ display_lines(cards[card]["text_box"]) }}</td>
+                        <td class="text-center">
+                            {{ display_ruling(cards[card]) }}
+                        </td>
+                        <td>{{ cards[card]["date"] }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+    <div style="clear:both;"></div>
+</article>
+{% endblock %}
+
+{% block extra %}
+<!-- Displaying rulings -->
+<script>
+    tippy('span[data-tippy-content]');
+</script>
+<!-- Activating click-switch of card images -->
+<script>
+    document.querySelectorAll(".click-switch").forEach(function(element){
+        element.addEventListener('click', function(e){
+            card_key = element.id.substring(0, element.id.length - 4);
+            let crop = document.getElementById(card_key + "crop");
+            let full = document.getElementById(card_key + "full");
+            crop.style.display = (crop.style.display == "block" ? "none" : "block");
+            full.style.display = (full.style.display == "block" ? "none" : "block");
+            e.stopPropagation();
+        });
+    });
+</script>
+{% endblock %}

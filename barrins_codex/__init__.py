@@ -39,6 +39,7 @@ BASE_CONTEXT = {
     "R": "🔴",
     "G": "🟢",
     "version": version,
+    "cards": CARDS,
     "pilotes_habitue": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "habitue"
     ],
@@ -77,6 +78,7 @@ BASE_CONTEXT = {
     "all_matchs": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"
     ],
+    "num": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "0️⃣"],
 }
 
 
@@ -174,6 +176,15 @@ def download_list(moxfield_key=None):
             "Content-Disposition": f"attachment;filename=\"{response['name']}.txt\""
         },
     )
+
+
+# Serve commander informations
+@app.route("/commanders")
+def commanders():
+    context = copy.copy(BASE_CONTEXT)
+    commander = render_template("commanders_data.html", **context)
+
+    return make_response(commander)
 
 
 # Default route
@@ -353,12 +364,34 @@ def display_card():
             )
         )
 
+    def card_crop(name, phrase=None, className=None):
+        return flask.Markup(
+            """<img src="{crop}" alt="{name}" loading="lazy" {className} />""".format(
+                # replace spaces with non-breakable spaces in card names
+                name=phrase or CARDS[_name(name)]["name"].replace(" ", " "),
+                crop=img_crop(name),
+                className=f"class='{className}'" or "",
+            )
+        )
+
+    def card_full(name, phrase=None, className=None):
+        return flask.Markup(
+            """<img src="{full}" alt="{name}" loading="lazy" {className} />""".format(
+                # replace spaces with non-breakable spaces in card names
+                name=phrase or CARDS[_name(name)]["name"].replace(" ", " "),
+                full=img_card(name),
+                className=f"class='{className}'" or "",
+            )
+        )
+
     return dict(
         deck_name=card_name_from_page,
         img_crop=img_crop,
         img_card=img_card,
         card_link=card_link,
         card_hover=card_hover,
+        card_crop=card_crop,
+        card_full=card_full,
     )
 
 

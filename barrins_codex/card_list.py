@@ -15,11 +15,25 @@ def _name(card, name=None):
 
 
 def _get(card, set, name=None):
+    commander = (
+        card["leadershipSkills"]["commander"]
+        if "leadershipSkills" in card.keys()
+        else False
+    )
+    legal_cz = (
+        len(card["legalities"]) > 0
+        and card["legalities"] != "restricted"
+        and card["legalities"] != "banned"
+    )
     return {
         "key": _name(card),
         "name": (name or card["name"]),
         "date": set["releaseDate"],
         "id": card["identifiers"]["scryfallId"],
+        "is_commander": (commander and legal_cz),
+        "mana_cost": card["manaCost"] if "manaCost" in card.keys() else None,
+        "text_box": card["text"] if "text" in card.keys() else None,
+        "rulings": card["rulings"] if "rulings" in card.keys() else None,
     }
 
 
@@ -74,7 +88,7 @@ def build():
                 if _name(card) not in library:
                     library[_name(card)] = _get(card, set)
                 if _name(card) in library:
-                    # If newer version exists
+                    # If older version exists
                     if set["releaseDate"] < library[_name(card)]["date"]:
                         library[_name(card)] = _get(card, set)
 
@@ -95,6 +109,9 @@ def build():
     # Deleting downloaded files
     _delete("AllPrintings.json.gz")
     _delete("SetList.json.gz")
+
+    # Sort table
+    library = dict(sorted(library.items()))
 
     try:
         with open("library.json", "w", encoding="utf-8") as file:
