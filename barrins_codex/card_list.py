@@ -31,6 +31,9 @@ def _get(card, set, name=None):
         "date": set["releaseDate"],
         "id": card["identifiers"]["scryfallId"],
         "is_commander": (commander and legal_cz),
+        "mana_cost": card["manaCost"] if "manaCost" in card.keys() else None,
+        "text_box": card["text"] if "text" in card.keys() else None,
+        "rulings": card["rulings"] if "rulings" in card.keys() else None,
     }
 
 
