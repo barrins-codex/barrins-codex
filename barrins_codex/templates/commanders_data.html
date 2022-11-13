@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block banner %}
+<div class="banner_container col-12">
+    <img src="{{ url_for('static', filename='img/banner.jpg') }}"
+        alt="Bannière" class="opacity-75"
+        style="width:100%;height:276px;object-fit:cover;object-position:50% 15%;" >
+    <div class="centered">
+        <h1 class="fs-1 text-capitalize">Liste des généraux légaux</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block ogdesc %}Liste des généraux légaux{% endblock %}
+
+
+{% block article %}
+<article class="col-8 mx-auto table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead>
+            <tr>
+                <th scope="col" class="col-2">Art</th>
+                <th scope="col">Name</th>
+                <th scope="col">Mana Cost</th>
+                <th scope="col">Card Text</th>
+                <th scope="col">Rulings</th>
+                <th scope="col">First release</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div style="clear:both;"></div>
+</article>
+{% endblock %}
