@@ -78,6 +78,7 @@ BASE_CONTEXT = {
     "all_matchs": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"
     ],
+    "num": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "0️⃣"],
 }
 
 

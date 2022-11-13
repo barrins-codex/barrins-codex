@@ -15,11 +15,22 @@ def _name(card, name=None):
 
 
 def _get(card, set, name=None):
+    commander = (
+        card["leadershipSkills"]["commander"]
+        if "leadershipSkills" in card.keys()
+        else False
+    )
+    legal_cz = (
+        len(card["legalities"]) > 0
+        and card["legalities"] != "restricted"
+        and card["legalities"] != "banned"
+    )
     return {
         "key": _name(card),
         "name": (name or card["name"]),
         "date": set["releaseDate"],
         "id": card["identifiers"]["scryfallId"],
+        "is_commander": (commander and legal_cz),
     }
 
 
