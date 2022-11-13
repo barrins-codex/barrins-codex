@@ -39,6 +39,7 @@ BASE_CONTEXT = {
     "R": "🔴",
     "G": "🟢",
     "version": version,
+    "cards": CARDS,
     "pilotes_habitue": [
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "habitue"
     ],
