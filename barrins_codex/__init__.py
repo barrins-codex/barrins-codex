@@ -178,6 +178,15 @@ def download_list(moxfield_key=None):
     )
 
 
+# Serve commander informations
+@app.route("/commanders")
+def commanders():
+    context = copy.copy(BASE_CONTEXT)
+    commander = render_template("commanders_data.html", **context)
+
+    return make_response(commander)
+
+
 # Default route
 @app.route("/")
 @app.route("/<path:page>")
