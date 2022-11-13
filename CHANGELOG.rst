@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.1.1 (unreleased)
+9.2.0 (2022-11-13)
 ------------------
 
 - Ajout de la liste des généraux légaux
