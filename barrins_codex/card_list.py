@@ -22,8 +22,9 @@ def _get(card, set, name=None):
     )
     legal_cz = (
         len(card["legalities"]) > 0
-        and card["legalities"] != "restricted"
-        and card["legalities"] != "banned"
+        and "duel" in card["legalities"].keys()
+        and card["legalities"]['duel'] != "Restricted"
+        and card["legalities"]['duel'] != "Banned"
     )
     return {
         "key": _name(card),

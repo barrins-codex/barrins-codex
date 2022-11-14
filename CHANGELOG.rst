@@ -4,7 +4,7 @@ Changelog
 9.2.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Correction du contrôle de légalité
 
 
 9.2.0 (2022-11-13)
