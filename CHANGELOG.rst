@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.2.1 (unreleased)
+9.2.1 (2022-11-14)
 ------------------
 
 - Correction du contrôle de légalité
