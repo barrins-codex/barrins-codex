@@ -4,7 +4,7 @@ Changelog
 9.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Changement de pp pour nicolasp
 
 
 9.2.1 (2022-11-14)
