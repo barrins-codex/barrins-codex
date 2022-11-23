@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Changement de pp pour nicolasp
+- Ajout d'un nouveau pilote : Jules « Askeladden »
 
 
 9.2.1 (2022-11-14)

@@ -74,6 +74,7 @@ STRUCTURE = Nav(
                 Nav("Félix « Midas »", cat="invite"),
                 Nav("Florian « Trotte »", cat="invite"),
                 Nav("Grégoire « Koraysh »", cat="invite"),
+                Nav("Jules « Askeladden »", cat="invite"),
                 Nav("Louis « Imperia86 »", cat="habitue"),
                 Nav("Martin « Spigushe »", cat="habitue"),
                 Nav("Nicolas « NicolasP »", cat="invite"),
