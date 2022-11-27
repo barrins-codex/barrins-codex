@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.2.2 (unreleased)
+9.3.0 (2022-11-27)
 ------------------
 
 - Changement de pp pour nicolasp
