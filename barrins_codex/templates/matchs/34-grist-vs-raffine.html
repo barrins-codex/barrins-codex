@@ -1,0 +1,42 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+Raffine cherche à prendre le rôle de l'agresseur et à gagner en jouant des
+créatures pendant les trois premiers tours de la partie tout en essayant de se
+prémunir de la capacité <span tabindex="0" aria-expanded="true"
+    data-tippy-content="<code>−2: You may sacrifice a creature. When you do, destroy target creature or planeswalker.</code>">
+    <code>-2</code>
+</span> de {{ gristthehungertide }}. Quelques cartes puissantes peuvent l'aider
+à gagner si le début de partie n'a pas été en sa faveur comme
+{{ truenamenemesis }} et {{ parallaxwave }}. Du côté de Grist, son objectif est
+de simplement détruire Raffine ou les créatures jouées au début de la partie
+pour réduire le potentiel d'agression de Raffine. Les elfes produisant du mana
+et l'arrivée rapide de Grist permettent d'endosser efficacement le rôle de
+l'agressé et d'interagir avec les quelques menaces de Raffine. Dès que Grist
+réduit suffisamment la pression, des sorts très impactants comme
+{{ hogaakarisennecropolis }}, {{ yawgmoththranphysician }} ou {{ buriedalive }}
+suffisent à gagner.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "NicolasP" %}
+{% set joueur2 = "Askeladden" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/w6qnBj2u1iU" %}
+{% set date = "15 novembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.nicolasp() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/raffine-scheming-seer") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/grist-the-hunger-tide") }}{% endblock %}
+{% block pilote2 %}{{ pilote.askeladden() }}{% endblock %}
+
+{% block extra %}
+<!-- Displaying rulings -->
+<script>
+    tippy('span[data-tippy-content]');
+</script>
+{% endblock %}

@@ -177,6 +177,7 @@ STRUCTURE = Nav(
                 Nav("31. Raffine vs Soul of Windgrace", cat="match"),
                 Nav("32. Grenzo vs Shanna", cat="match"),
                 Nav("33. Juri vs Wilson", cat="match"),
+                Nav("34. Grist vs Raffine", cat="match"),
             ],
         ),
         Nav(

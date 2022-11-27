@@ -6,6 +6,7 @@ Changelog
 
 - Changement de pp pour nicolasp
 - Ajout d'un nouveau pilote : Jules « Askeladden »
+- Match 34 : Grist vs Raffine
 
 
 9.2.1 (2022-11-14)
