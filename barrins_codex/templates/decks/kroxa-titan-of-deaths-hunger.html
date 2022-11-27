@@ -1,0 +1,132 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck capable d'assumer différents rôles au sein d'une partie
+    et selon les decks affrontés. La présence de combos dans le deck permet
+    d'accélérer des parties ou de gagner des parties qui semblaient perdues.
+{% endblock %}
+{% block second_paragraph %}
+    Adoptant principalement un style de jeu défensif en début de partie, les
+    caractéristiques de Kroxa en font un monstre une fois qu'il reste en jeu. Sa
+    capacité à infliger à la fois des dégâts directs via sa capacité déclenchée
+    et des dégâts de combat font de Kroxa une menace importante en milieu et en
+    fin de partie.
+{% endblock %}
+{% block third_paragraph %}
+    La présence, ou non, de combos dans le deck influe sur ses capacités à
+    interagir contre un même <span tabindex="0" aria-expanded="true"
+        data-tippy-content="Un archétype rassemble des decks similaires en terme de cartes jouées. Plus d'informations dans l'article en lien.">
+        {{ link("/articles/classifier-un-deck", "archétype") }}
+    </span>. Il s'agit d'une variable d'ajustement selon ce qui est attendu à un
+    tournoi.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+{{ decklist("https://www.moxfield.com/decks/CQLnx7h31UeOPfcIMMmyqw") }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{% endblock %}
+
+
+### COMBOS ###
+{% block combos %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Les combos et synergies fortes du deck</h2>
+    </div>
+</div>
+<div class="col-8 me-auto ms-auto">
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Underworld Breach</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                Cette combo basée sur {{ underworldbreach }} permet de jouer en
+                boucle des créatures et miser sur les effets de sacrifice pour
+                tuer l'adversaire.
+            </p>
+            <p>
+                Il est nécessaire d'ajouter {{ stitcherssupplier }} et
+                {{ cullingtheweak }}. Cela permet de créer deux manas noirs à
+                chaque itération et, ensuite, de tuer en réanimant une créature
+                qui infligera des dégâts à l'adversaire à chaque mort du
+                Supplier.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 ms-auto me-auto">
+        <div style="clear:both;"></div>
+        <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+    </div>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Worldgorger Dragon</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La capacité d'arrivée en jeu de {{ worldgorgerdragon }} permet
+                de nettoyer le reste du champ de bataille. Ainsi, couplé à un
+                enchantement de réanimation comme {{ animatedead }}, le dragon
+                retourne directement au cimetière laissant revenir tout ce qui
+                avait été mis de côté à son arrivée en jeu.
+            </p>
+            <p>
+                Comme tout revient en jeu dégagé, cela génère du mana et des
+                capacités d'arrivée en jeu comme celle de Kroxa par exemple.
+                L'enchantement de réanimation revient lui aussi en jeu et doit
+                cibler une créature dans un cimetière. Il est possible de
+                choisir de nouveau le Dragon et de recommencer.
+            </p>
+            <p>
+                Le principal problème de cette combo est qu'il faut au moins une
+                autre créature dans un cimetière pour ne pas que la partie se
+                termine sur un match nul à cause d'une boucle qu'il est
+                impossible d'arrêter.
+            </p>
+        </div>
+    </div>
+    <div class="col-6 ms-auto me-auto">
+        <div style="clear:both;"></div>
+        <div class="w-100 border-bottom border-secondary border-opacity-50 border-1 mt-2"></div>
+    </div>
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <div class="col-4">
+            <h4>Chain of Smog</h4>
+        </div>
+        <div class="col-8">
+            <p>
+                La combo s'articule autour de {{ chainofsmog }} qui est un sort
+                qu'il est possible de relancer sans dépenser de mana à condition
+                de sacrifier sa main et de continuer à essayer de se défausser
+                de cartes.
+            </p>
+            <p>
+                L'intérêt de ce sort est sa facilité de déclencher le capacités
+                de <span tabindex="0" aria-expanded="true"
+                    data-tippy-content="Magecraft est un mot-capacité introduit dans Strixhaven : L'Académie des Mages qui déclenche un effet à chaque fois qu'un sort d'éphémère ou de rituel est lancé ou copié.">
+                    <em>Magecraft</em>
+                </span> comme celle de {{ sedgemoorwitch }} qui crée des jetons
+                de créatures. Cela permet de forcer l'adversaire à résoudre ce
+                problème dans le tour pour ne pas subir une attaque létale.
+            </p>
+        </div>
+    </div>
+
+</div>
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+{% endblock %}

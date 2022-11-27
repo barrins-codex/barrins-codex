@@ -111,6 +111,7 @@ STRUCTURE = Nav(
                 Nav("Killian, Ink Duelist", cat="agro"),
                 Nav("Kinnan, Bonder Prodigy", cat="combo"),
                 Nav("Klothys, God of Destiny", cat="controle"),
+                Nav("Kroxa, Titan of Death's Hunger", cat="midrange"),
                 Nav("Light-Paws, Emperor's Voice", cat="combo"),
                 Nav("Livio-Malcolm", cat="midrange", crop=True),
                 Nav("Livio-Prava", cat="agro", crop=True),
