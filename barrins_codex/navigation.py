@@ -89,6 +89,7 @@ STRUCTURE = Nav(
                 Nav("Aminatou, the Fateshifter", cat="controle"),
                 Nav("Azusa, Lost but Seeking", cat="controle"),
                 Nav("Bjorna-Wernog", cat="controle", crop=True),
+                Nav("Cecily-Wernog", cat="combo", crop=True),
                 Nav("Dennick, Pious Apprentice", cat="midrange"),
                 Nav("Doran, the Siege Tower", cat="midrange"),
                 Nav("Dragonlord Ojutai", cat="controle"),
