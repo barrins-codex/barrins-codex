@@ -103,3 +103,18 @@
     <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
 </div>
 {%- endmacro %}
+
+{% macro card_inline(name, cat="") -%}
+<div class="row col-md-3">
+    <div class="column-image me-auto ms-auto text-center">
+        <img src="{{ img_card(name) }}" alt="{{ name }}" class="col-10">
+        <h4 class="fs-6">{{ name }}</h4>
+        {% if cat != "" %}
+        <p class="center-subtitle">
+            {{ gettext('%(cat)s', cat=cat) }}
+        </p>
+        {% endif %}
+    </div>
+    <div class="clear"></div>
+</div>
+{%- endmacro %}
