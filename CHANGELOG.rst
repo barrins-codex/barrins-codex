@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - KROXA : Ajout du deck
+- CECILY-WERNOG : Ajout du deck
 
 
 9.3.0 (2022-11-27)

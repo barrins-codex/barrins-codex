@@ -1,0 +1,122 @@
+{% extends "decks/_layout_decks.html" %}
+
+### MODIFICATIONS PARTNER ###
+{% block banner_img %}
+{{ url_for('static', filename='img/split-crop/cecily-wernog.jpg') }}
+{% endblock %}
+
+{% block commander %}
+{{ deck.carousel_partner("Cecily, Haunted Mage", "Wernog, Rider's Chaplain") }}
+{% endblock %}
+
+
+### FRIENDS FOREVER ###
+{% block friendsforever %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>Un changement de nom suite à la republication des cartes exclusives</h2>
+    </div>
+</div>
+{{ deck.sld_rename('Stranger Things', 'Eleven, the Mage', 'Cecily, Haunted Mage') }}
+{{ deck.sld_rename('Stranger Things', 'Will, the Wise', 'Wernog, Rider\'s Chaplain') }}
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
+
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un deck combo quadricolore qui cherche à contrôler la partie
+    jusqu'à récupérer les pièces de la combo basée sur {{ underworldbreach }}.
+    Chaque couleur du deck permet à sa façon d'accéder à la combo et de
+    contrôler la partie.
+{% endblock %}
+{% block second_paragraph %}
+    Sans contrainte de compagnon, le deck a accès à des cartes fournissant des
+    solutions en cas de rupture de la combo : {{ shorikaigenesisengine }} ou
+    {{ sharktyphoon }} par exemple. Cette version de la combo Breach est plus
+    défensive que d'autres qui jouent davantage de cartes allant vers la combo
+    comme {{ silence }} ou même {{ paintersservant }} et {{ grindstone }}.
+{% endblock %}
+{% block third_paragraph %}
+    Il est possible de partir en combo dès que le seuil de cinq terrains est
+    atteint. Retarder la combo permet de limiter les risques d'échec de la combo
+    en essayant de récupérer des solutions à des problèmes que pourrait proposer
+    l'adversaire.
+{{ deck.partner() }}
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+{{ decklist("https://www.moxfield.com/decks/n0-MoluC4EO_2LXHGWwy7w") }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+{% endblock %}
+
+{% block combos %}
+<div class="col-12 bg-header py-4 mt-1 mb-2">
+    <div class="col-8 ms-auto me-auto">
+        <h2>La combo structurante du deck : Underworld Breach</h2>
+    </div>
+</div>
+<div class="col-8 me-auto ms-auto">
+    <div class="col-12 row d-flex flex-wrap justify-content-around mt-2">
+        <p>
+            Cette combo basée sur {{ underworldbreach }} permet de jouer en
+            boucle {{ lotuspetal }} et {{ brainfreeze }} pour accumuler
+            suffisamment de <span tabindex="0" aria-expanded="true"
+                data-tippy-content="Storm est une capacité qui crée une
+                copie du sort lorsqu'il est mis en pile pour chaque sort qui
+                a été lancé pendant ce tour.">
+                <em>Storm</em>
+            </span> et lancer le sort sur l'adversaire.
+        </p>
+        <div class="tip">
+            <h3>Départ tour cinq en utilisant {{ rainoffilth }}</h3>
+            <p>
+                Avec seulement cinq terrains qui peuvent produire
+                {{ B }}{{ B }}{{ B }}{{ B }}{{ R }} et trois cartes autres que
+                {{ demonictutor }} dans le cimetière, la boucle se déroule dans
+                cet ordre le tour après avoir joué le premier {{ demonictutor }}
+                qui récupère {{ underworldbreach }}.
+            </p>
+            <div class="d-flex flex-wrap justify-content-around">
+                {{ deck.card_inline("Demonic Tutor") }}
+                {{ deck.card_inline("Underworld Breach") }}
+                {{ deck.card_inline("Demonic Tutor") }}
+                {{ deck.card_inline("Rain of Filth") }}
+                {{ deck.card_inline("Demonic Tutor") }}
+                {{ deck.card_inline("Lotus Petal") }}
+                {{ deck.card_inline("Demonic Tutor") }}
+                {{ deck.card_inline("Brain Freeze")}}
+            </div>
+        </div>
+        <p>
+            L'enchaînement {{ lotuspetal }} > {{ lotuspetal }} >
+            {{ brainfreeze }} permet d'alimenter le storm et d'assembler des
+            moyens de protection dans le cimetière.
+        </p>
+        <p>
+            Le dernier {{ brainfreeze }} cible l'adversaire, ce qui met la
+            totalité de son deck dans son cimetière. L'adversaire perd donc
+            la partie à son étape de pioche au moment où il faut piocher une
+            carte pour le tour.
+        </p>
+    </div>
+</div>
+<div class="col-8 ms-auto me-auto">
+    <div style="clear:both;"></div>
+    <div class="w-100 border-bottom border-secondary border-opacity-50 border-2 mt-3"></div>
+</div>
+{% endblock %}
