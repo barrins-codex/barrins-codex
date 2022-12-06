@@ -1,0 +1,38 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Ghyrson est un deck agressif. Plusieurs versions du deck cohabitent et
+    explorent différents styles de jeu : du deck <em>burn</em> au deck
+    <em>tempo</em> en passant par des stratégies basées sur les jetons, etc.
+{% endblock %}
+{% block second_paragraph %}
+    La stratégie burn cherche à amasser le plus de dégâts avec le moins de
+    cartes possibles tandis qu'une version tempo cherchera à diluer les dégâts
+    et les sorts d'interaction comme {{ counterspell }} et {{ brazenborrower }}.
+{% endblock %}
+{% block third_paragraph %}
+    Le dosage de cartes reposant sur le général est difficile à trouver et
+    oscille entre dix et vingt selon les versions.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+{{ decklist("https://www.moxfield.com/decks/Vi2k4eU-EUen5jG_4TC13w") }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="06 décembre 2022") }}
+    </div>
+</div>
+{% endblock %}
