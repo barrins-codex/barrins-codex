@@ -57,11 +57,17 @@
 
 ### MATCHS ###
 {% block matchs %}
+{{ match.card2("/matchs/35-cecilywernog-vs-kroxa", "Ce match oppose deux decks dont l'objectif est de gagner la partie par un combo. Un des deux decks se veut plus proactif que l'autre et cherche l'attrition avant que l'adversaire ne puisse prendre l'avantage.") }}
 {% endblock %}
 
 
 ### PILOTES ###
 {% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.imperia86(played_on="29 novembre 2022") }}
+    </div>
+</div>
 {% endblock %}
 
 {% block combos %}
