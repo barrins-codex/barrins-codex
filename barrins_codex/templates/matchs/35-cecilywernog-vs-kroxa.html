@@ -1,0 +1,25 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+Cecily-Wernog protège sa combo par des outils de gestion qui permettent d'avoir
+une posture réactive et donc plus défensive. Kroxa, à l'opposée, propose un plan
+de jeu plus proactif et cherche à épuiser l'adversaire avant de partir en combo.
+L'affrontement se joue alors sur la capacité des deux decks à se battre avant de
+chercher à gagner la partie.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "NicolasP" %}
+{% set joueur2 = "Imperia86" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/67eiZMS81ME" %}
+{% set date = "29 novembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.nicolasp() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/kroxa-titan-of-deaths-hunger") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/cecilywernog", "img/split-crop/cecily-wernog.jpg") }}{% endblock %}
+{% block pilote2 %}{{ pilote.imperia86() }}{% endblock %}
