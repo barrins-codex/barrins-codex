@@ -9,6 +9,7 @@ Changelog
 - MATCH 35 : Ajout du match
 - RESPONSIVE : Correction du block SLD Universe Beyond
 - GHYRSON : Ajout du deck
+- NIV-MIZZET : Ajotu de la decklsit de NicolasP
 
 
 9.3.0 (2022-11-27)
