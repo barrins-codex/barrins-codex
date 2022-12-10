@@ -1,0 +1,29 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+Niv-Mizzet est un deck qui cherche à jouer le plus de bonnes cartes du format.
+Ce qui peut paraître être une qualité n'en est pas forcément une car le deck
+souffre d'un manque de synergies. Ce n'est pas le cas de Ghyrson mono rouge
+joué en face. En effet, le deck se focalise sur son plan de jeu et n'hésite pas
+à ajouter quelques cartes ayant une synergie forte avec le général. Cela permet
+d'avoir des actions parfois beaucoup plus agressives et structurées. De plus,
+des cartes comme {{ bloodmoon }} et {{ magusofthemoon }} permettent de mettre
+Niv-Mizzet encore plus en difficulté. Ce match est en faveur de Ghyrson malgré
+la présence de très bonnes cartes pouvant arrêter Ghyrson dans Niv-Mizzet.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "NicolasP" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/-abl1M9qzEI" %}
+{% set date = "6 décembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/ghyrson-starn-kelermorph") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/nivmizzet-reborn") }}{% endblock %}
+{% block pilote2 %}{{ pilote.nicolasp() }}{% endblock %}

@@ -8,6 +8,10 @@ Changelog
 - CECILY-WERNOG : Ajout du deck
 - MATCH 35 : Ajout du match
 - RESPONSIVE : Correction du block SLD Universe Beyond
+- GHYRSON : Ajout du deck
+- NIV-MIZZET : Ajotu de la decklsit de NicolasP
+- PILOTES : Ajout des liens et réordonnancement
+- MATCH 36 : Ajout du match
 
 
 9.3.0 (2022-11-27)

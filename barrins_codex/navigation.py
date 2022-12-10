@@ -98,6 +98,7 @@ STRUCTURE = Nav(
                 Nav("Elminster", cat="controle"),
                 Nav("Erinis, Gloom Stalker", cat="midrange", crop=True),
                 Nav("Esika, God of the Tree", cat="controle"),
+                Nav("Ghyrson Starn, Kelermorph", cat="agro"),
                 Nav("Grenzo, Dungeon Warden", cat="combo"),
                 Nav("Grist, the Hunger Tide", cat="midrange"),
                 Nav("Gut, True Soul Zealot", cat="agro", crop=True),
@@ -181,6 +182,7 @@ STRUCTURE = Nav(
                 Nav("33. Juri vs Wilson", cat="match"),
                 Nav("34. Grist vs Raffine", cat="match"),
                 Nav("35. Cecily-Wernog vs Kroxa", cat="match"),
+                Nav("36. Ghyrson vs Niv-Mizzet", cat="match"),
             ],
         ),
         Nav(
