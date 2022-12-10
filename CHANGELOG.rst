@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.3.1 (unreleased)
+9.4.0 (2022-12-10)
 ------------------
 
 - KROXA : Ajout du deck
