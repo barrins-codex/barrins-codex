@@ -10,6 +10,7 @@ Changelog
 - RESPONSIVE : Correction du block SLD Universe Beyond
 - GHYRSON : Ajout du deck
 - NIV-MIZZET : Ajotu de la decklsit de NicolasP
+- PILOTES : Ajout des liens et réordonnancement
 
 
 9.3.0 (2022-11-27)
