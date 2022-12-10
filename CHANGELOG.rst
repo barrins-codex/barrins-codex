@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - MATCH 36 : Ajout des liens dans les pages de deck
+- APPARENCE : Amélioration des encarts de matchs sur la page d'accueil
 
 
 9.4.0 (2022-12-10)
