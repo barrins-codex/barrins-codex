@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.4.1 (unreleased)
+9.4.1 (2022-12-10)
 ------------------
 
 - MATCH 36 : Ajout des liens dans les pages de deck
