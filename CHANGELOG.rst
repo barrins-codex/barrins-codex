@@ -4,7 +4,7 @@ Changelog
 9.4.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- INDEX : Affichage des matchs via un carousel
 
 
 9.4.1 (2022-12-10)

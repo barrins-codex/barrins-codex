@@ -26,9 +26,7 @@
     </div>
 </div>
 <article class="col-8 mx-auto row py-3 d-flex flex-wrap justify-content-around">
-    {% for item in last_matchs %}
-        {{ match.card3(item) }}
-    {% endfor %}
+    {% include "match_carousel.html" %}
     <div style="clear:both;"></div>
 </article>
 {% endblock %}
