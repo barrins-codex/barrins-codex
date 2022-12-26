@@ -13,7 +13,7 @@
         <div class="carousel-item {% if loop.index == 1 %}active{% endif %}">
             <img src="{{ url_for('static', filename=lien) }}" class="d-block w-100" alt="Match {{ all_matchs|length - loop.index0 }}">
             <div class="carousel-caption d-none d-md-block">
-                <h5>{{ match_name(item) }}</h5>
+                <h5>{{ link(item) }}</h5>
             </div>
         </div>
         {%- endfor %}

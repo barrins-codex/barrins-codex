@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - INDEX : Affichage des matchs via un carousel
+- INDEX : Ajout d'un lien dans le carousel
 
 
 9.4.1 (2022-12-10)
