@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.4.2 (unreleased)
+9.4.2 (2022-12-27)
 ------------------
 
 - INDEX : Affichage des matchs via un carousel
