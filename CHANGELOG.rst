@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.5.2 (unreleased)
+9.5.2 (2022-12-27)
 ------------------
 
 - DECKS : Correction du positionnement des pilotes
