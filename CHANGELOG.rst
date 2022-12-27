@@ -13,6 +13,7 @@ Changelog
 - STYLE : Ajout d'un constructeur de bannière
 - ANAËL : Correction de l'image
 - STYLE : Correction des classes de tip
+- LEOVOLD : Ajout de la fiche du deck
 
 
 9.4.1 (2022-12-10)
