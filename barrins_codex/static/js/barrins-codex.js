@@ -22,7 +22,6 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
     barrin.style.objectFit = "cover";
     barrin.style.objectPosition = "50% 15%";
     barrin.lockedHeight = 0;
-    barrin.style.transition = 'all .6s ease-in-out';
 
     var img_src = banner.querySelector("div.barrins-codex-banner-img");
     if (img_src && (img_src.innerText != "")) {
@@ -57,11 +56,12 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
 
 // Add downsizing for bigger banner when scrolling down
 window.addEventListener("scroll", event => {
-    if (window.scrollY >= 276/2) {
+    if (window.scrollY >= 276/3) {
         document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
             if (!banner.lockedHeight) {
                 banner.previousHeight = banner.offsetHeight;
                 banner.lockedHeight = 1;
+                banner.style.transition = 'all .6s ease-in-out';
                 banner.style.width = "100%";
                 banner.style.objectFit = "cover";
                 banner.style.objectPosition = "50% 40%";
@@ -72,6 +72,8 @@ window.addEventListener("scroll", event => {
         document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
             banner.style.height = banner.previousHeight + "px";
             banner.lockedHeight = 0;
+            banner.style.transition = 'all .6s ease-in-out';
+            banner.style.objectPosition = "50% 50%";
         });
     }
 });
