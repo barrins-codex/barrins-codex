@@ -183,6 +183,7 @@ STRUCTURE = Nav(
                 Nav("34. Grist vs Raffine", cat="match"),
                 Nav("35. Cecily-Wernog vs Kroxa", cat="match"),
                 Nav("36. Ghyrson vs Niv-Mizzet", cat="match"),
+                Nav("37. Leovold vs Yoshimaru Naya", cat="match"),
             ],
         ),
         Nav(
