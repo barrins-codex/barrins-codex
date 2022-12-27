@@ -1,0 +1,26 @@
+{% extends "matchs/_layout_matchs.html" %}
+
+### PRESENTATION ###
+{% block analyse %}
+Leovold a la particularité d'être un des meilleurs decks contrôle anti-contrôle.
+Cela vient principalement de sa capacité statique et de l'utilisation de cartes
+ayant le même effet que  {{ timetwister }} dans le but de prendre l'avantage au
+nombre de cartes en main. Ce n'est cependant pas toujours réalisable face aux
+decks agressifs, et surtout les decks très agressifs comme Yoshimaru. Ce match
+est en faveur de Yoshimaru malgré les outils de Leovold comme {{ toxicdeluge }}.
+{% endblock %}
+
+
+### JOUEURS ###
+{% set joueur1 = "Spigushe" %}
+{% set joueur2 = "Askeladden" %}
+
+### VIDEO ###
+{% set youtube = "https://www.youtube.com/embed/dOIMsBH7OHU" %}
+{% set date = "13 décembre 2022" %}
+
+### LEGENDE ###
+{% block pilote1 %}{{ pilote.spigushe() }}{% endblock %}
+{% block deck1 %}{{ deck.card("/decks/leovold-emissary-of-trest") }}{% endblock %}
+{% block deck2 %}{{ deck.card("/decks/yoshimaru-ever-faithful") }}{% endblock %}
+{% block pilote2 %}{{ pilote.askeladden() }}{% endblock %}

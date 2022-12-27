@@ -14,6 +14,7 @@ Changelog
 - ANAËL : Correction de l'image
 - STYLE : Correction des classes de tip
 - LEOVOLD : Ajout de la fiche du deck
+- MATCH 37 : Ajout de la page de match
 
 
 9.4.1 (2022-12-10)
