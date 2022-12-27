@@ -9,6 +9,7 @@ Changelog
 - YOSHIMARU : Clarification de la colorité
 - MENU : Déplacement du style dans le fichier dédié
 - STYLE : Refactoring en fichier JS
+- SQUELETTE : Nettoyage du code et des fichiers inutiles
 
 
 9.4.1 (2022-12-10)

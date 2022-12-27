@@ -102,8 +102,8 @@
 <script src="{{ url_for('static', filename='js/barrins-codex.js')}}"></script>
 
 <script>
-<!-- Displaying card images -->
-<!-- https://github.com/atomiks/tippyjs/issues/562 -->
+/* Displaying card images */
+/* https://github.com/atomiks/tippyjs/issues/562 */
 tippy('span.card-name', {
     touchHold: true,
     hideOnClick: false,
@@ -120,12 +120,12 @@ tippy('span.card-name', {
     }
 });
 
-<!-- Displaying rulings and tips in articles -->
+/* Displaying rulings and tips in articles */
 tippy('span[data-tippy-content]');
 
-<!-- Getting around dropdown triggering on click -->
-<!-- https://markdotto.com/2012/02/27/bootstrap-explained-dropdowns/ -->
-<!-- https://stackoverflow.com/a/19561886 -->
+/* Getting around dropdown triggering on click */
+/* https://markdotto.com/2012/02/27/bootstrap-explained-dropdowns/ */
+/* https://stackoverflow.com/a/19561886 */
 $('.dropdown').hover(function() {
     $(this).addClass('show');
     $(this).find('.dropdown-menu').addClass('show');
