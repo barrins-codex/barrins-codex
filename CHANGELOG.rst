@@ -11,6 +11,7 @@ Changelog
 - STYLE : Refactoring en fichier JS
 - SQUELETTE : Nettoyage du code et des fichiers inutiles
 - STYLE : Ajout d'un constructeur de bannière
+- ANAËL : Correction de l'image
 
 
 9.4.1 (2022-12-10)
