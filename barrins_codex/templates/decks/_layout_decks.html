@@ -5,13 +5,11 @@
 {% set og_image = self.banner_img() %}
 
 {% block banner %}
-<div class="banner_container col-12">
-    <img src="{% block banner_img %}{{ img_crop(carte) }}{% endblock %}"
-        alt="Bannière" class="opacity-75"
-        style="width:100%;height:276px;object-fit:cover;object-position:50% 15%;" >
-    <div class="centered">
-        <h1 class="fs-1 text-capitalize">{{ carte }}</h1>
+<div class="barrins-codex-banner">
+    <div class="barrins-codex-banner-img">
+        {% block banner_img %}{{ img_crop(carte) }}{% endblock %}
     </div>
+    {{ carte }}
 </div>
 {% endblock %}
 

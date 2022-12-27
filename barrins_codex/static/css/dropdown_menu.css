@@ -1,3 +1,12 @@
+.dropdown-submenu::after {
+    font-family: "FontAwesome";
+    font-weight: bold;
+    font-size: smaller;
+    content: "\f101";
+    margin-left: 0.5em;
+    color: grey;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 768px) {
     .dropdown-menu li {
@@ -25,7 +34,6 @@
         display: block;
     }
 }
-/* ============ desktop view .end// ============ */
 
 /* ============ small devices ============ */
 @media (max-width: 767px) {
@@ -36,4 +44,3 @@
     }
 
 }
-/* ============ small devices .end// ============ */

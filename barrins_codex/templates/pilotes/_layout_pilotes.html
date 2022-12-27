@@ -2,9 +2,8 @@
 {% set og_image = url_for('static', filename=fichier) %}
 
 {% block banner %}
-<div class="banner_container col-12">
-    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Bannière" style="width:100%;" class="opacity-75">
-    <div class="centered"><h1 class="fs-1 text-capitalize">{{ name }}</h1></div>
+<div class="barrins-codex-banner">
+    {{ name }}
 </div>
 {% endblock %}
 

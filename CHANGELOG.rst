@@ -5,6 +5,16 @@ Changelog
 ------------------
 
 - INDEX : Affichage des matchs via un carousel
+- INDEX : Ajout d'un lien dans le carousel
+- YOSHIMARU : Clarification de la colorité
+- MENU : Déplacement du style dans le fichier dédié
+- STYLE : Refactoring en fichier JS
+- SQUELETTE : Nettoyage du code et des fichiers inutiles
+- STYLE : Ajout d'un constructeur de bannière
+- ANAËL : Correction de l'image
+- STYLE : Correction des classes de tip
+- LEOVOLD : Ajout de la fiche du deck
+- MATCH 37 : Ajout de la page de match
 
 
 9.4.1 (2022-12-10)

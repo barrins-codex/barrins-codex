@@ -1,0 +1,43 @@
+{% extends "decks/_layout_decks.html" %}
+
+### PRESENTATION ###
+{% block first_paragraph %}
+    Il s'agit d'un des meilleurs decks contrôle orientés contre d'autres decks
+    contrôle ou qui cherchent à piocher le maximum de cartes, comme
+    {{ link("/decks/raffine-scheming-seer") }} ou
+    {{ link("sythis-harvests-hand")}}.
+{% endblock %}
+{% block second_paragraph %}
+    Sa capacité statique permet de réduire la quantité de cartes que
+    l'adversaire peut piocher en un tour. Cela est très efficace avec des effets
+    comme {{ daysundoing }} ou {{ diminishingreturns }}. Des doublons
+    fonctionnels de Leovold sont alors joués et parmi eux
+    {{ narsetparterofveils }} ou {{ hullbreacher }}.
+{% endblock %}
+{% block third_paragraph %}
+    Cette orientation se fait aux dépens des affrontements plus agressifs
+    lorsque les force et endurance de Leovold ne permettent pas de bloquer en
+    tuant la créature adverse.
+{% endblock %}
+
+
+### LISTES ###
+{% block liste %}
+{{ decklist("https://www.moxfield.com/decks/CsckFUG0bEu2Eok6jsKN5g") }}
+{% endblock %}
+
+
+### MATCHS ###
+{% block matchs %}
+{{ match.card2("/matchs/37-leovold-vs-yoshimaru-naya", "Un match qui oppose un Yoshimaru prétendant au groupe des meilleurs decks contre le deck qui a gagné le Relic Fest #2 de début novembre") }}
+{% endblock %}
+
+
+### PILOTES ###
+{% block pilotes %}
+<div class="row py-3 d-flex flex-wrap justify-content-around">
+    <div class="col-sm-4">
+        {{ pilote.spigushe(played_on="13 décembre 2022") }}
+    </div>
+</div>
+{% endblock %}
