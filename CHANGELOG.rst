@@ -7,6 +7,7 @@ Changelog
 - INDEX : Affichage des matchs via un carousel
 - INDEX : Ajout d'un lien dans le carousel
 - YOSHIMARU : Clarification de la colorité
+- MENU : Déplacement du style dans le fichier dédié
 
 
 9.4.1 (2022-12-10)
