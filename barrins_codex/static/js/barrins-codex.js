@@ -7,6 +7,55 @@ document.querySelectorAll(".header a").forEach((item) => {
     item.style.color = "$text-color";
 });
 
+
+
+// Barrin's Banner
+document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
+    // Banner style
+    banner.style.position = "relative";
+    banner.style.textAlign = "center";
+    banner.style.color = "black";
+    banner.classList.add("col-12");
+
+    // Barrin's image
+    var barrin = document.createElement("img");
+    barrin.alt = "Bannière";
+    barrin.style.width = "100%";
+    barrin.style.objectFit = "cover";
+    barrin.style.objectPosition = "50% 15%";
+
+    var img_src = banner.querySelector("div.barrins-codex-banner-img");
+    if (img_src && (img_src.innerText != "")) {
+        barrin.src = img_src.innerText;
+        img_src.remove();
+    } else {
+        barrin.src = "https://barrins-codex.org/static/img/banner.jpg";
+    }
+
+    // Title
+    var title = document.createElement("div");
+    var h1 = document.createElement("h1");
+    title.style.position = "absolute";
+    title.style.top = "50%";
+    title.style.left = "50%";
+    title.style.transform = "translate(-50%, -50%)";
+    title.classList.add("fs-1");
+    title.classList.add("text-capitalize");
+    title.append(h1);
+    if (banner.innerText != "") {
+        h1.innerHTML = banner.innerHTML;
+        banner.innerHTML = "";
+        // Adaptating banner's height and opacity
+        barrin.classList.add("opacity-75");
+        barrin.style.height = "276px";
+    }
+
+
+    // Insert elements to DOM
+    banner.append(barrin);
+    banner.append(title);
+});
+
 /**********
  *  BODY  *
  **********/
