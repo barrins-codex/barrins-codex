@@ -1,10 +1,10 @@
 Changelog
 =========
 
-9.5.1 (unreleased)
+9.5.1 (2022-12-27)
 ------------------
 
-- Nothing changed yet.
+- STYLE : Modification des délais de transitions
 
 
 9.5.0 (2022-12-27)
