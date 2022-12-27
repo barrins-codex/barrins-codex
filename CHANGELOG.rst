@@ -8,6 +8,7 @@ Changelog
 - INDEX : Ajout d'un lien dans le carousel
 - YOSHIMARU : Clarification de la colorité
 - MENU : Déplacement du style dans le fichier dédié
+- STYLE : Refactoring en fichier JS
 
 
 9.4.1 (2022-12-10)

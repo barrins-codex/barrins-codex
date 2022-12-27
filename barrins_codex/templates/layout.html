@@ -15,13 +15,6 @@
 <head>
     <!-- Data Crawling -->
     <meta name="robots" content="all">
-    <!-- Preload -->
-    {% block preload %}
-    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/header.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/body.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/footer.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ url_for('static', filename='css/fonts.css') }}" as="style">
-    {% endblock %}
     <!-- OG handling -->
     <meta property="og:title" content="{{ title() }}" />
     <meta name="description" content="Ressources stratégiques pour le Duel Commander">
@@ -98,11 +91,15 @@
         </p></div>
     </footer>
 </body>
+
 <!-- Bootstrap JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/popper.js@1"></script>
 <script src="https://unpkg.com/tippy.js@4"></script>
+
+<!-- JS Styling-->
+<script src="{{ url_for('static', filename='js/barrins-codex.js')}}"></script>
 
 <script>
 <!-- Displaying card images -->
