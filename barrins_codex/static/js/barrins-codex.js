@@ -80,14 +80,26 @@ document.querySelectorAll("article").forEach((article) => {
 });
 
 // Card display
-document.querySelectorAll(".card-name").forEach((item) => {
-    item.style.color = "#C05746";
-});
-document.querySelectorAll(".card-image").forEach((item) => {
-    item.style.padding = 0;
-    item.style.outline = 0;
-    item.style.maxWidth = "250px";
-});
+// Only solution is to create a new style tag to operate the styling properly
+// It may be due to a conflict with the tippy/popper instance
+var css = `.card-name {
+    color: #C05746 !important;
+}
+.card-image {
+    padding: 0;
+    outline: 0;
+    max-width: 250px;
+}`;
+var head = document.head || document.getElementsByTagName('head')[0];
+var style = document.createElement('style');
+head.appendChild(style);
+
+if (style.styleSheet){
+  // This is required for IE8 and below.
+  style.styleSheet.cssText = css;
+} else {
+  style.appendChild(document.createTextNode(css));
+}
 
 // Clear style
 document.querySelectorAll(".clear").forEach((item) => {
