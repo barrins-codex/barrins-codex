@@ -158,6 +158,13 @@ document.querySelectorAll("footer").forEach((foot) => {
         a.style.textDecoration = "none";
     });
 
+    // Text style
+    foot.querySelectorAll("p").forEach((p) => {
+        p.style.fontSize = "0.8em";
+        p.style.fontStyle = "italic";
+        p.style.marginBottom = "0";
+    });
+
     // Nav Style
     foot.querySelectorAll("nav").forEach((nav) => {
         // Icons
