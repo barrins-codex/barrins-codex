@@ -1,7 +1,7 @@
 Changelog
 =========
 
-x (unreleased)
+9.4.3 (unreleased)
 --------------
 
 - STYLE : Ajout d'une transition pour réduire les bannières de match
