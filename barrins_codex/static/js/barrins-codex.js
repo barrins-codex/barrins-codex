@@ -7,8 +7,6 @@ document.querySelectorAll(".header a").forEach((item) => {
     item.style.color = "$text-color";
 });
 
-
-
 // Barrin's Banner
 document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
     // Banner style
@@ -23,6 +21,8 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
     barrin.style.width = "100%";
     barrin.style.objectFit = "cover";
     barrin.style.objectPosition = "50% 15%";
+    barrin.lockedHeight = 0;
+    barrin.style.transition = 'all .6s ease-in-out';
 
     var img_src = banner.querySelector("div.barrins-codex-banner-img");
     if (img_src && (img_src.innerText != "")) {
@@ -50,10 +50,30 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
         barrin.style.height = "276px";
     }
 
-
     // Insert elements to DOM
     banner.append(barrin);
     banner.append(title);
+});
+
+// Add downsizing for bigger banner when scrolling down
+window.addEventListener("scroll", event => {
+    if (window.scrollY >= 276/2) {
+        document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
+            if (!banner.lockedHeight) {
+                banner.previousHeight = banner.offsetHeight;
+                banner.lockedHeight = 1;
+                banner.style.width = "100%";
+                banner.style.objectFit = "cover";
+                banner.style.objectPosition = "50% 40%";
+                banner.style.height = "276px";
+            }
+        });
+    } else if (window.scrollY <= 276/2) {
+        document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
+            banner.style.height = banner.previousHeight + "px";
+            banner.lockedHeight = 0;
+        });
+    }
 });
 
 /**********

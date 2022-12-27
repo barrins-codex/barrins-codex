@@ -4,7 +4,7 @@ Changelog
 x (unreleased)
 --------------
 
-- Nothing changed yet.
+- STYLE : Ajout d'une transition pour réduire les bannières de match
 
 
 9.4.2 (2022-12-27)
