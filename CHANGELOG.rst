@@ -4,7 +4,7 @@ Changelog
 9.5.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- DECKS : Correction du positionnement des pilotes
 
 
 9.5.1 (2022-12-27)

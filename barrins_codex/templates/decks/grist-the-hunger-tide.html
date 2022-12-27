@@ -46,18 +46,16 @@
 
 ### PILOTES ###
 {% block pilotes %}
-<div class="row py-3 d-flex flex-wrap justify-content-around">
-    <div class="col-sm-4">
-        {{ pilote.spigushe(played_on="1er mars 2022") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.imperia86(played_on="5 avril 2022") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.imperia86(played_on="7 juin 2022") }}
-    </div>
-    <div class="col-sm-4">
-        {{ pilote.askeladden(played_on="15 novembre 2022") }}
-    </div>
+<div class="col-sm-4">
+    {{ pilote.spigushe(played_on="1er mars 2022") }}
+</div>
+<div class="col-sm-4">
+    {{ pilote.imperia86(played_on="5 avril 2022") }}
+</div>
+<div class="col-sm-4">
+    {{ pilote.imperia86(played_on="7 juin 2022") }}
+</div>
+<div class="col-sm-4">
+    {{ pilote.askeladden(played_on="15 novembre 2022") }}
 </div>
 {% endblock %}
