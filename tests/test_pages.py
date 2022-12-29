@@ -1,4 +1,5 @@
 import html.parser
+
 import pytest
 import requests
 
