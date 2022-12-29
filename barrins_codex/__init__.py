@@ -189,7 +189,9 @@ def index(page=None):
     if not page:
         page = "index"
         redirect = True
-
+    if page[-5:] == ".html":
+        page = page[:-5]
+        redirect = True
     page = "/" + page
     if redirect:
         return flask.redirect(page, 301)
