@@ -23,9 +23,9 @@ class Nav:
         else:
             res = path + "/" + res
         if not self.children:
-            url = res + ".html"
+            url = res
         elif self.index:
-            url = res + "/index.html"
+            url = res + "/index"
         else:
             url = None
         return Page(self.name, res, url, self.cat, self.crop)

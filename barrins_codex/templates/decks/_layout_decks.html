@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 
-{% set page = request.path[:-5] %}
+{% set page = request.path %}
 {% set carte = deck_name(page) %}
 {% set og_image = self.banner_img() %}
 
