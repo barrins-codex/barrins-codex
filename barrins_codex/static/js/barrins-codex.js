@@ -58,7 +58,7 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
 window.addEventListener("scroll", event => {
     if (window.scrollY >= 276/3) {
         document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
-            if (!banner.lockedHeight && banner.offsetHeight != 276) {
+            if (!banner.lockedHeight) {
                 banner.previousHeight = banner.offsetHeight;
                 banner.lockedHeight = 1;
                 banner.style.transition = 'all .6s ease-in-out';
@@ -73,7 +73,7 @@ window.addEventListener("scroll", event => {
             banner.style.height = banner.previousHeight + "px";
             banner.lockedHeight = 0;
             banner.style.transition = 'all .6s ease-in-out';
-            banner.style.objectPosition = "50% 40%";
+            banner.style.objectPosition = "50% 50%";
         });
     }
 });
