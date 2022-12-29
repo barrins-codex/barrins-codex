@@ -21,7 +21,6 @@ if version[-5:] == ".dev0":  # To pass tests on commits during development
     version = version[:-1] + str(int(version[-1]) - 1)
 
 app = flask.Flask(__name__, template_folder="templates", static_folder="static")
-app.jinja_env.policies["ext.i18n.trimmed"] = True
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 config.configure_app(app)
