@@ -188,7 +188,6 @@ def index(page=None):
     redirect = False
     if not page:
         page = "index"
-        redirect = True
     if page[-5:] == ".html":
         page = page[:-5]
         redirect = True
