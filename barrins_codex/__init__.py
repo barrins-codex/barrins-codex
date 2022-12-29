@@ -224,10 +224,8 @@ def _link(page, name=None, _anchor=None, _class=None, **params):
 @app.context_processor
 def linker():
     path = flask.request.path
-    if path[-11:] == "/index":
-        path = path[:-11]
-    if path[-5:] == ".html":
-        path = path[:-5]
+    if path[-6:] == "/index":
+        path = path[:-6]
     if path[-1:] == "/":
         path = path[:-1]
 
@@ -303,7 +301,13 @@ def display_card():
         return name
 
     def card_name_from_page(name):
-        page_name = HELPER.get(name, {}).get("self").name
+        # Strange case where double-faced cards make the page reload
+        # with `name` shorten by 5.
+        page_name = (
+            HELPER.get([key for key in HELPER if key.startswith(name)][0], {})
+            .get("self")
+            .name
+        )
         if "❌" in page_name:
             page_name = page_name[2:]
         return page_name
