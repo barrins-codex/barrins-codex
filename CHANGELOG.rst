@@ -7,6 +7,7 @@ Changelog
 - URL : Suppression du ".html" en fin d'adresse
 - URL : Utilisation des liens en ".html" sans rejet 404
 - URL : N'affiche plus "index" par défaut sur l'accueil
+- BANNIERE : Correction d'un comportement indésirable
 
 
 9.5.2 (2022-12-27)
