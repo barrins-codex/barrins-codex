@@ -196,7 +196,7 @@ def index(page=None):
         return flask.redirect(page, 301)
 
     context = copy.copy(BASE_CONTEXT)
-    return flask.render_template(page + ".html", **context)
+    return render_template(page + ".html", **context)
 
 
 def _build_url(page, _anchor=None, **params):
