@@ -21,7 +21,6 @@ if version[-5:] == ".dev0":  # To pass tests on commits during development
     version = version[:-1] + str(int(version[-1]) - 1)
 
 app = flask.Flask(__name__, template_folder="templates", static_folder="static")
-app.jinja_env.policies["ext.i18n.trimmed"] = True
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 config.configure_app(app)
@@ -187,14 +186,16 @@ def commanders():
 def index(page=None):
     redirect = False
     if not page:
-        page = "index.html"
+        page = "index"
+    if page[-5:] == ".html":
+        page = page[:-5]
         redirect = True
     page = "/" + page
     if redirect:
         return flask.redirect(page, 301)
 
     context = copy.copy(BASE_CONTEXT)
-    return flask.render_template(page, **context)
+    return render_template(page + ".html", **context)
 
 
 def _build_url(page, _anchor=None, **params):
@@ -222,10 +223,8 @@ def _link(page, name=None, _anchor=None, _class=None, **params):
 @app.context_processor
 def linker():
     path = flask.request.path
-    if path[-11:] == "/index.html":
-        path = path[:-11]
-    if path[-5:] == ".html":
-        path = path[:-5]
+    if path[-6:] == "/index":
+        path = path[:-6]
     if path[-1:] == "/":
         path = path[:-1]
 
@@ -301,7 +300,13 @@ def display_card():
         return name
 
     def card_name_from_page(name):
-        page_name = HELPER.get(name, {}).get("self").name
+        # Strange case where double-faced cards make the page reload
+        # with `name` shorten by 5.
+        page_name = (
+            HELPER.get([key for key in HELPER if key.startswith(name)][0], {})
+            .get("self")
+            .name
+        )
         if "❌" in page_name:
             page_name = page_name[2:]
         return page_name

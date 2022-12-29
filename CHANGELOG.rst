@@ -4,7 +4,9 @@ Changelog
 9.5.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- URL : Suppression du ".html" en fin d'adresse
+- URL : Utilisation des liens en ".html" sans rejet 404
+- URL : N'affiche plus "index" par défaut sur l'accueil
 
 
 9.5.2 (2022-12-27)
