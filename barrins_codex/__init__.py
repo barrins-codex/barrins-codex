@@ -154,12 +154,6 @@ def sitemap():
     return response
 
 
-# Serve webfonts
-@app.route("/webfonts/<path:font>")
-def static_fonts(font=None):
-    return flask.redirect(flask.url_for("static", filename=f"fonts/{font}"))
-
-
 # Serve decklist routes
 @app.route("/decklist/")
 @app.route("/decklist/<moxfield_key>")
