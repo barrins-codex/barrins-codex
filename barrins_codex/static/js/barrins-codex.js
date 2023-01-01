@@ -64,7 +64,7 @@ window.addEventListener("scroll", event => {
                 banner.style.transition = 'all .6s ease-in-out';
                 banner.style.width = "100%";
                 banner.style.objectFit = "cover";
-                banner.style.objectPosition = "50% 40%";
+                banner.style.objectPosition = banner.style.objectPosition || "50% 40%";
                 banner.style.height = "276px";
             }
         });
@@ -73,7 +73,6 @@ window.addEventListener("scroll", event => {
             banner.style.height = banner.previousHeight + "px";
             banner.lockedHeight = 0;
             banner.style.transition = 'all .6s ease-in-out';
-            banner.style.objectPosition = "50% 40%";
         });
     }
 });

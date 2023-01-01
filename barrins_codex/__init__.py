@@ -74,9 +74,9 @@ BASE_CONTEXT = {
             10,
         )
     ),
-    "all_matchs": [
+    "all_matchs": sorted([
         page for page in HELPER if HELPER.get(page, {}).get("cat") == "match"
-    ],
+    ]),
     "num": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "0️⃣"],
 }
 

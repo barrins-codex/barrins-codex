@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
-{% macro liste(dict) %}
-    {% for item in dict %}
+{% macro liste(liste) %}
+    {% for item in liste %}
         {{ match.card3(item) }}
     {% endfor %}
 {% endmacro %}
