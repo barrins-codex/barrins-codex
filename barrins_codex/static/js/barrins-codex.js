@@ -100,6 +100,11 @@ document.querySelectorAll("article").forEach((article) => {
     article.style.flex = 1;
 });
 
+// Responsive img size in articles
+document.querySelectorAll("li img").forEach((img) => {
+    img.classList.add("col-12");
+});
+
 // Card display
 // Only solution is to create a new style tag to operate the styling properly
 // It may be due to a conflict with the tippy/popper instance

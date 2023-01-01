@@ -11,6 +11,7 @@ Changelog
 - MATCHS : Retrait de la numérotation
 - PARTENAIRES RÉCENTS : Clarification Star et colorité
 - MATCHS : Tri par ordre alphabétique dans fiche pilote
+- RESPONSIVE : Taille des images dans les articles
 
 
 9.5.2 (2022-12-27)
