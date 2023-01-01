@@ -400,7 +400,7 @@ def display_match():
         try:
             if HELPER.get(page, {}).get("self").path != "":
                 name = HELPER.get(page, {}).get("self").name
-                return name.split(" ", 1)[1]
+                return name
         except AttributeError:
             pass
         return "Barrin's Codex"
