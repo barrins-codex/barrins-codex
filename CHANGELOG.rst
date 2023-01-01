@@ -1,7 +1,7 @@
 Changelog
 =========
 
-9.5.3 (unreleased)
+9.5.3 (2023-01-01)
 ------------------
 
 - URL : Suppression du ".html" en fin d'adresse
