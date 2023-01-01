@@ -10,6 +10,7 @@ Changelog
 - BANNIERE : Correction d'un comportement indésirable
 - MATCHS : Retrait de la numérotation
 - PARTENAIRES RÉCENTS : Clarification Star et colorité
+- MATCHS : Tri par ordre alphabétique dans fiche pilote
 
 
 9.5.2 (2022-12-27)
