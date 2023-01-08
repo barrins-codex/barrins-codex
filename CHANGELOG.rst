@@ -4,7 +4,8 @@ Changelog
 9.5.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- PARTENAIRES RÉCENTS : Clarification Star et colorité (suite)
+- RESPONSIVE : Taille des images dans les bannières
 
 
 9.5.3 (2023-01-01)
