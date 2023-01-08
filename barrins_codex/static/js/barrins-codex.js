@@ -48,6 +48,9 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
         barrin.classList.add("opacity-75");
         barrin.style.height = "276px";
     }
+    if ((banner.innerText != "") || !(img_src && (img_src.innerText != ""))) {
+        barrin.style.height = "276px";
+    }
 
     // Insert elements to DOM
     banner.append(barrin);
@@ -56,26 +59,29 @@ document.querySelectorAll('div.barrins-codex-banner').forEach((banner) => {
 
 // Add downsizing for bigger banner when scrolling down
 window.addEventListener("scroll", event => {
-    if (window.scrollY >= 276/3) {
-        document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
-            if (!banner.lockedHeight && banner.offsetHeight != 276) {
-                banner.previousHeight = banner.offsetHeight;
-                banner.lockedHeight = 1;
+    if (window.matchMedia("(min-width: 600px)").matches) { // Not on phones
+        if (window.scrollY >= 276/3) {
+            document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
+                if (!banner.lockedHeight && banner.offsetHeight != 276) {
+                    banner.previousHeight = banner.offsetHeight;
+                    banner.lockedHeight = 1;
+                    banner.style.transition = 'all .6s ease-in-out';
+                    banner.style.width = "100%";
+                    banner.style.objectFit = "cover";
+                    banner.style.objectPosition = banner.style.objectPosition || "50% 40%";
+                    banner.style.height = "276px";
+                }
+            });
+        } else if (window.scrollY <= 276/2) {
+            document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
+                banner.style.height = banner.previousHeight + "px";
+                banner.lockedHeight = 0;
                 banner.style.transition = 'all .6s ease-in-out';
-                banner.style.width = "100%";
-                banner.style.objectFit = "cover";
-                banner.style.objectPosition = banner.style.objectPosition || "50% 40%";
-                banner.style.height = "276px";
-            }
-        });
-    } else if (window.scrollY <= 276/2) {
-        document.querySelectorAll('div.barrins-codex-banner img').forEach((banner) => {
-            banner.style.height = banner.previousHeight + "px";
-            banner.lockedHeight = 0;
-            banner.style.transition = 'all .6s ease-in-out';
-        });
+            });
+        }
     }
 });
+
 
 /**********
  *  BODY  *
