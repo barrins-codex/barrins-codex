@@ -1,11 +1,13 @@
 Changelog
 =========
 
-9.5.4 (unreleased)
+9.6.0 (2023-06-14)
 ------------------
 
 - PARTENAIRES RÉCENTS : Clarification Star et colorité (suite)
 - RESPONSIVE : Taille des images dans les bannières
+- BANLIST : B&R du 29 mai 2023
+- BACKEND : Change deprecated
 
 
 9.5.3 (2023-01-01)
