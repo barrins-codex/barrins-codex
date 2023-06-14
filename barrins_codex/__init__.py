@@ -11,6 +11,7 @@ import pkg_resources
 import requests
 import unidecode
 from flask import Response, make_response, render_template, request
+from markupsafe import Markup
 
 from . import card_list, config, moxfield_decklist
 from .navigation import HELPER
@@ -83,7 +84,7 @@ BASE_CONTEXT = {
 
 for card in CARDS:
     # Ajout des cartes en hover dans le contexte de base
-    BASE_CONTEXT[card] = flask.Markup(
+    BASE_CONTEXT[card] = Markup(
         """<span class="card-name" scryfallId="{scryfallId}" data-tippy-content="
 <div class='card-container'>
 <img
@@ -98,7 +99,7 @@ for card in CARDS:
         )
     )
     # Ajout des cartes img dans le contexte de base
-    BASE_CONTEXT["img_" + card] = flask.Markup(
+    BASE_CONTEXT["img_" + card] = Markup(
         """
 <img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
     alt="{name}" class="col-md-3 float-md-end mx-md-1" max-width="100%"
@@ -217,7 +218,7 @@ def _link(page, name=None, _anchor=None, _class=None, **params):
         _class = f"class='{_class}'"
     else:
         _class = "class='text-reset'"
-    return flask.Markup(f'<a {_class} href="{url}">{name}</a>')
+    return Markup(f'<a {_class} href="{url}">{name}</a>')
 
 
 @app.context_processor
@@ -256,7 +257,7 @@ def linker():
             _class = f"class='{_class}'"
         else:
             _class = "class='text-reset text-decoration-underline'"
-        return flask.Markup(
+        return Markup(
             f'<a {_class} target="_blank" rel="noreferrer" href="{url}">{name}</a>'
         )
 
@@ -335,7 +336,7 @@ def display_card():
         return f"https://api.scryfall.com/cards/{card['id']}?{query}"
 
     def card_link(name, phrase=None):
-        return flask.Markup(
+        return Markup(
             """
 <img src="https://api.scryfall.com/cards/{scryfallId}?{query}"
     alt="{name}" class="col-md-3 float-md-end mx-md-1" max-width="100%"
@@ -348,7 +349,7 @@ def display_card():
         )
 
     def card_hover(name, phrase=None):
-        return flask.Markup(
+        return Markup(
             """<span class="card-name" scryfallId="{scryfallId}" data-tippy-content="
 <div class='card-container'>
 <img
@@ -364,7 +365,7 @@ def display_card():
         )
 
     def card_crop(name, phrase=None, className=None):
-        return flask.Markup(
+        return Markup(
             """<img src="{crop}" alt="{name}" loading="lazy" {className} />""".format(
                 # replace spaces with non-breakable spaces in card names
                 name=phrase or CARDS[_name(name)]["name"].replace(" ", " "),
@@ -374,7 +375,7 @@ def display_card():
         )
 
     def card_full(name, phrase=None, className=None):
-        return flask.Markup(
+        return Markup(
             """<img src="{full}" alt="{name}" loading="lazy" {className} />""".format(
                 # replace spaces with non-breakable spaces in card names
                 name=phrase or CARDS[_name(name)]["name"].replace(" ", " "),
@@ -441,7 +442,7 @@ def players():
 @app.context_processor
 def decklist_processor():
     def decklist(url, name=None, outline=False):
-        return flask.Markup(
+        return Markup(
             """
 <div class="col-12 d-flex flew-row mt-4 me-1">
     <a class="btn {btn}-secondary decklist col-10" role="button" target="_blank"
